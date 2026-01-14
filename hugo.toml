@@ -1,0 +1,40 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'The Future Is Solo (TFIS)'
+theme = 'ananke'
+
+[params]
+  description = "How AI and Automation Empower Individuals and Transform Business"
+  author = "TFIS Research"
+  favicon = ""
+  site_logo = ""
+  omit_footer = false
+  background_color_class = "bg-white"
+  recent_posts_number = 3
+  custom_css = ["/css/custom.css"]
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
+  [[menu.main]]
+    name = "Research"
+    url = "/research/"
+    weight = 3
+  [[menu.main]]
+    name = "Case Studies"
+    url = "/case-studies/"
+    weight = 4
+  [[menu.main]]
+    name = "Blog"
+    url = "/blog/"
+    weight = 5
+  [[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 6

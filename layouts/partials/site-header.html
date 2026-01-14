@@ -1,0 +1,48 @@
+<header class="site-header">
+  <nav>
+    <div class="site-brand">
+      <a href="{{ .Site.BaseURL }}" class="site-title">
+        <img src="/images/tfis_logo.png" alt="TFIS Logo" class="site-logo">
+        <div class="brand-text">
+          <span class="site-name">TFIS</span>
+          <p class="site-tagline">The Future Is Solo</p>
+        </div>
+      </a>
+    </div>
+    
+    <div class="nav-menu">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about/">About</a></li>
+        <li><a href="/research/">Research</a></li>
+        <li><a href="/case-studies/">Case Studies</a></li>
+        <li><a href="/blog/">Blog</a></li>
+        <li><a href="/contact/" class="contact-btn">Contact</a></li>
+      </ul>
+    </div>
+    
+    <button class="mobile-menu-button" onclick="toggleMobileMenu()">
+      <svg width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+      </svg>
+    </button>
+    
+    <div id="mobile-menu" class="mobile-nav hidden">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about/">About</a></li>
+        <li><a href="/research/">Research</a></li>
+        <li><a href="/case-studies/">Case Studies</a></li>
+        <li><a href="/blog/">Blog</a></li>
+        <li><a href="/contact/">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<script>
+function toggleMobileMenu() {
+  const mobileMenu = document.getElementById('mobile-menu');
+  mobileMenu.classList.toggle('hidden');
+}
+</script>

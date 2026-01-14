@@ -1,0 +1,286 @@
+/* Modern minimalist design for TFIS website */
+
+:root {
+  --primary-color: #1a1a1a;
+  --secondary-color: #6b7280;
+  --accent-color: #3b82f6;
+  --background-color: #ffffff;
+  --text-color: #111827;
+  --border-color: #e5e7eb;
+  --hover-color: #f3f4f6;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  line-height: 1.7;
+  color: var(--text-color);
+  background-color: var(--background-color);
+  margin: 0;
+  padding: 0;
+  text-align: left !important;
+}
+
+/* Typography improvements */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  line-height: 1.25;
+  margin-bottom: 1rem;
+  color: var(--primary-color);
+  text-align: left !important;
+}
+
+h1 {
+  font-size: 2.25rem;
+  margin-bottom: 1.5rem;
+}
+
+h2 {
+  font-size: 1.875rem;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid var(--border-color);
+  padding-bottom: 0.5rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+}
+
+/* Layout improvements */
+.main-wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  min-height: 100vh;
+}
+
+/* Professional content layout */
+.content, .post-content, .article-content, main {
+  max-width: 900px !important;
+  margin: 0 auto !important;
+  padding: 2rem 1rem !important;
+  text-align: left !important;
+}
+
+/* Better paragraph spacing and alignment */
+p, .content p, .post-content p {
+  text-align: justify !important;
+  text-justify: inter-word;
+  margin-bottom: 1.25rem;
+  line-height: 1.7;
+  max-width: 100%;
+}
+
+/* Content styling */
+.content {
+  margin-bottom: 3rem;
+}
+
+/* Table improvements */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2rem 0;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 1rem;
+  text-align: left !important;
+  border-bottom: 1px solid var(--border-color);
+  vertical-align: top;
+}
+
+th {
+  background-color: var(--hover-color);
+  font-weight: 600;
+  color: var(--primary-color);
+  text-align: left !important;
+}
+
+/* First column styling for tables */
+td:first-child, th:first-child {
+  font-weight: 600;
+  width: 30%;
+}
+
+/* Second column for content */
+td:nth-child(2), th:nth-child(2) {
+  width: 70%;
+}
+
+tr:hover {
+  background-color: rgba(59, 130, 246, 0.05);
+}
+
+/* Links */
+a {
+  color: var(--accent-color);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s ease;
+}
+
+a:hover {
+  border-bottom-color: var(--accent-color);
+}
+
+/* Lists */
+ul, ol {
+  margin: 1rem 0;
+  padding-left: 1.5rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+/* Code blocks */
+code {
+  background-color: var(--hover-color);
+  padding: 0.125rem 0.25rem;
+  border-radius: 4px;
+  font-size: 0.875rem;
+}
+
+pre {
+  background-color: var(--hover-color);
+  padding: 1rem;
+  border-radius: 8px;
+  overflow-x: auto;
+  margin: 1.5rem 0;
+}
+
+/* Blockquotes */
+blockquote {
+  border-left: 4px solid var(--accent-color);
+  padding-left: 1rem;
+  margin: 1.5rem 0;
+  font-style: italic;
+  color: var(--secondary-color);
+}
+
+/* Strong text */
+strong {
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .main-wrapper {
+    padding: 1rem;
+  }
+  
+  h1 {
+    font-size: 1.875rem;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+  }
+  
+  table {
+    font-size: 0.875rem;
+  }
+  
+  th, td {
+    padding: 0.75rem 0.5rem;
+  }
+}
+
+/* Override theme centering and ensure left alignment */
+.main, main, .content, .post-content, .article-content, 
+.container, .wrapper, section, article, div, p, ul, ol, li {
+  text-align: left !important;
+}
+
+/* Paragraph styling for better readability */
+p {
+  margin-bottom: 1.25rem;
+  max-width: none;
+  text-align: left !important;
+  line-height: 1.7;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Focus styles for accessibility */
+a:focus, button:focus {
+  outline: 2px solid var(--accent-color);
+  outline-offset: 2px;
+}
+
+/* Header navigation (if added) */
+.site-header {
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--border-color);
+  margin-bottom: 2rem;
+}
+
+.site-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+/* Footer */
+.site-footer {
+  margin-top: 4rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--border-color);
+  color: var(--secondary-color);
+  text-align: center;
+  font-size: 0.875rem;
+}
+
+/* Additional professional styling overrides */
+.nested-copy-line-height, .f4, .f5, .f6 {
+  line-height: 1.7 !important;
+}
+
+/* Ensure all theme containers use left alignment */
+.mw7, .center, .ph3, .ph4 {
+  text-align: left !important;
+}
+
+/* Professional font sizing for body text */
+.nested-copy-line-height {
+  font-size: 1rem !important;
+  text-align: left !important;
+}
+
+/* List improvements */
+ul, ol {
+  padding-left: 1.5rem;
+  text-align: left !important;
+}
+
+li {
+  text-align: left !important;
+  margin-bottom: 0.5rem;
+}
+
+/* Header improvements */
+header, .site-header {
+  text-align: left !important;
+  padding: 1rem 0;
+}
+
+/* Make sure the main content area is properly styled */
+.w-100, .mw-100 {
+  max-width: 900px !important;
+  margin: 0 auto !important;
+  text-align: left !important;
+}

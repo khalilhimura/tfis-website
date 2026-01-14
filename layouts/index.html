@@ -1,0 +1,26 @@
+{{ define "main" }}
+<!-- Hero Section -->
+<section class="hero-section">
+  <div class="hero-content">
+    <div class="hero-text">
+      <h1 class="hero-title">The Future Is Solo</h1>
+      <p class="hero-subtitle">How AI and automation are empowering individuals to build billion-dollar businesses without traditional teams</p>
+      <div class="hero-cta">
+        <a href="/research/" class="cta-button primary">Explore Research</a>
+        <a href="/case-studies/" class="cta-button secondary">View Case Studies</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Main Content -->
+<div class="main-content">
+  <div class="content-wrapper">
+    <article class="home-page">
+      <div class="post-content">
+        {{ .Content }}
+      </div>
+    </article>
+  </div>
+</div>
+{{ end }}
