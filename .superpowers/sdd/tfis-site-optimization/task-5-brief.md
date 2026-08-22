@@ -170,6 +170,27 @@ document.addEventListener('DOMContentLoaded', () => {
 
 Note: `initPhilToggle` is removed; `initPhilFilter` replaces it.
 
+### 8. Add UTM link map for dynamic CTAs
+
+Inside `initAssessment`, after the `ASSESS_TTL` constant lines, add:
+```js
+const TFIS_LINKS = {
+  whitepaper: 'https://mesolitica.thinkific.com/products/digital_downloads/tfis-whitepaper?utm_source=tfis&utm_medium=site&utm_campaign=ssa-assessment&utm_content=whitepaper',
+  course: 'https://mesolitica.thinkific.com?utm_source=tfis&utm_medium=site&utm_campaign=ssa-assessment&utm_content=course',
+};
+```
+
+### 9. Update dynamic CTA links in showResultForLevel
+
+In `showResultForLevel`, after the CTA card visibility logic (where `cards.style.gridTemplateColumns` is set), add:
+```js
+// Update CTA links with UTM tracking
+document.querySelectorAll('.cta-card .btn').forEach(btn => {
+  if (btn.getAttribute('href')?.includes('whitepaper')) btn.href = TFIS_LINKS.whitepaper;
+  else if (btn.textContent?.includes('Course')) btn.href = TFIS_LINKS.course;
+});
+```
+
 ## Verification
 1. Read the final file — confirm no `export` keywords remain
 2. All `window.*` globals intact (selectLevel, startAssessment, nextQuestion, prevQuestion, selectOpt, resetAssessment, scrollToSection, toggleArch, closeNav)

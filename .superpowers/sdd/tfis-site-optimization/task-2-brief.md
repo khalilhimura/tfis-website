@@ -6,7 +6,7 @@
 
 ## Changes (in order)
 
-**Ruling from Task 1:** Font files are TTF format (not woff2) because Google Fonts returns HTML bot blocks for direct woff2 downloads. Use `format('truetype')` and `.ttf` extension in the `@font-face` URLs.
+**Note from Task 1:** Font files are woff2 format (the subagent resolved this by downloading TTF from Google Fonts and converting via woff2_compress). Use `format('woff2')` and `.woff2` extension in the `@font-face` URLs. Actual file paths: `fonts/Inter-Regular.woff2`, `fonts/Inter-SemiBold.woff2`, `fonts/JetBrainsMono-Medium.woff2`. All valid woff2.
 
 ### 1. Add @font-face blocks at the very top (before `:root`)
 
@@ -18,21 +18,21 @@ After the comment header block (lines 1-4) and before line 7 (`:root`), insert:
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
-  src: url('fonts/Inter-Regular.ttf') format('truetype');
+  src: url('fonts/Inter-Regular.woff2') format('woff2');
   font-display: swap;
 }
 @font-face {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 600;
-  src: url('fonts/Inter-SemiBold.ttf') format('truetype');
+  src: url('fonts/Inter-SemiBold.woff2') format('woff2');
   font-display: swap;
 }
 @font-face {
   font-family: 'JetBrains Mono';
   font-style: normal;
   font-weight: 500;
-  src: url('fonts/JetBrainsMono-Medium.ttf') format('truetype');
+  src: url('fonts/JetBrainsMono-Medium.woff2') format('woff2');
   font-display: swap;
 }
 ```
