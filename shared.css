@@ -371,3 +371,20 @@ footer .f-cta a:hover{border-color:var(--accent);color:var(--accent)}
 .phil-search input{width:100%;padding:10px 14px;font-family:var(--sans);font-size:.85rem;border:1px solid var(--g200);border-radius:4px;outline:none;transition:border-color .2s;color:var(--g900)}
 .phil-search input:focus{border-color:var(--accent)}
 .phil-search input::placeholder{color:var(--g400)}
+
+/* ─── PRINT ─── */
+@media print {
+  nav, footer, .skip-link, .section-tracker, .cta-block, .cta-cards { display:none!important }
+  body { padding-top:0!important; font-size:12pt; color:#000; background:#fff }
+  .container { max-width:100%; padding:0 }
+  a { color:#000; text-decoration:underline }
+  h2, h3 { page-break-after:avoid }
+  p, li { orphans:3; widows:3 }
+}
+
+/* ─── SUBSCRIBE FORM ─── */
+.subscribe-form{margin:20px 0}
+.subscribe-label{font-family:var(--mono);font-size:.62rem;text-transform:uppercase;letter-spacing:.06em;color:var(--g500);display:block;margin-bottom:6px}
+.subscribe-row{display:flex;gap:8px;max-width:340px}
+.subscribe-input{flex:1;padding:10px 14px;font-family:var(--sans);font-size:.82rem;border:1px solid var(--g200);border-radius:3px;outline:none;color:var(--g900);background:var(--white)}
+.subscribe-input:focus{border-color:var(--accent)}
