@@ -12,4 +12,15 @@ const writing = defineCollection({
   }),
 });
 
-export const collections = { writing };
+const philosophers = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './src/content/philosophers' }),
+  schema: z.object({
+    title: z.string(),
+    philosopher: z.string(),
+    summary: z.string(),
+    era: z.string(),
+    draft: z.boolean().default(false),
+  }),
+});
+
+export const collections = { writing, philosophers };
