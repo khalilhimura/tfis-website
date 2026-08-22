@@ -25,11 +25,15 @@ const { data } = entry;
       </p>
       <h2>{data.philosopher}</h2>
       <p class="muted" style="margin-bottom:4px;font-size:.8rem">{data.era}</p>
-      <p style="font-size:.9rem;color:var(--g600);margin-bottom:24px;font-style:italic">{data.summary}</p>
+      <p style="font-size:.92rem;color:var(--g600);margin-bottom:28px;font-style:italic;max-width:52ch">{data.summary}</p>
+    </div>
+  </article>
+  <section class="philosopher-content">
+    <div class="container">
       <Fragment set:html={renderedContent} />
-      <div style="margin-top:36px;padding-top:20px;border-top:1px solid var(--g200)">
+      <div style="margin-top:40px;padding-top:24px;border-top:1px solid var(--g200)">
         <a href="/philosophers/" class="btn btn--ghost btn--small">← Back to all philosophers</a>
       </div>
     </div>
-  </article>
+  </section>
 </BaseLayout>
