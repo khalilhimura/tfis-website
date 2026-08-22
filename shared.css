@@ -1,6 +1,6 @@
 /* ═══════════════════════════════════════════════════════════════════
    TFIS · Shared Design System
-   = 2 fonts · 2 weights · 1 accent · white mode only
+   = 2 fonts · 2 weights · 1 accent · dark/light mode
    Edit tokens here — changes propagate to all pages.
    ═══════════════════════════════════════════════════════════════════ */
 
@@ -70,6 +70,41 @@
   --lh-body: 1.65;
   --lh-tight: 1.25;
 }
+
+/* ─── DARK THEME ─── */
+[data-theme="dark"] {
+  --accent-light:#2a1a10;
+  --g100: #1a1a1a;
+  --g200: #2a2a2a;
+  --g300: #444;
+  --g400: #888;
+  --g500: #999;
+  --g600: #bbb;
+  --g800: #ddd;
+  --g900: #eee;
+  --black:#eee;
+  --white:#111;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --accent-light:#2a1a10;
+    --g100: #1a1a1a;
+    --g200: #2a2a2a;
+    --g300: #444;
+    --g400: #888;
+    --g500: #999;
+    --g600: #bbb;
+    --g800: #ddd;
+    --g900: #eee;
+    --black:#eee;
+    --white:#111;
+  }
+}
+
+/* ─── THEME TOGGLE ─── */
+.theme-toggle{background:none;border:none;cursor:pointer;padding:6px;font-size:1rem;line-height:1;color:var(--g500);transition:color .2s;display:inline-flex;align-items:center}
+.theme-toggle:hover{color:var(--accent)}
+@media(max-width:640px){.theme-toggle{display:block}}
 
 /* ─── RESET ─── */
 *,*::before,*::after{margin:0;padding:0;box-sizing:border-box}

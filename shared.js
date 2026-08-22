@@ -3,6 +3,28 @@
    Reusable across all pages — nav, scroll effects, assessment, toggles
    ═══════════════════════════════════════════════════════════════════ */
 
+// ─── Theme (dark/light mode) ───
+function initTheme() {
+  const stored = localStorage.getItem('tfis-theme');
+  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const theme = stored || (prefersDark ? 'dark' : 'light');
+  document.documentElement.setAttribute('data-theme', theme);
+  updateThemeToggle(theme);
+}
+
+function toggleTheme() {
+  const current = document.documentElement.getAttribute('data-theme');
+  const next = current === 'dark' ? 'light' : 'dark';
+  document.documentElement.setAttribute('data-theme', next);
+  localStorage.setItem('tfis-theme', next);
+  updateThemeToggle(next);
+}
+
+function updateThemeToggle(theme) {
+  const btn = document.getElementById('themeToggle');
+  if (btn) btn.textContent = theme === 'dark' ? '☀️' : '🌙';
+}
+
 // ─── Nav scroll effect ───
 function initNavScroll() {
   const nav = document.getElementById('topNav');
@@ -372,6 +394,7 @@ function initSectionTracker() {
 
 // ─── Init all on DOM ready ───
 document.addEventListener('DOMContentLoaded', () => {
+  initTheme();
   initNavScroll();
   initMobileNav();
   initScrollTo();
@@ -380,4 +403,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initPhilFilter();
   initAssessment();
   initSectionTracker();
+  // Theme toggle click handler
+  const themeBtn = document.getElementById('themeToggle');
+  if (themeBtn) themeBtn.addEventListener('click', toggleTheme);
 });
