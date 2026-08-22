@@ -163,6 +163,13 @@ section p{font-size:.92rem;color:var(--g800);margin-bottom:18px;max-width:62ch}
 section p:last-child{margin-bottom:0}
 .muted{color:var(--g500);font-size:var(--fs-small)}
 
+/* ─── PHILOSOPHER HERO ─── */
+.philosopher-hero{padding:120px 0 60px}
+.philosopher-hero h1{font-size:var(--fs-h1);font-weight:var(--w-bold);letter-spacing:-.045em;line-height:.92;margin-bottom:12px}
+.philosopher-hero h1 em{font-style:normal;color:var(--accent)}
+.philosopher-era{font-family:var(--mono);font-size:.72rem;color:var(--g400);margin-bottom:16px}
+.philosopher-summary{font-size:1.05rem;color:var(--g600);line-height:1.7;max-width:58ch;margin-bottom:0}
+
 /* ─── MARKDOWN CONTENT (philosopher pages) ─── */
 .philosopher-content h2{font-size:var(--fs-h2);font-weight:var(--w-bold);letter-spacing:-.025em;line-height:var(--lh-tight);margin-bottom:20px;margin-top:48px}
 .philosopher-content h2:first-of-type{margin-top:0}

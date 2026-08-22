@@ -18,16 +18,16 @@ const { data } = entry;
 ---
 
 <BaseLayout title={`${data.philosopher} · TFIS`} description={data.summary} page="philosophers" ogType="article" ogTitle={`${data.philosopher} on the Meaning of Life`} ogDescription={data.summary}>
-  <article>
+  <section class="philosopher-hero">
     <div class="container">
       <p class="num-stamp">
         <a href="/philosophers/" style="color:var(--g400);text-decoration:none">← All Philosophers</a>
       </p>
-      <h2>{data.philosopher}</h2>
-      <p class="muted" style="margin-bottom:4px;font-size:.8rem">{data.era}</p>
-      <p style="font-size:.92rem;color:var(--g600);margin-bottom:28px;font-style:italic;max-width:52ch">{data.summary}</p>
+      <h1>{data.philosopher}</h1>
+      <p class="philosopher-era">{data.era}</p>
+      <p class="philosopher-summary">{data.summary}</p>
     </div>
-  </article>
+  </section>
   <section class="philosopher-content">
     <div class="container">
       <Fragment set:html={renderedContent} />
