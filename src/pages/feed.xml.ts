@@ -9,7 +9,7 @@ export async function GET() {
     title: post.data.title,
     pubDate: post.data.pubDate,
     description: post.data.description,
-    link: `/writing/${post.slug}/`,
+    link: `/writing/${post.id}/`,
   }));
 
   // Include static pages as entries too
