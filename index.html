@@ -5,12 +5,15 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="The Future Is Solo — a framework for intellectual sovereignty in the agentic AI era. Assess your SSA-CMM level and find your path.">
 <title>The Future Is Solo</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<meta property="og:title" content="The Future Is Solo">
+<meta property="og:description" content="A framework for intellectual sovereignty in the agentic AI era. Assess your SSA-CMM level and find your path.">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="stylesheet" href="shared.css">
 </head>
-<body>
+<body data-page="home">
+<a href="#main-content" class="skip-link">Skip to main content</a>
 
 <nav id="topNav">
   <a href="/" class="logo"><em>TFIS</em></a>
@@ -18,7 +21,7 @@
     <a href="#" onclick="scrollToSection('ladder');return false" style="color:var(--accent)">Assess Your Level</a>
     <a href="functional-life.html">Functional Life</a>
     <a href="meaning-of-life.html">Meaning of Life</a>
-    <a href="https://mesolitica.thinkific.com/products/digital_downloads/tfis-whitepaper" target="_blank" rel="noopener" class="nav-btn">Whitepaper →</a>
+    <a href="https://mesolitica.thinkific.com/products/digital_downloads/tfis-whitepaper?utm_source=tfis&amp;utm_medium=site&amp;utm_campaign=ssa-assessment&amp;utm_content=whitepaper" target="_blank" rel="noopener" class="nav-btn">Whitepaper →</a>
     <button class="nav-toggle" id="navToggle" aria-label="Menu">☰</button>
   </div>
 </nav>
@@ -27,10 +30,10 @@
   <a href="#" onclick="closeNav();scrollToSection('ladder');return false">Assess Your Level</a>
   <a href="functional-life.html">The Functional Life</a>
   <a href="meaning-of-life.html">The Meaning of Life</a>
-  <a href="https://mesolitica.thinkific.com/products/digital_downloads/tfis-whitepaper" target="_blank" rel="noopener">Download Whitepaper →</a>
+  <a href="https://mesolitica.thinkific.com/products/digital_downloads/tfis-whitepaper?utm_source=tfis&amp;utm_medium=site&amp;utm_campaign=ssa-assessment&amp;utm_content=whitepaper" target="_blank" rel="noopener">Download Whitepaper →</a>
 </div>
 
-<main>
+<main id="main-content">
 
 <!-- ═══════ HERO ═══════ -->
 <section class="hero">
@@ -44,7 +47,7 @@ context engineering, and disciplined execution. The individual becomes the new e
     <div class="btn-group">
       <a href="#" onclick="scrollToSection('ladder');return false" class="btn btn--accent">Assess Your AI Maturity →</a>
       <a href="meaning-of-life.html" class="btn btn--ghost">Read the Essay →</a>
-      <a href="https://mesolitica.thinkific.com/products/digital_downloads/tfis-whitepaper" target="_blank" rel="noopener" class="btn btn--ghost">Whitepaper ↗</a>
+      <a href="https://mesolitica.thinkific.com/products/digital_downloads/tfis-whitepaper?utm_source=tfis&amp;utm_medium=site&amp;utm_campaign=ssa-assessment&amp;utm_content=whitepaper" target="_blank" rel="noopener" class="btn btn--ghost">Whitepaper ↗</a>
     </div>
     <p class="hero-cta-line">
 Where do you stand? <a href="#" onclick="scrollToSection('ladder');return false">Take the 30-second SSA self-assessment</a> to find your level and your next step.
@@ -136,13 +139,13 @@ It's not what AI you use — it's how much of your <strong>judgment survives con
           <span class="phase">Foundation Phase</span>
           <h4>TFIS AI Fluency Course</h4>
           <p>You're doing the work yourself. Learn to delegate to AI systematically — prompts, workflows, and your first autonomous agent.</p>
-          <a href="https://mesolitica.thinkific.com" target="_blank" rel="noopener" class="btn btn--accent btn--small">Start the Course →</a>
+          <a href="https://mesolitica.thinkific.com?utm_source=tfis&amp;utm_medium=site&amp;utm_campaign=ssa-assessment&amp;utm_content=course" target="_blank" rel="noopener" class="btn btn--accent btn--small">Start the Course →</a>
         </div>
         <div class="cta-card highlight" id="ctaArchitect">
           <span class="phase">Architect Phase</span>
           <h4>SSA Whitepaper</h4>
           <p>You're already orchestrating systems. Formalise your approach — deep architecture, loop engineering, and sovereign infrastructure.</p>
-          <a href="https://mesolitica.thinkific.com/products/digital_downloads/tfis-whitepaper" target="_blank" rel="noopener" class="btn btn--accent btn--small">Download Whitepaper ↗</a>
+          <a href="https://mesolitica.thinkific.com/products/digital_downloads/tfis-whitepaper?utm_source=tfis&amp;utm_medium=site&amp;utm_campaign=ssa-assessment&amp;utm_content=whitepaper" target="_blank" rel="noopener" class="btn btn--accent btn--small">Download Whitepaper ↗</a>
         </div>
       </div>
 
@@ -249,6 +252,11 @@ It's not what AI you use — it's how much of your <strong>judgment survives con
   </div>
 </section>
 
+  <nav class="section-tracker" id="sectionTracker" aria-label="Section navigation">
+    <a href="#thesis" aria-label="The Problem" data-section="thesis"></a>
+    <a href="#ladder" aria-label="SSA-CMM Assessment" data-section="ladder"></a>
+    <a href="#pillars" aria-label="The Framework" data-section="pillars"></a>
+  </nav>
 </main>
 
 <footer>
@@ -266,9 +274,9 @@ It's not what AI you use — it's how much of your <strong>judgment survives con
     <div class="f-cta">
       <a href="#" onclick="scrollToSection('ladder');return false">Assess your SSA Level</a>
       <span style="margin:0 8px">·</span>
-      <a href="https://mesolitica.thinkific.com/products/digital_downloads/tfis-whitepaper" target="_blank" rel="noopener">Download Whitepaper ↗</a>
+      <a href="https://mesolitica.thinkific.com/products/digital_downloads/tfis-whitepaper?utm_source=tfis&amp;utm_medium=site&amp;utm_campaign=ssa-assessment&amp;utm_content=whitepaper" target="_blank" rel="noopener">Download Whitepaper ↗</a>
       <span style="margin:0 8px">·</span>
-      <a href="https://mesolitica.thinkific.com" target="_blank" rel="noopener">AI Fluency Course ↗</a>
+      <a href="https://mesolitica.thinkific.com?utm_source=tfis&amp;utm_medium=site&amp;utm_campaign=ssa-assessment&amp;utm_content=course" target="_blank" rel="noopener">AI Fluency Course ↗</a>
     </div>
   </div>
 </footer>
