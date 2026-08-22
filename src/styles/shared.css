@@ -332,7 +332,8 @@ section p:last-child{margin-bottom:0}
 /* ─── PHILOSOPHER APPENDIX ─── */
 .phil-top{margin:20px 0;display:grid;grid-template-columns:1fr 1fr;gap:10px}
 @media(max-width:640px){.phil-top{grid-template-columns:1fr}}
-.phil-item{font-size:.76rem;color:var(--g600);padding:7px 0;border-bottom:1px solid var(--g100);display:flex;gap:8px}
+.phil-item{font-size:.76rem;color:var(--g600);padding:7px 0;border-bottom:1px solid var(--g100);display:flex;gap:8px;cursor:pointer;transition:background .15s}
+.phil-item:hover{background:var(--g100);margin:0 -8px;padding:7px 8px;border-radius:3px}
 .phil-item .name{font-weight:var(--w-bold);color:var(--g800);flex:none}
 .phil-item .summary{color:var(--g500)}
 .phil-toggle{font-family:var(--mono);font-weight:var(--w-label);font-size:.58rem;text-transform:uppercase;letter-spacing:.06em;color:var(--accent);cursor:pointer;border:none;background:none;padding:10px 0;display:inline-block;transition:opacity .2s}

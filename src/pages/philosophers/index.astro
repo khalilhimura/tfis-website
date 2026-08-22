@@ -1,0 +1,38 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const entries = await getCollection('philosophers', ({ data }) => !data.draft);
+const philosophers = entries.map(e => ({
+  id: e.id,
+  name: e.data.philosopher,
+  summary: e.data.summary,
+}));
+---
+
+<BaseLayout title="The Philosophers · TFIS" description="50 philosophers, 2,500 years of answers on the meaning of life — the full appendix to the TFIS essay." page="philosophers">
+  <section>
+    <div class="container">
+      <p class="num-stamp">Appendix</p>
+      <h2>50 Philosophers on the <em>Meaning of Life</em></h2>
+      <p class="muted" style="margin-bottom:12px">2,500 years of answers. Filter by name. Click a philosopher to read their full essay.</p>
+
+      <div class="phil-search">
+        <input type="text" id="philFilter" placeholder="Search philosophers..." autocomplete="off">
+      </div>
+
+      <div class="phil-all show" id="philList">
+        {philosophers.map(p => (
+          <a href={`/philosophers/${p.id}/`} class="phil-item" style="text-decoration:none">
+            <span class="name">{p.name}</span>
+            <span class="summary">{p.summary}</span>
+          </a>
+        ))}
+      </div>
+
+      <p class="muted" style="margin-top:12px;font-size:.73rem">
+        <a href="/meaning-of-life.html" style="color:var(--g500)">← Back to the essay</a>
+      </p>
+    </div>
+  </section>
+</BaseLayout>

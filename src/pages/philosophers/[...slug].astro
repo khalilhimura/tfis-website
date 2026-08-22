@@ -1,0 +1,35 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+export const prerender = true;
+
+export async function getStaticPaths() {
+  const philosophers = await getCollection('philosophers', ({ data }) => !data.draft);
+  return philosophers.map(p => ({
+    params: { slug: p.id },
+    props: { entry: p },
+  }));
+}
+
+const { entry } = Astro.props;
+const renderedContent = entry.rendered?.html || entry.body || '';
+const { data } = entry;
+---
+
+<BaseLayout title={`${data.philosopher} · TFIS`} description={data.summary} page="philosophers" ogType="article" ogTitle={`${data.philosopher} on the Meaning of Life`} ogDescription={data.summary}>
+  <article>
+    <div class="container">
+      <p class="num-stamp">
+        <a href="/philosophers/" style="color:var(--g400);text-decoration:none">← All Philosophers</a>
+      </p>
+      <h2>{data.philosopher}</h2>
+      <p class="muted" style="margin-bottom:4px;font-size:.8rem">{data.era}</p>
+      <p style="font-size:.9rem;color:var(--g600);margin-bottom:24px;font-style:italic">{data.summary}</p>
+      <Fragment set:html={renderedContent} />
+      <div style="margin-top:36px;padding-top:20px;border-top:1px solid var(--g200)">
+        <a href="/philosophers/" class="btn btn--ghost btn--small">← Back to all philosophers</a>
+      </div>
+    </div>
+  </article>
+</BaseLayout>
