@@ -5,19 +5,22 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="The Meaning of Life — Khalil Nooh responds to 2,500 years of philosophy. A techno-optimist's answer to WITMOLv2.">
 <title>The Meaning of Life · TFIS</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<meta property="og:title" content="The Meaning of Life · TFIS">
+<meta property="og:description" content="Khalil Nooh responds to 2,500 years of philosophy. A techno-optimist's answer to WITMOLv2.">
+<meta property="og:type" content="article">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="stylesheet" href="shared.css">
 </head>
-<body style="padding-top:var(--nav-h)">
+<body data-page="meaning-of-life" style="padding-top:var(--nav-h)">
+<a href="#main-content" class="skip-link">Skip to main content</a>
 
 <nav id="topNav">
   <a href="/" class="logo"><em>TFIS</em></a>
   <div class="nav-right">
     <a href="/">Home</a>
     <a href="functional-life.html">Functional Life</a>
-    <a href="https://mesolitica.thinkific.com/products/digital_downloads/tfis-whitepaper" target="_blank" rel="noopener" class="nav-btn">Whitepaper →</a>
+    <a href="https://mesolitica.thinkific.com/products/digital_downloads/tfis-whitepaper?utm_source=tfis&amp;utm_medium=site&amp;utm_campaign=ssa-assessment&amp;utm_content=whitepaper" target="_blank" rel="noopener" class="nav-btn">Whitepaper →</a>
     <button class="nav-toggle" id="navToggle" aria-label="Menu">☰</button>
   </div>
 </nav>
@@ -25,10 +28,10 @@
 <div class="nav-overlay" id="navOverlay">
   <a href="index.html">← Home</a>
   <a href="functional-life.html">The Functional Life</a>
-  <a href="https://mesolitica.thinkific.com/products/digital_downloads/tfis-whitepaper" target="_blank" rel="noopener">Download Whitepaper →</a>
+  <a href="https://mesolitica.thinkific.com/products/digital_downloads/tfis-whitepaper?utm_source=tfis&amp;utm_medium=site&amp;utm_campaign=ssa-assessment&amp;utm_content=whitepaper" target="_blank" rel="noopener">Download Whitepaper →</a>
 </div>
 
-<main>
+<main id="main-content">
 
 <section>
   <div class="container">
@@ -74,50 +77,9 @@
       <div class="phil-item"><span class="name">Wittgenstein</span><span class="summary">Meaning is shown in how we live.</span></div>
     </div>
 
-    <button class="phil-toggle" onclick="togglePhilosophers()" id="philToggle">Show all 50 philosophers →</button>
+    <a href="philosophers.html" class="phil-toggle">Browse all 50 philosophers →</a>
 
-    <div class="phil-all" id="philAll">
-      <div class="phil-item"><span class="name">Plato</span><span class="summary">Ascent of the soul toward the Form of the Good.</span></div>
-      <div class="phil-item"><span class="name">Zeno of Citium</span><span class="summary">Live in agreement with nature; virtue is the only good.</span></div>
-      <div class="phil-item"><span class="name">Confucius</span><span class="summary">Cultivate humane goodness; bring harmony through right relationship.</span></div>
-      <div class="phil-item"><span class="name">Lao Tzu</span><span class="summary">Harmony with the Tao through effortless action.</span></div>
-      <div class="phil-item"><span class="name">Buddha</span><span class="summary">End suffering through the Noble Eightfold Path.</span></div>
-      <div class="phil-item"><span class="name">Seneca</span><span class="summary">Perfect reason; achieve calm through virtue.</span></div>
-      <div class="phil-item"><span class="name">Augustine of Hippo</span><span class="summary">The restless heart finds rest only in God.</span></div>
-      <div class="phil-item"><span class="name">Thomas Aquinas</span><span class="summary">Union with God through knowledge and love.</span></div>
-      <div class="phil-item"><span class="name">René Descartes</span><span class="summary">Right use of reason through methodical doubt.</span></div>
-      <div class="phil-item"><span class="name">Baruch Spinoza</span><span class="summary">Understand your place in Nature; intellectual love of God.</span></div>
-      <div class="phil-item"><span class="name">David Hume</span><span class="summary">Meaning through passion, social bonds, shared happiness.</span></div>
-      <div class="phil-item"><span class="name">Immanuel Kant</span><span class="summary">Highest good through a good will acting from duty.</span></div>
-      <div class="phil-item"><span class="name">Arthur Schopenhauer</span><span class="summary">Deny the will through art, compassion, renunciation.</span></div>
-      <div class="phil-item"><span class="name">John Stuart Mill</span><span class="summary">Maximize happiness through higher pleasures.</span></div>
-      <div class="phil-item"><span class="name">Jeremy Bentham</span><span class="summary">Greatest happiness of the greatest number.</span></div>
-      <div class="phil-item"><span class="name">Karl Marx</span><span class="summary">Abolish alienation through collective liberation.</span></div>
-      <div class="phil-item"><span class="name">Ralph Waldo Emerson</span><span class="summary">Realize unity with the Over-Soul.</span></div>
-      <div class="phil-item"><span class="name">Henry David Thoreau</span><span class="summary">Live deliberately; simplify; follow conscience.</span></div>
-      <div class="phil-item"><span class="name">William James</span><span class="summary">Forge meaning through the strenuous moral life.</span></div>
-      <div class="phil-item"><span class="name">John Dewey</span><span class="summary">Growth of meaning through intelligent problem-solving.</span></div>
-      <div class="phil-item"><span class="name">Carl Jung</span><span class="summary">Individuation: become whole by integrating the unconscious.</span></div>
-      <div class="phil-item"><span class="name">Simone de Beauvoir</span><span class="summary">Exercise freedom in authentic project, in solidarity.</span></div>
-      <div class="phil-item"><span class="name">Hannah Arendt</span><span class="summary">Act in the public realm; begin something new.</span></div>
-      <div class="phil-item"><span class="name">Bertrand Russell</span><span class="summary">Pursue knowledge, love, compassionate action.</span></div>
-      <div class="phil-item"><span class="name">Martin Heidegger</span><span class="summary">Live authentically; face death; own your thrownness.</span></div>
-      <div class="phil-item"><span class="name">Daniel Dennett</span><span class="summary">Become a designer of purposes.</span></div>
-      <div class="phil-item"><span class="name">Thomas Nagel</span><span class="summary">Live with seriousness and irony.</span></div>
-      <div class="phil-item"><span class="name">Alan Watts</span><span class="summary">Stop seeking; the meaning is to be alive.</span></div>
-      <div class="phil-item"><span class="name">Thich Nhat Hanh</span><span class="summary">Touch the miracle through mindfulness and compassion.</span></div>
-      <div class="phil-item"><span class="name">Jiddu Krishnamurti</span><span class="summary">Live without a center; choiceless awareness.</span></div>
-      <div class="phil-item"><span class="name">Ayn Rand</span><span class="summary">Live as a rational being; pursue your own happiness.</span></div>
-      <div class="phil-item"><span class="name">Noam Chomsky</span><span class="summary">Pursue freedom and fullest human creative capacity.</span></div>
-      <div class="phil-item"><span class="name">Martha Nussbaum</span><span class="summary">Cultivate central capabilities for a life of dignity.</span></div>
-      <div class="phil-item"><span class="name">Slavoj Žižek</span><span class="summary">Confront the Real of your desire; enact the impossible.</span></div>
-      <div class="phil-item"><span class="name">Peter Singer</span><span class="summary">Reduce suffering across all sentient beings.</span></div>
-      <div class="phil-item"><span class="name">Cornel West</span><span class="summary">Live with existential integrity; bear witness to justice.</span></div>
-      <div class="phil-item"><span class="name">Judith Butler</span><span class="summary">Struggle for recognizability; every life grievable.</span></div>
-      <div class="phil-item"><span class="name">Sam Harris</span><span class="summary">Pursue well-being through mindfulness and honesty.</span></div>
-      <div class="phil-item"><span class="name">Jordan Peterson</span><span class="summary">Take up the cross of your own becoming.</span></div>
-      <div class="phil-item"><span class="name">Yuval Noah Harari</span><span class="summary">Reduce suffering; craft stories that minimize pain.</span></div>
-    </div>
+    <!-- All 50 philosophers now listed on philosophers.html -->
 
     <p class="muted" style="margin-top:16px;font-size:.73rem">
       Read the full appendix at <a href="https://witmol.thefutureissolo.com" style="color:var(--g500)">witmol.thefutureissolo.com</a>
@@ -143,7 +105,7 @@
     <div class="f-cta">
       <a href="/">Assess your SSA Level</a>
       <span style="margin:0 8px">·</span>
-      <a href="https://mesolitica.thinkific.com/products/digital_downloads/tfis-whitepaper" target="_blank" rel="noopener">Download Whitepaper ↗</a>
+      <a href="https://mesolitica.thinkific.com/products/digital_downloads/tfis-whitepaper?utm_source=tfis&amp;utm_medium=site&amp;utm_campaign=ssa-assessment&amp;utm_content=whitepaper" target="_blank" rel="noopener">Download Whitepaper ↗</a>
     </div>
   </div>
 </footer>
