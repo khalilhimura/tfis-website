@@ -4,7 +4,7 @@
    ═══════════════════════════════════════════════════════════════════ */
 
 // ─── Nav scroll effect ───
-export function initNavScroll() {
+function initNavScroll() {
   const nav = document.getElementById('topNav');
   if (!nav) return;
   let ticking = false;
@@ -17,19 +17,33 @@ export function initNavScroll() {
       ticking = true;
     }
   });
+  // Set active nav link
+  const page = document.body?.dataset?.page;
+  if (page) {
+    const navLinks = document.querySelectorAll('.nav-right a');
+    navLinks.forEach(a => {
+      const href = a.getAttribute('href');
+      if (href === '/' && page === 'home') a.setAttribute('aria-current', 'page');
+      else if (href === 'functional-life.html' && page === 'functional-life') a.setAttribute('aria-current', 'page');
+      else if (href === 'meaning-of-life.html' && page === 'meaning-of-life') a.setAttribute('aria-current', 'page');
+    });
+  }
 }
 
 // ─── Mobile nav ───
-export function initMobileNav() {
+function initMobileNav() {
   const toggle = document.getElementById('navToggle');
   const overlay = document.getElementById('navOverlay');
   if (!toggle || !overlay) return;
   toggle.addEventListener('click', () => overlay.classList.toggle('open'));
+  overlay.addEventListener('click', (e) => {
+    if (e.target === overlay) overlay.classList.remove('open');
+  });
   window.closeNav = () => overlay.classList.remove('open');
 }
 
 // ─── Scroll to section ───
-export function initScrollTo() {
+function initScrollTo() {
   window.scrollToSection = function(id) {
     const el = document.getElementById(id);
     if (el) el.scrollIntoView({ behavior:'smooth', block:'start' });
@@ -38,7 +52,7 @@ export function initScrollTo() {
 }
 
 // ─── Fade-in observer ───
-export function initFadeIn() {
+function initFadeIn() {
   const faders = document.querySelectorAll('.fade-in');
   if (!faders.length) return;
   const observer = new IntersectionObserver(entries => {
@@ -48,7 +62,7 @@ export function initFadeIn() {
 }
 
 // ─── Architecture reveal toggle ───
-export function initArchToggle() {
+function initArchToggle() {
   window.toggleArch = function() {
     const el = document.getElementById('archReveal');
     const btn = document.getElementById('archToggle');
@@ -58,19 +72,24 @@ export function initArchToggle() {
   };
 }
 
-// ─── Philosopher toggle ───
-export function initPhilToggle() {
-  window.togglePhilosophers = function() {
-    const el = document.getElementById('philAll');
-    const btn = document.getElementById('philToggle');
-    if (!el || !btn) return;
-    const open = el.classList.toggle('show');
-    btn.textContent = open ? 'Show fewer philosophers −' : 'Show all 50 philosophers →';
-  };
+// ─── Philosopher filter (search) ───
+function initPhilFilter() {
+  const input = document.getElementById('philFilter');
+  const list = document.getElementById('philList');
+  if (!input || !list) return;
+  const items = list.querySelectorAll('.phil-item');
+  input.addEventListener('input', () => {
+    const q = input.value.toLowerCase().trim();
+    items.forEach(el => {
+      const name = el.querySelector('.name')?.textContent?.toLowerCase() || '';
+      const summary = el.querySelector('.summary')?.textContent?.toLowerCase() || '';
+      el.style.display = (name.includes(q) || summary.includes(q)) ? '' : 'none';
+    });
+  });
 }
 
 // ─── SSA Ladder + Self-Assessment ───
-export function initAssessment() {
+function initAssessment() {
   const LEVEL_NAMES = [
     'Task Operator','AI-Assisted Operator','Workflow Orchestrator',
     'Agent Supervisor','Multi-Agent Architect','Sovereign Architect'
@@ -83,6 +102,14 @@ export function initAssessment() {
     'Designs autonomous multi-agent systems. Closed feedback loops with verified write-back.',
     'Owns fully autonomous cognitive infrastructure. The system compounds without you.'
   ];
+  const ASSESS_KEY = 'tfis-assessment-level';
+  const ASSESS_NAME_KEY = 'tfis-assessment-name';
+  const ASSESS_TS_KEY = 'tfis-assessment-timestamp';
+  const ASSESS_TTL = 30 * 24 * 60 * 60 * 1000; // 30 days
+  const TFIS_LINKS = {
+    whitepaper: 'https://mesolitica.thinkific.com/products/digital_downloads/tfis-whitepaper?utm_source=tfis&utm_medium=site&utm_campaign=ssa-assessment&utm_content=whitepaper',
+    course: 'https://mesolitica.thinkific.com?utm_source=tfis&utm_medium=site&utm_campaign=ssa-assessment&utm_content=course',
+  };
   const QUESTIONS = [
     { q:'How do you handle a task that repeats for the third time this month?',
       opts:[
@@ -225,8 +252,18 @@ export function initAssessment() {
         if (architect) architect.style.display = 'flex';
         cards.style.gridTemplateColumns = '1fr';
       }
+      // Update CTA links with UTM tracking
+      document.querySelectorAll('.cta-card .btn').forEach(btn => {
+        if (btn.getAttribute('href')?.includes('whitepaper')) btn.href = TFIS_LINKS.whitepaper;
+        else if (btn.textContent?.includes('Course')) btn.href = TFIS_LINKS.course;
+      });
     }
     result.scrollIntoView({ behavior:'smooth', block:'center' });
+    try {
+      localStorage.setItem(ASSESS_KEY, String(level));
+      localStorage.setItem(ASSESS_NAME_KEY, LEVEL_NAMES[level]);
+      localStorage.setItem(ASSESS_TS_KEY, String(Date.now()));
+    } catch(e) { /* localStorage may be blocked */ }
   }
 
   function showGenericCTA() {
@@ -265,7 +302,72 @@ export function initAssessment() {
     if (retake) retake.style.display = 'none';
     if (container) container.classList.remove('active');
     document.querySelectorAll('#ssaLadder li').forEach(li => li.classList.remove('active'));
+    try {
+      localStorage.removeItem(ASSESS_KEY);
+      localStorage.removeItem(ASSESS_NAME_KEY);
+      localStorage.removeItem(ASSESS_TS_KEY);
+    } catch(e) { /* noop */ }
   };
+
+  function restoreSavedAssessment() {
+    try {
+      const level = localStorage.getItem(ASSESS_KEY);
+      const name = localStorage.getItem(ASSESS_NAME_KEY);
+      const ts = localStorage.getItem(ASSESS_TS_KEY);
+      if (level !== null && name !== null && ts !== null && (Date.now() - Number(ts)) < ASSESS_TTL) {
+        const intro = document.querySelector('.assess-intro');
+        const retake = document.getElementById('retakeAssess');
+        if (intro) intro.style.display = 'none';
+        if (retake) retake.style.display = 'inline';
+        showResultForLevel(Number(level));
+        const result = document.getElementById('assessResult');
+        if (result) {
+          const greeting = document.createElement('p');
+          greeting.className = 'assess-greeting';
+          greeting.textContent = 'You last scored L' + level + ' · ' + name;
+          result.parentNode.insertBefore(greeting, result);
+        }
+        const el = document.querySelector('#ssaLadder li[data-level="' + level + '"]');
+        if (el) el.classList.add('active');
+      }
+    } catch(e) { /* noop */ }
+  }
+
+  restoreSavedAssessment();
+}
+
+// ─── Section tracker (home page only) ───
+function initSectionTracker() {
+  const tracker = document.getElementById('sectionTracker');
+  if (!tracker) return;
+  const links = tracker.querySelectorAll('a');
+  const sections = Array.from(links).map(a => document.getElementById(a.dataset.section)).filter(Boolean);
+  if (!sections.length) return;
+
+  let trackerVisible = false;
+  const showTracker = () => {
+    if (!trackerVisible && window.scrollY > window.innerHeight * 0.5) {
+      tracker.classList.add('visible');
+      trackerVisible = true;
+    } else if (trackerVisible && window.scrollY <= window.innerHeight * 0.5) {
+      tracker.classList.remove('visible');
+      trackerVisible = false;
+    }
+  };
+
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        links.forEach(l => l.classList.remove('active'));
+        const match = links.find(l => l.dataset.section === e.target.id);
+        if (match) match.classList.add('active');
+      }
+    });
+  }, { threshold: 0.3, rootMargin: '0px 0px -40% 0px' });
+
+  sections.forEach(s => observer.observe(s));
+  window.addEventListener('scroll', showTracker, { passive: true });
+  showTracker();
 }
 
 // ─── Init all on DOM ready ───
@@ -275,6 +377,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initScrollTo();
   initFadeIn();
   initArchToggle();
-  initPhilToggle();
+  initPhilFilter();
   initAssessment();
+  initSectionTracker();
 });
