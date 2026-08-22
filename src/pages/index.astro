@@ -1,0 +1,228 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="The Future Is Solo" description="The Future Is Solo — a framework for intellectual sovereignty in the agentic AI era. Assess your SSA-CMM level and find your path." page="home">
+  <!-- ═══════ HERO ═══════ -->
+  <section class="hero">
+    <div class="container--wide">
+      <p class="hero-stamp">A Framework for Intellectual Sovereignty</p>
+      <h1>The Future<br>Is <em>Solo</em></h1>
+      <p class="hero-sub">
+        One person can now do the work of an entire organisation — through AI agents, automation,
+        context engineering, and disciplined execution. The individual becomes the new enterprise.
+      </p>
+      <div class="btn-group">
+        <a href="#" onclick="scrollToSection('ladder');return false" class="btn btn--accent">Assess Your AI Maturity →</a>
+        <a href="/meaning-of-life.html" class="btn btn--ghost">Read the Essay →</a>
+        <a href="https://mesolitica.thinkific.com/products/digital_downloads/tfis-whitepaper?utm_source=tfis&amp;utm_medium=site&amp;utm_campaign=ssa-assessment&amp;utm_content=whitepaper" target="_blank" rel="noopener" class="btn btn--ghost">Whitepaper ↗</a>
+      </div>
+      <p class="hero-cta-line">
+        Where do you stand? <a href="#" onclick="scrollToSection('ladder');return false">Take the 30-second SSA self-assessment</a> to find your level and your next step.
+      </p>
+    </div>
+  </section>
+
+  <!-- ═══════ THE PROBLEM — Drift ═══════ -->
+  <section id="thesis">
+    <div class="container">
+      <p class="num-stamp">01 The Problem</p>
+      <h2>The playing field didn't level. It <em>inverted</em>.</h2>
+      <p>
+        Leverage that once belonged only to institutions now fits in a single mind's command.
+        But sovereignty is not granted by the tools — it is defended against a quiet adversary.
+      </p>
+      <p style="margin-top:20px"><strong>The enemy is Drift</strong> — the slow, imperceptible movement away from what matters, pushed by four systemic forces:</p>
+      <div class="card-grid card-grid-2">
+        <div class="card">
+          <span class="drift-num">01</span>
+          <h4>The Comfortable Cage</h4>
+          <p>Employment dependency trades agency for security. The salary feels safe; the trade is silent.</p>
+        </div>
+        <div class="card">
+          <span class="drift-num">02</span>
+          <h4>The Attention Economy's Theft</h4>
+          <p>Attention is mined at industrial scale. Fragmented attention produces fragmented thinking.</p>
+        </div>
+        <div class="card">
+          <span class="drift-num">03</span>
+          <h4>The Credentialism Trap</h4>
+          <p>Documented qualification is mistaken for demonstrated capability. The title outlives the skill.</p>
+        </div>
+        <div class="card">
+          <span class="drift-num">04</span>
+          <h4>Social Gravity of Conformity</h4>
+          <p>The default path is unconsciously followed, not consciously chosen. Drift, by consensus.</p>
+        </div>
+      </div>
+      <div class="spectrum">
+        <span class="spectrum-label">The Sovereignty Spectrum</span>
+        <div class="spectrum-track">
+          <span class="seg pass" data-label="Passenger"><span class="sub">reactive</span></span>
+          <span class="seg driv" data-label="Driver"><span class="sub">steering</span></span>
+          <span class="seg pilot" data-label="Pilot"><span class="sub">creating options</span></span>
+        </div>
+        <p class="spectrum-note">The climb from reacting to what exists toward creating what did not exist before.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════ SSA-CMM LADDER + SELF-ASSESSMENT ═══════ -->
+  <section id="ladder">
+    <div class="container">
+      <p class="num-stamp">02 Where Are You?</p>
+      <h2>The Solo Systems Architect — <em>Capability Maturity Model</em> <span style="font-weight:400;font-size:.68em;color:var(--g400)">(SSA‑CMM)</span></h2>
+      <p>
+        AI alone creates output. SSA architecture creates leverage. The SSA-CMM measures the climb from operator to sovereign infrastructure.
+        It's not what AI you use — it's how much of your <strong>judgment survives contact with your tools</strong>.
+      </p>
+
+      <ul class="ladder" id="ssaLadder">
+        <li data-level="0" onclick="selectLevel(0)"><span class="ladder-lvl">L0</span><span class="ladder-name">Task Operator</span><span class="ladder-note">Manual performance. Output tied strictly to hours.</span><span class="ladder-flag">You are here</span></li>
+        <li data-level="1" onclick="selectLevel(1)"><span class="ladder-lvl">L1</span><span class="ladder-name">AI-Assisted Operator</span><span class="ladder-note">Uses AI tools. Still the primary worker, just faster.</span><span class="ladder-flag">You are here</span></li>
+        <li data-level="2" onclick="selectLevel(2)"><span class="ladder-lvl">L2</span><span class="ladder-name">Workflow Orchestrator</span><span class="ladder-note">Builds semi-automated, repeatable workflows.</span><span class="ladder-flag">You are here</span></li>
+        <li data-level="3" onclick="selectLevel(3)"><span class="ladder-lvl">L3</span><span class="ladder-name">Agent Supervisor</span><span class="ladder-note">Supervises multiple agents with memory.</span><span class="ladder-flag">You are here</span></li>
+        <li data-level="4" onclick="selectLevel(4)"><span class="ladder-lvl">L4</span><span class="ladder-name">Multi-Agent Architect</span><span class="ladder-note">Designs autonomous multi-agent systems.</span><span class="ladder-flag">You are here</span></li>
+        <li data-level="5" onclick="selectLevel(5)"><span class="ladder-lvl">L5</span><span class="ladder-name">Sovereign Architect</span><span class="ladder-note">Owns fully autonomous cognitive infrastructure.</span><span class="ladder-flag">You are here</span></li>
+      </ul>
+
+      <p class="muted" style="margin-bottom:20px;font-size:.76rem">Tap a level to select it, or take the 30-second guided assessment.</p>
+
+      <div class="assess-intro">
+        <p><strong>Not sure where you stand?</strong> Answer 5 quick questions and we'll place you on the ladder with a recommended next step.</p>
+        <button class="assess-btn" onclick="startAssessment()">Start Assessment →</button>
+        <br><span class="assess-retake" onclick="resetAssessment()" style="display:none" id="retakeAssess">Re-take assessment</span>
+      </div>
+
+      <div id="assessQuestions" class="assess-q"></div>
+
+      <div class="assess-result" id="assessResult">
+        <p style="font-family:var(--mono);font-weight:var(--w-label);font-size:.58rem;text-transform:uppercase;letter-spacing:.1em;color:var(--g400);margin-bottom:8px">Your Assessment</p>
+        <div class="assess-level" id="resultLevel">L0</div>
+        <div class="assess-level-name" id="resultName">Task Operator</div>
+        <div class="assess-desc" id="resultDesc"></div>
+
+        <div class="cta-cards grid-2" id="ctaCards">
+          <div class="cta-card" id="ctaFoundation">
+            <span class="phase">Foundation Phase</span>
+            <h4>TFIS AI Fluency Course</h4>
+            <p>You're doing the work yourself. Learn to delegate to AI systematically — prompts, workflows, and your first autonomous agent.</p>
+            <a href="https://mesolitica.thinkific.com?utm_source=tfis&amp;utm_medium=site&amp;utm_campaign=ssa-assessment&amp;utm_content=course" target="_blank" rel="noopener" class="btn btn--accent btn--small">Start the Course →</a>
+          </div>
+          <div class="cta-card highlight" id="ctaArchitect">
+            <span class="phase">Architect Phase</span>
+            <h4>SSA Whitepaper</h4>
+            <p>You're already orchestrating systems. Formalise your approach — deep architecture, loop engineering, and sovereign infrastructure.</p>
+            <a href="https://mesolitica.thinkific.com/products/digital_downloads/tfis-whitepaper?utm_source=tfis&amp;utm_medium=site&amp;utm_campaign=ssa-assessment&amp;utm_content=whitepaper" target="_blank" rel="noopener" class="btn btn--accent btn--small">Download Whitepaper ↗</a>
+          </div>
+        </div>
+
+        <span class="assess-retake" onclick="resetAssessment()">Not right? Re-take the assessment.</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════ THE FIVE PILLARS + OS ═══════ -->
+  <section id="pillars">
+    <div class="container">
+      <p class="num-stamp">03 The Framework</p>
+      <h2>The Five Pillars of <em>Sovereignty</em></h2>
+      <p>Interdependent — weaken one, and all the others suffer. Each pillar maps to a discipline of the Solo Systems Architect (SSA).</p>
+
+      <div class="pillar">
+        <span class="pillar-num">I</span>
+        <div class="pillar-body">
+          <h3>Agency</h3>
+          <p class="pillar-axiom">The master key — the capacity to act independently. Agency compounds.</p>
+          <p class="pillar-ssa">The SSA owns direction and system design.</p>
+        </div>
+      </div>
+      <div class="pillar">
+        <span class="pillar-num">II</span>
+        <div class="pillar-body">
+          <h3>Clarity</h3>
+          <p class="pillar-axiom">Seeing things as they are. Clarity emerges from the right simplification, not from knowing everything.</p>
+          <p class="pillar-ssa">The SSA distills context into usable operating memory.</p>
+        </div>
+      </div>
+      <div class="pillar">
+        <span class="pillar-num">III</span>
+        <div class="pillar-body">
+          <h3>Competence</h3>
+          <p class="pillar-axiom">Mastery as freedom. Competence is leverage.</p>
+          <p class="pillar-ssa">The SSA builds demonstrable capability, not credentials.</p>
+        </div>
+      </div>
+      <div class="pillar">
+        <span class="pillar-num">IV</span>
+        <div class="pillar-body">
+          <h3>Accountability</h3>
+          <p class="pillar-axiom">The bridge between intention and execution. Not the enemy of freedom — its foundation.</p>
+          <p class="pillar-ssa">The SSA creates loops that connect intention to shipped output.</p>
+        </div>
+      </div>
+      <div class="pillar">
+        <span class="pillar-num">V</span>
+        <div class="pillar-body">
+          <h3>Security</h3>
+          <p class="pillar-axiom">The immune system of sovereignty. Without it, the other pillars are fragile.</p>
+          <p class="pillar-ssa">The SSA protects the infrastructure of durable solo leverage.</p>
+        </div>
+      </div>
+
+      <p class="num-stamp" style="margin-top:36px">TFIS Operating System</p>
+      <h3>Three integrated components</h3>
+      <p>That turn the philosophy into daily practice.</p>
+      <div class="card-grid card-grid-3">
+        <div class="card">
+          <p class="os-tagline">Cognitive capacity as a portfolio.</p>
+          <h4>TaskVal</h4>
+          <p>Every task triaged — Eliminate, Automate, Delegate, Execute — and scored by return on cognitive capital.</p>
+          <code class="os-code">ROI = (F + S + D + H) ÷ (T × C × S)</code>
+        </div>
+        <div class="card">
+          <p class="os-tagline">The extended mind.</p>
+          <h4>SovMem</h4>
+          <p>A memory vault and context graph that hold what matters across sessions and harnesses.</p>
+          <code class="os-code">Local-first · plain-text · link liberally</code>
+        </div>
+        <div class="card">
+          <p class="os-tagline">Shipping as a skill.</p>
+          <h4>obra/superpowers</h4>
+          <p>The sovereign individual ships — consistently, accountably, securely. 0.1 over version never.</p>
+          <code class="os-code">Ship → iterate → improve</code>
+        </div>
+      </div>
+
+      <!-- Architecture — collapsible -->
+      <button class="reveal-trigger" onclick="toggleArch()" id="archToggle">+ How It Works (Architecture)</button>
+      <div class="arch-reveal" id="archReveal">
+        <p>Independent agent harnesses share a single canonical vault and coordinate through scoped write lanes.</p>
+        <div class="arch-core">
+          <span class="arch-core-label">Canonical Vault</span>
+          <span class="arch-core-name">audy-vault</span>
+          <span class="arch-core-note">single source of truth · synced by AudySync</span>
+        </div>
+        <div class="arch-harnesses">
+          <div class="arch-card"><h4>OpenClaw</h4><p>Primary orchestrator — multi-channel gateway running Audy &amp; Charles.</p></div>
+          <div class="arch-card"><h4>Hermes</h4><p>CLI-first Python agent with scheduled crons.</p></div>
+          <div class="arch-card"><h4>Claude Code</h4><p>Implementation harness. Scoped write lane.</p></div>
+          <div class="arch-card"><h4>Codex</h4><p>Code investigation agent.</p></div>
+          <div class="arch-card"><h4>Antigravity</h4><p>Agentic coding assistant. Scoped write lane.</p></div>
+        </div>
+        <p class="muted" style="font-size:.76rem;margin-top:12px"><strong>Audy</strong> is the cross-harness AI familiar — TFIS embodied as a thinking partner.</p>
+      </div>
+
+      <div style="margin-top:28px;border-top:1px solid var(--g200);padding-top:20px;display:flex;gap:16px;flex-wrap:wrap">
+        <a href="/functional-life.html" class="btn btn--ghost">Read the Functional Life →</a>
+        <a href="/meaning-of-life.html" class="btn btn--ghost">The Meaning of Life →</a>
+      </div>
+    </div>
+  </section>
+
+  <nav class="section-tracker" id="sectionTracker" aria-label="Section navigation">
+    <a href="#thesis" aria-label="The Problem" data-section="thesis"></a>
+    <a href="#ladder" aria-label="SSA-CMM Assessment" data-section="ladder"></a>
+    <a href="#pillars" aria-label="The Framework" data-section="pillars"></a>
+  </nav>
+</BaseLayout>

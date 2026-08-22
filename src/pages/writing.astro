@@ -1,0 +1,46 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const posts = await getCollection('writing', ({ data }) => !data.draft);
+posts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+---
+
+<BaseLayout title="Writing · TFIS" description="Essays on intellectual sovereignty, AI agents, and the Solo Systems Architect framework." page="writing">
+  <section>
+    <div class="container">
+      <p class="num-stamp">Writing</p>
+      <h2>Essays &amp; <em>Updates</em></h2>
+      <p class="muted" style="margin-bottom:24px">Thoughts on sovereignty, systems, and the shape of solo leverage.</p>
+
+      {posts.length === 0 ? (
+        <div class="plate">
+          <p style="margin:0">No posts yet. The first essay is being written — check back soon.</p>
+        </div>
+      ) : (
+        <div style="display:flex;flex-direction:column;gap:24px">
+          {posts.map(post => (
+            <article style="border-bottom:1px solid var(--g200);padding-bottom:20px">
+              <time style="font-family:var(--mono);font-size:.65rem;color:var(--g400);display:block;margin-bottom:4px">
+                {post.data.pubDate.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
+              </time>
+              <h3 style="margin:0 0 4px">
+                <a href={`/writing/${post.id}/`} style="color:var(--g900);text-decoration:none;transition:color .2s">
+                  {post.data.title}
+                </a>
+              </h3>
+              <p style="font-size:.82rem;color:var(--g600);margin:0;max-width:52ch">{post.data.description}</p>
+              {post.data.tags.length > 0 && (
+                <div style="display:flex;gap:6px;margin-top:8px;flex-wrap:wrap">
+                  {post.data.tags.map(tag => (
+                    <span style="font-family:var(--mono);font-size:.55rem;text-transform:uppercase;letter-spacing:.05em;color:var(--accent);background:var(--accent-light);padding:2px 8px;border-radius:2px">{tag}</span>
+                  ))}
+                </div>
+              )}
+            </article>
+          ))}
+        </div>
+      )}
+    </div>
+  </section>
+</BaseLayout>

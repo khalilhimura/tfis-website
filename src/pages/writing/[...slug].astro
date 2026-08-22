@@ -1,0 +1,36 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+export const prerender = true;
+
+export async function getStaticPaths() {
+  const posts = await getCollection('writing', ({ data }) => !data.draft);
+  return posts.map(post => ({
+    params: { slug: post.id },
+    props: { post },
+  }));
+}
+
+const { post } = Astro.props;
+const renderedContent = post.rendered?.html || post.body || '';
+const slug = post.id;
+---
+
+<BaseLayout title={`${post.data.title} · TFIS`} description={post.data.description} page="writing-post" ogType="article" ogTitle={post.data.title} ogDescription={post.data.description}>
+  <article>
+    <div class="container">
+      <p class="num-stamp">
+        <a href="/writing/" style="color:var(--g400);text-decoration:none">← Writing</a>
+      </p>
+      <h2>{post.data.title}</h2>
+      <p class="muted" style="margin-bottom:24px">
+        {post.data.pubDate.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
+        {post.data.tags.length > 0 && (
+          <> · {post.data.tags.map(t => t).join(', ')}</>
+        )}
+      </p>
+      <Fragment set:html={renderedContent} />
+    </div>
+  </article>
+</BaseLayout>
