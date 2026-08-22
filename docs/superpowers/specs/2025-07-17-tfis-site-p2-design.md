@@ -14,14 +14,16 @@ Layer on delight, community-building, and observability while keeping the site f
 
 **Problem:** No visibility into how visitors interact with the site — which CTAs get clicked, where users drop off in the assessment, which essays resonate.
 
-**Options:**
-| Service | Cost | JS footprint | GDPR-friendly | Notes |
-|---------|------|-------------|---------------|-------|
-| **Plausible** (Recommended) | ~€10/mo self-host or €9/mo Cloud | < 1 KB | ✅ Yes (no cookies) | Built for indie projects; dashboard is clean |
-| **Umami** | Free self-host | ~2 KB | ✅ Yes (no cookies) | More setup, self-hosted |
-| GA4 | Free | ~45 KB | ❌ Needs cookie banner | Overkill for this site |
+**Decision:** Cloudflare Web Analytics (free, no JS, no cookie banner, built into Cloudflare dashboard).
 
-**Recommendation:** Plausible. One `<script>` tag, no cookie banner needed, privacy-first. The TFIS audience (solo developers, AI engineers) is exactly the Plausible demographic.
+Cloudflare Web Analytics is the lightest option — literally zero JS added to the page (it uses the edge to count pageviews). No privacy concerns, no performance impact, and since the site is already expected to be served through Cloudflare, there's nothing extra to deploy.
+
+**Implementation:** Enable Web Analytics in the Cloudflare dashboard for the domain. No code changes needed. If the site isn't on Cloudflare yet, a single `<script>` tag suffices:
+```html
+<script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "YOUR_TOKEN"}'></script>
+```
+
+**Files touched:** None (dashboard toggle) or `index.html` (one script tag if outside Cloudflare).
 
 **Implementation:**
 ```html
@@ -40,12 +42,12 @@ Layer on delight, community-building, and observability while keeping the site f
 **Options:**
 | Service | Free tier | Form type | Notes |
 |---------|-----------|-----------|-------|
-| **Buttondown** (Recommended) | Free up to 1K subs | API or embed | Developer-friendly, plain-text aesthetic fits TFIS |
+| Resend | 100 emails/day free | API | Developer-first, SDK for multiple languages |
+| **Buttondown** | Free up to 1K subs | API or embed | Developer-friendly, plain-text aesthetic fits TFIS |
 | ConvertKit | Free up to 1K subs | Embed or JS | More features, heavier |
 | Mailchimp | Free up to 500 subs | Embed | Overkill, dated UX |
-| Beehiiv | Free up to 2.5K subs | Embed | Growing, newsletter-first |
 
-**Recommendation:** Buttondown. API-first, minimalist, the "solo developer" newsletter vibe matches TFIS perfectly.
+**Decision:** Resend. Best developer experience, simple API, generous free tier (100 emails/day). For a newsletter/site-updates setup, Resend handles transactional and broadcast email from the same place.
 
 **Implementation (Buttondown inline form):**
 ```html
@@ -161,7 +163,56 @@ Also add a visible "RSS" link in the footer.
 
 **Problem:** The target audience (solo developers, AI engineers, indie hackers) works in dark IDEs and terminals. A white-only site feels out of place.
 
-**Approach:** Add `prefers-color-scheme: dark` media query. No toggle button — respect the OS setting (simpler, zero JS, no state management).
+**Approach:** Respect OS preference by default (`prefers-color-scheme: dark`) **plus** a manual toggle button in the nav so users can switch regardless of their OS setting. Persist the choice in localStorage.
+
+**Implementation:**
+1. Add a `data-theme` attribute on `<html>` — values: `"light"`, `"dark"`, or absent (OS default).
+2. CSS uses `[data-theme="dark"]` as the primary selector, with `prefers-color-scheme: dark` as fallback when no `data-theme` is set.
+3. A small toggle button (☀️/🌙 or a simple icon) in the nav bar.
+4. JS checks `localStorage.getItem('tfis-theme')` on load. If set, applies it. If not, watches `prefers-color-scheme`.
+5. Toggle click: flip the value, update `data-theme`, save to localStorage.
+
+```js
+function initTheme() {
+  const stored = localStorage.getItem('tfis-theme');
+  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const theme = stored || (prefersDark ? 'dark' : 'light');
+  document.documentElement.setAttribute('data-theme', theme);
+}
+
+function toggleTheme() {
+  const current = document.documentElement.getAttribute('data-theme');
+  const next = current === 'dark' ? 'light' : 'dark';
+  document.documentElement.setAttribute('data-theme', next);
+  localStorage.setItem('tfis-theme', next);
+}
+```
+
+**CSS structure — use `data-theme` selectors:**
+```css
+/* Light theme (default) */
+:root, [data-theme="light"] {
+  --g100: #f5f5f5; --g200: #e6e6e6; /* ... existing tokens */
+}
+/* Dark theme */
+[data-theme="dark"] {
+  --g100: #1a1a1a; --g200: #2a2a2a; --g300: #444;
+  --g400: #888; --g500: #aaa; --g600: #ccc;
+  --g800: #ddd; --g900: #eee; --black: #eee;
+  --white: #111; --accent-light: #2a1a10;
+}
+/* OS preference fallback when no data-theme is set */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) {
+    --g100: #1a1a1a; /* ... same as dark above */
+  }
+}
+```
+
+**Toggle button HTML** (in nav, next to the menu toggle):
+```html
+<button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">🌙</button>
+```
 
 **What changes:**
 - Background: `#fff` → `#111`
@@ -260,17 +311,37 @@ Also add a visible "RSS" link in the footer.
 
 | Round | Items | Rationale |
 |-------|-------|-----------|
-| **1** | Analytics, 404 page, RSS feed | Zero design decisions needed — implement immediately |
-| **2** | Email capture, Print stylesheet | Need provider choice (Buttondown) — one decision each |
-| **3** | Dark mode | Largest change — do after quick wins are settled |
-| **4** | Micro-interactions (cursor blink) | Cherry on top — skip if time is short |
+| **1** | Analytics, 404 page, RSS feed | Zero provider setup — implement immediately |
+| **2** | Dark mode + toggle | Larger change, but high impact for the audience |
+| **3** | Email capture, Print stylesheet | Need Resend setup — one-time config |
+| **4** | Micro-interactions (cursor blink) | Cherry on top — 2 lines of CSS |
 
 ---
 
-## 5. Design Decisions for You
+## 5. Design Decisions — Confirmed
 
-1. **Analytics provider:** Plausible (recommended) vs Umami vs GA4
-2. **Email provider:** Buttondown (recommended) vs ConvertKit vs Beehiiv — or skip entirely
-3. **Dark mode:** OS-preference only (auto) vs add a manual toggle button
-4. **Micro-interactions:** Terminal cursor blink on hero — yes or skip?
-5. **RSS feed URL:** `/feed.xml` vs `/rss.xml` vs `/atom.xml` — any preference?
+| Decision | Choice |
+|----------|--------|
+| Analytics | Cloudflare Web Analytics (free, zero JS, edge-side) |
+| Email provider | Resend (developer-first, 100/day free) |
+| Dark mode | OS-preference auto + manual toggle, persisted in localStorage |
+| Terminal cursor blink | ✅ Yes — on hero stamp |
+| RSS feed URL | `/feed.xml` |
+| Blog platform | **Astro** — Markdown/MDX source, static output, zero-JS by default |
+
+---
+
+## 6. Astro Migration Note
+
+The blog/writing section is best approached as a **separate implementation round** after the P2 quick wins are done, because it involves:
+
+1. Scaffolding an Astro project in the repo
+2. Migrating the existing 3 content pages to Astro `.astro` layouts + MDX
+3. Setting up a `src/content/writing/` collection with frontmatter (title, date, draft, tags)
+4. Building a listing page (`/writing`) and individual essay pages
+5. Generating `feed.xml` automatically from the collection (Astro has a built-in RSS plugin)
+6. Keeping the existing `shared.css` design system as a base layout
+
+The site stays fully static — Astro builds to plain HTML/CSS/JS that goes in the same deploy directory.
+
+**Not in this P2 phase.** The P2 items above are all compatible with both the current hand-edited setup and a future Astro migration.
