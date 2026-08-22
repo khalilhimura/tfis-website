@@ -1,22 +1,22 @@
 /* ═══════════════════════════════════════════════════════════════════
    TFIS · Shared Design System
-   = 2 fonts · 3 weights · 1 accent · white mode only
+   = 2 fonts · 2 weights · 1 accent · white mode only
    Edit tokens here — changes propagate to all pages.
    ═══════════════════════════════════════════════════════════════════ */
 
 /* ─── SELF-HOSTED FONTS ─── */
 @font-face {
-  font-family: 'Inter';
+  font-family: 'Atkinson Hyperlegible';
   font-style: normal;
   font-weight: 400;
-  src: url('fonts/Inter-Regular.woff2') format('woff2');
+  src: url('fonts/Atkinson-Regular.woff2') format('woff2');
   font-display: swap;
 }
 @font-face {
-  font-family: 'Inter';
+  font-family: 'Atkinson Hyperlegible';
   font-style: normal;
-  font-weight: 600;
-  src: url('fonts/Inter-SemiBold.woff2') format('woff2');
+  font-weight: 700;
+  src: url('fonts/Atkinson-Bold.woff2') format('woff2');
   font-display: swap;
 }
 @font-face {
@@ -30,12 +30,12 @@
 /* ─── TYPOGRAPHY TOKENS ─── */
 :root {
   /* fonts */
-  --sans:  'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --sans:  'Atkinson Hyperlegible', -apple-system, BlinkMacSystemFont, sans-serif;
   --mono:  'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
 
   /* weights — only 3 across both fonts */
-  --w-body:  400;   /* Inter 400 — body text */
-  --w-bold:  600;   /* Inter 600 — headings, titles, strong */
+  --w-body:  400;   /* Atkinson 400 — body text */
+  --w-bold:  700;   /* Atkinson 700 — headings, titles, strong */
   --w-label: 500;   /* JB Mono 500 — labels, buttons, code */
 
   /* sizes */
