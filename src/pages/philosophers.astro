@@ -1,0 +1,80 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const philosophers = [
+  { name: 'Socrates', summary: 'The unexamined life is not worth living.' },
+  { name: 'Aristotle', summary: 'Flourishing through virtuous activity over a complete life.' },
+  { name: 'Epicurus', summary: 'Simple pleasures, friendship, freedom from fear.' },
+  { name: 'Marcus Aurelius', summary: 'Live according to Nature; accept what comes.' },
+  { name: 'Nietzsche', summary: 'Create your own values; love your fate.' },
+  { name: 'Kierkegaard', summary: 'Become a self before God through passionate faith.' },
+  { name: 'Sartre', summary: 'Invent meaning through committed choice.' },
+  { name: 'Camus', summary: 'Revolt against the absurd; live lucidly.' },
+  { name: 'Frankl', summary: 'Meaning through attitude toward unavoidable suffering.' },
+  { name: 'Wittgenstein', summary: 'Meaning is shown in how we live.' },
+  { name: 'Plato', summary: 'Ascent of the soul toward the Form of the Good.' },
+  { name: 'Zeno of Citium', summary: 'Live in agreement with nature; virtue is the only good.' },
+  { name: 'Confucius', summary: 'Cultivate humane goodness; bring harmony through right relationship.' },
+  { name: 'Lao Tzu', summary: 'Harmony with the Tao through effortless action.' },
+  { name: 'Buddha', summary: 'End suffering through the Noble Eightfold Path.' },
+  { name: 'Seneca', summary: 'Perfect reason; achieve calm through virtue.' },
+  { name: 'Augustine of Hippo', summary: 'The restless heart finds rest only in God.' },
+  { name: 'Thomas Aquinas', summary: 'Union with God through knowledge and love.' },
+  { name: 'René Descartes', summary: 'Right use of reason through methodical doubt.' },
+  { name: 'Baruch Spinoza', summary: 'Understand your place in Nature; intellectual love of God.' },
+  { name: 'David Hume', summary: 'Meaning through passion, social bonds, shared happiness.' },
+  { name: 'Immanuel Kant', summary: 'Highest good through a good will acting from duty.' },
+  { name: 'Arthur Schopenhauer', summary: 'Deny the will through art, compassion, renunciation.' },
+  { name: 'John Stuart Mill', summary: 'Maximize happiness through higher pleasures.' },
+  { name: 'Jeremy Bentham', summary: 'Greatest happiness of the greatest number.' },
+  { name: 'Karl Marx', summary: 'Abolish alienation through collective liberation.' },
+  { name: 'Ralph Waldo Emerson', summary: 'Realize unity with the Over-Soul.' },
+  { name: 'Henry David Thoreau', summary: 'Live deliberately; simplify; follow conscience.' },
+  { name: 'William James', summary: 'Forge meaning through the strenuous moral life.' },
+  { name: 'John Dewey', summary: 'Growth of meaning through intelligent problem-solving.' },
+  { name: 'Carl Jung', summary: 'Individuation: become whole by integrating the unconscious.' },
+  { name: 'Simone de Beauvoir', summary: 'Exercise freedom in authentic project, in solidarity.' },
+  { name: 'Hannah Arendt', summary: 'Act in the public realm; begin something new.' },
+  { name: 'Bertrand Russell', summary: 'Pursue knowledge, love, compassionate action.' },
+  { name: 'Martin Heidegger', summary: 'Live authentically; face death; own your thrownness.' },
+  { name: 'Daniel Dennett', summary: 'Become a designer of purposes.' },
+  { name: 'Thomas Nagel', summary: 'Live with seriousness and irony.' },
+  { name: 'Alan Watts', summary: 'Stop seeking; the meaning is to be alive.' },
+  { name: 'Thich Nhat Hanh', summary: 'Touch the miracle through mindfulness and compassion.' },
+  { name: 'Jiddu Krishnamurti', summary: 'Live without a center; choiceless awareness.' },
+  { name: 'Ayn Rand', summary: 'Live as a rational being; pursue your own happiness.' },
+  { name: 'Noam Chomsky', summary: 'Pursue freedom and fullest human creative capacity.' },
+  { name: 'Martha Nussbaum', summary: 'Cultivate central capabilities for a life of dignity.' },
+  { name: 'Slavoj Žižek', summary: 'Confront the Real of your desire; enact the impossible.' },
+  { name: 'Peter Singer', summary: 'Reduce suffering across all sentient beings.' },
+  { name: 'Cornel West', summary: 'Live with existential integrity; bear witness to justice.' },
+  { name: 'Judith Butler', summary: 'Struggle for recognizability; every life grievable.' },
+  { name: 'Sam Harris', summary: 'Pursue well-being through mindfulness and honesty.' },
+  { name: 'Jordan Peterson', summary: 'Take up the cross of your own becoming.' },
+  { name: 'Yuval Noah Harari', summary: 'Reduce suffering; craft stories that minimize pain.' },
+];
+---
+
+<BaseLayout title="The Philosophers · TFIS" description="50 philosophers, 2,500 years of answers on the meaning of life — the full appendix to the TFIS essay." page="philosophers">
+  <section>
+    <div class="container">
+      <p class="num-stamp">Appendix</p>
+      <h2>50 Philosophers on the <em>Meaning of Life</em></h2>
+      <p class="muted" style="margin-bottom:12px">2,500 years of answers. Filter by name.</p>
+
+      <div class="phil-search">
+        <input type="text" id="philFilter" placeholder="Search philosophers..." autocomplete="off">
+      </div>
+
+      <div class="phil-all show" id="philList">
+        {philosophers.map(p => (
+          <div class="phil-item"><span class="name">{p.name}</span><span class="summary">{p.summary}</span></div>
+        ))}
+      </div>
+
+      <p class="muted" style="margin-top:12px;font-size:.73rem">
+        <a href="/meaning-of-life.html" style="color:var(--g500)">← Back to the essay</a>
+      </p>
+    </div>
+  </section>
+</BaseLayout>
