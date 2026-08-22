@@ -175,6 +175,8 @@ section p:last-child{margin-bottom:0}
 .hero .container--wide{padding-top:32px;padding-bottom:56px}
 .hero-stamp{font-family:var(--mono);font-weight:var(--w-label);font-size:var(--fs-label);letter-spacing:.12em;text-transform:uppercase;color:var(--g400);margin-bottom:28px}
 .hero-stamp::before{content:"";display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--accent);margin-right:10px;vertical-align:middle}
+.hero-stamp::after{content:"▊";animation:blink 1s step-end infinite;color:var(--accent);margin-left:4px;vertical-align:middle}
+@keyframes blink{50%{opacity:0}}
 .hero h1{font-size:var(--fs-h1);font-weight:var(--w-bold);letter-spacing:-.045em;line-height:.92;margin-bottom:24px}
 .hero h1 em{font-style:normal;color:var(--accent)}
 .hero-sub{font-size:var(--fs-hero-sub);color:var(--g600);max-width:58ch;line-height:1.7;margin-bottom:36px}
