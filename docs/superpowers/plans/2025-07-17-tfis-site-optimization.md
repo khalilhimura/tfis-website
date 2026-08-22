@@ -20,6 +20,15 @@
 - All Thinkific links must carry UTM params: `?utm_source=tfis&utm_medium=site&utm_campaign=ssa-assessment&utm_content={name}`
 - Favicon must be SVG — no PNG/ICO required
 - Color contrast fixes must target WCAG AA 4.5:1 for body text
+- **Confirmed design decisions:**
+  - Fonts: self-host woff2
+  - Section tracker: dots on the right edge
+  - Favicon: accent-colored dot
+  - Philosopher page: 2-column grid
+  - Contrast: single token change (`--g400: #999 → #777`)
+  - Assessment retake: subtle line above result panel
+  - OG/Twitter cards: include in P0
+  - Philosopher footer: consistent with all pages
 
 ---
 
@@ -50,12 +59,11 @@ curl -L "https://fonts.gstatic.com/s/jetbrainsmono/v18/tDbV2o-flEEny0FZhsfKu5WU4
 
 Expected: 3 files in `fonts/`, sizes ~15-35 KB each.
 
-- [ ] **Step 2: Create favicon.svg**
+- [ ] **Step 2: Create favicon.svg** (accent-colored dot — confirmed)
 
 ```svg
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <rect width="32" height="32" rx="4" fill="#c8511e"/>
-  <text x="16" y="22" font-family="system-ui, sans-serif" font-size="18" font-weight="700" fill="white" text-anchor="middle">S</text>
+  <circle cx="16" cy="16" r="10" fill="#c8511e"/>
 </svg>
 ```
 
@@ -141,6 +149,13 @@ Add before the FOOTER section (~line 282):
 @media(max-width:640px){.section-tracker{display:none}}
 ```
 
+- [ ] **Step 5b: Add assessment greeting style**
+
+Add after the `.assess-retake` block (~line 199):
+```css
+.assess-greeting{font-family:var(--mono);font-size:.72rem;color:var(--g500);margin:16px 0 -16px;padding:0 4px}
+```
+
 - [ ] **Step 6: Add philosopher page filter styles**
 
 ```css
@@ -178,7 +193,15 @@ Add before the FOOTER section (~line 282):
    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
    ```
 
-   c. Add `data-page="home"` to `<body>`:
+   c. Add OpenGraph / Twitter Card meta tags after the charset line:
+   ```html
+   <meta property="og:title" content="The Future Is Solo">
+   <meta property="og:description" content="A framework for intellectual sovereignty in the agentic AI era. Assess your SSA-CMM level and find your path.">
+   <meta property="og:type" content="website">
+   <meta name="twitter:card" content="summary_large_image">
+   ```
+
+   d. Add `data-page="home"` to `<body>`:
    Change `<body>` to `<body data-page="home">`
 
    d. Add skip link as first child of `<body>`:
@@ -198,23 +221,35 @@ Add before the FOOTER section (~line 282):
    </nav>
    ```
 
-   g. Update Thinkific links with UTM params:
+   g. Add OpenGraph / Twitter Card meta tags after the favicon link (see per-page OG values above).
+
+   h. Update Thinkific links with UTM params:
    - `https://mesolitica.thinkific.com/products/digital_downloads/tfis-whitepaper` → `https://mesolitica.thinkific.com/products/digital_downloads/tfis-whitepaper?utm_source=tfis&utm_medium=site&utm_campaign=ssa-assessment&utm_content=whitepaper` (appears in nav, hero, footer)
    - `https://mesolitica.thinkific.com` → `https://mesolitica.thinkific.com?utm_source=tfis&utm_medium=site&utm_campaign=ssa-assessment&utm_content=course` (the course link)
 
 - [ ] **Step 2: Edit `functional-life.html`**
 
-   Same changes as Step 1a through 1e (remove fonts, add favicon, `data-page="functional-life"`, skip-link, main-content id).
+   Same as Step 1a through 1e (remove fonts, add favicon, `data-page="functional-life"`, skip-link, main-content id). Add OG meta:
+   ```html
+   <meta property="og:title" content="The Functional Life · TFIS">
+   <meta property="og:description" content="Aristotle supplies the structure. Feynman supplies the method. The SSA supplies the practice. Field Manual Nº 01.">
+   <meta property="og:type" content="article">
+   <meta name="twitter:card" content="summary_large_image">
+   ```
    
-   Update Thinkific links with UTM params (same as Step 1g).
+   Update Thinkific links with UTM params (same as Step 1h).
    
    No section tracker (essay pages don't get it).
 
 - [ ] **Step 3: Edit `meaning-of-life.html`**
 
-   Same as Step 2 (fonts, favicon, skip link, `data-page="meaning-of-life"`, main-content).
-   
-   Update Thinkific links with UTM params.
+   Same as Step 2 (fonts, favicon, skip link, `data-page="meaning-of-life"`, main-content). Add OG meta:
+   ```html
+   <meta property="og:title" content="The Meaning of Life · TFIS">
+   <meta property="og:description" content="Khalil Nooh responds to 2,500 years of philosophy. A techno-optimist's answer to WITMOLv2.">
+   <meta property="og:type" content="article">
+   <meta name="twitter:card" content="summary_large_image">
+   ```
    
    **Additional change:** Replace the "Show all 50 philosophers" toggle with a link to the new `/philosophers.html` page:
    
@@ -298,7 +333,25 @@ Add before the FOOTER section (~line 282):
 </section>
 </main>
 
-<footer>...</footer>
+<footer>
+  <div class="container">
+    <div class="f-inner">
+      <span class="f-copy">TFIS · The Future Is Solo</span>
+      <div class="f-links">
+        <a href="/">Home</a>
+        <a href="functional-life.html">Functional Life</a>
+        <a href="meaning-of-life.html">Meaning of Life</a>
+        <a href="mailto:khalil@mesolitica.com">Contact</a>
+      </div>
+      <span class="f-copy">© 2026 · Khalil Nooh</span>
+    </div>
+    <div class="f-cta">
+      <a href="/">Assess your SSA Level</a>
+      <span style="margin:0 8px">·</span>
+      <a href="https://mesolitica.thinkific.com/products/digital_downloads/tfis-whitepaper?utm_source=tfis&utm_medium=site&utm_campaign=ssa-assessment&utm_content=whitepaper" target="_blank" rel="noopener">Download Whitepaper ↗</a>
+    </div>
+  </div>
+</footer>
 
 <script src="shared.js"></script>
 </body>
@@ -388,15 +441,24 @@ d. Add an auto-restore function called at the end of `initAssessment`:
 function restoreSavedAssessment() {
   try {
     const level = localStorage.getItem(ASSESS_KEY);
+    const name = localStorage.getItem(ASSESS_NAME_KEY);
     const ts = localStorage.getItem(ASSESS_TS_KEY);
-    if (level !== null && ts !== null && (Date.now() - Number(ts)) < ASSESS_TTL) {
-      // Hide intro, show result
+    if (level !== null && name !== null && ts !== null && (Date.now() - Number(ts)) < ASSESS_TTL) {
+      // Hide intro, show result with retake line
       const intro = document.querySelector('.assess-intro');
       const retake = document.getElementById('retakeAssess');
       if (intro) intro.style.display = 'none';
       if (retake) retake.style.display = 'inline';
       showResultForLevel(Number(level));
-      // Also highlight the ladder item
+      // Show a subtle "You last scored ..." line above the result
+      const result = document.getElementById('assessResult');
+      if (result) {
+        const greeting = document.createElement('p');
+        greeting.className = 'assess-greeting';
+        greeting.textContent = `You last scored L${level} · ${name}`;
+        result.parentNode.insertBefore(greeting, result);
+      }
+      // Highlight the ladder item
       const el = document.querySelector(`#ssaLadder li[data-level="${level}"]`);
       if (el) el.classList.add('active');
     }
