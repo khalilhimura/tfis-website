@@ -1,0 +1,226 @@
+{
+  "meta": {
+    "title": "TFIS Site Architecture",
+    "quality_profile": "showcase",
+    "locale": "en",
+    "viewBox": [0, 0, 1280, 900]
+  },
+  "nodes": [
+    {
+      "id": "browser",
+      "type": "frontend",
+      "label": "Browser",
+      "description": "Visitor's web browser — receives pre-rendered static HTML with inline JS/CSS",
+      "variant": "default"
+    },
+    {
+      "id": "edge-cdn",
+      "type": "cloud",
+      "label": "Cloudflare Edge",
+      "description": "CDN, DNS, SSL termination — static asset delivery via Cloudflare global network",
+      "variant": "default"
+    },
+    {
+      "id": "astro-ssg",
+      "type": "backend",
+      "label": "Astro SSG",
+      "description": "Build-time static site generator — Astro 7 with file-format output (.html extension)",
+      "variant": "emphasis"
+    },
+    {
+      "id": "content-collections",
+      "type": "database",
+      "label": "Content Collections",
+      "description": "Astro content layer: 50 philosopher entries + 1 writing post as local Markdown with Zod schema validation",
+      "variant": "default"
+    },
+    {
+      "id": "design-system",
+      "type": "frontend",
+      "label": "Design System",
+      "description": "CSS custom properties, 2 self-hosted fonts (Atkinson / JetBrains Mono), responsive layout tokens, dark/light theme",
+      "variant": "default"
+    },
+    {
+      "id": "client-js",
+      "type": "frontend",
+      "label": "Client JS Runtime",
+      "description": "Vanilla JS: dark mode toggle, SSA-CMM self-assessment wizard, mobile nav, section tracker, philosopher search",
+      "variant": "default"
+    },
+    {
+      "id": "rss-feed",
+      "type": "backend",
+      "label": "RSS / Atom Feed",
+      "description": "@astrojs/rss generates /feed.xml with writing posts + static essay entries",
+      "variant": "default"
+    },
+    {
+      "id": "dynamic-routes",
+      "type": "backend",
+      "label": "Dynamic Routes",
+      "description": "[...slug] catch-all routes for philosopher detail pages and writing posts — pre-rendered at build time",
+      "variant": "dashed"
+    },
+    {
+      "id": "external-services",
+      "type": "external",
+      "label": "External Services",
+      "description": "Thinkific (course / whitepaper CTA), Cloudflare Browser Insights, mailto contact",
+      "variant": "default"
+    },
+    {
+      "id": "local-storage",
+      "type": "database",
+      "label": "localStorage",
+      "description": "Client-side persistence for theme preference and SSA assessment results (30-day TTL)",
+      "variant": "dashed"
+    },
+    {
+      "id": "layouts",
+      "type": "backend",
+      "label": "Layout Components",
+      "description": "BaseLayout.astro provides nav, footer, theme support, SEO meta, skip link across all pages",
+      "variant": "default"
+    }
+  ],
+  "relationships": [
+    {
+      "id": "req-from-browser",
+      "source": "browser",
+      "target": "edge-cdn",
+      "label": "HTTPS requests",
+      "kind": "solid",
+      "description": "Page loads, asset fetches — served from edge cache"
+    },
+    {
+      "id": "serve-static",
+      "source": "edge-cdn",
+      "target": "browser",
+      "label": "Pre-built HTML / CSS / JS",
+      "kind": "solid",
+      "description": "Static files delivered by CDN; core artifacts from the build output"
+    },
+    {
+      "id": "build-pages",
+      "source": "astro-ssg",
+      "target": "edge-cdn",
+      "label": "Build output → deploy",
+      "kind": "solid",
+      "description": "astro build generates static files deployed to Cloudflare Pages or similar"
+    },
+    {
+      "id": "consume-content",
+      "source": "astro-ssg",
+      "target": "content-collections",
+      "label": "Reads at build time",
+      "kind": "solid",
+      "description": "getCollection() loads philosopher and writing entries during static generation"
+    },
+    {
+      "id": "emit-pages",
+      "source": "astro-ssg",
+      "target": "dynamic-routes",
+      "label": "Generates per-slug pages",
+      "kind": "dashed",
+      "description": "[...slug].astro routes produce individual HTML files for each content entry"
+    },
+    {
+      "id": "gen-rss",
+      "source": "rss-feed",
+      "target": "content-collections",
+      "label": "Reads writing collection",
+      "kind": "dashed",
+      "description": "feed.xml.ts queries the writing collection + adds static essay entries"
+    },
+    {
+      "id": "styles-to-pages",
+      "source": "design-system",
+      "target": "astro-ssg",
+      "label": "Imported into layouts",
+      "kind": "solid",
+      "description": "shared.css bundled into every page via BaseLayout"
+    },
+    {
+      "id": "js-to-pages",
+      "source": "client-js",
+      "target": "astro-ssg",
+      "label": "Inlined via layout script",
+      "kind": "solid",
+      "description": "shared.js loaded as is:inline script in the layout head"
+    },
+    {
+      "id": "cta-external",
+      "source": "external-services",
+      "target": "browser",
+      "label": "UTM-tracked referrals",
+      "kind": "dashed",
+      "description": "Links to Thinkific course/whitepaper, Cloudflare beacon, mailto"
+    },
+    {
+      "id": "persist-client",
+      "source": "client-js",
+      "target": "local-storage",
+      "label": "Stores theme & assessment",
+      "kind": "dashed",
+      "description": "tfis-theme and tfis-assessment-* keys persist across sessions"
+    },
+    {
+      "id": "read-cached",
+      "source": "local-storage",
+      "target": "client-js",
+      "label": "Restores on page load",
+      "kind": "dashed",
+      "description": "initTheme() and restoreSavedAssessment() read stored values"
+    },
+    {
+      "id": "embedded-in-pages",
+      "source": "layouts",
+      "target": "astro-ssg",
+      "label": "Wraps all page content",
+      "kind": "solid",
+      "description": "BaseLayout wraps every route at build time"
+    }
+  ],
+  "cards": [
+    {
+      "id": "card-ssa",
+      "title": "SSA-CMM Self-Assessment",
+      "content": "Interactive 5-question wizard on the home page evaluates AI maturity from L0 (Task Operator) to L5 (Sovereign Architect). Scored client-side; result restorable from localStorage for 30 days. Redirects to Thinkific course or whitepaper based on level."
+    },
+    {
+      "id": "card-content",
+      "title": "Content Architecture",
+      "content": "Two Astro content collections with Zod schema validation. Philosophers collection (50 entries) drives an index page with client-side search filtering and per-philosopher detail routes. Writing collection (1 entry so far) with tag support drives the writing index and RSS feed."
+    },
+    {
+      "id": "card-build",
+      "title": "Build & Deploy Pipeline",
+      "content": "Astro 7 with 'static' output mode and 'file' format produces .html extension files. @astrojs/rss generates the Atom feed. Output is deployed to Cloudflare Pages or any static host. Node 22+ required. Site domain: thefutureissolo.com."
+    },
+    {
+      "id": "card-design",
+      "title": "Design System Details",
+      "content": "Self-hosted Atkinson Hyperlegible (body) and JetBrains Mono (code/ui) fonts. CSS custom properties for all tokens. Dark/light mode respects system preference, persists to localStorage, and toggles via button. Accent: #c8511e. 720px max-width reading container."
+    },
+    {
+      "id": "card-philosophy",
+      "title": "TFIS Philosophical Stack",
+      "content": "Five Pillars: Agency, Clarity, Competence, Accountability, Security. Three OS components: TaskVal (cognitive ROI scoring), SovMem (durable memory vault), obra/superpowers (shipping discipline). Aim: one-person enterprise by 2030 (coinciding with projected AGI)."
+    }
+  ],
+  "boundaries": [
+    {
+      "id": "browser-boundary",
+      "label": "Browser / Client",
+      "nodes": ["browser", "client-js", "design-system", "local-storage"],
+      "style": "dashed"
+    },
+    {
+      "id": "build-boundary",
+      "label": "Build Time (SSG)",
+      "nodes": ["astro-ssg", "content-collections", "dynamic-routes", "rss-feed", "layouts"],
+      "style": "solid"
+    }
+  ]
+}

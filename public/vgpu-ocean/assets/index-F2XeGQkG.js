@@ -1,0 +1,1 @@
+import{c as a}from"./index-1X9pyYcG.js";import{V as f,a as c,d as p,e as m,f as i,s as n,b as u,t as b}from"./index-1X9pyYcG.js";function s(r){return a("browser",r)}export{f as VGPUError,c as clock,p as draw,m as effect,i as frameLoop,s as init,n as sampler,u as surface,b as target};
