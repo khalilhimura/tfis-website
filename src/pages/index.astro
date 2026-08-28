@@ -1,12 +1,93 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+
+// Deterministic seeded random for SVG node positions — changes each build
+function seededRandom(seed: number) {
+  let s = seed;
+  return () => { s = (s * 16807 + 0) % 2147483647; return (s - 1) / 2147483646; };
+}
+const rand = seededRandom(Date.now());
+function randBetween(min: number, max: number) { return min + rand() * (max - min); }
+
+// Generate 6 nodes with 4 varying sizes
+const NODE_COUNT = 6;
+const SIZE_POOL = [12, 18, 24, 30]; // 4 sizes
+const nodes = Array.from({ length: NODE_COUNT }, (_, i) => ({
+  cx: randBetween(80, 320),
+  cy: randBetween(40, 460),
+  r: SIZE_POOL[i % 4],
+  sw: randBetween(0.8, 1.6),
+}));
+
+// Connect nearby nodes — max 3 connections per node, min 1 each
+const lines: { x1: number; y1: number; x2: number; y2: number; sw: number }[] = [];
+const connectionCounts = new Array(NODE_COUNT).fill(0);
+const edges: { i: number; j: number; dist: number }[] = [];
+for (let i = 0; i < nodes.length; i++) {
+  for (let j = i + 1; j < nodes.length; j++) {
+    const dx = nodes[i].cx - nodes[j].cx;
+    const dy = nodes[i].cy - nodes[j].cy;
+    const dist = Math.sqrt(dx * dx + dy * dy);
+    if (dist < 180) edges.push({ i, j, dist });
+  }
+}
+// Sort by distance (shortest first) then add until each node hits 3 connections
+edges.sort((a, b) => a.dist - b.dist);
+const MAX_CONNECTIONS = 3;
+for (const { i, j } of edges) {
+  if (connectionCounts[i] >= MAX_CONNECTIONS || connectionCounts[j] >= MAX_CONNECTIONS) continue;
+  lines.push({ x1: nodes[i].cx, y1: nodes[i].cy, x2: nodes[j].cx, y2: nodes[j].cy, sw: randBetween(0.4, 1.0) });
+  connectionCounts[i]++;
+  connectionCounts[j]++;
+}
+// Ensure every node has at least 1 connection — connect to nearest unconnected
+for (let i = 0; i < nodes.length; i++) {
+  if (connectionCounts[i] > 0) continue;
+  let best = -1, bestDist = Infinity;
+  for (let j = 0; j < nodes.length; j++) {
+    if (i === j || connectionCounts[j] >= MAX_CONNECTIONS) continue;
+    const dx = nodes[i].cx - nodes[j].cx;
+    const dy = nodes[i].cy - nodes[j].cy;
+    const dist = Math.sqrt(dx * dx + dy * dy);
+    if (dist < bestDist) { best = j; bestDist = dist; }
+  }
+  if (best >= 0) {
+    lines.push({ x1: nodes[i].cx, y1: nodes[i].cy, x2: nodes[best].cx, y2: nodes[best].cy, sw: randBetween(0.4, 1.0) });
+    connectionCounts[i]++;
+    connectionCounts[best]++;
+  }
+}
+
+// Optional concentric rings around first 2 nodes
+const rings = nodes.slice(0, 2).map(n => ({
+  cx: n.cx,
+  cy: n.cy,
+  r: n.r + randBetween(8, 24),
+  sw: randBetween(0.2, 0.5),
+  dash: `${randBetween(2, 5)} ${randBetween(3, 8)}`,
+}));
 ---
 
-<BaseLayout title="The Future Is Solo" description="The Future Is Solo — a framework for intellectual sovereignty in the agentic AI era. Assess your SSA-CMM level and find your path." page="home">
+<BaseLayout title="The Future Is Solo" description="The Future Is Solo: a framework for intellectual sovereignty in the agentic AI era. Assess your SSA-CMM level and find your path." page="home">
   <!-- ═══════ HERO ═══════ -->
   <section class="hero">
+    <div class="hero-visual">
+      <div class="grid-lines" aria-hidden="true"></div>
+      <iframe src="/vgpu-ocean/index.html" class="hero-ocean" title="Ocean particle simulation background" aria-hidden="true" referrerpolicy="no-referrer" allow="webgpu"></iframe>
+      <svg viewBox="0 0 400 500" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        {lines.map(l => (
+          <line x1={l.x1.toFixed(1)} y1={l.y1.toFixed(1)} x2={l.x2.toFixed(1)} y2={l.y2.toFixed(1)} stroke="currentColor" stroke-width={l.sw.toFixed(1)}/>
+        ))}
+        {nodes.map(n => (
+          <circle cx={n.cx.toFixed(1)} cy={n.cy.toFixed(1)} r={n.r.toFixed(1)} stroke="currentColor" stroke-width={n.sw.toFixed(1)} fill="none"/>
+        ))}
+        {rings.map(r => (
+          <circle cx={r.cx.toFixed(1)} cy={r.cy.toFixed(1)} r={r.r.toFixed(1)} stroke="currentColor" stroke-width={r.sw.toFixed(1)} stroke-dasharray={r.dash} fill="none"/>
+        ))}
+      </svg>
+    </div>
     <div class="container--wide">
-      <p class="hero-stamp">A Framework for Intellectual Sovereignty</p>
+      <p class="hero-stamp"><span class="dot" aria-hidden="true"></span>A Framework for Intellectual Sovereignty<span class="cursor" aria-hidden="true"></span></p>
       <h1>The Future<br>Is <em>Solo</em></h1>
       <p class="hero-sub">
         One person can now do the work of an entire organisation — through AI agents, automation,
@@ -23,10 +104,10 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     </div>
   </section>
 
-  <!-- ═══════ THE PROBLEM — Drift ═══════ -->
-  <section id="thesis">
+  <!-- ═══════ THE PROBLEM: Drift ═══════ -->
+  <section id="thesis" class="fade-in">
     <div class="container">
-      <p class="num-stamp">01 The Problem</p>
+      <p class="num-stamp">The Problem</p>
       <h2>The playing field didn't level. It <em>inverted</em>.</h2>
       <p>
         Leverage that once belonged only to institutions now fits in a single mind's command.
@@ -68,10 +149,9 @@ import BaseLayout from '../layouts/BaseLayout.astro';
   </section>
 
   <!-- ═══════ SSA-CMM LADDER + SELF-ASSESSMENT ═══════ -->
-  <section id="ladder">
+  <section id="ladder" class="fade-in">
     <div class="container">
-      <p class="num-stamp">02 Where Are You?</p>
-      <h2>The Solo Systems Architect — <em>Capability Maturity Model</em> <span style="font-weight:400;font-size:.68em;color:var(--g400)">(SSA‑CMM)</span></h2>
+      <h2>The Solo Systems Architect — <em>Capability Maturity Model</em> <span style="font-weight:400;font-size:.68em;color:var(--g400)">(SSA-CMM)</span></h2>
       <p>
         AI alone creates output. SSA architecture creates leverage. The SSA-CMM measures the climb from operator to sovereign infrastructure.
         It's not what AI you use — it's how much of your <strong>judgment survives contact with your tools</strong>.
@@ -123,9 +203,9 @@ import BaseLayout from '../layouts/BaseLayout.astro';
   </section>
 
   <!-- ═══════ THE FIVE PILLARS + OS ═══════ -->
-  <section id="pillars">
+  <section id="pillars" class="fade-in">
     <div class="container">
-      <p class="num-stamp">03 The Framework</p>
+      <p class="num-stamp">The Framework</p>
       <h2>The Five Pillars of <em>Sovereignty</em></h2>
       <p>Interdependent — weaken one, and all the others suffer. Each pillar maps to a discipline of the Solo Systems Architect (SSA).</p>
 
@@ -170,38 +250,45 @@ import BaseLayout from '../layouts/BaseLayout.astro';
         </div>
       </div>
 
-      <p class="num-stamp" style="margin-top:36px">TFIS Operating System</p>
-      <h3>Three integrated components</h3>
-      <p>That turn the philosophy into daily practice.</p>
-      <div class="card-grid card-grid-3">
+      <div class="card-grid card-grid-2" style="margin-top:32px">
+        <div class="card" style="padding:0;overflow:hidden;border:none">
+          <img src="https://picsum.photos/seed/tfis-architecture/760/380" alt="Abstract network architecture visualization" style="width:100%;height:auto;display:block;border-radius:var(--r-sm)" loading="lazy">
+        </div>
+        <div style="display:flex;flex-direction:column;justify-content:center">
+          <h3 style="margin-top:0">Three integrated components</h3>
+          <p>That turn the philosophy into daily practice.</p>
+        </div>
+      </div>
+
+      <div class="card-grid card-grid-3" style="margin-top:8px">
         <div class="card">
           <p class="os-tagline">Cognitive capacity as a portfolio.</p>
           <h4>TaskVal</h4>
           <p>Every task triaged — Eliminate, Automate, Delegate, Execute — and scored by return on cognitive capital.</p>
-          <code class="os-code">ROI = (F + S + D + H) ÷ (T × C × S)</code>
+          <code class="os-code">ROI = (F + S + D + H) / (T x C x S)</code>
         </div>
         <div class="card">
           <p class="os-tagline">The extended mind.</p>
           <h4>SovMem</h4>
           <p>A memory vault and context graph that hold what matters across sessions and harnesses.</p>
-          <code class="os-code">Local-first · plain-text · link liberally</code>
+          <code class="os-code">Local-first . plain-text . link liberally</code>
         </div>
         <div class="card">
           <p class="os-tagline">Shipping as a skill.</p>
           <h4>obra/superpowers</h4>
           <p>The sovereign individual ships — consistently, accountably, securely. 0.1 over version never.</p>
-          <code class="os-code">Ship → iterate → improve</code>
+          <code class="os-code">Ship - iterate - improve</code>
         </div>
       </div>
 
-      <!-- Architecture — collapsible -->
+      <!-- Architecture: collapsible -->
       <button class="reveal-trigger" onclick="toggleArch()" id="archToggle">+ How It Works (Architecture)</button>
       <div class="arch-reveal" id="archReveal">
         <p>Independent agent harnesses share a single canonical vault and coordinate through scoped write lanes.</p>
         <div class="arch-core">
           <span class="arch-core-label">Canonical Vault</span>
           <span class="arch-core-name">audy-vault</span>
-          <span class="arch-core-note">single source of truth · synced by AudySync</span>
+          <span class="arch-core-note">single source of truth . synced by AudySync</span>
         </div>
         <div class="arch-harnesses">
           <div class="arch-card"><h4>OpenClaw</h4><p>Primary orchestrator — multi-channel gateway running Audy &amp; Charles.</p></div>

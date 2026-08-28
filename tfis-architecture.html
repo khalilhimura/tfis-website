@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TFIS Site Architecture</title>
+<style>
+/* ═══════════════════════════════════════════════════════════════════
+   TFIS Architecture Diagram · Standalone Viewer
+   ═══════════════════════════════════════════════════════════════════ */
+
+/* ─── Design Tokens ─── */
+:root {
+  --bg:          #fafafa;
+  --panel-bg:    #ffffff;
+  --text:        #1a1a1a;
+  --text-muted:  #777;
+  --border:      #e6e6e6;
+  --border-strong: #ccc;
+  --accent:      #c8511e;
+  --accent-light:#faf0eb;
+  --accent-dim:  #f5e0d0;
+  --g200:        #e6e6e6;
+  --g300:        #ccc;
+  --g400:        #777;
+  --g500:        #999;
+  --g800:        #555;
+  --g900:        #333;
+  --frontend-bg: #e8f4fd;
+  --frontend-border: #4a9dd4;
+  --backend-bg:  #f0eefb;
+  --backend-border: #7c6cd4;
+  --database-bg: #fdf6e3;
+  --database-border: #b58900;
+  --cloud-bg:    #e0f0f0;
+  --cloud-border:#2aa198;
+  --external-bg: #f5f5f5;
+  --external-border: #666;
+  --sans:  'Atkinson Hyperlegible', -apple-system, BlinkMacSystemFont, sans-serif;
+  --mono:  'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+
+[data-theme="dark"] {
+  --bg:          #111;
+  --panel-bg:    #1a1a1a;
+  --text:        #eee;
+  --text-muted:  #888;
+  --border:      #2a2a2a;
+  --border-strong: #444;
+  --accent-light:#2a1a10;
+  --accent-dim:  #3a2510;
+  --g200:        #2a2a2a;
+  --g300:        #444;
+  --g400:        #888;
+  --g500:        #999;
+  --g800:        #bbb;
+  --g900:        #ddd;
+  --frontend-bg: #0a1a2a;
+  --frontend-border: #4a9dd4;
+  --backend-bg:  #14102a;
+  --backend-border: #7c6cd4;
+  --database-bg: #1a1a00;
+  --database-border: #b58900;
+  --cloud-bg:    #001a1a;
+  --cloud-border:#2aa198;
+  --external-bg: #222;
+  --external-border: #888;
+}
+
+/* ─── Reset ─── */
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+html{font-size:16px;scroll-behavior:smooth}
+body{
+  font-family:var(--sans);
+  background:var(--bg);
+  color:var(--text);
+  min-height:100vh;
+  display:flex;
+  flex-direction:column;
+  transition:background .3s,color .3s;
+}
+
+/* ─── Layout ─── */
+.container{max-width:1360px;margin:0 auto;padding:0 28px;width:100%}
+
+/* ─── Header ─── */
+header{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:20px 0;
+  border-bottom:1px solid var(--border);
+  margin-bottom:28px;
+}
+header h1{
+  font-size:1.15rem;
+  font-weight:700;
+  letter-spacing:-.02em;
+}
+header h1 em{font-style:normal;color:var(--accent)}
+.header-meta{font-family:var(--mono);font-size:.6rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:.08em}
+.theme-toggle{
+  background:none;border:1px solid var(--border-strong);border-radius:4px;
+  cursor:pointer;padding:6px 12px;font-size:.8rem;color:var(--text);
+  transition:all .2s;font-family:var(--mono);
+}
+.theme-toggle:hover{border-color:var(--accent);color:var(--accent)}
+
+/* ─── Diagram Panel ─── */
+.diagram-panel{
+  background:var(--panel-bg);
+  border:1px solid var(--border);
+  border-radius:8px;
+  padding:40px 32px 32px;
+  margin-bottom:28px;
+  overflow:visible;
+}
+
+/* ─── SVG Diagram ─── */
+.diagram-svg{width:100%;height:auto;display:block}
+.diagram-svg text{font-family:var(--sans);fill:var(--text);transition:fill .3s}
+.diagram-svg .mono{font-family:var(--mono)}
+.diagram-svg .label{font-size:13px;font-weight:600}
+.diagram-svg .sublabel{font-size:10px;fill:var(--text-muted)}
+.diagram-svg .desc-label{font-size:9px;fill:var(--text-muted);font-style:italic}
+
+/* Node rects */
+.node-rect{stroke-width:2;transition:all .3s}
+.node-rect:hover{filter:drop-shadow(0 2px 8px rgba(0,0,0,.15));cursor:default}
+.node-rect.type-frontend{fill:var(--frontend-bg);stroke:var(--frontend-border)}
+.node-rect.type-backend{fill:var(--backend-bg);stroke:var(--backend-border)}
+.node-rect.type-database{fill:var(--database-bg);stroke:var(--database-border)}
+.node-rect.type-cloud{fill:var(--cloud-bg);stroke:var(--cloud-border)}
+.node-rect.type-external{fill:var(--external-bg);stroke:var(--external-border)}
+.node-rect.type-backend.emphasis{stroke-width:3;stroke:var(--accent)}
+.node-rect.variant-dashed{stroke-dasharray:6,3}
+
+/* Relationship arrows */
+.rel-line{stroke:var(--g500);stroke-width:1.5;fill:none;transition:stroke .3s}
+.rel-line.solid{stroke-dasharray:none}
+.rel-line.dashed{stroke-dasharray:5,4}
+.rel-arrow{fill:var(--g500);transition:fill .3s}
+.rel-label{font-family:var(--mono);font-size:9px;fill:var(--g800);text-anchor:middle}
+
+/* Boundaries */
+.boundary-rect{fill:none;stroke-width:1.5;rx:6}
+.boundary-rect.solid{stroke:var(--border-strong);stroke-dasharray:none}
+.boundary-rect.dashed{stroke:var(--g300);stroke-dasharray:8,4}
+.boundary-label{font-family:var(--mono);font-size:10px;fill:var(--text-muted);text-transform:uppercase;letter-spacing:.06em}
+
+/* ─── Cards Section ─── */
+.cards-section{margin:24px 0 32px}
+.cards-section h2{
+  font-size:.85rem;
+  font-weight:700;
+  letter-spacing:-.01em;
+  margin-bottom:18px;
+  display:flex;
+  align-items:center;
+  gap:8px;
+}
+.cards-section h2 span{font-family:var(--mono);font-size:.55rem;color:var(--text-muted);font-weight:400}
+.cards-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit, minmax(280px, 1fr));
+  gap:16px;
+}
+.card{
+  background:var(--panel-bg);
+  border:1px solid var(--border);
+  border-radius:6px;
+  padding:20px;
+  transition:border-color .2s;
+}
+.card:hover{border-color:var(--accent)}
+.card h3{
+  font-size:.78rem;
+  font-weight:700;
+  margin-bottom:8px;
+  color:var(--accent);
+}
+.card p{
+  font-size:.78rem;
+  line-height:1.55;
+  color:var(--g800);
+  max-width:48ch;
+}
+.card .card-tag{
+  display:inline-block;
+  font-family:var(--mono);
+  font-size:.55rem;
+  text-transform:uppercase;
+  letter-spacing:.06em;
+  color:var(--accent);
+  background:var(--accent-light);
+  padding:2px 8px;
+  border-radius:2px;
+  margin-bottom:8px;
+}
+
+/* ─── Footer ─── */
+footer{
+  margin-top:auto;
+  padding:24px 0;
+  text-align:center;
+  font-family:var(--mono);
+  font-size:.6rem;
+  color:var(--text-muted);
+  border-top:1px solid var(--border);
+}
+footer a{color:var(--accent);text-decoration:none}
+
+/* ─── Legend ─── */
+.legend{
+  display:flex;
+  flex-wrap:wrap;
+  gap:16px;
+  margin-bottom:20px;
+  padding:12px 16px;
+  background:var(--bg);
+  border-radius:6px;
+  font-size:.7rem;
+}
+.legend-item{display:flex;align-items:center;gap:6px}
+.legend-swatch{
+  width:12px;height:12px;border-radius:3px;border:2px solid;
+}
+.legend-line{width:20px;height:0;border-top:2px solid var(--g500);position:relative}
+.legend-line.dashed{border-top-style:dashed}
+.legend-line::after{
+  content:'';position:absolute;right:-3px;top:-4px;
+  width:0;height:0;
+  border:4px solid transparent;border-left-color:var(--g500);
+}
+
+/* ─── Responsive ─── */
+@media(max-width:768px){
+  .container{padding:0 16px}
+  .diagram-panel{padding:20px 12px}
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+  <!-- Header -->
+  <header>
+    <div>
+      <h1>TFIS <em>Site Architecture</em></h1>
+      <div class="header-meta">Architecture Diagram · 11 Components · thefutureissolo.com</div>
+    </div>
+    <button class="theme-toggle" id="themeToggle" onclick="toggleTheme()">🌙 Dark</button>
+  </header>
+
+  <!-- Legend -->
+  <div class="legend">
+    <span style="font-weight:700;font-size:.65rem;text-transform:uppercase;letter-spacing:.06em;color:var(--text-muted)">Legend</span>
+    <div class="legend-item"><span class="legend-swatch" style="background:var(--frontend-bg);border-color:var(--frontend-border)"></span> Frontend</div>
+    <div class="legend-item"><span class="legend-swatch" style="background:var(--backend-bg);border-color:var(--backend-border)"></span> Backend / Build</div>
+    <div class="legend-item"><span class="legend-swatch" style="background:var(--database-bg);border-color:var(--database-border)"></span> Data / Storage</div>
+    <div class="legend-item"><span class="legend-swatch" style="background:var(--cloud-bg);border-color:var(--cloud-border)"></span> Edge / Cloud</div>
+    <div class="legend-item"><span class="legend-swatch" style="background:var(--external-bg);border-color:var(--external-border)"></span> External</div>
+    <div class="legend-item"><span class="legend-line"></span> Data / Request flow</div>
+    <div class="legend-item"><span class="legend-line dashed"></span> Build-time / Indirect</div>
+  </div>
+
+  <!-- Diagram -->
+  <div class="diagram-panel">
+    <svg class="diagram-svg" viewBox="0 0 1220 760" xmlns="http://www.w3.org/2000/svg" font-family="'Atkinson Hyperlegible',-apple-system,sans-serif">
+
+      <!-- definitions -->
+      <defs>
+        <marker id="arrow-solid" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+          <path d="M0,1 L9,5 L0,9 Z" fill="var(--g500)" class="rel-arrow"/>
+        </marker>
+        <marker id="arrow-dashed" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+          <path d="M0,1 L9,5 L0,9 Z" fill="var(--g500)" class="rel-arrow"/>
+        </marker>
+        <filter id="shadow"><feDropShadow dx="0" dy="1" stdDeviation="2" flood-opacity=".1"/></filter>
+      </defs>
+
+      <!-- ═══════ BOUNDARIES ═══════ -->
+
+      <!-- Build-Time Boundary -->
+      <rect x="32" y="280" width="700" height="450" rx="8" fill="none" stroke="var(--border-strong)" stroke-width="1.5" stroke-dasharray="8,4" opacity=".6"/>
+      <text x="44" y="300" font-size="10" font-family="'JetBrains Mono',monospace" fill="var(--text-muted)" text-transform="uppercase" letter-spacing=".08em" opacity=".7">Build-Time (SSG) Boundary</text>
+
+      <!-- Browser/Client Boundary -->
+      <rect x="790" y="50" width="400" height="680" rx="8" fill="none" stroke="var(--g300)" stroke-width="1.5" stroke-dasharray="6,3" opacity=".5"/>
+      <text x="800" y="72" font-size="10" font-family="'JetBrains Mono',monospace" fill="var(--text-muted)" text-transform="uppercase" letter-spacing=".08em" opacity=".7">Browser / Client Boundary</text>
+
+      <!-- ═══════ NODES ═══════ -->
+
+      <!-- 1. Browser -->
+      <g filter="url(#shadow)">
+        <rect x="830" y="90" width="200" height="60" rx="6" class="node-rect type-frontend"/>
+        <text x="930" y="118" class="label" text-anchor="middle">Browser</text>
+        <text x="930" y="136" class="sublabel" text-anchor="middle">HTTPS visitor</text>
+      </g>
+
+      <!-- 2. Edge CDN -->
+      <g filter="url(#shadow)">
+        <rect x="420" y="90" width="200" height="60" rx="6" class="node-rect type-cloud"/>
+        <text x="520" y="118" class="label" text-anchor="middle">Cloudflare Edge</text>
+        <text x="520" y="136" class="sublabel" text-anchor="middle">CDN · DNS · SSL</text>
+      </g>
+
+      <!-- 3. Astro SSG -->
+      <g filter="url(#shadow)">
+        <rect x="100" y="300" width="200" height="60" rx="6" class="node-rect type-backend emphasis"/>
+        <text x="200" y="328" class="label" text-anchor="middle" fill="var(--accent)" font-weight="700">Astro SSG</text>
+        <text x="200" y="346" class="sublabel" text-anchor="middle">Astro 7 · Static output</text>
+      </g>
+
+      <!-- 4. Content Collections -->
+      <g filter="url(#shadow)">
+        <rect x="100" y="440" width="200" height="60" rx="6" class="node-rect type-database"/>
+        <text x="200" y="468" class="label" text-anchor="middle">Content Collections</text>
+        <text x="200" y="484" class="sublabel" text-anchor="middle">50 philosophers · 1 writing</text>
+      </g>
+
+      <!-- 5. Design System -->
+      <g filter="url(#shadow)">
+        <rect x="840" y="200" width="180" height="60" rx="6" class="node-rect type-frontend"/>
+        <text x="930" y="228" class="label" text-anchor="middle">Design System</text>
+        <text x="930" y="244" class="sublabel" text-anchor="middle">CSS tokens · 2 fonts</text>
+      </g>
+
+      <!-- 6. Client JS -->
+      <g filter="url(#shadow)">
+        <rect x="840" y="310" width="180" height="60" rx="6" class="node-rect type-frontend"/>
+        <text x="930" y="338" class="label" text-anchor="middle">Client JS Runtime</text>
+        <text x="930" y="354" class="sublabel" text-anchor="middle">Assessment · Theme · Nav</text>
+      </g>
+
+      <!-- 7. RSS Feed -->
+      <g filter="url(#shadow)">
+        <rect x="100" y="560" width="200" height="60" rx="6" class="node-rect type-backend"/>
+        <text x="200" y="588" class="label" text-anchor="middle">RSS / Atom Feed</text>
+        <text x="200" y="604" class="sublabel" text-anchor="middle">@astrojs/rss</text>
+      </g>
+
+      <!-- 8. Dynamic Routes -->
+      <g filter="url(#shadow)">
+        <rect x="370" y="440" width="200" height="60" rx="6" class="node-rect type-backend variant-dashed"/>
+        <text x="470" y="468" class="label" text-anchor="middle">Dynamic Routes</text>
+        <text x="470" y="484" class="sublabel" text-anchor="middle">[...slug] catch-all</text>
+      </g>
+
+      <!-- 9. External Services -->
+      <g filter="url(#shadow)">
+        <rect x="370" y="560" width="200" height="60" rx="6" class="node-rect type-external"/>
+        <text x="470" y="588" class="label" text-anchor="middle">External Services</text>
+        <text x="470" y="604" class="sublabel" text-anchor="middle">Thinkific · Cloudflare BI</text>
+      </g>
+
+      <!-- 10. localStorage -->
+      <g filter="url(#shadow)">
+        <rect x="840" y="440" width="180" height="60" rx="6" class="node-rect type-database variant-dashed"/>
+        <text x="930" y="468" class="label" text-anchor="middle">localStorage</text>
+        <text x="930" y="484" class="sublabel" text-anchor="middle">Theme · Assessment (30d)</text>
+      </g>
+
+      <!-- 11. Layout Components -->
+      <g filter="url(#shadow)">
+        <rect x="370" y="300" width="200" height="60" rx="6" class="node-rect type-backend"/>
+        <text x="470" y="328" class="label" text-anchor="middle">Layout Components</text>
+        <text x="470" y="346" class="sublabel" text-anchor="middle">BaseLayout.astro</text>
+      </g>
+
+      <!-- ═══════ RELATIONSHIPS ═══════ -->
+
+      <!-- Browser → Edge CDN -->
+      <path d="M830,120 H640" stroke="var(--g500)" stroke-width="1.5" fill="none" marker-end="url(#arrow-solid)"/>
+      <text x="735" y="113" class="rel-label">HTTPS requests</text>
+
+      <!-- Edge CDN → Browser -->
+      <path d="M1030,120 H1100" stroke="var(--g500)" stroke-width="1.5" fill="none" marker-end="url(#arrow-solid)"/>
+      <text x="1065" y="113" class="rel-label">Pre-built HTML/CSS/JS</text>
+
+      <!-- Astro SSG → Edge CDN -->
+      <path d="M300,330 H420" stroke="var(--g500)" stroke-width="1.5" fill="none" marker-end="url(#arrow-solid)"/>
+      <text x="360" y="322" class="rel-label">Build output → deploy</text>
+
+      <!-- Astro SSG → Content Collections -->
+      <path d="M200,360 V440" stroke="var(--g500)" stroke-width="1.5" fill="none" marker-end="url(#arrow-solid)"/>
+      <text x="230" y="402" class="rel-label">getCollection()</text>
+
+      <!-- Astro SSG → Dynamic Routes -->
+      <path d="M300,330 H370" stroke="var(--g500)" stroke-width="1.5" fill="none" marker-end="url(#arrow-dashed)" stroke-dasharray="5,4"/>
+      <text x="335" y="322" class="rel-label">Generates per-slug pages</text>
+
+      <!-- Astro SSG → Layout Components -->
+      <path d="M300,330 H370" stroke="var(--g500)" stroke-width="1.5" fill="none"/>
+      <!-- label moved below -->
+
+      <!-- RSS → Content Collections -->
+      <path d="M200,560 V500" stroke="var(--g500)" stroke-width="1.5" fill="none" marker-end="url(#arrow-dashed)" stroke-dasharray="5,4"/>
+      <text x="230" y="538" class="rel-label">Reads writing collection</text>
+
+      <!-- Design System → Astro SSG -->
+      <path d="M840,230 H300" stroke="var(--g500)" stroke-width="1.5" fill="none" marker-end="url(#arrow-solid)"/>
+      <text x="570" y="222" class="rel-label">Imported into layouts</text>
+
+      <!-- Client JS → Astro SSG -->
+      <path d="M840,340 H300" stroke="var(--g500)" stroke-width="1.5" fill="none" marker-end="url(#arrow-solid)"/>
+      <text x="570" y="332" class="rel-label">Inlined via layout script</text>
+
+      <!-- Layout Components → Astro SSG -->
+      <path d="M370,330 H300" stroke="var(--g500)" stroke-width="1.5" fill="none" marker-end="url(#arrow-solid)"/>
+      <text x="335" y="305" class="rel-label" text-anchor="end">Wraps all page content</text>
+
+      <!-- External → Browser (CTA) -->
+      <path d="M570,590 H830" stroke="var(--g500)" stroke-width="1.5" fill="none" marker-end="url(#arrow-dashed)" stroke-dasharray="5,4"/>
+      <text x="700" y="582" class="rel-label">UTM-tracked referrals</text>
+
+      <!-- Client JS → localStorage -->
+      <path d="M930,370 V440" stroke="var(--g500)" stroke-width="1.5" fill="none" marker-end="url(#arrow-dashed)" stroke-dasharray="5,4"/>
+      <text x="947" y="408" class="rel-label">Stores theme &amp; assessment</text>
+
+      <!-- localStorage → Client JS -->
+      <path d="M840,470 H830" stroke="var(--g500)" stroke-width="1.5" fill="none" marker-end="url(#arrow-dashed)" stroke-dasharray="5,4"/>
+      <!-- label would collide -->
+
+      <!-- Dynamic Routes → Content Collections -->
+      <path d="M370,470 H300" stroke="var(--g500)" stroke-width="1.5" fill="none" marker-end="url(#arrow-solid)"/>
+      <text x="335" y="462" class="rel-label">Reads entry data</text>
+
+    </svg>
+  </div>
+
+  <!-- ═══════ CARDS ═══════ -->
+  <section class="cards-section">
+    <h2>Supporting Detail <span>· Cards</span></h2>
+    <div class="cards-grid">
+      <div class="card">
+        <span class="card-tag">Interactive</span>
+        <h3>SSA-CMM Self-Assessment</h3>
+        <p>5-question wizard on the home page scores AI maturity from L0 (Task Operator) to L5 (Sovereign Architect). Fully client-side — localStorage persists results for 30 days. Redirects to Thinkific course or whitepaper based on level.</p>
+      </div>
+      <div class="card">
+        <span class="card-tag">Content</span>
+        <h3>Content Architecture</h3>
+        <p>Two Astro content collections with Zod schema validation. Philosophers (50 entries) drive an index with inline search filter plus per-slug detail routes. Writing collection supports tags, reverse-chronological listing, and RSS feed generation.</p>
+      </div>
+      <div class="card">
+        <span class="card-tag">Build</span>
+        <h3>Build &amp; Deploy Pipeline</h3>
+        <p>Astro 7 with <code>output: 'static'</code> and <code>format: 'file'</code> produces <code>.html</code> extensions. @astrojs/rss generates the Atom feed. Output deploys to Cloudflare Pages (or any static host). Node 22+ required. Site domain: thefutureissolo.com.</p>
+      </div>
+      <div class="card">
+        <span class="card-tag">Design</span>
+        <h3>Design System</h3>
+        <p>Self-hosted Atkinson Hyperlegible (body) + JetBrains Mono (code/ui). CSS custom properties for all tokens. Dark/light mode respects <code>prefers-color-scheme</code>, persists to localStorage, toggles via button. Accent #c8511e, 720px reading container.</p>
+      </div>
+      <div class="card">
+        <span class="card-tag">Philosophy</span>
+        <h3>TFIS Philosophical Stack</h3>
+        <p>Five Pillars: Agency, Clarity, Competence, Accountability, Security. Three OS components: TaskVal (cognitive ROI scoring), SovMem (durable memory vault), obra/superpowers (shipping discipline). Vision: one-person enterprise by 2030.</p>
+      </div>
+    </div>
+  </section>
+</div>
+
+<footer>
+  TFIS Site Architecture &mdash; Generated from repository evidence &mdash; <a href="#" onclick="toggleTheme();return false">Toggle theme</a>
+</footer>
+
+<script>
+function toggleTheme() {
+  const html = document.documentElement;
+  const btn = document.getElementById('themeToggle');
+  const isDark = html.getAttribute('data-theme') === 'dark';
+  html.setAttribute('data-theme', isDark ? 'light' : 'dark');
+  btn.textContent = isDark ? '🌙 Dark' : '☀️ Light';
+  localStorage.setItem('tfis-diagram-theme', isDark ? 'light' : 'dark');
+}
+(function() {
+  const saved = localStorage.getItem('tfis-diagram-theme');
+  if (saved) {
+    document.documentElement.setAttribute('data-theme', saved);
+    const btn = document.getElementById('themeToggle');
+    if (btn) btn.textContent = saved === 'dark' ? '☀️ Light' : '🌙 Dark';
+  }
+})();
+</script>
+</body>
+</html>

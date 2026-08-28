@@ -18,27 +18,72 @@ function toggleTheme() {
   document.documentElement.setAttribute('data-theme', next);
   localStorage.setItem('tfis-theme', next);
   updateThemeToggle(next);
+  // Notify ocean iframe of theme change
+  const ocean = document.querySelector('.hero-ocean');
+  if (ocean && ocean.contentWindow) {
+    ocean.contentWindow.postMessage({ type: 'tfis-theme', theme: next }, '*');
+  }
 }
 
 function updateThemeToggle(theme) {
   const btn = document.getElementById('themeToggle');
-  if (btn) btn.textContent = theme === 'dark' ? '☀️' : '🌙';
+  if (!btn) return;
+  const sun = btn.querySelector('.theme-icon--sun');
+  const moon = btn.querySelector('.theme-icon--moon');
+  if (sun) sun.style.display = theme === 'dark' ? 'none' : '';
+  if (moon) moon.style.display = theme === 'dark' ? '' : 'none';
 }
 
-// ─── Nav scroll effect ───
+function updateThemeToggle(theme) {
+  const btn = document.getElementById('themeToggle');
+  if (!btn) return;
+  const sun = btn.querySelector('.theme-icon--sun');
+  const moon = btn.querySelector('.theme-icon--moon');
+  if (sun) sun.style.display = theme === 'dark' ? 'none' : '';
+  if (moon) moon.style.display = theme === 'dark' ? '' : 'none';
+}
+
+// ─── Nav scroll effect (IntersectionObserver based) ───
 function initNavScroll() {
   const nav = document.getElementById('topNav');
   if (!nav) return;
-  let ticking = false;
-  window.addEventListener('scroll', () => {
-    if (!ticking) {
-      requestAnimationFrame(() => {
-        nav.classList.toggle('scrolled', window.scrollY > 60);
-        ticking = false;
-      });
-      ticking = true;
-    }
-  });
+
+  // Use a sentinel at the top of the page to detect scroll past threshold
+  const sentinel = document.createElement('div');
+  sentinel.style.position = 'absolute';
+  sentinel.style.top = '0';
+  sentinel.style.left = '0';
+  sentinel.style.width = '1px';
+  sentinel.style.height = '1px';
+  sentinel.style.pointerEvents = 'none';
+  sentinel.style.opacity = '0';
+  document.body.prepend(sentinel);
+
+  // Second sentinel 60px down to detect when we've scrolled past threshold
+  const threshold = document.createElement('div');
+  threshold.style.position = 'absolute';
+  threshold.style.top = '60px';
+  threshold.style.left = '0';
+  threshold.style.width = '1px';
+  threshold.style.height = '1px';
+  threshold.style.pointerEvents = 'none';
+  threshold.style.opacity = '0';
+  document.body.prepend(threshold);
+
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(e => {
+      if (e.target === sentinel && !e.isIntersecting) {
+        nav.classList.add('scrolled');
+      }
+      if (e.target === threshold && e.isIntersecting) {
+        nav.classList.remove('scrolled');
+      }
+    });
+  }, { threshold: 0 });
+
+  observer.observe(sentinel);
+  observer.observe(threshold);
+
   // Set active nav link
   const page = document.body?.dataset?.page;
   if (page) {
@@ -68,7 +113,11 @@ function initMobileNav() {
 function initScrollTo() {
   window.scrollToSection = function(id) {
     const el = document.getElementById(id);
-    if (el) el.scrollIntoView({ behavior:'smooth', block:'start' });
+    if (el) {
+      const navH = window.innerWidth >= 1024 ? 100 : 64;
+      const top = el.getBoundingClientRect().top + window.scrollY - navH;
+      window.scrollTo({ top, behavior: 'smooth' });
+    }
     if (window.closeNav) window.closeNav();
   };
 }
@@ -120,7 +169,7 @@ function initAssessment() {
     'Manual performance. Output tied strictly to hours.',
     'Uses AI tools. Still the primary worker, just faster.',
     'Builds semi-automated, repeatable workflows.',
-    'Supervises multiple agents with memory. Judgment is exercised daily — and spent, not stored.',
+    'Supervises multiple agents with memory. Judgment is exercised daily, and spent, not stored.',
     'Designs autonomous multi-agent systems. Closed feedback loops with verified write-back.',
     'Owns fully autonomous cognitive infrastructure. The system compounds without you.'
   ];
@@ -166,7 +215,7 @@ function initAssessment() {
         {t:'I fix the output and move on.', s:0},
         {t:'I keep loose notes on recurring fixes.', s:1},
         {t:'Corrections get folded into prompts manually.', s:3},
-        {t:'Every verdict is captured — accept / reject / rewrite, with reason — written back to durable memory.', s:5}
+        {t:'Every verdict is captured: accept / reject / rewrite, with reason. Written back to durable memory.', s:5}
       ]}
   ];
 
@@ -295,7 +344,7 @@ function initAssessment() {
     const lvl = document.getElementById('resultLevel');
     const name = document.getElementById('resultName');
     const desc = document.getElementById('resultDesc');
-    if (lvl) lvl.textContent = '—';
+    if (lvl) lvl.textContent = '-';
     if (name) name.textContent = 'Not sure?';
     if (desc) desc.textContent = 'Every journey starts somewhere. Whether you\'re new to AI or already orchestrating agents, TFIS has a path for you.';
     const cards = document.getElementById('ctaCards');
