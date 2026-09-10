@@ -2,6 +2,8 @@
 
 *A practical blueprint for learning, building, and creating independent value with AI.*
 
+For an overview of the thesis, system architecture, and all 24 chapter artifacts, begin with the [executive summary](book/front-matter/01-executive-summary.md).
+
 ## Begin with a piece of work
 
 Think of something you would like to be able to do that you cannot yet do reliably. It might be designing a useful workshop, investigating a question for a client, publishing a careful research brief, or creating a small tool that removes a recurring frustration. Choose something whose usefulness another person could recognize. Keep it small enough that you can examine the result yourself.

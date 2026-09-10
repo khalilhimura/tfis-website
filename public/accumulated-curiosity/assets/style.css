@@ -1,4 +1,10 @@
 @font-face{font-family:Atkinson;src:url('./fonts/atkinson-hyperlegible-latin-400-normal.woff2') format('woff2');font-weight:400;font-display:swap}
+.executive-summary .prose>p:first-of-type{color:var(--muted)}
+.executive-summary .prose>p:nth-of-type(2){border-left:3px solid var(--accent-ui);padding:1rem 1.25rem;background:var(--wash);font-size:1.16rem;line-height:1.55}
+.executive-summary .prose h2{border-top:1px solid var(--rule);padding-top:1.5rem}
+.executive-summary .prose h3{color:var(--accent);margin-top:2rem}
+.executive-summary .prose table{font-size:.9rem}
+@media(max-width:600px){.executive-summary .prose table{min-width:620px}}
 @font-face{font-family:Atkinson;src:url('./fonts/atkinson-hyperlegible-latin-700-normal.woff2') format('woff2');font-weight:700;font-display:swap}
 @font-face{font-family:Atkinson;src:url('./fonts/atkinson-hyperlegible-latin-400-italic.woff2') format('woff2');font-style:italic;font-display:swap}
 @font-face{font-family:JetBrains;src:url('./fonts/jetbrains-mono-latin-500-normal.woff2') format('woff2');font-weight:500;font-display:swap}
