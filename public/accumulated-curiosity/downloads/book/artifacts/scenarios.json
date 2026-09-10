@@ -1,0 +1,47 @@
+{
+  "currency": "USD",
+  "scenarios": [
+    {
+      "id": "pilot_unit",
+      "label": "Fictional pilot unit; modeled earned revenue, no monthly overhead allocation",
+      "price": "300",
+      "attributable_variable_cash": "20",
+      "delivery_hours": "4",
+      "acquisition_hours": "2",
+      "support_hours": "1",
+      "owner_hourly_rate": "50"
+    },
+    {
+      "id": "baseline",
+      "label": "Unvalidated monthly baseline at the assumed earned price",
+      "price": "300",
+      "attributable_variable_cash": "20",
+      "delivery_hours": "4",
+      "acquisition_hours": "2",
+      "support_hours": "1",
+      "owner_hourly_rate": "50",
+      "period": {
+        "label": "month",
+        "available_hours": "160",
+        "fixed_operating_hours": "40",
+        "fixed_cash": "200"
+      }
+    },
+    {
+      "id": "proposed",
+      "label": "Unvalidated higher-price and lower-delivery-time monthly proposal",
+      "price": "750",
+      "attributable_variable_cash": "35",
+      "delivery_hours": "3",
+      "acquisition_hours": "2",
+      "support_hours": "1",
+      "owner_hourly_rate": "50",
+      "period": {
+        "label": "month",
+        "available_hours": "160",
+        "fixed_operating_hours": "40",
+        "fixed_cash": "200"
+      }
+    }
+  ]
+}

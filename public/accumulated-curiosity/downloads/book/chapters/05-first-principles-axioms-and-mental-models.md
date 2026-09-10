@@ -1,0 +1,151 @@
+# Chapter 5: First Principles, Axioms, and Mental Models
+
+*Explain how a result is supposed to happen, identify the assumptions that explanation depends on, and test one of them before building around it.*
+
+## The template that could not explain itself
+
+Maya's proposed workshop template contains a box labelled “Engagement.” In the fictional Fieldwork project, this seems like an obvious thing to include. She has participated in workshops where people were attentive and workshops where the room seemed to disappear into its phones. She wants her clients to design the first kind. When she asks an assistant to improve the template, the box acquires several recommendations: include an opening question, vary the activities, and invite participants to reflect.
+
+The recommendations sound sensible. They also leave her unable to answer a more precise question: how would any of them help a particular learner perform the task named in `workshop-brief-v1`? An opening question could reveal prior understanding, encourage conversation, or simply consume time. A reflection could help someone identify a mistake, or produce a sentence they will never use. The label has brought together activities with different purposes and hidden the differences.
+
+She removes the box temporarily. On a separate page she writes the result she wants to understand: “A learner can turn meeting notes into an action list without inventing commitments.” Chapter 4 has already given her clearer instructions and an individual attempt. She keeps those improvements. The new question concerns what happens after the attempt: does the feedback give a learner a reason they can apply to the next set of notes? This remains a proposed learning process in a fictional example, precise enough to examine.
+
+Removing the box feels less productive than adding recommendations. The document becomes shorter before it becomes better. Yet the work has changed. Maya is no longer improving the appearance of an explanation. She is trying to build an explanation she can inspect.
+
+First-principles reasoning, axioms, and mental models become useful when they reveal what a result depends on and help you test a weak assumption. This chapter's concept-deconstruction record will give you an explanation you can examine and revise.
+
+## Begin with the result, then work backward carefully
+
+For the purposes of this book, reasoning from first principles means working backward toward premises you can state and defend in the context of the problem. It does not mean that every practical question has a small set of indisputable truths waiting to be discovered. Some premises are observations, some are constraints, and some are choices about what matters. Keeping those categories visible is more useful than calling all of them fundamentals.
+
+Start with a result rather than a slogan. “Create a better workshop” leaves almost every important decision open. “Help a participant distinguish an agreed action from a suggestion in meeting notes” gives you a candidate performance to examine. The second statement is narrower, but its value still depends on whether the performance matters to the learner. Working backward does not establish demand. It clarifies what you propose to make possible.
+
+Maya writes a candidate example. “Understand effective meeting follow-up” is a topic-like intention. “Given meeting notes, produce an action list that preserves agreed commitments and marks missing owners or dates” is a task with an input and an inspectable output. She could be wrong about whether this is the right task for a workshop. She can nevertheless inspect the structure of the statement without pretending that its market value is settled.
+
+Next she asks what would have to happen for a participant to produce the output. The participant must understand the distinction, recognize examples, apply the distinction to unfamiliar notes, and explain which source statement supports each listed action. Each step creates a possible point of failure. Someone might repeat the definition accurately yet turn a suggestion into an agreed action. Someone might produce an acceptable list but give a reason that reveals a lucky guess.
+
+This is where working backward becomes practically valuable. A single word such as “understand” has been separated into things Maya can examine. She can now consider whether the workshop gives participants opportunities to attempt those things. She can also notice missing prerequisites. If a participant cannot tell what counts as an agreed action, the exercise may need a simpler example before it asks for a complex analysis.
+
+Stop decomposing when you can make a decision, design a check, or identify a specific uncertainty. For Maya, an account of the task detailed enough to expose a design failure is sufficient. When further decomposition no longer changes the next action, preserve the question and return to the work.
+
+## Separate facts, choices, constraints, and assumptions
+
+Consider the sentence “The workshop must be interactive.” It might express a customer's explicit requirement, Maya's preference, an interpretation of research, or an assumption about what participants will enjoy. Those meanings lead to different decisions. If a customer has required participation, Maya needs to understand what participation means in the agreement. If she is making a design choice, she needs to explain why that choice fits the task.
+
+Her deconstruction record therefore includes a short statement of the premise and its status. “The session lasts thirty minutes” is a constraint in the illustrative brief. “Participants already know how to distinguish an agreement from a suggestion” is an untested assumption. “Each participant should leave with a source-grounded action list” is a chosen outcome. “The supplied notes do not identify the learner's prior experience” is an observation about the current document. Putting them in separate rows prevents a confident sentence from giving them all the same authority.
+
+This practice extends the claim-evidence ledger from Chapter 2. The ledger asks whether a claim has support. The deconstruction record asks how the claim participates in a decision. A premise can be well supported yet irrelevant to the result you are designing. Conversely, a deliberately chosen constraint does not need to masquerade as an empirical discovery. You may decide that a first experiment must fit into one afternoon because that is the time you can responsibly allocate.
+
+The word “axiom” requires particular care. In a formal system, axioms are starting statements accepted within that system. In a practical project, people often use the word for a value or an operating commitment. “Preserve the source of every consequential claim” is a reasonable working commitment for Fieldwork. It does not become a universal law because Maya calls it an axiom. She should state its purpose, its scope, and what compliance would look like.
+
+A useful operating commitment creates a consequence. If Maya cannot locate the source of a consequential research claim, the claim remains provisional or is removed from the delivery. The commitment has changed behavior. A wall poster saying “Evidence matters” would allow her to proceed exactly as before. The practical test of the commitment is the decision it changes when following it is inconvenient.
+
+You should also notice conflicts between commitments. A client may need a quick preliminary answer while the relevant evidence is incomplete. Maya can preserve both timeliness and honesty by delivering a bounded provisional answer that states what remains unknown. If the consequences require stronger evidence, she may have to decline the deadline. Naming values does not eliminate trade-offs; it makes the trade-offs available for judgment.
+
+Retain these tensions in the artifact. An unresolved assumption that controls the next decision tells you where further work could matter.
+
+## Explain a mechanism without inventing one
+
+A mechanism is an account of how something brings about a result. In a practical design, it is often a proposed account rather than a demonstrated causal explanation. “The activity will improve learning” names an expected outcome. “The participant will attempt the distinction, compare the attempt with feedback, and revise the reasoning” describes a proposed process. The process is easier to examine, but describing it does not establish that it will work for a particular group.
+
+Maya draws three ordinary boxes: input, attempt, and evidence. The input is a short set of meeting notes containing suggestions, decisions, and gaps. The attempt is the participant's action list and explanation. The evidence is the difference between the explanation and the specified criteria. She adds a return arrow representing a revised attempt. This small drawing helps her see what the exercise supplies and what it expects the participant to do.
+
+Then she asks what each arrow assumes. The notes must make it possible to distinguish some commitments from suggestions while preserving genuinely unresolved items. The instructions must be understandable. The criteria must be appropriate to the task. Feedback must identify something the participant can change. A revised answer must give the participant a chance to apply the correction. If any of these assumptions fails, the diagram may remain tidy while the activity fails to teach what Maya intended.
+
+There is research support for giving serious attention to practice testing and distributed practice in learning, and a more qualified evidence base for techniques including self-explanation. Those findings do not specify the correct design of Maya's workshop. They help her ask whether participants are doing cognitively relevant work and whether her design has confused exposure with demonstrated performance. The design still needs examination in its own setting. ([Dunlosky et al., 2013](https://doi.org/10.1177/1529100612453266))
+
+The same distinction applies to an AI workflow. “The agent reads the notes and produces an accurate brief” leaves the most important operation unexplained. Which notes? How are conflicts handled? What counts as accurate? What happens when a necessary fact is missing? What evidence does the reviewer see? A system diagram becomes useful when its arrows can answer such questions or identify where the answer is not yet known.
+
+Avoid filling a gap in your explanation with language borrowed from a different level of analysis. A reference to intelligence, attention, or probability does not explain why a particular workflow dropped a requirement. The relevant cause could be a missing input, an ambiguous instruction, a poorly chosen retrieval step, or a failure to check the final file. Begin with the observable operation. Use a more general theory only when it helps you distinguish between explanations.
+
+For Fieldwork, this means keeping the proposed learning mechanism separate from the delivery mechanism. One concerns what the participant does and learns. The other concerns how Maya produces and checks the brief. An efficient delivery process can create a weak workshop. A thoughtful workshop can be delivered through an unsustainable process. The two diagrams should eventually connect, but neither should conceal the other's requirements.
+
+## Find out where your explanation runs out
+
+It is possible to feel familiar with a concept while being unable to explain its operation in detail. Rozenblit and Keil investigated this difference in judgments of explanatory understanding: attempting a detailed explanation could reveal limits that were less visible in an initial self-rating. Their experiments were not studies of contemporary AI tools or solo businesses. They provide a useful reason to make the explanatory attempt itself part of your practice. ([Rozenblit & Keil, 2002](https://doi.org/10.1207/s15516709cog2605_1))
+
+Choose a concept that matters to your project and explain it without looking at your notes. Write for a person who knows less than you do. State the starting conditions, the relevant operations, the expected result, and one circumstance in which your explanation would not apply. When you reach a gap, mark it rather than filling it with a familiar term. “This changes motivation somehow” is a useful record of an unresolved step.
+
+Maya tries this with feedback. She can name different kinds of feedback and describe the feeling of receiving it. She has more difficulty explaining what makes feedback actionable in the proposed action-list exercise. She writes that the participant needs to know which judgment was wrong, what feature of the meeting notes matters, and what a better application would require. This does not exhaust the concept. It is enough to improve the task she is designing.
+
+Next she compares her account with the feedback she has drafted for the activity. The instructions now specify the output, but the feedback tells participants only whether an entry is correct. It supplies no reason they could apply to the next set of notes. She changes the feedback so that it identifies the unsupported addition and points to the source statement. This is a practical inference about her design, not a new empirical result. The explanatory attempt has exposed the next mismatch without undoing the earlier repair.
+
+An assistant can help after you have made the attempt. Ask it to identify ambiguous terms, missing steps, and conditions under which the account could fail. Require it to distinguish a textual inconsistency from an empirical claim that needs a source. A fluent critique can invent a problem just as a fluent answer can invent a fact. You remain responsible for deciding which criticism is valid.
+
+“I can explain these two steps; I have not established the third” gives you a clear next investigation. Keep that gap visible as you revise the explanation.
+
+## Use mental models as temporary instruments
+
+A mental model is a simplified representation you use to reason about a situation. It might take the form of a process diagram, a cost equation, a comparison, or a description of how parts interact. Its usefulness depends on what it includes, what it leaves out, and whether those choices fit the decision. A model can be useful without being a complete description of reality.
+
+Maya uses a capacity model to examine the value of faster drafting. Suppose, in an illustrative scenario, an assistant can produce six candidate briefs per day while she can carefully review two. If she generates all six and leaves four unreviewed, the review queue grows by four that day. Repeating the arrangement does not create a six-brief delivery capability. It creates a growing collection of candidates waiting for judgment.
+
+The arithmetic is deliberately simple. It assumes a stable daily generation rate and review capacity, and ignores differences between briefs. Its purpose is to make one consequence visible: speeding up a step does not necessarily increase accepted delivery. Maya can now consider generating fewer candidates, narrowing the brief, improving the evidence presented for review, or changing the review process. Which choice helps depends on the actual work.
+
+A second model examines a trade-off between standardization and variation. A standard template can reduce repeated formatting decisions, but some customer problems may require a different structure. Maya could record which parts remain constant and which need adaptation. If every engagement requires rewriting the supposedly fixed section, the standardization claim needs revision. If only the examples vary, a more reusable design may be possible.
+
+Neither model establishes demand or educational effectiveness. The capacity model explains a relationship between hypothetical rates. The variation model organizes observations about repeated work. You must not let a model answer a question outside its scope simply because it is the only diagram available.
+
+Give each model a short boundary statement: “I am using this to decide whether to generate more drafts before increasing review capacity.” Then state at least one omission: “It does not include changes in task difficulty or the time required to repair a rejected brief.” These two sentences make the model easier to use responsibly and easier to replace when the decision changes.
+
+There is no benefit in memorizing a catalog of models you never apply. Begin with a problem that has resisted a clear explanation. Use the smallest representation that exposes the relevant relationship. Keep it only if it helps you predict a consequence, notice a missing variable, or choose an informative test. A model that does none of these may be an attractive annotation rather than a working instrument.
+
+## Test the assumption that controls the next decision
+
+After deconstructing a concept, you may have a long list of unknowns. The next task is to choose one that matters to an actual decision. A question can be interesting without being urgent. If Maya is deciding whether to keep an example in a workshop brief, she may need to check whether the example makes the distinction visible. She does not yet need to settle every debate about workshop delivery.
+
+Write the decision in conditional form. “If a person reading my feedback cannot explain why an entry needs revision, I will improve the feedback before adding another activity.” This statement identifies what Maya will inspect and what she will change. It does not require a numeric score pretending to provide more precision than the trial supports.
+
+Then design the smallest appropriate check. For an early desk review, Maya can give a peer the synthetic notes, a faulty action list, and the proposed feedback. She asks the peer to describe what to change and which source detail justifies the change. The response can reveal whether the feedback communicates a usable reason. It cannot establish the effectiveness of the workshop or the willingness of a customer to pay. Keeping the claim proportional to the check preserves its usefulness.
+
+If no reviewer is available, Maya can perform a limited self-check by returning to the feedback after an interval and applying its stated reason to a different example. She should record that she wrote the material and therefore brings knowledge a new participant would not have. An assistant can simulate possible misunderstandings, but those simulations remain prompts for investigation rather than observations of actual learners.
+
+Consider two possible results. A reviewer understands that the owner was invented but cannot locate the source evidence that exposes the invention. Maya should make the evidence location clearer. A reviewer can point to the source but interprets the feedback as a rule to omit all actions without owners. Maya should explain that an agreed action can remain on the list with its owner marked unknown. The failures point to different repairs, both building on the task and criteria established earlier.
+
+Keep the original version and the revision. Record what changed and why. A polished final brief does not show the path that produced it, and the path may contain the lesson you will need again. The memory arc will provide more structure for retaining that lesson. For now, a dated paragraph beside the two versions is enough.
+
+The goal of the test is not to protect the model you drew earlier. It is to find out whether the model is useful. If the result contradicts your expectation, check the observation and consider revising the model. Do not add unexplained exceptions merely to preserve a diagram you spent time making.
+
+## Work with an assistant without borrowing its certainty
+
+You can ask an assistant to help deconstruct a concept after you have recorded your own account. Supply the concept, the particular decision, your attempted explanation, and the sources or observations already available. Ask it to preserve the distinction between a premise you supplied and an inference it is proposing. Without that boundary, the output may turn a working assumption into the foundation of the entire answer.
+
+The prompt in the chapter artifact requests missing steps, relevant counterexamples, one proposed test, and claims needing source verification. These distinct parts make the response easier to review against your explanation.
+
+Compare the response with your own record. If the assistant introduces a new term, ask whether the term helps explain an operation you can inspect. If it proposes a measurement, ask what decision the measurement would change. If it supplies a scientific explanation, check the source before allowing the explanation to carry the design. You can accept a useful drafting suggestion without accepting every justification that accompanies it.
+
+Maya receives a critique saying that her exercise needs a more motivating story. That may be a reasonable design possibility, but it does not address the missing reason in the feedback. She records it as a later option and repairs the feedback first. The assistant has generated an idea; Maya has decided where it belongs in the work.
+
+Maya can draw on alternatives she did not produce herself because she understands the decision well enough to examine their assumptions and reject a poor fit. The critique has helped her choose a specific repair.
+
+When the concept is unfamiliar enough that you cannot evaluate the critique, reduce the scope. Ask for a simpler example, identify an authoritative introduction, or seek a qualified reviewer. A request for more confident language cannot solve a shortage of understanding. Your deconstruction record should show where outside expertise is necessary.
+
+## Carry the method into your own domain
+
+For a service business, deconstruct a promise you are considering making. “We help teams make better decisions” could hide several possible services. Which decision, using what inputs, under what time constraint, with what output? Identify what the client must supply and what remains outside your control. A narrower promise may be easier to deliver and evaluate, although its commercial value still requires investigation.
+
+For education, deconstruct a learning outcome and the activity intended to support it. Identify what a learner should do, what the activity actually asks them to do, and what evidence would reveal the difference. Avoid assuming that enjoyment, completion, or fluent discussion necessarily establishes the performance you intended. Choose evidence that fits the particular task, then state what that evidence leaves unresolved.
+
+For software, deconstruct a feature into its input conditions, transformation, output, and failure behavior. “Import the customer's data” might mean recognizing a file, reading its fields, validating them, mapping them into another structure, and reporting records that could not be processed. A feature description becomes more useful when it explains what happens to an unexpected input instead of describing only a successful demonstration.
+
+Across these domains, state a result, inspect its dependencies, and test the uncertainty that matters next. Keep the record for the moment a result disappoints you and you need to decide what to change.
+
+## Field assignment: deconstruct one consequential concept
+
+Open the [concept-deconstruction record](../artifacts/05-concept-deconstruction.md). Choose a concept, promise, or process that directly affects your current project. Use something narrow enough that you can attempt an explanation today. “Intelligence” is probably too broad. “How this prompt preserves the difference between supplied facts and assumptions” is a workable starting point.
+
+Write your explanation before asking for help. Separate observations, constraints, choices, and assumptions. Draw a simple account of the relevant operations, either on paper or as a few labelled boxes in your document. Mark one arrow or premise that you cannot yet justify. State the decision it affects and a check that would help you revise the decision.
+
+Perform the check at the level available to you, recording its limitations. Revise the explanation and compare it with the first attempt. Your artifact is ready for the next chapter when another reader can follow the mechanism you propose, locate its most consequential assumption, and see what observation led you to keep or change it. The reader does not have to agree with every choice. They should be able to understand how the choices were made.
+
+If the artifact fails, repair the relevant part. An unclear result needs a narrower statement. An unsupported premise needs evidence or an explicit assumption label. A diagram whose arrows cannot be explained needs more concrete operations. A test that cannot change a decision needs to be redesigned. Do not respond to every failure by collecting more material.
+
+Maya keeps the revised workshop brief, her explanation of the exercise, and the note identifying what remains uncertain. The engagement box may return later with a specific purpose. It no longer gets to stand in for an explanation. In the next chapter, she will examine how a useful idea from one domain can inform another—and how to recognize where that connection breaks.
+
+## References
+
+Dunlosky, J., Rawson, K. A., Marsh, E. J., Nathan, M. J., & Willingham, D. T. (2013). Improving students’ learning with effective learning techniques: Promising directions from cognitive and educational psychology. *Psychological Science in the Public Interest, 14*(1), 4–58. https://doi.org/10.1177/1529100612453266
+
+Rozenblit, L., & Keil, F. (2002). The misunderstood limits of folk science: An illusion of explanatory depth. *Cognitive Science, 26*(5), 521–562. https://doi.org/10.1207/s15516709cog2605_1
+
+<!-- sources: dunlosky2013, rozenblit2002 -->

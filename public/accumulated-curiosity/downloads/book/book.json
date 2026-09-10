@@ -1,0 +1,233 @@
+{
+  "title": "Accumulated Curiosity",
+  "subtitle": "A practical blueprint for learning, building, and creating independent value with AI",
+  "language": "en",
+  "edition": "First edition · September 2026",
+  "status": "complete",
+  "publication": {
+    "basePath": "/accumulated-curiosity",
+    "url": "https://thefutureissolo.com/accumulated-curiosity"
+  },
+  "targetWords": [
+    90000,
+    110000
+  ],
+  "chapters": [
+    {
+      "number": 1,
+      "slug": "the-future-is-solo",
+      "title": "The Future Is Solo",
+      "arc": "Mind",
+      "level": "L0 → L1",
+      "targetWords": 4000,
+      "artifact": "01-capability-baseline.md"
+    },
+    {
+      "number": 2,
+      "slug": "the-end-of-knowledge-scarcity",
+      "title": "The End of Knowledge Scarcity",
+      "arc": "Mind",
+      "level": "L0 → L1",
+      "targetWords": 3800,
+      "artifact": "02-claim-evidence-ledger.md"
+    },
+    {
+      "number": 3,
+      "slug": "curiosity-is-a-capability",
+      "title": "Curiosity Is a Capability",
+      "arc": "Mind",
+      "level": "L0 → L1",
+      "targetWords": 4000,
+      "artifact": "03-curiosity-map.md"
+    },
+    {
+      "number": 4,
+      "slug": "the-question-is-the-unit-of-learning",
+      "title": "The Question Is the Unit of Learning",
+      "arc": "Mind",
+      "level": "L1",
+      "targetWords": 3800,
+      "artifact": "04-inquiry-brief.md"
+    },
+    {
+      "number": 5,
+      "slug": "first-principles-axioms-and-mental-models",
+      "title": "First Principles, Axioms, and Mental Models",
+      "arc": "Mind",
+      "level": "L1",
+      "targetWords": 4200,
+      "artifact": "05-concept-deconstruction.md"
+    },
+    {
+      "number": 6,
+      "slug": "the-polymath-advantage",
+      "title": "The Polymath Advantage",
+      "arc": "Mind",
+      "level": "L1 → L2",
+      "targetWords": 3800,
+      "artifact": "06-connection-map.md"
+    },
+    {
+      "number": 7,
+      "slug": "the-accumulated-curiosity-loop",
+      "title": "The Accumulated Curiosity Loop",
+      "arc": "Mind",
+      "level": "L1 → L2",
+      "targetWords": 4200,
+      "artifact": "07-learning-loop.md"
+    },
+    {
+      "number": 8,
+      "slug": "the-second-brain-is-not-enough",
+      "title": "The Second Brain Is Not Enough",
+      "arc": "Memory",
+      "level": "L1 → L2",
+      "targetWords": 3800,
+      "artifact": "08-memory-inventory.md"
+    },
+    {
+      "number": 9,
+      "slug": "the-sovereign-memory-principle",
+      "title": "The Sovereign Memory Principle",
+      "arc": "Memory",
+      "level": "L2",
+      "targetWords": 4000,
+      "artifact": "09-memory-charter.md"
+    },
+    {
+      "number": 10,
+      "slug": "the-architecture-of-remembering",
+      "title": "The Architecture of Remembering",
+      "arc": "Memory",
+      "level": "L2 → L3",
+      "targetWords": 4200,
+      "artifact": "10-memory-lanes.md"
+    },
+    {
+      "number": 11,
+      "slug": "the-knowledge-distillation-pipeline",
+      "title": "The Knowledge Distillation Pipeline",
+      "arc": "Memory",
+      "level": "L2 → L3",
+      "targetWords": 4200,
+      "artifact": "11-distillation-record.md"
+    },
+    {
+      "number": 12,
+      "slug": "the-personal-knowledge-graph",
+      "title": "The Personal Knowledge Graph",
+      "arc": "Memory",
+      "level": "L2 → L3",
+      "targetWords": 3800,
+      "artifact": "12-knowledge-map.md"
+    },
+    {
+      "number": 13,
+      "slug": "the-memory-flywheel",
+      "title": "The Memory Flywheel",
+      "arc": "Memory",
+      "level": "L3 → L4",
+      "targetWords": 3800,
+      "artifact": "13-verdict-ledger.md"
+    },
+    {
+      "number": 14,
+      "slug": "the-cognitive-os",
+      "title": "The Cognitive OS",
+      "arc": "Memory",
+      "level": "L3 → L4",
+      "targetWords": 4000,
+      "artifact": "14-operating-manual.md"
+    },
+    {
+      "number": 15,
+      "slug": "the-sovereignty-test",
+      "title": "The Sovereignty Test",
+      "arc": "Memory",
+      "level": "L4 → L5 preparation",
+      "targetWords": 4000,
+      "artifact": "15-portability-drill.md"
+    },
+    {
+      "number": 16,
+      "slug": "from-knowledge-to-capability",
+      "title": "From Knowledge to Capability",
+      "arc": "System",
+      "level": "L1 → L3 evidence",
+      "targetWords": 4000,
+      "artifact": "16-capability-demonstration.md"
+    },
+    {
+      "number": 17,
+      "slug": "the-agentic-workforce",
+      "title": "The Agentic Workforce",
+      "arc": "System",
+      "level": "L2 → L3",
+      "targetWords": 4400,
+      "artifact": "17-delegation-contract.md"
+    },
+    {
+      "number": 18,
+      "slug": "the-human-in-the-loop-principle",
+      "title": "The Human-in-the-Loop Principle",
+      "arc": "System",
+      "level": "L3",
+      "targetWords": 4200,
+      "artifact": "18-review-policy.md"
+    },
+    {
+      "number": 19,
+      "slug": "the-solo-systems-architect",
+      "title": "The Solo Systems Architect",
+      "arc": "System",
+      "level": "L3 → L4",
+      "targetWords": 4200,
+      "artifact": "19-system-contracts.md"
+    },
+    {
+      "number": 20,
+      "slug": "the-architecture-of-a-solo-enterprise",
+      "title": "The Architecture of a Solo Enterprise",
+      "arc": "System",
+      "level": "L4",
+      "targetWords": 4400,
+      "artifact": "20-enterprise-runbook.md"
+    },
+    {
+      "number": 21,
+      "slug": "from-curiosity-to-product",
+      "title": "From Curiosity to Product",
+      "arc": "System",
+      "level": "L2 → L4 application",
+      "targetWords": 4200,
+      "artifact": "21-product-experiment.md"
+    },
+    {
+      "number": 22,
+      "slug": "from-product-to-value",
+      "title": "From Product to Value",
+      "arc": "System",
+      "level": "L4 sustainability",
+      "targetWords": 4200,
+      "artifact": "22-unit-economics.md"
+    },
+    {
+      "number": 23,
+      "slug": "the-ssa-cmm-ladder",
+      "title": "The SSA-CMM Ladder",
+      "arc": "System",
+      "level": "L0–L5 evidence audit",
+      "targetWords": 4200,
+      "artifact": "23-capability-portfolio.md"
+    },
+    {
+      "number": 24,
+      "slug": "the-million-dollar-solo-company",
+      "title": "The Million-Dollar Solo Company",
+      "arc": "System",
+      "level": "L5 direction",
+      "targetWords": 4400,
+      "artifact": "24-solo-enterprise-plan.md"
+    }
+  ]
+}

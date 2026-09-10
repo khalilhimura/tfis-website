@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "files": [
+    {
+      "path": "project/learning-loop-v1.md",
+      "bytes": 189,
+      "sha256": "fad050800b891381702e0a7b15708230878f8f9828c2d8a8b66812a46e906651"
+    },
+    {
+      "path": "project/instructions-v2.md",
+      "bytes": 265,
+      "sha256": "d53843b8475e82e3b7c052dff4253710b5e50cac3030ad13904a0ff8f7e92a84"
+    },
+    {
+      "path": "project/rationale.md",
+      "bytes": 308,
+      "sha256": "411f5f33f6550722b9dc015ec11cb2284e3c950b73e7f7f4e3b3ff050a0ae1bd"
+    },
+    {
+      "path": "project/input.md",
+      "bytes": 93,
+      "sha256": "df8f3fd1c5bd77d90958bf275b80d9865fc59328a0ed8279cea8c43364e0fc8c"
+    },
+    {
+      "path": "restore-note.md",
+      "bytes": 307,
+      "sha256": "47b623c137f902f7882459deab8e04d064c5f81fca585d6a90ffcdaa2296479f"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="1110" viewBox="0 0 680 1110" role="img" aria-labelledby="enterprise-title enterprise-desc">
+<title id="enterprise-title">The workflow belongs inside the service</title>
+<desc id="enterprise-desc">A prospective enterprise starts with intake and scope, prepares evidence, uses a bounded production workflow, and reviews the assembled deliverable. Authorized external delivery and support are future operations in this fictional case. Capacity, retained records, maintenance, and recovery support the whole sequence. Internal readiness is different from delivery and from customer acceptance.</desc>
+<defs><marker id="enterprise-arrow" markerWidth="10" markerHeight="10" refX="7" refY="4" orient="auto"><path d="M1 1 7 4 1 7" fill="none" stroke="#1c362b" stroke-width="1.6" stroke-linejoin="round"/></marker><style>text{font-family:'Atkinson Hyperlegible',Arial,sans-serif;fill:#171917}.title{font-size:29px;font-weight:700}.name{font-size:24px;font-weight:700}.detail{font-size:18px;fill:#3e4942}.index{font-family:'JetBrains Mono',monospace;font-size:14px;fill:#1c362b}.path{fill:none;stroke:#1c362b;stroke-width:2;marker-end:url(#enterprise-arrow)}</style></defs>
+<rect width="680" height="1110" rx="8" fill="#fff"/>
+<path d="M32 31h23m-23 0v23M648 31h-23m23 0v23M32 1079h23m-23 0v-23M648 1079h-23m23 0v-23" fill="none" stroke="#1c362b" stroke-width="1.5"/>
+<text x="56" y="65" class="title">The workflow inside the service</text>
+<text x="56" y="96" class="detail">A prospective route, rehearsed with invented work cards.</text>
+<rect x="56" y="129" width="568" height="100" rx="8" fill="#faf5eb" stroke="#1c362b" stroke-width="1.4"/>
+<text x="77" y="156" class="index">01 / understand the request</text>
+<text x="77" y="188" class="name">Intake + scope</text>
+<text x="77" y="216" class="detail">Intended result · limits · required clarification</text>
+<path class="path" d="M340 237v23"/>
+<rect x="56" y="269" width="568" height="100" rx="8" fill="#fff" stroke="#1c362b" stroke-width="1.4"/>
+<text x="77" y="296" class="index">02 / establish the working set</text>
+<text x="77" y="328" class="name">Prepare evidence</text>
+<text x="77" y="356" class="detail">Availability · source status · permitted use</text>
+<path class="path" d="M340 377v23"/>
+<rect x="56" y="409" width="568" height="100" rx="8" fill="#1c362b"/>
+<text x="77" y="436" class="index" style="fill:#f4c95d">03 / bounded internal work</text>
+<text x="77" y="468" class="name" style="fill:#fff">Draft → check → allowed repair</text>
+<text x="77" y="496" class="detail" style="fill:#fff">Candidate + evidence packet; current instructions</text>
+<path class="path" d="M340 517v23"/>
+<rect x="56" y="549" width="568" height="100" rx="8" fill="#faf0eb" stroke="#c8511e" stroke-width="1.8"/>
+<text x="77" y="576" class="index" style="fill:#c8511e">04 / judge the whole result</text>
+<text x="77" y="608" class="name">Human delivery review</text>
+<text x="77" y="636" class="detail">Scope fit · evidence · uncertainty · exact version</text>
+<path d="M42 685H638" fill="none" stroke="#c8511e" stroke-width="1.5" stroke-dasharray="5 6"/>
+<rect x="94" y="669" width="492" height="32" fill="#fff"/>
+<text x="103" y="690" class="index" style="fill:#c8511e">external relationship / prospective in this case</text>
+<path class="path" d="M340 705v14"/>
+<rect x="56" y="729" width="568" height="100" rx="8" fill="#fff" stroke="#1c362b" stroke-width="1.4"/>
+<text x="77" y="756" class="index">05 / human-owned communication</text>
+<text x="77" y="788" class="name">Authorized delivery</text>
+<text x="77" y="816" class="detail">Record what was sent, where, and under which scope.</text>
+<path class="path" d="M340 837v23"/>
+<rect x="56" y="869" width="568" height="100" rx="8" fill="#faf5eb" stroke="#1c362b" stroke-width="1.4"/>
+<text x="77" y="896" class="index">06 / inspect the reported issue</text>
+<text x="77" y="928" class="name">Support + reviewed improvement</text>
+<text x="77" y="956" class="detail">Delivered version · source · correction or new scope</text>
+<rect x="56" y="1001" width="568" height="64" rx="7" fill="#1c362b"/>
+<text x="77" y="1027" class="detail" style="fill:#fff">Across the route:</text>
+<text x="77" y="1052" class="detail" style="fill:#fff">capacity · records · maintenance · recovery</text>
+</svg>

@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="1080" viewBox="0 0 720 1080" role="img" aria-labelledby="title desc">
+  <title id="title">Owner capacity and the allowance for owner time</title>
+  <desc id="desc">Two hypothetical monthly scenarios each have 160 available owner hours, 40 fixed operating hours, and a 50 US dollar hourly allowance. The baseline uses seven hours per unit and permits seventeen whole units, using 159 total hours. Its 4,560 dollars before the owner allowance becomes minus 3,390 after a 7,950 dollar allowance. The proposed case uses six hours per unit and permits twenty units, using all 160 hours. Its 14,100 dollars before the owner allowance becomes 6,100 after an 8,000 dollar allowance. The examples assume demand and earned prices for planning; they establish neither demand nor cash receipts.</desc>
+  <defs>
+    <style>
+      text { font-family: 'Atkinson Hyperlegible', Arial, sans-serif; fill: #171917; }
+      .eyebrow { font-family: 'JetBrains Mono', monospace; font-size: 12px; letter-spacing: 1.4px; }
+      .heading { font-size: 30px; font-weight: 700; }
+      .sub { font-size: 16px; }
+      .label { font-size: 15px; }
+      .small { font-size: 13px; }
+      .value { font-size: 31px; font-weight: 700; }
+      .mono { font-family: 'JetBrains Mono', monospace; font-size: 15px; }
+      .pine { fill: #1c362b; }
+      .terra { fill: #ad451b; }
+      .white { fill: #fff; }
+      .muted { fill: #525952; }
+    </style>
+  </defs>
+  <rect width="720" height="1080" fill="#fbfaf6"/>
+  <rect x="0" y="0" width="720" height="8" fill="#c8511e"/>
+  <text x="36" y="45" class="eyebrow">ACCUMULATED CURIOSITY / CHAPTER 22</text>
+  <text x="36" y="93" class="heading">Count the hours. Value the work.</text>
+  <text x="36" y="125" class="sub">Two hypothetical months · USD · assumed owner rate $50/hour</text>
+
+  <rect x="36" y="158" width="648" height="139" rx="10" fill="#1c362b"/>
+  <text x="56" y="190" class="eyebrow white">SAME AVAILABLE TIME</text>
+  <text x="56" y="228" class="value white">160h − 40h = 120h</text>
+  <text x="56" y="260" class="label white">Available time − fixed operating work = time for units</text>
+  <text x="56" y="281" class="small white">Fixed work is additional to each unit’s delivery, acquisition, and support.</text>
+
+  <text x="36" y="333" class="eyebrow">1 / WHOLE-UNIT CAPACITY</text>
+  <rect x="36" y="350" width="312" height="205" rx="10" fill="#fff" stroke="#d7dace"/>
+  <rect x="372" y="350" width="312" height="205" rx="10" fill="#fff" stroke="#d7dace"/>
+  <text x="56" y="382" class="eyebrow terra">BASELINE</text>
+  <text x="392" y="382" class="eyebrow pine">PROPOSED · UNVALIDATED</text>
+  <text x="56" y="419" class="value">7h per unit</text>
+  <text x="392" y="419" class="value">6h per unit</text>
+  <text x="56" y="450" class="label">4h delivery + 2h acquisition + 1h support</text>
+  <text x="392" y="450" class="label">3h delivery + 2h acquisition + 1h support</text>
+  <text x="56" y="488" class="mono">floor(120 ÷ 7) = 17 units</text>
+  <text x="392" y="488" class="mono">floor(120 ÷ 6) = 20 units</text>
+  <text x="56" y="526" class="label">40 + 17 × 7 = 159 total hours</text>
+  <text x="392" y="526" class="label">40 + 20 × 6 = 160 total hours</text>
+
+  <text x="36" y="594" class="eyebrow">2 / AT THAT MODELED VOLUME</text>
+  <rect x="36" y="612" width="648" height="282" rx="10" fill="#fff" stroke="#d7dace"/>
+  <path d="M 348 632 V 874" stroke="#d7dace"/>
+  <text x="56" y="636" class="eyebrow terra">BASELINE</text>
+  <text x="56" y="660" class="small muted">Price $300 / variable cash $20 per unit</text>
+  <text x="392" y="636" class="eyebrow pine">PROPOSED</text>
+  <text x="392" y="660" class="small muted">Price $750 / variable cash $35 per unit</text>
+  <text x="56" y="687" class="label">Revenue less variable and fixed cash</text>
+  <text x="392" y="687" class="label">Revenue less variable and fixed cash</text>
+  <text x="56" y="719" class="value">$4,560</text>
+  <text x="392" y="719" class="value">$14,100</text>
+  <text x="56" y="748" class="label">Before owner allowance and tax</text>
+  <text x="392" y="748" class="label">Before owner allowance and tax</text>
+  <text x="56" y="780" class="mono">− $7,950 owner allowance</text>
+  <text x="392" y="780" class="mono">− $8,000 owner allowance</text>
+  <text x="56" y="827" class="value terra">−$3,390</text>
+  <text x="392" y="827" class="value pine">$6,100</text>
+  <text x="56" y="860" class="label">Remainder after allowance</text>
+  <text x="392" y="860" class="label">Remainder after allowance</text>
+
+  <rect x="36" y="916" width="648" height="118" rx="10" fill="#f4c95d"/>
+  <text x="56" y="947" class="eyebrow">WHAT THESE NUMBERS MEAN</text>
+  <text x="56" y="975" class="label">Capacity is a time constraint. It does not establish customer demand.</text>
+  <text x="56" y="998" class="label">The owner allowance values time. It does not prove a cash payment.</text>
+  <text x="56" y="1021" class="label">Both models include $200 monthly fixed cash. Neither proves receipts.</text>
+  <text x="36" y="1060" class="small muted">Original teaching diagram. All prices, volumes, costs, and hours are planning assumptions.</text>
+</svg>

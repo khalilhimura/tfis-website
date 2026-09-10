@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="850" viewBox="0 0 680 850" role="img" aria-labelledby="ladder-title ladder-desc">
+  <title id="ladder-title">The SSA-CMM ladder, supported by evidence</title>
+  <desc id="ladder-desc">Read upward from L0 Task Operator to L5 Sovereign Architect. The six TFIS labels are paired with this book's practice evidence: a checked manual task, a verified assisted result, a repeatable workflow, a supervised agent run, coordinated agents justified by need, and a system that can be restored and moved. These examples are this book's evidence path, not a validated assessment or certification. Demonstration is specific to a domain.</desc>
+  <defs>
+    <marker id="ladder-arrow" markerWidth="10" markerHeight="10" refX="7" refY="4" orient="auto"><path d="M1 1 7 4 1 7" fill="none" stroke="#1c362b" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></marker>
+    <style>
+      text {font-family:'Atkinson Hyperlegible',Arial,sans-serif;fill:#171917}
+      .title {font-size:29px;font-weight:700;letter-spacing:-.5px}
+      .intro {font-size:17px;fill:#4b534e}
+      .level {font-family:'JetBrains Mono',monospace;font-size:18px;font-weight:500;fill:#1c362b}
+      .name {font-size:22px;font-weight:700}
+      .evidence {font-size:17px;fill:#3e4942}
+      .note {font-size:16px;fill:#4b534e}
+    </style>
+  </defs>
+  <rect width="680" height="850" rx="8" fill="#ffffff"/>
+  <path d="M32 31h23m-23 0v23M648 31h-23m23 0v23M32 819h23m-23 0v-23M648 819h-23m23 0v-23" fill="none" stroke="#1c362b" stroke-width="1.5"/>
+  <text x="56" y="65" class="title">Capability grows through evidence</text>
+  <text x="56" y="96" class="intro">Start at the bottom. Demonstrate the work in one domain.</text>
+  <path d="M57 688V158" fill="none" stroke="#1c362b" stroke-width="2" marker-end="url(#ladder-arrow)"/>
+
+  <rect x="90" y="136" width="534" height="83" rx="8" fill="#1c362b"/>
+  <rect x="104" y="155" width="42" height="27" rx="4" fill="#f4c95d"/>
+  <text x="112" y="175" class="level">L5</text>
+  <text x="160" y="175" class="name" style="fill:#ffffff">Sovereign Architect</text>
+  <text x="110" y="203" class="evidence" style="fill:#ffffff">Book evidence: restore, move, and sustain the system.</text>
+  <path d="M57 176H82" stroke="#1c362b" stroke-width="1.5"/>
+  <circle cx="57" cy="176" r="5" fill="#f4c95d" stroke="#1c362b" stroke-width="1.5"/>
+
+  <rect x="90" y="236" width="534" height="83" rx="8" fill="#faf5eb" stroke="#1c362b" stroke-width="1.4"/>
+  <text x="110" y="273" class="level">L4</text>
+  <text x="160" y="273" class="name">Multi-Agent Architect</text>
+  <text x="110" y="301" class="evidence">Book evidence: coordination earns its added cost.</text>
+  <path d="M57 276H82" stroke="#1c362b" stroke-width="1.5"/>
+  <circle cx="57" cy="276" r="5" fill="#f4c95d" stroke="#1c362b" stroke-width="1.5"/>
+
+  <rect x="90" y="336" width="534" height="83" rx="8" fill="#ffffff" stroke="#1c362b" stroke-width="1.4"/>
+  <text x="110" y="373" class="level">L3</text>
+  <text x="160" y="373" class="name">Agent Supervisor</text>
+  <text x="110" y="401" class="evidence">Book evidence: bounded runs and reviewed failures.</text>
+  <path d="M57 376H82" stroke="#1c362b" stroke-width="1.5"/>
+  <circle cx="57" cy="376" r="5" fill="#f4c95d" stroke="#1c362b" stroke-width="1.5"/>
+
+  <rect x="90" y="436" width="534" height="83" rx="8" fill="#faf5eb" stroke="#1c362b" stroke-width="1.4"/>
+  <text x="110" y="473" class="level">L2</text>
+  <text x="160" y="473" class="name">Workflow Orchestrator</text>
+  <text x="110" y="501" class="evidence">Book evidence: a repeatable, measured workflow.</text>
+  <path d="M57 476H82" stroke="#1c362b" stroke-width="1.5"/>
+  <circle cx="57" cy="476" r="5" fill="#f4c95d" stroke="#1c362b" stroke-width="1.5"/>
+
+  <rect x="90" y="536" width="534" height="83" rx="8" fill="#ffffff" stroke="#1c362b" stroke-width="1.4"/>
+  <text x="110" y="573" class="level">L1</text>
+  <text x="160" y="573" class="name">AI-Assisted Operator</text>
+  <text x="110" y="601" class="evidence">Book evidence: a result you can independently verify.</text>
+  <path d="M57 576H82" stroke="#1c362b" stroke-width="1.5"/>
+  <circle cx="57" cy="576" r="5" fill="#f4c95d" stroke="#1c362b" stroke-width="1.5"/>
+
+  <rect x="90" y="636" width="534" height="83" rx="8" fill="#faf5eb" stroke="#1c362b" stroke-width="1.4"/>
+  <text x="110" y="673" class="level">L0</text>
+  <text x="160" y="673" class="name">Task Operator</text>
+  <text x="110" y="701" class="evidence">Book evidence: a clear task and a checked manual result.</text>
+  <path d="M57 676H82" stroke="#1c362b" stroke-width="1.5"/>
+  <circle cx="57" cy="676" r="5" fill="#f4c95d" stroke="#1c362b" stroke-width="1.5"/>
+
+  <rect x="56" y="751" width="568" height="54" rx="6" fill="#faf0eb"/>
+  <path d="M56 757v42" stroke="#c8511e" stroke-width="3"/>
+  <text x="72" y="773" class="note">TFIS level names; this book's practice evidence.</text>
+  <text x="72" y="795" class="note">Reading completion is not certification or a validated score.</text>
+</svg>

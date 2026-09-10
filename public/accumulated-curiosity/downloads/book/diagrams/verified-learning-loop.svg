@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="900" viewBox="0 0 680 900" role="img" aria-labelledby="verified-title verified-desc">
+  <title id="verified-title">A run becomes learning only after a human verdict</title>
+  <desc id="verified-desc">A human delegates a task with scope, limits, and acceptance criteria. Bounded execution produces an artifact and a run record. A human verdict compares these with the criteria. Verified findings are then written to memory with supporting evidence, limits, and a review date. Before the next run, the system reads that verdict and uses it to update the delegation. Failure or uncertainty escalates to a human, who revises the scope or stops the work; unsupported output is not written as verified memory.</desc>
+  <defs>
+    <marker id="verified-arrow" markerWidth="10" markerHeight="10" refX="7" refY="4" orient="auto"><path d="M1 1 7 4 1 7" fill="none" stroke="#1c362b" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/></marker>
+    <marker id="verified-rust-arrow" markerWidth="10" markerHeight="10" refX="7" refY="4" orient="auto"><path d="M1 1 7 4 1 7" fill="none" stroke="#c8511e" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/></marker>
+    <style>
+      text {font-family:'Atkinson Hyperlegible',Arial,sans-serif;fill:#171917}
+      .title {font-size:30px;font-weight:700;letter-spacing:-.5px}
+      .intro {font-size:17px;fill:#4b534e}
+      .name {font-size:23px;font-weight:700}
+      .detail {font-size:18px;fill:#3e4942}
+      .index {font-family:'JetBrains Mono',monospace;font-size:14px;fill:#1c362b}
+      .route {fill:none;stroke:#1c362b;stroke-width:2;marker-end:url(#verified-arrow)}
+    </style>
+  </defs>
+  <rect width="680" height="900" rx="8" fill="#ffffff"/>
+  <path d="M32 31h23m-23 0v23M648 31h-23m23 0v23M32 869h23m-23 0v-23M648 869h-23m23 0v-23" fill="none" stroke="#1c362b" stroke-width="1.5"/>
+  <text x="56" y="65" class="title">Close the loop with a verdict</text>
+  <text x="56" y="97" class="intro">A plausible output is a candidate. A checked lesson can persist.</text>
+
+  <rect x="95" y="137" width="490" height="100" rx="8" fill="#faf5eb" stroke="#1c362b" stroke-width="1.4"/>
+  <text x="116" y="164" class="index">01</text>
+  <text x="154" y="165" class="name">Delegation</text>
+  <text x="116" y="195" class="detail">State the result, scope, and acceptance criteria.</text>
+  <text x="116" y="219" class="detail">Set limits, permissions, and stop conditions.</text>
+  <path class="route" d="M340 245v24"/>
+  <rect x="95" y="277" width="490" height="100" rx="8" fill="#ffffff" stroke="#1c362b" stroke-width="1.4"/>
+  <text x="116" y="304" class="index">02</text>
+  <text x="154" y="305" class="name">Bounded execution</text>
+  <text x="116" y="335" class="detail">Perform the work within those limits.</text>
+  <text x="116" y="359" class="detail">Return the artifact and the run record.</text>
+  <path class="route" d="M340 385v24"/>
+
+  <rect x="95" y="417" width="490" height="105" rx="8" fill="#faf0eb" stroke="#c8511e" stroke-width="2"/>
+  <path d="M122 438l8 8-8 8-8-8z" fill="#c8511e"/>
+  <text x="154" y="449" class="name" style="fill:#c8511e">Human verdict</text>
+  <text x="116" y="479" class="detail">Compare the result with the acceptance criteria.</text>
+  <text x="116" y="503" class="detail">Record what passed, what failed, and why.</text>
+
+  <path d="M591 468h18v94h-16" fill="none" stroke="#c8511e" stroke-width="1.8" stroke-dasharray="5 5" marker-end="url(#verified-rust-arrow)"/>
+  <rect x="420" y="538" width="165" height="102" rx="7" fill="#ffffff" stroke="#c8511e" stroke-width="1.4"/>
+  <text x="435" y="562" class="detail" style="font-size:16px;fill:#c8511e">Failed or uncertain</text>
+  <text x="435" y="591" class="name" style="font-size:21px">Escalate</text>
+  <text x="435" y="618" class="detail" style="font-size:17px">Revise or stop.</text>
+  <path d="M503 646v8h149V187h-59" fill="none" stroke="#c8511e" stroke-width="1.7" stroke-dasharray="5 5" marker-end="url(#verified-rust-arrow)"/>
+
+  <path class="route" d="M260 530v132"/>
+  <rect x="166" y="566" width="188" height="33" rx="5" fill="#f4c95d"/>
+  <text x="181" y="589" class="detail" style="font-size:17px">Verified findings only</text>
+  <rect x="95" y="670" width="490" height="85" rx="8" fill="#1c362b"/>
+  <text x="116" y="700" class="index" style="fill:#f4c95d">04</text>
+  <text x="154" y="701" class="name" style="fill:#ffffff">Verified memory write</text>
+  <text x="116" y="732" class="detail" style="fill:#ffffff">Keep evidence, scope, limits, and a review date.</text>
+  <path class="route" d="M340 763v21"/>
+  <rect x="95" y="792" width="490" height="57" rx="8" fill="#faf5eb" stroke="#1c362b" stroke-width="1.4"/>
+  <text x="116" y="827" class="name" style="font-size:22px">Next run reads the verdict</text>
+  <path class="route" d="M87 820H56V187h31"/>
+  <text x="42" y="625" transform="rotate(-90 42 625)" class="detail" style="font-size:16px">Use the lesson to update the next delegation</text>
+  <text x="95" y="877" class="intro" style="font-size:16px">A failure can teach. Its explanation still needs human review.</text>
+</svg>

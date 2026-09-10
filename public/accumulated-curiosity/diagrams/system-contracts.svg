@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="1040" viewBox="0 0 680 1040" role="img" aria-labelledby="contracts-title contracts-desc">
+<title id="contracts-title">Match the work before joining the results</title>
+<desc id="contracts-desc">A versioned source and current instruction feed a draft and source-based expectations. The checker compares the exact candidate with the source. The coordinator matches required artifact roles, versions, and saved locations. A complete compatible packet reaches human review. A missing, duplicate, stale, or conflicting return is held for diagnosis and repair. The roles can be simulated manually.</desc>
+<defs>
+<marker id="contracts-arrow" markerWidth="10" markerHeight="10" refX="7" refY="4" orient="auto"><path d="M1 1 7 4 1 7" fill="none" stroke="#1c362b" stroke-width="1.6" stroke-linejoin="round"/></marker>
+<marker id="contracts-review" markerWidth="10" markerHeight="10" refX="7" refY="4" orient="auto"><path d="M1 1 7 4 1 7" fill="none" stroke="#c8511e" stroke-width="1.6" stroke-linejoin="round"/></marker>
+<style>text{font-family:'Atkinson Hyperlegible',Arial,sans-serif;fill:#171917}.title{font-size:29px;font-weight:700}.name{font-size:24px;font-weight:700}.detail{font-size:18px;fill:#3e4942}.index{font-family:'JetBrains Mono',monospace;font-size:14px;fill:#1c362b}.path{fill:none;stroke:#1c362b;stroke-width:2;marker-end:url(#contracts-arrow)}</style>
+</defs>
+<rect width="680" height="1040" rx="8" fill="#fff"/>
+<path d="M32 31h23m-23 0v23M648 31h-23m23 0v23M32 1009h23m-23 0v-23M648 1009h-23m23 0v-23" fill="none" stroke="#1c362b" stroke-width="1.5"/>
+<text x="56" y="65" class="title">Match before joining</text>
+<text x="56" y="96" class="detail">Two completed tasks can still leave one result missing.</text>
+<rect x="56" y="132" width="568" height="107" rx="8" fill="#faf5eb" stroke="#1c362b" stroke-width="1.4"/>
+<text x="77" y="158" class="index">01 / shared starting point</text>
+<text x="77" y="190" class="name">Versioned task packet</text>
+<text x="77" y="219" class="detail">Source · instructions-v3 · scope · permissions</text>
+<path class="path" d="M340 247v18H181v20"/>
+<path class="path" d="M340 247v18H499v20"/>
+<rect x="56" y="294" width="250" height="110" rx="8" fill="#fff" stroke="#1c362b" stroke-width="1.4"/>
+<text x="77" y="321" class="index">02a / drafting</text>
+<text x="77" y="352" class="name">Candidate</text>
+<text x="77" y="381" class="detail">Exact draft version</text>
+<rect x="374" y="294" width="250" height="110" rx="8" fill="#fff" stroke="#1c362b" stroke-width="1.4"/>
+<text x="395" y="321" class="index">02b / source reading</text>
+<text x="395" y="352" class="name">Expectations</text>
+<text x="395" y="381" class="detail">From source + criteria</text>
+<path class="path" d="M181 412v20H315v23"/>
+<path class="path" d="M499 412v20H365v23"/>
+<rect x="56" y="464" width="568" height="113" rx="8" fill="#1c362b"/>
+<text x="77" y="491" class="index" style="fill:#f4c95d">03 / comparison</text>
+<text x="77" y="524" class="name" style="fill:#fff">Check the exact candidate</text>
+<text x="77" y="552" class="detail" style="fill:#fff">Findings identify source lines and draft version.</text>
+<path class="path" d="M340 585v31"/>
+<rect x="56" y="626" width="568" height="112" rx="8" fill="#faf0eb" stroke="#c8511e" stroke-width="1.8"/>
+<text x="77" y="653" class="index" style="fill:#c8511e">04 / coordination</text>
+<text x="77" y="686" class="name">Match the handoff</text>
+<text x="77" y="716" class="detail">Required artifacts · versions · saved locations</text>
+<path class="path" d="M340 747v40"/>
+<path d="M508 747v40" fill="none" stroke="#c8511e" stroke-width="2" marker-end="url(#contracts-review)"/>
+<text x="78" y="772" class="index">complete + compatible</text>
+<text x="415" y="772" class="index" style="fill:#c8511e">mismatch</text>
+<rect x="56" y="796" width="312" height="116" rx="8" fill="#fff" stroke="#1c362b" stroke-width="1.4"/>
+<text x="77" y="830" class="name">Human review</text>
+<text x="77" y="861" class="detail">Judge the evidence</text>
+<text x="77" y="889" class="detail">for the stated use.</text>
+<rect x="398" y="796" width="226" height="116" rx="8" fill="#faf0eb" stroke="#c8511e" stroke-width="1.4"/>
+<text x="418" y="830" class="name">Hold + diagnose</text>
+<text x="418" y="861" class="detail">Name the defect;</text>
+<text x="418" y="889" class="detail">repair, then recheck.</text>
+<text x="56" y="962" class="detail">A second draft does not substitute for a source check.</text>
+<text x="56" y="990" class="detail">Roles may be performed sequentially by one person.</text>
+</svg>

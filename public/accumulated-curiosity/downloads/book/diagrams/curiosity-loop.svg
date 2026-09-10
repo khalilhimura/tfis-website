@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="670" viewBox="0 0 680 670" role="img" aria-labelledby="curiosity-title curiosity-desc">
+  <title id="curiosity-title">Curiosity becomes useful through a complete learning loop</title>
+  <desc id="curiosity-desc">Follow the clockwise path: question, investigate, explain, test, apply, review. Question names an uncertainty. Investigation gathers sources. Explanation requires your own words. Testing seeks a way to be wrong. Application produces useful work. Review compares the result with expectations. Review then produces a new question that begins the next loop. The central record preserves what changed and the supporting evidence.</desc>
+  <defs>
+    <marker id="curiosity-arrow" markerWidth="10" markerHeight="10" refX="7" refY="4" orient="auto"><path d="M1 1 7 4 1 7" fill="none" stroke="#1c362b" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/></marker>
+    <style>
+      text {font-family:'Atkinson Hyperlegible',Arial,sans-serif;fill:#171917}
+      .title {font-size:30px;font-weight:700;letter-spacing:-.5px}
+      .intro {font-size:17px;fill:#4b534e}
+      .name {font-size:21px;font-weight:700}
+      .detail {font-size:17px;fill:#3e4942}
+      .index {font-family:'JetBrains Mono',monospace;font-size:14px;fill:#1c362b}
+      .route {fill:none;stroke:#1c362b;stroke-width:2;marker-end:url(#curiosity-arrow)}
+    </style>
+  </defs>
+  <rect width="680" height="670" rx="8" fill="#ffffff"/>
+  <path d="M32 31h23m-23 0v23M648 31h-23m23 0v23M32 639h23m-23 0v-23M648 639h-23m23 0v-23" fill="none" stroke="#1c362b" stroke-width="1.5"/>
+  <text x="56" y="66" class="title">Do something with the question</text>
+  <text x="56" y="98" class="intro">Each pass should change your understanding or your work.</text>
+
+  <g>
+    <rect x="50" y="154" width="172" height="120" rx="8" fill="#faf5eb" stroke="#1c362b" stroke-width="1.4"/>
+    <text x="66" y="178" class="index">01</text><text x="66" y="207" class="name">Question</text>
+    <text x="66" y="234" class="detail">Name the</text><text x="66" y="256" class="detail">uncertainty.</text>
+    <rect x="254" y="154" width="172" height="120" rx="8" fill="#ffffff" stroke="#1c362b" stroke-width="1.4"/>
+    <text x="270" y="178" class="index">02</text><text x="270" y="207" class="name">Investigate</text>
+    <text x="270" y="234" class="detail">Find sources.</text><text x="270" y="256" class="detail">Check their limits.</text>
+    <rect x="458" y="154" width="172" height="120" rx="8" fill="#faf5eb" stroke="#1c362b" stroke-width="1.4"/>
+    <text x="474" y="178" class="index">03</text><text x="474" y="207" class="name">Explain</text>
+    <text x="474" y="234" class="detail">Use your</text><text x="474" y="256" class="detail">own words.</text>
+
+    <rect x="458" y="426" width="172" height="120" rx="8" fill="#ffffff" stroke="#1c362b" stroke-width="1.4"/>
+    <text x="474" y="450" class="index">04</text><text x="474" y="479" class="name">Test</text>
+    <text x="474" y="506" class="detail">Seek a way</text><text x="474" y="528" class="detail">to be wrong.</text>
+    <rect x="254" y="426" width="172" height="120" rx="8" fill="#faf5eb" stroke="#1c362b" stroke-width="1.4"/>
+    <text x="270" y="450" class="index">05</text><text x="270" y="479" class="name">Apply</text>
+    <text x="270" y="506" class="detail">Make something</text><text x="270" y="528" class="detail">useful.</text>
+    <rect x="50" y="426" width="172" height="120" rx="8" fill="#ffffff" stroke="#1c362b" stroke-width="1.4"/>
+    <text x="66" y="450" class="index">06</text><text x="66" y="479" class="name">Review</text>
+    <text x="66" y="506" class="detail">Compare result</text><text x="66" y="528" class="detail">with expectation.</text>
+  </g>
+  <path class="route" d="M228 214h20"/><path class="route" d="M432 214h20"/>
+  <path class="route" d="M544 282v136"/>
+  <path class="route" d="M452 486h-20"/><path class="route" d="M248 486h-20"/>
+  <path class="route" d="M136 418v-40"/>
+  <path class="route" d="M136 321v-39"/>
+  <rect x="61" y="328" width="150" height="43" rx="6" fill="#faf0eb" stroke="#c8511e" stroke-width="1.4"/>
+  <text x="76" y="355" class="name" style="font-size:19px;fill:#c8511e">New question</text>
+
+  <rect x="253" y="314" width="210" height="73" rx="6" fill="#f4c95d"/>
+  <circle cx="271" cy="333" r="4" fill="#1c362b"/>
+  <text x="284" y="339" class="name" style="font-size:18px">Keep a record</text>
+  <text x="269" y="367" class="detail">What changed, and why?</text>
+  <path d="M266 396v16m12-16v9m12-9v9m12-9v16" stroke="#1c362b" stroke-width="1.2"/>
+  <text x="56" y="597" class="intro">The output is a tested understanding, a useful artifact,</text>
+  <text x="56" y="622" class="intro">and a more precise question to investigate next.</text>
+</svg>

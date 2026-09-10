@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="830" viewBox="0 0 680 830" role="img" aria-labelledby="memory-title memory-desc">
+  <title id="memory-title">Promote memory through a review boundary</title>
+  <desc id="memory-desc">Information moves from working context to a project workspace. A human review boundary checks source, relevance, sensitive information, and useful scope before anything becomes reviewed durable memory. Durable memory can be exported with its evidence and metadata into a portable archive. If review fails, the information is revised or discarded rather than silently promoted. The lanes describe different purposes, not a rule to save everything forever.</desc>
+  <defs>
+    <marker id="memory-arrow" markerWidth="10" markerHeight="10" refX="7" refY="4" orient="auto"><path d="M1 1 7 4 1 7" fill="none" stroke="#1c362b" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/></marker>
+    <marker id="memory-review-arrow" markerWidth="10" markerHeight="10" refX="7" refY="4" orient="auto"><path d="M1 1 7 4 1 7" fill="none" stroke="#c8511e" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/></marker>
+    <style>
+      text {font-family:'Atkinson Hyperlegible',Arial,sans-serif;fill:#171917}
+      .title {font-size:30px;font-weight:700;letter-spacing:-.5px}
+      .intro {font-size:17px;fill:#4b534e}
+      .name {font-size:23px;font-weight:700}
+      .detail {font-size:18px;fill:#3e4942}
+      .index {font-family:'JetBrains Mono',monospace;font-size:15px;fill:#1c362b}
+      .route {fill:none;stroke:#1c362b;stroke-width:2;marker-end:url(#memory-arrow)}
+    </style>
+  </defs>
+  <rect width="680" height="830" rx="8" fill="#ffffff"/>
+  <path d="M32 31h23m-23 0v23M648 31h-23m23 0v23M32 799h23m-23 0v-23M648 799h-23m23 0v-23" fill="none" stroke="#1c362b" stroke-width="1.5"/>
+  <text x="56" y="65" class="title">Remember on purpose</text>
+  <text x="56" y="97" class="intro">Different memory lanes have different jobs and lifetimes.</text>
+
+  <rect x="56" y="135" width="510" height="106" rx="8" fill="#faf5eb" stroke="#1c362b" stroke-width="1.4"/>
+  <text x="77" y="161" class="index">01 / now</text>
+  <text x="77" y="193" class="name">Working context</text>
+  <text x="77" y="220" class="detail">The task, immediate inputs, and current constraints.</text>
+  <path class="route" d="M310 249v22"/>
+  <rect x="56" y="279" width="510" height="106" rx="8" fill="#ffffff" stroke="#1c362b" stroke-width="1.4"/>
+  <text x="77" y="305" class="index">02 / this project</text>
+  <text x="77" y="337" class="name">Project workspace</text>
+  <text x="77" y="364" class="detail">Files, drafts, decisions, sources, and run records.</text>
+
+  <path d="M310 393v25" fill="none" stroke="#c8511e" stroke-width="2" marker-end="url(#memory-review-arrow)"/>
+  <path d="M42 452H637" fill="none" stroke="#c8511e" stroke-width="1.5" stroke-dasharray="5 6"/>
+  <rect x="75" y="421" width="470" height="62" rx="7" fill="#faf0eb" stroke="#c8511e" stroke-width="1.8"/>
+  <path d="M92 443l7 7-7 7-7-7z" fill="#c8511e"/>
+  <text x="113" y="447" class="name" style="font-size:20px;fill:#c8511e">Review before a durable write</text>
+  <text x="94" y="471" class="detail" style="font-size:17px">Source · relevance · sensitivity · scope</text>
+  <path class="route" d="M310 491v24"/>
+  <path d="M551 450h51V334h-28" fill="none" stroke="#c8511e" stroke-width="1.7" stroke-dasharray="5 5" marker-end="url(#memory-review-arrow)"/>
+  <text x="590" y="412" transform="rotate(-90 590 412)" class="detail" style="font-size:16px;fill:#c8511e">Revise</text>
+
+  <rect x="56" y="523" width="510" height="106" rx="8" fill="#1c362b"/>
+  <rect x="76" y="539" width="144" height="25" rx="4" fill="#f4c95d"/>
+  <text x="85" y="557" class="index">03 / reviewed</text>
+  <text x="77" y="590" class="name" style="fill:#ffffff">Reviewed durable memory</text>
+  <text x="77" y="615" class="detail" style="fill:#ffffff">Reusable knowledge with evidence and a review date.</text>
+  <path class="route" d="M310 637v23"/>
+  <rect x="56" y="668" width="510" height="106" rx="8" fill="#faf5eb" stroke="#1c362b" stroke-width="1.4"/>
+  <text x="77" y="694" class="index">04 / recover and move</text>
+  <text x="77" y="726" class="name">Portable archive</text>
+  <text x="77" y="753" class="detail">Exported files, provenance, versions, and restore notes.</text>
+  <text x="56" y="805" class="intro" style="font-size:16px">A rejected item is revised or discarded. Saving more is not the goal.</text>
+</svg>
