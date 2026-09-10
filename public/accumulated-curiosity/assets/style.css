@@ -26,3 +26,41 @@
 
 /* Keep table words intact, including inline code with its own prose wrapping rule. */
 .prose table :not(pre)>code{overflow-wrap:normal;word-break:normal;hyphens:none;white-space:normal}
+
+/* The front page is a book jacket; chapter pages retain the reading rails. */
+.front-page .reader-layout{display:block;max-width:1220px;padding:0 48px}
+.front-page .book-rail,.front-page .section-rail,.front-page .mobile-contents{display:none}
+.front-page .reader-layout>main{padding-top:0}
+.front-hero{padding:76px 0 62px;position:relative;border-bottom:1px solid var(--rule)}
+.prose .front-edition{font-size:16px;color:var(--accent);margin:0 0 30px}
+.prose .front-hero h1{font-size:clamp(3.5rem,8.7vw,6.5rem);line-height:.98;letter-spacing:-.055em;max-width:none;margin:0 0 32px;overflow-wrap:normal}
+.prose .front-subtitle{font-size:clamp(1.2rem,2.4vw,1.55rem);line-height:1.4;max-width:660px;color:var(--ink);margin:0 0 22px}
+.prose .front-invitation{color:var(--muted);font-size:1.05rem;max-width:620px;margin-bottom:30px}
+.front-actions{display:flex;align-items:center;flex-wrap:wrap;gap:18px 30px;font-size:17px}
+.front-actions .front-primary{display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:11px 26px;background:var(--ink);color:var(--paper);border-radius:4px;text-decoration:none}
+.front-primary:hover{background:var(--accent)}
+.prose .front-meta{font-size:14px;color:var(--muted);margin:28px 0 0}
+.front-abstract{display:grid;grid-template-columns:1fr 1.25fr;gap:64px;padding:64px 0;border-bottom:1px solid var(--rule)}
+.prose .front-label{font-size:16px;color:var(--accent);margin:0 0 18px}
+.prose .front-abstract h2{font-size:clamp(1.7rem,3.2vw,2.3rem);line-height:1.15;margin:0;letter-spacing:-.035em}
+.front-abstract-copy{font-size:1rem;line-height:1.75}
+.front-abstract-copy>a{font-size:16px}
+.front-journey{padding:56px 0 48px}
+.prose .front-journey>h2{font-size:1.65rem;margin:0 0 32px}
+.front-arcs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:32px}
+.front-arc{border-top:3px solid var(--pine);padding-top:22px}
+.front-arc .front-label{color:var(--pine)}
+.front-label>span{display:block;color:var(--muted);font-size:14px;margin-top:2px}
+.prose .front-arc h3{font-size:1.3rem;margin:0 0 12px}
+.front-arc>p:not(.front-label){font-size:16px;line-height:1.6;color:var(--muted)}
+.front-arc summary{font-size:16px;cursor:pointer;color:var(--accent);padding:8px 0}
+.front-arc ol{font-size:15px;line-height:1.5;margin:16px 0 0;padding-left:24px}
+.front-before{border-top:1px solid var(--rule);border-bottom:1px solid var(--rule)}
+.front-before>summary{padding:22px 0;cursor:pointer;font-size:1.2rem;color:var(--ink)}
+.front-before>summary span{font-size:16px;color:var(--muted);margin-left:18px}
+.front-instructions{max-width:720px;margin:24px auto 48px}
+.front-page .page-footer{margin-top:36px}
+@media(max-width:800px){.front-page .reader-layout{padding:0 24px}.front-hero{padding:46px 0}.front-abstract{grid-template-columns:1fr;gap:28px;padding:40px 0}.front-arcs{grid-template-columns:1fr;gap:28px}.front-journey{padding:40px 0}.front-before>summary span{display:block;margin:4px 0 0 22px}}
+@media(max-width:400px){.front-page .reader-layout{padding:0 18px}.prose .front-hero h1{font-size:clamp(2.7rem,12vw,3.5rem)}.front-actions{gap:18px;font-size:16px}}
+@media(max-width:480px){.front-page .topbar{height:auto;min-height:60px;flex-wrap:wrap;padding-top:8px;padding-bottom:8px;gap:0}.front-page .topbar nav{width:100%;justify-content:space-between;gap:10px}.front-page .brand span{display:none}}
+@media print{.front-page .reader-layout{padding:0}.front-hero{padding-top:0}.front-abstract{display:block}.front-abstract-copy{margin-top:24px}.front-arcs{display:block}.front-arc{break-inside:avoid;margin-bottom:24px}}
