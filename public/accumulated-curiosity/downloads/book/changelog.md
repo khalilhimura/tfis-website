@@ -16,6 +16,7 @@ The opening page now includes a book abstract and a guided reading journey. The 
 
 ### Reading improvements
 
+- Signed-in navigation now keeps a single My library link, removing the duplicate My account link.
 - A new Changelog page keeps book and reader updates together, with a link after Reference in the book contents.
 
 - Tables wrap text and size their columns automatically for easier reading.
