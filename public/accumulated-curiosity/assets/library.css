@@ -1,6 +1,8 @@
 /* Personal reading tools extend the book's existing typography and palette. */
 [hidden]{display:none!important}
 .personal-tools{border:1px solid var(--rule);border-left:3px solid var(--accent-ui);padding:14px 18px;margin:0 0 30px;background:var(--paper)}
+.section-rail .personal-tools{padding:12px;overflow-wrap:anywhere}
+.section-rail .personal-actions{flex-direction:column;align-items:stretch}
 .personal-actions{display:flex;gap:8px;flex-wrap:wrap}.personal-tools button,.point-actions button{font-size:14px;min-height:42px}
 .personal-tools p{font-size:14px;margin:8px 0 0;line-height:1.5;color:var(--muted)}
 .personal-tools p a{display:inline-block;margin-top:8px}.personal-tools p p{margin:0}
@@ -31,6 +33,7 @@ dialog::backdrop{background:#0007}.dialog-heading{display:flex;justify-content:s
 dialog blockquote{border-left:3px solid var(--accent-ui);padding-left:18px;margin:18px 0;max-height:200px;overflow:auto;font-size:17px;line-height:1.6;white-space:pre-wrap}dialog label{margin:16px 0 6px}dialog textarea{display:block;width:100%;resize:vertical;font-size:16px;line-height:1.5}
 dialog textarea:focus-visible,.library-filters select:focus-visible{outline:3px solid var(--focus);outline-offset:3px}
 .dialog-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:18px}.dialog-actions button{font-size:16px}#point-error{font-size:15px;margin:16px 0 0}#delete-confirmation{border-top:1px solid var(--rule);margin-top:20px;padding-top:12px;font-size:16px}
+@media(max-width:1200px){.section-rail.has-personal-tools{display:block;position:static;grid-column:2;height:auto;overflow:visible;padding:0 0 32px}.section-rail.has-personal-tools>:not(.personal-tools){display:none}.section-rail .personal-actions{flex-direction:row}.section-rail .personal-tools{margin-bottom:0}}
 @media(max-width:1050px){.topbar{align-items:flex-start}.brand{padding-top:10px}.topbar nav{gap:8px 14px}}
 @media(max-width:800px){.topbar{position:relative;flex-wrap:wrap;padding:10px 20px}.brand{padding-top:0}.topbar nav{justify-content:flex-start;gap:8px 16px;width:100%}.topbar .brand b{display:inline}.topbar nav>a{padding:6px 0}.library-filters{grid-template-columns:1fr 1fr}.library-filters label:first-child{grid-column:1/-1}.personal-tools{padding:12px}.personal-actions{gap:6px}.personal-actions button{flex:1 1 auto}dialog{padding:20px}.dialog-heading h2{font-size:1.3rem}}
 @media print{.personal-tools,dialog,mark[data-point-ids]::after{display:none!important}mark[data-point-ids]{background:transparent;color:inherit}}
