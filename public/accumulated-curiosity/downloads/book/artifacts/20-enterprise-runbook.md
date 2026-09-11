@@ -91,13 +91,13 @@ Label every figure observed, estimated, or assumed.
 
 **Remaining dependencies:**
 
-## Fictional worked sample: prospective Fieldwork
+## Fictional worked sample: prospective Himura Inc.
 
 **Runbook:** `enterprise-runbook-v1`.
 
 **Candidate offer:** Help independent educators prepare a bounded short-workshop design brief with an inspectable practice example and review questions. This offer remains a hypothesis. The existing internal workflow tests faithful action-list representation, not whole-service usefulness or learning effects.
 
-**State:** No customers, external deliveries, learner results, achieved revenue, or deployed SovMem system. Cards below are invented by Maya for rehearsal.
+**State:** No customers, external deliveries, learner results, achieved revenue, or deployed SovMem system. Cards below are invented by Audy for rehearsal.
 
 **Current authority:** `learning-loop-v1` selects `instructions-v3`. Existing delegation-contract-v1, review-policy-v1, and system-contracts-v1 govern the bounded production and handoff. No v4 or automatic permission expansion is introduced.
 
@@ -132,7 +132,7 @@ Whole-deliverable review also checks whether the provisional brief names the int
 
 **Result:** Scope proposal requiring purpose, capability, review effort, and authorization. The current source comparison does not establish translation quality. Separable existing work may continue; dependent new work remains pending.
 
-**One-off accommodation:** If Maya chooses an extra example for this rehearsal, record that limited decision. Do not let distillation turn it into the standard promise for all future requests.
+**One-off accommodation:** If Audy chooses an extra example for this rehearsal, record that limited decision. Do not let distillation turn it into the standard promise for all future requests.
 
 ### Support/clarification card
 

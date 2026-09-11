@@ -59,11 +59,11 @@ What I corrected after consulting the evidence:
 
 Decision and status are separate. A rewrite decision remains a record of that candidate even after a corrected candidate is accepted. Superseding a record changes its current applicability; it does not silently rewrite the original evidence.
 
-## Worked packet: fictional Fieldwork
+## Worked packet: fictional Himura Inc.
 
 All notes, outputs, decisions, and record excerpts below are **authored teaching specimens**. They are not transcripts of model runs, file-write receipts, learner observations, or customer evidence. The packet makes the method inspectable. Replace its specimens with your own saved work when performing the exercise.
 
-**Project:** Maya's proposed thirty-minute action-list workshop. The immediate task is preparing an example action list within the design materials; the final workshop brief remains `workshop-brief-v1`.
+**Project:** Audy's proposed thirty-minute action-list workshop. The immediate task is preparing an example action list within the design materials; the final workshop brief remains `workshop-brief-v1`.
 
 **Existing project route:** Project index → [the existing `learning-loop-v1` selector](11-distillation-record.md#current-pointer-excerpt) → [current `instructions-v3`](11-distillation-record.md#current-instruction-instructions-v3). `action-list-rule-rationale-v1` explains the rule and its history. The knowledge map links the relevant records. This packet does not create a second authority route.
 
@@ -82,7 +82,7 @@ Include source-line references for every represented item and its details.
 When sources conflict without an authorized supersession, retain the supported
 action and shared details, show both conflicting claims, and request
 clarification. Do not invent a resolution or discard uncontested content.
-Take no external action. Maya reviews the draft before it enters the brief.
+Take no external action. Audy reviews the draft before it enters the brief.
 ```
 
 This represents the already-approved instruction. The new verdict enforces it; the instruction does not need another version merely because a new example is reviewed.
@@ -108,7 +108,7 @@ Deadline: Thursday.
 
 **Evidence:** [Input A](#input-a-imprecise-timing), lines A1–A2; [current instruction](#current-instruction-worked-excerpt).
 
-**Reviewer:** Maya, within the fictional case.
+**Reviewer:** Audy, within the fictional case.
 
 **Decision:** Rewrite.
 
@@ -118,7 +118,7 @@ Deadline: Thursday.
 
 **Reusable lesson:** Preserve the timing the source establishes. Do not supply unsupported precision. When a precise date is explicitly supplied, retain it; when claims conflict, preserve the conflict under the current instruction.
 
-**Scope:** Fieldwork's source-faithful action-list drafting and review. The verdict grants no authority to assign work, contact participants, invent source context, or resolve contradictory deadlines.
+**Scope:** Himura Inc.'s source-faithful action-list drafting and review. The verdict grants no authority to assign work, contact participants, invent source context, or resolve contradictory deadlines.
 
 **Reconsideration trigger:** A corrected source for this case, a changed instruction/authority contract, or evidence that the lesson mishandles a legitimate input. No arbitrary time expiry is assigned to the general evidence boundary. A new input still requires an applicability check.
 
@@ -188,7 +188,7 @@ Deadline: Unknown, because the previous verdict says not to add dates.
 
 **Evidence:** The two literal Input B outputs above expose acceptable use and overgeneralization. They are contrasting authored examples, not a measured success/failure pair from a model.
 
-**Working consequence:** Retain the current instruction. Add the reviewed verdict and contrasting cases to its supporting rationale. Keep the rejected generalization visibly historical. Maya can incorporate the accepted action-list example in her practice materials after review; this establishes no learner effect.
+**Working consequence:** Retain the current instruction. Add the reviewed verdict and contrasting cases to its supporting rationale. Keep the rejected generalization visibly historical. Audy can incorporate the accepted action-list example in her practice materials after review; this establishes no learner effect.
 
 **Further boundary:** If two source passages disagree about the deadline without establishing supersession, retain the supported action and both claims, then request clarification under the existing conflict policy. Do not select Thursday merely because this example used it.
 

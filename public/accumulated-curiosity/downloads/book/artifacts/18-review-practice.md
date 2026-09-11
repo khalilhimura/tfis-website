@@ -1,6 +1,6 @@
 # Review practice: a polished row hides a conflict
 
-This is authored teaching material for the fictional Fieldwork case, not a real model run or customer incident. The current instruction is instructions-v3. The complete source is [S17 in the preceding practice packet](17-delegated-workflow-practice.md#complete-source-packet-s17).
+This is authored teaching material for the fictional Himura Inc. case, not a real model run or customer incident. The current instruction is instructions-v3. The complete source is [S17 in the preceding practice packet](17-delegated-workflow-practice.md#complete-source-packet-s17).
 
 **Invocation:** D18 is a separate concision rehearsal after the D17 example has concluded. It starts with the same source and governing instruction, a new first candidate, and **zero of one allowed repairs used**. It is not a renamed continuation of an exhausted D17 attempt.
 
@@ -16,7 +16,7 @@ A hypothetical request for concision produces this new candidate:
 
 **Assistant's authored check note:** “Removed duplicate circulation rows; dates and owners checked.”
 
-**Maya's initial authored verdict:** Accepted for continued synthetic workshop design, after a quick glance.
+**Audy's initial authored verdict:** Accepted for continued synthetic workshop design, after a quick glance.
 
 Before reading further, compare the source and candidate without AI. Identify the exact defect, write the corrected verdict, and state what must happen to the stored acceptance. Inspect whether the candidate contains a problem despite having every table field filled.
 

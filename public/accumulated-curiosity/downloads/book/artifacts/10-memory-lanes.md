@@ -73,24 +73,24 @@ Use this with Chapter 10 after completing your memory inventory and charter. The
 - What this rehearsal did not establish:
 - Optional manifest check result, if used:
 
-## Fictional worked sample: Fieldwork
+## Fictional worked sample: Himura Inc.
 
-**Record:** `memory-lanes-v1`. Maya is developing a possible thirty-minute workshop in which adult learners convert supplied meeting notes into an action list. All practice inputs and results here are fictional and synthetic. No demand, customers, or learner benefits have been established.
+**Record:** `memory-lanes-v1`. Audy is developing a possible thirty-minute workshop in which adult learners convert supplied meeting notes into an action list. All practice inputs and results here are fictional and synthetic. No demand, customers, or learner benefits have been established.
 
 | Role | Illustrative location | Contents and authority |
 | --- | --- | --- |
 | Working context | `work/` | Current task packet, fresh synthetic notes, instructions retrieved through the existing pointer, review criteria. No automatic lasting authority. |
-| Project workspace | `projects/fieldwork/` | `workshop-brief-v1`, `learning-loop-v1`, charter, inventory, rationale, evidence ledger, selected inputs/outputs. Candidate changes are visibly proposed. |
-| Reviewed durable memory | `memory/` | `commitment-evidence-principle-v1`, approved by Maya within its stated scope. It explains a principle and does not replace task instructions. |
+| Project workspace | `projects/himura-inc/` | `workshop-brief-v1`, `learning-loop-v1`, charter, inventory, rationale, evidence ledger, selected inputs/outputs. Candidate changes are visibly proposed. |
+| Reviewed durable memory | `memory/` | `commitment-evidence-principle-v1`, approved by Audy within its stated scope. It explains a principle and does not replace task instructions. |
 | Portable archive | `archive/` | Selected workshop-design snapshot, readable file list, approved-state description, retained history, and restore notes. Historical records remain historical. |
 
 These are illustrative locations, not links to files installed by this worksheet. A separate project index points to `learning-loop-v1`. That record remains the sole selector of current task instructions. `action-list-rule-rationale-v1` links the instructions to their evidence and explains them without issuing a competing instruction.
 
 **Promotion candidate rejected:** “Never infer anything from meeting notes.” It is broader than the supported problem and would prohibit useful interpretation or clearly labeled proposals.
 
-**Approved principle:** “When turning supplied notes into commitments, preserve the distinction between what was agreed, what was suggested, and what remains unknown.” Scope: Fieldwork action-list practice design and review. Support: selected owner and deadline comparisons linked through the project rationale. Limit: synthetic design work, no observed learner benefit or universal detection guarantee. Current task instructions must still be retrieved through `learning-loop-v1`.
+**Approved principle:** “When turning supplied notes into commitments, preserve the distinction between what was agreed, what was suggested, and what remains unknown.” Scope: Himura Inc. action-list practice design and review. Support: selected owner and deadline comparisons linked through the project rationale. Limit: synthetic design work, no observed learner benefit or universal detection guarantee. Current task instructions must still be retrieved through `learning-loop-v1`.
 
-**Promotion check:** Maya reopens the saved explanatory principle, checks its wording and scope, and follows its links. She confirms that it points to the existing instruction route rather than supplying a new version selector.
+**Promotion check:** Audy reopens the saved explanatory principle, checks its wording and scope, and follows its links. She confirms that it points to the existing instruction route rather than supplying a new version selector.
 
 **Retrieval request:** Find the applicable rule for an agreed item with no owner, then its rationale. The expected response keeps the action visible and marks assignment as not established; it does not invent an owner or suppress the action.
 

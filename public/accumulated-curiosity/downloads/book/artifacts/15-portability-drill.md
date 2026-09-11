@@ -62,13 +62,13 @@ Use with [Chapter 15](../chapters/15-the-sovereignty-test.md). Start with the [s
 
 **Rehearsal copies to retain or remove under charter:**
 
-## Fictional worked sample: Maya and Fieldwork
+## Fictional worked sample: Audy and Himura Inc.
 
 **Drill:** `portability-drill-v1`.
 
 **Claim:** Reconstruct the current synthetic action-list procedure from a selected package, retaining source, authority, permission, and review behavior without relying on the old conversation.
 
-**Initial finding:** An earlier package opens correctly and preserves owner/imprecise-timing rules, but does not contain the later approved conflict-handling instruction. This is stale applicability, not corrupted copying. Maya compares with the reviewed current state, creates an updated package, and repeats the destination check. The live project is not overwritten.
+**Initial finding:** An earlier package opens correctly and preserves owner/imprecise-timing rules, but does not contain the later approved conflict-handling instruction. This is stale applicability, not corrupted copying. Audy compares with the reviewed current state, creates an updated package, and repeats the destination check. The live project is not overwritten.
 
 ### Test A: literal input and reviewable output
 

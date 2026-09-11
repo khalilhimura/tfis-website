@@ -48,13 +48,13 @@ The portfolio checks in the chapters are the book's practical interpretation of 
 
 ## Follow a business that is allowed to fail
 
-The running example is fictional. Maya is an experienced facilitator who is considering a small research and learning-design studio called Fieldwork. She wants to help independent educators turn their expertise into useful short workshops. At the beginning, she has an idea and relevant experience. She does not yet have evidence of demand, a successful product, or an automated company.
+The running example is fictional. Audy is an experienced facilitator who is considering a small research and learning-design studio called Himura Inc. She wants to help independent educators turn their expertise into useful short workshops. At the beginning, she has an idea and relevant experience. She does not yet have evidence of demand, a successful product, or an automated company.
 
 We will follow her questions, drafts, mistakes, and revisions. The same working documents will recur so that you can see how an early decision affects a later workflow. When an example uses customer conversations, delivery results, or financial figures, those details are invented for teaching unless a source is explicitly identified. They are not testimonials or evidence that this business would succeed in a particular market.
 
 The case gives the book something specific to work on. It does not imply that your opportunity lies in education. Each arc includes adaptations for services, education, and software. A consultant might build a client-research brief; an educator might build a lesson and an assessment; a software builder might build a small feature and a reliable way to evaluate it. The shared requirement is that someone can inspect whether the work is useful.
 
-Fieldwork will not gain customers or revenue simply because a chapter needs an encouraging ending. A convincing exercise can lead to abandoning an idea, reducing scope, or keeping a task manual. These outcomes preserve resources and improve judgment. They belong in a practical blueprint as much as successful automation does.
+Himura Inc. will not gain customers or revenue simply because a chapter needs an encouraging ending. A convincing exercise can lead to abandoning an idea, reducing scope, or keeping a task manual. These outcomes preserve resources and improve judgment. They belong in a practical blueprint as much as successful automation does.
 
 ## Learn from the TFIS build experiments
 
@@ -113,13 +113,13 @@ The Future Is Solo. (2026). *The Future Is Solo 20260910* [Google Slides present
 
 ## A company begins with an unfinished piece of work
 
-Maya opens a blank document and types the name of her proposed business: Fieldwork. She has experience facilitating workshops. She wants to help independent adult educators turn what they know into short workshops that other people can use. She has no customers yet, no evidence that anyone will pay for this particular service, and no software to sell. Fieldwork is an idea with a name.
+Audy opens a blank document and types the name of her proposed business: Himura Inc. She has experience facilitating workshops. She wants to help independent adult educators turn what they know into short workshops that other people can use. She has no customers yet, no evidence that anyone will pay for this particular service, and no software to sell. Himura Inc. is an idea with a name.
 
-Maya and her studio are fictional. Their case lets us follow decisions, failures, and repairs closely without mistaking an illustrative business for market evidence.
+Audy and her studio are fictional. Their case lets us follow decisions, failures, and repairs closely without mistaking an illustrative business for market evidence.
 
 Her first idea is a generic workshop template. She imagines sections for an introduction, learning objectives, activities, discussion, and a closing reflection. An AI assistant could produce that document quickly. It could also produce a logo, a service description, and several months of promotional posts. By evening she could have the appearance of a functioning business.
 
-Yet one question remains unanswered: what does a particular educator need a learner to be able to do after the workshop? A template can be beautifully organized while offering little help with that decision. Maya has reached a useful starting point. She needs to investigate a piece of work before expanding the business around it.
+Yet one question remains unanswered: what does a particular educator need a learner to be able to do after the workshop? A template can be beautifully organized while offering little help with that decision. Audy has reached a useful starting point. She needs to investigate a piece of work before expanding the business around it.
 
 She names that piece of work `workshop-brief-v1`. It will be a short design brief describing a possible learner, a task the learner might need to perform, the conditions of that task, and an observable result. At first, every claim about the learner is provisional. The brief is an instrument for asking better questions, not a product announcement.
 
@@ -129,13 +129,13 @@ Your starting point should be similarly modest and consequential. Choose one out
 
 The Future Is Solo proposes that an individual can organize AI and automation into capabilities previously associated with larger organizations. Its central concern is the person's ability to direct and retain useful capability, rather than the possession of a particular tool. This book treats that proposition as a practical question to investigate. ([The Future Is Solo, n.d.-b](https://thefutureissolo.com/))
 
-Owning direction means being able to say what work is for. Maya must decide whose problem she is trying to understand, what she can responsibly promise, and what would make the result worth paying for. An assistant can draft alternatives and expose inconsistencies. The existence of alternatives does not choose among them.
+Owning direction means being able to say what work is for. Audy must decide whose problem she is trying to understand, what she can responsibly promise, and what would make the result worth paying for. An assistant can draft alternatives and expose inconsistencies. The existence of alternatives does not choose among them.
 
-Owning the consequence is just as concrete. If a workshop brief misrepresents research, the educator receives a misleading brief from Fieldwork. The fact that an assistant supplied the sentence does not improve the educator's position. Maya needs a way to recognize the mistake, correct it, and prevent a repeat. Her role includes setting standards and arranging for the work to meet them.
+Owning the consequence is just as concrete. If a workshop brief misrepresents research, the educator receives a misleading brief from Himura Inc. The fact that an assistant supplied the sentence does not improve the educator's position. Audy needs a way to recognize the mistake, correct it, and prevent a repeat. Her role includes setting standards and arranging for the work to meet them.
 
 This kind of independence remains compatible with cooperation. A solo founder can buy services, consult experts, join a professional community, and ask a peer to review an unfamiliar claim. An employed professional can build the same capability inside a team. Independence becomes useful when it creates options and reduces avoidable fragility; it becomes a burden when the owner insists on personally mastering every specialty.
 
-Consider two versions of Maya's day. In the first, she copies text between several tools, re-explains the project at every step, and fixes the same errors repeatedly. In the second, a clear brief guides the work, a saved procedure produces a reviewable draft, and her corrections improve the next attempt. Both days involve one person and AI. Only the second leaves her with something that may make tomorrow easier.
+Consider two versions of Audy's day. In the first, she copies text between several tools, re-explains the project at every step, and fixes the same errors repeatedly. In the second, a clear brief guides the work, a saved procedure produces a reviewable draft, and her corrections improve the next attempt. Both days involve one person and AI. Only the second leaves her with something that may make tomorrow easier.
 
 That difference is the subject of this book. Your work should produce durable assets: explanations, procedures, evidence records, tested artifacts, and informed relationships. Their usefulness will guide where you invest time and, eventually, what you offer others.
 
@@ -143,9 +143,9 @@ That difference is the subject of this book. Your work should produce durable as
 
 There is empirical reason to test AI assistance. In a preregistered experiment involving 453 college-educated professionals completing occupation-specific writing tasks, Noy and Zhang reported that access to ChatGPT reduced average completion time by 40% and increased assessed output quality by 18%. These were measured results in that experimental setting. ([Noy & Zhang, 2023](https://doi.org/10.1126/science.adh2586))
 
-The conditions belong beside the numbers. These results concern professional writing tasks under a particular intervention. They do not establish the ability to replace every company function, customer demand for Maya's offer, her long-term maintenance costs, or the same improvement from an assistant used today.
+The conditions belong beside the numbers. These results concern professional writing tasks under a particular intervention. They do not establish the ability to replace every company function, customer demand for Audy's offer, her long-term maintenance costs, or the same improvement from an assistant used today.
 
-For Maya, the research justifies a local experiment. It gives her a reason to ask whether assistance changes the time and quality of her brief-writing task. She still needs a baseline, an explicit standard, and a record of what she corrects. Borrowing the study's percentage as a forecast for Fieldwork would bypass the very measurement that made the finding informative.
+For Audy, the research justifies a local experiment. It gives her a reason to ask whether assistance changes the time and quality of her brief-writing task. She still needs a baseline, an explicit standard, and a record of what she corrects. Borrowing the study's percentage as a forecast for Himura Inc. would bypass the very measurement that made the finding informative.
 
 The same discipline applies to impressive demonstrations. A demonstration can establish that a system completed an example under the shown conditions. You need additional evidence to know how often it works, how failures appear, and how much attention it requires. A smooth recording rarely tells you the cost of all the attempts that preceded it.
 
@@ -163,7 +163,7 @@ These figures are arithmetic, not market evidence or a recommended price. They e
 
 A hypothetical $200 resource would require 5,000 purchases to produce the same gross revenue. That reduces neither the need to reach buyers nor the work of maintaining an offer that deserves their money. A digital file has a different delivery process from a consulting engagement; the multiplication does not show that demand exists.
 
-Maya does not choose either scenario yet. She writes them in a separate page headed “Illustrative arithmetic—no demand established.” Her immediate project remains a workshop brief. She wants to know whether she can help make an educator's intended learning outcome more precise. Without evidence of usefulness, polishing the revenue model would merely sharpen an assumption.
+Audy does not choose either scenario yet. She writes them in a separate page headed “Illustrative arithmetic—no demand established.” Her immediate project remains a workshop brief. She wants to know whether she can help make an educator's intended learning outcome more precise. Without evidence of usefulness, polishing the revenue model would merely sharpen an assumption.
 
 You can use this simple arithmetic to protect your ambition from vagueness. Work backward from the quantity you mean. Identify the number of transactions, the work required per transaction, and the parts you have never observed. Keep assumptions visible. Later chapters will examine costs, margins, capacity, and demand together; for now, the calculation tells you where a good question is hiding.
 
@@ -175,7 +175,7 @@ The associated field manual, *The Functional Life*, uses alternative names at se
 
 At this point, the practical question is whether you can move one task from manual performance toward reliable AI assistance. You remain responsible for doing and reviewing the work. There is no requirement to appoint agents, connect databases, or automate delivery. Those choices become meaningful when a working task justifies them.
 
-Maya might already be highly capable at facilitating a discussion. That does not tell her how capable she is at building a source-supported research brief with an assistant. A capability statement needs a domain and conditions: “I can turn my own workshop notes into a reviewable design brief, preserving uncertainty and finding missing information.” It is much easier to examine than “I am at Level 1.”
+Audy might already be highly capable at facilitating a discussion. That does not tell her how capable she is at building a source-supported research brief with an assistant. A capability statement needs a domain and conditions: “I can turn my own workshop notes into a reviewable design brief, preserving uncertainty and finding missing information.” It is much easier to examine than “I am at Level 1.”
 
 The chapter's checks are book-developed practice criteria, not official certification. Five attempts can reveal what the task requires, where assistance helps, and what needs another trial. They do not award a maturity level.
 
@@ -197,13 +197,13 @@ You do not need to reproduce the technical setup. Apply its scale of inquiry to 
 
 Before adding assistance, make the current task visible. Choose a representative input and perform the work in the way you normally would. Record when you start, when you stop, what you produce, and what you check. If interruptions occur, note them. You are establishing a useful comparison, not staging a speed contest.
 
-Maya creates a synthetic input for practice: an educator wants to run a short workshop, has several topic ideas, and has not specified what learners should do differently afterward. The input contains no real person's private information. She spends an illustrative 40 minutes drafting a brief. This is a fictional timing record, included to show the method rather than predict your results.
+Audy creates a synthetic input for practice: an educator wants to run a short workshop, has several topic ideas, and has not specified what learners should do differently afterward. The input contains no real person's private information. She spends an illustrative 40 minutes drafting a brief. This is a fictional timing record, included to show the method rather than predict your results.
 
 Her first draft names a possible audience, lists questions about the learner's task, distinguishes known details from assumptions, and suggests one observable output. She also records the parts she found difficult. Choosing an observable outcome took longer than arranging the headings. Determining what she did not know required more thought than writing sentences.
 
 This distinction matters when selecting work for assistance. If she measures only typing time, she may optimize the part that was already easiest. Her baseline should include thinking, checking, and repairing. The assistant's draft will need those activities too, even if generation takes seconds.
 
-Write a short description of an unacceptable result before examining the assisted output. For Maya, a brief fails if it invents an interview, treats a proposed audience as confirmed, or calls a list of topics a demonstrated learning outcome. These defects are more important than whether the prose sounds polished.
+Write a short description of an unacceptable result before examining the assisted output. For Audy, a brief fails if it invents an interview, treats a proposed audience as confirmed, or calls a list of topics a demonstrated learning outcome. These defects are more important than whether the prose sounds polished.
 
 Keep the manual draft. It gives you a concrete object against which to compare later work and a record of your starting judgment. You may discover that your original method also made unsupported assumptions. The baseline is evidence of the previous process, not a declaration that the previous process was correct.
 
@@ -215,7 +215,7 @@ Look across a week of work. Describe activities with a verb, an input, and an ou
 
 For each candidate, ask what triggers it, how often it occurs, what makes its output useful, and who can judge it. Add the cost of getting it wrong. A task can be frequent yet unsuitable as a first experiment if you cannot inspect the result or undo a mistake.
 
-Maya has no customer-delivery history to audit. She does not invent one. She examines her own preparation practice and notices a recurring activity: converting loosely organized workshop ideas into a short design brief. Her record distinguishes observed repetition in her preparation work from the untested assumption that customers would buy that work.
+Audy has no customer-delivery history to audit. She does not invent one. She examines her own preparation practice and notices a recurring activity: converting loosely organized workshop ideas into a short design brief. Her record distinguishes observed repetition in her preparation work from the untested assumption that customers would buy that work.
 
 Then she considers whether the task should happen at all. A beautifully automated weekly report would add little if nobody needs its contents. A better response might be eliminating it, reducing its scope, or replacing it with a short conversation. Tool use should follow the decision about usefulness.
 
@@ -225,7 +225,7 @@ A narrow experiment also fits around your other responsibilities. Test a brief d
 
 ## Turn a request into a saved specification
 
-Maya's first request is ordinary: “Make these notes into a useful workshop brief.” The response has tidy headings and an appealing description. It also states that learners lack confidence and prefer hands-on activities, although neither claim appears in her notes. The assistant has filled gaps she needed to keep visible.
+Audy's first request is ordinary: “Make these notes into a useful workshop brief.” The response has tidy headings and an appealing description. It also states that learners lack confidence and prefer hands-on activities, although neither claim appears in her notes. The assistant has filled gaps she needed to keep visible.
 
 She could remove those sentences and move on. Instead, she asks what instruction would help her recognize and prevent this class of error. The problem is not simply that the tone is too confident. The output has confused proposed explanations with supplied evidence.
 
@@ -239,15 +239,15 @@ Treat the prompt as an initial specification: a statement of what the work shoul
 
 ## Learn from five attempts
 
-Maya numbers her trials and records the input, prompt version, output, review verdict, and repair. Her first attempt is the overconfident draft. Its useful discovery is that the input boundary needs to be explicit. She marks the attempt “rewrite” and describes the invented learner claims.
+Audy numbers her trials and records the input, prompt version, output, review verdict, and repair. Her first attempt is the overconfident draft. Its useful discovery is that the input boundary needs to be explicit. She marks the attempt “rewrite” and describes the invented learner claims.
 
-The second attempt uses the same input with the revised prompt. It keeps assumptions separate, but its proposed outcome is “understand the workshop topic.” Maya cannot inspect that outcome directly. She changes the prompt to request something a learner could produce, choose, demonstrate, or explain under stated conditions. Her correction concerns the testability of the brief, not merely its vocabulary.
+The second attempt uses the same input with the revised prompt. It keeps assumptions separate, but its proposed outcome is “understand the workshop topic.” Audy cannot inspect that outcome directly. She changes the prompt to request something a learner could produce, choose, demonstrate, or explain under stated conditions. Her correction concerns the testability of the brief, not merely its vocabulary.
 
-For the third attempt, she introduces a different synthetic set of notes. The educator lists several possible audiences. The response chooses one without explaining the choice. Maya's review catches a new boundary: the assistant may propose an audience for discussion, but cannot convert that proposal into a confirmed customer definition.
+For the third attempt, she introduces a different synthetic set of notes. The educator lists several possible audiences. The response chooses one without explaining the choice. Audy's review catches a new boundary: the assistant may propose an audience for discussion, but cannot convert that proposal into a confirmed customer definition.
 
-The fourth attempt deliberately contains an important gap. The notes name an audience and topic but contain no description of the task a learner needs to perform. This time the response identifies the gap and asks a focused question. Maya accepts that behavior. Producing less content is useful when it preserves a decision that still requires evidence.
+The fourth attempt deliberately contains an important gap. The notes name an audience and topic but contain no description of the task a learner needs to perform. This time the response identifies the gap and asks a focused question. Audy accepts that behavior. Producing less content is useful when it preserves a decision that still requires evidence.
 
-The fifth attempt uses another ordinary input and the latest prompt version. Maya checks whether the earlier corrections still apply. The draft separates assumptions, proposes an inspectable learner output, and leaves unresolved audience choices visible. She accepts it after a small wording edit. The five attempts have given her a more precise specification, not proof that every future brief will pass.
+The fifth attempt uses another ordinary input and the latest prompt version. Audy checks whether the earlier corrections still apply. The draft separates assumptions, proposes an inspectable learner output, and leaves unresolved audience choices visible. She accepts it after a small wording edit. The five attempts have given her a more precise specification, not proof that every future brief will pass.
 
 Notice that the trials serve different purposes. Reusing an input helps examine a repair. Changing the input helps reveal whether the repair was too specific. Supplying a missing detail deliberately tests how the procedure behaves at a boundary. Five copies of the same successful exchange would have taught her less about the task's range.
 
@@ -257,11 +257,11 @@ Do not manufacture a failure just to satisfy the exercise. If your first attempt
 
 ## Count the work around the answer
 
-Suppose Maya's final assisted attempt takes an illustrative 22 minutes: three preparing the input, one waiting for the draft, ten checking it, and eight revising and filing it. Subtracting that from the fictional 40-minute manual baseline gives an 18-minute difference in recorded durations. The attempts used different inputs, so the difference is not yet an estimate of time saved by assistance. The fifth input might simply have been easier.
+Suppose Audy's final assisted attempt takes an illustrative 22 minutes: three preparing the input, one waiting for the draft, ten checking it, and eight revising and filing it. Subtracting that from the fictional 40-minute manual baseline gives an 18-minute difference in recorded durations. The attempts used different inputs, so the difference is not yet an estimate of time saved by assistance. The fifth input might simply have been easier.
 
 She also spent time developing the prompt and reviewing the earlier failures. Suppose that setup took 90 minutes. Under the simplified assumption that future comparable attempts save 18 minutes each, five such attempts would recover the setup time. If later inputs require longer review or the task changes, the calculation changes too. These invented numbers show which costs to track.
 
-A useful timing comparison needs its own trial. Maya can choose comparable inputs and the same acceptance criteria, record the full manual and assisted work, and note that seeing an input previously may make a later attempt easier. Across further trials she can vary which method comes first. The exploratory five attempts were designed to discover defects; this comparison investigates effort under a defined quality bar. If the assisted version leaves errors behind, a shorter duration may simply defer repair.
+A useful timing comparison needs its own trial. Audy can choose comparable inputs and the same acceptance criteria, record the full manual and assisted work, and note that seeing an input previously may make a later attempt easier. Across further trials she can vary which method comes first. The exploratory five attempts were designed to discover defects; this comparison investigates effort under a defined quality bar. If the assisted version leaves errors behind, a shorter duration may simply defer repair.
 
 There are useful outcomes besides speed. A clearer brief may expose a question sooner. A consistent output format may make peer review easier. Keeping the record might reduce repeated explanation next week. Describe these benefits concretely, and test them when they matter. Avoid collecting every possible benefit in a vague claim of greater productivity.
 
@@ -269,11 +269,11 @@ The result may also justify staying manual. If the task occurs twice a year and 
 
 ## Keep a part of the task inside your own understanding
 
-Close the assistant and the draft. In ordinary language, explain what a useful workshop brief does, name two ways a polished brief can fail, and describe which unanswered question matters most in the current project. Maya should be able to do this without reproducing the assistant's wording.
+Close the assistant and the draft. In ordinary language, explain what a useful workshop brief does, name two ways a polished brief can fail, and describe which unanswered question matters most in the current project. Audy should be able to do this without reproducing the assistant's wording.
 
 This is a thinking check, not a memory performance. She may consult the documents afterward to correct details. What matters now is whether she can exercise the judgment her prompt requires. If she cannot explain why an outcome is observable, adding that phrase to an instruction has not yet given her the ability to evaluate the response.
 
-When the explanation breaks down, record the gap. “I cannot distinguish a topic from a task learners can perform” is a useful next learning objective. She can study an example, make her own contrast, and ask a knowledgeable person to challenge it. The assistant can help prepare that work while Maya remains responsible for understanding the distinction.
+When the explanation breaks down, record the gap. “I cannot distinguish a topic from a task learners can perform” is a useful next learning objective. She can study an example, make her own contrast, and ask a knowledgeable person to challenge it. The assistant can help prepare that work while Audy remains responsible for understanding the distinction.
 
 This practice becomes more important as the system becomes more capable. You do not need to hold every fact in your head. You do need enough understanding to recognize when the process is operating outside its limits, and enough curiosity to investigate when its confident answer does not fit the situation.
 
@@ -285,17 +285,17 @@ An educator might turn their own lesson notes into a practice activity. The outp
 
 A software builder might describe a proposed feature in user language before generating code. The first artifact can list the input, expected behavior, failure conditions, and what remains outside scope. If you do not code, you can still inspect whether the description answers those questions. Implementation can wait until the behavior is understandable.
 
-Each adaptation starts with one task and one acceptance standard. Your domain will determine the important defects. Copying Maya's workshop categories without adapting them would preserve the form of the exercise while losing its purpose.
+Each adaptation starts with one task and one acceptance standard. Your domain will determine the important defects. Copying Audy's workshop categories without adapting them would preserve the form of the exercise while losing its purpose.
 
 ## Field assignment: leave evidence for the next chapter
 
-Complete the [capability baseline](book/artifacts/01-capability-baseline.md) with a task from your own work. It includes the weekly audit, manual baseline, saved-prompt fields, five-run correction log, and a worked Fieldwork example. Keep all five outputs, including the ones you reject.
+Complete the [capability baseline](book/artifacts/01-capability-baseline.md) with a task from your own work. It includes the weekly audit, manual baseline, saved-prompt fields, five-run correction log, and a worked Himura Inc. example. Keep all five outputs, including the ones you reject.
 
 Your artifact is ready when another reader can inspect the task, inputs, outputs, and acceptance criteria; trace a revision to an observed result; and identify what still needs testing.
 
 If you have no repeated task, use a small practice task and label it as practice. If you cannot judge the output, narrow the task or arrange informed review. If the assistant keeps inventing missing information, reduce the input set and test that boundary directly. The repair should address the observed defect.
 
-Maya ends the exercise with a provisional brief, a prompt she can reuse, and a record of what she corrected. She still has no evidence that an educator wants to buy the service. She does have a more precise question about usefulness: what claim would support choosing this learner task, and how could she check it? That question opens [Chapter 2](book/chapters/02-the-end-of-knowledge-scarcity.md).
+Audy ends the exercise with a provisional brief, a prompt she can reuse, and a record of what she corrected. She still has no evidence that an educator wants to buy the service. She does have a more precise question about usefulness: what claim would support choosing this learner task, and how could she check it? That question opens [Chapter 2](book/chapters/02-the-end-of-knowledge-scarcity.md).
 
 ## References
 
@@ -318,15 +318,15 @@ The Future Is Solo. (2026). *The Future Is Solo 20260910* [Google Slides present
 
 ## An answer arrives before the question is ready
 
-Maya has a saved prompt and a provisional workshop brief. In the previous chapter, she learned to notice when an assistant invented details about learners. She now asks a broader question: what makes a short workshop effective?
+Audy has a saved prompt and a provisional workshop brief. In the previous chapter, she learned to notice when an assistant invented details about learners. She now asks a broader question: what makes a short workshop effective?
 
-The answer is immediate and comprehensive. It recommends clear outcomes, practical activities, discussion, feedback, and opportunities to revisit material. The suggestions sound reasonable. Some resemble practices Maya already uses as a facilitator. She can imagine turning the answer into a checklist and adding it to every Fieldwork brief.
+The answer is immediate and comprehensive. It recommends clear outcomes, practical activities, discussion, feedback, and opportunities to revisit material. The suggestions sound reasonable. Some resemble practices Audy already uses as a facilitator. She can imagine turning the answer into a checklist and adding it to every Himura Inc. brief.
 
 Then she looks at the word *effective*. Effective at what? A participant might enjoy a session, remember an idea, complete a practice task, or use a skill at work the following month. These are different outcomes. The answer has offered design advice without deciding which outcome the proposed workshop should produce.
 
-In this fictional case, Maya is still investigating the service; she has yet to deliver a workshop or observe its effects.
+In this fictional case, Audy is still investigating the service; she has yet to deliver a workshop or observe its effects.
 
-She creates a new document, `claim-evidence-ledger-v1`. Its first entry is a sentence from her own emerging business idea: “Independent educators need help turning a topic into a task a learner can perform.” She marks it as a hypothesis. It could be a useful direction for Fieldwork, but her experience of difficulty while drafting does not establish that other educators share it or would pay for help.
+She creates a new document, `claim-evidence-ledger-v1`. Its first entry is a sentence from her own emerging business idea: “Independent educators need help turning a topic into a task a learner can perform.” She marks it as a hypothesis. It could be a useful direction for Himura Inc., but her experience of difficulty while drafting does not establish that other educators share it or would pay for help.
 
 The ledger changes her relationship with the assistant's answer. Instead of asking whether the whole response sounds convincing, she can examine one claim at a time. What does the claim mean? Where did it come from? What would justify using it in the brief? The questions are small enough to answer carefully.
 
@@ -336,9 +336,9 @@ An assistant can make it practical to begin exploring a subject before you know 
 
 The chapter title describes that possibility. Knowledge still has costs. Some evidence is unpublished, inaccessible, difficult to interpret, or available only through direct observation. A private customer decision does not become public because you can ask a fluent system to predict it. An explanation of a craft does not supply every judgment needed to perform it.
 
-For Maya, three shortages remain. She lacks a precise account of the learner's task, evidence that educators need her proposed service, and a reliable way to connect a design choice to an observable outcome. More general advice about workshops may help her frame these gaps. It cannot fill them by repetition.
+For Audy, three shortages remain. She lacks a precise account of the learner's task, evidence that educators need her proposed service, and a reliable way to connect a design choice to an observable outcome. More general advice about workshops may help her frame these gaps. It cannot fill them by repetition.
 
-The practical advantage is the ability to move between questions at lower friction. Maya can ask what “transfer” means in a learning context, compare it with immediate recall, and return to her brief with more precise language. She then needs to verify that language and determine whether the distinction affects the work.
+The practical advantage is the ability to move between questions at lower friction. Audy can ask what “transfer” means in a learning context, compare it with immediate recall, and return to her brief with more precise language. She then needs to verify that language and determine whether the distinction affects the work.
 
 Access lets you enter a conversation, identify gaps, and prepare a better request for informed help. Then you must decide what the current explanation is sufficient for.
 
@@ -346,13 +346,13 @@ For a private practice draft, it may be sufficient to generate two alternatives.
 
 ## Give each sentence a job
 
-A useful ledger starts by distinguishing kinds of statements. Maya's brief contains observations, interpretations, proposed actions, factual claims about research, and statements of preference. They need different kinds of support.
+A useful ledger starts by distinguishing kinds of statements. Audy's brief contains observations, interpretations, proposed actions, factual claims about research, and statements of preference. They need different kinds of support.
 
-“The input notes do not name a learner task” is an observation she can verify by reading the notes. “The educator is probably unsure what to teach” is an interpretation that may have several explanations. “Ask the educator to describe a learner's next action” is a proposed move. “Retrieval practice improves a particular measured outcome in a study” is an empirical claim. “Fieldwork should favor inspectable results over polished slide counts” is an operating preference.
+“The input notes do not name a learner task” is an observation she can verify by reading the notes. “The educator is probably unsure what to teach” is an interpretation that may have several explanations. “Ask the educator to describe a learner's next action” is a proposed move. “Retrieval practice improves a particular measured outcome in a study” is an empirical claim. “Himura Inc. should favor inspectable results over polished slide counts” is an operating preference.
 
 Confusion appears when one kind of sentence borrows another kind's authority. An attractive recommendation can become a purported research finding. An imagined customer response can become a market observation. A professional preference can acquire an academic citation even though the source never evaluated that preference.
 
-Maya does not need a complicated classification system. In the margin she writes words such as *observed*, *proposed*, or *needs evidence*. Their purpose is to make the next action clear. An observation needs a record. A hypothesis needs a test. A preference needs a reason and an owner willing to stand behind it.
+Audy does not need a complicated classification system. In the margin she writes words such as *observed*, *proposed*, or *needs evidence*. Their purpose is to make the next action clear. An observation needs a record. A hypothesis needs a test. A preference needs a reason and an owner willing to stand behind it.
 
 This is also a useful way to read TFIS. *The Functional Life* advocates verification as a working discipline and connects it to retaining judgment. That is part of the philosophy this book develops. It does not by itself establish an empirical effect size for a learning method or a probability of business success. ([The Future Is Solo, n.d.-a](https://life.thefutureissolo.com/))
 
@@ -362,13 +362,13 @@ You can adopt an operating principle and examine how well it serves the work. Cl
 
 A claim-evidence ledger is a record connecting a statement to what supports it and what you plan to do with it. You can keep it in an ordinary document. A spreadsheet is optional. The important structure is the connection, not the application you choose.
 
-Give each important claim a short identifier. Maya uses `C01`, `C02`, and so on. Copy the exact sentence under consideration, then write a narrower interpretation if the sentence is vague. A claim such as “active workshops work better” is difficult to investigate until *active*, *better*, and the comparison are defined.
+Give each important claim a short identifier. Audy uses `C01`, `C02`, and so on. Copy the exact sentence under consideration, then write a narrower interpretation if the sentence is vague. A claim such as “active workshops work better” is difficult to investigate until *active*, *better*, and the comparison are defined.
 
 Record the source separately from your account of what it says. Include the author or organization, title, year if supplied, and a link. Add a precise location: an abstract, a named section, a figure, a table, or a page. A homepage that merely belongs to a respected institution is usually too broad to let another reader repeat the check.
 
 Then record the match between claim and source. Does the source support the sentence as written, support a narrower version, contradict it, or leave the question unanswered? You can use those ordinary descriptions. A green tick without a reason will be difficult to interpret when you return in three months.
 
-Finally, name the decision the claim affects. Maya's research entry might inform whether to include a recall attempt in a proposed activity. Her customer-demand entry might inform whether to develop the service further. Keeping the decision visible prevents the ledger from becoming a collection of interesting facts unrelated to the work.
+Finally, name the decision the claim affects. Audy's research entry might inform whether to include a recall attempt in a proposed activity. Her customer-demand entry might inform whether to develop the service further. Keeping the decision visible prevents the ledger from becoming a collection of interesting facts unrelated to the work.
 
 For a first pass, select five claims that carry weight in your draft. You do not need to document every ordinary sentence. Prioritize statements that justify the offer, change the design, contain numbers, invoke outside authority, or would mislead someone if wrong. The chapter artifact provides a blank record, a worked sample, and a small verification queue.
 
@@ -376,17 +376,17 @@ Write the ledger for someone who was absent from the conversation. That person m
 
 ## Follow one claim all the way to its source
 
-Consider a draft sentence Maya might be tempted to use: “Adding a quiz makes any short workshop more effective.” The sentence is too broad. It does not name an outcome, leaves the quiz unspecified, and claims generality across workshops.
+Consider a draft sentence Audy might be tempted to use: “Adding a quiz makes any short workshop more effective.” The sentence is too broad. It does not name an outcome, leaves the quiz unspecified, and claims generality across workshops.
 
 She finds Roediger and Karpicke's study of testing and retention. In two experiments with students learning prose passages, prior recall tests led to better delayed retention than repeated study. At the immediate five-minute test, the pattern favored repeated study. The paper therefore gives her a specific finding with conditions attached. ([Roediger & Karpicke, 2006](https://doi.org/10.1111/j.1467-9280.2006.01693.x))
 
 Her original sentence cannot survive unchanged. She writes a narrower source summary: the cited experiments support a benefit of retrieval practice for delayed retention of the studied prose under the tested conditions. She then writes a separate design inference: a brief recall attempt may be worth testing in a workshop whose goal requires retaining information.
 
-The separation matters. The first sentence reports research. The second proposes an application that Maya still has to evaluate. Neither establishes improved performance on an unfamiliar workplace task. If the workshop's goal is performing such a task, she needs an appropriate performance check as well as any recall exercise.
+The separation matters. The first sentence reports research. The second proposes an application that Audy still has to evaluate. Neither establishes improved performance on an unfamiliar workplace task. If the workshop's goal is performing such a task, she needs an appropriate performance check as well as any recall exercise.
 
 She records that the currently inspected publisher material is the article's abstract and bibliographic information. That is enough for the bounded summary above. It would not justify describing uninspected participant details, scoring procedures, or a particular table. The ledger should tell the truth about the depth of the reading.
 
-Now the source can actually improve the brief. Maya adds a question: what needs to be remembered, and what needs to be demonstrated? That distinction may lead to different activities. She has extracted a usable constraint without turning a study into a universal recipe.
+Now the source can actually improve the brief. Audy adds a question: what needs to be remembered, and what needs to be demonstrated? That distinction may lead to different activities. She has extracted a usable constraint without turning a study into a universal recipe.
 
 You can follow this route with a claim in your own field. Begin with the exact sentence. Read the source passage. Rewrite the sentence to fit what was actually investigated. State your proposed application separately. If the remaining gap is too large for the intended use, preserve the source as background and seek better-matched evidence.
 
@@ -394,21 +394,21 @@ You can follow this route with a claim in your own field. Begin with the exact s
 
 A research request should specify what counts as an acceptable answer. “Find evidence for my idea” encourages a search organized around agreement. A more useful request asks what supports the claim, what limits it, and what evidence would change the decision.
 
-Maya asks the assistant to return a small candidate set. For each source, it should give the title, author, date, link, source type, relevant passage location, and a short explanation of claim fit. She asks it to distinguish pages it has actually opened from sources it has only identified through a search result or remembered from prior knowledge.
+Audy asks the assistant to return a small candidate set. For each source, it should give the title, author, date, link, source type, relevant passage location, and a short explanation of claim fit. She asks it to distinguish pages it has actually opened from sources it has only identified through a search result or remembered from prior knowledge.
 
-A useful lead labeled “not yet read” belongs in the queue. A false claim of access makes a citation appear more thoroughly checked than it is, obscuring the very work Maya needs to do next.
+A useful lead labeled “not yet read” belongs in the queue. A false claim of access makes a citation appear more thoroughly checked than it is, obscuring the very work Audy needs to do next.
 
 If the assistant has no browsing capability, she gives it excerpts from sources she opened herself. It can help compare the excerpts with the claim, identify missing definitions, and draft a cautious summary. She retains the source links and verifies that the excerpt is faithful to the original. This path needs only a browser, a text document, and an ordinary chat interface.
 
 She also constrains invention: no guessed author names, dates, quotation marks, or page numbers. An absent detail should remain absent. When a response supplies a precise reference, she opens the link rather than assuming precision demonstrates accuracy.
 
-The assistant can help locate an objection too. Maya asks which part of her sentence exceeds the evidence and what alternative explanation would remain even if the observation were correct. She requests a concise rationale tied to the source, not a theatrical display of certainty or a long account of internal reasoning.
+The assistant can help locate an objection too. Audy asks which part of her sentence exceeds the evidence and what alternative explanation would remain even if the observation were correct. She requests a concise rationale tied to the source, not a theatrical display of certainty or a long account of internal reasoning.
 
-Save this research request beside the ledger. It is a different prompt from the brief-writing prompt in Chapter 1 because it serves a different task. Keeping the tasks separate lets Maya inspect whether the problem lies in finding evidence, interpreting it, or applying it to the brief.
+Save this research request beside the ledger. It is a different prompt from the brief-writing prompt in Chapter 1 because it serves a different task. Keeping the tasks separate lets Audy inspect whether the problem lies in finding evidence, interpreting it, or applying it to the brief.
 
 In the TFIS experiment “Build W15 #3 Purge ‘False Memory,’” resolving an execution-loop bug in the current session did not remove its effects from long-term memory. The deck identifies three places requiring attention: session, memory, and vault. ([The Future Is Solo, 2026, slide 11](https://docs.google.com/presentation/d/1dvbBGs22QvtGogevZ6f5mf8YQE7WDAPBwYlclhTyctI/edit#slide=id.g38b5682a36f_0_55))
 
-This reported issue shows why a conversational correction and a corrected persistent record need separate checks; it does not establish the system's current condition. When Maya changes a claim's status, she reopens the saved ledger to confirm the change.
+This reported issue shows why a conversational correction and a corrected persistent record need separate checks; it does not establish the system's current condition. When Audy changes a claim's status, she reopens the saved ledger to confirm the change.
 
 ## Check a citation as a relationship
 
@@ -420,21 +420,21 @@ Next inspect the exact supporting passage. Read enough around it to preserve con
 
 Then examine the reach of the conclusion. A tool's documented feature can support a statement that the feature exists in the described version. It does not demonstrate that the feature solves your workflow's reliability problem. A study of one task can justify trying a related method without proving that your own task will improve.
 
-Finally inspect what the citation is doing in your document. Does it support the sentence immediately beside it, or merely add an impression of authority to the paragraph? Maya places the citation beside the research summary and leaves her own design inference visibly separate. A future reviewer can then disagree with her inference while accepting her account of the source.
+Finally inspect what the citation is doing in your document. Does it support the sentence immediately beside it, or merely add an impression of authority to the paragraph? Audy places the citation beside the research summary and leaves her own design inference visibly separate. A future reviewer can then disagree with her inference while accepting her account of the source.
 
 This approach turns bibliography work into a practical quality check. You are testing the connection between evidence and action. A shorter list of well-matched references will often be easier to maintain than a long list whose relevance nobody can explain.
 
 ## Recognize the gap between familiarity and explanation
 
-Maya can now use terms such as *retrieval*, *retention*, and *transfer*. She should be careful about what this fluency proves. Knowing the terms lets her ask better questions. It does not automatically give her an explanation of why a particular activity would help a particular learner.
+Audy can now use terms such as *retrieval*, *retention*, and *transfer*. She should be careful about what this fluency proves. Knowing the terms lets her ask better questions. It does not automatically give her an explanation of why a particular activity would help a particular learner.
 
 Rozenblit and Keil investigated an illusion of explanatory depth: people could judge their understanding of a mechanism more highly before attempting a detailed explanation than afterward. Their experiments distinguish explanatory understanding from other kinds of knowledge. The work predates contemporary generative AI and does not measure its effects. ([Rozenblit & Keil, 2002](https://doi.org/10.1207/s15516709cog2605_1))
 
-For our purposes, the finding motivates a simple practice. Before relying on an explanation, try to produce one. Maya writes how the proposed workshop activity is supposed to lead to the intended result. At each step she asks what the learner actually does and what evidence would show that the step occurred.
+For our purposes, the finding motivates a simple practice. Before relying on an explanation, try to produce one. Audy writes how the proposed workshop activity is supposed to lead to the intended result. At each step she asks what the learner actually does and what evidence would show that the step occurred.
 
 Her explanation reaches a gap: she has assumed that recalling a principle will make someone use it well in a new situation. Naming that assumption gives her a specific research and design question. She can investigate the relationship and devise a practice task that makes the missing performance visible.
 
-This book-developed adaptation is not a replication or a validated expertise test. Its practical value is the gap Maya can now investigate.
+This book-developed adaptation is not a replication or a validated expertise test. Its practical value is the gap Audy can now investigate.
 
 Allow that discovery to remain small. You do not need a complete theory of learning to design the next sensible trial. You need to understand enough of the proposed connection to inspect its weak points and avoid promising an outcome you cannot yet observe.
 
@@ -446,7 +446,7 @@ Write the disagreement as a sentence precise enough to compare. “Source A is f
 
 Read the material each source actually tested or discussed. Different conditions can explain different recommendations without making either source dishonest. If important details are inaccessible, record the limitation. Do not invent a reconciliation simply because a harmonious conclusion would be convenient.
 
-Maya also needs to distinguish repeated reporting from independent evidence. Several summaries may all point to the same original study. Counting the summaries as separate confirmations would exaggerate the evidence base. Her ledger links each account back to the underlying work where she can identify it.
+Audy also needs to distinguish repeated reporting from independent evidence. Several summaries may all point to the same original study. Counting the summaries as separate confirmations would exaggerate the evidence base. Her ledger links each account back to the underlying work where she can identify it.
 
 When the disagreement remains unresolved, she can reduce the strength of the claim and design a bounded comparison. She might draft two versions of an activity and inspect what each asks a learner to do. That inspection will not settle an empirical dispute about learning outcomes, but it may eliminate an obviously unsuitable option before a real trial.
 
@@ -456,7 +456,7 @@ Keep the unresolved question attached to the decision. If both approaches are ac
 
 You cannot investigate every sentence with equal depth. Start with the claims that support the next action. Ask how much harm a mistake could cause, how difficult it would be to reverse, and whether a quick direct check is available.
 
-Maya can test a document-format claim immediately: does the revised prompt preserve the headings she requested? She can inspect a citation by opening its source. A claim about customer willingness to pay requires a different kind of evidence. Reading more learning research will not answer it.
+Audy can test a document-format claim immediately: does the revised prompt preserve the headings she requested? She can inspect a citation by opening its source. A claim about customer willingness to pay requires a different kind of evidence. Reading more learning research will not answer it.
 
 Give each unresolved claim a next step and an owner. The next step might be opening a source, asking an informed reviewer, observing an actual task, or running a small experiment. “Research more” is too vague to guide tomorrow's work. “Find whether this study measured delayed performance rather than immediate satisfaction” is a usable instruction.
 
@@ -468,13 +468,13 @@ Your ledger should therefore remain selective. Remove duplicated notes, combine 
 
 ## Keep customer evidence in its own lane
 
-By this point, Maya could assemble a thoughtful argument for clear learning outcomes and carefully chosen practice. That still leaves Fieldwork's central commercial hypothesis open. Would independent educators want help creating such a brief? What would they otherwise do? What would they pay to change?
+By this point, Audy could assemble a thoughtful argument for clear learning outcomes and carefully chosen practice. That still leaves Himura Inc.'s central commercial hypothesis open. Would independent educators want help creating such a brief? What would they otherwise do? What would they pay to change?
 
-An assistant can generate possible answers for rehearsal. Maya might use them to notice assumptions or prepare interview questions. She labels any such output simulated. A simulated educator is not a person who has experienced the problem, compared alternatives, and decided to spend money.
+An assistant can generate possible answers for rehearsal. Audy might use them to notice assumptions or prepare interview questions. She labels any such output simulated. A simulated educator is not a person who has experienced the problem, compared alternatives, and decided to spend money.
 
 Her ledger preserves the distinction. `C01` concerns whether real educators encounter this difficulty often enough to value help and remains untested. `C02` concerns the missing learner-task detail in her own synthetic notes and can be checked against those notes. A literature citation belongs with a separate research claim; it cannot be pasted into `C01` as a substitute for customer evidence.
 
-This separation protects the usefulness of research. The research can help Maya design a better service if demand exists. It can also help her ask more informed questions while investigating that demand. Making it answer a question it did not study would weaken both activities.
+This separation protects the usefulness of research. The research can help Audy design a better service if demand exists. It can also help her ask more informed questions while investigating that demand. Making it answer a question it did not study would weaken both activities.
 
 For now, she improves the provisional brief and prepares a question about the educator's actual task. The next chapters deepen her inquiry before the product chapters introduce market experiments.
 
@@ -498,7 +498,7 @@ For every claim, record its wording, type, source or missing evidence, precise l
 
 The artifact is ready when another reader can repeat your source check, distinguish findings from inferences, and identify which decisions still depend on unresolved claims.
 
-Maya's brief is now less sweeping and more useful. It asks what learners should do, distinguishes possible activities from proven outcomes, and keeps the customer-demand question open. Her accumulated work has produced a better map of what she knows and what she needs to find out. In [Chapter 3](book/chapters/03-curiosity-is-a-capability.md), she will choose which of those questions deserves her attention next.
+Audy's brief is now less sweeping and more useful. It asks what learners should do, distinguishes possible activities from proven outcomes, and keeps the customer-demand question open. Her accumulated work has produced a better map of what she knows and what she needs to find out. In [Chapter 3](book/chapters/03-curiosity-is-a-capability.md), she will choose which of those questions deserves her attention next.
 
 ## References
 
@@ -521,7 +521,7 @@ The Future Is Solo. (2026). *The Future Is Solo 20260910* [Google Slides present
 
 ## The browser is busy; the project is waiting
 
-Maya has a working brief, a record of her early attempts, and a ledger that separates claims from evidence. She also has a growing collection of things to read. There are articles about workshop design, examples of attractive learning materials, discussions of AI tutors, and demonstrations of tools that could eventually help Fieldwork. Each item seems connected to her proposed studio. Together, they are becoming a second project.
+Audy has a working brief, a record of her early attempts, and a ledger that separates claims from evidence. She also has a growing collection of things to read. There are articles about workshop design, examples of attractive learning materials, discussions of AI tutors, and demonstrations of tools that could eventually help Himura Inc. Each item seems connected to her proposed studio. Together, they are becoming a second project.
 
 Her untested business question remains: do independent educators need help specifying what learners should be able to do? A generic workshop template might help with presentation while leaving that harder decision untouched.
 
@@ -539,7 +539,7 @@ Curiosity often begins before there is a well-formed question. Something surpris
 
 Look at the work itself. Where did you hesitate? Which statement required you to guess? What correction did you make without understanding why it helped? A gap is especially useful when you can locate it in a document, an action, or a decision. “I should learn more about education” is difficult to act on. “I cannot tell whether this activity gives the learner a chance to practice the stated task” points to something you can examine.
 
-Maya finds three different gaps. She does not know whether educators would pay for help with workshop briefs. She does not know how much structure such a brief should contain. She is also unsure whether the proposed learner outcome can be checked. These uncertainties are related, but they require different work. Reading a research paper cannot establish demand for Fieldwork. Asking someone whether a document looks useful cannot establish that learners acquire a skill.
+Audy finds three different gaps. She does not know whether educators would pay for help with workshop briefs. She does not know how much structure such a brief should contain. She is also unsure whether the proposed learner outcome can be checked. These uncertainties are related, but they require different work. Reading a research paper cannot establish demand for Himura Inc. Asking someone whether a document looks useful cannot establish that learners acquire a skill.
 
 She writes the uncertainties separately. Improving the task description can guide her preparation; demand and effects on learners need their own inquiries.
 
@@ -553,7 +553,7 @@ It does not require you to feel fascinated by every necessary task. You can inve
 
 The distinction becomes useful when you decide what kind of time you are spending. During open exploration, you can follow an unfamiliar connection without promising an immediate output. During a project inquiry, you owe the project a result or a clearer account of why the question remains unresolved. Mixing the two without noticing can make both frustrating: exploration feels guilty, and the project feels permanently unfinished.
 
-Maya keeps space for both. She can read broadly about how people learn without claiming every article advances Fieldwork. When she returns to the brief, however, she chooses a question tied to its next revision. The boundary protects a particular session. It is not a rule against intellectual wandering.
+Audy keeps space for both. She can read broadly about how people learn without claiming every article advances Himura Inc. When she returns to the brief, however, she chooses a question tied to its next revision. The boundary protects a particular session. It is not a rule against intellectual wandering.
 
 You can use an ordinary calendar note to make the distinction visible. Write the purpose of the session beside its duration. At the end, assess the session against that purpose. A good exploration session may leave several interesting questions. A good inquiry session should leave a usable answer, a justified provisional decision, or a precise description of the missing evidence.
 
@@ -563,17 +563,17 @@ Research gives us a reason to take interest seriously without turning it into a 
 
 The practical extension here is modest: begin by making the unresolved question visible to yourself. You do not need to manufacture excitement or search for a neurological shortcut. A question connected to a decision gives you a reason to attend to the answer. Whether that answer becomes useful still depends on what you do with it.
 
-Suppose Maya reads an explanation of an assessment method and finds it compelling. That feeling does not show that she can design a suitable assessment. She needs to attempt one, compare it with the intended learner task, and examine the mismatch. Interest can open the work. Application gives her something to inspect.
+Suppose Audy reads an explanation of an assessment method and finds it compelling. That feeling does not show that she can design a suitable assessment. She needs to attempt one, compare it with the intended learner task, and examine the mismatch. Interest can open the work. Application gives her something to inspect.
 
 When a subject feels slow or confusing, a small, concrete question still gives you somewhere to begin. You can practice investigation without waiting for inspiration.
 
 ## Draw a map around the unfinished brief
 
-Maya writes the proposed benefit at the center of a blank page: “Help an educator design a short workshop in which learners practice a useful task.” Around it, she places questions rather than topics. “Assessment” becomes “What could a learner produce that would reveal whether they can perform the task?” “Customers” becomes “Which part of preparing a workshop do educators find difficult enough to seek help with?”
+Audy writes the proposed benefit at the center of a blank page: “Help an educator design a short workshop in which learners practice a useful task.” Around it, she places questions rather than topics. “Assessment” becomes “What could a learner produce that would reveal whether they can perform the task?” “Customers” becomes “Which part of preparing a workshop do educators find difficult enough to seek help with?”
 
 This is a curiosity map: a page of connected questions. Draw it on paper, use a document, or arrange notes on a board. Each connection should explain why its question belongs.
 
-She makes three branches. One concerns the educator's preparation problem. One concerns the learner's task. One concerns Fieldwork's possible delivery process. Each branch has a different output. The first may eventually require conversations with educators. The second can begin with a small design exercise. The third can use her recorded preparation attempts.
+She makes three branches. One concerns the educator's preparation problem. One concerns the learner's task. One concerns Himura Inc.'s possible delivery process. Each branch has a different output. The first may eventually require conversations with educators. The second can begin with a small design exercise. The third can use her recorded preparation attempts.
 
 Beside each question she writes what she currently knows, what she is assuming, and what evidence would change her view. Her ledger already contains much of this material. The map helps her see relationships across the entries. It does not replace their sources or turn an assumption into a fact through proximity to one.
 
@@ -583,7 +583,7 @@ A crowded map is not necessarily a better map. If a question is interesting but 
 
 ## Follow one branch far enough to expose a test
 
-To make the learner branch concrete, Maya returns to the action-list workshop proposed in the fifth practice specimen. Its proposed audience is adults who use meeting notes for follow-up. The notes, audience, and workshop remain synthetic teaching examples. The earlier output supplies a candidate task and review criteria; Maya's next inquiry will examine whether the activity actually gives learners a chance to use them.
+To make the learner branch concrete, Audy returns to the action-list workshop proposed in the fifth practice specimen. Its proposed audience is adults who use meeting notes for follow-up. The notes, audience, and workshop remain synthetic teaching examples. The earlier output supplies a candidate task and review criteria; Audy's next inquiry will examine whether the activity actually gives learners a chance to use them.
 
 She gives the workshop a provisional duration of thirty minutes. She keeps the earlier vague wording—“Participants will understand effective meeting follow-up”—in the history so she can see why the action-list outcome was proposed. The outcome is clearer now, but the activity is still undecided. A discussion of follow-up could sound relevant without requiring anyone to produce the promised action list.
 
@@ -591,7 +591,7 @@ Her first impulse for the next inquiry is, “How do I make the workshop more en
 
 The revised question is, “Will the proposed activity produce an action list that someone can check against the commitments in the notes?” She returns to the provisional criteria already recorded: each action should correspond to an agreement; owners and deadlines should appear only when supported; missing details should remain visible. She now needs to apply those criteria to an actual example rather than merely repeat them.
 
-The criteria can themselves be challenged by inspecting the input and output. A beautifully stated requirement may still permit a weak exercise or reject a valid answer. Maya's next piece of work will test what the proposed criteria let her notice and whether her activity exposes the relevant decisions.
+The criteria can themselves be challenged by inspecting the input and output. A beautifully stated requirement may still permit a weak exercise or reject a valid answer. Audy's next piece of work will test what the proposed criteria let her notice and whether her activity exposes the relevant decisions.
 
 One branch now leads to a manageable next step: create fictional notes, make an action list, and examine which errors the brief would help her detect. The market branch stays open for a later inquiry.
 
@@ -599,7 +599,7 @@ One branch now leads to a manageable next step: create fictional notes, make an 
 
 A useful question can still be the wrong question for today. Some require access you do not have. Some matter only after another uncertainty is resolved. Some offer a large answer at a cost that would overwhelm the current project. Selection involves these practical conditions as well as intellectual interest.
 
-Maya compares three options. She could study the market for workshop-design services, investigate how to evaluate a proposed learner task, or learn a new tool for generating worksheets. The tool would be enjoyable to explore and could produce a visible result quickly. But producing worksheets would commit her to an output before she had established what that output should help someone do.
+Audy compares three options. She could study the market for workshop-design services, investigate how to evaluate a proposed learner task, or learn a new tool for generating worksheets. The tool would be enjoyable to explore and could produce a visible result quickly. But producing worksheets would commit her to an output before she had established what that output should help someone do.
 
 The market question matters enormously. She cannot resolve it through an afternoon of invented personas, however. She can prepare a question for a future conversation and identify what evidence she would need. The design question is both important and accessible now: her own draft supplies an input, and she can inspect a small result without contacting anyone.
 
@@ -613,17 +613,17 @@ The best selection may be the question that removes a dependency. Before learnin
 
 Different questions deserve different kinds of answers. A definition may be resolved by consulting a reliable source and using the concept correctly. A question about how your procedure behaves requires an attempt. A question about another person's difficulty requires evidence from that person's situation. Confusing these categories is a common way to stop investigating too soon.
 
-Maya can inspect whether her proposed checklist catches an invented deadline. She cannot infer from that inspection that real educators want a checklist. She can ask an assistant to suggest possible objections to the brief. She cannot count those suggestions as customer objections she has observed. Each method can help, provided its result is named accurately.
+Audy can inspect whether her proposed checklist catches an invented deadline. She cannot infer from that inspection that real educators want a checklist. She can ask an assistant to suggest possible objections to the brief. She cannot count those suggestions as customer objections she has observed. Each method can help, provided its result is named accurately.
 
 Suppose she finds three published workshop templates containing similar headings. That establishes a feature of those examples. It does not establish why their authors chose the headings, how often people use them, or whether the headings improve learning. She may still borrow an idea, but she should describe the choice as a design hypothesis rather than a research conclusion.
 
-In the map, record the evidence route beside each selected question. For the action-list exercise, Maya writes “inspect a synthetic before-and-after output against the notes.” For the educator problem, she writes “future consent-based conversations about recent preparation work.” For a general learning claim, she writes “read eligible research and preserve the tested task and population.”
+In the map, record the evidence route beside each selected question. For the action-list exercise, Audy writes “inspect a synthetic before-and-after output against the notes.” For the educator problem, she writes “future consent-based conversations about recent preparation work.” For a general learning claim, she writes “read eligible research and preserve the tested task and population.”
 
 If you cannot yet reach the people whose evidence you need, identify useful preparation and leave the original question open. The map should show the dependency.
 
 ## Give the session an ending
 
-Maya defines an ending before opening another source. She will finish when she has a revised learner outcome, one practice input, and a comparison showing whether her proposed check can detect at least one meaningful error. If she cannot produce those, she will name the missing concept and choose a smaller next exercise.
+Audy defines an ending before opening another source. She will finish when she has a revised learner outcome, one practice input, and a comparison showing whether her proposed check can detect at least one meaningful error. If she cannot produce those, she will name the missing concept and choose a smaller next exercise.
 
 She sets aside forty minutes for this attempt. That duration is an example of a working constraint, not a research-based optimum. A reader with ten available minutes can choose a smaller output. A reader investigating something consequential may need several sessions and informed review. The point is to notice the limit rather than discover hours later that the session had none.
 
@@ -635,7 +635,7 @@ When the forty minutes end, the brief is better specified, but the workshop has 
 
 ## Keep the side question without following it
 
-During the exercise, Maya wonders whether a digital form could automatically turn notes into an action list. It is a reasonable idea. It is also a different inquiry. Building it now would add interface decisions, data handling, and tool behavior to an exercise intended to clarify a learner task.
+During the exercise, Audy wonders whether a digital form could automatically turn notes into an action list. It is a reasonable idea. It is also a different inquiry. Building it now would add interface decisions, data handling, and tool behavior to an exercise intended to clarify a learner task.
 
 She records the question in a parking area: “Could a form support this exercise after the manual version works?” Beside it, she writes a return condition: “Revisit if repeated preparation shows that assembling examples is a bottleneck.” The condition is more useful than a generic promise to return later. It explains what would make the question important.
 
@@ -651,17 +651,17 @@ The TFIS build-log presentation ends with a compact template connecting a main q
 
 An earlier entry, labeled Daily Court, connects several preceding experiments to a question about putting judgment into an agent system. It identifies checking the compounding value of the work as a next step. That entry records an investigation agenda; it does not establish that compounding has occurred. ([The Future Is Solo, 2026, slide 31](https://docs.google.com/presentation/d/1dvbBGs22QvtGogevZ6f5mf8YQE7WDAPBwYlclhTyctI/edit#slide=id.g3eec6c2c179_0_22))
 
-The build log keeps an intended benefit beside the work needed to investigate it. That connection is useful in Maya's much smaller project too.
+The build log keeps an intended benefit beside the work needed to investigate it. That connection is useful in Audy's much smaller project too.
 
-Maya's record can preserve the same connection without imitating the technical project. Her question about a learner task came from a defect in her earlier brief. Her attempt produced a revised check. The next inquiry should retain those parents so she can explain why it exists. Accumulation begins when a new question carries useful evidence from the work that preceded it.
+Audy's record can preserve the same connection without imitating the technical project. Her question about a learner task came from a defect in her earlier brief. Her attempt produced a revised check. The next inquiry should retain those parents so she can explain why it exists. Accumulation begins when a new question carries useful evidence from the work that preceded it.
 
 ## Use an assistant to sharpen attention
 
-An assistant can help you see gaps, but a broad request for interesting questions can produce a list much larger than you can use. Maya already has enough possible directions. She needs a comparison tied to the document in front of her.
+An assistant can help you see gaps, but a broad request for interesting questions can produce a list much larger than you can use. Audy already has enough possible directions. She needs a comparison tied to the document in front of her.
 
 She supplies the provisional brief and asks for questions whose answers would change a specific design decision. She asks the assistant to identify the sentence that gave rise to each question and distinguish missing information from a suggested improvement. The output is easier to inspect because it must point back to something she actually provided.
 
-One suggestion concerns learners' preferred visual style. Maya cannot explain how answering it would resolve the current task mismatch, so she sets it aside. Another asks whether the learner must identify missing commitments or merely format supplied ones. That distinction changes the practice input. She keeps it and writes her own tentative answer before asking for further help.
+One suggestion concerns learners' preferred visual style. Audy cannot explain how answering it would resolve the current task mismatch, so she sets it aside. Another asks whether the learner must identify missing commitments or merely format supplied ones. That distinction changes the practice input. She keeps it and writes her own tentative answer before asking for further help.
 
 The model's ability to generate questions should not determine the agenda by itself. Evaluate each suggestion against the decision, evidence route, and time boundary you selected. If a suggestion reveals a more fundamental problem, change the agenda explicitly and explain why. You are allowed to revise the inquiry without drifting into an unrecorded one.
 
@@ -687,7 +687,7 @@ Run one bounded attempt. Keep the input, the result, and a short revision note. 
 
 If the answer changes nothing, inspect the question. Perhaps it was too broad, unrelated to a decision, or already answered by material you possessed. If you cannot obtain the required evidence, choose a preparatory question and label the original unresolved. If you keep exceeding the time boundary, reduce the promised output instead of removing the ending.
 
-Maya leaves with `curiosity-map-v1` linked to `claim-evidence-ledger-v1` and her provisional workshop brief. Her selected inquiry concerns a checkable learner task; the demand question remains open. Next she needs to phrase the inquiry precisely enough that an assistant, a peer, or her future self can help investigate it. That is the work of [Chapter 4](book/chapters/04-the-question-is-the-unit-of-learning.md).
+Audy leaves with `curiosity-map-v1` linked to `claim-evidence-ledger-v1` and her provisional workshop brief. Her selected inquiry concerns a checkable learner task; the demand question remains open. Next she needs to phrase the inquiry precisely enough that an assistant, a peer, or her future self can help investigate it. That is the work of [Chapter 4](book/chapters/04-the-question-is-the-unit-of-learning.md).
 
 ## References
 
@@ -708,15 +708,15 @@ The Future Is Solo. (2026). *The Future Is Solo 20260910* [Google Slides present
 
 ## A better-sounding question can still miss the problem
 
-Maya opens the curiosity map she made in Chapter 3. Her selected inquiry concerns a proposed workshop in which adult learners turn meeting notes into an action list. The example is fictional, including its audience and thirty-minute duration. It gives her a small task to design before she makes claims about Fieldwork's usefulness to real educators.
+Audy opens the curiosity map she made in Chapter 3. Her selected inquiry concerns a proposed workshop in which adult learners turn meeting notes into an action list. The example is fictional, including its audience and thirty-minute duration. It gives her a small task to design before she makes claims about Himura Inc.'s usefulness to real educators.
 
 Her earlier inspection showed what she herself would check. Now she wants `workshop-brief-v1` to guide a fresh draft without relying on her memory of that inspection. Her first wording is, “How can I create an engaging, effective, learner-centered workshop that helps people take action after meetings?” It sounds more considered than her original request for a template. It contains several worthwhile aspirations. It also invites an answer so broad that she will struggle to tell which part solved her problem.
 
-The assistant returns a lively agenda: an opening story, a discussion, a worksheet, a paired exercise, and a reflection. Maya could use the response to fill thirty minutes. Yet a learner could participate enthusiastically without ever distinguishing a firm commitment from a suggestion. The answer has improved the presentation of an unspecified result.
+The assistant returns a lively agenda: an opening story, a discussion, a worksheet, a paired exercise, and a reflection. Audy could use the response to fill thirty minutes. Yet a learner could participate enthusiastically without ever distinguishing a firm commitment from a suggestion. The answer has improved the presentation of an unspecified result.
 
 She rereads the map. The narrower question was whether the proposed activity would produce an action list that someone could check against the commitments in the notes. The provisional criteria already exist; the activity must give each learner a chance to apply them. That question survives outside the chat because it points to an input, an output, and a judgment. It asks her to resolve something specific before she expands the workshop.
 
-Maya replaces the request with an inquiry brief. She names the task, supplies synthetic notes, writes a provisional answer, and defines what she will inspect. The resulting document can guide an assistant, a conversation with a peer, or her own work next week. Its value does not depend on finding a magical phrase.
+Audy replaces the request with an inquiry brief. She names the task, supplies synthetic notes, writes a provisional answer, and defines what she will inspect. The resulting document can guide an assistant, a conversation with a peer, or her own work next week. Its value does not depend on finding a magical phrase.
 
 Bring your selected question from the curiosity map. A portable brief will test whether its apparent precision reaches the evidence and decision, or whether it still needs narrowing.
 
@@ -728,7 +728,7 @@ A useful question has a before and an after. Before investigating, you can descr
 
 Consider “Tell me about workshop assessment.” The response may contain useful concepts, but the request does not identify the decision you need to make. “How can I tell whether this action-list activity gives learners practice in distinguishing commitments from suggestions?” directs attention to a particular design. The answer could change the activity, its instructions, or the proposed check.
 
-Small does not mean trivial. A narrow question can expose a major problem. If Maya discovers that the activity practices formatting rather than identifying commitments, she may need to revise the entire brief. The inquiry stays small because she can inspect the mismatch without redesigning every part of Fieldwork.
+Small does not mean trivial. A narrow question can expose a major problem. If Audy discovers that the activity practices formatting rather than identifying commitments, she may need to revise the entire brief. The inquiry stays small because she can inspect the mismatch without redesigning every part of Himura Inc.
 
 You can preserve a large ambition while breaking the investigation into questions that produce evidence. “Can I build a sustainable business?” remains important. It becomes workable through inquiries about a particular customer's task, a proposed result, a delivery method, and the resources required. Each answer earns its place by affecting a decision.
 
@@ -736,7 +736,7 @@ You can preserve a large ambition while breaking the investigation into question
 
 The same words can describe different problems. An action list for a project team may need formal approval. A personal reminder list may be useful without it. A workshop exercise may deliberately include missing information so learners can practice noticing the gap. A response that does not know which situation applies may confidently solve the wrong one.
 
-Maya's brief identifies the immediate purpose: improve a synthetic workshop-design example. It names the learner task: convert short meeting notes into a list of agreed actions while preserving uncertainty. It names the output she needs now: proposed practice instructions and a check that can distinguish an acceptable action list from a plausible but inaccurate one.
+Audy's brief identifies the immediate purpose: improve a synthetic workshop-design example. It names the learner task: convert short meeting notes into a list of agreed actions while preserving uncertainty. It names the output she needs now: proposed practice instructions and a check that can distinguish an acceptable action list from a plausible but inaccurate one.
 
 She gives the inquiry a clear scope: inspect the design. Learning gains, demand, and the suitability of a thirty-minute duration will need different evidence.
 
@@ -748,21 +748,21 @@ If your material includes someone else's information, use it only in ways you ar
 
 ## Write what you think before assistance arrives
 
-Maya already has provisional criteria from her own inspection. Her first hypothesis for the next attempt is that clearer outcome wording will be enough to guide a fresh draft without carrying those criteria into the instructions. She writes: “If I replace ‘understand effective follow-up’ with ‘produce an action list that preserves agreed commitments and flags missing details,’ the new draft will retain the distinctions I identified.” This is a proposed relationship, not a result.
+Audy already has provisional criteria from her own inspection. Her first hypothesis for the next attempt is that clearer outcome wording will be enough to guide a fresh draft without carrying those criteria into the instructions. She writes: “If I replace ‘understand effective follow-up’ with ‘produce an action list that preserves agreed commitments and flags missing details,’ the new draft will retain the distinctions I identified.” This is a proposed relationship, not a result.
 
 Writing the expectation makes it possible to discover that she was partly wrong. Without it, she could read the assistant's response, accept a different explanation, and later remember that explanation as what she had intended all along. The record gives her a visible starting point.
 
 A hypothesis need not sound scientific. It can be as simple as, “I think the missing owner causes this confusion,” or “I expect this input to produce a request for clarification.” State what you expect to observe if your explanation is useful. Also identify a result that would make you revise it.
 
-For Maya, a challenge would be finding that the clearer outcome still permits an activity with no actual action-list attempt. If the agenda only asks learners to discuss good practice, improved wording has not yet changed what they do. Another challenge would be a check that rewards tidy formatting while missing invented commitments.
+For Audy, a challenge would be finding that the clearer outcome still permits an activity with no actual action-list attempt. If the agenda only asks learners to discuss good practice, improved wording has not yet changed what they do. Another challenge would be a check that rewards tidy formatting while missing invented commitments.
 
-Give a competing explanation a fair chance. Perhaps the problem lies in the practice input, which contains no ambiguous examples. Perhaps the criteria are too vague. Perhaps Maya herself has not distinguished a suggestion from an agreement consistently. Each possibility leads to a different repair.
+Give a competing explanation a fair chance. Perhaps the problem lies in the practice input, which contains no ambiguous examples. Perhaps the criteria are too vague. Perhaps Audy herself has not distinguished a suggestion from an agreement consistently. Each possibility leads to a different repair.
 
 Keep the first expectation even when it turns out to be incomplete. Comparing it with the result makes the change in your understanding visible.
 
 ## Ask for the evidence that could change your mind
 
-Before gathering information, decide what kind would matter. Maya can inspect whether instructions require a learner to produce an action list. She can compare a proposed answer against the supplied notes. She can introduce an error and see whether her criteria identify it. These activities can expose defects in the design.
+Before gathering information, decide what kind would matter. Audy can inspect whether instructions require a learner to produce an action list. She can compare a proposed answer against the supplied notes. She can introduce an error and see whether her criteria identify it. These activities can expose defects in the design.
 
 They cannot tell her whether learners will improve after the workshop. That question requires evidence about learners' performance under relevant conditions. A source about a learning technique might help her design such an investigation, but it cannot stand in for an outcome from her own workshop.
 
@@ -770,33 +770,33 @@ Her inquiry therefore has a deliberately modest decision: should the brief retai
 
 Be specific about what would count against your preferred option. If every possible response can be interpreted as support, the inquiry is not giving you a meaningful test. “The assistant liked my idea” is especially weak when you supplied the idea and asked for reasons to use it. Ask for a concrete counterexample or failure case instead.
 
-Maya chooses a challenge case in which the notes mention a possible action without recording agreement. A generated list that treats the possibility as a commitment should fail her check. This is a testable property of a document, and she can explain why it matters without appealing to the assistant's authority.
+Audy chooses a challenge case in which the notes mention a possible action without recording agreement. A generated list that treats the possibility as a commitment should fail her check. This is a testable property of a document, and she can explain why it matters without appealing to the assistant's authority.
 
 The check belongs in the inquiry brief before the final answer is produced. Otherwise, you risk accepting whatever the response happens to do well. An output can be eloquent, comprehensive, and still miss the requirement that motivated the work.
 
 ## Work through a miniature example
 
-Maya creates three lines of fictional meeting notes. The facilitator agreed to circulate the notes by Friday. The group suggested asking the venue about access arrangements, but assigned nobody to do it. The group agreed to try a shorter introduction at the next session, without assigning an owner. These lines contain an explicit commitment, a suggestion, and an agreement with missing information.
+Audy creates three lines of fictional meeting notes. The facilitator agreed to circulate the notes by Friday. The group suggested asking the venue about access arrangements, but assigned nobody to do it. The group agreed to try a shorter introduction at the next session, without assigning an owner. These lines contain an explicit commitment, a suggestion, and an agreement with missing information.
 
 Her first practice instruction is, “Turn these notes into a clear action list.” She can already imagine a polished but faulty answer: “Facilitator: circulate notes and confirm access by Friday. Organizer: prepare a shorter introduction before the next session.” The response supplies an owner for the third item and quietly attaches the venue inquiry to the facilitator's Friday deadline.
 
-A reviewer might miss the changes if the list looks reasonable. The invented details are plausible in ordinary work. That is why Maya's check cannot depend on whether an entry sounds sensible. It must compare each assertion with the notes.
+A reviewer might miss the changes if the list looks reasonable. The invented details are plausible in ordinary work. That is why Audy's check cannot depend on whether an entry sounds sensible. It must compare each assertion with the notes.
 
 She marks the first item's circulation commitment as supported. The added access task is unsupported as a commitment, and its owner and deadline were not supplied. The shorter introduction was agreed, but its owner remains unknown. A better list would keep the agreement while exposing the missing assignment. The venue suggestion belongs under an unresolved question unless later evidence establishes agreement.
 
 This inspection revises her hypothesis. Clearer outcome wording helps, but does not by itself specify what an acceptable attempt looks like. The brief also needs examples containing meaningful ambiguity and criteria that distinguish supported details from invented ones.
 
-Maya then changes the practice instruction: identify the agreed actions; preserve an owner or deadline only when stated; separate suggestions from commitments; and flag information needed to make an agreed action usable. She keeps the notes unchanged. Keeping the input stable helps her see what changed in the instruction rather than attributing every difference to a new example.
+Audy then changes the practice instruction: identify the agreed actions; preserve an owner or deadline only when stated; separate suggestions from commitments; and flag information needed to make an agreed action usable. She keeps the notes unchanged. Keeping the input stable helps her see what changed in the instruction rather than attributing every difference to a new example.
 
 She makes a fresh action list and reviews it against the notes. It now preserves the circulation commitment, leaves the venue question unresolved, and marks the introduction's owner as missing. That is a better result for this example. She records the improvement without calling it a controlled experiment or proof that the wording will work with every set of notes.
 
-One more check matters. Does the practice actually ask learners to make these distinctions themselves, or does it show them a completed list and ask whether it looks clear? The latter may be a useful discussion, but it does not demonstrate the same performance. Maya adds an individual attempt before the comparison. Her brief now connects the intended task, the learner's action, and the evidence she plans to inspect.
+One more check matters. Does the practice actually ask learners to make these distinctions themselves, or does it show them a completed list and ask whether it looks clear? The latter may be a useful discussion, but it does not demonstrate the same performance. Audy adds an individual attempt before the comparison. Her brief now connects the intended task, the learner's action, and the evidence she plans to inspect.
 
 ## Treat a prompt as a reusable instruction
 
 The inquiry brief is more durable than the conversation that helps answer it. It can contain the question, context, provisional explanation, allowed evidence, requested output, and acceptance criteria. Those fields remain useful when you change assistants or ask a colleague to review the work.
 
-Maya saves it as `inquiry-brief-v1`. She includes the synthetic notes directly or links to a file she controls. She avoids references such as “use the thing we discussed earlier” because they will become unclear when the document leaves the chat. If a source is necessary, she names it and explains which claim it supports.
+Audy saves it as `inquiry-brief-v1`. She includes the synthetic notes directly or links to a file she controls. She avoids references such as “use the thing we discussed earlier” because they will become unclear when the document leaves the chat. If a source is necessary, she names it and explains which claim it supports.
 
 Her request is bounded: inspect the draft against the notes, identify unsupported additions, and propose the smallest revision that makes the practice checkable. Each proposed change needs a concise explanation tied to the source.
 
@@ -808,19 +808,19 @@ A portable instruction also makes disagreement easier to examine. If two reviewe
 
 ## Separate receiving an answer from learning it
 
-After the comparison, Maya can repeat the phrase “preserve uncertainty.” That is useful vocabulary, but it does not yet show that she can apply it. She needs to recognize a new instance in which a detail should remain unresolved.
+After the comparison, Audy can repeat the phrase “preserve uncertainty.” That is useful vocabulary, but it does not yet show that she can apply it. She needs to recognize a new instance in which a detail should remain unresolved.
 
 Research on retrieval practice supports making room for an attempt to produce what you know. In two experiments with prose passages, Roediger and Karpicke found that prior testing improved delayed retention relative to repeated study, although repeated study performed better on the five-minute test. These were student memory experiments, not tests of workshop entrepreneurship or this chapter's procedure. ([Roediger & Karpicke, 2006](https://doi.org/10.1111/j.1467-9280.2006.01693.x))
 
 The book adapts the principle through a practical sequence: attempt an explanation, check it, and return to it later. Close the assistant and explain the distinction you just used; then compare your account with the source and example to find what needs further practice.
 
-Maya explains that a suggestion describes a possibility, while a commitment records an agreement to act. An action may be agreed without having every execution detail assigned. She should therefore avoid solving missing information by inventing it. She compares this explanation with her notes and corrects any overstatement.
+Audy explains that a suggestion describes a possibility, while a commitment records an agreement to act. An action may be agreed without having every execution detail assigned. She should therefore avoid solving missing information by inventing it. She compares this explanation with her notes and corrects any overstatement.
 
 Later, she can repeat the check using a different example. The interval is a practical choice, not a validated schedule for this book. What matters is that she does more than reread a familiar answer and mistake its familiarity for an ability she has demonstrated.
 
 ## Make the unaided check useful rather than punitive
 
-A thinking-without-AI check should expose the judgment you need for the task. It should not become a demand to memorize a whole reference library. Maya needs to distinguish an unsupported assertion from a supported one. She does not need to recite the names of every possible assessment method before improving her brief.
+A thinking-without-AI check should expose the judgment you need for the task. It should not become a demand to memorize a whole reference library. Audy needs to distinguish an unsupported assertion from a supported one. She does not need to recite the names of every possible assessment method before improving her brief.
 
 She creates a new synthetic sentence: “We could send a reminder on Thursday; a decision will be made tomorrow.” Without consulting the earlier output, she describes how it should appear in the action record. If she immediately assigns Thursday as a confirmed deadline, she has found a misunderstanding worth repairing.
 
@@ -834,19 +834,19 @@ If you fail your check, reduce the task. Compare one supported sentence with one
 
 An unsatisfactory answer does not always require a more elaborate prompt. Sometimes the question asks for a conclusion the evidence cannot support. Sometimes it combines several decisions. Sometimes the requested output is incompatible with the conditions you supplied.
 
-Suppose Maya asks, “Will this workshop help independent educators build confidence and improve their learners' workplace performance?” Her synthetic notes cannot answer that. More detail about her fictional workshop would not turn the question into a measured outcome. She should preserve the question and design a future evidence-gathering activity, while asking a smaller design question now.
+Suppose Audy asks, “Will this workshop help independent educators build confidence and improve their learners' workplace performance?” Her synthetic notes cannot answer that. More detail about her fictional workshop would not turn the question into a measured outcome. She should preserve the question and design a future evidence-gathering activity, while asking a smaller design question now.
 
 Suppose instead that the assistant keeps giving agendas when she needs checking criteria. The question may be clear, but the requested output is not. She can repair the output instruction: return a small set of criteria and illustrate each using the supplied notes. She does not need to rewrite the whole project description.
 
-Another failure occurs when the question contains its own answer. “Why is a task-focused workshop better than a generic template?” encourages a defense of the preference. Maya can replace it with, “Under what conditions would each approach be useful, and what evidence is missing for choosing between them?” A generic template may still help an educator whose main problem is organizing already well-defined material.
+Another failure occurs when the question contains its own answer. “Why is a task-focused workshop better than a generic template?” encourages a defense of the preference. Audy can replace it with, “Under what conditions would each approach be useful, and what evidence is missing for choosing between them?” A generic template may still help an educator whose main problem is organizing already well-defined material.
 
 The repair should match the defect. Narrow an overloaded question. Supply missing context. Change an output specification. Find a different evidence source. Mark an unanswerable claim unresolved. A long prompt assembled from unrelated warnings can make the real requirement harder to find.
 
 ## Keep the result connected to its limits
 
-Maya ends the inquiry with a concrete revision. `workshop-brief-v1` now asks for a stated learner task, an attempt that exercises it, and criteria connected to the task's important distinctions. The action-list example demonstrates why those elements need to fit together.
+Audy ends the inquiry with a concrete revision. `workshop-brief-v1` now asks for a stated learner task, an attempt that exercises it, and criteria connected to the task's important distinctions. The action-list example demonstrates why those elements need to fit together.
 
-In `claim-evidence-ledger-v1`, she records what the exercise supports: the revised instructions and checks help her detect specified defects in the synthetic example. She also records what remains open: whether the design is appropriate for real learners, whether an educator needs this assistance, and whether Fieldwork could deliver it economically.
+In `claim-evidence-ledger-v1`, she records what the exercise supports: the revised instructions and checks help her detect specified defects in the synthetic example. She also records what remains open: whether the design is appropriate for real learners, whether an educator needs this assistance, and whether Himura Inc. could deliver it economically.
 
 She keeps the rejected output because it explains the new requirement. “Do not invent deadlines” has more meaning when paired with the example in which an unrelated deadline spread to another action. Future versions of the prompt can be tested against that failure without reconstructing the whole conversation.
 
@@ -874,7 +874,7 @@ Your artifact passes this chapter's practice check when another reader can expla
 
 If you cannot do those things, choose the smallest repair. Add the missing input. Separate two questions. Replace a vague criterion with a contrast. Revisit the source. Arrange informed review when the issue exceeds your present expertise. These actions develop capability more directly than collecting another set of impressive answers.
 
-Maya can now describe why a learner task, an activity, and a check need to agree in her example. To reuse that understanding in unfamiliar situations, she must go deeper than the surface wording of the brief. [Chapter 5](book/chapters/05-first-principles-axioms-and-mental-models.md) examines how to unpack the concepts and assumptions that make such judgments possible.
+Audy can now describe why a learner task, an activity, and a check need to agree in her example. To reuse that understanding in unfamiliar situations, she must go deeper than the surface wording of the brief. [Chapter 5](book/chapters/05-first-principles-axioms-and-mental-models.md) examines how to unpack the concepts and assumptions that make such judgments possible.
 
 ## References
 
@@ -893,13 +893,13 @@ Roediger, H. L., III, & Karpicke, J. D. (2006). Test-enhanced learning: Taking m
 
 ## The template that could not explain itself
 
-Maya's proposed workshop template contains a box labelled “Engagement.” In the fictional Fieldwork project, this seems like an obvious thing to include. She has participated in workshops where people were attentive and workshops where the room seemed to disappear into its phones. She wants her clients to design the first kind. When she asks an assistant to improve the template, the box acquires several recommendations: include an opening question, vary the activities, and invite participants to reflect.
+Audy's proposed workshop template contains a box labelled “Engagement.” In the fictional Himura Inc. project, this seems like an obvious thing to include. She has participated in workshops where people were attentive and workshops where the room seemed to disappear into its phones. She wants her clients to design the first kind. When she asks an assistant to improve the template, the box acquires several recommendations: include an opening question, vary the activities, and invite participants to reflect.
 
 The recommendations sound sensible. They also leave her unable to answer a more precise question: how would any of them help a particular learner perform the task named in `workshop-brief-v1`? An opening question could reveal prior understanding, encourage conversation, or simply consume time. A reflection could help someone identify a mistake, or produce a sentence they will never use. The label has brought together activities with different purposes and hidden the differences.
 
 She removes the box temporarily. On a separate page she writes the result she wants to understand: “A learner can turn meeting notes into an action list without inventing commitments.” Chapter 4 has already given her clearer instructions and an individual attempt. She keeps those improvements. The new question concerns what happens after the attempt: does the feedback give a learner a reason they can apply to the next set of notes? This remains a proposed learning process in a fictional example, precise enough to examine.
 
-Removing the box feels less productive than adding recommendations. The document becomes shorter before it becomes better. Yet the work has changed. Maya is no longer improving the appearance of an explanation. She is trying to build an explanation she can inspect.
+Removing the box feels less productive than adding recommendations. The document becomes shorter before it becomes better. Yet the work has changed. Audy is no longer improving the appearance of an explanation. She is trying to build an explanation she can inspect.
 
 First-principles reasoning, axioms, and mental models become useful when they reveal what a result depends on and help you test a weak assumption. This chapter's concept-deconstruction record will give you an explanation you can examine and revise.
 
@@ -909,27 +909,27 @@ For the purposes of this book, reasoning from first principles means working bac
 
 Start with a result rather than a slogan. “Create a better workshop” leaves almost every important decision open. “Help a participant distinguish an agreed action from a suggestion in meeting notes” gives you a candidate performance to examine. The second statement is narrower, but its value still depends on whether the performance matters to the learner. Working backward does not establish demand. It clarifies what you propose to make possible.
 
-Maya writes a candidate example. “Understand effective meeting follow-up” is a topic-like intention. “Given meeting notes, produce an action list that preserves agreed commitments and marks missing owners or dates” is a task with an input and an inspectable output. She could be wrong about whether this is the right task for a workshop. She can nevertheless inspect the structure of the statement without pretending that its market value is settled.
+Audy writes a candidate example. “Understand effective meeting follow-up” is a topic-like intention. “Given meeting notes, produce an action list that preserves agreed commitments and marks missing owners or dates” is a task with an input and an inspectable output. She could be wrong about whether this is the right task for a workshop. She can nevertheless inspect the structure of the statement without pretending that its market value is settled.
 
 Next she asks what would have to happen for a participant to produce the output. The participant must understand the distinction, recognize examples, apply the distinction to unfamiliar notes, and explain which source statement supports each listed action. Each step creates a possible point of failure. Someone might repeat the definition accurately yet turn a suggestion into an agreed action. Someone might produce an acceptable list but give a reason that reveals a lucky guess.
 
-This is where working backward becomes practically valuable. A single word such as “understand” has been separated into things Maya can examine. She can now consider whether the workshop gives participants opportunities to attempt those things. She can also notice missing prerequisites. If a participant cannot tell what counts as an agreed action, the exercise may need a simpler example before it asks for a complex analysis.
+This is where working backward becomes practically valuable. A single word such as “understand” has been separated into things Audy can examine. She can now consider whether the workshop gives participants opportunities to attempt those things. She can also notice missing prerequisites. If a participant cannot tell what counts as an agreed action, the exercise may need a simpler example before it asks for a complex analysis.
 
-Stop decomposing when you can make a decision, design a check, or identify a specific uncertainty. For Maya, an account of the task detailed enough to expose a design failure is sufficient. When further decomposition no longer changes the next action, preserve the question and return to the work.
+Stop decomposing when you can make a decision, design a check, or identify a specific uncertainty. For Audy, an account of the task detailed enough to expose a design failure is sufficient. When further decomposition no longer changes the next action, preserve the question and return to the work.
 
 ## Separate facts, choices, constraints, and assumptions
 
-Consider the sentence “The workshop must be interactive.” It might express a customer's explicit requirement, Maya's preference, an interpretation of research, or an assumption about what participants will enjoy. Those meanings lead to different decisions. If a customer has required participation, Maya needs to understand what participation means in the agreement. If she is making a design choice, she needs to explain why that choice fits the task.
+Consider the sentence “The workshop must be interactive.” It might express a customer's explicit requirement, Audy's preference, an interpretation of research, or an assumption about what participants will enjoy. Those meanings lead to different decisions. If a customer has required participation, Audy needs to understand what participation means in the agreement. If she is making a design choice, she needs to explain why that choice fits the task.
 
 Her deconstruction record therefore includes a short statement of the premise and its status. “The session lasts thirty minutes” is a constraint in the illustrative brief. “Participants already know how to distinguish an agreement from a suggestion” is an untested assumption. “Each participant should leave with a source-grounded action list” is a chosen outcome. “The supplied notes do not identify the learner's prior experience” is an observation about the current document. Putting them in separate rows prevents a confident sentence from giving them all the same authority.
 
 This practice extends the claim-evidence ledger from Chapter 2. The ledger asks whether a claim has support. The deconstruction record asks how the claim participates in a decision. A premise can be well supported yet irrelevant to the result you are designing. Conversely, a deliberately chosen constraint does not need to masquerade as an empirical discovery. You may decide that a first experiment must fit into one afternoon because that is the time you can responsibly allocate.
 
-The word “axiom” requires particular care. In a formal system, axioms are starting statements accepted within that system. In a practical project, people often use the word for a value or an operating commitment. “Preserve the source of every consequential claim” is a reasonable working commitment for Fieldwork. It does not become a universal law because Maya calls it an axiom. She should state its purpose, its scope, and what compliance would look like.
+The word “axiom” requires particular care. In a formal system, axioms are starting statements accepted within that system. In a practical project, people often use the word for a value or an operating commitment. “Preserve the source of every consequential claim” is a reasonable working commitment for Himura Inc. It does not become a universal law because Audy calls it an axiom. She should state its purpose, its scope, and what compliance would look like.
 
-A useful operating commitment creates a consequence. If Maya cannot locate the source of a consequential research claim, the claim remains provisional or is removed from the delivery. The commitment has changed behavior. A wall poster saying “Evidence matters” would allow her to proceed exactly as before. The practical test of the commitment is the decision it changes when following it is inconvenient.
+A useful operating commitment creates a consequence. If Audy cannot locate the source of a consequential research claim, the claim remains provisional or is removed from the delivery. The commitment has changed behavior. A wall poster saying “Evidence matters” would allow her to proceed exactly as before. The practical test of the commitment is the decision it changes when following it is inconvenient.
 
-You should also notice conflicts between commitments. A client may need a quick preliminary answer while the relevant evidence is incomplete. Maya can preserve both timeliness and honesty by delivering a bounded provisional answer that states what remains unknown. If the consequences require stronger evidence, she may have to decline the deadline. Naming values does not eliminate trade-offs; it makes the trade-offs available for judgment.
+You should also notice conflicts between commitments. A client may need a quick preliminary answer while the relevant evidence is incomplete. Audy can preserve both timeliness and honesty by delivering a bounded provisional answer that states what remains unknown. If the consequences require stronger evidence, she may have to decline the deadline. Naming values does not eliminate trade-offs; it makes the trade-offs available for judgment.
 
 Retain these tensions in the artifact. An unresolved assumption that controls the next decision tells you where further work could matter.
 
@@ -937,17 +937,17 @@ Retain these tensions in the artifact. An unresolved assumption that controls th
 
 A mechanism is an account of how something brings about a result. In a practical design, it is often a proposed account rather than a demonstrated causal explanation. “The activity will improve learning” names an expected outcome. “The participant will attempt the distinction, compare the attempt with feedback, and revise the reasoning” describes a proposed process. The process is easier to examine, but describing it does not establish that it will work for a particular group.
 
-Maya draws three ordinary boxes: input, attempt, and evidence. The input is a short set of meeting notes containing suggestions, decisions, and gaps. The attempt is the participant's action list and explanation. The evidence is the difference between the explanation and the specified criteria. She adds a return arrow representing a revised attempt. This small drawing helps her see what the exercise supplies and what it expects the participant to do.
+Audy draws three ordinary boxes: input, attempt, and evidence. The input is a short set of meeting notes containing suggestions, decisions, and gaps. The attempt is the participant's action list and explanation. The evidence is the difference between the explanation and the specified criteria. She adds a return arrow representing a revised attempt. This small drawing helps her see what the exercise supplies and what it expects the participant to do.
 
-Then she asks what each arrow assumes. The notes must make it possible to distinguish some commitments from suggestions while preserving genuinely unresolved items. The instructions must be understandable. The criteria must be appropriate to the task. Feedback must identify something the participant can change. A revised answer must give the participant a chance to apply the correction. If any of these assumptions fails, the diagram may remain tidy while the activity fails to teach what Maya intended.
+Then she asks what each arrow assumes. The notes must make it possible to distinguish some commitments from suggestions while preserving genuinely unresolved items. The instructions must be understandable. The criteria must be appropriate to the task. Feedback must identify something the participant can change. A revised answer must give the participant a chance to apply the correction. If any of these assumptions fails, the diagram may remain tidy while the activity fails to teach what Audy intended.
 
-There is research support for giving serious attention to practice testing and distributed practice in learning, and a more qualified evidence base for techniques including self-explanation. Those findings do not specify the correct design of Maya's workshop. They help her ask whether participants are doing cognitively relevant work and whether her design has confused exposure with demonstrated performance. The design still needs examination in its own setting. ([Dunlosky et al., 2013](https://doi.org/10.1177/1529100612453266))
+There is research support for giving serious attention to practice testing and distributed practice in learning, and a more qualified evidence base for techniques including self-explanation. Those findings do not specify the correct design of Audy's workshop. They help her ask whether participants are doing cognitively relevant work and whether her design has confused exposure with demonstrated performance. The design still needs examination in its own setting. ([Dunlosky et al., 2013](https://doi.org/10.1177/1529100612453266))
 
 The same distinction applies to an AI workflow. “The agent reads the notes and produces an accurate brief” leaves the most important operation unexplained. Which notes? How are conflicts handled? What counts as accurate? What happens when a necessary fact is missing? What evidence does the reviewer see? A system diagram becomes useful when its arrows can answer such questions or identify where the answer is not yet known.
 
 Avoid filling a gap in your explanation with language borrowed from a different level of analysis. A reference to intelligence, attention, or probability does not explain why a particular workflow dropped a requirement. The relevant cause could be a missing input, an ambiguous instruction, a poorly chosen retrieval step, or a failure to check the final file. Begin with the observable operation. Use a more general theory only when it helps you distinguish between explanations.
 
-For Fieldwork, this means keeping the proposed learning mechanism separate from the delivery mechanism. One concerns what the participant does and learns. The other concerns how Maya produces and checks the brief. An efficient delivery process can create a weak workshop. A thoughtful workshop can be delivered through an unsustainable process. The two diagrams should eventually connect, but neither should conceal the other's requirements.
+For Himura Inc., this means keeping the proposed learning mechanism separate from the delivery mechanism. One concerns what the participant does and learns. The other concerns how Audy produces and checks the brief. An efficient delivery process can create a weak workshop. A thoughtful workshop can be delivered through an unsustainable process. The two diagrams should eventually connect, but neither should conceal the other's requirements.
 
 ## Find out where your explanation runs out
 
@@ -955,7 +955,7 @@ It is possible to feel familiar with a concept while being unable to explain its
 
 Choose a concept that matters to your project and explain it without looking at your notes. Write for a person who knows less than you do. State the starting conditions, the relevant operations, the expected result, and one circumstance in which your explanation would not apply. When you reach a gap, mark it rather than filling it with a familiar term. “This changes motivation somehow” is a useful record of an unresolved step.
 
-Maya tries this with feedback. She can name different kinds of feedback and describe the feeling of receiving it. She has more difficulty explaining what makes feedback actionable in the proposed action-list exercise. She writes that the participant needs to know which judgment was wrong, what feature of the meeting notes matters, and what a better application would require. This does not exhaust the concept. It is enough to improve the task she is designing.
+Audy tries this with feedback. She can name different kinds of feedback and describe the feeling of receiving it. She has more difficulty explaining what makes feedback actionable in the proposed action-list exercise. She writes that the participant needs to know which judgment was wrong, what feature of the meeting notes matters, and what a better application would require. This does not exhaust the concept. It is enough to improve the task she is designing.
 
 Next she compares her account with the feedback she has drafted for the activity. The instructions now specify the output, but the feedback tells participants only whether an entry is correct. It supplies no reason they could apply to the next set of notes. She changes the feedback so that it identifies the unsupported addition and points to the source statement. This is a practical inference about her design, not a new empirical result. The explanatory attempt has exposed the next mismatch without undoing the earlier repair.
 
@@ -967,11 +967,11 @@ An assistant can help after you have made the attempt. Ask it to identify ambigu
 
 A mental model is a simplified representation you use to reason about a situation. It might take the form of a process diagram, a cost equation, a comparison, or a description of how parts interact. Its usefulness depends on what it includes, what it leaves out, and whether those choices fit the decision. A model can be useful without being a complete description of reality.
 
-Maya uses a capacity model to examine the value of faster drafting. Suppose, in an illustrative scenario, an assistant can produce six candidate briefs per day while she can carefully review two. If she generates all six and leaves four unreviewed, the review queue grows by four that day. Repeating the arrangement does not create a six-brief delivery capability. It creates a growing collection of candidates waiting for judgment.
+Audy uses a capacity model to examine the value of faster drafting. Suppose, in an illustrative scenario, an assistant can produce six candidate briefs per day while she can carefully review two. If she generates all six and leaves four unreviewed, the review queue grows by four that day. Repeating the arrangement does not create a six-brief delivery capability. It creates a growing collection of candidates waiting for judgment.
 
-The arithmetic is deliberately simple. It assumes a stable daily generation rate and review capacity, and ignores differences between briefs. Its purpose is to make one consequence visible: speeding up a step does not necessarily increase accepted delivery. Maya can now consider generating fewer candidates, narrowing the brief, improving the evidence presented for review, or changing the review process. Which choice helps depends on the actual work.
+The arithmetic is deliberately simple. It assumes a stable daily generation rate and review capacity, and ignores differences between briefs. Its purpose is to make one consequence visible: speeding up a step does not necessarily increase accepted delivery. Audy can now consider generating fewer candidates, narrowing the brief, improving the evidence presented for review, or changing the review process. Which choice helps depends on the actual work.
 
-A second model examines a trade-off between standardization and variation. A standard template can reduce repeated formatting decisions, but some customer problems may require a different structure. Maya could record which parts remain constant and which need adaptation. If every engagement requires rewriting the supposedly fixed section, the standardization claim needs revision. If only the examples vary, a more reusable design may be possible.
+A second model examines a trade-off between standardization and variation. A standard template can reduce repeated formatting decisions, but some customer problems may require a different structure. Audy could record which parts remain constant and which need adaptation. If every engagement requires rewriting the supposedly fixed section, the standardization claim needs revision. If only the examples vary, a more reusable design may be possible.
 
 Neither model establishes demand or educational effectiveness. The capacity model explains a relationship between hypothetical rates. The variation model organizes observations about repeated work. You must not let a model answer a question outside its scope simply because it is the only diagram available.
 
@@ -981,15 +981,15 @@ There is no benefit in memorizing a catalog of models you never apply. Begin wit
 
 ## Test the assumption that controls the next decision
 
-After deconstructing a concept, you may have a long list of unknowns. The next task is to choose one that matters to an actual decision. A question can be interesting without being urgent. If Maya is deciding whether to keep an example in a workshop brief, she may need to check whether the example makes the distinction visible. She does not yet need to settle every debate about workshop delivery.
+After deconstructing a concept, you may have a long list of unknowns. The next task is to choose one that matters to an actual decision. A question can be interesting without being urgent. If Audy is deciding whether to keep an example in a workshop brief, she may need to check whether the example makes the distinction visible. She does not yet need to settle every debate about workshop delivery.
 
-Write the decision in conditional form. “If a person reading my feedback cannot explain why an entry needs revision, I will improve the feedback before adding another activity.” This statement identifies what Maya will inspect and what she will change. It does not require a numeric score pretending to provide more precision than the trial supports.
+Write the decision in conditional form. “If a person reading my feedback cannot explain why an entry needs revision, I will improve the feedback before adding another activity.” This statement identifies what Audy will inspect and what she will change. It does not require a numeric score pretending to provide more precision than the trial supports.
 
-Then design the smallest appropriate check. For an early desk review, Maya can give a peer the synthetic notes, a faulty action list, and the proposed feedback. She asks the peer to describe what to change and which source detail justifies the change. The response can reveal whether the feedback communicates a usable reason. It cannot establish the effectiveness of the workshop or the willingness of a customer to pay. Keeping the claim proportional to the check preserves its usefulness.
+Then design the smallest appropriate check. For an early desk review, Audy can give a peer the synthetic notes, a faulty action list, and the proposed feedback. She asks the peer to describe what to change and which source detail justifies the change. The response can reveal whether the feedback communicates a usable reason. It cannot establish the effectiveness of the workshop or the willingness of a customer to pay. Keeping the claim proportional to the check preserves its usefulness.
 
-If no reviewer is available, Maya can perform a limited self-check by returning to the feedback after an interval and applying its stated reason to a different example. She should record that she wrote the material and therefore brings knowledge a new participant would not have. An assistant can simulate possible misunderstandings, but those simulations remain prompts for investigation rather than observations of actual learners.
+If no reviewer is available, Audy can perform a limited self-check by returning to the feedback after an interval and applying its stated reason to a different example. She should record that she wrote the material and therefore brings knowledge a new participant would not have. An assistant can simulate possible misunderstandings, but those simulations remain prompts for investigation rather than observations of actual learners.
 
-Consider two possible results. A reviewer understands that the owner was invented but cannot locate the source evidence that exposes the invention. Maya should make the evidence location clearer. A reviewer can point to the source but interprets the feedback as a rule to omit all actions without owners. Maya should explain that an agreed action can remain on the list with its owner marked unknown. The failures point to different repairs, both building on the task and criteria established earlier.
+Consider two possible results. A reviewer understands that the owner was invented but cannot locate the source evidence that exposes the invention. Audy should make the evidence location clearer. A reviewer can point to the source but interprets the feedback as a rule to omit all actions without owners. Audy should explain that an agreed action can remain on the list with its owner marked unknown. The failures point to different repairs, both building on the task and criteria established earlier.
 
 Keep the original version and the revision. Record what changed and why. A polished final brief does not show the path that produced it, and the path may contain the lesson you will need again. The memory arc will provide more structure for retaining that lesson. For now, a dated paragraph beside the two versions is enough.
 
@@ -1003,9 +1003,9 @@ The prompt in the chapter artifact requests missing steps, relevant counterexamp
 
 Compare the response with your own record. If the assistant introduces a new term, ask whether the term helps explain an operation you can inspect. If it proposes a measurement, ask what decision the measurement would change. If it supplies a scientific explanation, check the source before allowing the explanation to carry the design. You can accept a useful drafting suggestion without accepting every justification that accompanies it.
 
-Maya receives a critique saying that her exercise needs a more motivating story. That may be a reasonable design possibility, but it does not address the missing reason in the feedback. She records it as a later option and repairs the feedback first. The assistant has generated an idea; Maya has decided where it belongs in the work.
+Audy receives a critique saying that her exercise needs a more motivating story. That may be a reasonable design possibility, but it does not address the missing reason in the feedback. She records it as a later option and repairs the feedback first. The assistant has generated an idea; Audy has decided where it belongs in the work.
 
-Maya can draw on alternatives she did not produce herself because she understands the decision well enough to examine their assumptions and reject a poor fit. The critique has helped her choose a specific repair.
+Audy can draw on alternatives she did not produce herself because she understands the decision well enough to examine their assumptions and reject a poor fit. The critique has helped her choose a specific repair.
 
 When the concept is unfamiliar enough that you cannot evaluate the critique, reduce the scope. Ask for a simpler example, identify an authoritative introduction, or seek a qualified reviewer. A request for more confident language cannot solve a shortage of understanding. Your deconstruction record should show where outside expertise is necessary.
 
@@ -1029,7 +1029,7 @@ Perform the check at the level available to you, recording its limitations. Revi
 
 If the artifact fails, repair the relevant part. An unclear result needs a narrower statement. An unsupported premise needs evidence or an explicit assumption label. A diagram whose arrows cannot be explained needs more concrete operations. A test that cannot change a decision needs to be redesigned. Do not respond to every failure by collecting more material.
 
-Maya keeps the revised workshop brief, her explanation of the exercise, and the note identifying what remains uncertain. The engagement box may return later with a specific purpose. It no longer gets to stand in for an explanation. In the next chapter, she will examine how a useful idea from one domain can inform another—and how to recognize where that connection breaks.
+Audy keeps the revised workshop brief, her explanation of the exercise, and the note identifying what remains uncertain. The engagement box may return later with a specific purpose. It no longer gets to stand in for an explanation. In the next chapter, she will examine how a useful idea from one domain can inform another—and how to recognize where that connection breaks.
 
 ## References
 
@@ -1048,15 +1048,15 @@ Rozenblit, L., & Keil, F. (2002). The misunderstood limits of folk science: An i
 
 ## A useful idea crosses a boundary
 
-Maya has made her workshop brief more precise. In the fictional Fieldwork project, the proposed thirty-minute workshop asks adult learners to turn meeting notes into an action list. They must preserve agreements, distinguish suggestions, and leave unstated owners or deadlines unresolved. Her brief now names a task, an individual attempt, and a way to inspect the result.
+Audy has made her workshop brief more precise. In the fictional Himura Inc. project, the proposed thirty-minute workshop asks adult learners to turn meeting notes into an action list. They must preserve agreements, distinguish suggestions, and leave unstated owners or deadlines unresolved. Her brief now names a task, an individual attempt, and a way to inspect the result.
 
 The difficulty has moved. How should she write the check? Her first instinct is to provide a model answer and mark differences. That would be convenient, but she can already imagine two different sentences accurately describing the same commitment. A learner might also copy the model's structure while quietly inventing a deadline.
 
-She encounters an idea from software testing: specify a condition the output must satisfy, then use an example that could reveal a violation. Maya does not need to become a software engineer to consider the idea. She needs to identify what is useful about it and what changes when the person producing the output is a learner rather than a program.
+She encounters an idea from software testing: specify a condition the output must satisfy, then use an example that could reveal a violation. Audy does not need to become a software engineer to consider the idea. She needs to identify what is useful about it and what changes when the person producing the output is a learner rather than a program.
 
 She opens a document called `connection-map-v1`. On the left she describes the source idea. On the right she describes the workshop problem. Between them she writes the proposed connection: an acceptance condition can make a requirement visible without demanding one exact wording.
 
-Learning across disciplines gives Maya a new way to inspect her work. She can now test whether the borrowed idea makes the check fairer and more useful.
+Learning across disciplines gives Audy a new way to inspect her work. She can now test whether the borrowed idea makes the check fairer and more useful.
 
 In this chapter, you will do the same with a problem from your own work. Bring the concept-deconstruction record from Chapter 5. You should already be able to explain the target problem well enough to recognize whether the new idea addresses it.
 
@@ -1066,13 +1066,13 @@ It is possible to become familiar with many domains while acquiring little abili
 
 Knowledge from several domains can supply different descriptions of a problem. The practical advantage comes from selecting a useful connection, learning enough to evaluate it, and applying it under conditions you understand.
 
-Maya's question gives her exploration a boundary. She wants a review method that detects invented commitments while allowing legitimate variation in wording. Software evaluation may offer a useful example of requirements and checks. Editing may offer ways to distinguish a change of meaning from a change of expression. Neither discipline automatically supplies the complete answer.
+Audy's question gives her exploration a boundary. She wants a review method that detects invented commitments while allowing legitimate variation in wording. Software evaluation may offer a useful example of requirements and checks. Editing may offer ways to distinguish a change of meaning from a change of expression. Neither discipline automatically supplies the complete answer.
 
 She begins with the part she can explain. Every asserted owner in an action list should be supported by the notes. That is a concrete relationship between an output and an input. By comparison, “the action list should demonstrate professionalism” contains several judgments she has not yet defined. Borrowing the word *test* would not make those judgments precise.
 
 Use your curiosity to search for a different description of the operation. If your problem concerns a growing review queue, look for ideas about flow and capacity. If it concerns unsupported claims, look for practices that preserve provenance. If it concerns repeated misunderstandings, examine how another field makes assumptions explicit. Let the problem determine what you study next.
 
-This is compatible with deep specialization. An experienced facilitator may notice a flaw in a workshop analogy that a generalist misses. A technical reviewer may see a failure condition that Maya cannot yet recognize. Cross-domain learning becomes stronger when it makes collaboration with specialists more precise, rather than persuading you that their expertise is unnecessary.
+This is compatible with deep specialization. An experienced facilitator may notice a flaw in a workshop analogy that a generalist misses. A technical reviewer may see a failure condition that Audy cannot yet recognize. Cross-domain learning becomes stronger when it makes collaboration with specialists more precise, rather than persuading you that their expertise is unnecessary.
 
 Begin with one informed connection and follow it far enough to make an adaptation you can inspect.
 
@@ -1082,7 +1082,7 @@ Learning something in one setting does not settle where else you can use it. Bar
 
 The implication for this chapter is modest: describe what changes between the original setting and the new one. The review does not establish that broad interests produce better entrepreneurs, and it does not validate this book's connection map. Our map is a practical device for making a proposed transfer inspectable.
 
-Maya can separate two claims. One concerns the usefulness of a borrowed evaluation idea for designing her worksheet. The other concerns whether a learner who succeeds on that worksheet will perform well in a real meeting. The first can be examined through a design trial. The second requires evidence about learning and application under different conditions.
+Audy can separate two claims. One concerns the usefulness of a borrowed evaluation idea for designing her worksheet. The other concerns whether a learner who succeeds on that worksheet will perform well in a real meeting. The first can be examined through a design trial. The second requires evidence about learning and application under different conditions.
 
 Even the word *similar* needs work. Two tasks might use different vocabulary yet depend on the same relationship. Two tasks might share a familiar format while requiring very different judgments. A meeting summary and an action list both condense notes, but only one may require deciding which statements establish commitments.
 
@@ -1094,59 +1094,59 @@ The more distant the proposed application, the more useful it becomes to describ
 
 An analogy compares a source situation with a target situation. The useful part is often a relationship: an output depends on an input, a queue grows when arrivals exceed departures, or a correction must reach the next attempt. Matching labels without matching the relationship gives you little to work with.
 
-For Maya, the source situation is an evaluation with a defined input, an expected property, and a check. The target is the learner's action list. The meeting notes supply the input. The expected property is that commitments and their details remain faithful to the notes. The check compares each asserted action with its support.
+For Audy, the source situation is an evaluation with a defined input, an expected property, and a check. The target is the learner's action list. The meeting notes supply the input. The expected property is that commitments and their details remain faithful to the notes. The check compares each asserted action with its support.
 
 Her first mapped requirement reads: “If the list names an owner, the notes must support that assignment.” She can test this with the fictional note about circulating minutes by Friday. She can also test it with a suggestion that nobody agreed to own. The requirement gives the reviewer a question to ask of either output.
 
 She maps another property: missing information should remain visible. In software, a process may distinguish a valid value from an absent value. In the workshop, an agreed action can lack an assigned owner. The absence should prompt a question rather than be filled with the most plausible person.
 
-The wording of the mapping is deliberately ordinary. Maya does not need to reproduce a testing framework or learn a programming language. She is borrowing the idea of inspecting a meaningful condition. A text document with the input, an example output, and a review reason can carry that operation.
+The wording of the mapping is deliberately ordinary. Audy does not need to reproduce a testing framework or learn a programming language. She is borrowing the idea of inspecting a meaningful condition. A text document with the input, an example output, and a review reason can carry that operation.
 
-Anthropic's practitioner guidance on agent evaluation distinguishes code, model, and human grading, including limitations of checks that are brittle to valid variations. That guidance helps identify the design choice Maya faces. It is engineering advice for AI systems, not evidence that the same check teaches adult learners. ([Grace et al., 2026](https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents))
+Anthropic's practitioner guidance on agent evaluation distinguishes code, model, and human grading, including limitations of checks that are brittle to valid variations. That guidance helps identify the design choice Audy faces. It is engineering advice for AI systems, not evidence that the same check teaches adult learners. ([Grace et al., 2026](https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents))
 
 Your connection map should contain enough detail for a reader to challenge the mapping. Name the original operation, its counterpart in your problem, and the decision the relationship could improve. If the best explanation is “they are both systems,” the connection is still too vague to guide work.
 
 ## Write the mismatch before the success story
 
-Maya's first mismatch concerns acceptable variation. Two learners can produce different accurate action lists. An exact comparison with her model answer could reject a legitimate paraphrase. She therefore needs requirements that preserve meaning while allowing more than one expression.
+Audy's first mismatch concerns acceptable variation. Two learners can produce different accurate action lists. An exact comparison with her model answer could reject a legitimate paraphrase. She therefore needs requirements that preserve meaning while allowing more than one expression.
 
-The second mismatch concerns purpose. A software check may be used to accept or reject an output. Maya also wants the learner to understand a distinction and improve an attempt. A verdict without an explanation might help her record performance while giving the learner little to use. She retains Chapter 5’s requirement for a short reason tied to the notes when adapting the software check.
+The second mismatch concerns purpose. A software check may be used to accept or reject an output. Audy also wants the learner to understand a distinction and improve an attempt. A verdict without an explanation might help her record performance while giving the learner little to use. She retains Chapter 5’s requirement for a short reason tied to the notes when adapting the software check.
 
 The third mismatch concerns missing ground truth. Her synthetic notes were written to make a distinction visible. Real meeting notes may be incomplete, contradictory, or dependent on shared context absent from the document. A classification rule that seems obvious in the example may require clarification in practice. She cannot eliminate that problem by insisting that the reference answer must be correct.
 
-Maya writes the mismatches beside the connection. She keeps the requirement-based comparison, allows multiple faithful answers, and leaves workplace competence for a separate investigation.
+Audy writes the mismatches beside the connection. She keeps the requirement-based comparison, allows multiple faithful answers, and leaves workplace competence for a separate investigation.
 
 Look for a mismatch in authority as well. A technique may assume that the person applying it controls the environment. In your setting, the relevant decision may belong to a client, a regulator, a partner, or a participant. An elegant automation analogy will fail if it treats that person's agreement as just another field to infer.
 
-Also consider timescale. A method that detects an immediate defect may say little about a delayed outcome. Maya can inspect whether an action list invents a deadline today. She cannot infer from that inspection whether the learner will preserve uncertainty in a difficult conversation next month.
+Also consider timescale. A method that detects an immediate defect may say little about a delayed outcome. Audy can inspect whether an action list invents a deadline today. She cannot infer from that inspection whether the learner will preserve uncertainty in a difficult conversation next month.
 
 You are allowed to keep a partial analogy. In fact, a precise statement of the part you reject makes the retained part easier to use. “Borrow the property check; keep human interpretation and explanation” is a more actionable design decision than a sweeping claim that workshops should work like software.
 
 ## Build a trial that can reject the analogy
 
-Maya returns to the same three lines of synthetic notes used earlier. The facilitator agreed to circulate notes by Friday. The group suggested asking the venue about access arrangements, with nobody assigned. The group agreed to try a shorter introduction next session, without naming an owner.
+Audy returns to the same three lines of synthetic notes used earlier. The facilitator agreed to circulate notes by Friday. The group suggested asking the venue about access arrangements, with nobody assigned. The group agreed to try a shorter introduction next session, without naming an owner.
 
 She writes a deliberately flawed action list. It says the facilitator will circulate notes by Friday, the coordinator will contact the venue, and the facilitator will prepare the shorter introduction by Thursday. The mixture of supported details and plausible inventions gives the check something meaningful to distinguish.
 
 Her original review method asks whether the answer matches the model list. Her adapted method asks whether each action is agreed, whether each named owner and deadline is supported, and whether missing details are flagged. She applies both methods to the same candidate output, recording the reasons rather than just the verdict.
 
-The adapted check exposes the invented coordinator and Thursday deadline. It also separates the unassigned agreed introduction change from the unagreed suggestion about the venue. Maya can now describe what the review actually catches. She has not observed a learner; she has inspected a designed example.
+The adapted check exposes the invented coordinator and Thursday deadline. It also separates the unassigned agreed introduction change from the unagreed suggestion about the venue. Audy can now describe what the review actually catches. She has not observed a learner; she has inspected a designed example.
 
 Next she tests the check against a valid paraphrase. One output says, “Owner: facilitator; send the notes by Friday.” Another says, “The facilitator will circulate the notes no later than Friday.” A check that rejects the second simply because the wording differs would fail the intended purpose.
 
 Then she supplies an ambiguous case. The notes say, “We could ask the venue; let's return to that.” She does not invent a definitive interpretation and use it as an answer key. She expects the review to identify an unresolved proposal and explain what information is missing. This tests whether the adaptation tolerates uncertainty rather than forcing every input into a confident category.
 
-The analogy has a clear failure condition. If the check rewards exact wording over supported meaning, or hides ambiguity behind a pass mark, Maya must revise it. If it identifies the meaningful defects and permits justified variation, she can retain it for further design work.
+The analogy has a clear failure condition. If the check rewards exact wording over supported meaning, or hides ambiguity behind a pass mark, Audy must revise it. If it identifies the meaningful defects and permits justified variation, she can retain it for further design work.
 
 Your own trial should include a plausible failure, a legitimate variation, and a boundary case when those are relevant to the task. These are book-designed testing suggestions, not a universal minimum sample. Choose cases because they can distinguish a useful adaptation from a misleading one.
 
 ## Inspect the check as carefully as the output
 
-A failed result does not always mean the person or assistant performing the task failed. The check may be wrong. Maya discovers this when she tries to simplify her review sheet to “every action must have an owner.” That sounds reasonable for a usable action list, but it creates pressure to invent missing ownership.
+A failed result does not always mean the person or assistant performing the task failed. The check may be wrong. Audy discovers this when she tries to simplify her review sheet to “every action must have an owner.” That sounds reasonable for a usable action list, but it creates pressure to invent missing ownership.
 
 She separates two conditions. An action list should show whether ownership is established. An unresolved assignment should be flagged before the action is treated as ready for execution. The first condition can be satisfied by an honest “owner not specified.” The second points to a follow-up question. Neither requires fabrication.
 
-This revision improves the relationship between the output and its intended use. It also shows why borrowing a rule is insufficient. Maya had to understand the meeting-note task well enough to see that a superficially stricter rule could produce a less trustworthy result.
+This revision improves the relationship between the output and its intended use. It also shows why borrowing a rule is insufficient. Audy had to understand the meeting-note task well enough to see that a superficially stricter rule could produce a less trustworthy result.
 
 She keeps the rejected rule in `connection-map-v1` with the reason for changing it. The record now contains something reusable: completeness of presentation must not be confused with completeness of evidence. Future briefs may need a similar distinction between a missing field that blocks action and a field that the assistant is authorized to infer.
 
@@ -1160,17 +1160,17 @@ An ant-colony example provides the starting idea for the TFIS experiment “Buil
 
 Evaluation remains a next step in the account, so the analogy has not established improved reliability. It has supplied a testable question about a working arrangement.
 
-Maya can ask a related question without importing a theory of insect behavior: what trace should one pass through the brief leave for the next? An unresolved ownership note could prevent a later draft from treating a proposal as settled. A correction record could explain why a field remains blank. The useful relationship is an observable document change influencing later work.
+Audy can ask a related question without importing a theory of insect behavior: what trace should one pass through the brief leave for the next? An unresolved ownership note could prevent a later draft from treating a proposal as settled. A correction record could explain why a field remains blank. The useful relationship is an observable document change influencing later work.
 
 She must still decide who may write the record, how its source is preserved, and how a later reader distinguishes a correction from an unsupported claim. The analogy points toward a design question; her working context supplies the constraints. That is the kind of cross-domain movement the book aims to make repeatable.
 
 ## Borrow a capacity model without turning people into machines
 
-Chapter 5 considered a hypothetical process that generates six candidate briefs daily while Maya can review two. The arithmetic exposes a growing queue. It does not tell her to behave like a faster component or reduce every part of judgment to an average duration.
+Chapter 5 considered a hypothetical process that generates six candidate briefs daily while Audy can review two. The arithmetic exposes a growing queue. It does not tell her to behave like a faster component or reduce every part of judgment to an average duration.
 
 The model can still help her select a useful change. If she generates only the two candidates she is ready to review, she avoids adding four unreviewed items under those assumptions. If a better evidence layout reduces avoidable searching during review, she can test that improvement. Neither decision requires increasing generation.
 
-Now identify the mismatch. Briefs vary in difficulty. Maya's available attention changes. Some revisions are quick; others reveal a fundamental problem. A daily average can conceal a particularly difficult brief. She should therefore use the simple model to ask about flow, while keeping the actual review conditions visible.
+Now identify the mismatch. Briefs vary in difficulty. Audy's available attention changes. Some revisions are quick; others reveal a fundamental problem. A daily average can conceal a particularly difficult brief. She should therefore use the simple model to ask about flow, while keeping the actual review conditions visible.
 
 The transfer is valuable if it changes a decision she can examine. For example, she might stop requesting five variations when she only needs to investigate one uncertain requirement. She could record whether the narrower request leaves her with a clearer review and fewer unfinished alternatives.
 
@@ -1180,7 +1180,7 @@ Keep this second connection where it informs production, and the acceptance-cond
 
 An assistant can help you notice possible connections. Give it the target problem and ask for a few candidate source ideas, each with a proposed relationship and an important mismatch. Ask which part would require expertise you do not currently have. The output should help you choose an investigation, rather than create an obligation to study every field mentioned.
 
-Maya might receive suggestions about software testing, editorial review, quality control, or decision analysis. She chooses one because it addresses the specific defect in her brief. A less relevant but fascinating connection goes into her curiosity map for possible later use. Selecting it now would displace the work needed to inspect the current adaptation.
+Audy might receive suggestions about software testing, editorial review, quality control, or decision analysis. She chooses one because it addresses the specific defect in her brief. A less relevant but fascinating connection goes into her curiosity map for possible later use. Selecting it now would displace the work needed to inspect the current adaptation.
 
 Ask the assistant to provide a counterexample to the chosen analogy. For a rule that requires every field to be complete, the missing-owner case is a useful challenge. Then inspect the counterexample yourself. The assistant can misunderstand the source idea, invent a limitation, or produce a case that does not actually challenge the relationship.
 
@@ -1190,9 +1190,9 @@ Keep the final choice in your own words. “I used the assistant's third suggest
 
 ## Test your understanding in a changed case
 
-Close the connection map and explain the borrowed relationship without using its technical label. Maya can say: compare the claim an output makes with the evidence in its input, and preserve the uncertainty when that evidence is missing. Then she names a condition where this will not be enough: the input itself could be wrong or incomplete.
+Close the connection map and explain the borrowed relationship without using its technical label. Audy can say: compare the claim an output makes with the evidence in its input, and preserve the uncertainty when that evidence is missing. Then she names a condition where this will not be enough: the input itself could be wrong or incomplete.
 
-Next change a relevant feature of the example. Move from an owner missing in the notes to a deadline stated only as “soon.” Does the rule encourage a precise date the notes never supplied? Maya should be able to identify the same class of problem without copying the earlier answer.
+Next change a relevant feature of the example. Move from an owner missing in the notes to a deadline stated only as “soon.” Does the rule encourage a precise date the notes never supplied? Audy should be able to identify the same class of problem without copying the earlier answer.
 
 This check is evidence about her application to the changed case. It does not establish that she will recognize every distant version of the problem. Record what changed between examples and what remained constant. That is a more useful transfer claim than saying the concept has become universal.
 
@@ -1218,7 +1218,7 @@ The artifact is ready when another reader can explain the connection, locate its
 
 Repair a vague map by naming the actual relationship. Repair an overextended analogy by removing the parts that do not fit. Repair an inconclusive test by changing an input or criterion that can distinguish the alternatives. Seek specialist review where you cannot judge the borrowed concept well enough to rely on it.
 
-Maya keeps a revised review sheet that permits faithful paraphrases, exposes invented details, and preserves missing ownership. She also keeps the rejected completeness rule and the reason it failed. These records give her something to reuse. [Chapter 7](book/chapters/07-the-accumulated-curiosity-loop.md) connects the earlier inquiries into a working procedure so that each new attempt can benefit from the ones before it.
+Audy keeps a revised review sheet that permits faithful paraphrases, exposes invented details, and preserves missing ownership. She also keeps the rejected completeness rule and the reason it failed. These records give her something to reuse. [Chapter 7](book/chapters/07-the-accumulated-curiosity-loop.md) connects the earlier inquiries into a working procedure so that each new attempt can benefit from the ones before it.
 
 ## References
 
@@ -1239,15 +1239,15 @@ The Future Is Solo. (2026). *The Future Is Solo 20260910* [Google Slides present
 
 ## The second attempt should begin somewhere different
 
-Maya's practice folder contains several useful records. She has a capability baseline, a claim-evidence ledger, a curiosity map, an inquiry brief, a concept deconstruction, and a connection map. Each helped improve the fictional Fieldwork workshop brief. Each also contains a lesson she could easily forget to use.
+Audy's practice folder contains several useful records. She has a capability baseline, a claim-evidence ledger, a curiosity map, an inquiry brief, a concept deconstruction, and a connection map. Each helped improve the fictional Himura Inc. workshop brief. Each also contains a lesson she could easily forget to use.
 
 When she opens a new chat, she pastes an older version of her drafting prompt. The response again treats every action as if it should have a named owner. She notices the problem because Chapter 6's review exercise made it familiar. Yet noticing it again is not the same as having prevented it. The correction existed in a document that this attempt never used.
 
-The example exposes a practical question: how will the next piece of work benefit from the previous one? Maya cannot answer by counting saved files. She needs to show where an inquiry changes a working instruction, how the changed instruction reaches the next attempt, and what result demonstrates that the change helped.
+The example exposes a practical question: how will the next piece of work benefit from the previous one? Audy cannot answer by counting saved files. She needs to show where an inquiry changes a working instruction, how the changed instruction reaches the next attempt, and what result demonstrates that the change helped.
 
-This chapter connects the Mind arc's activities into one procedure that Maya can direct, inspect, and repeat with assistance.
+This chapter connects the Mind arc's activities into one procedure that Audy can direct, inspect, and repeat with assistance.
 
-The thirty-minute action-list workshop remains a synthetic design example. The growing collection documents Maya's design practice; learner and customer outcomes still await investigation.
+The thirty-minute action-list workshop remains a synthetic design example. The growing collection documents Audy's design practice; learner and customer outcomes still await investigation.
 
 Bring your earlier artifacts to the assignment. You will use their relationships, rather than create another collection beside them.
 
@@ -1263,13 +1263,13 @@ Read the diagram clockwise: name the uncertainty, investigate it, explain the id
 
 You do not need to force every investigation through a ritual. Some questions require a quick lookup; others require a conversation or a substantial experiment. Use the complete pass when the result is important enough to influence repeated work. The purpose is to avoid stopping at the point where the answer merely sounds satisfying.
 
-Maya's earlier chapters already performed parts of this procedure. She questioned an output, checked a claim, clarified a concept, and tested an analogy. The new capability is to make the connection between those activities explicit enough to repeat on another input.
+Audy's earlier chapters already performed parts of this procedure. She questioned an output, checked a claim, clarified a concept, and tested an analogy. The new capability is to make the connection between those activities explicit enough to repeat on another input.
 
 “Accumulated” refers to a change in the starting conditions of later work. A corrected requirement is available before the next draft. A rejected claim stays rejected unless new evidence justifies reconsideration. A useful test is ready when a familiar defect could recur. These effects must be observed; saving the record alone does not establish them.
 
 ## Choose a question that can change the current procedure
 
-Maya's new question is narrow: can she draft an example action list for the brief that preserves an agreed action with missing ownership, without relying on information left in an earlier chat? The answer matters because she wants a drafting process she can restart from its saved materials.
+Audy's new question is narrow: can she draft an example action list for the brief that preserves an agreed action with missing ownership, without relying on information left in an earlier chat? The answer matters because she wants a drafting process she can restart from its saved materials.
 
 She states what would count as a useful result. The new attempt should read the current instruction, represent the missing assignment honestly, and preserve the distinction between an agreement and a suggestion. The output should also give her enough evidence to review those judgments against the input.
 
@@ -1277,13 +1277,13 @@ The trial examines whether a specific correction reaches a fresh attempt and cha
 
 Your question may concern a different failure: a source gets lost during summarization, a draft omits a requirement, or an assistant repeatedly treats a plan as an observation. Write the question in terms of the operation you can inspect. “How do I build a smarter system?” leaves too many possible explanations open.
 
-Choose a stopping point before beginning. Maya will stop this pass when she has a current instruction, a reviewed attempt, and a record of the result or the unresolved defect. If the result is inconclusive, the pass can still end with a precise next test. Continuing to ask for more drafts without changing the investigation would only make the evidence harder to interpret.
+Choose a stopping point before beginning. Audy will stop this pass when she has a current instruction, a reviewed attempt, and a record of the result or the unresolved defect. If the result is inconclusive, the pass can still end with a precise next test. Continuing to ask for more drafts without changing the investigation would only make the evidence harder to interpret.
 
-Protect a place for questions that do not serve the current decision. Maya can keep an idea for a different workshop in her curiosity map. She does not need to pursue it while repairing this workflow. Curiosity gains practical freedom when you can preserve a question without immediately spending the time to answer it.
+Protect a place for questions that do not serve the current decision. Audy can keep an idea for a different workshop in her curiosity map. She does not need to pursue it while repairing this workflow. Curiosity gains practical freedom when you can preserve a question without immediately spending the time to answer it.
 
 ## Investigate what is actually missing
 
-Before searching for new knowledge, inspect the evidence you already have. Maya compares the old prompt, the connection map, and the latest review sheet. The old prompt asks for complete action details. The review sheet permits an honest missing-owner flag. The documents disagree.
+Before searching for new knowledge, inspect the evidence you already have. Audy compares the old prompt, the connection map, and the latest review sheet. The old prompt asks for complete action details. The review sheet permits an honest missing-owner flag. The documents disagree.
 
 This is a useful diagnosis because it changes the next action. She does not need a better model or a more elaborate explanation of learning. She needs to reconcile the instruction with the reviewed decision and ensure the next attempt receives it.
 
@@ -1291,13 +1291,13 @@ Her source records remain relevant. The claim-evidence ledger explains why a res
 
 If a necessary claim is still unsupported, the investigation expands only as far as the decision requires. She may need to open the relevant source or consult a knowledgeable reviewer. The evidence field in the loop record should say what she inspected and at what depth. It should also preserve uncertainty that the investigation did not resolve.
 
-Avoid using a new search as a substitute for diagnosis. A long answer about agent memory will not explain which version of the prompt Maya pasted. A discussion of instructional design will not settle whether her saved criteria contradict each other. Begin with the smallest observable mismatch, then broaden the investigation if the local evidence cannot explain it.
+Avoid using a new search as a substitute for diagnosis. A long answer about agent memory will not explain which version of the prompt Audy pasted. A discussion of instructional design will not settle whether her saved criteria contradict each other. Begin with the smallest observable mismatch, then broaden the investigation if the local evidence cannot explain it.
 
 The record lets another person challenge the diagnosis. In a real project, “wrong prompt version used” needs support from the actual attempt's inputs; the final output alone cannot establish its cause.
 
 ## Explain the intended change before making it
 
-Maya closes the files and writes a short account of the desired behavior. An action can be agreed while some details remain unsettled. The brief should preserve both facts: the agreement exists, and the assignment may be incomplete. A suggestion should not become an agreed action merely because assigning it would make the list look useful.
+Audy closes the files and writes a short account of the desired behavior. An action can be agreed while some details remain unsettled. The brief should preserve both facts: the agreement exists, and the assignment may be incomplete. A suggestion should not become an agreed action merely because assigning it would make the list look useful.
 
 She also explains the operational repair. One current instruction must contain this distinction. A new attempt must receive that instruction with the relevant input. The review must compare the output with the notes, and the record must identify which instruction version was used.
 
@@ -1311,69 +1311,69 @@ If you cannot explain the change without reading the assistant's response, retur
 
 ## Design a test with a visible result
 
-Maya prepares a fresh practice conversation using the revised instruction and a short set of synthetic notes. She avoids carrying over earlier answers. This removes one source of hidden assistance: a result that depends on corrections still present in the old chat rather than in the saved procedure.
+Audy prepares a fresh practice conversation using the revised instruction and a short set of synthetic notes. She avoids carrying over earlier answers. This removes one source of hidden assistance: a result that depends on corrections still present in the old chat rather than in the saved procedure.
 
 The notes include a clear commitment, a suggestion, and an agreed action without an owner. She requests an action list with unresolved details and references to supporting lines so she can compare it directly with the notes.
 
 She writes the expected properties before running the test. The explicit commitment should appear with its supplied details. The suggestion should remain a proposal. The unassigned agreement should appear with the missing owner flagged. No owner or deadline should be invented to complete the table.
 
-The first fresh attempt in the fictional example preserves the owner gap but silently supplies a deadline for the suggested venue inquiry. Maya rejects that part. The outcome is informative: repairing one recurrent error did not establish the broader behavior she needed. She compares the supplied instruction with the review sheet. Her partial migration restored the missing-owner rule but left an older instruction to propose practical deadlines. The conflict is visible in the supplied text; the output alone would not have established its cause.
+The first fresh attempt in the fictional example preserves the owner gap but silently supplies a deadline for the suggested venue inquiry. Audy rejects that part. The outcome is informative: repairing one recurrent error did not establish the broader behavior she needed. She compares the supplied instruction with the review sheet. Her partial migration restored the missing-owner rule but left an older instruction to propose practical deadlines. The conflict is visible in the supplied text; the output alone would not have established its cause.
 
 She removes the conflicting deadline instruction and restores the evidence boundary already accepted in Chapters 4 and 6. The repair concerns how an existing decision reached the working document. She records the failed output rather than replacing it with the repaired one. The [two-pass practice packet](book/artifacts/07-two-pass-practice-packet.md) supplies the instruction versions, literal notes, constructed outputs, and linked review so you can inspect this diagnosis yourself.
 
 Then she repeats the case to examine the repair and uses a changed case to challenge it. The changed notes mention a deadline only as “soon.” A faithful output can preserve that wording or flag that a precise date is unspecified. It should not turn the phrase into a calendar date without authorization.
 
-Suppose the revised attempt behaves as expected. Maya records a bounded pass: the current instruction handled the tested ownership and deadline cases under human review. She does not write “uncertainty problem solved.” The next input could reveal a new ambiguity, and real meeting records may require context her synthetic examples do not contain.
+Suppose the revised attempt behaves as expected. Audy records a bounded pass: the current instruction handled the tested ownership and deadline cases under human review. She does not write “uncertainty problem solved.” The next input could reveal a new ambiguity, and real meeting records may require context her synthetic examples do not contain.
 
 The test leaves a changed instruction, inspected field behavior, and examples that future revisions must still handle. It also sharpens the next question about which information should remain unresolved.
 
 ## Apply the finding where the work begins
 
-A finding becomes operational when it changes the material that directs later work. Maya updates the saved drafting instruction and the review sheet. She checks that the two documents agree. She also revises the relevant part of `workshop-brief-v1` so that the proposed learner activity and the review criteria preserve the same distinction.
+A finding becomes operational when it changes the material that directs later work. Audy updates the saved drafting instruction and the review sheet. She checks that the two documents agree. She also revises the relevant part of `workshop-brief-v1` so that the proposed learner activity and the review criteria preserve the same distinction.
 
 Keep research conclusions, operating instructions, and example outputs separate enough that each can be maintained. The ledger records the support for a claim. The instruction tells the next attempt what to do. The example demonstrates how the requirement looks in one case. Combining all three into a single undifferentiated paragraph makes later updates harder to judge.
 
-Maya gives the current procedure a version and a date. Earlier drafts remain identifiable, but there is one clear entry point for the next pass. The specific filename is a convenience; what matters is that she can tell which version should be used and what changed since the previous one.
+Audy gives the current procedure a version and a date. Earlier drafts remain identifiable, but there is one clear entry point for the next pass. The specific filename is a convenience; what matters is that she can tell which version should be used and what changed since the previous one.
 
 She reopens the saved instruction after editing it. In a real workflow, this check confirms that the intended change exists in the file rather than only in the conversation. She then starts the next attempt from that file. A claim that the procedure was updated and an observed update are different pieces of evidence.
 
 The TFIS experiment “Build W15 #2 DevOps Skills” takes up a similar continuity problem: continue from earlier sessions and maintain a change log. The deck describes separate development, staging, and production areas. It records the practice without independently verifying the current deployment. ([The Future Is Solo, 2026, slide 10](https://docs.google.com/presentation/d/1dvbBGs22QvtGogevZ6f5mf8YQE7WDAPBwYlclhTyctI/edit#slide=id.g38b5682a36f_0_44))
 
-For an opening no-code workflow, the transferable idea is modest: retain what changed and provide a place to inspect a draft before relying on it. Maya does not need the technical infrastructure from the slide. A saved instruction, a practice copy, and a reviewed current version are enough to begin.
+For an opening no-code workflow, the transferable idea is modest: retain what changed and provide a place to inspect a draft before relying on it. Audy does not need the technical infrastructure from the slide. A saved instruction, a practice copy, and a reviewed current version are enough to begin.
 
 ## Write a review that the next pass can use
 
-Maya's review records the expectation, the observation, the verdict, the reason, and the resulting change. “The answer was better” would fail to preserve the lesson. “The revised instruction kept an unstated owner unresolved but still invented a deadline; inspection found an old deadline instruction still active, so the next version restores the already-accepted evidence requirement for both fields” gives the next attempt something concrete to use.
+Audy's review records the expectation, the observation, the verdict, the reason, and the resulting change. “The answer was better” would fail to preserve the lesson. “The revised instruction kept an unstated owner unresolved but still invented a deadline; inspection found an old deadline instruction still active, so the next version restores the already-accepted evidence requirement for both fields” gives the next attempt something concrete to use.
 
 She links the statement to the relevant output. This matters because her explanation of the failure could itself be wrong. Perhaps a deadline was present in an input she overlooked. Perhaps she used the wrong prompt version again. The review should be open to correction when the evidence warrants it.
 
 *The Functional Life* emphasizes capturing judgment and checking durable writes. In this chapter, those ideas become a small human-maintained record that will guide the next run. Agent feedback and oversight require additional controls developed later in the book. ([The Future Is Solo, n.d.-a](https://life.thefutureissolo.com/))
 
-Keep the review's conclusion attached to the tested behavior. Maya's repair supports the next drafting attempt, while the ledger retains the open learner and market questions.
+Keep the review's conclusion attached to the tested behavior. Audy's repair supports the next drafting attempt, while the ledger retains the open learner and market questions.
 
-Choose a next question that follows from the result. Maya might ask whether her instructions handle contradictory notes, rather than immediately launching a broader product. If contradictions matter to the intended service, that is a worthwhile next inquiry. If they are outside the first offer's scope, she can define an escalation path and defer deeper automation.
+Choose a next question that follows from the result. Audy might ask whether her instructions handle contradictory notes, rather than immediately launching a broader product. If contradictions matter to the intended service, that is a worthwhile next inquiry. If they are outside the first offer's scope, she can define an escalation path and defer deeper automation.
 
 The review should leave you with a decision rather than only a description. Keep the revised procedure, return to an earlier version, narrow the supported input, or stop the experiment. Each is a legitimate outcome when it follows from the observed work.
 
 ## Make the next run read the correction
 
-The strongest check on accumulation is another attempt that begins from the saved record. Maya opens her loop record, follows its current-version pointer, and loads the relevant instructions. Before asking for a draft, she identifies the correction that this run is supposed to use.
+The strongest check on accumulation is another attempt that begins from the saved record. Audy opens her loop record, follows its current-version pointer, and loads the relevant instructions. Before asking for a draft, she identifies the correction that this run is supposed to use.
 
 She does not paste every past conversation into the new one. She supplies the current task, necessary input, accepted requirements, and a small set of relevant examples. The rejected rules remain in the history with their reasons, but they are not presented as current instructions.
 
-This separation prevents a familiar source of confusion: an old recommendation and its later correction can both appear in a long record without a clear indication of which one governs. Maya's entry point states the current rule directly and links to the history for explanation.
+This separation prevents a familiar source of confusion: an old recommendation and its later correction can both appear in a long record without a clear indication of which one governs. Audy's entry point states the current rule directly and links to the history for explanation.
 
 The next output is checked against a changed input. If it preserves the correction, she has evidence of reuse under those conditions. If it repeats the earlier mistake, she investigates whether the right instruction was received, whether the instruction was clear, and whether the case exceeded the tested scope.
 
 Do not solve every failure by adding more text. A conflicting example may need removal from the active instruction. A vague requirement may need a clearer statement. A task may need to be divided so that source extraction can be inspected before interpretation. The repair should follow the diagnosis.
 
-Maya is still directing these operations herself. That is appropriate for the present stage. The emerging asset is a repeatable procedure she can explain and inspect. Its dependence on her judgment is visible, so she can later decide which parts are suitable for delegation and which should remain hers.
+Audy is still directing these operations herself. That is appropriate for the present stage. The emerging asset is a repeatable procedure she can explain and inspect. Its dependence on her judgment is visible, so she can later decide which parts are suitable for delegation and which should remain hers.
 
 ## From a successful prompt to a repeatable workflow
 
 The current TFIS homepage describes L1 as AI-Assisted Operator and L2 as Workflow Orchestrator. The practical distinction is useful here: one assisted answer becomes more repeatable when its inputs, steps, outputs, and review conditions are explicit enough to use again. The book's evidence checks interpret the model; they do not certify a level. ([The Future Is Solo, n.d.-b](https://thefutureissolo.com/))
 
-Maya writes a short procedure. First identify the inquiry and the decision. Then gather only the relevant records and evidence. Explain the intended behavior, produce or revise the artifact, inspect it against the criteria, and save the verdict and next action. She keeps human review at the points where meaning and support must be judged.
+Audy writes a short procedure. First identify the inquiry and the decision. Then gather only the relevant records and evidence. Explain the intended behavior, produce or revise the artifact, inspect it against the criteria, and save the verdict and next action. She keeps human review at the points where meaning and support must be judged.
 
 A procedure becomes testable when its steps have clear handoffs. The investigation produces a source record or an explicit statement of missing evidence. The drafting step receives the current requirements. The review receives the input and output together. The final update produces a current artifact and a traceable change note.
 
@@ -1381,13 +1381,13 @@ Try following your procedure after an interruption. If a step depends on remembe
 
 You can begin with a manual checklist and ordinary files. Automating transfers before the handoffs are clear would make it harder to determine where a failure originates. Once the procedure works, repeated copying or formatting may become candidates for simple automation.
 
-Later chapters develop L4 feedback and oversight through durable judgments, verified writes, and explicit contracts. For now, the demonstrated capability is a procedure Maya runs and reviews herself.
+Later chapters develop L4 feedback and oversight through durable judgments, verified writes, and explicit contracts. For now, the demonstrated capability is a procedure Audy runs and reviews herself.
 
 ## Choose a rhythm that fits the work
 
-A useful procedure needs occasions to run. Attach it to a recurring piece of work or an explicit review point. Maya could use it when a draft fails an important requirement, when a new input type appears, or before adopting a change that affects repeated delivery. She does not need to turn every interesting thought into a formal record.
+A useful procedure needs occasions to run. Attach it to a recurring piece of work or an explicit review point. Audy could use it when a draft fails an important requirement, when a new input type appears, or before adopting a change that affects repeated delivery. She does not need to turn every interesting thought into a formal record.
 
-Separate the learning session from the later reattempt. Research reviewed by Dunlosky and colleagues supports practice testing and distributed practice across the conditions their review assessed. It does not prescribe one optimal interval for Maya's project or validate the exact schedule in this book. ([Dunlosky et al., 2013](https://doi.org/10.1177/1529100612453266))
+Separate the learning session from the later reattempt. Research reviewed by Dunlosky and colleagues supports practice testing and distributed practice across the conditions their review assessed. It does not prescribe one optimal interval for Audy's project or validate the exact schedule in this book. ([Dunlosky et al., 2013](https://doi.org/10.1177/1529100612453266))
 
 A practical adaptation is to revisit a consequential idea after some time has passed, attempt an explanation without reopening the answer, and apply it to a new example. Choose an interval that fits the work. Record whether you could still make the relevant distinction, and use a difficulty as a cue for further practice rather than as a personal grade.
 
@@ -1403,7 +1403,7 @@ An inquiry can stop at several seductive points. A clear explanation can feel li
 
 Look at the artifact your latest session produced. If it is only a summary, identify the decision it informs. If it is only a polished output, ask what you learned about the procedure. If it is only a lesson, find where that lesson changes the next attempt. These questions locate the unfinished connection.
 
-Another failure is a loop that reinforces its own assumptions. Maya could ask an assistant to generate a brief, ask the same assistant whether the brief is good, and retain the favorable review without checking the input. The record would be complete in appearance while lacking an independent examination of the important claim.
+Another failure is a loop that reinforces its own assumptions. Audy could ask an assistant to generate a brief, ask the same assistant whether the brief is good, and retain the favorable review without checking the input. The record would be complete in appearance while lacking an independent examination of the important claim.
 
 Independence here can be simple. Compare the deadline with the actual notes. Open the cited passage. Attempt the task without the model answer. Invite an informed person to examine an ambiguous judgment. Choose evidence that could reveal a mistake instead of merely requesting another expression of confidence.
 
@@ -1429,7 +1429,7 @@ Your record is ready when another reader can trace the question through evidence
 
 If a connection is missing, repair it directly. An unused finding needs a place in the working instruction. A vague verdict needs an observable reason. A repeated error needs a check of the input, version, and requirement before another layer of automation. A question unrelated to the project can return to the curiosity map.
 
-Maya now has more than a set of interesting conversations. She has a provisional brief and a repeatable way to improve it, with evidence of how a correction reaches a later attempt. The next problem is preserving that usefulness over time. [Chapter 8](book/chapters/08-the-second-brain-is-not-enough.md) begins the Memory arc by examining what should be kept, what can be discarded, and how a stored record becomes available when the work needs it.
+Audy now has more than a set of interesting conversations. She has a provisional brief and a repeatable way to improve it, with evidence of how a correction reaches a later attempt. The next problem is preserving that usefulness over time. [Chapter 8](book/chapters/08-the-second-brain-is-not-enough.md) begins the Memory arc by examining what should be kept, what can be discarded, and how a stored record becomes available when the work needs it.
 
 ## References
 
@@ -1452,17 +1452,17 @@ The Future Is Solo. (2026). *The Future Is Solo 20260910* [Google Slides present
 
 ## The rule is clear; its history is harder to recover
 
-Maya can explain why an agreed action may have an unspecified owner. Her synthetic workshop examples have made the distinction concrete. An action list should preserve what the meeting notes establish and flag what remains unresolved. Requiring every field to contain a name would encourage invention.
+Audy can explain why an agreed action may have an unspecified owner. Her synthetic workshop examples have made the distinction concrete. An action list should preserve what the meeting notes establish and flag what remains unresolved. Requiring every field to contain a name would encourage invention.
 
-The current instructions are easy to find. Chapter 7 left a clear pointer in `learning-loop-v1`, and Maya can follow it to the drafting instructions and review sheet. The problem appears when she asks a different question: which observations justified this rule, and how far should she trust the explanation? Its history is spread across the connection map, an earlier conversation, and practice outputs.
+The current instructions are easy to find. Chapter 7 left a clear pointer in `learning-loop-v1`, and Audy can follow it to the drafting instructions and review sheet. The problem appears when she asks a different question: which observations justified this rule, and how far should she trust the explanation? Its history is spread across the connection map, an earlier conversation, and practice outputs.
 
-These fictional design records concern the thirty-minute action-list workshop, with no customer or learner results yet. Can they support another attempt without losing what Maya learned?
+These fictional design records concern the thirty-minute action-list workshop, with no customer or learner results yet. Can they support another attempt without losing what Audy learned?
 
 She opens the connection map and finds the older sentence, “Every action must have an owner,” clearly marked as rejected. The later explanation is there too. But the map does not provide a direct route to the subsequent deadline failure or the changed example using “soon.” Those observations are in the learning-loop history. Explaining the whole boundary requires reconstructing connections between records.
 
-Maya has not forgotten how to judge an action list. She has discovered a weakness in the handoff between her judgment and her stored material. Knowing which instruction to use is different from being able to recover the evidence that warrants it. A reliable pointer has solved one problem and made the next one visible.
+Audy has not forgotten how to judge an action list. She has discovered a weakness in the handoff between her judgment and her stored material. Knowing which instruction to use is different from being able to recover the evidence that warrants it. A reliable pointer has solved one problem and made the next one visible.
 
-The next reader might be Maya after a busy week, a colleague reviewing the brief, or an assistant beginning without the previous conversation. The files need to support all three without assuming they share her memory of how the work developed.
+The next reader might be Audy after a busy week, a colleague reviewing the brief, or an assistant beginning without the previous conversation. The files need to support all three without assuming they share her memory of how the work developed.
 
 Bring the artifacts you have accumulated so far. If you joined the book later, choose the records supporting one recurring task. You will inspect what exists, what the work actually needs, and what happens when you try to retrieve it. You do not need to reorganize your entire digital life.
 
@@ -1472,7 +1472,7 @@ Saving a document establishes a storage outcome: the document is present somewhe
 
 These outcomes can support one another, but none automatically supplies the rest. A stored article may never be found again. A retrieved article may be misunderstood. An understood concept may be irrelevant to today's decision. A decision may be sensible when made and later become unsuitable as the situation changes.
 
-Maya's folder illustrates the gaps. The current instruction is locatable, and the rejected rule is labeled. Yet a search for “owner” does not necessarily recover the later deadline example. The next draft can follow the instruction, while a review of that instruction may still lack relevant evidence. Different tasks ask different things of the same collection.
+Audy's folder illustrates the gaps. The current instruction is locatable, and the rejected rule is labeled. Yet a search for “owner” does not necessarily recover the later deadline example. The next draft can follow the instruction, while a review of that instruction may still lack relevant evidence. Different tasks ask different things of the same collection.
 
 This chapter uses “second brain” as shorthand for a personal collection of external notes and resources. Testing it against actual work will reveal more than counting the notes or examining the interface.
 
@@ -1482,9 +1482,9 @@ Treat either discovery as information. The point is to improve continuity. Buyin
 
 ## Begin with the next piece of work
 
-Choose a concrete task that you expect to repeat. Maya chooses preparing another synthetic workshop brief with the current action-list criteria. She writes what a new session would need to know before producing a useful draft.
+Choose a concrete task that you expect to repeat. Audy chooses preparing another synthetic workshop brief with the current action-list criteria. She writes what a new session would need to know before producing a useful draft.
 
-It needs the intended learner task. It needs the synthetic input and the boundary around it. It needs the current review criteria, including the distinction between an agreed action and a fully assigned action. It needs to know that demand and learning effects remain untested. It does not need every abandoned idea about Fieldwork's future business.
+It needs the intended learner task. It needs the synthetic input and the boundary around it. It needs the current review criteria, including the distinction between an agreed action and a fully assigned action. It needs to know that demand and learning effects remain untested. It does not need every abandoned idea about Himura Inc.'s future business.
 
 This task-based view changes the inventory. A saved article about workshop marketing may be interesting, but it does not belong in the immediate working set. The note explaining why a missing owner must stay visible is less glamorous and more necessary. Relevance follows from the decision you are preparing to make.
 
@@ -1496,7 +1496,7 @@ You can perform the exercise manually with a file browser and a text editor. An 
 
 ## Make an inventory small enough to finish
 
-Maya lists the main records already connected to the brief: the capability baseline, claims ledger, curiosity map, inquiry brief, concept-deconstruction record, connection map, and learning-loop record. She includes the workshop brief itself and the sample input. She does not begin by listing every file on her computer.
+Audy lists the main records already connected to the brief: the capability baseline, claims ledger, curiosity map, inquiry brief, concept-deconstruction record, connection map, and learning-loop record. She includes the workshop brief itself and the sample input. She does not begin by listing every file on her computer.
 
 For each item, she records its location and purpose. She adds whether it contains raw material, a proposed interpretation, a reviewed decision, or a practice attempt. These descriptions will become more precise in the next chapter. For now, they help her notice when a record is doing several jobs without saying so.
 
@@ -1512,7 +1512,7 @@ Your first inventory is complete when it covers the dependencies of one task wel
 
 ## Test whether the right record can be found
 
-Maya writes a test question: “Why may an agreement remain in the list with an unresolved owner, and what did the later deadline example add?” She closes the current conversation and begins from the inventory. She permits herself to use the listed locations, because that is the external memory she is testing.
+Audy writes a test question: “Why may an agreement remain in the list with an unresolved owner, and what did the later deadline example add?” She closes the current conversation and begins from the inventory. She permits herself to use the listed locations, because that is the external memory she is testing.
 
 Her first route reaches the current drafting instructions through `learning-loop-v1`. That part works. The instruction states the evidence boundary correctly. To explain its development, however, she has to open the connection map, identify the earlier rejected proposal, and then locate the later failure and repair in the loop record. The files do not yet show that relationship directly.
 
@@ -1530,7 +1530,7 @@ Record the route and outcome, not merely a success tick. A retrieval test become
 
 A bare rule can be easy to retrieve and hard to apply. “Keep missing details visible” sounds straightforward until the task changes. Should every omission block the work? May the assistant suggest an owner for review? Does the rule apply to an invented teaching example in the same way as an agreed customer commitment?
 
-Maya's rationale record explains only the questions established by her practice. It links to the current requirement that the action list distinguish what the supplied notes support from what remains unresolved. It explains why a missing owner can be flagged and why “soon” cannot become a precise date. It does not authorize assigning someone or treating a suggestion as an agreement.
+Audy's rationale record explains only the questions established by her practice. It links to the current requirement that the action list distinguish what the supplied notes support from what remains unresolved. It explains why a missing owner can be flagged and why “soon” cannot become a precise date. It does not authorize assigning someone or treating a suggestion as an agreement.
 
 She includes one short failure example: a generated list gave the venue inquiry an owner and deadline that the notes did not contain. This example explains the purpose of the rule more efficiently than a long description of the entire chapter sequence.
 
@@ -1538,7 +1538,7 @@ She also links to the fuller comparison. The short record gives the next session
 
 Now she asks a reader to explain the rule's boundary from the record, or performs that check herself after a break if no reader is available. The self-check is limited because she already knows the history. She records that limitation rather than treating it as equivalent to an independent review.
 
-If the explanation turns the rule into “never infer anything,” the record is too broad or unclear. Maya repairs the scope. The requirement concerns claims about supplied commitments in this task. Other activities may legitimately involve proposing possibilities, provided those proposals are labeled and reviewed.
+If the explanation turns the rule into “never infer anything,” the record is too broad or unclear. Audy repairs the scope. The requirement concerns claims about supplied commitments in this task. Other activities may legitimately involve proposing possibilities, provided those proposals are labeled and reviewed.
 
 ## A saved vault is not yet working context
 
@@ -1546,7 +1546,7 @@ The TFIS experiment presentation provides a concrete distinction between retaine
 
 Context, in this setting, is the material available to an assistant while it performs the current task. A file can exist in a vault without being included. A conversation can contain a correction that was never saved. A saved correction can be retrieved without the source that explains its limits. Those are different points at which continuity can fail.
 
-Maya therefore tests the working set itself. She opens a fresh session and deliberately supplies the current brief, the relevant synthetic notes, the current instructions, and their linked rationale. She asks the assistant to identify the applicable constraint before drafting. Its answer must point to the supplied record rather than claim a memory of an earlier conversation.
+Audy therefore tests the working set itself. She opens a fresh session and deliberately supplies the current brief, the relevant synthetic notes, the current instructions, and their linked rationale. She asks the assistant to identify the applicable constraint before drafting. Its answer must point to the supplied record rather than claim a memory of an earlier conversation.
 
 This is a controlled handoff exercise within the fictional case, not a claim about a particular product's automatic memory feature. If you use an assistant without file access, paste the same small set of material. If you prefer to work without AI, prepare the packet for another person to read.
 
@@ -1554,7 +1554,7 @@ The important observation is what actually became available to the task. A label
 
 ## Test use as well as recovery
 
-Finding the right record is necessary for this task, but it is not the final check. The next draft could quote the rule and still violate it. Maya gives the fresh session the reminder example first used in Chapter 4: a reminder on Thursday is proposed, with a decision deferred until tomorrow.
+Finding the right record is necessary for this task, but it is not the final check. The next draft could quote the rule and still violate it. Audy gives the fresh session the reminder example first used in Chapter 4: a reminder on Thursday is proposed, with a decision deferred until tomorrow.
 
 She inspects the generated list. If it treats Thursday as an agreed deadline, the handoff has failed to influence the behavior she cares about. The correct rule may have been present. Its presence alone did not establish correct application.
 
@@ -1562,19 +1562,19 @@ Her review asks whether the output preserves the proposal's unresolved status an
 
 If the output fails, she checks the supplied packet before rewriting the record. Was an older instruction also included? Did the input contain contradictory statements? Was the requested output so compressed that uncertainty was dropped? Did the assistant simply make an error despite clear material? Different observations require different repairs.
 
-Locating the failure lets Maya make a specific change and examine it in a fresh attempt. Adding more stored instructions without that diagnosis could leave the cause untouched.
+Locating the failure lets Audy make a specific change and examine it in a fresh attempt. Adding more stored instructions without that diagnosis could leave the cause untouched.
 
-Maya's inventory records both the successful route and its scope. One synthetic example is a useful check of one distinction. It is not a measured reliability rate for all workshop preparation.
+Audy's inventory records both the successful route and its scope. One synthetic example is a useful check of one distinction. It is not a measured reliability rate for all workshop preparation.
 
 ## Decide what you still need to know yourself
 
-External memory can make important details available without requiring you to memorize them. That does not remove the need to understand the judgments you are responsible for making. Maya can look up a source's publication details. She still needs to recognize when a claim about a laboratory study has become an unsupported promise about her workshop.
+External memory can make important details available without requiring you to memorize them. That does not remove the need to understand the judgments you are responsible for making. Audy can look up a source's publication details. She still needs to recognize when a claim about a laboratory study has become an unsupported promise about her workshop.
 
 Cognitive offloading research examines how people use external actions and aids to change the demands of a task, including the role of judgments about their own memory and performance. It does not justify a blanket claim that external aids either improve intelligence or cause cognitive decline. The review predates contemporary conversational AI. ([Risko & Gilbert, 2016](https://doi.org/10.1016/j.tics.2016.07.002))
 
 For this book, make the division explicit. List what you need to explain well enough to supervise the task. List what you may retrieve when needed. List what requires outside expertise because neither your memory nor a retrieved note supplies adequate judgment.
 
-Maya places the distinction between a suggestion and an agreement in the first group. She places exact source metadata and the wording of a past trial in the second. She does not place unfamiliar empirical claims in the first group merely because an assistant summarized them persuasively.
+Audy places the distinction between a suggestion and an agreement in the first group. She places exact source metadata and the wording of a past trial in the second. She does not place unfamiliar empirical claims in the first group merely because an assistant summarized them persuasively.
 
 Try a brief unaided explanation before opening your records. Then use the external material to check and repair it. The two attempts answer different questions: what can you currently produce, and how well can your records support the work? A good external memory can coexist with an area you still need to learn.
 
@@ -1584,7 +1584,7 @@ When reviewing another system's output, that understanding helps you recognize t
 
 Every retained item has some potential cost: finding it, interpreting it, keeping its status current, or deciding whether it belongs in a shared working set. The cost varies. A clearly labeled historical input may need little attention. A frequently reused instruction can require careful maintenance because later work depends on it.
 
-Maya discovers three nearly identical summaries of the same study. They do not provide three independent pieces of evidence. They provide three accounts she may have to reconcile when the wording differs. She keeps a pointer to the inspected source and a bounded summary in the claims ledger, marking the other summaries as drafts rather than additional support.
+Audy discovers three nearly identical summaries of the same study. They do not provide three independent pieces of evidence. They provide three accounts she may have to reconcile when the wording differs. She keeps a pointer to the inspected source and a bounded summary in the claims ledger, marking the other summaries as drafts rather than additional support.
 
 She also finds a failed practice output that looks untidy but explains an important requirement. It remains useful. Deleting material merely because it is old or imperfect would remove evidence she may need to understand the current process.
 
@@ -1598,7 +1598,7 @@ The aim is an external memory you can maintain alongside the rest of your work. 
 
 The Functional Life treats checking durable writes as a core operating practice. Its emphasis is on verifying stored state rather than accepting an assistant's statement that an update is complete. This book develops that principle into simple checks suitable for a novice working with documents. ([The Future Is Solo, n.d.-a](https://life.thefutureissolo.com/))
 
-After saving the rationale record, Maya closes and reopens it. She checks the actual wording and follows the links to the current instructions and supporting examples. She tests the inventory's new pointer. The current-version pointer from Chapter 7 remains intact, and the older candidate remains labeled as rejected where a future reader might encounter it.
+After saving the rationale record, Audy closes and reopens it. She checks the actual wording and follows the links to the current instructions and supporting examples. She tests the inventory's new pointer. The current-version pointer from Chapter 7 remains intact, and the older candidate remains labeled as rejected where a future reader might encounter it.
 
 This is more informative than asking the same assistant, “Did you remember the correction?” A positive answer would be another claim. Reopening the record inspects the thing the future task is supposed to use.
 
@@ -1626,7 +1626,7 @@ Your inventory passes this chapter's practice check when a reader can locate the
 
 Repair the smallest broken connection. Add a meaningful description when the file is hard to find. Identify the current version when several compete. Restore a missing evidence link. Narrow a summary that lost a limitation. Seek clarification when the decision itself was never established.
 
-Maya now has `memory-inventory-v1` and the linked explanation `action-list-rule-rationale-v1`. The current instructions remain identified through `learning-loop-v1`. The files do not yet constitute a complete memory architecture. They expose what the work needs from one. [Chapter 9](book/chapters/09-the-sovereign-memory-principle.md) makes the next decisions explicit: what may enter this memory, who controls it, and how it can be corrected or removed.
+Audy now has `memory-inventory-v1` and the linked explanation `action-list-rule-rationale-v1`. The current instructions remain identified through `learning-loop-v1`. The files do not yet constitute a complete memory architecture. They expose what the work needs from one. [Chapter 9](book/chapters/09-the-sovereign-memory-principle.md) makes the next decisions explicit: what may enter this memory, who controls it, and how it can be corrected or removed.
 
 ## References
 
@@ -1647,15 +1647,15 @@ The Future Is Solo. (2026). *The Future Is Solo 20260910* [Google Slides present
 
 ## A tentative thought acquires an official voice
 
-Maya opens a saved summary while preparing Fieldwork's next design session. One sentence reads, “Independent educators need help turning expertise into a task learners can perform.” It sounds like the premise of the project. It also sounds more certain than her evidence permits.
+Audy opens a saved summary while preparing Himura Inc.'s next design session. One sentence reads, “Independent educators need help turning expertise into a task learners can perform.” It sounds like the premise of the project. It also sounds more certain than her evidence permits.
 
 Her claims ledger is more careful. It treats the need as a hypothesis and distinguishes it from the defects observed in her own synthetic workshop drafts. She has not spoken with prospective customers or observed learners in a workshop. The shorter summary has removed that uncertainty.
 
 No malicious actor altered the sentence. Nobody intentionally invented a customer finding. Compression did the damage: an idea being investigated became a statement the next session could mistake for an established fact.
 
-Maya can repair this sentence. The larger question is what prevents the same change elsewhere. If any polished summary can become authoritative simply by being saved, the growing memory will eventually contain confident claims whose origins are difficult to recover.
+Audy can repair this sentence. The larger question is what prevents the same change elsewhere. If any polished summary can become authoritative simply by being saved, the growing memory will eventually contain confident claims whose origins are difficult to recover.
 
-The case remains fictional, and Fieldwork remains a proposal. That makes it a useful place to establish rules before real customer records complicate the exercise. Maya needs to decide what the collection is for, what belongs in it, and which changes require her judgment.
+The case remains fictional, and Himura Inc. remains a proposal. That makes it a useful place to establish rules before real customer records complicate the exercise. Audy needs to decide what the collection is for, what belongs in it, and which changes require her judgment.
 
 Chapter 8 produced an inventory and a route from the current action-list instructions to their rationale. Keep those documents open. This chapter adds a charter: a short statement of how you will govern that memory. It should guide concrete choices, including choices to retain less, limit access, or leave an unresolved question unresolved.
 
@@ -1667,17 +1667,17 @@ A harness is the application or working environment through which an assistant u
 
 For this book, sovereign memory means memory over which you can exercise meaningful control. You can inspect what is retained, identify its source, decide who may use or change it, correct it, and move the material needed for your work. This is a practical design aim. It is not a legal declaration of ownership over everything you have encountered, or a promise of complete independence from every service.
 
-Maya may choose a hosted document service for convenience. Another reader may choose files on a personal computer. Either choice leaves questions to answer: Can you inspect the stored record? Can you restrict sharing? Can you recover a usable copy? What remains dependent on the service?
+Audy may choose a hosted document service for convenience. Another reader may choose files on a personal computer. Either choice leaves questions to answer: Can you inspect the stored record? Can you restrict sharing? Can you recover a usable copy? What remains dependent on the service?
 
 A charter turns those questions into commitments you can test. “I own my memory” is too vague to guide a difficult decision. “Only I can approve a change to the current project assumptions, and proposed changes remain separate until reviewed” tells you what should happen next.
 
 ## State the purpose before deciding what to keep
 
-Maya writes the purpose of her first memory area: support the design and review of the proposed action-list workshop, preserve the reasoning behind current choices, and record what still requires investigation. It is not a complete archive of her life or a collection of everything she reads about AI.
+Audy writes the purpose of her first memory area: support the design and review of the proposed action-list workshop, preserve the reasoning behind current choices, and record what still requires investigation. It is not a complete archive of her life or a collection of everything she reads about AI.
 
 That boundary makes retention decisions easier. The synthetic meeting notes belong because they support an active exercise. The failed output belongs because it reveals an important error. An unrelated article can remain elsewhere without becoming part of the workshop's working context.
 
-Purpose also limits interpretation. The memory contains evidence about Maya's preparation process. It cannot acquire evidence about customer demand merely because its records are detailed. A well-maintained collection can faithfully preserve a narrow body of experience without making that experience representative.
+Purpose also limits interpretation. The memory contains evidence about Audy's preparation process. It cannot acquire evidence about customer demand merely because its records are detailed. A well-maintained collection can faithfully preserve a narrow body of experience without making that experience representative.
 
 Write your purpose in ordinary language. Name the work the memory will support and the people who may rely on it. If you cannot finish that sentence, choose a smaller scope. You can maintain separate areas for personal learning and client delivery, with different rules, rather than forcing both into an undifferentiated archive.
 
@@ -1687,25 +1687,25 @@ The [memory charter](book/artifacts/09-memory-charter.md) begins here. Adapt the
 
 Distinguish source records, inferences, decisions, and user preferences. A document may contain all four, provided the reader can tell which kind of statement they are using.
 
-A source record preserves what was supplied or observed. Maya's synthetic meeting notes are a source for the exercise. Her saved account of an inspected paper points to that paper and states which part she read. Calling something a source does not make all of its statements true. A source may contain a mistake, a claim, a proposal, or fictional material.
+A source record preserves what was supplied or observed. Audy's synthetic meeting notes are a source for the exercise. Her saved account of an inspected paper points to that paper and states which part she read. Calling something a source does not make all of its statements true. A source may contain a mistake, a claim, a proposal, or fictional material.
 
-The practical question is fidelity: does the record accurately represent the source, and can a reader inspect the relevant support? If Maya writes that the notes say a facilitator will circulate them by Friday, that statement should resolve to the line that establishes it. If the notes say “soon,” the record should preserve the imprecision.
+The practical question is fidelity: does the record accurately represent the source, and can a reader inspect the relevant support? If Audy writes that the notes say a facilitator will circulate them by Friday, that statement should resolve to the line that establishes it. If the notes say “soon,” the record should preserve the imprecision.
 
-An inference is a conclusion drawn from material rather than directly contained in it. Maya infers that specifying a learner task may improve the usefulness of a workshop brief. The synthetic drafts make the question worth investigating, but do not establish a general learning benefit. Her inference needs its supporting observations, limits, and an indication of what could change her view.
+An inference is a conclusion drawn from material rather than directly contained in it. Audy infers that specifying a learner task may improve the usefulness of a workshop brief. The synthetic drafts make the question worth investigating, but do not establish a general learning benefit. Her inference needs its supporting observations, limits, and an indication of what could change her view.
 
-A decision records a choice. Maya decides that Fieldwork's practice briefs should include an inspectable learner output. She can make that design choice while acknowledging uncertainty about its eventual effect. The decision should identify who made it, the scope in which it applies, and the reason for choosing it.
+A decision records a choice. Audy decides that Himura Inc.'s practice briefs should include an inspectable learner output. She can make that design choice while acknowledging uncertainty about its eventual effect. The decision should identify who made it, the scope in which it applies, and the reason for choosing it.
 
-A preference states how the user wants work handled. Maya might prefer short summaries that put unresolved questions near the beginning. That preference affects presentation. It cannot authorize the assistant to remove uncertainty because a cleaner answer would be shorter. Preferences remain subordinate to the evidence and permission boundaries established for the task.
+A preference states how the user wants work handled. Audy might prefer short summaries that put unresolved questions near the beginning. That preference affects presentation. It cannot authorize the assistant to remove uncertainty because a cleaner answer would be shorter. Preferences remain subordinate to the evidence and permission boundaries established for the task.
 
-The sentence at the chapter's opening mixed these categories. It presented Maya's working inference as though it were an observed customer need. She changes its status to “hypothesis” and links it to the claims ledger. She also records the related design decision separately. A reader can now see what she suspects, what she has chosen, and what she still needs to learn.
+The sentence at the chapter's opening mixed these categories. It presented Audy's working inference as though it were an observed customer need. She changes its status to “hypothesis” and links it to the claims ledger. She also records the related design decision separately. A reader can now see what she suspects, what she has chosen, and what she still needs to learn.
 
 ## Keep preferences within the situation that established them
 
-A remembered preference can help or mislead. Suppose Maya asks for a very short answer while comparing two headings. Saving “Maya always wants minimal explanation” would generalize a local request into a permanent rule. The next research review might omit the very limitations she needs to see.
+A remembered preference can help or mislead. Suppose Audy asks for a very short answer while comparing two headings. Saving “Audy always wants minimal explanation” would generalize a local request into a permanent rule. The next research review might omit the very limitations she needs to see.
 
-The charter should distinguish a request for this task from a preference explicitly intended to persist. If persistence is unclear, keep the instruction local or ask for clarification before treating it as a lasting user preference. An assistant's guess about Maya's personality is an inference, and may be unnecessary to retain at all.
+The charter should distinguish a request for this task from a preference explicitly intended to persist. If persistence is unclear, keep the instruction local or ask for clarification before treating it as a lasting user preference. An assistant's guess about Audy's personality is an inference, and may be unnecessary to retain at all.
 
-Maya can express a preference with a boundary: “For routine progress notes, lead with the result and keep the explanation brief; include material uncertainties.” That is more useful than an unqualified demand for brevity. It says where the preference applies and preserves the information needed for judgment.
+Audy can express a preference with a boundary: “For routine progress notes, lead with the result and keep the explanation brief; include material uncertainties.” That is more useful than an unqualified demand for brevity. It says where the preference applies and preserves the information needed for judgment.
 
 When a later request changes the situation, the old preference should not make the system resistant to correction. The current authorized task may require a detailed explanation. A memory that insists on an outdated preference has confused assistance with control.
 
@@ -1713,7 +1713,7 @@ This is another reason to retain the origin and scope of a preference. You can r
 
 ## Preserve disagreement without manufacturing a single truth
 
-Suppose a future input contains two incompatible statements about a deadline. This is still a hypothetical extension of Maya's practice; the existing cases did not resolve it. The memory should preserve the conflict and its source rather than silently choosing the more convenient version.
+Suppose a future input contains two incompatible statements about a deadline. This is still a hypothetical extension of Audy's practice; the existing cases did not resolve it. The memory should preserve the conflict and its source rather than silently choosing the more convenient version.
 
 A summary might say, “The supplied material contains two deadline statements; clarification is required.” That is a useful result. It carries forward the uncertainty instead of producing a false sense of completeness.
 
@@ -1723,19 +1723,19 @@ You do not need to preserve every wording change forever. Keep enough history to
 
 ## Retain material for a reason you can name
 
-Maya's retention rule begins with dependencies. She keeps the current brief and instructions because the next task uses them. She keeps the rationale and selected failed examples because they explain important constraints. She keeps source references because empirical claims must remain checkable. She keeps unresolved questions because the next inquiry depends on recognizing them.
+Audy's retention rule begins with dependencies. She keeps the current brief and instructions because the next task uses them. She keeps the rationale and selected failed examples because they explain important constraints. She keeps source references because empirical claims must remain checkable. She keeps unresolved questions because the next inquiry depends on recognizing them.
 
 She does not treat every generated answer as an equally valuable memory. Many are attempts that add nothing beyond the reviewed record. Some may be worth retaining briefly while she compares alternatives. Others can remain outside the lasting collection.
 
 For each retained category, state the reason and a review condition. A practice example may be retained while it tests a current requirement. A service comparison may need review before another purchase decision. A preference may remain until the user changes it, but should be easy to find and amend.
 
-Avoid choosing a universal retention period simply because the table asks for one. Different purposes call for different intervals. In Maya's small project, review at the next workshop revision is more meaningful than an arbitrary calendar date. Where an agreement or organizational policy already governs a record, follow the applicable rule rather than replacing it with this exercise.
+Avoid choosing a universal retention period simply because the table asks for one. Different purposes call for different intervals. In Audy's small project, review at the next workshop revision is more meaningful than an arbitrary calendar date. Where an agreement or organizational policy already governs a record, follow the applicable rule rather than replacing it with this exercise.
 
 Retained material must stay intelligible. The charter should let you reconsider a record whose purpose you can no longer explain.
 
 ## Exclude material before it spreads
 
-A memory can be useful without collecting every detail available to it. Maya excludes credentials, private contact details, and unrelated personal disclosures from her practice area. The synthetic exercise needs none of them. She also excludes claims of customer approval that have not occurred.
+A memory can be useful without collecting every detail available to it. Audy excludes credentials, private contact details, and unrelated personal disclosures from her practice area. The synthetic exercise needs none of them. She also excludes claims of customer approval that have not occurred.
 
 Exclusion is easiest before material enters a shared working set. Once a detail appears in several summaries, locating and removing every copy becomes harder. The practical question is whether the next task needs the detail, rather than whether an assistant is capable of processing it.
 
@@ -1743,7 +1743,7 @@ Consider a service professional preparing a general proposal template. A previou
 
 These substitutions have limits. Synthetic material cannot establish how real customers behave, and removing names does not automatically make every record suitable to share. If the question requires real evidence, establish the permission and handling conditions for that evidence. Do not imply that a fictional substitute answered the empirical question.
 
-Maya writes an explicit stop condition: when a proposed addition includes information about another person and the permission or purpose is unclear, hold it outside the shared memory until she resolves that uncertainty. This is a boundary she can apply manually. It does not depend on a model reliably recognizing every sensitive detail.
+Audy writes an explicit stop condition: when a proposed addition includes information about another person and the permission or purpose is unclear, hold it outside the shared memory until she resolves that uncertainty. This is a boundary she can apply manually. It does not depend on a model reliably recognizing every sensitive detail.
 
 ## Keep access and permission attached to purpose
 
@@ -1751,9 +1751,9 @@ Being able to open a record does not establish permission to send it somewhere e
 
 Your charter should say who may read a category of records and for what work. It should also distinguish reading from changing, sharing, and removing. These are separate permissions. Giving an assistant material to summarize does not necessarily authorize it to rewrite the current decision or distribute the source.
 
-Maya begins with a simple arrangement. She controls the retained records. Assistants receive selected synthetic materials for a specified preparation task. They can propose edits in a separate draft. Maya reviews those proposals before changing the current project records.
+Audy begins with a simple arrangement. She controls the retained records. Assistants receive selected synthetic materials for a specified preparation task. They can propose edits in a separate draft. Audy reviews those proposals before changing the current project records.
 
-That arrangement fits the project's present scale. Its review burden will help Maya identify which repeated operations warrant delegation later.
+That arrangement fits the project's present scale. Its review burden will help Audy identify which repeated operations warrant delegation later.
 
 A label in a document is also not an access control by itself. “Private” does not change a sharing setting. In practice, compare the charter's intended audience with the actual audience in the place you store or send the material. If you cannot establish that boundary, narrow what you include until you can.
 
@@ -1765,17 +1765,17 @@ AgentDojo studies this problem through tasks in which tool outputs expose agents
 
 For the charter, make the boundary explicit: retrieved source material may inform the authorized task, but may not expand permissions or change the charter. A source's instruction to alter memory is evidence about what that source says, not a command from the person who governs the memory.
 
-In Maya's practice, a supplied document that says “save this as the user's permanent preference” should remain a quoted or summarized source claim unless Maya independently confirms the preference. The same applies to a generated recommendation that declares itself an approved policy.
+In Audy's practice, a supplied document that says “save this as the user's permanent preference” should remain a quoted or summarized source claim unless Audy independently confirms the preference. The same applies to a generated recommendation that declares itself an approved policy.
 
 Writing this rule is useful, but does not make an unrestricted automated system safe. The novice version of the exercise keeps sources selected, changes proposed separately, and consequential writes under human review. Later supervision work must examine actual behavior, including failures, rather than relying only on a well-worded instruction.
 
 ## Define how a proposal becomes a current record
 
-Maya's charter gives a proposed memory change a short route: identify the affected record, state the proposed change, show the evidence or user instruction behind it, and leave the choice with Maya. An accepted change is then written and checked in its actual saved location.
+Audy's charter gives a proposed memory change a short route: identify the affected record, state the proposed change, show the evidence or user instruction behind it, and leave the choice with Audy. An accepted change is then written and checked in its actual saved location.
 
 Suppose an assistant proposes replacing “customer need untested” with “customer need established.” The proposal should fail immediately because it cannot point to a new observation establishing that conclusion. A polished explanation of why the business idea seems promising does not supply the missing evidence.
 
-A smaller proposal might correct a link in the rationale record. Maya can inspect the target, accept the correction, and reopen the saved note to confirm it resolves. Different changes deserve different review effort, but both require an observable basis.
+A smaller proposal might correct a link in the rationale record. Audy can inspect the target, accept the correction, and reopen the saved note to confirm it resolves. Different changes deserve different review effort, but both require an observable basis.
 
 Keep one current-version pointer for each active purpose. The pointer in `learning-loop-v1` continues to identify the current drafting instructions. The new rationale explains them; it does not quietly become a competing source of commands. If the instructions change, the record of that change should make the relationship clear.
 
@@ -1785,7 +1785,7 @@ The Functional Life describes durable judgments and verification of stored chang
 
 A review rule should answer when and why a record needs attention. “Review regularly” can become a task that repeats without improving anything. A useful trigger points to a condition that might make the current record misleading.
 
-Maya reviews the workshop instructions when the learner task changes, a fresh example reveals a failure, or she proposes using the brief with a real participant. She reviews the demand hypothesis when actual customer evidence becomes available. She reviews source-dependent factual claims before using them in a new public promise.
+Audy reviews the workshop instructions when the learner task changes, a fresh example reveals a failure, or she proposes using the brief with a real participant. She reviews the demand hypothesis when actual customer evidence becomes available. She reviews source-dependent factual claims before using them in a new public promise.
 
 At review, she checks status as well as wording. An inference may remain an inference. A decision may still be reasonable despite unresolved evidence. A source may still be accurately summarized even though a newer study now changes the broader picture. These outcomes should remain distinguishable.
 
@@ -1797,7 +1797,7 @@ Begin with a few review triggers you can sustain. Inspect whether they catch the
 
 The charter also needs a path for removing material. A record may no longer serve its purpose, may contain an inappropriate detail, or may have been retained by mistake. Leaving deletion undefined turns every initial capture into an indefinite commitment.
 
-Maya can test the process safely with a deliberately disposable synthetic note. She records where she placed it, removes it from the active collection, checks the relevant index, and confirms that the working-set link no longer returns the note. She identifies any copy she intentionally kept elsewhere for the test and handles it separately.
+Audy can test the process safely with a deliberately disposable synthetic note. She records where she placed it, removes it from the active collection, checks the relevant index, and confirms that the working-set link no longer returns the note. She identifies any copy she intentionally kept elsewhere for the test and handles it separately.
 
 That exercise demonstrates removal from the locations she inspected. It does not establish erasure from an unknown service backup, another person's copy, or every prior conversation. If those locations matter, the procedure needs to account for them using the actual capabilities and terms of the system involved.
 
@@ -1811,7 +1811,7 @@ Portability means that the material needed for your work remains usable when you
 
 The Functional Life favors open, portable formats and the ability to replace providers. Those are design preferences that motivate a practical test; they do not guarantee that every feature or relationship survives a move. ([The Future Is Solo, n.d.-a](https://life.thefutureissolo.com/))
 
-Maya copies a small authorized working set to a separate folder and opens it with another ordinary text editor. She includes the current brief, the instructions identified by the current pointer, the rationale, relevant synthetic examples, and the charter. She checks whether the links, status labels, and unresolved questions remain understandable.
+Audy copies a small authorized working set to a separate folder and opens it with another ordinary text editor. She includes the current brief, the instructions identified by the current pointer, the rationale, relevant synthetic examples, and the charter. She checks whether the links, status labels, and unresolved questions remain understandable.
 
 A copy that opens but loses its evidence links is only partly successful. She might repair it by preserving a simple folder arrangement or adding readable source locations. A summary that omits the claims ledger's uncertainty is also incomplete, even if its formatting is perfect.
 
@@ -1825,9 +1825,9 @@ Record remaining dependencies honestly. You may retain a convenient service for 
 
 The TFIS experiment deck presents SovMem as a later development connected to earlier experiments with Scratchpad, Stigmergy, Honcho, and Daily Court. A subsequent entry describes memory for work across multiple harnesses. The presentation supplies a reported development sequence, not a benchmark of the resulting memory's reliability. ([The Future Is Solo, 2026, slides 37–38](https://docs.google.com/presentation/d/1dvbBGs22QvtGogevZ6f5mf8YQE7WDAPBwYlclhTyctI/edit#slide=id.g3f7dca0e54c_0_0))
 
-The sequence is useful here because it places memory design in relation to recurring work. Maya's charter likewise grows from visible needs: uncertain claims became too definite, rationale required reconstruction, and a future task needed to know which record had authority.
+The sequence is useful here because it places memory design in relation to recurring work. Audy's charter likewise grows from visible needs: uncertain claims became too definite, rationale required reconstruction, and a future task needed to know which record had authority.
 
-The charter specifies decisions a future SovMem implementation would need to respect. A repeated burden or failure can now give Maya a concrete reason to consider further tooling.
+The charter specifies decisions a future SovMem implementation would need to respect. A repeated burden or failure can now give Audy a concrete reason to consider further tooling.
 
 ## Field assignment: govern one working set
 
@@ -1841,7 +1841,7 @@ Test one correction, one retrieval, one disposable-note removal, and one move to
 
 Without reopening the charter, explain who controls the current instruction, why source material cannot grant permission, and what your deletion test did and did not establish. Then compare your explanation with the saved record. Repair ambiguous rules and broken links before expanding the collection.
 
-Maya finishes with `memory-charter-v1`. Her existing instructions, rationale, and claims ledger retain their separate roles. [Chapter 10](book/chapters/10-the-architecture-of-remembering.md) turns these rules into an arrangement of working context, project records, reviewed memory, and history. The charter will help determine which material may move between those places.
+Audy finishes with `memory-charter-v1`. Her existing instructions, rationale, and claims ledger retain their separate roles. [Chapter 10](book/chapters/10-the-architecture-of-remembering.md) turns these rules into an arrangement of working context, project records, reviewed memory, and history. The charter will help determine which material may move between those places.
 
 ## References
 
@@ -1864,13 +1864,13 @@ The Future Is Solo. (2026). *The Future Is Solo 20260910* [Google Slides present
 
 ## The right note in the wrong place
 
-Maya has solved an important problem. Starting from `learning-loop-v1`, she can find the instructions that currently govern Fieldwork's synthetic action-list exercise. Starting from those instructions, she can follow `action-list-rule-rationale-v1` to the examples that explain them. Her memory charter says who may change these records and what may enter the working set.
+Audy has solved an important problem. Starting from `learning-loop-v1`, she can find the instructions that currently govern Himura Inc.'s synthetic action-list exercise. Starting from those instructions, she can follow `action-list-rule-rationale-v1` to the examples that explain them. Her memory charter says who may change these records and what may enter the working set.
 
 Then she prepares another session. She copies a useful paragraph into the conversation, adds the latest practice input, and begins. Halfway through, she notices that the paragraph came from a rejected draft. It says every action must have an owner. The reviewed rule preserves an agreed action whose owner has not yet been assigned, while keeping the missing assignment visible.
 
 The current pointer was correct. Her route around it was not. A searchable collection had made both paragraphs easy to find without making their different roles equally obvious.
 
-For Maya's fictional workshop, the immediate task is to arrange records so they reinforce her existing judgments. The architecture earns its complexity through clearer ordinary use and a usable recovery path.
+For Audy's fictional workshop, the immediate task is to arrange records so they reinforce her existing judgments. The architecture earns its complexity through clearer ordinary use and a usable recovery path.
 
 Keep your inventory and charter beside you. This chapter puts them into operation. You will use the [memory-lanes artifact](book/artifacts/10-memory-lanes.md) to assign locations, make one reviewed promotion, retrieve a useful working set, and restore a selected copy without replacing your active work.
 
@@ -1882,7 +1882,7 @@ The book's four practical roles are working context, project workspace, reviewed
 
 The boundaries matter more than the folder names. A proposed correction does not become approved because it moved to a folder called memory. An old instruction does not become current because it appears in a recent search result. A recovery copy does not become a safe working copy until you know which state it preserves and whether that state still applies.
 
-Maya chooses one modest arrangement. A `work` folder holds material assembled for the current session. A `projects/fieldwork` folder holds the continuing brief, instructions, examples, and decisions. A `memory` folder holds reviewed reusable records. An `archive` folder holds selected recovery packages and their restore notes. These names are examples; a document service can express the same roles with clearly labeled areas.
+Audy chooses one modest arrangement. A `work` folder holds material assembled for the current session. A `projects/himura-inc` folder holds the continuing brief, instructions, examples, and decisions. A `memory` folder holds reviewed reusable records. An `archive` folder holds selected recovery packages and their restore notes. These names are examples; a document service can express the same roles with clearly labeled areas.
 
 She does not move her entire collection at once. She starts with the records needed for the action-list task. Their existing names stay recognizable. The arrangement must make the next operation safer before it earns the right to absorb more material.
 
@@ -1904,7 +1904,7 @@ Imagine covering the folder names in the diagram. Could you still explain who ch
 
 Working context is the material available for the present attempt. In a conversation, it includes the instructions and information actually supplied or retrieved into that session. A document stored somewhere else is not necessarily available to the assistant simply because you can see its name in your collection.
 
-For Maya's next attempt, the purpose is to convert a fresh synthetic note into an action list while preserving what is and is not established. Her working packet includes the task, the current instructions located through `learning-loop-v1`, the fresh input, and the review criteria. She includes the relevant rationale if the task involves explaining the rule or examining a borderline case. She does not need every earlier brainstorming exchange.
+For Audy's next attempt, the purpose is to convert a fresh synthetic note into an action list while preserving what is and is not established. Her working packet includes the task, the current instructions located through `learning-loop-v1`, the fresh input, and the review criteria. She includes the relevant rationale if the task involves explaining the rule or examining a borderline case. She does not need every earlier brainstorming exchange.
 
 A packet should be small enough to inspect and complete enough for its purpose. Those requirements can pull in different directions. Removing a redundant greeting may help. Removing the sentence that says a proposed reminder was deferred changes the evidence. Brevity is a means of managing attention, not a license to alter the task.
 
@@ -1914,13 +1914,13 @@ The practical test is local. Supply the packet, then check whether the next atte
 
 ## Keep the project workspace complete enough to explain itself
 
-The project workspace holds the continuing work that does not fit into every session. Maya puts `workshop-brief-v1`, `learning-loop-v1`, the claims ledger, the charter, the rationale record, and selected synthetic inputs and outputs here. A project index describes their roles. It points to the existing current-instruction route instead of introducing a second version selector.
+The project workspace holds the continuing work that does not fit into every session. Audy puts `workshop-brief-v1`, `learning-loop-v1`, the claims ledger, the charter, the rationale record, and selected synthetic inputs and outputs here. A project index describes their roles. It points to the existing current-instruction route instead of introducing a second version selector.
 
-Evidence and drafts can coexist in this workspace if their status is visible. Maya labels the rejected owner rule where a reader encounters it, not only in a separate index. A detached excerpt should still say that the candidate was rejected and where to find the current rule. This makes accidental reuse easier to notice.
+Evidence and drafts can coexist in this workspace if their status is visible. Audy labels the rejected owner rule where a reader encounters it, not only in a separate index. A detached excerpt should still say that the candidate was rejected and where to find the current rule. This makes accidental reuse easier to notice.
 
 Use links that survive the moves you expect to make. A reference such as “see yesterday's chat” depends on a shared memory of yesterday. A link to a named synthetic input, with a short description of the relevant passage, is more portable. Within a file bundle, relative links can preserve relationships when the whole folder moves. External sources still need their direct URLs and enough reference information to identify them.
 
-An index is a route into work, not another place to copy every conclusion. If Maya pastes the current instruction into three overview files, every correction now has three potential destinations. She instead describes the purpose and links to the designated record. The supporting rationale may restate the issue for explanation, but its heading makes clear that it does not issue instructions.
+An index is a route into work, not another place to copy every conclusion. If Audy pastes the current instruction into three overview files, every correction now has three potential destinations. She instead describes the purpose and links to the designated record. The supporting rationale may restate the issue for explanation, but its heading makes clear that it does not issue instructions.
 
 A useful workspace lets another session answer three questions: what applies now, what supports it, and what remains unsettled? If a reader can answer only the first, preserve more rationale. If they can answer only the second, make authority clearer.
 
@@ -1928,13 +1928,13 @@ A useful workspace lets another session answer three questions: what applies now
 
 Reviewed durable memory holds material intended for reuse beyond the immediate attempt. Durable means deliberately retained and maintained. It does not mean immutable, universally applicable, or stored forever.
 
-Maya proposes a short reusable note: “When turning supplied notes into commitments, preserve the distinction between what was agreed, what was suggested, and what remains unknown.” Its scope is the design and review of Fieldwork's action-list practice. It points to the project rationale and examples. It does not claim that the rule has been tested with real learners or that every kind of meeting can be interpreted without clarification.
+Audy proposes a short reusable note: “When turning supplied notes into commitments, preserve the distinction between what was agreed, what was suggested, and what remains unknown.” Its scope is the design and review of Himura Inc.'s action-list practice. It points to the project rationale and examples. It does not claim that the rule has been tested with real learners or that every kind of meeting can be interpreted without clarification.
 
 She calls the record `commitment-evidence-principle-v1`. It explains a reviewed design principle. It also states that task instructions must still be retrieved through `learning-loop-v1`. This prevents the broader note from quietly becoming a substitute instruction sheet.
 
 Promotion involves reading the proposed wording against its support. Does “preserve unknowns” accidentally prohibit offering clearly labeled suggestions? Does the statement imply that the source itself is accurate? Does the example contain information the charter excludes? Does the next reader know what would trigger review?
 
-Maya rejects an earlier proposed version that says, “Never infer anything from meeting notes.” That wording would rule out ordinary interpretation while failing to explain the real problem: presenting an unsupported commitment as established. She narrows the statement and records the reason for the revision.
+Audy rejects an earlier proposed version that says, “Never infer anything from meeting notes.” That wording would rule out ordinary interpretation while failing to explain the real problem: presenting an unsupported commitment as established. She narrows the statement and records the reason for the revision.
 
 The retained note is useful because it is bounded. Its evidence is modest, and its authority is explicit. Saving a sweeping rule would have produced a stronger-sounding memory and a weaker guide to action.
 
@@ -1952,9 +1952,9 @@ The memory practice developed here, informed by SovMem's emphasis on inspectable
 
 ## Make retrieval a task with an answer you can inspect
 
-Maya writes a retrieval request before opening the collection: “Find the current instruction for an agreed action with no named owner, and the evidence explaining why the missing owner must stay visible.” This asks for both authority and rationale. It gives her a way to notice a response that retrieves only one.
+Audy writes a retrieval request before opening the collection: “Find the current instruction for an agreed action with no named owner, and the evidence explaining why the missing owner must stay visible.” This asks for both authority and rationale. It gives her a way to notice a response that retrieves only one.
 
-The successful route begins at the project index, reaches `learning-loop-v1`, and follows its current-instruction pointer. The rationale link then reaches the owner comparison and the rejected candidate. Maya records those locations in the working packet. She can now inspect the answer against specific records instead of judging its plausibility.
+The successful route begins at the project index, reaches `learning-loop-v1`, and follows its current-instruction pointer. The rationale link then reaches the owner comparison and the rejected candidate. Audy records those locations in the working packet. She can now inspect the answer against specific records instead of judging its plausibility.
 
 She also asks a question the collection cannot answer: “Which named person should take the unassigned action?” A successful retrieval should expose the gap. It should not treat the absence of an answer as an invitation to search until a plausible name appears.
 
@@ -1964,23 +1964,23 @@ These retrieval checks prepare for bounded delegation by showing where a reviewe
 
 ## Update the record and the routes that depend on it
 
-A memory architecture must accommodate changes without making every earlier record disappear. Maya already corrected the instruction to preserve uncertainty about deadlines as well as owners. If she discovers another consequential error, the next step is a proposed revision with its evidence, not an unannounced overwrite.
+A memory architecture must accommodate changes without making every earlier record disappear. Audy already corrected the instruction to preserve uncertainty about deadlines as well as owners. If she discovers another consequential error, the next step is a proposed revision with its evidence, not an unannounced overwrite.
 
 In this exercise, she keeps the existing current instruction active while reviewing a candidate. After approval, she saves the new version, checks its wording, and changes the single current pointer in `learning-loop-v1`. She marks the previous version as superseded and links the material reason for the change. The project index continues to point to `learning-loop-v1`, so it does not need an independent version choice.
 
 The rationale record receives an explanatory update when the reasoning changes. The reusable principle receives one only if the change affects its scope or content. Updating everything on every edit would create unnecessary maintenance and obscure which judgment actually changed.
 
-Before beginning another task, Maya reopens the current pointer from a fresh view and follows it. If the write failed or the link still points to the old version, she repairs that state. The architecture has not completed the update merely because the new paragraph appeared in a conversation.
+Before beginning another task, Audy reopens the current pointer from a fresh view and follows it. If the write failed or the link still points to the old version, she repairs that state. The architecture has not completed the update merely because the new paragraph appeared in a conversation.
 
 In the manual arrangement, complete one approved change before beginning a dependent task. The next reader should be able to identify the applicable version and recover why it replaced the previous one.
 
 ## Give proposed writes their own destination
 
-At this point Maya works with one assistant at a time and approves consequential changes herself. Even so, distinguishing a proposed write from an approved one is useful. She gives candidate notes a visible proposed status in the project workspace. An assistant may prepare them there without receiving permission to replace the current instructions or reviewed memory.
+At this point Audy works with one assistant at a time and approves consequential changes herself. Even so, distinguishing a proposed write from an approved one is useful. She gives candidate notes a visible proposed status in the project workspace. An assistant may prepare them there without receiving permission to replace the current instructions or reviewed memory.
 
 The physical arrangement should reinforce that boundary. When a tool supports separate access rights, use them to express the actual working agreement. When it does not, recognize that a label is a convention requiring supervision. A folder name alone does not prevent an application with broad file access from changing its contents.
 
-Consider two proposed revisions prepared from the same instruction version. One adds handling for contradictory deadlines; another clarifies how suggestions should be labeled. If Maya approves the first and then accepts the second as a complete replacement without comparing versions, she could lose the first change. This is a hypothetical failure to anticipate, not another event already demonstrated in Fieldwork.
+Consider two proposed revisions prepared from the same instruction version. One adds handling for contradictory deadlines; another clarifies how suggestions should be labeled. If Audy approves the first and then accepts the second as a complete replacement without comparing versions, she could lose the first change. This is a hypothetical failure to anticipate, not another event already demonstrated in Himura Inc.
 
 The simple manual repair is to identify which version each proposal started from and review it against the version that is current now. Incorporate only the intended change, then repeat the relevant checks. Do not assume that the most recently saved file contains every previously approved judgment.
 
@@ -1990,7 +1990,7 @@ This boundary becomes more important if several assistants later contribute to t
 
 An archive serves recovery and historical inspection. It should say what it contains and which point in the work it represents. “Backup final” is a poor description when several folders have that name.
 
-Maya creates a selected recovery package after checking the current pointer and rationale. The package contains the files needed to reopen this part of Fieldwork: the brief, the pointer and instructions it names, the supporting rationale and synthetic examples, the claims ledger, and the charter. A restore note identifies the approved state and any dependencies outside the package.
+Audy creates a selected recovery package after checking the current pointer and rationale. The package contains the files needed to reopen this part of Himura Inc.: the brief, the pointer and instructions it names, the supporting rationale and synthetic examples, the claims ledger, and the charter. A restore note identifies the approved state and any dependencies outside the package.
 
 She records that the package is a workshop-design snapshot. It contains no evidence of customer demand and no operational customer records. A later reader should not have to reconstruct those limits from the absence of sales documents.
 
@@ -2002,11 +2002,11 @@ A copy in another folder on the same device is useful for a restore rehearsal. I
 
 Restoration is the act of making a saved state usable again. Start in a separate folder so that mistakes in the rehearsal cannot replace the active project. Give the restored copy an obvious rehearsal label.
 
-Maya opens the restore note from that copy. She follows the included index and current pointer without relying on the original project's open windows. She retrieves the applicable instructions and rationale. She then opens the relevant synthetic input and explains why an unassigned action must remain visible without receiving an invented owner.
+Audy opens the restore note from that copy. She follows the included index and current pointer without relying on the original project's open windows. She retrieves the applicable instructions and rationale. She then opens the relevant synthetic input and explains why an unassigned action must remain visible without receiving an invented owner.
 
-Her first rehearsal reveals a broken evidence link. The rationale file is present, but one link reaches outside the copied package to a file in the original workspace. The restore looks complete until the original location is unavailable. Maya adds the authorized synthetic dependency to the package, repairs the relative link, and repeats the rehearsal from a new copy.
+Her first rehearsal reveals a broken evidence link. The rationale file is present, but one link reaches outside the copied package to a file in the original workspace. The restore looks complete until the original location is unavailable. Audy adds the authorized synthetic dependency to the package, repairs the relative link, and repeats the rehearsal from a new copy.
 
-The second rehearsal distinguishes file recovery from behavioral recovery. The records open and their relationships make sense. A fresh attempt still has to use them correctly. Maya tests an input containing “soon” and checks whether the output preserves that uncertainty instead of manufacturing a date.
+The second rehearsal distinguishes file recovery from behavioral recovery. The records open and their relationships make sense. A fresh attempt still has to use them correctly. Audy tests an input containing “soon” and checks whether the output preserves that uncertainty instead of manufacturing a date.
 
 If the package restores an older approved state, she does not silently make it current. She compares it with any later valid decisions and identifies what may be missing. Recovery can return readable work while leaving a gap in history. The restore note should make that gap visible before anyone relies on the recovered instructions.
 
@@ -2026,7 +2026,7 @@ Use it alongside the restore questions: can the current rule be located, can its
 
 An architecture can become elaborate while its most common retrieval remains awkward. Follow the ordinary route through your own collection. If you repeatedly bypass the index because it is too broad or out of date, repair the route instead of treating every bypass as a failure of discipline.
 
-Maya puts the action-list task near the beginning of the Fieldwork index because it is the active design exercise. The entry names the purpose, identifies `learning-loop-v1` as the route to current instructions, and links the rationale separately. It does not turn the index into a second handbook. A short description makes the links understandable without duplicating their contents.
+Audy puts the action-list task near the beginning of the Himura Inc. index because it is the active design exercise. The entry names the purpose, identifies `learning-loop-v1` as the route to current instructions, and links the rationale separately. It does not turn the index into a second handbook. A short description makes the links understandable without duplicating their contents.
 
 She also looks for signs of unnecessary maintenance. A general note that merely copies the project rationale adds another place that could become stale. If it has no distinct reuse purpose, it can remain a project record. A proposed principle earns durable status when its future role is clear, even if that role is limited to a narrow family of tasks.
 
@@ -2038,7 +2038,7 @@ The archive needs the same restraint. Retaining more versions may improve recove
 
 The TFIS experiment deck includes an entry describing a website build drawing on Audy's Vault, with a progression from session material to memory and then to the vault. It names a deployment tool and lists a web application as the next step. The presentation records that development account; it does not independently verify a particular deployment or the reliability of every memory transfer. ([The Future Is Solo, 2026, slide 25](https://docs.google.com/presentation/d/1dvbBGs22QvtGogevZ6f5mf8YQE7WDAPBwYlclhTyctI/edit#slide=id.g3e84e1096e6_0_0))
 
-The account puts a useful question in concrete terms: what survives a working session well enough to support another piece of work? In Maya's case, the answer is neither the whole conversation nor only its final confident sentence. She needs the applicable instruction, its approved status, the rationale, selected evidence, and the limits of what the project has established.
+The account puts a useful question in concrete terms: what survives a working session well enough to support another piece of work? In Audy's case, the answer is neither the whole conversation nor only its final confident sentence. She needs the applicable instruction, its approved status, the rationale, selected evidence, and the limits of what the project has established.
 
 Your architecture should make those transfers deliberate. A service proposal may depend on a confirmed scope decision. A lesson plan may depend on a reason an exercise changed. A software task may depend on a requirement and a known failing example. The storage medium can differ while the need to preserve authority and evidence remains recognizable.
 
@@ -2052,7 +2052,7 @@ Create a selected recovery package and restore it into a separate location. Open
 
 Without an assistant, explain why a reviewed principle does not replace a task instruction, why an archive may contain a rejected rule, and why a matching file fingerprint does not establish truth. If these distinctions are difficult to explain, use your own package as the example until the roles become clear.
 
-Maya keeps `memory-lanes-v1`, the reviewed `commitment-evidence-principle-v1`, and her restore rehearsal. The next design attempt has a clearer route to its evidence. [Chapter 11](book/chapters/11-the-knowledge-distillation-pipeline.md) examines how to produce these small records without compressing away their meaning or limits.
+Audy keeps `memory-lanes-v1`, the reviewed `commitment-evidence-principle-v1`, and her restore rehearsal. The next design attempt has a clearer route to its evidence. [Chapter 11](book/chapters/11-the-knowledge-distillation-pipeline.md) examines how to produce these small records without compressing away their meaning or limits.
 
 ## References
 
@@ -2073,13 +2073,13 @@ The Future Is Solo. (2026). *The Future Is Solo 20260910* [Google Slides present
 
 ## A clear summary can preserve the wrong thing
 
-Maya asks an assistant to summarize a design session for Fieldwork. The response is organized and readable. It says the workshop should teach learners to assign an owner and deadline to every action, and that this approach has improved the exercise.
+Audy asks an assistant to summarize a design session for Himura Inc. The response is organized and readable. It says the workshop should teach learners to assign an owner and deadline to every action, and that this approach has improved the exercise.
 
-Both statements need attention. The current task is to preserve the evidence in supplied meeting notes, including missing owners and uncertain deadlines. Assigning them without support was the defect Maya had been correcting. And “improved the exercise” blurs several possible meanings. A synthetic output met a particular review criterion; no real learner performance has been observed.
+Both statements need attention. The current task is to preserve the evidence in supplied meeting notes, including missing owners and uncertain deadlines. Assigning them without support was the defect Audy had been correcting. And “improved the exercise” blurs several possible meanings. A synthetic output met a particular review criterion; no real learner performance has been observed.
 
 The assistant has produced a plausible account of a productive session. It has not yet produced a reliable record for the next one.
 
-In this fictional case, Maya has a place for proposed records, a review boundary, and a designated route to current instructions. She can therefore keep the summary in the project workspace while inspecting it. The architecture from Chapter 10 prevents a draft from acquiring authority simply because its prose looks finished.
+In this fictional case, Audy has a place for proposed records, a review boundary, and a designated route to current instructions. She can therefore keep the summary in the project workspace while inspecting it. The architecture from Chapter 10 prevents a draft from acquiring authority simply because its prose looks finished.
 
 Distillation moves a conversation across that boundary: select and reformulate material for a defined future use, preserving the distinctions a later reader needs. The resulting record should let them recover a judgment, examine its support, and correct it.
 
@@ -2087,7 +2087,7 @@ Distillation moves a conversation across that boundary: select and reformulate m
 
 A conversation can support several different records. You may need a handoff for the next session, a decision history, a reusable principle, or a set of unresolved questions. One general summary often tries to serve all of them and serves none particularly well.
 
-Maya's immediate purpose is to preserve the reasoning behind the action-list rules and prepare a bounded check of conflicting evidence. The relevant material includes prior corrections, the current instruction route, and the uncertainty that remains. Her early brainstorming about possible business names does not belong in this record.
+Audy's immediate purpose is to preserve the reasoning behind the action-list rules and prepare a bounded check of conflicting evidence. The relevant material includes prior corrections, the current instruction route, and the uncertainty that remains. Her early brainstorming about possible business names does not belong in this record.
 
 State the intended use before asking an assistant to extract anything. “Prepare a proposed decision record for my review, supporting the next synthetic action-list trial” is more specific than “remember this.” It tells you which omissions would matter and which material can remain in the underlying conversation without entering durable memory.
 
@@ -2099,7 +2099,7 @@ Use the [distillation-record artifact](book/artifacts/11-distillation-record.md)
 
 Before extracting conclusions, identify the material available for review. A full conversation, a partial export, a set of notes, and a model-generated recap provide different evidence. A recap may help locate a topic; it is not automatically a faithful substitute for the source passages that support a decision.
 
-Maya identifies the relevant exchange and its synthetic inputs. She gives the input passages stable labels within the project so the later record can point to them. She preserves the words that establish agreements, suggestions, unknowns, and revisions. If the export omits an attachment, she marks the gap instead of pretending the conversation contains it.
+Audy identifies the relevant exchange and its synthetic inputs. She gives the input passages stable labels within the project so the later record can point to them. She preserves the words that establish agreements, suggestions, unknowns, and revisions. If the export omits an attachment, she marks the gap instead of pretending the conversation contains it.
 
 A source boundary helps prevent a subtle error: treating the assistant's earlier response as evidence for the claim the assistant now repeats. The original output that invented an owner is evidence of that output's behavior. It is not evidence that the owner was actually assigned in the meeting notes.
 
@@ -2113,11 +2113,11 @@ An assistant is often good at making scattered discussion read as a coherent nar
 
 Begin instead with candidate statements. Keep the distinctions from the memory charter: source records, inferences, decisions, and preferences. Add the source location and scope beside each consequential statement before combining them into prose.
 
-For Maya, “the supplied notes do not name an owner for the shorter introduction” is a claim about a synthetic source. “Making missing assignments visible may help a reviewer notice unfinished coordination” is an inference. “For this practice, preserve the unassigned action and mark ownership as not established” is a design decision. “Put unresolved items near the beginning of routine progress notes” is a scoped presentation preference if Maya actually approved it.
+For Audy, “the supplied notes do not name an owner for the shorter introduction” is a claim about a synthetic source. “Making missing assignments visible may help a reviewer notice unfinished coordination” is an inference. “For this practice, preserve the unassigned action and mark ownership as not established” is a design decision. “Put unresolved items near the beginning of routine progress notes” is a scoped presentation preference if Audy actually approved it.
 
-These statements can be related without being interchangeable. The source supports the presence of a gap. Maya's decision specifies how the exercise handles it. The inference proposes why that choice may be useful. A future test could question the inference without changing what the original notes said.
+These statements can be related without being interchangeable. The source supports the presence of a gap. Audy's decision specifies how the exercise handles it. The inference proposes why that choice may be useful. A future test could question the inference without changing what the original notes said.
 
-An extraction prompt should therefore ask for candidates, not declare that everything extracted is approved memory. It can request the exact supporting location, uncertainty, and any contradictory passage. Where no support is available, the assistant should label the item unsupported or unresolved. Maya then reviews the record as a proposal rather than treating the assistant's organization as a verdict.
+An extraction prompt should therefore ask for candidates, not declare that everything extracted is approved memory. It can request the exact supporting location, uncertainty, and any contradictory passage. Where no support is available, the assistant should label the item unsupported or unresolved. Audy then reviews the record as a proposal rather than treating the assistant's organization as a verdict.
 
 ## Keep a useful unit of meaning
 
@@ -2125,7 +2125,7 @@ A small record is easier to inspect when its statements can be checked separatel
 
 Choose units that preserve a complete decision-relevant meaning. “In the supplied practice notes, the shorter introduction is agreed, but no owner is named” contains the action, its status, and its limit. A link can supply the exact source passage. The related instruction about keeping the item visible can sit beside it as a separate decision.
 
-Maya gives consequential entries stable identifiers within `distillation-record-v1` so the rationale can link to a particular entry. In a short note, clear section headings may be enough.
+Audy gives consequential entries stable identifiers within `distillation-record-v1` so the rationale can link to a particular entry. In a short note, clear section headings may be enough.
 
 Choose the smallest unit that remains useful and understandable. When it changes, a reader should be able to locate the change without assuming every neighboring statement changed too.
 
@@ -2135,7 +2135,7 @@ This makes correction more precise. If a deadline claim proves unsupported, the 
 
 A decision without a reason may be easy to follow until the situation changes. Then the next reader must guess whether to keep it, bend it, or abandon it. A short rationale gives the decision a shape: what problem it addresses, what alternatives were considered, and which trade-off the decision accepts.
 
-Maya's owner rule has a consequential reason. Removing every unassigned item would hide an agreement that still needs coordination. Inventing an owner would misrepresent the input. Her selected response keeps the agreed item visible and marks the assignment as unresolved. The rationale preserves both failures so that a later simplification does not restore one of them.
+Audy's owner rule has a consequential reason. Removing every unassigned item would hide an agreement that still needs coordination. Inventing an owner would misrepresent the input. Her selected response keeps the agreed item visible and marks the assignment as unresolved. The rationale preserves both failures so that a later simplification does not restore one of them.
 
 She does not need a complete history of every phrase considered. She needs the rejected alternatives that explain the current boundary. “Require an owner before retaining any action” and “fill in a plausible owner” are materially different from the approved behavior. A change from one synonym to another is usually less important to retain.
 
@@ -2145,15 +2145,15 @@ When distilling a discussion, ask what a competent future reader might otherwise
 
 ## Work through a conflict without inventing its resolution
 
-Maya now creates a new synthetic practice case. It extends the existing workshop design inquiry; it is not a report of a real meeting. One supplied passage says, “The group agreed that the facilitator will circulate the revised action list on Thursday.” A second passage says, “The group agreed that the facilitator will circulate the revised action list on Friday.”
+Audy now creates a new synthetic practice case. It extends the existing workshop design inquiry; it is not a report of a real meeting. One supplied passage says, “The group agreed that the facilitator will circulate the revised action list on Thursday.” A second passage says, “The group agreed that the facilitator will circulate the revised action list on Friday.”
 
 The packet supplies no reliable order of revision and no statement that either passage replaces the other. Both name the same action and owner. They conflict about the deadline. A later paragraph in a document is not, by itself, evidence of a later authorized decision.
 
-The assistant's first candidate record selects Friday and says the schedule was clarified. Maya can see exactly what went wrong: the output supplied a relationship between the passages that the input did not establish. It treated one statement as superseding the other without support.
+The assistant's first candidate record selects Friday and says the schedule was clarified. Audy can see exactly what went wrong: the output supplied a relationship between the passages that the input did not establish. It treated one statement as superseding the other without support.
 
 She separates the extraction into two source claims and one unresolved conflict. Each source claim points to its own passage. The conflict entry says that the applicable deadline cannot be determined from the supplied material. Her design decision is to preserve both statements and require clarification before presenting a single confirmed deadline.
 
-The repaired record does not need to be indecisive about everything. The action and named owner are consistent across the supplied passages. Maya can retain those points while marking the deadline unresolved. Preserving uncertainty precisely means locating it, not spreading a vague doubt across the whole task.
+The repaired record does not need to be indecisive about everything. The action and named owner are consistent across the supplied passages. Audy can retain those points while marking the deadline unresolved. Preserving uncertainty precisely means locating it, not spreading a vague doubt across the whole task.
 
 She then reviews a second candidate output. It keeps the shared action and owner, displays both deadline statements, and asks which applies. The record describes that bounded synthetic result. It makes no claim that all conflicts can be detected or that real-world clarification has occurred.
 
@@ -2161,9 +2161,9 @@ She then reviews a second candidate output. It keeps the shared action and owner
 
 Not every new statement supersedes an old one in the same way. Sometimes a saved record misrepresented its source. Sometimes the source itself was corrected. Sometimes an authorized person made a new decision. Sometimes two accounts still disagree. A memory that treats all four as “updated information” loses the reason for the change.
 
-In Maya's synthetic conflict, the first candidate record was wrong to claim that Friday had been confirmed. Correcting that record does not change the fictional meeting. It changes the accuracy of the account. The underlying passages still disagree.
+In Audy's synthetic conflict, the first candidate record was wrong to claim that Friday had been confirmed. Correcting that record does not change the fictional meeting. It changes the accuracy of the account. The underlying passages still disagree.
 
-If a later authorized clarification were actually supplied, it could establish the applicable deadline. That would be a new piece of evidence or decision, with its own source and scope. Maya should not invent that future event merely to complete the example. Her current record stops at the unresolved conflict and the approved procedure for handling it.
+If a later authorized clarification were actually supplied, it could establish the applicable deadline. That would be a new piece of evidence or decision, with its own source and scope. Audy should not invent that future event merely to complete the example. Her current record stops at the unresolved conflict and the approved procedure for handling it.
 
 Use plain change notes. “Corrected unsupported claim that Friday superseded Thursday; no superseding instruction exists in the supplied packet” explains more than “updated deadline.” It tells the next reader why the previous sentence should no longer be used.
 
@@ -2173,7 +2173,7 @@ This distinction matters outside the workshop. Correcting a transcription error 
 
 A useful distillation excludes as well as retains. The source may include an abandoned suggestion, a personal aside, or an operational detail that helped the conversation but has no purpose in the next task. Keeping it simply because it is available expands the material someone must review and manage.
 
-Maya does not preserve speculative descriptions of her future customers as if they were evidence. If a sentence helps explain why she chose a hypothesis to investigate, she can retain it with that status. If it adds no useful distinction beyond the claims ledger, a link is enough. She also leaves temporary formatting experiments outside the durable record unless one became a scoped preference she explicitly chose to keep.
+Audy does not preserve speculative descriptions of her future customers as if they were evidence. If a sentence helps explain why she chose a hypothesis to investigate, she can retain it with that status. If it adds no useful distinction beyond the claims ledger, a link is enough. She also leaves temporary formatting experiments outside the durable record unless one became a scoped preference she explicitly chose to keep.
 
 Exclusion should not remove the evidence of a consequential error merely because it looks untidy. The rejected Friday claim matters because it shows the unsupported supersession assumption. A repeated sentence offering encouragement may not. The judgment concerns future use and accountability, not whether the passage makes the project look successful.
 
@@ -2183,15 +2183,15 @@ The charter continues to govern these choices. Distillation does not create new 
 
 ## Let human review decide what becomes authoritative
 
-Extraction can be delegated before authority is delegated. An assistant may assemble candidate claims, locate conflicting passages, and propose wording. Maya remains responsible for approving the consequential meaning of the record in this exercise.
+Extraction can be delegated before authority is delegated. An assistant may assemble candidate claims, locate conflicting passages, and propose wording. Audy remains responsible for approving the consequential meaning of the record in this exercise.
 
 The TFIS experiment deck's Daily Court v2 entry describes a division of labor in which agents gather evidence, humans judge its meaning, and scripts apply resulting changes deterministically. It also lists further work connecting the procedure to a shared vault. This is a reported operating idea and development account, not independent proof of compounding gains or completed integration. ([The Future Is Solo, 2026, slide 33](https://docs.google.com/presentation/d/1dvbBGs22QvtGogevZ6f5mf8YQE7WDAPBwYlclhTyctI/edit#slide=id.g3f2637d0be9_0_0))
 
-Applied here, the division gives each step a concrete output. The assistant produces a proposed record with links. Maya checks the consequential claims and decides which wording may be retained. A simple tool may later copy an approved record or check that required fields exist. None of those operations should silently stand in for the others.
+Applied here, the division gives each step a concrete output. The assistant produces a proposed record with links. Audy checks the consequential claims and decides which wording may be retained. A simple tool may later copy an approved record or check that required fields exist. None of those operations should silently stand in for the others.
 
 Review must be possible at the scale you choose. A hundred polished claims with vague links can be harder to verify than the conversation they replaced. Begin with the few statements that will affect the next task. Expand the batch only when you can inspect it without losing the distinctions that matter.
 
-Maya approves the repaired account of the synthetic conflict and its handling rule. She does not approve a confirmed Thursday or Friday deadline, a claim about customer need, or a promise of universal conflict detection. The approval has an object and a scope. Recording those makes it easier to prevent later summaries from expanding it.
+Audy approves the repaired account of the synthetic conflict and its handling rule. She does not approve a confirmed Thursday or Friday deadline, a claim about customer need, or a promise of universal conflict detection. The approval has an object and a scope. Recording those makes it easier to prevent later summaries from expanding it.
 
 ## Compress only after the distinctions survive
 
@@ -2199,7 +2199,7 @@ Once the candidate statements have been checked, the record can become shorter a
 
 Anthropic's context-engineering guidance describes conversation compaction and structured notes as ways to continue work beyond a single context window. It also warns that overly aggressive compaction can remove details whose importance becomes apparent later. This is laboratory engineering guidance about managing model context, not a guarantee that a summary retains every consequential distinction. ([Rajasekaran et al., 2025](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents))
 
-Maya tests a short version of the conflict record: “Preserve unresolved deadline conflicts; request clarification.” It captures the main instruction but omits why the two source statements remain unresolved. For a task instruction, that may be enough when the source packet is attached. For a durable rationale, it is incomplete.
+Audy tests a short version of the conflict record: “Preserve unresolved deadline conflicts; request clarification.” It captures the main instruction but omits why the two source statements remain unresolved. For a task instruction, that may be enough when the source packet is attached. For a durable rationale, it is incomplete.
 
 Her retained explanation adds that the supplied passages establish no ordering or supersession. It links to both and identifies the unsupported assumption in the rejected candidate. The record is still brief, but it now supports a future reader who needs to understand the decision.
 
@@ -2207,9 +2207,9 @@ Measure compression against the intended use. Can a reader recover the governing
 
 ## Save the approved record in the lane it earned
 
-The approved distillation belongs first in the Fieldwork project workspace because it concerns this specific synthetic case. It does not automatically become a broad reusable principle. Maya can later propose an update to `commitment-evidence-principle-v1` if the new case reveals a material omission, but that proposal receives its own scope review.
+The approved distillation belongs first in the Himura Inc. project workspace because it concerns this specific synthetic case. It does not automatically become a broad reusable principle. Audy can later propose an update to `commitment-evidence-principle-v1` if the new case reveals a material omission, but that proposal receives its own scope review.
 
-The current task instructions also remain separate. Maya prepares a proposed revision adding the conflict-handling behavior, checks it against the repaired example, and approves that revision for this practice. She saves it as `instructions-v3` and updates the existing pointer in `learning-loop-v1`. The distillation record links to that decision; it does not compete with the pointer. The chapter artifact supplies the literal instruction and pointer for inspection.
+The current task instructions also remain separate. Audy prepares a proposed revision adding the conflict-handling behavior, checks it against the repaired example, and approves that revision for this practice. She saves it as `instructions-v3` and updates the existing pointer in `learning-loop-v1`. The distillation record links to that decision; it does not compete with the pointer. The chapter artifact supplies the literal instruction and pointer for inspection.
 
 The previous instruction version becomes superseded, with a note that the new version adds handling for unresolved contradictory deadlines. The earlier rules about owners, suggestions, and imprecise timing remain in force. A useful update should not accidentally erase solved cases while addressing the new one.
 
@@ -2223,17 +2223,17 @@ An assistant's statement that it saved a correction is evidence that it made tha
 
 The Functional Life explicitly emphasizes verifying durable writes rather than relying on an agent's self-report. This book applies that principle to ordinary document work: reopen the saved record, inspect the actual content, and follow the route the next task will use. ([The Future Is Solo, n.d.-a](https://life.thefutureissolo.com/))
 
-Maya closes the editing view and opens `distillation-record-v1` from the project index. She checks the two source claims, the unresolved conflict, the approved handling decision, and the linked evidence. She then follows `learning-loop-v1` to confirm that it identifies the approved new instruction version. The old candidate's Friday claim remains marked as rejected where it is retained for explanation.
+Audy closes the editing view and opens `distillation-record-v1` from the project index. She checks the two source claims, the unresolved conflict, the approved handling decision, and the linked evidence. She then follows `learning-loop-v1` to confirm that it identifies the approved new instruction version. The old candidate's Friday claim remains marked as rejected where it is retained for explanation.
 
 This distinction between a transcript and the resulting state also appears in Anthropic's guidance on agent evaluation. A system's account of what it did and the actual state left in the environment are different objects to inspect. ([Grace et al., 2026](https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents))
 
-The optional manifest checker from Chapter 10 can detect missing or changed listed files relative to a supplied manifest. It cannot determine whether Maya approved the meaning or whether the source supports the claim. Reopening and reading remain necessary for those checks. If the save is correct but the current pointer is stale, repair the pointer; if the source link is broken, repair the dependency before calling the record usable.
+The optional manifest checker from Chapter 10 can detect missing or changed listed files relative to a supplied manifest. It cannot determine whether Audy approved the meaning or whether the source supports the claim. Reopening and reading remain necessary for those checks. If the save is correct but the current pointer is stale, repair the pointer; if the source link is broken, repair the dependency before calling the record usable.
 
 ## Challenge the distillation with a fresh reading
 
 The last check asks whether the saved record can support future work without the original conversational momentum. Open it in a fresh session, or set it aside and return without the earlier windows in view. Ask for the applicable decision, the reason, and the unresolved issue.
 
-Maya first performs the check herself. She can explain that the two deadlines conflict because no superseding relation was supplied. She can identify the approved response: retain the shared action and owner, show the conflict, and request clarification. She can also say what has not happened: nobody has established the correct deadline.
+Audy first performs the check herself. She can explain that the two deadlines conflict because no superseding relation was supplied. She can identify the approved response: retain the shared action and owner, show the conflict, and request clarification. She can also say what has not happened: nobody has established the correct deadline.
 
 She then uses a changed synthetic input. This time the conflicting statements name Tuesday and Wednesday. The names of the days differ; the missing relationship between the statements remains. A correct application should preserve the conflict rather than repeat Thursday and Friday from the saved example.
 
@@ -2245,7 +2245,7 @@ Record retrieval and application separately. The assistant may quote the correct
 
 Reviewing every sentence from every conversation would overwhelm most solo workers. Distillation should follow the importance and reuse of the material. A decision that will guide several future tasks deserves more care than a disposable wording suggestion.
 
-Maya selects the conflict case because it changes the instructions. She does not create a durable record for every harmless variation in the assistant's phrasing. She retains selected failed outputs that explain consequential corrections, while leaving repetitive attempts outside the lasting working set according to her charter.
+Audy selects the conflict case because it changes the instructions. She does not create a durable record for every harmless variation in the assistant's phrasing. She retains selected failed outputs that explain consequential corrections, while leaving repetitive attempts outside the lasting working set according to her charter.
 
 You can ask an assistant to propose candidates at the end of a bounded task: decisions that changed, assumptions still unresolved, corrections likely to recur, and evidence needed for the next attempt. Review the selection as well as the wording. An important omission can matter as much as an inaccurate included statement.
 
@@ -2265,7 +2265,7 @@ Without an assistant, explain the difference between correcting a record and rec
 
 Your practice passes when a future reader can identify the claims, their support, the approved decisions, their reasons and limits, and the uncertainty that remains. Repair a missing dependency, an overbroad statement, or an incorrect pointer before promoting more material. A failed fresh attempt should return to the relevant evidence and review step.
 
-Maya keeps `distillation-record-v1`, reviewed `instructions-v3` reached through the existing pointer, and the rationale connecting this conflict case to earlier corrections. [Chapter 12](book/chapters/12-the-personal-knowledge-graph.md) makes those relationships easier to navigate while preserving what each connection actually establishes.
+Audy keeps `distillation-record-v1`, reviewed `instructions-v3` reached through the existing pointer, and the rationale connecting this conflict case to earlier corrections. [Chapter 12](book/chapters/12-the-personal-knowledge-graph.md) makes those relationships easier to navigate while preserving what each connection actually establishes.
 
 ## References
 
@@ -2288,15 +2288,15 @@ The Future Is Solo. (2026). *The Future Is Solo 20260910* [Google Slides present
 
 ## The files are present; the relationship is missing
 
-Maya can now recover the current workshop instructions and the records explaining how they developed. She has a memory inventory, a charter, working areas with different purposes, and a procedure for reviewing material before it becomes lasting memory. The next difficulty appears when she wants to change something.
+Audy can now recover the current workshop instructions and the records explaining how they developed. She has a memory inventory, a charter, working areas with different purposes, and a procedure for reviewing material before it becomes lasting memory. The next difficulty appears when she wants to change something.
 
-Chapter 11 added a reviewed procedure for conflicting dates: keep the shared action and owner, preserve both deadline statements, and request clarification. Suppose Maya now considers a different case, in which the notes explicitly document an authorized amendment to an earlier deadline. Which materials would she need to review before extending the procedure? The current instruction is an obvious starting point. The example answer, the review sheet, and a distilled principle may also matter. A relevant sentence in an older conversation might explain why the current rule stops short of resolving contradictions. None of those dependencies disappears merely because each document has a sensible home.
+Chapter 11 added a reviewed procedure for conflicting dates: keep the shared action and owner, preserve both deadline statements, and request clarification. Suppose Audy now considers a different case, in which the notes explicitly document an authorized amendment to an earlier deadline. Which materials would she need to review before extending the procedure? The current instruction is an obvious starting point. The example answer, the review sheet, and a distilled principle may also matter. A relevant sentence in an older conversation might explain why the current rule stops short of resolving contradictions. None of those dependencies disappears merely because each document has a sensible home.
 
-Searching for “deadline” returns several records. Some state a current requirement. Some show an obsolete instruction. Others contain synthetic examples or a question that remains open. Maya needs the relationships between them, not just the matching words inside them.
+Searching for “deadline” returns several records. Some state a current requirement. Some show an obsolete instruction. Others contain synthetic examples or a question that remains open. Audy needs the relationships between them, not just the matching words inside them.
 
-She begins a small `knowledge-map-v1`. It connects records already in the Fieldwork working set. It does not replace them or become a new source of authority. The current-version pointer in `learning-loop-v1` still identifies the instruction that governs the next attempt. The map helps Maya answer questions about that instruction: what explains it, which examples exercise it, and what would need inspection if it changed.
+She begins a small `knowledge-map-v1`. It connects records already in the Himura Inc. working set. It does not replace them or become a new source of authority. The current-version pointer in `learning-loop-v1` still identifies the instruction that governs the next attempt. The map helps Audy answer questions about that instruction: what explains it, which examples exercise it, and what would need inspection if it changed.
 
-The exercise remains within the fictional workshop design project. Its value is visible in a modest operation: Maya can find the materials affected by a proposed change without reconstructing their relationships from memory. Bring one active task and its supporting records. A table in an ordinary document is enough to begin.
+The exercise remains within the fictional workshop design project. Its value is visible in a modest operation: Audy can find the materials affected by a proposed change without reconstructing their relationships from memory. Bring one active task and its supporting records. A table in an ordinary document is enough to begin.
 
 ## A graph is a set of meaningful connections
 
@@ -2314,7 +2314,7 @@ You can read a connection as a short sentence. Put the starting item first, then
 
 ## Begin with a question you cannot answer easily
 
-Maya writes, “If I add handling for an explicitly authorized deadline amendment, what must I inspect before accepting the change?” This is different from asking for every document about time. It concerns the consequences of a particular revision.
+Audy writes, “If I add handling for an explicitly authorized deadline amendment, what must I inspect before accepting the change?” This is different from asking for every document about time. It concerns the consequences of a particular revision.
 
 Her current instruction is now v3, following Chapter 11’s approved conflict-handling revision. It links to that distillation record, the review sheet, and the earlier two-pass practice packet. The packet includes a failed output with an invented Wednesday date and a changed input whose timing is only “soon.” Those examples constrain any new rule: recognizing an authorized amendment should not reintroduce date invention or treat an unresolved contradiction as a settled change.
 
@@ -2328,27 +2328,27 @@ Write down how you currently answer the question. Note the documents you open, t
 
 ## Give each item a stable identity
 
-A title helps a person recognize a record. An identifier helps preserve that record's identity when its title changes. Maya can call the project “Action-list workshop” today and refine its public name later without changing which project the history describes.
+A title helps a person recognize a record. An identifier helps preserve that record's identity when its title changes. Audy can call the project “Action-list workshop” today and refine its public name later without changing which project the history describes.
 
 Her first item table contains an identifier, a readable name, a kind of item, its current status, and a location. The identifier can be as simple as `instruction-v2` or `run-02`. It does not need to be globally unique across the internet. It needs to be unambiguous within the working set.
 
-The difference between a record and its version matters. A current-instruction pointer is intended to resolve to whichever version has been approved. A historical test must identify the particular version it used. If Maya points both to a generic “latest instruction,” she will lose the ability to explain an earlier failure after the instruction changes.
+The difference between a record and its version matters. A current-instruction pointer is intended to resolve to whichever version has been approved. A historical test must identify the particular version it used. If Audy points both to a generic “latest instruction,” she will lose the ability to explain an earlier failure after the instruction changes.
 
 She therefore distinguishes the current pointer from the versioned instruction. The pointer can change through an approved update. The relationship “run-01 used instruction v1” remains attached to that historical version. This preserves the observation without forcing a new task to use old material.
 
 Do not make every sentence a separate node. A small project often works well with document-level items and links to specific headings. Create a finer-grained item when you need to distinguish its status, evidence, or consequences from the rest of the document. A disputed claim inside an otherwise useful source may deserve its own record; a routine explanatory sentence probably does not.
 
-Maya begins with the current procedure, earlier versions, and relevant examples. The [knowledge-map artifact](book/artifacts/12-knowledge-map.md) supplies her item and relationship tables. Let your own question determine how many items you need.
+Audy begins with the current procedure, earlier versions, and relevant examples. The [knowledge-map artifact](book/artifacts/12-knowledge-map.md) supplies her item and relationship tables. Let your own question determine how many items you need.
 
 ## Use verbs that change what you do next
 
 The relationship table has three essential columns: from, relationship, and to. A note beside the row explains the relevant scope or source location. The table becomes useful when its verbs imply a concrete reading operation.
 
-“Uses” tells Maya which instruction was supplied to an attempt. “Tests” tells her which requirement an example examines. “Explains” points from a rationale to the decision it interprets. “Supersedes” preserves the difference between a replacement and an additional alternative. These verbs do different work.
+“Uses” tells Audy which instruction was supplied to an attempt. “Tests” tells her which requirement an example examines. “Explains” points from a rationale to the decision it interprets. “Supersedes” preserves the difference between a replacement and an additional alternative. These verbs do different work.
 
 Be especially careful with “supports.” A synthetic example may support a judgment that a particular output violates a stated requirement. It cannot, by itself, support a claim about customer demand or general learning gains. The type of relationship must preserve the limits of the underlying material.
 
-Maya uses “illustrates” for a constructed teaching specimen where “demonstrates reliability” would overstate the evidence. Her table can still show which behavior the specimen is intended to make inspectable. A clear label gives the next reader both the route and the appropriate interpretation.
+Audy uses “illustrates” for a constructed teaching specimen where “demonstrates reliability” would overstate the evidence. Her table can still show which behavior the specimen is intended to make inspectable. A clear label gives the next reader both the route and the appropriate interpretation.
 
 You do not need an elaborate dictionary of relation types. Start with ordinary verbs you can apply consistently. If two people interpret a verb differently, add a one-sentence explanation beside the map. If you find yourself inventing many nearly identical verbs, simplify before expanding the vocabulary.
 
@@ -2356,11 +2356,11 @@ A useful relation also has a stopping point. “Depends on” can become so broa
 
 ## Walk a path before drawing a picture
 
-Maya tries the question from the beginning of the chapter. She starts at the project, follows its current pointer to instruction v3, and follows the instruction’s links to the distillation decision and retained review criteria. The sheet leads her to the two supplied test cases. She opens the cases and inspects what they establish.
+Audy tries the question from the beginning of the chapter. She starts at the project, follows its current pointer to instruction v3, and follows the instruction’s links to the distillation decision and retained review criteria. The sheet leads her to the two supplied test cases. She opens the cases and inspects what they establish.
 
 Run-01 contains an unsupported Wednesday date. Its history shows an incomplete instruction migration: the owner correction was retained while an obsolete deadline suggestion remained. Run-02 preserves “soon” without turning it into a date. These cases protect two distinctions that the proposed amendment-handling extension must preserve. Chapter 11’s conflict case adds a third: without evidence of supersession, keep the conflicting dates unresolved.
 
-The route does not establish how the proposed amendment case will behave. It identifies the current constraints and the materials that need review. Maya writes a new proposed case rather than silently changing the old ones. An honest answer to her original question is now possible: review the governing instruction, the review sheet, the relevant examples, and the rationale; then test the extension separately.
+The route does not establish how the proposed amendment case will behave. It identifies the current constraints and the materials that need review. Audy writes a new proposed case rather than silently changing the old ones. An honest answer to her original question is now possible: review the governing instruction, the review sheet, the relevant examples, and the rationale; then test the extension separately.
 
 This is a graph query performed by a person. A query is simply a question you ask of the represented information. Software can automate parts of the traversal when the collection grows, but the useful behavior is already present in the manual route.
 
@@ -2370,11 +2370,11 @@ Record the route you followed and the answer it allowed. If a missing edge force
 
 ## Repair a broken relationship without rewriting history
 
-Consider an intentionally broken version of Maya's map. The run-01 row points to instruction v2 as the version used. Every location opens successfully. A link checker might report no problem. The map still tells a false story.
+Consider an intentionally broken version of Audy's map. The run-01 row points to instruction v2 as the version used. Every location opens successfully. A link checker might report no problem. The map still tells a false story.
 
 The packet shows that the flawed output belongs with the intermediate v1, which retained the conflicting deadline instruction. If a reviewer follows the incorrect relationship, they may conclude that v2 produced the same failure under the same conditions. They could reject the wrong revision or spend time repairing a rule that was never supplied to that attempt.
 
-Maya repairs the historical relationship to point to v1. She keeps the current pointer aimed at v3, which already includes the separately reviewed Chapter 11 addition. She then repeats both walks: a new drafting task reaches the current instruction; a review of run-01 reaches its actual specimen version. The two questions now resolve differently for a good reason.
+Audy repairs the historical relationship to point to v1. She keeps the current pointer aimed at v3, which already includes the separately reviewed Chapter 11 addition. She then repeats both walks: a new drafting task reaches the current instruction; a review of run-01 reaches its actual specimen version. The two questions now resolve differently for a good reason.
 
 This repair illustrates why file integrity and meaning need separate inspection. A valid filename cannot establish that the relationship is accurate. The right record may be present but assigned the wrong role. Your review needs a question about what the connection claims, not only whether the link opens.
 
@@ -2386,13 +2386,13 @@ The graph helps expose that uncertainty because the absent relationship has a vi
 
 A graph can represent disagreement without resolving it. Two source records may make incompatible claims. A later note may question a previous inference. A project can contain both an approved decision and an open challenge to that decision, provided their roles are clear.
 
-The approved Chapter 11 procedure remains relevant when a proposed amendment is itself ambiguous. Suppose one synthetic note says the worksheet is due Friday and a second says the same commitment moved to Monday. Without further context, Maya cannot know whether the second statement records an approved change or a conflicting recollection. Adding both dates as if they were compatible facts would conceal the problem. Selecting the newer file would also impose a rule the evidence has not established.
+The approved Chapter 11 procedure remains relevant when a proposed amendment is itself ambiguous. Suppose one synthetic note says the worksheet is due Friday and a second says the same commitment moved to Monday. Without further context, Audy cannot know whether the second statement records an approved change or a conflicting recollection. Adding both dates as if they were compatible facts would conceal the problem. Selecting the newer file would also impose a rule the evidence has not established.
 
 Following the already-approved procedure, she would keep the statements linked to their respective sources and mark the conflict as unresolved. The current instruction requires clarification before producing a single scheduled date. An approved resolution, if obtained, would become a separate decision with its own support and scope.
 
 This approach does not require you to turn uncertainty into a precise probability. A plain status such as “disputed,” “proposed,” or “awaiting confirmation” may be more useful than an unexplained confidence score. The reader needs to know what action is justified now and what information is missing.
 
-Absence also needs careful interpretation. A missing “has owner” relationship may mean no owner was assigned, the source did not mention one, or the information has not yet been entered. Those are different conditions. In Maya's exercise, the notes explicitly identify some missing assignments. Preserve that wording rather than asking an empty graph cell to carry all three meanings.
+Absence also needs careful interpretation. A missing “has owner” relationship may mean no owner was assigned, the source did not mention one, or the information has not yet been entered. Those are different conditions. In Audy's exercise, the notes explicitly identify some missing assignments. Preserve that wording rather than asking an empty graph cell to carry all three meanings.
 
 Choose an explicit note when absence matters to a decision. This keeps the map readable without pretending every unknown is a known negative. The graph represents what has been recorded under stated rules; it is not a complete account of everything that exists.
 
@@ -2402,9 +2402,9 @@ An assistant can help identify candidate relationships in a supplied working set
 
 The [map artifact](book/artifacts/12-knowledge-map.md) includes a reusable prompt. Its most useful feature is the separation between a proposed edge and an accepted edge. A fluent sentence about two documents is still a claim about their relationship.
 
-For example, an assistant might propose that Maya's action-list criteria are “validated by” her synthetic workshop. She should reject that relation. The examples let her inspect whether a proposed output follows the criteria. They do not supply learner outcomes that validate the design. A narrower relation such as “used to review” may accurately describe the work.
+For example, an assistant might propose that Audy's action-list criteria are “validated by” her synthetic workshop. She should reject that relation. The examples let her inspect whether a proposed output follows the criteria. They do not supply learner outcomes that validate the design. A narrower relation such as “used to review” may accurately describe the work.
 
-Another proposal might link a rejected completeness rule to the current instruction with the verb “requires.” The words in both records overlap, but the status is reversed. Maya checks the surrounding text and changes the relation to preserve the rejected history. Similarity helped locate the records; it did not settle their relationship.
+Another proposal might link a rejected completeness rule to the current instruction with the verb “requires.” The words in both records overlap, but the status is reversed. Audy checks the surrounding text and changes the relation to preserve the rejected history. Similarity helped locate the records; it did not settle their relationship.
 
 Review the proposed connections in batches small enough to inspect. Open the source locations for consequential edges. A suggested link that affects current instructions, permissions, or a customer claim deserves more attention than a navigational link between two harmless examples. This is a judgment about the consequence of an error, not a need to approve every click.
 
@@ -2414,7 +2414,7 @@ When no useful connection emerges, keep the item separate or remove it from the 
 
 A visual map can make a short route easier to see. It can also hide meaning behind a dense network of dots. The same collection may need different views for different questions: one view for current instructions, another for evidence history, and another for dependencies affected by a change.
 
-Maya's first view would show the current pointer, instruction v3, the distillation decision, and the relevant review cases. The historical view would add instructions v1 and v2 and the migration diagnosis. Neither needs to display every curiosity note or every source in the project.
+Audy's first view would show the current pointer, instruction v3, the distillation decision, and the relevant review cases. The historical view would add instructions v1 and v2 and the migration diagnosis. Neither needs to display every curiosity note or every source in the project.
 
 Keep labels readable and relationships named. A line whose meaning depends entirely on its color is difficult to use when printed, viewed at a small size, or read by someone who cannot distinguish the colors. Supply the same relationships in text or a table, as the chapter artifact does.
 
@@ -2426,7 +2426,7 @@ You may find that the table remains the best view. It is easy to edit, compare, 
 
 Every explicit relationship becomes something you may need to maintain. If the map duplicates a long explanation from another file, both copies can drift. Prefer a short relation and a precise link to the maintained source when that is sufficient.
 
-Maya reviews the map when an instruction changes, a test is added, or a record is moved. These events give her a reason to inspect particular edges. She does not reread every historical document whenever she opens the project.
+Audy reviews the map when an instruction changes, a test is added, or a record is moved. These events give her a reason to inspect particular edges. She does not reread every historical document whenever she opens the project.
 
 During the review, she asks whether the affected locations still open, whether the relationships remain accurate, and whether a current pointer still identifies the approved version. She also asks whether any new record depends on material outside the portable working set. A useful relationship to an inaccessible source should be labeled as such.
 
@@ -2458,7 +2458,7 @@ Repair one missing or incorrect relationship. Reopen the underlying records to j
 
 Your completion evidence is a small usable map, an actual question it helped answer, and a checked repair. A dense picture or a high edge count is unnecessary. Keep one unanswered question visible if the evidence does not settle it.
 
-Maya leaves with a route through the materials that govern and explain her workshop examples. The map helps her find the relevant judgments. The next problem is whether those judgments can guide repeated work without becoming detached from their reasons. [Chapter 13](book/chapters/13-the-memory-flywheel.md) develops that practice through a durable verdict record and a later attempt that must use it.
+Audy leaves with a route through the materials that govern and explain her workshop examples. The map helps her find the relevant judgments. The next problem is whether those judgments can guide repeated work without becoming detached from their reasons. [Chapter 13](book/chapters/13-the-memory-flywheel.md) develops that practice through a durable verdict record and a later attempt that must use it.
 
 ## References
 
@@ -2475,13 +2475,13 @@ Hogan, A., Blomqvist, E., Cochez, M., d’Amato, C., de Melo, G., Gutierrez, C.,
 
 ## A correction can travel too far
 
-Maya opens the current instructions through `learning-loop-v1`. The route works. Her project map connects those instructions with the rationale and the examples behind them. The latest distillation record also preserves the rule for contradictory deadlines: retain the supported action and competing claims, then seek clarification. She can recover both what to do and why.
+Audy opens the current instructions through `learning-loop-v1`. The route works. Her project map connects those instructions with the rationale and the examples behind them. The latest distillation record also preserves the rule for contradictory deadlines: retain the supported action and competing claims, then seek clarification. She can recover both what to do and why.
 
-Her next problem concerns a familiar error in a new practice example. The fictional notes say that the facilitator will send a handout “soon.” A candidate action list changes that timing to Thursday. Maya rejects the invented precision. She wants to retain this judgment so the next review can benefit from it.
+Her next problem concerns a familiar error in a new practice example. The fictional notes say that the facilitator will send a handout “soon.” A candidate action list changes that timing to Thursday. Audy rejects the invented precision. She wants to retain this judgment so the next review can benefit from it.
 
 She first writes, “Leave the deadline unknown.” Then she tests that sentence against another invented note, which explicitly says the facilitator will send a revised agenda on Thursday. Following her short correction mechanically would now erase valid information. The original review was right; the reusable wording was too broad.
 
-The inputs, responses, and verdicts remain authored specimens for Fieldwork's synthetic workshop. They develop Maya's action-list examples and review practice; customer demand and learner outcomes remain open.
+The inputs, responses, and verdicts remain authored specimens for Himura Inc.'s synthetic workshop. They develop Audy's action-list examples and review practice; customer demand and learner outcomes remain open.
 
 This chapter develops the connection between an individual judgment and later work. Chapter 7 showed a correction reaching another attempt. The intervening chapters gave that work a governed home, a current version, a rationale, and links. Now you will decide which part of a verdict can travel, under what conditions, and how to tell whether it actually arrived.
 
@@ -2489,7 +2489,7 @@ This chapter develops the connection between an individual judgment and later wo
 
 A useful verdict says what you judged. “Reject” might refer to an output, a proposed instruction, a source claim, or an entire project. Those are different decisions. If the object is unclear, a later assistant could discard an otherwise useful document because one sentence failed review.
 
-Maya's verdict concerns the Thursday deadline in a particular candidate action list. The source supports an agreement to send the handout and identifies the facilitator. It supplies only imprecise timing. Her decision is to rewrite the candidate so it retains the supported agreement and preserves that imprecision. It is not a decision to reject the workshop or prohibit all dated actions.
+Audy's verdict concerns the Thursday deadline in a particular candidate action list. The source supports an agreement to send the handout and identifies the facilitator. It supplies only imprecise timing. Her decision is to rewrite the candidate so it retains the supported agreement and preserves that imprecision. It is not a decision to reject the workshop or prohibit all dated actions.
 
 The Functional Life proposes a compact judgment form: “accept / reject / rewrite :: reason.” It connects captured judgment with verified durable writes as the hinge between L3 and L4. That is a stated TFIS practice and philosophy. Here we develop an ordinary document procedure for making the judgment inspectable. ([The Future Is Solo, n.d.-a](https://life.thefutureissolo.com/))
 
@@ -2501,15 +2501,15 @@ Keep the verdict separate from its storage status. A valid rejection may be unsa
 
 ## Decide what should carry forward
 
-Every review contains details that belong to the case and a possible lesson for future work. Maya's case contains a handout, a facilitator, and the word “soon.” The transferable requirement concerns evidence: preserve the timing the input establishes and do not supply unsupported precision. The handout itself does not need to appear in every future instruction.
+Every review contains details that belong to the case and a possible lesson for future work. Audy's case contains a handout, a facilitator, and the word “soon.” The transferable requirement concerns evidence: preserve the timing the input establishes and do not supply unsupported precision. The handout itself does not need to appear in every future instruction.
 
-Write the scope beside the proposed lesson. Maya limits this one to drafting and reviewing action lists from supplied notes under the existing Fieldwork instructions. It does not authorize contacting participants, assigning work, or deciding which conflicting source is authoritative. Those activities require their own evidence and permission.
+Write the scope beside the proposed lesson. Audy limits this one to drafting and reviewing action lists from supplied notes under the existing Himura Inc. instructions. It does not authorize contacting participants, assigning work, or deciding which conflicting source is authoritative. Those activities require their own evidence and permission.
 
 Now write a case that the lesson must allow. The revised agenda note explicitly supplies Thursday. A correct output keeps Thursday. This positive contrast prevents a lesson about avoiding invention from becoming a blanket instruction to remove detail. It also makes the requirement more useful than a growing list of prohibited words.
 
 A second boundary comes from the earlier conflict exercise. If two passages give different deadlines without establishing which supersedes the other, the output retains both claims and asks for clarification. The new verdict must preserve that approved behavior. A plausible-looking single date would still conceal the unresolved conflict.
 
-Maya records what would require reconsideration: a correction to the original source, a changed task contract, or new authority to interpret dates using additional context. A different input alone does not invalidate the lesson. It does require checking whether the relationship still fits. Otherwise every stored judgment would either apply everywhere or become unusable after its first case.
+Audy records what would require reconsideration: a correction to the original source, a changed task contract, or new authority to interpret dates using additional context. A different input alone does not invalidate the lesson. It does require checking whether the relationship still fits. Otherwise every stored judgment would either apply everywhere or become unusable after its first case.
 
 You can perform this scope check before saving anything. Ask what the verdict would do to a legitimate alternative. If it rejects an acceptable result, revise the lesson. If you cannot describe an alternative, you may understand the original answer more narrowly than your wording suggests.
 
@@ -2517,11 +2517,11 @@ You can perform this scope check before saving anything. Ask what the verdict wo
 
 The [verdict ledger](book/artifacts/13-verdict-ledger.md) includes the literal packet. Its first input says that the group agreed the facilitator would send the handout soon; no calendar date was agreed. The flawed response says that the facilitator will send it by Thursday. The review identifies the invented deadline while retaining the supported action and owner.
 
-Maya names the judgment `V13-01` so the corrected output, rationale, and reuse record can refer to the same decision. Your existing naming convention can serve that purpose.
+Audy names the judgment `V13-01` so the corrected output, rationale, and reuse record can refer to the same decision. Your existing naming convention can serve that purpose.
 
 The reviewed correction says that the facilitator will send the handout, timing “soon,” with a precise deadline still unspecified. This result preserves the source's information. Replacing all timing with “unknown” would lose the fact that the group expressed an intention about urgency, even though that intention cannot safely become a calendar commitment.
 
-Maya also keeps her overbroad candidate lesson in the record, marked as rejected for reuse. It explains why the final verdict says to preserve supported timing rather than always leave a deadline unknown. Someone finding that history later should encounter its status at the same place as its wording.
+Audy also keeps her overbroad candidate lesson in the record, marked as rejected for reuse. It explains why the final verdict says to preserve supported timing rather than always leave a deadline unknown. Someone finding that history later should encounter its status at the same place as its wording.
 
 The example separates two reviews. One reviews the action-list response. The other reviews the lesson proposed for future use. An accurate correction to an output does not automatically produce an accurate operating rule. The second review asks what changes when the rule encounters another case.
 
@@ -2531,11 +2531,11 @@ For your own work, include just enough source and output to expose the judgment,
 
 The verdict ledger joins the project workspace. It does not replace `learning-loop-v1` as the route to the current instructions. The knowledge map gains a link from the relevant requirement to `V13-01`; the rationale gains the supporting example. These links explain the decision without creating several competing places that issue commands.
 
-Maya checks whether the current instruction actually needs to change. In this case, it already requires supported owners and deadlines and preserves conflicting claims. The new verdict improves the examples and the review record. It need not create another version of the same rule merely to make the session appear productive.
+Audy checks whether the current instruction actually needs to change. In this case, it already requires supported owners and deadlines and preserves conflicting claims. The new verdict improves the examples and the review record. It need not create another version of the same rule merely to make the session appear productive.
 
-If the instruction is ambiguous, Maya proposes a revision in the project workspace. The currently approved version remains active while she reviews the candidate. Only an approved change moves the existing current pointer. The ledger records the change and its reason; it does not grant itself authority to change the pointer.
+If the instruction is ambiguous, Audy proposes a revision in the project workspace. The currently approved version remains active while she reviews the candidate. Only an approved change moves the existing current pointer. The ledger records the change and its reason; it does not grant itself authority to change the pointer.
 
-An assistant can help prepare this material. Give it the candidate response, source, current instruction, and review task. Ask it to identify unsupported claims and draft a scoped verdict. Maya still compares that proposal with the input before adopting it. Source content and previous model responses remain evidence to examine, not permission to expand the assistant's role.
+An assistant can help prepare this material. Give it the candidate response, source, current instruction, and review task. Ask it to identify unsupported claims and draft a scoped verdict. Audy still compares that proposal with the input before adopting it. Source content and previous model responses remain evidence to examine, not permission to expand the assistant's role.
 
 This arrangement lets history remain rich while the next task receives a small working packet. The current instruction says what governs. The verdict explains a particular decision. The rationale connects related examples. Each document has a role, and a change reaches only the records whose meaning it affects.
 
@@ -2547,7 +2547,7 @@ For the manual exercise, save the reviewed verdict, close its editing view, and 
 
 Record the result separately from the verdict. “Rewrite the invented deadline” is the decision. “Reopened V13-01 and checked its reason and linked input” describes a write check. A timestamp alone proves neither. The useful detail is what you reopened and what you compared.
 
-Suppose Maya edited a practice copy of the ledger while the project index still points to the original. The review reason exists somewhere, but the working route cannot reach it. She records the write check as failed, identifies the intended destination, and repairs the mismatch before starting the reuse attempt. She does not erase the correct verdict merely because its first save was misplaced.
+Suppose Audy edited a practice copy of the ledger while the project index still points to the original. The review reason exists somewhere, but the working route cannot reach it. She records the write check as failed, identifies the intended destination, and repairs the mismatch before starting the reuse attempt. She does not erase the correct verdict merely because its first save was misplaced.
 
 Later, a tool may perform the write. Keep the same acceptance question: what durable state should exist, and how will a separate read confirm it? A failed save should remain visible and stop dependent promotion. Repeatedly issuing the same write without knowing which version exists can produce duplicate or conflicting records.
 
@@ -2557,11 +2557,11 @@ The TFIS deck's earlier false-memory entry reports a bug whose effects persisted
 
 Storage verification establishes availability. The next test concerns use. Begin a fresh attempt from the normal project entry route, follow the current pointer, and retrieve the relevant verdict before drafting. Record which rule and example you supplied. An assistant saying it remembers the lesson is not enough to identify its input.
 
-Maya's changed input explicitly assigns the facilitator to send a revised agenda on Thursday. She supplies the current instructions and the scoped `V13-01` lesson. Before seeing a response, she writes the expected behavior: preserve the agreement, owner, and Thursday timing because this input supports all three.
+Audy's changed input explicitly assigns the facilitator to send a revised agenda on Thursday. She supplies the current instructions and the scoped `V13-01` lesson. Before seeing a response, she writes the expected behavior: preserve the agreement, owner, and Thursday timing because this input supports all three.
 
 The packet contains two constructed responses for comparison. One keeps Thursday and points to the supporting note. The other says the deadline is unknown because the earlier verdict warned against dates. The second response has retrieved the topic but applied the wrong rule. It demonstrates why retrieval success and useful reuse must be judged separately.
 
-Maya accepts the supported response for this example and rejects the overgeneralization. She records a reuse check linked to `V13-01`, rather than rewriting the original verdict as if the original source had changed. The cases remain distinguishable: the first lacked a precise deadline; the second supplied one.
+Audy accepts the supported response for this example and rejects the overgeneralization. She records a reuse check linked to `V13-01`, rather than rewriting the original verdict as if the original source had changed. The cases remain distinguishable: the first lacked a precise deadline; the second supplied one.
 
 If your new attempt repeats a defect, inspect the evidence in order. Was the intended record supplied? Was it marked as applicable? Did the working packet also contain a conflicting obsolete instruction? Does the new case fall within the recorded scope? Only then decide whether the rule needs revision or the task requires clarification.
 
@@ -2573,7 +2573,7 @@ A durable judgment needs a way to stop governing. Consider a corrected source th
 
 The same principle applies when the task changes. A drafting assistant authorized only to preserve wording has a different job from a scheduling assistant explicitly authorized to calculate dates from a supplied calendar. The earlier verdict cannot silently expand or contract the new authority. The relevant person must decide the revised contract.
 
-Use expiry conditions that match the decision. A verdict about a formatting preference may need review when the audience changes. A verdict based on a temporary source may need a dated recheck. Maya's evidence-preservation requirement does not need an arbitrary monthly expiration, but a changed source or instruction should trigger inspection of affected records.
+Use expiry conditions that match the decision. A verdict about a formatting preference may need review when the audience changes. A verdict based on a temporary source may need a dated recheck. Audy's evidence-preservation requirement does not need an arbitrary monthly expiration, but a changed source or instruction should trigger inspection of affected records.
 
 Expired or superseded does not mean deleted from history. The reason a verdict stopped applying may be useful evidence. Mark that status beside the record, link its replacement when one exists, and remove it from the active working packet. Sensitive material or records covered by a removal decision follow the memory charter instead; historical usefulness is not unlimited permission to retain.
 
@@ -2597,7 +2597,7 @@ Keeping the evidence and affected work visible makes your own verdict open to co
 
 Two reviewers may agree that a response is wrong while proposing different repairs. One might replace “soon” with “unknown.” Another might preserve the original wording and flag the lack of precision. Their disagreement concerns what information the output should retain. Put the competing repairs beside the source so the difference can be judged directly.
 
-Other disagreements arise from different instructions. A reviewer may expect a ready-to-execute schedule while Maya is preparing a faithful representation of incomplete notes. Both can be pursuing sensible aims, but their verdicts answer different questions. Clarify the output's intended use before treating the disagreement as inconsistent judgment.
+Other disagreements arise from different instructions. A reviewer may expect a ready-to-execute schedule while Audy is preparing a faithful representation of incomplete notes. Both can be pursuing sensible aims, but their verdicts answer different questions. Clarify the output's intended use before treating the disagreement as inconsistent judgment.
 
 If the evidence cannot resolve a disagreement, record what remains contested and who owns the decision. Preserve useful uncontested work. The earlier conflicting-deadline policy allows an agreed action and shared owner to remain visible while the final deadline awaits clarification. Uncertainty does not require discarding every supported part of the output.
 
@@ -2609,7 +2609,7 @@ A verdict ledger can become a second inbox. If every comma correction becomes a 
 
 For repeated instances of the same error, link the new example to the existing rule. Add a distinct verdict only when the new instance changes the interpretation, scope, or decision. This preserves evidence of recurrence without presenting every repetition as a discovery. Do not merge cases whose similar wording conceals different authority or inputs.
 
-Review the cost of maintaining the record against the work it supports. Maya can track whether she keeps reconstructing the same reason, whether an obsolete instruction reappears, or whether a proposed improvement reduces searching during review. These observations are more useful than the number of saved verdicts. Measure effort with comparable tasks when timing matters.
+Review the cost of maintaining the record against the work it supports. Audy can track whether she keeps reconstructing the same reason, whether an obsolete instruction reappears, or whether a proposed improvement reduces searching during review. These observations are more useful than the number of saved verdicts. Measure effort with comparable tasks when timing matters.
 
 The flywheel is a metaphor for later work beginning with a useful prior decision. It does not guarantee automatic improvement. The concrete return path is visible: an examined output produces a scoped verdict, an approved record survives the write check, and a later task retrieves and applies it under review.
 
@@ -2643,7 +2643,7 @@ Then start a new attempt with a changed input. Identify the prior verdict before
 
 Your record passes this chapter's practice check when another reader can inspect the original decision, locate its saved form, identify its limits, and follow its effect on the later attempt. Explain the important distinction without AI, then use the source to check yourself. If any connection fails, repair that connection; filling every field is not a substitute for the evidence.
 
-Maya leaves with `verdict-ledger-v1` linked to the existing instructions, rationale, and knowledge map. Her current rules remain intact, and the new record makes one judgment reusable without erasing its limits. [Chapter 14](book/chapters/14-the-cognitive-os.md) will put these operations into a routine that can be maintained alongside the work they support.
+Audy leaves with `verdict-ledger-v1` linked to the existing instructions, rationale, and knowledge map. Her current rules remain intact, and the new record makes one judgment reusable without erasing its limits. [Chapter 14](book/chapters/14-the-cognitive-os.md) will put these operations into a routine that can be maintained alongside the work they support.
 
 ## References
 
@@ -2666,13 +2666,13 @@ The Future Is Solo. (2026). *The Future Is Solo 20260910* [Google Slides present
 
 ## The system has to work on an ordinary morning
 
-Maya has accumulated useful records. She can locate current instructions through `learning-loop-v1`, recover their rationale, inspect a distillation, and follow relationships in her knowledge map. The verdict ledger preserves a correction and its limits. Each document solves a recognizable problem.
+Audy has accumulated useful records. She can locate current instructions through `learning-loop-v1`, recover their rationale, inspect a distillation, and follow relationships in her knowledge map. The verdict ledger preserves a correction and its limits. Each document solves a recognizable problem.
 
 An ordinary morning creates a different test. She opens her working folder with limited time and several possible next steps. One note proposes another exercise. Another asks whether the latest record was saved. A third contains a useful but superseded instruction. Nothing in the folder selects today's task for her.
 
 She could spend the session improving the arrangement. She could also begin drafting from the nearest paragraph and recreate a mistake the arrangement was meant to prevent. Neither choice follows automatically from having a well-organized collection.
 
-Maya's immediate task is another synthetic action-list example for the thirty-minute workshop, still without customer or learner outcomes. Her ordinary-day problem is coordination: what to do first, when to pause, and what state to leave for the next session.
+Audy's immediate task is another synthetic action-list example for the thirty-minute workshop, still without customer or learner outcomes. Her ordinary-day problem is coordination: what to do first, when to pause, and what state to leave for the next session.
 
 This chapter joins the practices you already have. Bring the inventory, charter, memory locations, current instruction route, knowledge map, and verdict ledger. You will turn their relationships into a small [operating manual](book/artifacts/14-operating-manual.md) that someone can follow while doing the work.
 
@@ -2684,29 +2684,29 @@ The metaphor is useful only where it makes an operation clearer. When a task beg
 
 You can answer those questions with ordinary documents. The four locations from Chapter 10 remain working context, project workspace, reviewed durable memory, and portable archive. The knowledge map remains a route among records. The charter still governs retention and authority. The operating manual says when to use each one.
 
-Avoid giving every step a new name. A reader who must memorize another vocabulary before beginning has acquired an additional dependency. Maya's manual uses familiar verbs: choose the task, retrieve the applicable records, check the input, draft, review, save approved material, verify the result, and leave a handoff.
+Avoid giving every step a new name. A reader who must memorize another vocabulary before beginning has acquired an additional dependency. Audy's manual uses familiar verbs: choose the task, retrieve the applicable records, check the input, draft, review, save approved material, verify the result, and leave a handoff.
 
-Maya can perform the procedure herself, ask an assistant to draft one part, or later delegate a bounded sequence. The manual identifies which arrangement she is using.
+Audy can perform the procedure herself, ask an assistant to draft one part, or later delegate a bounded sequence. The manual identifies which arrangement she is using.
 
 ## Begin when there is a task, not merely an open application
 
-An application can present an empty prompt and invite work without helping you decide what is worth doing. Start with the intended result instead. Maya writes: “Prepare one reviewable action-list example from the supplied synthetic notes, using the current evidence rules.”
+An application can present an empty prompt and invite work without helping you decide what is worth doing. Start with the intended result instead. Audy writes: “Prepare one reviewable action-list example from the supplied synthetic notes, using the current evidence rules.”
 
 That statement excludes several nearby tasks. She is not redesigning the offer, resolving real meeting commitments, or preparing customer outreach. The distinction matters because each would require different evidence and permissions. A short statement of purpose prevents convenient available material from silently selecting the work.
 
-A trigger is the event that causes a procedure to begin. For this manual, Maya uses concrete triggers: a new practice input is ready; an output reveals a discrepancy; a current decision changes; a session is interrupted; or a completed session needs a handoff. A trigger should be recognizable without asking the assistant to infer an entire project strategy.
+A trigger is the event that causes a procedure to begin. For this manual, Audy uses concrete triggers: a new practice input is ready; an output reveals a discrepancy; a current decision changes; a session is interrupted; or a completed session needs a handoff. A trigger should be recognizable without asking the assistant to infer an entire project strategy.
 
 Not every trigger deserves immediate action. A newly saved article may be interesting without affecting the current task. A proposed correction can wait in the review queue while its support is incomplete. The manual should say what is ready to enter the working session and what remains pending.
 
-Maya chooses one bounded task because she can review it in the time available. If she generates more outputs than she can inspect, the remaining drafts stay drafts. Producing a larger pile does not change their authority. The practical limit is the amount of work she can finish with the necessary judgment intact.
+Audy chooses one bounded task because she can review it in the time available. If she generates more outputs than she can inspect, the remaining drafts stay drafts. Producing a larger pile does not change their authority. The practical limit is the amount of work she can finish with the necessary judgment intact.
 
 ## Follow the current route before collecting context
 
-Maya begins at the project index, which leads to `learning-loop-v1` and its current-instruction pointer. She follows that route before assembling the working packet. A useful paragraph found through search can explain a rule, but search position does not make it the applicable instruction.
+Audy begins at the project index, which leads to `learning-loop-v1` and its current-instruction pointer. She follows that route before assembling the working packet. A useful paragraph found through search can explain a rule, but search position does not make it the applicable instruction.
 
 The knowledge map helps her locate the rationale, distillation, relevant examples, and verdict. Each relationship retains its meaning. A link saying that a verdict was supported by an example does not mean the example authorizes a new action. A record marked historical remains historical after it enters the current session.
 
-Her working packet identifies the task, the current instruction location, the supplied input, the required output form and review criteria, and the review boundary. She adds the relevant rationale when interpretation requires it. At this point in Fieldwork, that route selects `instructions-v3`, including the approved conflict-handling behavior from Chapter 11 while preserving the earlier rules about owners, suggestions, and imprecise timing.
+Her working packet identifies the task, the current instruction location, the supplied input, the required output form and review criteria, and the review boundary. She adds the relevant rationale when interpretation requires it. At this point in Himura Inc., that route selects `instructions-v3`, including the approved conflict-handling behavior from Chapter 11 while preserving the earlier rules about owners, suggestions, and imprecise timing.
 
 Anthropic's context-engineering guidance describes retrieving selected information through references and using structured notes to continue work across sessions. It also describes the risk of losing important details through excessive compression. These are engineering practices and observations, not proof that one packet will suit every task or model. ([Rajasekaran et al., 2025](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents))
 
@@ -2716,7 +2716,7 @@ For this manual, the useful question is concrete: does the packet contain the ma
 
 Before using the packet, read it for authority and readiness. Is the instruction actually current? Is the input clearly distinguished from the instruction? Is the material authorized for this task? Are there missing dependencies that would make the requested output misleading?
 
-Maya does not need a lengthy ceremony for every synthetic paragraph. A brief inspection can answer these questions. The effort should follow what could change the result. A new source containing two incompatible deadline statements deserves more attention than a harmless change to the title of a known example.
+Audy does not need a lengthy ceremony for every synthetic paragraph. A brief inspection can answer these questions. The effort should follow what could change the result. A new source containing two incompatible deadline statements deserves more attention than a harmless change to the title of a known example.
 
 If the packet contains an instruction inside a source, that text remains source content unless separately authorized. If it contains a claimed user preference that was never approved, the manual does not let the claim become a lasting rule. The charter's boundaries travel into the session; they do not disappear when drafting begins.
 
@@ -2726,7 +2726,7 @@ Write that distinction in the manual. “Do not select a single deadline when th
 
 ## Worked session: the input and the draft
 
-Maya prepares a new synthetic note for this chapter. It changes the specific commitments while preserving the distinctions the existing instructions govern:
+Audy prepares a new synthetic note for this chapter. It changes the specific commitments while preserving the distinctions the existing instructions govern:
 
 > S14:1 The facilitator agreed to send the revised exercise notes on Thursday.
 >
@@ -2746,35 +2746,35 @@ One acceptable output is:
 
 The table's wording may vary. Its important properties are inspectable against the input. It retains the explicit Thursday commitment. It does not assign the venue task to the facilitator merely because the facilitator is the only named role. It preserves “soon” without inventing a date. It keeps the reminder's proposed timing separate from a confirmed commitment.
 
-Maya asks an assistant for the draft, or writes it herself using the same packet. Assistance changes who performs the first attempt. It does not change what would count as a supported result. The review can now point to particular cells and source phrases instead of judging whether the output looks professionally formatted.
+Audy asks an assistant for the draft, or writes it herself using the same packet. Assistance changes who performs the first attempt. It does not change what would count as a supported result. The review can now point to particular cells and source phrases instead of judging whether the output looks professionally formatted.
 
 ## Review the result against evidence, not familiarity
 
 A familiar task invites a quick approval. The earlier corrections may make the output feel safe because the rule is now well established. That feeling is not a substitute for comparing the new result with the new input.
 
-Imagine the generated list assigns the venue inquiry to the facilitator and changes “soon” to Friday. The row now looks complete. It also contains two unsupported details. Maya identifies the exact row and the source passage, rather than issuing a general instruction to “be more accurate.”
+Imagine the generated list assigns the venue inquiry to the facilitator and changes “soon” to Friday. The row now looks complete. It also contains two unsupported details. Audy identifies the exact row and the source passage, rather than issuing a general instruction to “be more accurate.”
 
 The relevant earlier verdict can help explain why those details are unacceptable. It cannot supply the correct owner or date, because the source does not establish either. The repair must return to the input and preserve its gaps. Repeating an old corrected answer would be another way to lose contact with the present task.
 
-Maya records a rewrite decision when a consequential correction needs to be retained. The reason states the violated boundary and its scope. She then inspects the repaired output. A decision that says “rewrite” does not establish that the rewrite occurred, and a saved verdict does not establish that a later attempt used it.
+Audy records a rewrite decision when a consequential correction needs to be retained. The reason states the violated boundary and its scope. She then inspects the repaired output. A decision that says “rewrite” does not establish that the rewrite occurred, and a saved verdict does not establish that a later attempt used it.
 
 When the output already meets the criteria, she can record a bounded acceptance. The object is this synthetic output under these conditions. It is not approval of the workshop's effectiveness or of every future action list. The verdict ledger keeps those meanings separate.
 
 ## Keep review decisions separate from completed changes
 
-A daily procedure needs to distinguish what was decided from what happened afterward. Maya may approve wording in the conversation, but the saved project file can still contain the previous version. She may request a rewrite that remains unfinished when the session ends.
+A daily procedure needs to distinguish what was decided from what happened afterward. Audy may approve wording in the conversation, but the saved project file can still contain the previous version. She may request a rewrite that remains unfinished when the session ends.
 
 The manual gives these states plain descriptions. A proposed record awaits review. A reviewed decision identifies the approved action or wording. A saved-change check establishes what appeared in the intended location. A later reuse check examines whether that record influenced the next attempt. The verdict's type and the completion of these operations are separate facts.
 
-The Functional Life describes durable accept, reject, and rewrite judgments and emphasizes checking the stored state left by a change. This chapter applies those stated practices to a small document procedure, with Maya remaining responsible for consequential meaning. ([The Future Is Solo, n.d.-a](https://life.thefutureissolo.com/))
+The Functional Life describes durable accept, reject, and rewrite judgments and emphasizes checking the stored state left by a change. This chapter applies those stated practices to a small document procedure, with Audy remaining responsible for consequential meaning. ([The Future Is Solo, n.d.-a](https://life.thefutureissolo.com/))
 
-After approving a retained correction, Maya opens the relevant ledger entry from the project location. She checks the exact target, the reason, and the links. If she changed a current instruction, she follows the existing pointer again. If no instruction changed, she does not update unrelated records merely to make the session look productive.
+After approving a retained correction, Audy opens the relevant ledger entry from the project location. She checks the exact target, the reason, and the links. If she changed a current instruction, she follows the existing pointer again. If no instruction changed, she does not update unrelated records merely to make the session look productive.
 
 Retain the evidence the next task needs and decisions likely to matter later, using the charter's existing review rules. Most successful examples will not require a new general principle.
 
 ## Worked interruption: preserve what is unresolved
 
-Later, Maya prepares another synthetic input with two supplied statements:
+Later, Audy prepares another synthetic input with two supplied statements:
 
 > A:1 The facilitator agreed to circulate the revised outline on Monday.
 >
@@ -2784,7 +2784,7 @@ Later, Maya prepares another synthetic input with two supplied statements:
 
 The current conflict-handling instruction already covers this situation. A useful output retains the shared action and owner, identifies the conflicting Monday and Tuesday claims, and says that the applicable deadline requires clarification. It should not treat the second passage as a later decision merely because it appears second.
 
-Maya can complete that representation and still lack authority to choose the date. Before clarification occurs, she must stop the session. The ordinary-day procedure now needs to preserve a boundary rather than manufacture a finished answer.
+Audy can complete that representation and still lack authority to choose the date. Before clarification occurs, she must stop the session. The ordinary-day procedure now needs to preserve a boundary rather than manufacture a finished answer.
 
 Her handoff says: “Shared action and owner extracted. Deadline conflict remains Monday versus Tuesday; no superseding evidence supplied. Output is ready for review as an unresolved account, not a confirmed schedule. Next action: obtain an authorized clarification if this task is to continue beyond representation.” It links to the input and the draft.
 
@@ -2794,9 +2794,9 @@ No actual clarification is obtained in this fictional exercise. The handoff reco
 
 Resuming means recovering enough state to continue appropriately. It does not mean blindly reenacting the final instruction from the previous conversation. A task, source, permission, or current rule may have changed while the work was paused.
 
-Maya starts from the handoff and follows its links. She confirms that the current instruction route still applies and that the pending issue remains unresolved. If new evidence has arrived, she identifies it separately and determines which part of the earlier account it changes. The earlier record should not silently absorb a new decision without its origin.
+Audy starts from the handoff and follows its links. She confirms that the current instruction route still applies and that the pending issue remains unresolved. If new evidence has arrived, she identifies it separately and determines which part of the earlier account it changes. The earlier record should not silently absorb a new decision without its origin.
 
-The resumption check also catches incomplete writes. Suppose the handoff says that a corrected output was saved, but its link opens the unrevised draft. Maya treats the stored file as the state she has, while using the reviewed decision to identify what was intended. She repairs the save and reopens it before relying on the correction.
+The resumption check also catches incomplete writes. Suppose the handoff says that a corrected output was saved, but its link opens the unrevised draft. Audy treats the stored file as the state she has, while using the reviewed decision to identify what was intended. She repairs the save and reopens it before relying on the correction.
 
 That is an operational failure even when the reasoning was sound. It calls for fixing the destination or write procedure, rather than revisiting the entire evidence rule. A good manual helps distinguish these cases so that every interruption does not become a project restart.
 
@@ -2804,11 +2804,11 @@ When you cannot establish which state is valid, keep the active work intact and 
 
 ## Recognize when the task changes the rule's scope
 
-A procedure can be followed correctly and still be inappropriate for a new task. Suppose Maya later asks for a draft planning recommendation rather than a faithful account of meeting commitments. In that different task, suggesting a possible owner may be useful, provided the suggestion is clearly labeled and Maya reviews it. The current representation rule does not authorize treating the suggestion as an agreement.
+A procedure can be followed correctly and still be inappropriate for a new task. Suppose Audy later asks for a draft planning recommendation rather than a faithful account of meeting commitments. In that different task, suggesting a possible owner may be useful, provided the suggestion is clearly labeled and Audy reviews it. The current representation rule does not authorize treating the suggestion as an agreement.
 
 The manual should make the change of task visible. A note saying “propose options for unresolved assignments” is different from “extract the assignments established in these notes.” If the request blends both, separate the outputs so that the source-based account remains inspectable and the proposed options cannot quietly overwrite it.
 
-Maya does not need to modify the current action-list instruction merely because another task could use a different approach. She needs to identify the new purpose, its permission boundary, and its review criteria. If the work proves recurring, a separate bounded procedure may be appropriate. Until then, an explicitly reviewed one-off task can be enough.
+Audy does not need to modify the current action-list instruction merely because another task could use a different approach. She needs to identify the new purpose, its permission boundary, and its review criteria. If the work proves recurring, a separate bounded procedure may be appropriate. Until then, an explicitly reviewed one-off task can be enough.
 
 This distinction also protects useful judgment from becoming rigid compliance with a remembered slogan. “Never invent a commitment” governs how an established agreement is represented. It does not forbid considering possibilities. The important boundary is whether the output tells the reader which statements are supported and which are proposed.
 
@@ -2816,11 +2816,11 @@ When the manual and a new request seem to disagree, pause the dependent action a
 
 ## Continue a small task when assistance is unavailable
 
-Maya can run the first worked example without an assistant. She reads the current instruction, draws the table with its source-reference column, and fills each row from the source. She then reviews her own draft against the same passages. The output may take a different amount of effort, but the evidence standard remains the same.
+Audy can run the first worked example without an assistant. She reads the current instruction, draws the table with its source-reference column, and fills each row from the source. She then reviews her own draft against the same passages. The output may take a different amount of effort, but the evidence standard remains the same.
 
-This manual route is useful for more than an outage. It reveals which parts of the workflow Maya understands and which depend on unexplained application behavior. If she cannot identify the applicable rule without asking the assistant, the index or her understanding needs attention before she delegates more.
+This manual route is useful for more than an outage. It reveals which parts of the workflow Audy understands and which depend on unexplained application behavior. If she cannot identify the applicable rule without asking the assistant, the index or her understanding needs attention before she delegates more.
 
-Manual work can also contain familiar errors. Maya might carry a facilitator assignment from the first sentence into the second without noticing that the venue inquiry has no owner. The review procedure should catch that mistake regardless of who produced it. Human authorship does not exempt a draft from the evidence check.
+Manual work can also contain familiar errors. Audy might carry a facilitator assignment from the first sentence into the second without noticing that the venue inquiry has no owner. The review procedure should catch that mistake regardless of who produced it. Human authorship does not exempt a draft from the evidence check.
 
 Record the substitution honestly in the handoff: the task was completed manually using the current packet, or it remains pending because a required capability was unavailable. A procedure that admits these states is easier to resume than one that assumes an assistant was always present and every automated step succeeded.
 
@@ -2828,7 +2828,7 @@ Record the substitution honestly in the handoff: the task was completed manually
 
 A solo operator's attention is part of the system. The manual should reflect the time and understanding available for review, rather than assuming an unlimited supply. An assistant that produces drafts quickly can make this boundary easier to overlook.
 
-Maya starts with one new example and one changed-input check. That is an illustrative working choice, not a validated optimum. If she can review only the first, the second remains pending. If a discrepancy needs careful inspection, she reduces the number of additional drafts entering the queue.
+Audy starts with one new example and one changed-input check. That is an illustrative working choice, not a validated optimum. If she can review only the first, the second remains pending. If a discrepancy needs careful inspection, she reduces the number of additional drafts entering the queue.
 
 Useful queue information is modest: what the item is, why it is pending, what must happen next, and which record it depends on. A large list with no next action can become another place where unresolved work disappears. The operating manual should make the most consequential unfinished items visible without requiring a dashboard.
 
@@ -2840,7 +2840,7 @@ Increase the volume or autonomy only after the existing procedure shows what rev
 
 A useful session ending answers a small set of questions. What was completed? What was accepted, rejected, or left pending? Which records actually changed? Which pointers or links were checked? What is the next authorized action?
 
-Maya's handoff is concise because the project records carry the detail. It links to the relevant input, output, verdict, and current instruction route. It preserves the unresolved customer hypothesis and any active practice conflict. It does not repeat the whole history of Fieldwork.
+Audy's handoff is concise because the project records carry the detail. It links to the relevant input, output, verdict, and current instruction route. It preserves the unresolved customer hypothesis and any active practice conflict. It does not repeat the whole history of Himura Inc.
 
 She closes the session only after the necessary saved-state checks, or explicitly records which check remains unfinished. “Awaiting verification” is a meaningful state. Calling the task complete while the verification is pending makes the next session depend on a false premise.
 
@@ -2854,7 +2854,7 @@ An operating manual can become a burden if it describes every possible action in
 
 Use links for detailed criteria. The manual can point to the charter for permission rules and to the current instruction for output behavior. Repeating them in full creates competing copies that can drift. A short reminder may be useful, but it should identify its role and the governing record.
 
-Review the manual when an ordinary use reveals an omission. If Maya repeatedly forgets to follow the current pointer, the start procedure needs a clearer cue. If a stop condition is too vague, specify the unsupported action it blocks. If nobody uses a long ceremonial section, remove or simplify it while preserving the necessary boundary.
+Review the manual when an ordinary use reveals an omission. If Audy repeatedly forgets to follow the current pointer, the start procedure needs a clearer cue. If a stop condition is too vague, specify the unsupported action it blocks. If nobody uses a long ceremonial section, remove or simplify it while preserving the necessary boundary.
 
 Judge the manual by whether another session can follow it and leave a recoverable state. A short procedure with useful links may be all the work needs.
 
@@ -2880,7 +2880,7 @@ Record a failure if the wrong instruction is loaded, the output exceeds its evid
 
 Your manual passes this book's practice check when a person can follow it to produce a reviewed result, distinguish a decision from a completed write, and leave a usable handoff. This is evidence about a stated workflow, not automatic certification at an SSA-CMM level.
 
-Without AI, explain what would cause you to stop, what would justify continuing, and what would demonstrate that an accepted change survived. Maya finishes with `operating-manual-v1`, connecting her existing records without replacing their authority. [Chapter 15](book/chapters/15-the-sovereignty-test.md) tests whether that procedure can still work when the familiar environment is no longer the starting point.
+Without AI, explain what would cause you to stop, what would justify continuing, and what would demonstrate that an accepted change survived. Audy finishes with `operating-manual-v1`, connecting her existing records without replacing their authority. [Chapter 15](book/chapters/15-the-sovereignty-test.md) tests whether that procedure can still work when the familiar environment is no longer the starting point.
 
 ## References
 
@@ -2899,15 +2899,15 @@ The Future Is Solo. (n.d.-a). *The functional life* (Field Manual No. 01). Retri
 
 ## The files open; the next step is still unclear
 
-Maya copies a small Fieldwork recovery package into a separate location. The documents open. The filenames look familiar. A quick inspection could support the statement that the move worked.
+Audy copies a small Himura Inc. recovery package into a separate location. The documents open. The filenames look familiar. A quick inspection could support the statement that the move worked.
 
 Then she begins from the copied project index. The instruction it reaches preserves missing owners and imprecise dates, but does not include the approved handling of contradictory deadlines. She has restored an earlier package that predates the current `instructions-v3`. Nothing is corrupted. The copy accurately preserves a state that no longer represents the whole current procedure.
 
 This is a constructed recovery problem within the fictional case. It does not undo the earlier successful rehearsal. A previously tested package can remain readable while later decisions make it insufficient for current work. The question is which state this package actually supports.
 
-Maya's earlier tests established useful things: a correction could be recovered, a selected set could open elsewhere, and a restored example could preserve “soon.” The operating manual now depends on additional relationships and decisions. A stronger rehearsal should test those dependencies explicitly.
+Audy's earlier tests established useful things: a correction could be recovered, a selected set could open elsewhere, and a restored example could preserve “soon.” The operating manual now depends on additional relationships and decisions. A stronger rehearsal should test those dependencies explicitly.
 
-Fieldwork still has no customers, sales, observed learning gains, or deployed SovMem system. The work here is a defined portability drill. You will move a selected working set, reconstruct its meaning, challenge it with ordinary failures, and record what the results permit you to claim.
+Himura Inc. still has no customers, sales, observed learning gains, or deployed SovMem system. The work here is a defined portability drill. You will move a selected working set, reconstruct its meaning, challenge it with ordinary failures, and record what the results permit you to claim.
 
 ## Define the independence you want to test
 
@@ -2917,7 +2917,7 @@ These questions overlap without being identical. Readable files support file por
 
 The Functional Life favors portable formats and the ability to replace providers while retaining useful memory and work. This chapter turns that stated direction into a bounded exercise whose results and remaining dependencies can be inspected. ([The Future Is Solo, n.d.-a](https://life.thefutureissolo.com/))
 
-Maya chooses a modest claim to test: “I can reconstruct the current synthetic action-list workflow in a separate location, identify the governing instruction and permission boundaries, and produce a reviewable result without relying on the old conversation.” She does not claim that the copy can replace every search feature, tool integration, or model behavior.
+Audy chooses a modest claim to test: “I can reconstruct the current synthetic action-list workflow in a separate location, identify the governing instruction and permission boundaries, and produce a reviewable result without relying on the old conversation.” She does not claim that the copy can replace every search feature, tool integration, or model behavior.
 
 Write the claim before moving anything. It will determine the challenge you need and the point at which you can finish the drill and return to work.
 
@@ -2925,7 +2925,7 @@ Write the claim before moving anything. It will determine the challenge you need
 
 Use your own authorized project records, or begin with the [synthetic practice package](book/artifacts/15-portability-fixture/START.md). The supplied package contains ordinary Markdown files and no executable actions. You can read them in a text editor or Markdown reader. A [ZIP copy](book/artifacts/15-portability-fixture.zip) keeps the small folder together for downloading and extraction.
 
-The package is an instructional miniature, not a claim to contain Maya's entire accumulated project. Its filenames demonstrate the existing roles: a project index, `learning-loop-v1`, a current instruction, a superseded instruction, a charter, rationale, synthetic inputs, expected review properties, and a short operating procedure.
+The package is an instructional miniature, not a claim to contain Audy's entire accumulated project. Its filenames demonstrate the existing roles: a project index, `learning-loop-v1`, a current instruction, a superseded instruction, a charter, rationale, synthetic inputs, expected review properties, and a short operating procedure.
 
 The project index leads to `learning-loop-v1`, which remains the sole current-instruction selector within the example. The rationale explains the instruction and links to its support. The expected-output file is a review aid, not a source of facts about the supplied meeting. The historical instruction remains clearly labeled as superseded.
 
@@ -2981,7 +2981,7 @@ A copied system that changes every deadline to “unknown” has lost useful pre
 
 The package supplies an expected-output table so that a novice can compare these properties directly. Equivalent wording is acceptable when it preserves the same distinctions. The goal is semantic fidelity: the important meaning survives, even if punctuation or phrasing changes.
 
-Maya records the actual output and the relevant source passages. She does not use the expected answer as the input for the drafting step. Otherwise the exercise could become copying an answer instead of testing whether the reconstructed procedure handles the supplied evidence.
+Audy records the actual output and the relevant source passages. She does not use the expected answer as the input for the drafting step. Otherwise the exercise could become copying an answer instead of testing whether the reconstructed procedure handles the supplied evidence.
 
 This is a small practice case. Passing it establishes behavior on this input under the recorded conditions. It does not estimate reliability across all meetings, languages, writing styles, or future model versions.
 
@@ -2999,7 +2999,7 @@ The expected response retains the shared action and facilitator assignment, disp
 
 This test specifically examines the later conflict-handling decision developed in Chapter 11. A package containing only the earlier owner and “soon” rules could pass the first test while leaving this operation unspecified. Recovering several correct records is therefore insufficient if the missing one governs the present case.
 
-In the chapter's opening problem, Maya notices that the restored package identifies an earlier instruction. She leaves the copy intact as evidence of what was restored, compares it with the reviewed current state, and prepares an updated package containing the later approved instruction and its dependencies. She then repeats the destination check from that new package.
+In the chapter's opening problem, Audy notices that the restored package identifies an earlier instruction. She leaves the copy intact as evidence of what was restored, compares it with the reviewed current state, and prepares an updated package containing the later approved instruction and its dependencies. She then repeats the destination check from that new package.
 
 The repair is a controlled update from known reviewed material. It is not permission for the receiving assistant to invent a conflict policy because the old one seems incomplete. If the current decision cannot be recovered, the proper result is an unresolved reconstruction problem requiring review.
 
@@ -3095,7 +3095,7 @@ The useful question after repair is whether the relevant failure now produces th
 
 ## Interpret the result without awarding yourself a title
 
-Maya's successful repaired rehearsal would support a concrete statement: the selected current workflow can be reconstructed from its package, its source and authority relationships remain inspectable, and the supplied cases produce acceptable reviewed outputs in the tested environment. Any provider comparison adds only the behavior actually observed there.
+Audy's successful repaired rehearsal would support a concrete statement: the selected current workflow can be reconstructed from its package, its source and authority relationships remain inspectable, and the supplied cases produce acceptable reviewed outputs in the tested environment. Any provider comparison adds only the behavior actually observed there.
 
 The result would not establish independent control over every infrastructure dependency, secure unattended operation, or a financially sustainable solo enterprise. Those are broader questions. This chapter prepares evidence relevant to sovereignty; it does not confer the SSA-CMM level of Sovereign Architect.
 
@@ -3111,7 +3111,7 @@ Save the actual observations: which records opened, which relationships resolved
 
 The exercise passes its book-developed practice criteria when the complete package supports the intended task and the deliberate failures produce appropriate holds or scoped refusals. A test that detects its planted defect is working; record the defect and the successful detection without calling the defective package ready for ordinary use.
 
-Without an assistant, explain why an exact copy can preserve the wrong state, why a source cannot authorize unrelated access, and which result would justify continuing after a failure. Maya finishes with `portability-drill-v1` and explicit remaining dependencies. The Memory arc ends with records and procedures she can inspect, challenge, and recover. [Chapter 16](book/chapters/16-from-knowledge-to-capability.md) asks what she can demonstrably do with that foundation.
+Without an assistant, explain why an exact copy can preserve the wrong state, why a source cannot authorize unrelated access, and which result would justify continuing after a failure. Audy finishes with `portability-drill-v1` and explicit remaining dependencies. The Memory arc ends with records and procedures she can inspect, challenge, and recover. [Chapter 16](book/chapters/16-from-knowledge-to-capability.md) asks what she can demonstrably do with that foundation.
 
 ## References
 
@@ -3130,13 +3130,13 @@ The Future Is Solo. (n.d.-a). *The functional life* (Field Manual No. 01). Retri
 
 ## The next claim needs a demonstration
 
-Maya has accumulated a substantial working set. She can find the current instruction, explain its history, retrieve a relevant verdict, and recover a small package in a separate working environment. Those records make her work easier to continue. They also create a temptation: to describe the collection as proof that she can now deliver a reliable service.
+Audy has accumulated a substantial working set. She can find the current instruction, explain its history, retrieve a relevant verdict, and recover a small package in a separate working environment. Those records make her work easier to continue. They also create a temptation: to describe the collection as proof that she can now deliver a reliable service.
 
 The next step is smaller and more useful. She needs to show what she can do with those materials on a fresh task. Can she turn unfamiliar notes into a faithful example action list? Can she identify an error before it enters the workshop brief? Can she explain why the correction is appropriate? Can she distinguish a limit in her procedure from a gap in her understanding?
 
-The System arc begins with these questions because a delegated workflow needs something definite to accomplish. A capable operator can name its intended result and recognize at least the important ways it might fail. Without that judgment, adding an agent would mainly increase the number of outputs Maya must trust without understanding.
+The System arc begins with these questions because a delegated workflow needs something definite to accomplish. A capable operator can name its intended result and recognize at least the important ways it might fail. Without that judgment, adding an agent would mainly increase the number of outputs Audy must trust without understanding.
 
-Fieldwork remains a fictional prospective business. The immediate demonstration concerns preparing and reviewing workshop-design material. Commercial demand and learner performance will require different evidence.
+Himura Inc. remains a fictional prospective business. The immediate demonstration concerns preparing and reviewing workshop-design material. Commercial demand and learner performance will require different evidence.
 
 Open your capability baseline from Chapter 1. Compare the operation you described then with the one you can now attempt. Do not begin by changing your maturity label. Begin by choosing an example that will let another person see the difference.
 
@@ -3144,9 +3144,9 @@ Open your capability baseline from Chapter 1. Compare the operation you describe
 
 “Good at AI” is difficult to demonstrate. “Able to prepare a reviewed action list from supplied notes without inventing agreements, owners, or dates” points to a task, an input, a standard, and a result. You can inspect whether the claim is supported.
 
-Maya adds the conditions. She uses her saved instructions and an assistant for drafting. She performs the final source comparison herself. When the notes contain an unresolved conflict, the output must preserve it and request clarification. The capability does not include obtaining that clarification or contacting a participant.
+Audy adds the conditions. She uses her saved instructions and an assistant for drafting. She performs the final source comparison herself. When the notes contain an unresolved conflict, the output must preserve it and request clarification. The capability does not include obtaining that clarification or contacting a participant.
 
-These boundaries make the claim stronger because they make it testable. A reviewer can check a supplied packet rather than debate whether Maya has become a generally capable founder.
+These boundaries make the claim stronger because they make it testable. A reviewer can check a supplied packet rather than debate whether Audy has become a generally capable founder.
 
 Use a verb that corresponds to work someone could inspect: identify, compare, prepare, diagnose, revise, explain, or operate. Then name what the verb acts on. “Understand research” can become “compare a proposed conclusion with the methods and results actually reported in an eligible paper.” “Build systems” can become “restart this bounded workflow from its saved inputs and recover from a missing dependency.”
 
@@ -3158,11 +3158,11 @@ The [capability demonstration](book/artifacts/16-capability-demonstration.md) st
 
 A professional can be capable while using references, colleagues, calculators, and software. The relevant question is which parts of the performance depend on those aids and which judgments the person must exercise. Pretending that all work should be unaided would make the demonstration less representative of actual practice.
 
-Maya does not need to memorize every version identifier or research reference. She does need to recognize why a suggestion is not an agreement, why a source citation can point to a sentence that does not support the claim, and why a date conflict cannot be resolved from presentation order alone. These judgments guide the use of her external records.
+Audy does not need to memorize every version identifier or research reference. She does need to recognize why a suggestion is not an agreement, why a source citation can point to a sentence that does not support the claim, and why a date conflict cannot be resolved from presentation order alone. These judgments guide the use of her external records.
 
 She therefore records the conditions of each attempt. One short explanation is written before opening the files. A task attempt uses the authorized working packet and the assistant. A review checks the output against the actual input. These observations answer different questions and can all be valuable.
 
-The unaided explanation might reveal a gap that the assisted performance conceals. Suppose Maya says the rule is “leave uncertain fields blank.” Her records are more precise: preserve useful supplied information, identify what remains unresolved, and distinguish missing details from conflicting claims. She can correct her explanation before relying on it to judge a difficult case.
+The unaided explanation might reveal a gap that the assisted performance conceals. Suppose Audy says the rule is “leave uncertain fields blank.” Her records are more precise: preserve useful supplied information, identify what remains unresolved, and distinguish missing details from conflicting claims. She can correct her explanation before relying on it to judge a difficult case.
 
 Rozenblit and Keil's experiments showed how attempting a detailed explanation could expose limits in people's earlier ratings of their explanatory understanding. The study concerned judgments about explanation, not AI-assisted business performance. It offers a reason to test an explanation through the act of producing it; the demonstration used here is this book's adaptation. ([Rozenblit & Keil, 2002](https://doi.org/10.1207/s15516709cog2605_1))
 
@@ -3170,7 +3170,7 @@ Do not make the unaided part a contest in recalling irrelevant details. Choose t
 
 ## Choose a fresh input for a specific reason
 
-A fresh input should challenge a meaningful relationship, not merely change the names. Maya's earlier examples separately examined suggestions, missing owners, vague timing, and conflicting dates. The new packet combines those conditions in a short set of notes.
+A fresh input should challenge a meaningful relationship, not merely change the names. Audy's earlier examples separately examined suggestions, missing owners, vague timing, and conflicting dates. The new packet combines those conditions in a short set of notes.
 
 Its first item supplies an agreed action, named owner, and explicit Tuesday deadline. A second item proposes asking a library about a larger room but assigns nobody. Two passages give Thursday and Friday for the same handout, with no established supersession. A final item agrees to shorten the opening discussion without assigning an owner or date.
 
@@ -3186,13 +3186,13 @@ Begin with a change you can interpret. Preserve the old cases as checks on behav
 
 ## Write the expected properties before the response
 
-An expected result need not be one exact answer. Maya's criteria allow faithful paraphrases. They require the same underlying agreements, suggestions, owners, timing, and uncertainty to survive. The wording can differ while the meaning remains inspectable.
+An expected result need not be one exact answer. Audy's criteria allow faithful paraphrases. They require the same underlying agreements, suggestions, owners, timing, and uncertainty to survive. The wording can differ while the meaning remains inspectable.
 
 She writes those properties before asking for a draft. This gives her review an anchor independent of the candidate's confidence or organization. If a response proposes a better structure, she can adopt it while keeping the source requirements intact.
 
 For each item, she identifies the relevant lines. This small preparation step makes the later comparison possible. A source number without an inspected supporting passage would only decorate the answer. The reviewer must still ask whether the cited words establish the claimed relationship.
 
-Write at least one unacceptable result that might look reasonable. Maya's packet anticipates an invented owner for the library inquiry and an unsupported choice between the two handout dates. Another reader might anticipate a summary that omits a consequential exception or a program that returns a result from the wrong input file.
+Write at least one unacceptable result that might look reasonable. Audy's packet anticipates an invented owner for the library inquiry and an unsupported choice between the two handout dates. Another reader might anticipate a summary that omits a consequential exception or a program that returns a result from the wrong input file.
 
 Include a stopping condition. If the required source is missing, the demonstration should show a hold on source-dependent work. If the available instruction does not cover an important new authority question, preserve that gap. Producing a plausible answer at any cost would demonstrate a different behavior from the one you intend to claim.
 
@@ -3204,17 +3204,17 @@ The constructed first candidate in the artifact is nearly right. It preserves th
 
 The cited line does not support either change. It says the group suggested the inquiry and nobody accepted the task. The coordinator appears in a different source item about uploading slides. The candidate has carried a legitimate owner into the wrong relationship.
 
-Maya rejects that row and retains the supported work. This is a useful judgment because it identifies the exact defect rather than dismissing the whole output or accepting it because the conflict row looks sophisticated. A good result on one difficult-looking part does not settle the remaining parts.
+Audy rejects that row and retains the supported work. This is a useful judgment because it identifies the exact defect rather than dismissing the whole output or accepting it because the conflict row looks sophisticated. A good result on one difficult-looking part does not settle the remaining parts.
 
 She then inspects the instruction that was supplied. It is the approved `instructions-v3`. It already says to distinguish agreements from suggestions and use owners only when supported. The diagnosis therefore differs from Chapter 7's incomplete migration. Here the relevant rule is present and the candidate violates it.
 
-That evidence does not reveal an internal cause in a real model. Maya should not assert that the system “forgot” the rule or “reasoned” in a particular way merely because the output is wrong. She can identify what was supplied, what was produced, and which requirement failed. A causal explanation may require another comparison.
+That evidence does not reveal an internal cause in a real model. Audy should not assert that the system “forgot” the rule or “reasoned” in a particular way merely because the output is wrong. She can identify what was supplied, what was produced, and which requirement failed. A causal explanation may require another comparison.
 
 Preserve the first candidate in your actual demonstration. Replacing it with the corrected table removes evidence about the work needed to reach acceptance. It also makes later claims about speed, review burden, and reliability harder to assess.
 
 ## Choose a repair that matches the evidence
 
-Correcting the row fixes this candidate. Improving the procedure is a separate proposal. Maya considers making source extraction visible before formatting: identify each statement's status and supported details, then assemble the action list from that inspected material.
+Correcting the row fixes this candidate. Improving the procedure is a separate proposal. Audy considers making source extraction visible before formatting: identify each statement's status and supported details, then assemble the action list from that inspected material.
 
 The proposed change may help a reviewer notice a borrowed owner. It may also add time or introduce another place where information can be lost. She should try it on a new input and inspect the result before calling it an improvement.
 
@@ -3232,7 +3232,7 @@ A tool can help substantially on one task and mislead on another that appears ne
 
 In a field experiment with consultants, Dell’Acqua and colleagues found benefits on tasks within the studied AI capability frontier and worse correctness on a selected task outside it. The published study concerns specific participants, tasks, and technology; its boundary is not a permanent map of today's tools. Its practical relevance here is the need to examine a plausible failure case alongside the task you expect to benefit. ([Dell’Acqua et al., 2026](https://doi.org/10.1287/orsc.2025.21838))
 
-Maya's synthetic task has its own provisional boundary. The instructions cover supplied commitments, suggestions, missing details, vague timing, and unresolved deadline conflicts. They have not established a complete procedure for interpreting an explicitly authorized amendment or deciding whether a real person had authority to make it. Those conditions require further work.
+Audy's synthetic task has its own provisional boundary. The instructions cover supplied commitments, suggestions, missing details, vague timing, and unresolved deadline conflicts. They have not established a complete procedure for interpreting an explicitly authorized amendment or deciding whether a real person had authority to make it. Those conditions require further work.
 
 A useful boundary statement identifies what to do when the input reaches the edge. Preserve the evidence, identify the unresolved question, and route it to the responsible person. A workflow can be useful while holding cases outside its supported scope. Its value depends partly on how accurately it recognizes those cases.
 
@@ -3242,7 +3242,7 @@ Keep examples of both acceptable and unacceptable behavior in the review set. A 
 
 ## Count the work needed to reach an acceptable result
 
-A demonstration that records only generation time leaves out much of the operation. Maya had to assemble the input, retrieve the instruction, write expected properties, inspect the candidate, correct a row, and decide what to test next. Those activities are part of the effort required to produce a reviewed example.
+A demonstration that records only generation time leaves out much of the operation. Audy had to assemble the input, retrieve the instruction, write expected properties, inspect the candidate, correct a row, and decide what to test next. Those activities are part of the effort required to produce a reviewed example.
 
 Record preparation, production, review, and repair separately when effort matters. A reusable instruction may reduce preparation after its initial creation. A new type of input may increase review. Keeping those parts visible helps you identify where the next improvement would matter.
 
@@ -3252,7 +3252,7 @@ Also record who performed the judgment. An experienced reviewer may catch a defe
 
 Do not infer a commercial margin from this exercise. The time needed to prepare synthetic materials excludes acquiring a customer, understanding a real brief, obtaining appropriate inputs, agreeing scope, and supporting a delivery. Later chapters will connect capability with those business operations. For now, the record can reveal an internal bottleneck without pretending to price a complete service.
 
-A slower attempt can still be useful during learning. Perhaps Maya now understands why the owner was unsupported and can diagnose the same defect elsewhere. Record that learning outcome separately from an efficiency claim. You need not force every valuable exercise to prove immediate time savings.
+A slower attempt can still be useful during learning. Perhaps Audy now understands why the owner was unsupported and can diagnose the same defect elsewhere. Record that learning outcome separately from an efficiency claim. You need not force every valuable exercise to prove immediate time savings.
 
 ## Make the demonstration legible to another person
 
@@ -3270,7 +3270,7 @@ A demonstration becomes useful beyond the immediate task when its limits are as 
 
 The current TFIS homepage describes a progression from operating tasks with AI assistance to orchestrating workflows and supervising agents. Those labels direct attention to changes in responsibility. This book asks you to support such changes with work another person can inspect; its exercises are not official certification. ([The Future Is Solo, n.d.-b](https://thefutureissolo.com/))
 
-Maya's demonstration does not justify unattended delivery. It can justify a more structured rehearsal: let an assistant carry a bounded sequence from supplied input to a review packet, while Maya retains the final judgment. The next chapter will make that delegation concrete through a task contract and defined stopping conditions.
+Audy's demonstration does not justify unattended delivery. It can justify a more structured rehearsal: let an assistant carry a bounded sequence from supplied input to a review packet, while Audy retains the final judgment. The next chapter will make that delegation concrete through a task contract and defined stopping conditions.
 
 Readiness for that step concerns more than one correct answer. Can you specify what the workflow may read and produce? Can you tell when the required input is missing? Can you review its output without reconstructing the whole task? Can you stop or repair an attempt that violates a requirement?
 
@@ -3280,17 +3280,17 @@ You may also choose to keep a task human-led. If it happens rarely, depends on d
 
 ### Choose between three possible next tasks
 
-Suppose Maya must decide what to attempt tomorrow. She could prepare another example herself with assistance, rehearse a delegated sequence, or promise an unattended service. Each choice places a different demand on the evidence she has just produced. The useful comparison names that demand rather than assigning her a broad confidence score.
+Suppose Audy must decide what to attempt tomorrow. She could prepare another example herself with assistance, rehearse a delegated sequence, or promise an unattended service. Each choice places a different demand on the evidence she has just produced. The useful comparison names that demand rather than assigning her a broad confidence score.
 
 | Possible next responsibility | What the demonstration supports | What still needs to happen |
 | --- | --- | --- |
-| Prepare another internal example with assistance | Maya located a source error and explained a faithful correction. | Use a changed input, retain the first candidate, and check every represented item against its source. |
+| Prepare another internal example with assistance | Audy located a source error and explained a faithful correction. | Use a changed input, retain the first candidate, and check every represented item against its source. |
 | Rehearse a bounded delegated sequence | She can supply a current instruction, expected properties, and a precise repair request. | Define allowed inputs and outputs, run the sequence, and inspect its actual stopping and handoff behavior. |
 | Deliver unattended to a buyer | The corrected teaching specimen supplies no direct evidence for this responsibility. | Establish an agreed service, demonstrate the operating behavior, and explicitly decide who may make the external commitment. |
 
-The second row is the productive stretch for the next chapter. Maya need not wait until she can support the third row before learning how delegation behaves. A rehearsal creates room to discover a missing input or a bad handoff while the result is still an internal candidate. That narrower next step has a clear purpose: produce the evidence that the present demonstration lacks.
+The second row is the productive stretch for the next chapter. Audy need not wait until she can support the third row before learning how delegation behaves. A rehearsal creates room to discover a missing input or a bad handoff while the result is still an internal candidate. That narrower next step has a clear purpose: produce the evidence that the present demonstration lacks.
 
-Notice that the first row remains useful work. Repeating a human-reviewed task with different inputs may reveal whether the rule violation recurs and how much correction costs. If review consumes most of the time, Maya should investigate that cost before adding coordination. If the task cannot yet be specified clearly, drafting the contract may expose the ambiguity before any agent runs. In either case, the next responsibility follows the observed gap.
+Notice that the first row remains useful work. Repeating a human-reviewed task with different inputs may reveal whether the rule violation recurs and how much correction costs. If review consumes most of the time, Audy should investigate that cost before adding coordination. If the task cannot yet be specified clearly, drafting the contract may expose the ambiguity before any agent runs. In either case, the next responsibility follows the observed gap.
 
 ## Demonstrate capability in your own field
 
@@ -3312,7 +3312,7 @@ Record the defect if one appears. Inspect the actual instruction and input befor
 
 Ask another reader to inspect the chain of evidence when possible. Revise your capability statement to match what the demonstration actually supports. Include the help used and the next condition you have not tested. If the attempt fails, the resulting boundary and repair can still be valuable progress.
 
-Maya can now state a specific next responsibility: rehearse a bounded assisted workflow that produces a source-linked draft and review packet, with her final judgment retained. [Chapter 17](book/chapters/17-the-agentic-workforce.md) turns that responsibility into a delegation contract someone—or an AI agent—can follow.
+Audy can now state a specific next responsibility: rehearse a bounded assisted workflow that produces a source-linked draft and review packet, with her final judgment retained. [Chapter 17](book/chapters/17-the-agentic-workforce.md) turns that responsibility into a delegation contract someone—or an AI agent—can follow.
 
 ## References
 
@@ -3335,23 +3335,23 @@ The Future Is Solo. (n.d.-b). *The future is solo*. Retrieved September 10, 2026
 
 ## Give away a task you can still describe
 
-Maya is ready to stop explaining every step of Fieldwork's action-list practice from the beginning. She can locate the current instructions, recover their reasons, and inspect a fresh output against supplied evidence. Chapter 16's capability demonstration has also made the limits of transfer visible.
+Audy is ready to stop explaining every step of Himura Inc.'s action-list practice from the beginning. She can locate the current instructions, recover their reasons, and inspect a fresh output against supplied evidence. Chapter 16's capability demonstration has also made the limits of transfer visible.
 
-She considers asking an assistant to “take over workshop preparation.” The request sounds efficient, but it leaves too much undecided. Does preparation include choosing learning objectives, changing the current instructions, looking for customers, contacting a venue, or approving an exercise? A capable assistant could interpret the phrase in several plausible ways, none of which would establish Maya's permission for every action.
+She considers asking an assistant to “take over workshop preparation.” The request sounds efficient, but it leaves too much undecided. Does preparation include choosing learning objectives, changing the current instructions, looking for customers, contacting a venue, or approving an exercise? A capable assistant could interpret the phrase in several plausible ways, none of which would establish Audy's permission for every action.
 
 She chooses a smaller delegation: turn one supplied synthetic note packet into a candidate action list, check each consequential field against the source, attempt a bounded repair when appropriate, and return an evidence packet for her review. The result supports workshop design. It does not deliver a workshop or contact anyone.
 
-Maya and Fieldwork remain fictional. The continuing workshop is a thirty-minute exercise for adult learners, and its business value remains unvalidated. The examples in this chapter are authored teaching specimens, not transcripts establishing a model's performance. You will use the same procedure to record an actual attempt of your own.
+Audy and Himura Inc. remain fictional. The continuing workshop is a thirty-minute exercise for adult learners, and its business value remains unvalidated. The examples in this chapter are authored teaching specimens, not transcripts establishing a model's performance. You will use the same procedure to record an actual attempt of your own.
 
 The [delegation contract](book/artifacts/17-delegation-contract.md) makes the task concrete. It connects the instructions, memory, and review practices you already have. You are not hiring an imaginary team. You are deciding which work a system may perform and what evidence must accompany its return.
 
 ## Distinguish a workflow from freedom to choose the work
 
-A workflow connects steps toward an outcome. In the early chapters, Maya performed much of the coordination herself: choose an input, request a draft, compare it with the source, and decide what to retain. Delegation gives another actor responsibility for some of that sequence within stated boundaries.
+A workflow connects steps toward an outcome. In the early chapters, Audy performed much of the coordination herself: choose an input, request a draft, compare it with the source, and decide what to retain. Delegation gives another actor responsibility for some of that sequence within stated boundaries.
 
 The word agent is used broadly. Anthropic's guide draws a useful architectural distinction between workflows that follow predefined paths and agents that dynamically direct their processes and tool use. It recommends starting with simple arrangements and adding complexity when the task warrants it. These are engineering recommendations, not a controlled proof that one architecture is universally best. ([Erik S. & Zhang, 2024](https://www.anthropic.com/engineering/building-effective-agents))
 
-Maya's first arrangement can remain a fixed workflow. The assistant checks the packet, drafts, compares, and returns the result. A later version might choose which evidence to retrieve or which bounded repair to attempt. That discretion would still operate inside the task contract; it would not create permission to change the objective.
+Audy's first arrangement can remain a fixed workflow. The assistant checks the packet, drafts, compares, and returns the result. A later version might choose which evidence to retrieve or which bounded repair to attempt. That discretion would still operate inside the task contract; it would not create permission to change the objective.
 
 A person manually moving between these steps can learn the same boundaries before using an automated tool. The manual arrangement is not evidence that an autonomous agent has been deployed. It is a usable procedure whose handoffs, failures, and costs can be inspected.
 
@@ -3359,13 +3359,13 @@ Choose the degree of discretion by the work. If the next action is obvious and f
 
 ## Name the outcome in terms of a usable object
 
-“Help with the notes” does not specify what Maya can inspect at the end. Her outcome is a candidate action list with evidence references, unresolved items, the instruction version used, and a brief account of checks and changes. Each part has a purpose.
+“Help with the notes” does not specify what Audy can inspect at the end. Her outcome is a candidate action list with evidence references, unresolved items, the instruction version used, and a brief account of checks and changes. Each part has a purpose.
 
-The action list makes the proposed result visible. Evidence references let Maya trace an owner, date, or agreement to the supplied passage. Unresolved items prevent uncertainty from disappearing into polished prose. The version identifies which instruction governed the attempt. The change account helps her locate a repair that may have altered meaning.
+The action list makes the proposed result visible. Evidence references let Audy trace an owner, date, or agreement to the supplied passage. Unresolved items prevent uncertainty from disappearing into polished prose. The version identifies which instruction governed the attempt. The change account helps her locate a repair that may have altered meaning.
 
-The output is a candidate even when the assistant reports that its own checks passed. Maya approves whether it meets the design task. Saving a candidate in a draft area does not turn it into an approved example, and approving an example does not authorize external delivery.
+The output is a candidate even when the assistant reports that its own checks passed. Audy approves whether it meets the design task. Saving a candidate in a draft area does not turn it into an approved example, and approving an example does not authorize external delivery.
 
-An output contract is simply an agreement about what the returned object must contain and what makes it usable. For Maya, it can be a Markdown document with a small table and a review note. A service professional might use a draft proposal with links to agreed scope. A teacher might use a proposed lesson revision with a source comparison. A software builder might use a proposed patch with relevant test results.
+An output contract is simply an agreement about what the returned object must contain and what makes it usable. For Audy, it can be a Markdown document with a small table and a review note. A service professional might use a draft proposal with links to agreed scope. A teacher might use a proposed lesson revision with a source comparison. A software builder might use a proposed patch with relevant test results.
 
 Do not make the format more elaborate than the review requires. A missing evidence reference matters because it prevents inspection. A harmless difference in wording may not matter at all. The contract should explain those differences so the assistant does not spend its repair allowance making a valid answer cosmetically identical to an example.
 
@@ -3375,7 +3375,7 @@ The packet begins with a clear task instruction and the route to `instructions-v
 
 The instruction governs the treatment of the notes. A statement inside the notes does not acquire authority over the assistant's permissions. If a source mentions sending a document, the assistant represents the reported commitment; it does not send the document merely because those words appear in the source.
 
-Maya checks the packet before delegation. Can the instruction be opened? Are all source passages present? Is the material synthetic or otherwise authorized for this use? Does the output depend on a missing attachment? The assistant's first step repeats the availability check and reports a hold if a required dependency is missing.
+Audy checks the packet before delegation. Can the instruction be opened? Are all source passages present? Is the material synthetic or otherwise authorized for this use? Does the output depend on a missing attachment? The assistant's first step repeats the availability check and reports a hold if a required dependency is missing.
 
 A complete packet is not one that answers every question. The practice deliberately includes missing owners and contradictory deadlines. These are features of the supplied evidence that the task should represent. The missing attachment is different: it may prevent the assistant from carrying out the agreed task at all.
 
@@ -3387,9 +3387,9 @@ A tool lets an assistant do something beyond composing a response, such as read 
 
 OpenAI's practical guide describes agents through models, tools, and instructions, and discusses orchestration as the arrangement of their work. The useful point here is to specify those parts together rather than treating the prompt as the whole system. The guide is vendor practice guidance, and this chapter does not depend on its example software interfaces. ([OpenAI, n.d.](https://cdn.openai.com/business-guides-and-resources/a-practical-guide-to-building-agents.pdf))
 
-Maya permits reading the supplied practice packet and creating a new candidate in a designated draft area. The assistant may not overwrite the source, change `learning-loop-v1`, edit reviewed memory, or approve its own result. No external communication or publication belongs to this task.
+Audy permits reading the supplied practice packet and creating a new candidate in a designated draft area. The assistant may not overwrite the source, change `learning-loop-v1`, edit reviewed memory, or approve its own result. No external communication or publication belongs to this task.
 
-The no-code version is simpler still. Maya supplies the selected text in a conversation and asks for the candidate as a response. She saves the response in the draft area herself. This removes the need to give the assistant file-writing access while preserving the same output and review contract.
+The no-code version is simpler still. Audy supplies the selected text in a conversation and asks for the candidate as a response. She saves the response in the draft area herself. This removes the need to give the assistant file-writing access while preserving the same output and review contract.
 
 If a tool cannot limit access to the intended area, acknowledge that the written rule is being supervised rather than technically enforced. Use a small isolated practice set or keep the operation manual. A broad connection to a personal account is not necessary to learn bounded delegation.
 
@@ -3403,17 +3403,17 @@ The checking step compares consequential fields with their support. For each act
 
 The workflow then allows one bounded repair of a detected defect in the candidate. That is an illustrative limit for this small exercise, not a universally optimal number. The repair may change the candidate to follow the established instructions. It may not change the instructions to make the candidate pass.
 
-Finally, the assistant returns the candidate and evidence packet. It states which checks it performed, what it changed, and what remains unresolved. If the result still violates a material criterion after the allowed repair, it holds the candidate for Maya rather than repeating indefinitely.
+Finally, the assistant returns the candidate and evidence packet. It states which checks it performed, what it changed, and what remains unresolved. If the result still violates a material criterion after the allowed repair, it holds the candidate for Audy rather than repeating indefinitely.
 
-This sequence gives Maya specific places to inspect. A wrong date may arise during drafting; an unsupported pass claim may arise during checking; a lost source reference may arise during repair. Knowing which step failed makes the next intervention more precise than asking the entire system to be more careful.
+This sequence gives Audy specific places to inspect. A wrong date may arise during drafting; an unsupported pass claim may arise during checking; a lost source reference may arise during repair. Knowing which step failed makes the next intervention more precise than asking the entire system to be more careful.
 
 ## Work through one complete synthetic packet
 
 The chapter's practice packet has five short source lines. One says the group agreed that the facilitator would circulate the exercise brief on Thursday. Another suggests asking the venue about a quieter room, without recording a decision. A third records agreement to shorten the introduction “soon,” without assigning an owner. Two more give conflicting Tuesday and Wednesday deadlines for the facilitator to circulate a separate revised action list, with no evidence that either supersedes the other.
 
-These lines combine distinctions Maya has already examined. The exercise brief and revised action list are separate objects. A careless answer might merge them because both involve circulation. Another might treat the quieter-room suggestion as an agreed action. Another might turn “soon” into Friday or select Wednesday because it appears later.
+These lines combine distinctions Audy has already examined. The exercise brief and revised action list are separate objects. A careless answer might merge them because both involve circulation. Another might treat the quieter-room suggestion as an agreed action. Another might turn “soon” into Friday or select Wednesday because it appears later.
 
-The authored first candidate in the companion practice packet makes the suggestion error: it lists contacting the venue as agreed and assigns the facilitator. Its checking note initially overlooks the status change. Maya can inspect the literal source and identify the unsupported fields herself.
+The authored first candidate in the companion practice packet makes the suggestion error: it lists contacting the venue as agreed and assigns the facilitator. Its checking note initially overlooks the status change. Audy can inspect the literal source and identify the unsupported fields herself.
 
 The repaired specimen labels the venue item as a suggestion with no owner or deadline established. It preserves the agreed shorter introduction with owner unspecified and timing “soon.” It retains the separate revised-action-list commitment while displaying the Tuesday/Wednesday conflict and a clarification request.
 
@@ -3423,11 +3423,11 @@ The complete artifact includes the source, candidate, defect note, repaired cand
 
 The previous chapter already exposed a familiar error: promoting a suggestion and attaching an unsupported owner. Its appearance in another authored specimen does not call for a new slogan about accuracy. It asks whether the delegated comparison step actually examines the evidence that would reveal it.
 
-Maya separates extraction from formatting in the practice procedure. Before arranging the final table, the assistant identifies what each source line establishes: the object, whether the statement is an agreement or suggestion, the named owner if any, and the timing as written. That intermediate extraction is a candidate too. The human can inspect it when diagnosing a failure.
+Audy separates extraction from formatting in the practice procedure. Before arranging the final table, the assistant identifies what each source line establishes: the object, whether the statement is an agreement or suggestion, the named owner if any, and the timing as written. That intermediate extraction is a candidate too. The human can inspect it when diagnosing a failure.
 
 The checking step compares the final table against both the original source and that extraction. If the extraction itself promoted the suggestion, a comparison only against the extraction would preserve the defect. The original source therefore remains available throughout the sequence.
 
-A check note should distinguish a performed comparison from an intended one. “Checked status against L2; L2 says suggested, so changed agreed to suggestion” states an inspectable correction. “All checks passed” does not reveal whether the crucial comparison occurred. Maya does not need a long explanation for every obvious field, but she needs enough support to evaluate consequential claims.
+A check note should distinguish a performed comparison from an intended one. “Checked status against L2; L2 says suggested, so changed agreed to suggestion” states an inspectable correction. “All checks passed” does not reveal whether the crucial comparison occurred. Audy does not need a long explanation for every obvious field, but she needs enough support to evaluate consequential claims.
 
 The process remains a hypothesis about better task organization until tried on fresh material. Source extraction can make a failure easier to see; it can also add effort or introduce another mistaken intermediate representation. Record whether the changed workflow helps in your own attempts, including the review time required.
 
@@ -3435,17 +3435,17 @@ The process remains a hypothesis about better task organization until tried on f
 
 A useful stop condition names an observable event and the action that follows. “Stop if something seems risky” asks the assistant to invent your policy. “If the current instruction cannot be read, return the missing location and do not generate a substitute instruction” tells it what to do.
 
-For this workflow, a missing required source triggers a hold on normal drafting. A request to change authoritative memory is outside the contract and returns to Maya. A remaining material defect after the one repair allowance produces a held candidate with the evidence of the defect. A contradiction that the instructions already cover produces a candidate containing an unresolved field; it does not require pretending that the whole task failed.
+For this workflow, a missing required source triggers a hold on normal drafting. A request to change authoritative memory is outside the contract and returns to Audy. A remaining material defect after the one repair allowance produces a held candidate with the evidence of the defect. A contradiction that the instructions already cover produces a candidate containing an unresolved field; it does not require pretending that the whole task failed.
 
 The return from a hold should be useful. State the blocked operation, the missing evidence or decision, what has already been completed, and the smallest next action a human can take. “Cannot proceed” is less useful than “The notes refer to an attachment that is absent; the candidate cannot establish the attachment's owner assignments.”
 
-OpenAI's guide recommends planning human intervention for failure thresholds and consequential actions. Maya's specific limits are the book's application of that principle to a reversible design task. ([OpenAI, n.d.](https://cdn.openai.com/business-guides-and-resources/a-practical-guide-to-building-agents.pdf))
+OpenAI's guide recommends planning human intervention for failure thresholds and consequential actions. Audy's specific limits are the book's application of that principle to a reversible design task. ([OpenAI, n.d.](https://cdn.openai.com/business-guides-and-resources/a-practical-guide-to-building-agents.pdf))
 
 Do not treat a hold as a demand that the user approve every imaginable next step. If the missing file can be supplied within the already authorized scope, the workflow can resume after that repair. If the task requires a new judgment or a broader permission, that decision remains with the human. The contract should distinguish routine continuation from a change in authority.
 
 ## Ask for an evidence packet, not a confidence performance
 
-An assistant may produce a reassuring statement that every requirement was satisfied. That statement is easier to evaluate when it points to the evidence for each important requirement. Confidence without support adds little to Maya's review.
+An assistant may produce a reassuring statement that every requirement was satisfied. That statement is easier to evaluate when it points to the evidence for each important requirement. Confidence without support adds little to Audy's review.
 
 The evidence packet identifies the instruction version, source lines used, candidate location, checks performed, corrections made, and unresolved matters. It links each established owner and date to a source passage. For missing or conflicting information, it explains the absence or contradiction rather than supplying an empty citation.
 
@@ -3453,19 +3453,19 @@ This does not require the assistant to reveal a private internal reasoning trans
 
 The packet should also state what was not checked when that limit matters. The workflow can check whether the synthetic notes support an action list. It cannot establish whether the underlying meeting really happened, whether the participants will carry out the actions, or whether the workshop will improve learning.
 
-Maya reads the source beside the candidate rather than reading only the assistant's review note. The packet makes that comparison affordable. It organizes evidence for judgment; it does not replace judgment with another generated conclusion.
+Audy reads the source beside the candidate rather than reading only the assistant's review note. The packet makes that comparison affordable. It organizes evidence for judgment; it does not replace judgment with another generated conclusion.
 
 ## Keep completion separate from acceptance
 
 A delegated attempt can finish its authorized sequence while returning a held or rejected candidate. That is still a useful completion if the contract required it to expose the failure. Conversely, an attractive candidate can appear while the workflow remains incomplete because required evidence or saved-state checks are missing.
 
-Maya records these states separately. The assistant returned a draft and comparison note; Maya found a defect; the allowed repair addressed it; the revised result is awaiting human review. She then records her own verdict against the returned object. “Accepted for this synthetic design example” does not become “validated for learner delivery.”
+Audy records these states separately. The assistant returned a draft and comparison note; Audy found a defect; the allowed repair addressed it; the revised result is awaiting human review. She then records her own verdict against the returned object. “Accepted for this synthetic design example” does not become “validated for learner delivery.”
 
-The distinction also matters when a tool saves the candidate. A response saying that a file was saved is not the same as the file being present. The review opens the actual destination and confirms its content. If Maya saved it manually, she performs the same reopening check.
+The distinction also matters when a tool saves the candidate. A response saying that a file was saved is not the same as the file being present. The review opens the actual destination and confirms its content. If Audy saved it manually, she performs the same reopening check.
 
 Anthropic's evaluation guidance distinguishes the transcript of an attempt from the resulting state in the environment. This book applies that distinction to the draft and evidence packet: inspect the objects the next step will use, alongside the account of how they were produced. ([Grace et al., 2026](https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents))
 
-Acceptance should identify the scope in which the result may be used. Maya can approve an example for further design work while withholding claims about instructional effectiveness. That narrower verdict is sufficient for the next authorized step and leaves the larger uncertainty visible.
+Acceptance should identify the scope in which the result may be used. Audy can approve an example for further design work while withholding claims about instructional effectiveness. That narrower verdict is sufficient for the next authorized step and leaves the larger uncertainty visible.
 
 ## Rehearse the failure paths before expanding the task
 
@@ -3477,17 +3477,17 @@ Also test whether the system stops after its repair allowance. A task that loops
 
 Passing these exercises provides evidence about the particular packet, environment, and behavior tested. It does not establish that every adversarial input or ambiguous request will be handled correctly. Broaden the evaluation when a new use introduces new sources, tools, or consequences.
 
-The human review has a failure path too. If Maya cannot determine whether a claim is supported, the result stays held. She may inspect the source directly, narrow the task, or seek the relevant expertise. Delegation should make that need visible before the candidate becomes part of authoritative work.
+The human review has a failure path too. If Audy cannot determine whether a claim is supported, the result stays held. She may inspect the source directly, narrow the task, or seek the relevant expertise. Delegation should make that need visible before the candidate becomes part of authoritative work.
 
 ## Resume from a held state without enlarging permission
 
-A delegated workflow may pause while Maya is away. The saved state should let her understand what is waiting without reading every earlier message. It identifies the candidate, the instruction version, the completed steps, and the exact missing input or decision.
+A delegated workflow may pause while Audy is away. The saved state should let her understand what is waiting without reading every earlier message. It identifies the candidate, the instruction version, the completed steps, and the exact missing input or decision.
 
-Suppose the source references a short attachment that was not supplied. The workflow holds drafting and names the dependency. Maya later provides the authorized synthetic attachment. Resuming can repeat the intake check and continue within the existing task contract.
+Suppose the source references a short attachment that was not supplied. The workflow holds drafting and names the dependency. Audy later provides the authorized synthetic attachment. Resuming can repeat the intake check and continue within the existing task contract.
 
-Now suppose the missing information is which conflicting deadline actually applies. Supplying another copy of the same source does not resolve that decision. The workflow can produce the already permitted unresolved candidate, but it cannot infer that Maya's silence selected one date. Elapsed time is not evidence or approval.
+Now suppose the missing information is which conflicting deadline actually applies. Supplying another copy of the same source does not resolve that decision. The workflow can produce the already permitted unresolved candidate, but it cannot infer that Audy's silence selected one date. Elapsed time is not evidence or approval.
 
-If Maya changes the task on return, record the change before continuing. A request to prepare a shorter candidate may stay within the same scope. A request to send it to an external audience changes the operation and requires the relevant destination, content, and authorization to be concrete. The old draft permission cannot silently expand to cover it.
+If Audy changes the task on return, record the change before continuing. A request to prepare a shorter candidate may stay within the same scope. A request to send it to an external audience changes the operation and requires the relevant destination, content, and authorization to be concrete. The old draft permission cannot silently expand to cover it.
 
 The resume procedure also checks whether `instructions-v3` is still current. A held task should not restart under an obsolete version merely because that was the version available when it paused. Identify the difference and decide whether the candidate needs to be regenerated or rechecked. A recoverable handoff preserves continuity while leaving current human direction in control.
 
@@ -3495,11 +3495,11 @@ The resume procedure also checks whether `instructions-v3` is still current. A h
 
 Count the work that remains with you. Preparing the packet, resolving questions, inspecting the result, and repairing failures all consume time. A quick candidate is not automatically a cheaper completed task.
 
-For a short five-line practice note, Maya may spend longer establishing the contract than drafting manually. The setup can still be a useful learning exercise. Reuse becomes worth testing when the same bounded pattern recurs often enough for the setup and maintenance to be justified.
+For a short five-line practice note, Audy may spend longer establishing the contract than drafting manually. The setup can still be a useful learning exercise. Reuse becomes worth testing when the same bounded pattern recurs often enough for the setup and maintenance to be justified.
 
 Record the actual time and attention required during your own attempts. Keep setup separate from recurring operation. Record human review and correction effort, not only the assistant's response time. If the workflow creates more unreviewed candidates than you can inspect, reduce the intake rather than assuming the backlog is productive output.
 
-A task may remain partly manual because human judgment is inexpensive or difficult to specify. Maya might let the assistant prepare the source-linked table while she handles ambiguity directly. That division can be a sound operating choice even if a more autonomous version is technically possible.
+A task may remain partly manual because human judgment is inexpensive or difficult to specify. Audy might let the assistant prepare the source-linked table while she handles ambiguity directly. That division can be a sound operating choice even if a more autonomous version is technically possible.
 
 Later business chapters will connect capacity to demand and unit economics. Here, the question is narrower: does this delegation preserve acceptable behavior while reducing or usefully reallocating effort for a repeated task? Keep the answer tied to observations instead of counting named agents as capacity.
 
@@ -3509,7 +3509,7 @@ A portable contract helps when you use another assistant or working environment.
 
 Test the replacement with the supplied packet and a changed case. Inspect the returned evidence, permitted operations, and stop behavior separately. One system may produce an accurate table but omit the instruction version. Another may preserve the version while selecting an unsupported date. A general impression that both seem competent conceals those differences.
 
-Tool availability can change the procedure. If the new environment cannot write a draft file, return the candidate as text and let Maya save it. If the environment cannot access the authorized source at all, hold the task rather than using a remembered specimen as a substitute.
+Tool availability can change the procedure. If the new environment cannot write a draft file, return the candidate as text and let Audy save it. If the environment cannot access the authorized source at all, hold the task rather than using a remembered specimen as a substitute.
 
 Keep the task's meaning stable during this comparison. Changing the source, the instruction, the tool permissions, and the model at once makes it difficult to determine why behavior changed. When a practical constraint forces several changes, record them and narrow the conclusion accordingly.
 
@@ -3523,7 +3523,7 @@ Calling one prompt “writer” and another “critic” does not guarantee inde
 
 The TFIS experiment deck describes a small Scratchpad experiment using a document template and two manually run harness sessions, followed by a multipane interface experiment. A much larger scale appears as a future question. The reported sequence is useful as an example of exposing coordination before assuming it will scale; it is not evidence that ten thousand agents were operated successfully. ([The Future Is Solo, 2026, slides 12–13](https://docs.google.com/presentation/d/1dvbBGs22QvtGogevZ6f5mf8YQE7WDAPBwYlclhTyctI/edit#slide=id.g3e6bf19dcd5_0_0))
 
-For Maya, the immediate handoff is between a bounded drafting workflow and human review. That is enough to reveal many of the responsibilities a larger arrangement would need. Add a second automated role when you can identify a recurring failure or bottleneck it is intended to address, and test whether it helps.
+For Audy, the immediate handoff is between a bounded drafting workflow and human review. That is enough to reveal many of the responsibilities a larger arrangement would need. Add a second automated role when you can identify a recurring failure or bottleneck it is intended to address, and test whether it helps.
 
 ## Field assignment: delegate one inspectable return
 
@@ -3535,7 +3535,7 @@ Inspect the returned evidence and save a verdict. Reopen any saved draft and con
 
 Without an assistant, explain which decisions you delegated, which remained yours, and what would cause the workflow to stop. Show how the evidence packet lets you detect an invented owner, a promoted suggestion, or a fabricated resolution. If you cannot perform that inspection, narrow the task before widening its permissions.
 
-Maya finishes with `delegation-contract-v1` and an inspectable rehearsal return. `instructions-v3` remains current. The next challenge is the quality and capacity of the human review on which this arrangement depends. [Chapter 18](book/chapters/18-the-human-in-the-loop-principle.md) makes that responsibility specific enough to exercise.
+Audy finishes with `delegation-contract-v1` and an inspectable rehearsal return. `instructions-v3` remains current. The next challenge is the quality and capacity of the human review on which this arrangement depends. [Chapter 18](book/chapters/18-the-human-in-the-loop-principle.md) makes that responsibility specific enough to exercise.
 
 ## References
 
@@ -3558,15 +3558,15 @@ The Future Is Solo. (2026). *The Future Is Solo 20260910* [Google Slides present
 
 ## A reviewer can miss what the assistant missed
 
-The next candidate from Fieldwork's rehearsal looks easier to read. A concise row says the facilitator will circulate the materials on Thursday. The assistant's note says it has removed duplication and checked the dates. Maya glances at the result and marks it accepted for the synthetic design exercise.
+The next candidate from Himura Inc.'s rehearsal looks easier to read. A concise row says the facilitator will circulate the materials on Thursday. The assistant's note says it has removed duplication and checked the dates. Audy glances at the result and marks it accepted for the synthetic design exercise.
 
 Then she opens the source packet beside it. Thursday applies to circulating the exercise brief. Two other passages concern a separate revised action list, with conflicting Tuesday and Wednesday deadlines. The concise row has merged different objects and hidden a conflict that `instructions-v3` requires it to preserve.
 
 The human was present. The candidate was still wrong.
 
-This is an authored fictional review failure, not a measured experiment or a real customer incident. Maya's workshop remains a thirty-minute design proposal. The example matters because it challenges an easy assurance: putting a person at the end of a workflow does not establish that the person performed the judgment the workflow needed.
+This is an authored fictional review failure, not a measured experiment or a real customer incident. Audy's workshop remains a thirty-minute design proposal. The example matters because it challenges an easy assurance: putting a person at the end of a workflow does not establish that the person performed the judgment the workflow needed.
 
-Maya withdraws the acceptance, marks the candidate held, and records why. She keeps the source and the flawed candidate available for review. Nothing was sent to a customer or promoted into a new instruction. Her task now is to make review specific enough that the same reassuring presentation is less likely to substitute for inspection.
+Audy withdraws the acceptance, marks the candidate held, and records why. She keeps the source and the flawed candidate available for review. Nothing was sent to a customer or promoted into a new instruction. Her task now is to make review specific enough that the same reassuring presentation is less likely to substitute for inspection.
 
 The [review-policy artifact](book/artifacts/18-review-policy.md) develops that procedure. It identifies which decisions require attention, what evidence must accompany them, what happens when the reviewer cannot decide, and how much work may enter the queue. It uses the contract from Chapter 17 without creating a separate authority system.
 
@@ -3574,21 +3574,21 @@ The [review-policy artifact](book/artifacts/18-review-policy.md) develops that p
 
 “Human in the loop” describes a relationship, not a completed check. A person might approve the task before it starts, inspect a proposed action before it affects someone, review a draft after creation, or examine outcomes later. These positions serve different purposes.
 
-For Maya's current workflow, the human decides whether a candidate meets the source-based design criteria and may be used in the next rehearsal. She can accept it within that scope, reject it, or request a specific rewrite. She also decides whether a proposed change to the governing instructions is justified. Those are separate decisions; a defect in an output does not automatically warrant rewriting the rule.
+For Audy's current workflow, the human decides whether a candidate meets the source-based design criteria and may be used in the next rehearsal. She can accept it within that scope, reject it, or request a specific rewrite. She also decides whether a proposed change to the governing instructions is justified. Those are separate decisions; a defect in an output does not automatically warrant rewriting the rule.
 
 The decision needs an object. “Looks good” could mean the table is readable, the source claims are supported, or the workshop is ready for learners. A useful verdict names what was inspected and what use it permits. “Accepted as a source-faithful synthetic example for continued workshop design” is narrower and more informative.
 
-It also needs a consequence. A held candidate stays outside the approved set. A rewrite returns to the bounded drafting step. A request to expand the task returns to Maya with the missing decision stated. If every verdict leads to the same onward action, review has become commentary rather than control.
+It also needs a consequence. A held candidate stays outside the approved set. A rewrite returns to the bounded drafting step. A request to expand the task returns to Audy with the missing decision stated. If every verdict leads to the same onward action, review has become commentary rather than control.
 
 Start with the consequential choices in your actual workflow. A solo professional may need to approve an agreed scope, a teaching interpretation, or a release decision. The review policy should identify the particular judgment, the authorized reviewer, and the evidence that can support it.
 
 ## Place review before the consequence it is meant to prevent
 
-A reversible internal draft can often be produced before human inspection when its creation is already authorized. Maya does not need to approve every paragraph before the assistant writes it in the designated draft area. Review after drafting can be both practical and sufficient for that limited action.
+A reversible internal draft can often be produced before human inspection when its creation is already authorized. Audy does not need to approve every paragraph before the assistant writes it in the designated draft area. Review after drafting can be both practical and sufficient for that limited action.
 
 Sending the draft to someone, publishing it, changing a current policy, or committing resources is a different operation. Review after that action cannot prevent its initial consequence. If such an operation belongs to a later task, decide beforehand what authorization and evidence it requires. Approval of the draft's wording alone does not necessarily approve its destination, timing, audience, or associated commitment.
 
-Maya's current contract has no external action. The assistant returns the review packet and stops at the specified boundary. If the source says that a facilitator should circulate a document, that is information to represent in the candidate, not permission for the assistant to circulate anything.
+Audy's current contract has no external action. The assistant returns the review packet and stops at the specified boundary. If the source says that a facilitator should circulate a document, that is information to represent in the candidate, not permission for the assistant to circulate anything.
 
 OpenAI's practical guide identifies failure thresholds and consequential actions as reasons to plan human intervention. The recommendation supports specifying an intervention mechanism; the appropriate timing and authority still depend on the task. ([OpenAI, n.d.](https://cdn.openai.com/business-guides-and-resources/a-practical-guide-to-building-agents.pdf))
 
@@ -3596,55 +3596,55 @@ Do not add approval points merely to make a diagram look cautious. Each one shou
 
 ## Review the evidence that can change the verdict
 
-The candidate, its source, the governing instruction, and the assistant's check note belong together. Maya should not have to reconstruct the packet from several unrelated conversations while the result waits for approval. Review becomes more meaningful when the decisive comparison is easy to perform.
+The candidate, its source, the governing instruction, and the assistant's check note belong together. Audy should not have to reconstruct the packet from several unrelated conversations while the result waits for approval. Review becomes more meaningful when the decisive comparison is easy to perform.
 
 For this task, she inspects the action, its agreement status, the object being acted upon, the owner, the timing, and the cited source. The object matters because “exercise brief” and “revised action list” are not interchangeable. A checklist focused only on whether a date appears can miss that the date was attached to the wrong item.
 
 She reads from source to candidate as well as candidate to source. The first direction reveals omitted agreements, suggestions, and conflicts. The second reveals invented or altered claims. Either direction alone leaves gaps. A neat table with five supported fields can still omit the sixth fact that changes the meaning.
 
-The assistant's check note is useful as a proposed map of the evidence. It is not the evidence itself. If it says “dates verified,” Maya follows the references that establish which date applies to which object. If the references do not answer that question, the packet is incomplete for the decision.
+The assistant's check note is useful as a proposed map of the evidence. It is not the evidence itself. If it says “dates verified,” Audy follows the references that establish which date applies to which object. If the references do not answer that question, the packet is incomplete for the decision.
 
 For a larger task, identify the evidence most likely to change acceptance. A service proposal may need the latest confirmed scope and unresolved exclusions. A lesson revision may need the actual learner response rather than only an interpretation of it. A software review may need a requirement and the observed test outcome. The aim is a packet that supports the reviewer, not one that merely demonstrates how much work the assistant performed.
 
 ## Treat a favorable history as context, not a current verdict
 
-Maya has accumulated useful examples and corrections. That history helps her anticipate defects. It does not entitle the next candidate to automatic acceptance.
+Audy has accumulated useful examples and corrections. That history helps her anticipate defects. It does not entitle the next candidate to automatic acceptance.
 
 The same instruction can behave differently on a new input or after a change in the surrounding workflow. A formatting request can merge distinctions the original draft preserved. A repair can remove one defect while introducing another. A familiar tool can receive a different source type. Review should remain sensitive to those changes rather than relying solely on a record of previous satisfactory outputs.
 
 Research on AI-assisted knowledge work gives a bounded reason for this caution. Dell’Acqua and colleagues studied consulting tasks and found that assistance could improve performance on some tasks while reducing correct solutions on a selected task outside the studied capability frontier. The results concern that experiment, not every current model or every hard problem. ([Dell’Acqua et al., 2026](https://doi.org/10.1287/orsc.2025.21838))
 
-Maya's missed error is not an empirical demonstration of the same effect. It is a teaching example of why a review procedure must inspect the present task. A sequence of good outputs may justify changing how you allocate review effort, but that change should be deliberate and tested.
+Audy's missed error is not an empirical demonstration of the same effect. It is a teaching example of why a review procedure must inspect the present task. A sequence of good outputs may justify changing how you allocate review effort, but that change should be deliberate and tested.
 
 When the input or operation changes materially, identify what the existing evidence no longer covers. You might return to full inspection for the affected fields, use a manual fallback, or narrow the task until the new case is understood. Review history should help you ask better questions about the new result.
 
 ## Make a missed error recoverable
 
-The moment Maya notices the merged row, she changes the candidate's status. It is no longer accepted for further use. She records the original verdict and the correction rather than quietly editing the table and leaving a misleading history of uninterrupted success.
+The moment Audy notices the merged row, she changes the candidate's status. It is no longer accepted for further use. She records the original verdict and the correction rather than quietly editing the table and leaving a misleading history of uninterrupted success.
 
 Her note identifies the defect precisely: two source objects were merged, and the deadline conflict for the revised action list disappeared. It links the flawed row to the three relevant source passages. The current `instructions-v3` already requires preserving those distinctions, so the problem does not justify inventing a new rule version.
 
-Maya requests a rewrite that restores the separate objects and the unresolved conflict. She reviews the revised candidate against the original source, including the rows unaffected by the requested change. This checks that the repair did not promote the quieter-room suggestion or invent an owner for the shorter introduction.
+Audy requests a rewrite that restores the separate objects and the unresolved conflict. She reviews the revised candidate against the original source, including the rows unaffected by the requested change. This checks that the repair did not promote the quieter-room suggestion or invent an owner for the shorter introduction.
 
 She then verifies the stored status and candidate. The flawed specimen remains labeled rejected or superseded in the practice history; the accepted replacement has its own clear identity. If a downstream draft had already used the flawed row, she would inspect that dependency before treating the correction as complete. In this case, no external use occurred.
 
-Recovery has two outputs: a repaired object and a changed understanding of the review failure. Maya's policy now explicitly checks that distinct source objects remain distinct through summarization.
+Recovery has two outputs: a repaired object and a changed understanding of the review failure. Audy's policy now explicitly checks that distinct source objects remain distinct through summarization.
 
 ## Use checks for the questions they can answer
 
 Some checks are mechanical. A program can determine whether a required field is present or whether a listed file exists. Other checks involve interpreting evidence: whether a sentence records an agreement, whether two items concern the same object, or whether a later statement actually supersedes an earlier one.
 
-A completed table can pass a field-presence check while carrying the wrong meaning. Maya's merged row has an action, owner, and date. The defect becomes visible only when those fields are compared with the source objects and their relationships.
+A completed table can pass a field-presence check while carrying the wrong meaning. Audy's merged row has an action, owner, and date. The defect becomes visible only when those fields are compared with the source objects and their relationships.
 
 Model-based review can help surface possible errors, but another model's verdict is still a result to evaluate. It may share assumptions with the drafting model or focus on the same incomplete criteria. Human judgment remains necessary where the task's authority, meaning, or consequences have not been delegated.
 
 Anthropic's evaluation guidance describes different kinds of grading and distinguishes the transcript from the resulting state. The practical implication here is to select checks that match the outcome and inspect the actual object being used. The guide does not make any single grader a universal assurance of correctness. ([Grace et al., 2026](https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents))
 
-Maya uses a simple combination: visible source references, comparison of consequential fields, a check for omissions, and reopening the saved result. She can automate a mechanical check later if repeated work justifies it. That automation should reduce clerical effort without hiding which judgments remain unperformed.
+Audy uses a simple combination: visible source references, comparison of consequential fields, a check for omissions, and reopening the saved result. She can automate a mechanical check later if repeated work justifies it. That automation should reduce clerical effort without hiding which judgments remain unperformed.
 
 ## Make review selective without making it vague
 
-Review need not inspect every feature with equal intensity. The consequence of a wrong owner is different from the consequence of a slightly awkward heading. Maya gives priority to evidence fidelity, authority, unresolved information, and permitted use. She reviews style to the degree required for the intended design task.
+Review need not inspect every feature with equal intensity. The consequence of a wrong owner is different from the consequence of a slightly awkward heading. Audy gives priority to evidence fidelity, authority, unresolved information, and permitted use. She reviews style to the degree required for the intended design task.
 
 For this small practice packet, full inspection of the consequential fields is affordable. Sampling a few rows would save little and could miss the entire point of the exercise. In a larger repeated workflow, selective inspection may become useful, but it requires a stated scope and an honest account of what remains unchecked.
 
@@ -3658,7 +3658,7 @@ The policy should state where selection is allowed and where a particular approv
 
 The reviewer does not need to memorize every source line. The packet exists so those details can be retrieved. The reviewer does need to understand the distinctions that determine acceptance and recognize when the available evidence does not support the requested judgment.
 
-Maya can explain agreement versus suggestion, established owner versus plausible owner, and conflict versus authorized supersession. She can locate those distinctions in a new input without relying entirely on the assistant's explanation. That ability is part of the capability demonstrated before delegation.
+Audy can explain agreement versus suggestion, established owner versus plausible owner, and conflict versus authorized supersession. She can locate those distinctions in a new input without relying entirely on the assistant's explanation. That ability is part of the capability demonstrated before delegation.
 
 If she cannot explain why the merged row is wrong, adding a checkbox called “verify objects” will not solve the problem. She needs to compare the two source objects and their separate commitments until the relationship is clear. A useful review policy supports existing judgment and helps reveal where more learning is needed.
 
@@ -3670,11 +3670,11 @@ This is why the book's progression starts with inquiry and explanation. Supervis
 
 Sometimes the evidence packet is complete and the reviewer still cannot decide. A source may be ambiguous, the task may exceed the reviewer's expertise, or the requested use may require a judgment that the existing policy does not define. The appropriate result is a specific hold.
 
-Maya's policy distinguishes an unresolved field from an unusable candidate. The deadline conflict in the source can be represented accurately in a candidate. The inability to establish which instruction is current prevents normal execution. A novel request to treat an apparent later amendment as authoritative may require a separate decision if the packet does not establish its authority.
+Audy's policy distinguishes an unresolved field from an unusable candidate. The deadline conflict in the source can be represented accurately in a candidate. The inability to establish which instruction is current prevents normal execution. A novel request to treat an apparent later amendment as authoritative may require a separate decision if the packet does not establish its authority.
 
 A hold should say what is needed to proceed. It might request the missing source, an authorized clarification, or a decision from the person responsible for the scope. It should also preserve completed reversible work so the task can resume without starting over.
 
-If the required decision belongs to Maya, an assistant should not repeatedly ask a different phrasing of the same question or broaden the task until it finds a convenient answer. The handoff should make the dependency explicit. If Maya lacks the relevant expertise, she can seek it, narrow the claim, or keep the operation manual.
+If the required decision belongs to Audy, an assistant should not repeatedly ask a different phrasing of the same question or broaden the task until it finds a convenient answer. The handoff should make the dependency explicit. If Audy lacks the relevant expertise, she can seek it, narrow the claim, or keep the operation manual.
 
 Treat a well-formed hold as successful boundary handling. The task may remain unfinished, but the system has not manufactured permission or evidence to escape that condition. The policy must make that result acceptable, or pressure for completion will encourage the very behavior review is intended to catch.
 
@@ -3684,21 +3684,21 @@ The notes being reviewed can contain instruction-shaped language. A document mig
 
 The distinction is relevant because tool-using agents can encounter untrusted material while performing legitimate work. AgentDojo evaluates agents exposed to tool-returned data and prompt-injection attempts, and reports challenges in both ordinary task completion and adversarial settings. Its benchmark does not provide a complete threat model or current failure rate for every system. ([Debenedetti et al., 2024](https://doi.org/10.48550/arXiv.2406.13352))
 
-Maya can test this boundary with a disposable synthetic line asking for immediate approval and external circulation. The expected behavior is to keep the source line from modifying the contract, preserve any relevant factual content as appropriate, and return the authorized candidate for human review. No sending tool is needed for the exercise.
+Audy can test this boundary with a disposable synthetic line asking for immediate approval and external circulation. The expected behavior is to keep the source line from modifying the contract, preserve any relevant factual content as appropriate, and return the authorized candidate for human review. No sending tool is needed for the exercise.
 
-The human reviewer should inspect the boundary too. If the assistant reports that a source instructed it to change the policy, Maya checks whether any authorized instruction actually granted that power. Fluent source text does not outrank the charter or task contract merely because it appears imperative.
+The human reviewer should inspect the boundary too. If the assistant reports that a source instructed it to change the policy, Audy checks whether any authorized instruction actually granted that power. Fluent source text does not outrank the charter or task contract merely because it appears imperative.
 
 This practice complements ordinary accuracy checks. A workflow can preserve all dates while violating its permission boundary, or respect permissions while misunderstanding an agreement. Record the two results separately and repair the failure that actually occurred.
 
 ## Set intake by the attention available for review
 
-A solo system includes the operator's finite review capacity. If the assistant generates candidates faster than Maya can inspect them, the backlog is not completed work. It is a queue of objects whose status must remain visible.
+A solo system includes the operator's finite review capacity. If the assistant generates candidates faster than Audy can inspect them, the backlog is not completed work. It is a queue of objects whose status must remain visible.
 
 Use the earlier illustrative capacity example: six candidates arrive in a day, and two can be meaningfully reviewed. Four remain pending before any previous backlog is considered. Calling all six complete because drafting finished hides the constraint. The relevant response may be to reduce intake, narrow the candidate, improve the evidence packet, or reserve more review time.
 
 Do not solve the mismatch by making acceptance easier without understanding the consequences. A shorter review note may reduce navigation effort while preserving evidence. Omitting source inspection may reduce effort by leaving the central judgment undone. Those changes need different evaluation.
 
-Maya begins with one packet at a time. A pending item states its candidate version, reason for waiting, reviewer, and next action. If she is unavailable, the workflow can leave an inspectable draft and stop. It does not grant itself approval because a time limit expired.
+Audy begins with one packet at a time. A pending item states its candidate version, reason for waiting, reviewer, and next action. If she is unavailable, the workflow can leave an inspectable draft and stop. It does not grant itself approval because a time limit expired.
 
 For a future service operation, delayed review would affect delivery promises. Here it affects only the rehearsal schedule. That is an opportunity to understand the constraint before real commitments exist. Review capacity belongs in the operating manual and, later, the unit-economics model because it changes what the enterprise can sustainably deliver.
 
@@ -3706,7 +3706,7 @@ For a future service operation, delayed review would affect delivery promises. H
 
 When review finds a defect, there are several possible responses. The candidate may need correction. The evidence packet may need a clearer link. The checking step may need to compare an omitted relationship. The task may need a narrower scope. Only some failures reveal a defect in the governing instruction itself.
 
-Maya's merged-object case violated an existing requirement. She repairs the candidate and makes the object comparison more explicit in her review procedure. She does not create `instructions-v4` simply to demonstrate that learning occurred. The source-fidelity requirement was already correct.
+Audy's merged-object case violated an existing requirement. She repairs the candidate and makes the object comparison more explicit in her review procedure. She does not create `instructions-v4` simply to demonstrate that learning occurred. The source-fidelity requirement was already correct.
 
 If a future case exposes an actual gap in the instruction, the memory procedure from Chapter 11 applies: propose a change, inspect its support and limits, approve a precise version, update the existing pointer, and check the stored state. Review policy should not become a shortcut around that authority route.
 
@@ -3718,11 +3718,11 @@ Record what changed and what the fresh check establishes; test relevant variatio
 
 The verdict grammar developed earlier remains useful: accept, reject, or rewrite, with a reason. A held item can carry a pending decision and the evidence needed to resolve it. The record should identify the exact candidate and instruction version so another session does not apply the verdict to a different object.
 
-Maya's initial acceptance is marked withdrawn for the merged candidate. Her reason names the object conflation and hidden conflict. The replacement receives a new verdict after comparison. That history preserves a review correction rather than presenting the final accepted candidate as proof that the original process was flawless.
+Audy's initial acceptance is marked withdrawn for the merged candidate. Her reason names the object conflation and hidden conflict. The replacement receives a new verdict after comparison. That history preserves a review correction rather than presenting the final accepted candidate as proof that the original process was flawless.
 
 The TFIS deck's Daily Court v2 entry distinguishes evidence collection, human judgment, and deterministic application. Its reported development account motivates a useful separation here: a verdict is a human decision, and applying that verdict to stored state is an operation that must be checked. The deck does not independently establish the effectiveness of this exact review policy. ([The Future Is Solo, 2026, slide 33](https://docs.google.com/presentation/d/1dvbBGs22QvtGogevZ6f5mf8YQE7WDAPBwYlclhTyctI/edit#slide=id.g3f2637d0be9_0_0))
 
-After saving the verdict, Maya reopens the candidate's status and follows the evidence. If the old acceptance still appears as current, the review has not been fully applied. The next task must see the revised state, not merely a conversation saying that Maya changed her mind.
+After saving the verdict, Audy reopens the candidate's status and follows the evidence. If the old acceptance still appears as current, the review has not been fully applied. The next task must see the revised state, not merely a conversation saying that Audy changed her mind.
 
 The acceptance concerns this synthetic example under `instructions-v3`; preserve that scope when retrieving the verdict.
 
@@ -3758,7 +3758,7 @@ Choose an intake limit that fits the attention you have. State what happens when
 
 Your practice passes when the reviewer can identify the object, inspect the support, make a scoped decision, and ensure that the resulting status controls the next step. A detected defect produces a repair or hold; a faithful unresolved answer is not forced into invented certainty. These are book-developed practice criteria, not automatic SSA-CMM certification.
 
-Maya finishes with `review-policy-v1`, a corrected rehearsal verdict, and a clearer account of the human effort her delegated workflow requires. `instructions-v3` remains current. [Chapter 19](book/chapters/19-the-solo-systems-architect.md) will connect roles and handoffs while preserving the boundaries that make each result reviewable.
+Audy finishes with `review-policy-v1`, a corrected rehearsal verdict, and a clearer account of the human effort her delegated workflow requires. `instructions-v3` remains current. [Chapter 19](book/chapters/19-the-solo-systems-architect.md) will connect roles and handoffs while preserving the boundaries that make each result reviewable.
 
 ## References
 
@@ -3783,15 +3783,15 @@ The Future Is Solo. (2026). *The Future Is Solo 20260910* [Google Slides present
 
 ## Two completed tasks, one missing result
 
-Maya runs a paper simulation of a more divided Fieldwork workflow. One role prepares an action list. Another checks it against the source. A final review combines their returns. The source remains synthetic, and Maya can perform every role herself before deciding whether separate assistant sessions would help.
+Audy runs a paper simulation of a more divided Himura Inc. workflow. One role prepares an action list. Another checks it against the source. A final review combines their returns. The source remains synthetic, and Audy can perform every role herself before deciding whether separate assistant sessions would help.
 
 Two documents come back. Each looks finished. The first is an action list; the second is a cleaner action list. The checker has rewritten the draft instead of returning a source comparison. The number of completed tasks matches the number she assigned, but an essential result is missing.
 
-The revised list may be correct. Maya cannot establish which draft the checker inspected, which source version it used, or which requirements it considered. The system has confused receiving two files with receiving two different kinds of evidence.
+The revised list may be correct. Audy cannot establish which draft the checker inspected, which source version it used, or which requirements it considered. The system has confused receiving two files with receiving two different kinds of evidence.
 
 This is a new coordination problem built around a familiar task. The bounded workflow from Chapters 17 and 18 already produces a candidate, source comparison, limited repair, and human review. Dividing that work among roles should preserve those operations.
 
-Maya and Fieldwork remain fictional. No customer has commissioned this work, and these authored specimens are not a measured multi-agent deployment. The [system contracts](book/artifacts/19-system-contracts.md) let you rehearse the same boundaries with ordinary documents, then record actual results if you choose to try separate assistants.
+Audy and Himura Inc. remain fictional. No customer has commissioned this work, and these authored specimens are not a measured multi-agent deployment. The [system contracts](book/artifacts/19-system-contracts.md) let you rehearse the same boundaries with ordinary documents, then record actual results if you choose to try separate assistants.
 
 ## Own the relationships between the parts
 
@@ -3799,7 +3799,7 @@ A systems architect decides how parts cooperate toward an outcome. In a solo pra
 
 The TFIS homepage presents the Solo Systems Architect as responsible for direction and system design, and describes coordination among harnesses through a canonical vault and scoped write areas. These are the project's stated roles and architecture. They do not establish that any particular reader has implemented them by drawing a diagram. ([The Future Is Solo, n.d.-b](https://thefutureissolo.com/))
 
-For Maya, the practical questions are direct. What exactly does the drafter receive? What must the checker inspect independently? Who resolves a disagreement? Where can each role save its work? Which result may proceed to human review? What happens if a role returns nothing, returns twice, or returns a report about the wrong draft?
+For Audy, the practical questions are direct. What exactly does the drafter receive? What must the checker inspect independently? Who resolves a disagreement? Where can each role save its work? Which result may proceed to human review? What happens if a role returns nothing, returns twice, or returns a report about the wrong draft?
 
 Those questions remain relevant whether one person, one model, several models, or a mixture performs the operations. A manual simulation can expose an ambiguous contract before tools make the ambiguity faster and harder to see.
 
@@ -3811,9 +3811,9 @@ The previous sequential workflow may already be sufficient. Before adding a role
 
 Anthropic's agent-building guidance describes chaining, routing, parallel work, and other arrangements while recommending that complexity follow demonstrated need. It treats these as adaptable engineering patterns. It does not establish a universal advantage for a large agent team. ([Erik S. & Zhang, 2024](https://www.anthropic.com/engineering/building-effective-agents))
 
-Maya's immediate reason for trying a separate checker is visibility. In the single-role workflow, drafting and checking appear in one return. She wants to see whether requiring a distinct comparison record makes the review more inspectable. That is a hypothesis about her procedure, not a result already established by the example.
+Audy's immediate reason for trying a separate checker is visibility. In the single-role workflow, drafting and checking appear in one return. She wants to see whether requiring a distinct comparison record makes the review more inspectable. That is a hypothesis about her procedure, not a result already established by the example.
 
-She keeps the alternative visible: one assistant can continue to perform the sequential workflow, with Maya reviewing its evidence. If a separate role only produces another polished version of the draft, the division has added coordination without supplying the missing check.
+She keeps the alternative visible: one assistant can continue to perform the sequential workflow, with Audy reviewing its evidence. If a separate role only produces another polished version of the draft, the division has added coordination without supplying the missing check.
 
 Write the reason for each boundary beside it. Remove a boundary that has no useful purpose. Architecture should earn its maintenance cost through the behavior it enables, rather than through the number of boxes it contains.
 
@@ -3825,7 +3825,7 @@ Write the reason for each boundary beside it. Remove a boundary that has no usef
 
 The source packet and current instruction enter two useful operations. A drafter prepares a candidate. A checker can first identify expected properties from the source, then compare the candidate against them. The evidence packet joins these returns only when their identities and versions match.
 
-A coordinator is simply whoever tracks that join. Maya can do it with a small table. It need not be another language model. The coordinator checks whether the required artifacts exist and correspond; it does not decide that a source-supported claim is true merely because the fields are filled.
+A coordinator is simply whoever tracks that join. Audy can do it with a small table. It need not be another language model. The coordinator checks whether the required artifacts exist and correspond; it does not decide that a source-supported claim is true merely because the fields are filled.
 
 The diagram also shows a route for incomplete or incompatible returns. They go to diagnosis rather than silently continuing as success. An explicit failure route is part of the system, not an embarrassing exception to be omitted from the drawing.
 
@@ -3837,13 +3837,13 @@ The drafter receives the authorized synthetic source, current instruction, job i
 
 The checker receives the source and criteria plus the candidate it is meant to inspect. It returns a comparison report identifying that exact candidate version. Each material finding points to the source and the affected output. It may recommend a repair, but a rewritten draft alone does not satisfy its contract.
 
-Maya receives the candidate and report with matching references. She decides whether the result meets the internal practice task, whether a correction is needed, or whether missing evidence prevents a conclusion. The later business runbook will distinguish this decision from any decision to send a deliverable to another person.
+Audy receives the candidate and report with matching references. She decides whether the result meets the internal practice task, whether a correction is needed, or whether missing evidence prevents a conclusion. The later business runbook will distinguish this decision from any decision to send a deliverable to another person.
 
 Keep the contract small enough to inspect. An identifier matters because it prevents a report from being attached to the wrong output. A source reference matters because it permits checking. A decorative job title contributes little if the returned object's required content remains unclear.
 
 ## Identify the job, source, and output separately
 
-For the worked simulation, Maya labels the job `J19-01`. She uses the source packet from Chapter 16, preserving its five labeled lines, and identifies the supplied instruction as `instructions-v3`. The first candidate is `D19-01-v1`; the required comparison report is `C19-01-v1`.
+For the worked simulation, Audy labels the job `J19-01`. She uses the source packet from Chapter 16, preserving its five labeled lines, and identifies the supplied instruction as `instructions-v3`. The first candidate is `D19-01-v1`; the required comparison report is `C19-01-v1`.
 
 These labels are ordinary references. You can use descriptive filenames or headings instead, provided the relationship is unambiguous. A job identifier groups the work. A source version identifies the evidence supplied. An output version identifies what was actually produced. They answer different questions.
 
@@ -3855,7 +3855,7 @@ The contract should therefore carry the versions used into the return. Do not in
 
 ## Give the check its own contact with the source
 
-A useful checker needs enough access to challenge the draft. If it receives only the drafter's summary of the evidence, it may merely confirm that summary. Maya supplies the original synthetic lines and the applicable criteria, with the draft separately identified.
+A useful checker needs enough access to challenge the draft. If it receives only the drafter's summary of the evidence, it may merely confirm that summary. Audy supplies the original synthetic lines and the applicable criteria, with the draft separately identified.
 
 She can improve the manual rehearsal by writing expected properties from the source before reading the candidate. This makes the comparison less dependent on the draft's organization. If the draft omits an action entirely, an expectation list derived from the source gives the checker a place to notice the absence.
 
@@ -3863,11 +3863,11 @@ This is procedural separation, not proof of statistically independent errors. Tw
 
 Anthropic's evaluation guidance distinguishes different kinds of grading and the actual outcome from a system's account of its work. It supports examining what a check establishes, with human judgment where needed. The chapter's role simulation is a small practical application, not a validated evaluator. ([Grace et al., 2026](https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents))
 
-For this task, a mechanical completeness check can detect a missing report. A source comparison can detect an unsupported owner. Maya's review decides whether the evidence packet warrants the requested use. These operations complement one another because they answer different questions.
+For this task, a mechanical completeness check can detect a missing report. A source comparison can detect an unsupported owner. Audy's review decides whether the evidence packet warrants the requested use. These operations complement one another because they answer different questions.
 
 ## Use a known input to expose a new coordination problem
 
-Maya deliberately reuses the synthetic C16 input. The purpose is to test the handoff, not claim a new demonstration of general task capability:
+Audy deliberately reuses the synthetic C16 input. The purpose is to test the handoff, not claim a new demonstration of general task capability:
 
 > C1. The coordinator agreed to upload the accessible slides by Tuesday.
 >
@@ -3889,13 +3889,13 @@ The checker should report that C2 supports neither agreement nor ownership, iden
 
 In the opening failure, both roles return action lists. One is labeled `D19-01-v1`; the other is an alternate draft. The coordinator counts two completed returns and marks the job ready. But the contract requires one candidate and one source comparison, not two arbitrary files.
 
-Maya inspects the expected-artifact table. The candidate slot is occupied twice, while the comparison slot is empty. This is a duplicate deliverable category and a missing required artifact. A correct diagnosis does not depend on whether the alternate draft happens to be more accurate.
+Audy inspects the expected-artifact table. The candidate slot is occupied twice, while the comparison slot is empty. This is a duplicate deliverable category and a missing required artifact. A correct diagnosis does not depend on whether the alternate draft happens to be more accurate.
 
 She keeps both drafts in the practice history long enough to explain what happened. She does not merge them and label the merge “checked.” She returns the checker task with the clarified requirement: identify the candidate inspected, compare every material item with C1–C5, and return findings and unresolved issues.
 
 The repaired comparison identifies the library defect, confirms the supported slides row, preserves the handout conflict, and checks that the shorter opening has not disappeared. The drafter can then produce a revised candidate with the comparison as feedback, within the bounded repair allowance.
 
-Maya updates the handoff contract so that completeness is checked by artifact role and target, rather than by a count of messages. This change concerns coordination. It does not alter `instructions-v3`, whose evidence rules already handled the source correctly.
+Audy updates the handoff contract so that completeness is checked by artifact role and target, rather than by a count of messages. This change concerns coordination. It does not alter `instructions-v3`, whose evidence rules already handled the source correctly.
 
 ## Make the repaired return inspectable
 
@@ -3908,15 +3908,15 @@ The repaired candidate contains the following content:
 | Agreed; timing unresolved | Send revised handout | Facilitator | By Thursday / by Friday; applicable deadline unresolved; clarification required | C3–C4 |
 | Agreed | Shorten opening discussion | Unspecified | Unspecified | C5 |
 
-The accompanying comparison names `D19-01-v2`, the C16 source, and `instructions-v3`. It identifies what changed from the previous candidate and checks the revised result against every required property. Maya can inspect the source lines without reconstructing the roles' conversation.
+The accompanying comparison names `D19-01-v2`, the C16 source, and `instructions-v3`. It identifies what changed from the previous candidate and checks the revised result against every required property. Audy can inspect the source lines without reconstructing the roles' conversation.
 
-The revised list is a candidate until its scoped review occurs. Maya may accept this internal representation while leaving the real handout deadline unresolved. Acceptance of faithful uncertainty is different from choosing the date.
+The revised list is a candidate until its scoped review occurs. Audy may accept this internal representation while leaving the real handout deadline unresolved. Acceptance of faithful uncertainty is different from choosing the date.
 
 The artifact contains literal failed and repaired receipts as well as this content. If you perform the exercise, keep your actual returns. Do not replace a failed handoff with the authored sample and report that your arrangement passed.
 
 ## A valid report can become stale
 
-Maya introduces a second deliberate handoff defect. She attaches the report about `D19-01-v1` to `D19-01-v2`. Both files are present, and the report contains detailed findings. Its target version does not match the candidate being advanced.
+Audy introduces a second deliberate handoff defect. She attaches the report about `D19-01-v1` to `D19-01-v2`. Both files are present, and the report contains detailed findings. Its target version does not match the candidate being advanced.
 
 The coordinator should hold the join and name the mismatch. It should not assume the old check carries forward because the change was described as small. Nor should it ask the checker to rewrite the entire project. The next task is a bounded comparison of the revised candidate, including earlier properties the edit might have disturbed.
 
@@ -3930,7 +3930,7 @@ For a beginner, sequential role simulation is often enough. Parallel execution c
 
 Two roles can disagree about more than version labels. A checker may insist that the library inquiry should be omitted because it is only a suggestion. The draft may retain it with a suggestion label. The current instruction allows suggestions to remain distinguishable from agreements; it does not require erasing them.
 
-Maya compares the disagreement with the governing instruction and source. She does not take a vote or favor the role with the more authoritative title. If the instruction answers the question, apply it. If the source lacks the needed information, preserve the gap. If the task's purpose genuinely requires a new policy choice, bring that choice to the responsible person.
+Audy compares the disagreement with the governing instruction and source. She does not take a vote or favor the role with the more authoritative title. If the instruction answers the question, apply it. If the source lacks the needed information, preserve the gap. If the task's purpose genuinely requires a new policy choice, bring that choice to the responsible person.
 
 An escalation should say what conflicts, why the existing authority does not resolve it, and which action depends on the answer. “Need human review” is less useful than “The requested output now asks us to choose one deadline, but the supplied source and current instruction permit only an unresolved account.”
 
@@ -3954,9 +3954,9 @@ Preserve the bounded repair rule from the delegation contract. If the allowed re
 
 Giving two operations different roles does not mean they should run at the same time. The checker cannot compare a candidate that does not exist yet. It can, however, identify source-based expected properties while drafting takes place, provided both operations use the same source and instruction versions.
 
-That distinction reveals which part of the work is actually independent. Maya can draw one line for preparing expectations and another for producing the candidate. The comparison occurs where they meet. If she instead launches two complete action-list tasks and calls the second one checking, she has changed the output count without establishing a separate comparison.
+That distinction reveals which part of the work is actually independent. Audy can draw one line for preparing expectations and another for producing the candidate. The comparison occurs where they meet. If she instead launches two complete action-list tasks and calls the second one checking, she has changed the output count without establishing a separate comparison.
 
-Concurrency also creates a coordination obligation. Suppose Maya receives a corrected source packet while one role is still working from the earlier copy. Quietly replacing the shared file can leave the two returns based on different inputs. The contract should preserve the original packet for that attempt and identify the new version as a separate reviewed input change.
+Concurrency also creates a coordination obligation. Suppose Audy receives a corrected source packet while one role is still working from the earlier copy. Quietly replacing the shared file can leave the two returns based on different inputs. The contract should preserve the original packet for that attempt and identify the new version as a separate reviewed input change.
 
 The person coordinating the work can then decide whether to stop and restart the affected operation or finish the earlier attempt as historical evidence. The decision depends on what changed and which output is needed. What should not happen is silently combining a draft from one source version with a check from another.
 
@@ -3966,7 +3966,7 @@ Record the actual route used in a trial. “Separate drafter and checker roles, 
 
 ## Give each role a useful permission boundary
 
-Low-impact drafting should proceed under the permissions already granted by the task. Maya does not need to approve every heading, candidate sentence, or source comparison individually. Those operations are the delegated work.
+Low-impact drafting should proceed under the permissions already granted by the task. Audy does not need to approve every heading, candidate sentence, or source comparison individually. Those operations are the delegated work.
 
 The boundary changes when an action would alter authority, expose information, or affect another person. The drafter may save a new candidate in a designated area when that operation is permitted. It may not overwrite the source, change the current selector, promote its own judgment into reviewed memory, or send a customer message under the same permission.
 
@@ -3980,7 +3980,7 @@ The architecture is useful when responsibilities are clear enough for routine wo
 
 Several roles may discover a useful correction. That does not mean each should write a new permanent rule. Competing summaries can turn a single observation into multiple apparently independent lessons and make later retrieval harder.
 
-Maya lets roles propose memory candidates with their source and scope. The existing review and distillation procedure determines whether a candidate belongs in project history or reviewed reusable memory. The designated current-instruction route remains singular.
+Audy lets roles propose memory candidates with their source and scope. The existing review and distillation procedure determines whether a candidate belongs in project history or reviewed reusable memory. The designated current-instruction route remains singular.
 
 If the handoff failure changes the operating manual, she records that specific coordination decision. It need not modify the commitment-evidence principle, because the meaning of an agreed action has not changed. Maintenance follows the actual dependency affected by the observation.
 
@@ -4018,7 +4018,7 @@ Run the manual simulation with the supplied packet or your own authorized exampl
 
 Your practice passes when the coordinator can tell whether the evidence packet is complete and compatible, the reviewer can trace material findings to source, and permission boundaries remain intact. The source rules should survive the new arrangement without being copied into competing authoritative records.
 
-Without AI, explain why two completed tasks may still leave one required result missing, why two agreeing models do not prove independent validation, and why a report must identify the output it inspected. Maya finishes with `system-contracts-v1`, a clearer handoff procedure, and a reasoned choice about whether separate roles are worth using. [Chapter 20](book/chapters/20-the-architecture-of-a-solo-enterprise.md) places that workflow among the other operations a prospective business would need.
+Without AI, explain why two completed tasks may still leave one required result missing, why two agreeing models do not prove independent validation, and why a report must identify the output it inspected. Audy finishes with `system-contracts-v1`, a clearer handoff procedure, and a reasoned choice about whether separate roles are worth using. [Chapter 20](book/chapters/20-the-architecture-of-a-solo-enterprise.md) places that workflow among the other operations a prospective business would need.
 
 ## References
 
@@ -4039,19 +4039,19 @@ The Future Is Solo. (n.d.-b). *The future is solo*. Retrieved September 10, 2026
 
 ## The example works; the enterprise is still a proposal
 
-Maya can prepare a synthetic action list, inspect it against the source, preserve uncertainty, and recover the records supporting the work. She has also rehearsed separating drafting from checking. These are useful internal capabilities.
+Audy can prepare a synthetic action list, inspect it against the source, preserve uncertainty, and recover the records supporting the work. She has also rehearsed separating drafting from checking. These are useful internal capabilities.
 
-They do not answer the next set of questions. Who would ask for this help? What would they expect to receive? What material could they supply? How would Maya handle an unclear request, a late clarification, a correction after delivery, or a week in which she could not review the planned work?
+They do not answer the next set of questions. Who would ask for this help? What would they expect to receive? What material could they supply? How would Audy handle an unclear request, a late clarification, a correction after delivery, or a week in which she could not review the planned work?
 
-The proposed Fieldwork studio would need answers to those questions even if its drafting step became very fast. A customer would encounter a service: an agreement, a result, an explanation, and a way to raise a problem. They would not experience the number of agent roles behind a document as value by itself.
+The proposed Himura Inc. studio would need answers to those questions even if its drafting step became very fast. A customer would encounter a service: an agreement, a result, an explanation, and a way to raise a problem. They would not experience the number of agent roles behind a document as value by itself.
 
-There are still no customers in the running case. Maya has not validated demand or earned revenue. This chapter designs prospective operations and rehearses them with invented intake cards. The next chapter begins a clearly labeled fictional product experiment.
+There are still no customers in the running case. Audy has not validated demand or earned revenue. This chapter designs prospective operations and rehearses them with invented intake cards. The next chapter begins a clearly labeled fictional product experiment.
 
 Bring the workshop brief, claims ledger, operating manual, delegation and review policies, system contracts, and portability drill. The [enterprise runbook](book/artifacts/20-enterprise-runbook.md) connects them to the larger sequence in which a useful workflow would have to operate.
 
 ## Begin with the promise the system would support
 
-A prospective service needs a concrete description of what it would help someone do. Maya's working hypothesis concerns independent educators turning expertise into useful short workshops. Her current internal practice concentrates on a thirty-minute workshop brief and an inspectable action-list exercise.
+A prospective service needs a concrete description of what it would help someone do. Audy's working hypothesis concerns independent educators turning expertise into useful short workshops. Her current internal practice concentrates on a thirty-minute workshop brief and an inspectable action-list exercise.
 
 She can state a candidate deliverable: a bounded workshop-design brief, a source-linked practice example, and review questions that make unresolved assumptions visible. This is a proposed offer to investigate. It is not yet a promise that the workshop will improve learning or that every educator needs this form of help.
 
@@ -4073,15 +4073,15 @@ You can draw this on paper. Place the customer-facing decisions where a person w
 
 For each transition, ask what object permits the next operation. An intake card may permit a fit review. An agreed scope may permit preparation. A complete evidence packet may permit substantive review. A reviewed result plus the applicable authorization may permit delivery. Receiving a draft alone does not satisfy all those transitions.
 
-The diagram is a map of responsibilities, not a requirement to build separate applications. Maya can rehearse it with a few documents and a status table. More software becomes useful when a repeated operation creates a demonstrated burden or failure.
+The diagram is a map of responsibilities, not a requirement to build separate applications. Audy can rehearse it with a few documents and a status table. More software becomes useful when a repeated operation creates a demonstrated burden or failure.
 
 ## Use intake to discover what the task actually requires
 
-An intake record should capture enough information to determine whether the proposed work is understood and appropriate. For a future Fieldwork request, Maya would need the intended learner, the task the workshop should support, available time, relevant source material, desired deliverable, and unresolved constraints.
+An intake record should capture enough information to determine whether the proposed work is understood and appropriate. For a future Himura Inc. request, Audy would need the intended learner, the task the workshop should support, available time, relevant source material, desired deliverable, and unresolved constraints.
 
 She does not need to collect every possible personal detail. The charter's purpose and permission rules still apply. An assistant may help organize supplied answers, but a missing answer should remain visible rather than being filled with a plausible profile of the educator.
 
-For the internal rehearsal, Maya invents intake card `SIM20-A`: prepare a thirty-minute workshop-design brief using the synthetic C16 notes, with one action-list example and questions for reviewing it. The card is written by Maya for testing. It is not a customer inquiry.
+For the internal rehearsal, Audy invents intake card `SIM20-A`: prepare a thirty-minute workshop-design brief using the synthetic C16 notes, with one action-list example and questions for reviewing it. The card is written by Audy for testing. It is not a customer inquiry.
 
 The card also states what is outside the exercise: no real participant data, no external communications, no guaranteed learning result, and no selection of the unresolved handout deadline. These boundaries determine which operations the internal workflow can perform and which would require a different decision.
 
@@ -4091,13 +4091,13 @@ A useful intake result may be “ready for scoped preparation,” “needs clari
 
 Scope connects a requested result with the work and boundaries needed to produce it. It should identify the deliverable, relevant inputs, review expectations, timing assumptions, and treatment of changes. The exact agreement in a real engagement depends on the situation; this exercise concerns making those choices visible.
 
-For `SIM20-A`, Maya's scope is an internal review package containing the existing provisional brief, a candidate example derived from C16, a source comparison, and unresolved questions. It does not include a completed course, participant evaluation, or marketing campaign.
+For `SIM20-A`, Audy's scope is an internal review package containing the existing provisional brief, a candidate example derived from C16, a source comparison, and unresolved questions. It does not include a completed course, participant evaluation, or marketing campaign.
 
 Suppose the next card asks for a second language version as well. That is an additional operation with its own review needs. It may require expertise the current source checker does not supply. A small addition to the request can create a material change in the work required to make the result usable.
 
 The runbook records such a change as a proposal to revise scope. Routine reversible drafting can continue where it remains within the agreed task. Work depending on the new requirement waits until its purpose, resources, and authorization are clear.
 
-Do not hide scope changes inside an instruction to “make it better.” Identify the changed result and its consequences. That gives Maya a basis for deciding whether to include it, defer it, narrow it, or decline it in a future engagement.
+Do not hide scope changes inside an instruction to “make it better.” Identify the changed result and its consequences. That gives Audy a basis for deciding whether to include it, defer it, narrow it, or decline it in a future engagement.
 
 ## Prepare evidence without pretending that preparation creates it
 
@@ -4107,13 +4107,13 @@ In the current rehearsal, C16 is complete and synthetic. The handout deadlines c
 
 The workshop's usefulness remains an empirical question. The source comparison can establish whether the candidate accurately represents the supplied notes. It cannot establish whether learners acquire the intended skill or whether educators would pay for the design brief.
 
-Noy and Zhang's experiment studied bounded professional writing tasks. Its findings do not establish the demand, full delivery capacity, or profitability of Maya's proposed service. Matching the unit of evidence to the unit of the business claim matters. ([Noy & Zhang, 2023](https://doi.org/10.1126/science.adh2586))
+Noy and Zhang's experiment studied bounded professional writing tasks. Its findings do not establish the demand, full delivery capacity, or profitability of Audy's proposed service. Matching the unit of evidence to the unit of the business claim matters. ([Noy & Zhang, 2023](https://doi.org/10.1126/science.adh2586))
 
-Maya therefore keeps operational evidence and market hypotheses distinguishable in the claims ledger. She can make progress on the production process while openly recording that the offer still needs investigation. The runbook should support that investigation rather than converting internal competence into an unsupported sales claim.
+Audy therefore keeps operational evidence and market hypotheses distinguishable in the claims ledger. She can make progress on the production process while openly recording that the offer still needs investigation. The runbook should support that investigation rather than converting internal competence into an unsupported sales claim.
 
 ## Let ordinary production proceed within its boundaries
 
-Once a task is ready and its operations are authorized, the internal workflow can proceed without asking Maya to reconfirm every reversible step. It may assemble the selected packet, create a candidate, compare it with the source, make the allowed bounded repair, and return the evidence packet.
+Once a task is ready and its operations are authorized, the internal workflow can proceed without asking Audy to reconfirm every reversible step. It may assemble the selected packet, create a candidate, compare it with the source, make the allowed bounded repair, and return the evidence packet.
 
 The contract from Chapter 17 governs that sequence. The review policy from Chapter 18 governs the consequential judgment. The role contracts from Chapter 19 become useful if a separate checker or other role is actually warranted. The runbook points to those records rather than copying their full instructions.
 
@@ -4121,13 +4121,13 @@ The current task rules remain `instructions-v3`, reached through `learning-loop-
 
 A job record identifies what entered the workflow and what came back. It includes the source and instruction versions, candidate, check report, corrections, unresolved conditions, and actual saved locations. This gives later review and support an object to inspect.
 
-If the permitted repair is exhausted and a material defect remains, the job returns for human diagnosis. Automatically starting another nominally new job would conceal the limit rather than respect it. Maya may authorize further work after understanding the failure, but the workflow does not grant itself that authority.
+If the permitted repair is exhausted and a material defect remains, the job returns for human diagnosis. Automatically starting another nominally new job would conceal the limit rather than respect it. Audy may authorize further work after understanding the failure, but the workflow does not grant itself that authority.
 
 ## Review the deliverable as a whole
 
 The source checker can establish a narrow property of the example while the overall brief remains unsuitable. The learning objective might be unclear. The directions might ask the learner to perform an action the example never demonstrates. The review questions might reward a different skill from the one the brief names.
 
-Maya's human review therefore has two levels. She inspects the internal evidence packet for the bounded workflow. She also examines whether the assembled deliverable meets the proposed scope and communicates its limitations. A correct table is necessary for this example, but it is not the entire service.
+Audy's human review therefore has two levels. She inspects the internal evidence packet for the bounded workflow. She also examines whether the assembled deliverable meets the proposed scope and communicates its limitations. A correct table is necessary for this example, but it is not the entire service.
 
 For `SIM20-A`, the internal acceptance record can say that the example preserves the supplied commitments and unknowns, the brief identifies the intended learner task, and the remaining assumptions are visible.
 
@@ -4141,17 +4141,17 @@ A document can be internally ready without having been delivered. It can be deli
 
 The prospective runbook records these states separately. In the current simulation, the furthest state in this rehearsal is internal readiness or a hold. No message is sent, no file is shared with a customer, and no acceptance is recorded on another person's behalf.
 
-For a future engagement, Maya owns the communication that establishes scope and sends the final deliverable. Assistants may prepare a draft message within the authorized task, but a source mention of sending a document does not authorize the agent to send it. The delivery record should identify the actual version, recipient or destination, and the authorization appropriate to that situation.
+For a future engagement, Audy owns the communication that establishes scope and sends the final deliverable. Assistants may prepare a draft message within the authorized task, but a source mention of sending a document does not authorize the agent to send it. The delivery record should identify the actual version, recipient or destination, and the authorization appropriate to that situation.
 
 If a sharing tool is used, verify what it actually shared and with whom. If a message remains a draft, record it as a draft. A generated completion sentence is not evidence that an external action happened.
 
-This distinction is practical rather than ceremonial. When someone later raises a concern, Maya needs to know which version they received. The latest version in her project folder may be different from the one that left it.
+This distinction is practical rather than ceremonial. When someone later raises a concern, Audy needs to know which version they received. The latest version in her project folder may be different from the one that left it.
 
 ## Design support before a problem arrives
 
 A prospective service needs a way to receive and inspect corrections. The support route should identify the delivered artifact, the reported issue, the relevant source or agreement, and what the customer needs next. It should not assume that every complaint reflects a defect in the same component.
 
-A person might identify a factual error, request a new feature, clarify an earlier ambiguity, or report that a correct deliverable was difficult to use. These cases call for different responses. The runbook should help Maya distinguish them before launching an automatic rewrite.
+A person might identify a factual error, request a new feature, clarify an earlier ambiguity, or report that a correct deliverable was difficult to use. These cases call for different responses. The runbook should help Audy distinguish them before launching an automatic rewrite.
 
 For rehearsal, she invents a support card about the internal package: “The handout date should be a single day.” The card supplies no new evidence resolving Thursday versus Friday. The response can explain the source conflict and identify the clarification needed. It cannot convert the request for neatness into an established deadline.
 
@@ -4163,17 +4163,17 @@ Support also creates learning opportunities. A repeated difficulty with instruct
 
 Count completed, reviewed packages rather than generated drafts. The unit should include the human attention required to prepare, inspect, repair, and leave a usable record. Otherwise the fastest step can make the whole enterprise appear to have more capacity than it does.
 
-Maya uses an explicitly hypothetical weekly budget to examine the arithmetic. She allocates six hours, or 360 minutes, to this prospective service. She sets aside 120 minutes for intake, administration, maintenance, and support preparation, plus 60 minutes for interruptions. That leaves 180 minutes for producing and reviewing packages.
+Audy uses an explicitly hypothetical weekly budget to examine the arithmetic. She allocates six hours, or 360 minutes, to this prospective service. She sets aside 120 minutes for intake, administration, maintenance, and support preparation, plus 60 minutes for interruptions. That leaves 180 minutes for producing and reviewing packages.
 
 If each package requires 45 minutes of her attention within that allocation, the plan contains four package slots. The 45 minutes is an assumption to measure later, not an observed rate. The four slots are a planning result under that assumption, not a customer promise.
 
-The distinction becomes visible when one package takes 90 minutes. Two ordinary packages and that longer package consume the same 180 minutes. Maintaining the planned reserve leaves the fourth pending. Maya could choose to use reserve time, but should record the trade-off rather than pretending the original production assumption remained accurate.
+The distinction becomes visible when one package takes 90 minutes. Two ordinary packages and that longer package consume the same 180 minutes. Maintaining the planned reserve leaves the fourth pending. Audy could choose to use reserve time, but should record the trade-off rather than pretending the original production assumption remained accurate.
 
 These figures are small enough to calculate by hand. Their purpose is to expose the relationship among work, variability, and available attention. They say nothing about appropriate prices, profit, or the number of requests the market will provide. Chapter 22 develops the economics more carefully.
 
 ## Rehearse a week that does not fit the optimistic plan
 
-Maya creates four invented work cards, `SIM20-A` through `SIM20-D`. They stand for internal packages of the defined scope. They are not orders or a demand forecast. She uses them to examine what her proposed operating rules would do when work takes longer than expected.
+Audy creates four invented work cards, `SIM20-A` through `SIM20-D`. They stand for internal packages of the defined scope. They are not orders or a demand forecast. She uses them to examine what her proposed operating rules would do when work takes longer than expected.
 
 The rehearsal assigns 45 minutes to A, 90 to B, and 45 to C. B includes extra human diagnosis after the bounded automated repair has stopped. The production allocation is now exhausted. D remains queued, with a reason and an explicit next scheduling decision.
 
@@ -4186,15 +4186,15 @@ A useful status table might read:
 | SIM20-C | 45 minutes | Reviewed package prepared |
 | SIM20-D | Not started | Pending capacity decision |
 
-Nothing has been externally delivered in this rehearsal. The table demonstrates the consequences of assumed work durations. It does not document how fast Maya or an AI system actually performed the jobs.
+Nothing has been externally delivered in this rehearsal. The table demonstrates the consequences of assumed work durations. It does not document how fast Audy or an AI system actually performed the jobs.
 
-The runbook should make D visible before anyone promises it for a particular date. In a real engagement, Maya would communicate a capacity or scope decision herself. An internal queue should support honest commitments, rather than allowing a draft-producing system to make commitments on her behalf.
+The runbook should make D visible before anyone promises it for a particular date. In a real engagement, Audy would communicate a capacity or scope decision herself. An internal queue should support honest commitments, rather than allowing a draft-producing system to make commitments on her behalf.
 
 ## Treat the backlog as unfinished obligations and choices
 
 A backlog is a list of work that remains. Its usefulness depends on why each item is there and what would allow it to move. An item waiting for source clarification is different from one waiting for review time or one outside the current offer.
 
-Maya records those distinctions. A clarification hold identifies the missing evidence and responsible next action. A capacity hold identifies the allocation that is full. A scope question identifies the requested extension. A draft awaiting human review remains visibly unapproved.
+Audy records those distinctions. A clarification hold identifies the missing evidence and responsible next action. A capacity hold identifies the allocation that is full. A scope question identifies the requested extension. A draft awaiting human review remains visibly unapproved.
 
 The system should not keep producing dependent work while the blocking condition remains unchanged. It can continue separable authorized tasks, but generating alternate final answers does not resolve a missing deadline or create time for review.
 
@@ -4204,13 +4204,13 @@ Use the recorded work to locate the actual limitation. Do not assume in advance 
 
 ## Keep one-off accommodations from rewriting the offer
 
-A future engagement may justify an exception: a different format, an additional example, or a revised review arrangement. The runbook should let Maya make a considered choice without automatically converting that choice into the standard promise for every later request.
+A future engagement may justify an exception: a different format, an additional example, or a revised review arrangement. The runbook should let Audy make a considered choice without automatically converting that choice into the standard promise for every later request.
 
 In the simulation, she can add a card asking for an extra worked example. Before accepting the change, she identifies its purpose and the preparation and review it would require. If she chooses to include it for this internal rehearsal, the scope record names that limited decision. The general offer remains a hypothesis under investigation.
 
-This matters when an assistant later distills the session. “Added an extra example in this case” should not become “Fieldwork always supplies two examples.” A record of an accommodation is different from an approved change to the service definition. The memory distinctions from earlier chapters now affect how business promises could spread.
+This matters when an assistant later distills the session. “Added an extra example in this case” should not become “Himura Inc. always supplies two examples.” A record of an accommodation is different from an approved change to the service definition. The memory distinctions from earlier chapters now affect how business promises could spread.
 
-Repeated requests for the same addition may be a useful signal to investigate, but repetition alone does not tell Maya whether to include it, charge for it, or remove some other work. Those choices depend on the value sought, the resources required, and evidence gathered through actual engagement.
+Repeated requests for the same addition may be a useful signal to investigate, but repetition alone does not tell Audy whether to include it, charge for it, or remove some other work. Those choices depend on the value sought, the resources required, and evidence gathered through actual engagement.
 
 For the current exercise, preserve the decision and its scope, then update the capacity assumption if it changes the work. An exception that consumes attention should be visible in the plan even when no selling price has yet been chosen.
 
@@ -4222,7 +4222,7 @@ Separate an observed charge from an estimate and a planning assumption. If a too
 
 Cost information still does not establish willingness to pay. A cheap internal process can produce something nobody wants. A useful service can require more human attention than its early description suggests.
 
-For this chapter, Maya records categories and hypothetical time allocations without choosing a selling price or declaring a margin. The unit-economics chapter will distinguish revenue, costs, profit, and owner earnings. Here the important operation is preserving enough evidence that those calculations will describe the actual work rather than an idealized draft-only process.
+For this chapter, Audy records categories and hypothetical time allocations without choosing a selling price or declaring a margin. The unit-economics chapter will distinguish revenue, costs, profit, and owner earnings. Here the important operation is preserving enough evidence that those calculations will describe the actual work rather than an idealized draft-only process.
 
 A resource limit can also change how the workflow responds. If a tool budget or review allocation is exhausted, return a clear pending state. Do not let the system repeatedly consume resources while producing the same unresolved output.
 
@@ -4230,7 +4230,7 @@ A resource limit can also change how the workflow responds. If a tool budget or 
 
 Current instructions, sources, tools, and offers can change. Maintenance keeps the procedure aligned with those changes and checks that earlier behavior still holds. It should have a place in the runbook rather than relying on spare time that never arrives.
 
-Maya reviews the affected procedure when a new failure appears, a source changes, a tool or model is replaced, or the task's scope expands. She does not change `instructions-v3` merely because a newer model is available. She tests the actual intended behavior and examines whether the existing boundaries still work.
+Audy reviews the affected procedure when a new failure appears, a source changes, a tool or model is replaced, or the task's scope expands. She does not change `instructions-v3` merely because a newer model is available. She tests the actual intended behavior and examines whether the existing boundaries still work.
 
 Keep a small set of meaningful regression examples: supported dates, missing owners, suggestions, imprecise timing, and unresolved contradictory deadlines. Also test coordination failures such as a missing source comparison or a report attached to the wrong candidate. A workflow can preserve the action-list rule while losing the handoff that makes its review possible.
 
@@ -4254,7 +4254,7 @@ The practical objective is continuity with honest limits. Recovery should restor
 
 The internal workflow can perform authorized low-impact operations without repeated permission. The business still needs a person to decide what it is for, which promises it can support, and how to respond when evidence conflicts with the plan.
 
-Maya owns prospective customer communication: understanding a request, establishing scope, making or changing a commitment, sending the reviewed deliverable, and handling a consequential correction. Assistants can prepare material for those conversations where authorized. They do not convert a draft into a sent message or an internal assumption into a customer's agreement.
+Audy owns prospective customer communication: understanding a request, establishing scope, making or changing a commitment, sending the reviewed deliverable, and handling a consequential correction. Assistants can prepare material for those conversations where authorized. They do not convert a draft into a sent message or an internal assumption into a customer's agreement.
 
 She also decides what work to decline or defer. A system optimized only to accept tasks and produce outputs may not recognize that a request falls outside the service's capability or consumes attention needed elsewhere. The runbook should make these choices visible rather than reward activity without regard to usefulness.
 
@@ -4280,7 +4280,7 @@ Run invented intake, scope-change, clarification, and capacity cards through it.
 
 Your runbook passes this book's practice check when the selected operation can be traced from an understood request to an internally reviewed result, with support and recovery routes that identify the relevant version and authority. It should also show where commercial evidence is absent. A simulated pipeline is not customer validation.
 
-Without AI, explain why draft speed does not determine delivery capacity, why internally ready does not mean delivered, and what would change your current plan. Maya finishes with `enterprise-runbook-v1` and a clearer set of assumptions to test. [Chapter 21](book/chapters/21-from-curiosity-to-product.md) takes the next step: investigating whether a defined offer helps a defined kind of user enough to warrant continued work.
+Without AI, explain why draft speed does not determine delivery capacity, why internally ready does not mean delivered, and what would change your current plan. Audy finishes with `enterprise-runbook-v1` and a clearer set of assumptions to test. [Chapter 21](book/chapters/21-from-curiosity-to-product.md) takes the next step: investigating whether a defined offer helps a defined kind of user enough to warrant continued work.
 
 ## References
 
@@ -4301,13 +4301,13 @@ The Future Is Solo. (n.d.-b). *The future is solo*. Retrieved September 10, 2026
 
 ## The question the working system cannot answer
 
-Maya can now explain, draft, review, and recover a particular kind of work. Her Fieldwork records show how to turn supplied meeting notes into source-faithful action-list examples and how to build an activity around that performance. She has also designed procedures for delegation, review, and handling interruptions. None of those records can tell her whether an independent educator wants to buy the resulting service.
+Audy can now explain, draft, review, and recover a particular kind of work. Her Himura Inc. records show how to turn supplied meeting notes into source-faithful action-list examples and how to build an activity around that performance. She has also designed procedures for delegation, review, and handling interruptions. None of those records can tell her whether an independent educator wants to buy the resulting service.
 
 That question changes what she must do next. Another synthetic note can reveal an extraction error. Another recovery rehearsal can reveal a missing dependency. Neither brings a buyer's priorities, alternatives, or budget into the evidence. A system that reliably makes something unwanted still has an unanswered business problem.
 
 This chapter introduces the running case's first buyer conversations and pilot. The whole account remains fictional. Its three conversations, two proposals, one agreed paid pilot, quotations, feedback, and delivery events are constructed teaching scenes. They are not transcripts, author memories, or evidence about an actual market. Their purpose is to make a small commercial experiment inspectable, including its disappointing parts.
 
-The move is modest. Maya will speak with three independent educators who consent, within the story, to discuss their workshop-design work. She will prepare two candidate pilot proposals and agree one pilot at an illustrative price of USD 300. She will deliver a reviewable pack and discover that producing an acceptable result can take more work than the price comfortably supports. No learner outcome is established by the end.
+The move is modest. Audy will speak with three independent educators who consent, within the story, to discuss their workshop-design work. She will prepare two candidate pilot proposals and agree one pilot at an illustrative price of USD 300. She will deliver a reviewable pack and discover that producing an acceptable result can take more work than the price comfortably supports. No learner outcome is established by the end.
 
 Bring your capability demonstration and enterprise runbook. The [product-experiment artifact](book/artifacts/21-product-experiment.md) connects them to a buyer question, a specific offer, and a result you can interpret without changing its meaning after the fact.
 
@@ -4315,37 +4315,37 @@ Bring your capability demonstration and enterprise runbook. The [product-experim
 
 A product is something a buyer can understand, choose, receive, and use for a purpose. It can be a service, an educational resource, a software tool, or a combination. For this book's exercise, it needs a defined result and a way to recognize whether the promised delivery occurred. Packaging every skill you possess into one offer usually makes both harder to see.
 
-Maya's first formulation is too broad: “AI-supported learning design for independent educators.” It describes an approach and an audience, but leaves the buyer to imagine the useful change. Does Fieldwork write a course, review an exercise, facilitate a session, or provide software? The ambiguity can hide a mismatch until after a buyer has agreed to something different from what Maya intended.
+Audy's first formulation is too broad: “AI-supported learning design for independent educators.” It describes an approach and an audience, but leaves the buyer to imagine the useful change. Does Himura Inc. write a course, review an exercise, facilitate a session, or provide software? The ambiguity can hide a mismatch until after a buyer has agreed to something different from what Audy intended.
 
 She narrows the candidate offer: review one existing thirty-minute workshop brief, redesign one activity so participants produce work the educator can inspect, and return a pack the educator can rehearse. This uses the capability she has practiced. It also creates a boundary around the unfamiliar commercial work. The offer does not require her to build a learning platform or promise an improvement she has never measured.
 
-The buyer's useful change is the center of the description. A reviewed exercise may help an educator replace an unclear activity with a concrete attempt and a basis for feedback. That is a proposed benefit to investigate. “Uses AI” explains part of Maya's production method; it does not explain why this particular educator should interrupt other work or spend money.
+The buyer's useful change is the center of the description. A reviewed exercise may help an educator replace an unclear activity with a concrete attempt and a basis for feedback. That is a proposed benefit to investigate. “Uses AI” explains part of Audy's production method; it does not explain why this particular educator should interrupt other work or spend money.
 
 Keep three questions separate while shaping your offer. What can you produce? What problem does someone say they need addressed? What are they prepared to commit to obtaining? Your capability record mainly answers the first. Discovery and a bounded offer begin to investigate the others.
 
 ## Decide what could change your mind
 
-Maya writes her initial hypothesis before the conversations: some independent educators with an upcoming short workshop will pay for help turning an activity into inspectable participant work. The hypothesis names an audience, a situation, and a proposed purchase. It remains open to several different kinds of correction.
+Audy writes her initial hypothesis before the conversations: some independent educators with an upcoming short workshop will pay for help turning an activity into inspectable participant work. The hypothesis names an audience, a situation, and a proposed purchase. It remains open to several different kinds of correction.
 
-Perhaps educators already have adequate activities and need help finding participants. Perhaps their workshops run for a full day and the thirty-minute constraint is irrelevant. Perhaps they want a second opinion but have no budget. Perhaps the problem is urgent, but Maya's examples fail to show that she can help. These possibilities imply different next actions. Treating every disappointing response as “people do not understand the value yet” would conceal them.
+Perhaps educators already have adequate activities and need help finding participants. Perhaps their workshops run for a full day and the thirty-minute constraint is irrelevant. Perhaps they want a second opinion but have no budget. Perhaps the problem is urgent, but Audy's examples fail to show that she can help. These possibilities imply different next actions. Treating every disappointing response as “people do not understand the value yet” would conceal them.
 
 Research on entrepreneurship offers a reason to make the hypothesis explicit. In a randomized study of Italian startups, Camuffo and colleagues taught a treatment group to formulate predictions and test hypotheses, alongside business training received by both groups. The study concerns a particular intervention and setting; it does not establish that a short interview script guarantees a successful offer. ([Camuffo et al., 2020](https://doi.org/10.1287/mnsc.2018.3249))
 
-A later replication and extension across four trials reported increased termination of ideas and a more nuanced pattern of strategic changes, rather than a simple instruction to pivot constantly. One useful implication for this exercise is that learning may justify stopping an idea as well as continuing it. Maya's small practice is an original application, not a reproduction of those trials. ([Camuffo et al., 2024](https://doi.org/10.1002/smj.3580))
+A later replication and extension across four trials reported increased termination of ideas and a more nuanced pattern of strategic changes, rather than a simple instruction to pivot constantly. One useful implication for this exercise is that learning may justify stopping an idea as well as continuing it. Audy's small practice is an original application, not a reproduction of those trials. ([Camuffo et al., 2024](https://doi.org/10.1002/smj.3580))
 
-Before approaching anyone, Maya records a decision she can actually make. If the conversations reveal no near-term design problem within her capability, she will revise whom she is approaching or which problem she is investigating. If a relevant problem appears, she will offer a narrow pilot. She will not build software merely to avoid hearing a refusal.
+Before approaching anyone, Audy records a decision she can actually make. If the conversations reveal no near-term design problem within her capability, she will revise whom she is approaching or which problem she is investigating. If a relevant problem appears, she will offer a narrow pilot. She will not build software merely to avoid hearing a refusal.
 
 ## Three conversations, three different situations
 
-The first conversation is with Educator A. Maya explains that she is exploring a small workshop-design service, asks whether the educator is willing to discuss a recent example, and requests permission to retain brief notes for that purpose. This is consent within the fictional scene. It is not permission to publish the educator's material or place unrelated information into an assistant's context.
+The first conversation is with Educator A. Audy explains that she is exploring a small workshop-design service, asks whether the educator is willing to discuss a recent example, and requests permission to retain brief notes for that purpose. This is consent within the fictional scene. It is not permission to publish the educator's material or place unrelated information into an assistant's context.
 
-Maya asks about an actual task in the scene: the next workshop, the current activity, and what the educator finds difficult to judge. She does not begin by asking whether an AI-powered design service sounds useful. That question would invite an opinion about her idea before establishing what happens in the educator's work.
+Audy asks about an actual task in the scene: the next workshop, the current activity, and what the educator finds difficult to judge. She does not begin by asking whether an AI-powered design service sounds useful. That question would invite an opinion about her idea before establishing what happens in the educator's work.
 
-Educator A says: “We talk through the meeting example, but I finish without anything I can check. I need them to make an action list during the session.” The educator has a draft brief for a thirty-minute workshop and can decide whether to commission a small review. The gap fits Maya's practiced capability: an activity needs to produce visible work, with criteria that distinguish a sound answer from a polished-looking one.
+Educator A says: “We talk through the meeting example, but I finish without anything I can check. I need them to make an action list during the session.” The educator has a draft brief for a thirty-minute workshop and can decide whether to commission a small review. The gap fits Audy's practiced capability: an activity needs to produce visible work, with criteria that distinguish a sound answer from a polished-looking one.
 
-The second conversation complicates the hypothesis. Educator B says: “My learners already produce action lists. The difficult part is getting them to arrive prepared.” Maya asks what happens before the session and what has been tried. The problem described is relevant to education, but it is not the same design gap. She records it without bending it into support for the offer she hoped to sell.
+The second conversation complicates the hypothesis. Educator B says: “My learners already produce action lists. The difficult part is getting them to arrive prepared.” Audy asks what happens before the session and what has been tried. The problem described is relevant to education, but it is not the same design gap. She records it without bending it into support for the offer she hoped to sell.
 
-Educator C presents a third situation: “I can write the activity. I want another person to check whether it fits the half hour and whether my feedback is clear.” This is closer to a review service than a broad redesign engagement. The educator is interested in a proposal but has not scheduled the next workshop. Maya now has a plausible need with uncertain timing.
+Educator C presents a third situation: “I can write the activity. I want another person to check whether it fits the half hour and whether my feedback is clear.” This is closer to a review service than a broad redesign engagement. The educator is interested in a proposal but has not scheduled the next workshop. Audy now has a plausible need with uncertain timing.
 
 These quotes are authored dialogue, reproduced with their constructed status in the artifact. In your own experiment, distinguish actual quotation from paraphrase, inference, and your proposed response. A vivid paraphrase can easily become a supposedly exact customer quote after several summaries. Retain the source wording you are authorized to keep, and label the rest accurately.
 
@@ -4353,47 +4353,47 @@ Three conversations leave substantial uncertainty. They can expose a mistaken as
 
 ## Interpret the differences before making an offer
 
-Maya's first summary is too generous: “Educators need help turning knowledge into practical workshops.” All three people work in education, but the sentence removes the distinction that matters to her next decision. Educator B described preparation before the session. Educator C described review and timing. Educator A described the absence of inspectable participant work.
+Audy's first summary is too generous: “Educators need help turning knowledge into practical workshops.” All three people work in education, but the sentence removes the distinction that matters to her next decision. Educator B described preparation before the session. Educator C described review and timing. Educator A described the absence of inspectable participant work.
 
 She rewrites the record around each person's task. The point of organizing the conversations is to preserve differences that affect the offer, not make them sound like agreement. A repeated phrase such as “workshop problem” should not collapse several different jobs into one imagined demand signal.
 
-She also separates problem evidence from buying evidence. Educator A's description supports the existence of a design gap within the story. It does not yet establish willingness to pay USD 300, acceptance of Maya's scope, or satisfaction with a delivered pack. Those questions require later events. Educator C's request to see a proposal is a next step, not a sale.
+She also separates problem evidence from buying evidence. Educator A's description supports the existence of a design gap within the story. It does not yet establish willingness to pay USD 300, acceptance of Audy's scope, or satisfaction with a delivered pack. Those questions require later events. Educator C's request to see a proposal is a next step, not a sale.
 
-Maya decides to prepare proposals for A and C. She does not make one for B, because solving preparation would broaden the task beyond the demonstrated design service. That choice is not a judgment that B's problem is unimportant. It protects the usefulness of the experiment by keeping the offered work close to what Maya can review and deliver.
+Audy decides to prepare proposals for A and C. She does not make one for B, because solving preparation would broaden the task beyond the demonstrated design service. That choice is not a judgment that B's problem is unimportant. It protects the usefulness of the experiment by keeping the offered work close to what Audy can review and deliver.
 
 In your own notes, write the alternative action beside the interpretation. A timing problem may call for a later follow-up if welcome. A capability mismatch may call for a referral or a different experiment. A lack of budget may change the audience or scope. The record should help you act on what was said, including when the appropriate action is to stop pursuing this offer with this person.
 
 ## Make a pilot small enough to judge
 
-Before quoting the work, Maya asks to understand the material the pilot would change. An educator's description can establish a difficulty within the conversation, but the existing brief helps locate it. With permission, she looks for the intended participant action, available time, and current method of review. She needs enough context to scope the job, not a copy of every document the educator has ever produced.
+Before quoting the work, Audy asks to understand the material the pilot would change. An educator's description can establish a difficulty within the conversation, but the existing brief helps locate it. With permission, she looks for the intended participant action, available time, and current method of review. She needs enough context to scope the job, not a copy of every document the educator has ever produced.
 
-The brief may contradict Maya's first interpretation. A visible activity could already exist, with the real difficulty lying in how feedback is used. If so, the proposal should change. Discovery is not complete merely because someone has said the words that fit the service description. The useful question is whether the offered work addresses the particular obstacle the material reveals.
+The brief may contradict Audy's first interpretation. A visible activity could already exist, with the real difficulty lying in how feedback is used. If so, the proposal should change. Discovery is not complete merely because someone has said the words that fit the service description. The useful question is whether the offered work addresses the particular obstacle the material reveals.
 
-She also asks what the educator would otherwise do. In the fictional case, Educator A could revise the brief alone or ask a colleague for an informal review. Those alternatives affect the useful difference Fieldwork must provide. A comparison with an imagined world where the buyer has no options would make almost any offer appear valuable.
+She also asks what the educator would otherwise do. In the fictional case, Educator A could revise the brief alone or ask a colleague for an informal review. Those alternatives affect the useful difference Himura Inc. must provide. A comparison with an imagined world where the buyer has no options would make almost any offer appear valuable.
 
 The next request should match the uncertainty. Asking permission to inspect a brief tests access to the work. Asking whether a proposal is worth reviewing tests interest in a next step. Agreeing a specific paid scope tests a purchase decision under those terms. None is a substitute for the others, and none should require the participant to provide material beyond what the particular step needs.
 
-This sequence also gives Maya a respectful stopping point. An educator can decline to share a brief, decide that the timing is wrong, or choose another route. Maya records the outcome without treating refusal as a problem to overcome through more persistent persuasion. The experiment is useful when it improves a decision, including the decision not to pursue a particular engagement.
+This sequence also gives Audy a respectful stopping point. An educator can decline to share a brief, decide that the timing is wrong, or choose another route. Audy records the outcome without treating refusal as a problem to overcome through more persistent persuasion. The experiment is useful when it improves a decision, including the decision not to pursue a particular engagement.
 
-Maya prepares two proposals, P21-A and P21-C. Each offers a review of one brief, redesign of one activity, and a reviewable pack for an illustrative USD 300. The shared shape makes the offer understandable; the diagnosis in each proposal refers to that educator's stated problem.
+Audy prepares two proposals, P21-A and P21-C. Each offers a review of one brief, redesign of one activity, and a reviewable pack for an illustrative USD 300. The shared shape makes the offer understandable; the diagnosis in each proposal refers to that educator's stated problem.
 
 The pilot for Educator A, PP21-01, becomes the agreed engagement. Its input is the educator's authorized draft brief and a synthetic meeting-notes exercise. Its delivery contains an annotated review, one revised activity, source-linked example work, review criteria, a facilitator sequence, and a change note explaining the important choices. One bounded revision round is included.
 
-Maya and the educator agree what the pack should allow: the educator can rehearse a thirty-minute session, identify what participants will produce, compare that output with the criteria, and use feedback to guide a revision. These are delivery and rehearsal criteria. Actual learning would require appropriate observation of participant work in a later session, which this pilot does not supply.
+Audy and the educator agree what the pack should allow: the educator can rehearse a thirty-minute session, identify what participants will produce, compare that output with the criteria, and use feedback to guide a revision. These are delivery and rehearsal criteria. Actual learning would require appropriate observation of participant work in a later session, which this pilot does not supply.
 
 The excluded work matters because it can otherwise arrive disguised as helpful completion. The pilot does not include a complete course, branded slide deck, software platform, live facilitation, recruitment, or unlimited revisions. A new request can be considered, but it does not silently become part of the agreed USD 300 package.
 
-Educator A agrees to the paid pilot. Educator C defers because there is no scheduled session to prepare for. The second proposal therefore remains unaccepted; Maya does not count it as future revenue. Nor does she treat one agreement from two proposals as a dependable conversion rate. The people and circumstances were selected for a tiny exploratory exercise, not a representative forecast.
+Educator A agrees to the paid pilot. Educator C defers because there is no scheduled session to prepare for. The second proposal therefore remains unaccepted; Audy does not count it as future revenue. Nor does she treat one agreement from two proposals as a dependable conversion rate. The people and circumstances were selected for a tiny exploratory exercise, not a representative forecast.
 
 ## Turn agreement into a workable delivery boundary
 
-An accepted offer must become specific enough to guide ordinary work. Maya records the input she may use, the deliverables, the revision allowance, the agreed fee, the review date or condition, and the person who accepts the pack. If those details live only in a pleasant conversation, the workflow will have to infer them later.
+An accepted offer must become specific enough to guide ordinary work. Audy records the input she may use, the deliverables, the revision allowance, the agreed fee, the review date or condition, and the person who accepts the pack. If those details live only in a pleasant conversation, the workflow will have to infer them later.
 
 She keeps buyer communication in her own hands. An assistant may help draft a proposal or organize authorized design material. The earlier delegation contract does not acquire permission to contact Educator A, publish the pack, change the agreement, or make claims about participant outcomes. Those actions have different consequences from producing a draft in the project workspace.
 
 This is where the enterprise runbook becomes useful. The accepted pilot enters as actual work within the fictional story, carrying its particular source and scope. Earlier internal practice cards remain simulations. Their estimated effort cannot be substituted for the time this engagement actually requires, even when the task looks familiar.
 
-The pilot also exposes a scheduling question. Chapter 20's internal package slots were assumptions for much smaller rehearsals. A customer engagement that requires several hours cannot be promised inside one such slot. Maya reserves an appropriate window and does not add unrelated commitments until she can see the work the pilot requires.
+The pilot also exposes a scheduling question. Chapter 20's internal package slots were assumptions for much smaller rehearsals. A customer engagement that requires several hours cannot be promised inside one such slot. Audy reserves an appropriate window and does not add unrelated commitments until she can see the work the pilot requires.
 
 The product record distinguishes agreement from payment. USD 300 is the agreed fee in this illustration. A signed-off pack, an issued invoice, earned revenue under a stated accounting treatment, and collected cash are different states. This chapter establishes no payment receipt. Keep those labels separate when preparing the economics model rather than calling every agreed fee money already available to spend.
 
@@ -4401,23 +4401,23 @@ The product record distinguishes agreement from payment. USD 300 is the agreed f
 
 The first proposed pack looks useful. It contains an individual action-list attempt, source-based criteria, and feedback that explains why an unsupported owner or date should be corrected. The earlier learning-design work survives. Yet its session sequence takes thirty-six minutes: five for orientation, eight for a model, ten for the attempt, eight for review, and five for closing.
 
-The agreed workshop is thirty minutes. The defect is arithmetic and scope, not a newly discovered need for individual practice. A document can contain sound parts while failing as a usable whole. Maya's internal review should have caught the mismatch before handing over the candidate.
+The agreed workshop is thirty minutes. The defect is arithmetic and scope, not a newly discovered need for individual practice. A document can contain sound parts while failing as a usable whole. Audy's internal review should have caught the mismatch before handing over the candidate.
 
-In the constructed feedback scene, Educator A says: “The activity is clearer, but these parts add up to thirty-six minutes. I cannot fit that into the session we agreed.” Maya records the comment as a delivery defect. She does not defend the extra time by repeating why feedback matters, or report the positive first clause while omitting the constraint that made the pack unacceptable.
+In the constructed feedback scene, Educator A says: “The activity is clearer, but these parts add up to thirty-six minutes. I cannot fit that into the session we agreed.” Audy records the comment as a delivery defect. She does not defend the extra time by repeating why feedback matters, or report the positive first clause while omitting the constraint that made the pack unacceptable.
 
 Her repair preserves the learning operation while narrowing the content. The revised sequence allows three minutes for orientation, five for a short worked model, eight for the individual attempt, eight for comparison and revision, and six for closing and the next action. The total is thirty minutes. She shortens the model and removes an optional discussion instead of taking away the participant's opportunity to try and revise the task.
 
-The revised example remains grounded in synthetic notes. Its action-list answer still preserves agreements, suggestions, named owners, unspecified assignments, and unresolved timing under `instructions-v3`. Commercial pressure does not justify making the answers look complete by inventing a commitment. Maya checks both the session total and the source-based output after the repair.
+The revised example remains grounded in synthetic notes. Its action-list answer still preserves agreements, suggestions, named owners, unspecified assignments, and unresolved timing under `instructions-v3`. Commercial pressure does not justify making the answers look complete by inventing a commitment. Audy checks both the session total and the source-based output after the repair.
 
 Educator A accepts the revised pack as ready for their own rehearsal. It is narrower than successful facilitation, learner improvement, repeat demand, or an independently measured time saving. The artifact supplies the brief constraints, both agendas, feedback, and revised acceptance so you can inspect the exact change without imagining a missing successful workshop.
 
 ## Preserve feedback at the level it can support
 
-Feedback may concern the offer, the delivery, or the eventual use. These are related but require different responses. The thirty-six-minute agenda reveals a delivery mismatch. It does not establish that the educator's original problem was imaginary or that no one will pay for workshop review. Maya repairs the part the evidence identifies.
+Feedback may concern the offer, the delivery, or the eventual use. These are related but require different responses. The thirty-six-minute agenda reveals a delivery mismatch. It does not establish that the educator's original problem was imaginary or that no one will pay for workshop review. Audy repairs the part the evidence identifies.
 
 Equally, accepting the repaired pack does not settle the larger product question. The educator might use it successfully and never need another. A second educator might need extensive customization. The work might be useful but expensive to deliver. The experiment record should preserve these possibilities rather than converting one acceptance into the phrase “validated product.”
 
-Maya updates `product-experiment-v1` with distinct entries: three discovery conversations; two proposals; one agreed paid pilot; one candidate requiring timing repair; one revised pack accepted for rehearsal. She leaves learner performance and repeat buying unresolved. These are counts of events in an authored case, not research findings about the market.
+Audy updates `product-experiment-v1` with distinct entries: three discovery conversations; two proposals; one agreed paid pilot; one candidate requiring timing repair; one revised pack accepted for rehearsal. She leaves learner performance and repeat buying unresolved. These are counts of events in an authored case, not research findings about the market.
 
 She also records the correction in the right place. The source-faithfulness instruction does not need a new version because the agenda exceeded its agreed duration. The delivery review needs an explicit total-duration check before a pack is returned. A new problem should change the procedure responsible for it, preserving the boundaries already working elsewhere.
 
@@ -4425,25 +4425,25 @@ For your own pilot, retain the feedback that could embarrass a success story. A 
 
 ## Count the work the first purchase required
 
-The pilot gives Maya another kind of evidence: the effort involved in obtaining and serving a buyer. The illustrative record allocates four hours to delivery, including the timing repair, two hours to acquisition across the three conversations and two proposals, and one hour to support. Cash costs allocated to the experiment are USD 20. These are constructed case figures, not measured business results.
+The pilot gives Audy another kind of evidence: the effort involved in obtaining and serving a buyer. The illustrative record allocates four hours to delivery, including the timing repair, two hours to acquisition across the three conversations and two proposals, and one hour to support. Cash costs allocated to the experiment are USD 20. These are constructed case figures, not measured business results.
 
-Seven hours of owner work sit behind a USD 300 agreed fee. A reader who subtracts only USD 20 sees a large remainder, but that arithmetic leaves Maya's time unpriced. A reader who counts only the final edit overlooks the conversations, proposal writing, and clarification that enabled it. Both accounts can make an unsustainable offer look comfortable.
+Seven hours of owner work sit behind a USD 300 agreed fee. A reader who subtracts only USD 20 sees a large remainder, but that arithmetic leaves Audy's time unpriced. A reader who counts only the final edit overlooks the conversations, proposal writing, and clarification that enabled it. Both accounts can make an unsustainable offer look comfortable.
 
-Chapter 22 will examine the illustration using a USD 50 hourly value for owner time. That value is an assumption for decision-making, not money the example proves Maya paid herself or an authoritative market wage. With USD 300 treated as earned revenue for that calculation, USD 20 of cash cost and USD 350 of owner time produce a negative USD 70 economic contribution.
+Chapter 22 will examine the illustration using a USD 50 hourly value for owner time. That value is an assumption for decision-making, not money the example proves Audy paid herself or an authoritative market wage. With USD 300 treated as earned revenue for that calculation, USD 20 of cash cost and USD 350 of owner time produce a negative USD 70 economic contribution.
 
 Do not solve this discovery by declaring that AI will remove the difference. Identify which work took time and why. Some effort may be an initial learning cost. Some may recur for every buyer. Some may be a consequence of a scope that needs changing. A credible second experiment makes a specific alteration and checks both delivery quality and total effort.
 
-Maya now has a useful commercial question: can she retain the part the educator valued while reducing unnecessary work or agreeing a different price and scope? The first purchase makes that question more concrete.
+Audy now has a useful commercial question: can she retain the part the educator valued while reducing unnecessary work or agreeing a different price and scope? The first purchase makes that question more concrete.
 
 ## Choose a form that fits the work you can inspect
 
-A service is a reasonable first form when judgment and adaptation remain central. The buyer can bring a particular brief, and Maya can learn which parts vary. Repeated patterns may later justify a more standardized pack. Standardization should follow a stable useful operation, rather than forcing every buyer into a template whose assumptions remain untested.
+A service is a reasonable first form when judgment and adaptation remain central. The buyer can bring a particular brief, and Audy can learn which parts vary. Repeated patterns may later justify a more standardized pack. Standardization should follow a stable useful operation, rather than forcing every buyer into a template whose assumptions remain untested.
 
-An educational product could be a self-guided activity kit with examples, criteria, and a facilitator guide. Its next experiment would need to examine whether the intended user can use those materials without Maya explaining every step. A sale alone would not show that the kit teaches the intended performance. The product's support burden and observed use become part of the inquiry.
+An educational product could be a self-guided activity kit with examples, criteria, and a facilitator guide. Its next experiment would need to examine whether the intended user can use those materials without Audy explaining every step. A sale alone would not show that the kit teaches the intended performance. The product's support burden and observed use become part of the inquiry.
 
-A software product could help an educator assemble or review such a pack. That proposal adds questions about input handling, mistakes, accessibility, maintenance, and whether the automation saves enough work to justify itself. Before building an application, Maya could test the proposed interaction with an ordinary document and a manually delivered result, honestly described as a manual service.
+A software product could help an educator assemble or review such a pack. That proposal adds questions about input handling, mistakes, accessibility, maintenance, and whether the automation saves enough work to justify itself. Before building an application, Audy could test the proposed interaction with an ordinary document and a manually delivered result, honestly described as a manual service.
 
-These routes can coexist, but they should not be blended to hide an uncertain promise. A buyer purchasing a reviewed service expects Maya's judgment. A buyer purchasing a resource expects to use it with the described support. A software user expects the stated behavior to work under stated conditions. Each form changes what has to be delivered and what a meaningful test should inspect.
+These routes can coexist, but they should not be blended to hide an uncertain promise. A buyer purchasing a reviewed service expects Audy's judgment. A buyer purchasing a resource expects to use it with the described support. A software user expects the stated behavior to work under stated conditions. Each form changes what has to be delivered and what a meaningful test should inspect.
 
 The Future Is Solo presents systems and individual judgment as a route to creating value at greater scale. That is the project's economic thesis, not evidence that a particular product has demand. Applying it here means investigating a useful exchange and its working conditions before expanding the machinery around it. ([The Future Is Solo, n.d.-b](https://thefutureissolo.com/))
 
@@ -4451,7 +4451,7 @@ The TFIS experiment deck provides a related development example: its lead-genera
 
 ## Design the next experiment from the remaining uncertainty
 
-Maya does not leave the pilot with a larger feature list. She leaves with several possible questions and must choose among them. Can an educator rehearse the pack without extra explanation? Which part of delivery consumed the four hours? Would a narrower review command enough value at a sustainable price? Does the same problem appear in a different educator's current work?
+Audy does not leave the pilot with a larger feature list. She leaves with several possible questions and must choose among them. Can an educator rehearse the pack without extra explanation? Which part of delivery consumed the four hours? Would a narrower review command enough value at a sustainable price? Does the same problem appear in a different educator's current work?
 
 Choose the next question that matters to the decision you face. If the pack cannot be used, acquiring more buyers magnifies an unresolved delivery problem. If it works but costs too much to deliver, another identical pilot may only repeat the loss. If the audience mismatch remains the main uncertainty, refining the production workflow may have little effect on demand.
 
@@ -4488,13 +4488,13 @@ The Future Is Solo. (2026). *The Future Is Solo 20260910* [Google Slides present
 
 ## A useful delivery can still be an expensive way to work
 
-Educator A accepts the revised Fieldwork pack for rehearsal. In the fictional pilot, that is a meaningful delivery result: the agenda now fits the agreed thirty minutes, and the activity retains an individual attempt, comparison, and revision. Maya has corrected a specific defect without removing the work the educator wanted participants to do.
+Educator A accepts the revised Himura Inc. pack for rehearsal. In the fictional pilot, that is a meaningful delivery result: the agenda now fits the agreed thirty minutes, and the activity retains an individual attempt, comparison, and revision. Audy has corrected a specific defect without removing the work the educator wanted participants to do.
 
 The acceptance does not answer whether she should sell the same service again at the same price. To investigate that question, she opens the effort record from Chapter 21. Delivery, including the repair, took four hours. Acquisition took two hours across all three conversations and both proposals. Support took another hour. The agreed fee was USD 300, and attributable cash costs were USD 20.
 
-Her first calculation is tempting: three hundred minus twenty leaves two hundred and eighty. That describes a particular remainder before owner time and other costs. Calling it profit would conceal most of the work required to produce the result. The owner hours have not disappeared merely because Maya did not send herself an invoice.
+Her first calculation is tempting: three hundred minus twenty leaves two hundred and eighty. That describes a particular remainder before owner time and other costs. Calling it profit would conceal most of the work required to produce the result. The owner hours have not disappeared merely because Audy did not send herself an invoice.
 
-This chapter keeps the fictional pilot intact and builds explicit planning scenarios around it. No cash receipt is added to the story. The calculations assume, where stated, that the agreed fee becomes earned revenue. Monthly scenarios introduce further assumptions about sales, costs, collection, and available hours. They are tools for deciding what to test, not a forecast of Fieldwork's performance.
+This chapter keeps the fictional pilot intact and builds explicit planning scenarios around it. No cash receipt is added to the story. The calculations assume, where stated, that the agreed fee becomes earned revenue. Monthly scenarios introduce further assumptions about sales, costs, collection, and available hours. They are tools for deciding what to test, not a forecast of Himura Inc.'s performance.
 
 Open the [unit-economics artifact](book/artifacts/22-unit-economics.md). You can complete every essential calculation on paper. The optional calculator makes it easier to change assumptions, but explaining the result remains your responsibility.
 
@@ -4522,7 +4522,7 @@ You can model timing separately with a short dated cash list. Start with an open
 
 ### Follow a payment across two dates
 
-Consider a separate, invented cash-timing example using the same fee and cash cost. An owner starts with USD 100 in the business account, pays USD 20 for the engagement's materials, and receives no payment that week. The closing cash balance is USD 80. If the buyer pays USD 300 the following week and nothing else moves, the balance becomes USD 380. These are arithmetic illustrations, not additional events in Maya's pilot.
+Consider a separate, invented cash-timing example using the same fee and cash cost. An owner starts with USD 100 in the business account, pays USD 20 for the engagement's materials, and receives no payment that week. The closing cash balance is USD 80. If the buyer pays USD 300 the following week and nothing else moves, the balance becomes USD 380. These are arithmetic illustrations, not additional events in Audy's pilot.
 
 The owner-time allowance does not leave the account in either week. It remains a planning value unless an actual payment is made. Conversely, a real owner withdrawal would reduce the available balance even if the planning table had already included an allowance. Keep the two records connected by explanation, not by treating one as a substitute for the other.
 
@@ -4532,9 +4532,9 @@ For your own offer, put the expected payment dates beside the work dates. Mark w
 
 ## Give owner time an explicit value
 
-Maya chooses USD 50 per hour as an illustrative value for her own work. That number is an assumption for comparing ways to use her time. It is not an observed wage, a market rate established by this book, or cash she has paid herself. Another reader should choose a value that makes their own trade-off understandable and show how the conclusion changes if it is different.
+Audy chooses USD 50 per hour as an illustrative value for her own work. That number is an assumption for comparing ways to use her time. It is not an observed wage, a market rate established by this book, or cash she has paid herself. Another reader should choose a value that makes their own trade-off understandable and show how the conclusion changes if it is different.
 
-Seven hours at fifty dollars creates an owner-time allowance of USD 350. Subtracting the twenty dollars of attributable cash cost and that allowance from three hundred dollars of assumed revenue leaves negative seventy dollars. In this narrow unit model, the offer fails to cover the selected value of Maya's time even before allocating fixed operating costs.
+Seven hours at fifty dollars creates an owner-time allowance of USD 350. Subtracting the twenty dollars of attributable cash cost and that allowance from three hundred dollars of assumed revenue leaves negative seventy dollars. In this narrow unit model, the offer fails to cover the selected value of Audy's time even before allocating fixed operating costs.
 
 | Pilot calculation | Illustrative USD |
 | --- | ---: |
@@ -4544,13 +4544,13 @@ Seven hours at fifty dollars creates an owner-time allowance of USD 350. Subtrac
 | Less owner-time allowance: 7 hours × 50 | 350 |
 | Contribution after owner-time allowance | −70 |
 
-The negative seventy is not a negative cash margin or an invoice Maya owes herself. It is a comparison result under an explicit valuation of owner work. She could choose to accept less for a bounded learning experiment. She should then call that a deliberate investment in learning and define its limit, rather than describe the current offer as already supporting her target compensation.
+The negative seventy is not a negative cash margin or an invoice Audy owes herself. It is a comparison result under an explicit valuation of owner work. She could choose to accept less for a bounded learning experiment. She should then call that a deliberate investment in learning and define its limit, rather than describe the current offer as already supporting her target compensation.
 
 Changing the assumed hourly value changes the result, but does not change the hours. At USD 30 per hour, the allowance would be USD 210 and the unit remainder USD 70 before fixed costs. The same job can look acceptable under one personal objective and inadequate under another. Stating the objective makes that difference discussable.
 
 ## Count the work that did not become a sale
 
-The acquisition record includes Educator B's conversation and Educator C's deferred proposal. Maya did not obtain three paid engagements. She used two hours across the whole discovery and proposal sequence to agree one pilot. For this illustrative allocation, all two hours belong in the acquisition effort per successful pilot.
+The acquisition record includes Educator B's conversation and Educator C's deferred proposal. Audy did not obtain three paid engagements. She used two hours across the whole discovery and proposal sequence to agree one pilot. For this illustrative allocation, all two hours belong in the acquisition effort per successful pilot.
 
 If she counted only the conversation with Educator A, she would erase work required by the experiment as conducted. A future sequence may produce a different relationship between effort and paid work. That would be new evidence for a new estimate. It cannot be assumed because excluding unsuccessful approaches makes the present number smaller.
 
@@ -4570,13 +4570,13 @@ When support grows, inspect its content before deciding to automate the replies.
 
 ## Move from one unit to a workable month
 
-A unit calculation cannot tell Maya how many complete engagements fit alongside maintaining the business. For the next original scenario, she assumes 160 available owner hours in a month and reserves forty for fixed operating work. That leaves 120 hours for delivery, allocated acquisition, and support. These are convenient planning inputs, not a recommendation that everyone work that schedule.
+A unit calculation cannot tell Audy how many complete engagements fit alongside maintaining the business. For the next original scenario, she assumes 160 available owner hours in a month and reserves forty for fixed operating work. That leaves 120 hours for delivery, allocated acquisition, and support. These are convenient planning inputs, not a recommendation that everyone work that schedule.
 
 At seven hours per unit, 120 divided by seven is a little more than seventeen. Only seventeen whole units fit in the simple model. They consume 119 unit-related hours; adding the forty fixed hours gives 159 total owner hours. The remaining hour cannot accommodate another whole seven-hour engagement.
 
 Capacity here is a limit implied by the assumptions, not a prediction that seventeen buyers will appear. It also assumes the work can be scheduled within the period. Seventeen available slots spread across a month do not guarantee that several requests due on the same day can all be accepted. Calendar constraints and personal reserves may justify using a lower working limit.
 
-Maya adds USD 200 of hypothetical monthly fixed cash costs. At seventeen units and USD 300 per unit, modeled revenue is USD 5,100. Variable cash costs total USD 340. Subtracting those and the fixed cash cost leaves USD 4,560 before owner compensation and tax, under the stated same-period collection assumption.
+Audy adds USD 200 of hypothetical monthly fixed cash costs. At seventeen units and USD 300 per unit, modeled revenue is USD 5,100. Variable cash costs total USD 340. Subtracting those and the fixed cash cost leaves USD 4,560 before owner compensation and tax, under the stated same-period collection assumption.
 
 The 159 working hours carry an allowance of USD 7,950 at the selected hourly value. The remainder after that allowance is negative USD 3,390. Filling every modeled slot therefore does not solve the offer's economics. It expands the amount of owner work performed below the assumed value while also requiring the fixed operating work to be covered.
 
@@ -4586,9 +4586,9 @@ At the original seven hours and twenty dollars of attributable cash cost, a pric
 
 Under the seventeen-unit monthly assumptions, a USD 500 price gives USD 8,500 revenue. Subtract USD 340 variable cash, USD 200 fixed cash, and USD 7,950 owner-time allowance: ten dollars remain. That scenario shows why a price that looks generous beside an API bill can still leave very little after counting all the work.
 
-The calculation does not establish that a buyer will pay five hundred dollars, or that Maya should quote it. Her costs identify an operating constraint. The buyer's alternatives and willingness to purchase remain separate questions.
+The calculation does not establish that a buyer will pay five hundred dollars, or that Audy should quote it. Her costs identify an operating constraint. The buyer's alternatives and willingness to purchase remain separate questions.
 
-Maya can consider changes in price, scope, effort, delivery form, or the amount of income she wants from this activity. Each has consequences. Reducing scope may reduce value to the buyer. Lowering effort by omitting review may damage the promised result. Charging more may require a more useful offer, a different buying situation, or acceptance that fewer people will choose it.
+Audy can consider changes in price, scope, effort, delivery form, or the amount of income she wants from this activity. Each has consequences. Reducing scope may reduce value to the buyer. Lowering effort by omitting review may damage the promised result. Charging more may require a more useful offer, a different buying situation, or acceptance that fewer people will choose it.
 
 The task is to make those choices inspectable. Write what changes, why it might work, and what evidence would justify replacing the old assumption. A scenario is useful when it directs the next experiment toward a real uncertainty.
 
@@ -4598,7 +4598,7 @@ The task is to make those choices inspectable. Write what changes, why it might 
 
 *Figure 22.1. Original scenario comparison. Capacity limits the modeled work; the owner-time allowance changes how its economic result is interpreted.*
 
-Maya creates a proposed scenario at USD 750 per package. She assumes three delivery hours, two acquisition hours, one support hour, and USD 35 attributable cash cost. The higher cash allowance might cover a different mix of tools or materials; no specific product purchase is implied. All of these are proposed inputs, especially the price and one-hour delivery reduction.
+Audy creates a proposed scenario at USD 750 per package. She assumes three delivery hours, two acquisition hours, one support hour, and USD 35 attributable cash cost. The higher cash allowance might cover a different mix of tools or materials; no specific product purchase is implied. All of these are proposed inputs, especially the price and one-hour delivery reduction.
 
 The unit now uses six owner hours. Its cash contribution is USD 715; its owner-time allowance is USD 300; its contribution after that allowance is USD 415. With 120 hours available for units, twenty whole units fit. The forty fixed hours bring total working time to 160 hours.
 
@@ -4623,7 +4623,7 @@ Treat the proposal as a set of questions. Which buyer would value this package a
 
 Start by leaving price and unit effort unchanged but modeling only ten completed units in the proposed month. Revenue falls to USD 7,500. Variable cash costs become USD 350. With USD 200 fixed cash and one hundred owner hours, the remainder after a USD 5,000 time allowance is USD 1,950. The remaining sixty available hours are unused in this scenario; the model does not charge an allowance for idle availability.
 
-That distinction matters when comparing the result with a personal income need. A positive remainder on the hours worked does not guarantee enough total income for the month. If Maya needs to be compensated for reserving all 160 hours, she should make that separate requirement explicit.
+That distinction matters when comparing the result with a personal income need. A positive remainder on the hours worked does not guarantee enough total income for the month. If Audy needs to be compensated for reserving all 160 hours, she should make that separate requirement explicit.
 
 Next, suppose acquisition takes five hours per completed package instead of two, while delivery remains three and support one. Each unit now takes nine hours. Only thirteen whole units fit in the 120 hours. At USD 750 each, modeled revenue is USD 9,750. After USD 455 variable cash, USD 200 fixed cash, and USD 7,850 allowance for 157 working hours, the remainder is USD 1,245.
 
@@ -4639,7 +4639,7 @@ That simple threshold is conditional on the costs and hours remaining as modeled
 
 The original unit behaves differently. Its contribution after the chosen owner-time allowance is negative seventy dollars before fixed costs. Under those unchanged assumptions, adding more identical units cannot make that particular economic remainder positive. It can increase incoming cash while increasing the amount of work performed below the chosen allowance. Both descriptions can be true at the same time.
 
-Maya may still choose a small, explicitly limited learning engagement. She should identify the question it will answer and the maximum effort she will spend. An experiment without a learning question or stopping condition can become a recurring subsidy hidden inside the word pilot.
+Audy may still choose a small, explicitly limited learning engagement. She should identify the question it will answer and the maximum effort she will spend. An experiment without a learning question or stopping condition can become a recurring subsidy hidden inside the word pilot.
 
 ## Use AI to challenge the model, then verify the arithmetic
 
@@ -4679,7 +4679,7 @@ When a later engagement supplies actual timing or cost evidence, create a dated 
 
 The TFIS thesis links individual capability and supporting systems to independent value creation. Economic review makes that ambition concrete: the system must support a useful exchange and the conditions under which the person can keep providing it. ([The Future Is Solo, n.d.-b](https://thefutureissolo.com/))
 
-Maya's next action is therefore not to multiply the baseline. She can investigate a revised price and scope, test the proposed delivery improvement, or choose a different form of offer. She can also decide that this activity is useful as a limited service rather than the whole business. The record should explain which uncertainty her next action addresses.
+Audy's next action is therefore not to multiply the baseline. She can investigate a revised price and scope, test the proposed delivery improvement, or choose a different form of offer. She can also decide that this activity is useful as a limited service rather than the whole business. The record should explain which uncertainty her next action addresses.
 
 ## Field assignment: make the next economic decision explainable
 
@@ -4706,15 +4706,15 @@ The Future Is Solo. (n.d.-b). *The future is solo*. Retrieved September 10, 2026
 
 *Assemble evidence of what you and your systems can do in one stated domain, identify the next missing demonstration, and improve it without treating a chapter, a tool, or a sale as a maturity certificate.*
 
-## A sale does not tell Maya which level she has reached
+## A sale does not tell Audy which level she has reached
 
-Maya has a larger collection than the one she began with. It contains source-linked examples, current instructions, verdicts, a recovery practice, delegation and review procedures, system contracts, and a product experiment. The fictional case has also reached one agreed paid pilot and a revised pack accepted for rehearsal. The economics exercise has made the owner's workload visible.
+Audy has a larger collection than the one she began with. It contains source-linked examples, current instructions, verdicts, a recovery practice, delegation and review procedures, system contracts, and a product experiment. The fictional case has also reached one agreed paid pilot and a revised pack accepted for rehearsal. The economics exercise has made the owner's workload visible.
 
 She could arrange those records into a persuasive story of progress. She could also attach a high SSA-CMM label to that story and stop asking what the records actually demonstrate. The danger is especially clear after a buyer agrees to pay. Commercial agreement changes the evidence about that particular offer; it does not establish that a memory write survived, a delegated workflow escalates correctly, or a replacement provider preserves behavior.
 
-This chapter asks Maya to make a capability portfolio. It is an ordinary evidence table with links, scope, observations, and the next repair. It brings the book's work together without adding another maturity framework. A portfolio is useful when someone can inspect a claim and find the conditions under which it held, including what happened when an important condition changed.
+This chapter asks Audy to make a capability portfolio. It is an ordinary evidence table with links, scope, observations, and the next repair. It brings the book's work together without adding another maturity framework. A portfolio is useful when someone can inspect a claim and find the conditions under which it held, including what happened when an important condition changed.
 
-The case's examples remain authored fiction and constructed teaching specimens. Their literal inputs and outputs help you learn to judge evidence. They are not receipts of real model runs, customer transactions, or observed learner effects. Your portfolio must contain your own demonstrations when you claim an operational capability. Copying Maya's successful rows would preserve the lesson while inventing your result.
+The case's examples remain authored fiction and constructed teaching specimens. Their literal inputs and outputs help you learn to judge evidence. They are not receipts of real model runs, customer transactions, or observed learner effects. Your portfolio must contain your own demonstrations when you claim an operational capability. Copying Audy's successful rows would preserve the lesson while inventing your result.
 
 Bring the [capability-portfolio artifact](book/artifacts/23-capability-portfolio.md), your earlier practice records, and one recurring task you understand well enough to review. Begin by asking what claim those records can bear, rather than which title would look best above them.
 
@@ -4734,7 +4734,7 @@ A level should help you choose the next useful demonstration. If it becomes a wa
 
 “I can supervise agents” is too broad to inspect. Supervising a bounded draft from synthetic notes differs from supervising a system that can spend money, communicate externally, or change a production database. The task, inputs, permitted actions, review requirements, and consequences determine what the claim needs to establish.
 
-Maya chooses a narrow domain for this portfolio: preparing and reviewing action-list examples and the associated workshop-design pack. Her current source-representation instruction remains `instructions-v3`, reached through `learning-loop-v1`. The paid pilot adds delivery and buyer-review evidence within the story. It does not silently broaden that instruction into permission for customer communication or deployment.
+Audy chooses a narrow domain for this portfolio: preparing and reviewing action-list examples and the associated workshop-design pack. Her current source-representation instruction remains `instructions-v3`, reached through `learning-loop-v1`. The paid pilot adds delivery and buyer-review evidence within the story. It does not silently broaden that instruction into permission for customer communication or deployment.
 
 Write the claim as an operation with conditions. “Given these authorized notes and the current instruction, I can produce a source-linked proposed action list, preserve the specified uncertainty, and identify when clarification is needed” can be challenged. It names the input, useful output, and an important limit. “I am good with AI” leaves all three open.
 
@@ -4746,7 +4746,7 @@ You may have strong evidence in one domain and little in another. Keep that unev
 
 At L0, begin with the work you perform directly. Select a recurring task, describe its input and useful result, and record what happens when you do it. The objective is to make the task and its cost visible enough that later assistance can be compared with something meaningful.
 
-Maya's early baseline asked her to notice where workshop design required research, interpretation, drafting, and review. The most useful observation was not that a document took a certain number of minutes. It was that a credible workshop brief needed an activity producing participant work she could inspect. That understanding gave later outputs a criterion beyond speed or polished wording.
+Audy's early baseline asked her to notice where workshop design required research, interpretation, drafting, and review. The most useful observation was not that a document took a certain number of minutes. It was that a credible workshop brief needed an activity producing participant work she could inspect. That understanding gave later outputs a criterion beyond speed or polished wording.
 
 Your evidence can be a modest packet: the original input, your unaided attempt, a note about the decisions you made, and the criteria used to review it. When you make a mistake, preserve it with the correction. A baseline consisting only of your best final answer leaves no account of the work a tool might genuinely change.
 
@@ -4760,7 +4760,7 @@ L1 concerns assistance applied to a task you can still judge. A reusable prompt 
 
 The Functional Life suggests repeated use of a saved task prompt, including a five-run starter exercise. Treat that count as a practical invitation to observe variation, not a scientifically established reliability threshold. A narrow set of easy cases can pass repeatedly while leaving an important failure untouched. ([The Future Is Solo, n.d.-a](https://life.thefutureissolo.com/))
 
-Maya's early action-list examples show why the first response matters. An output can copy a plausible owner into an unassigned task or turn “soon” into a date. If she saves only the repaired answer, she loses the distinction between what the assistant initially did and what her intervention made correct.
+Audy's early action-list examples show why the first response matters. An output can copy a plausible owner into an unassigned task or turn “soon” into a date. If she saves only the repaired answer, she loses the distinction between what the assistant initially did and what her intervention made correct.
 
 For your demonstration, choose related inputs that vary a consequential feature. Include an explicit date in one, imprecise timing in another, and a suggestion that resembles a commitment. Keep expected answers separate during drafting. Review the fields against their own source passages, record the help required, and explain the error before asking for another answer.
 
@@ -4770,7 +4770,7 @@ The next repair follows the evidence. An ambiguous instruction may need clearer 
 
 L2 moves the unit of work from a single assisted task to a repeatable workflow. The useful evidence concerns the connections: what one step receives, what it returns, what the next step may assume, and what happens when a prerequisite is missing or a check fails.
 
-Maya's workflow separates source extraction, drafting, comparison against the original material, bounded repair, and a human evidence packet. Its steps exist because they answer different questions. Extraction identifies what the source establishes. Drafting proposes a useful representation. Review compares that proposal with its support. A second polished draft is not a substitute for the independent comparison the workflow requires.
+Audy's workflow separates source extraction, drafting, comparison against the original material, bounded repair, and a human evidence packet. Its steps exist because they answer different questions. Extraction identifies what the source establishes. Drafting proposes a useful representation. Review compares that proposal with its support. A second polished draft is not a substitute for the independent comparison the workflow requires.
 
 To demonstrate the chain, retain one complete run from input through reviewed result. Record the actual handoffs, not just an arrow diagram. Then introduce a safe missing dependency in a rehearsal copy. The workflow should identify the absent input or stale version and hold the step that depends on it. A chain that continues by inventing missing material is operating, but it is not satisfying its contract.
 
@@ -4818,7 +4818,7 @@ Economic sustainability also matters to the larger solo-enterprise claim. A port
 
 The main TFIS account names Agency, Clarity, Competence, Accountability, and Security as five pillars. Use those names to inspect the selected operation from different directions, not to create a new weighted average. The source's self-assessment can prompt reflection, but this portfolio requires the relevant observable work. ([The Future Is Solo, n.d.-b](https://thefutureissolo.com/))
 
-For Maya, Agency asks which part can proceed under the agreed limits and where her presence remains necessary. Clarity asks whether the buyer's task, deliverable, exclusions, and acceptance criteria are actually understood. Competence asks whether she can explain a source error or recover the procedure without relying on fluent reassurance.
+For Audy, Agency asks which part can proceed under the agreed limits and where her presence remains necessary. Clarity asks whether the buyer's task, deliverable, exclusions, and acceptance criteria are actually understood. Competence asks whether she can explain a source error or recover the procedure without relying on fluent reassurance.
 
 Accountability asks where the review decision is recorded and how she knows the completed state matches it. Security asks what material and actions are permitted, which dependencies are retained, and whether a move preserves the necessary boundaries. These questions should lead you to particular records and demonstrations.
 
@@ -4826,11 +4826,11 @@ Do not average a critical missing condition into a reassuring score. Strong draf
 
 ## Work through an overstated portfolio entry
 
-Maya's first candidate entry says, “L4 complete: verdict ledger implemented and next-run improvement verified.” The attached evidence is the book's V13-01 packet: an authored bad answer, a reviewed correction, a changed input, and expected properties. It makes the distinction understandable, but contains no receipt of an actual agent write or later run.
+Audy's first candidate entry says, “L4 complete: verdict ledger implemented and next-run improvement verified.” The attached evidence is the book's V13-01 packet: an authored bad answer, a reviewed correction, a changed input, and expected properties. It makes the distinction understandable, but contains no receipt of an actual agent write or later run.
 
 She repairs the entry rather than discarding the useful packet. The claim becomes: “I can explain and rehearse scoped verdict review using this specimen; actual durable write and changed-input use in my configured workflow remain to be demonstrated.” The source links stay. The unsupported completion statement is removed. The next action now has a visible purpose.
 
-A second entry initially says, “Provider independence passed,” pointing to a copied Markdown package. The supplied record establishes that files can be opened and their relationships inspected in another location. Without an actual second-provider attempt, the claim must remain narrower. Maya labels file portability separately and leaves provider behavior untested.
+A second entry initially says, “Provider independence passed,” pointing to a copied Markdown package. The supplied record establishes that files can be opened and their relationships inspected in another location. Without an actual second-provider attempt, the claim must remain narrower. Audy labels file portability separately and leaves provider behavior untested.
 
 These repairs make the next demonstration concrete enough to perform. For the verdict case, save an approved record in the authorized location, reopen it, supply it through the maintained route, and keep the actual changed-input output. For provider behavior, choose a permitted receiving environment and inspect what it does with the same task and material.
 
@@ -4866,11 +4866,11 @@ Or suppose a draft-only assistant is given permission to save a candidate file. 
 
 Use plain status words for portfolio claims: current under the stated conditions, historical, awaiting a relevant check, or withdrawn after a discovered problem. These describe evidence applicability rather than your identity. A withdrawn claim can remain valuable history when its reason helps prevent someone from relying on it again.
 
-Maya's earlier withdrawal of a mistaken acceptance offers the same lesson at a smaller scale. The correction should be visible at the point of reliance, not hidden in an unrelated note. When an operating claim changes, update the portfolio and the procedure that depends on it. Leave unrelated evidence alone, and record the specific demonstration that would justify renewed reliance.
+Audy's earlier withdrawal of a mistaken acceptance offers the same lesson at a smaller scale. The correction should be visible at the point of reliance, not hidden in an unrelated note. When an operating claim changes, update the portfolio and the procedure that depends on it. Leave unrelated evidence alone, and record the specific demonstration that would justify renewed reliance.
 
 ## Keep capability and commercial judgment in contact
 
-The pilot has made the final distinction unavoidable. Maya may produce a sound pack and still need to change its price, scope, acquisition method, or support. She may have buyer interest in a task that her current procedure cannot safely deliver. A capability portfolio and a product experiment answer different questions, but decisions improve when each can refer to the other.
+The pilot has made the final distinction unavoidable. Audy may produce a sound pack and still need to change its price, scope, acquisition method, or support. She may have buyer interest in a task that her current procedure cannot safely deliver. A capability portfolio and a product experiment answer different questions, but decisions improve when each can refer to the other.
 
 For a service professional, useful evidence could join an agreed scope, a reviewed delivery, actual correction history, and the effort needed to support it. For an educator, it could connect the designed activity, authorized participant work, and the limits of what the review establishes. For a software builder, it could connect a bounded requirement, actual behavior, permission controls, and a tested recovery path.
 
@@ -4884,7 +4884,7 @@ Select one claim another person could verify from the records, and one that curr
 
 Perform that next demonstration where it is authorized and useful. Save the actual first result, including failure. Make a bounded repair, repeat the affected check, and update the portfolio's statement of scope. Your completion evidence is an inspectable claim and a repaired gap, not a numerical average or a self-awarded title.
 
-Maya ends with a clearer account of her capabilities and dependencies. The paid pilot remains one fictional commercial event; advanced operational claims still require their particular evidence. [Chapter 24](book/chapters/24-the-million-dollar-solo-company.md) returns to the economic destination and asks what a million-dollar solo company would actually have to sustain.
+Audy ends with a clearer account of her capabilities and dependencies. The paid pilot remains one fictional commercial event; advanced operational claims still require their particular evidence. [Chapter 24](book/chapters/24-the-million-dollar-solo-company.md) returns to the economic destination and asks what a million-dollar solo company would actually have to sustain.
 
 ## References
 
@@ -4903,9 +4903,9 @@ The Future Is Solo. (n.d.-b). *The future is solo*. Retrieved September 10, 2026
 
 ## A direction large enough to expose the assumptions
 
-Maya's first paid pilot has not produced a million-dollar company. In the fictional case, one educator agreed to an illustrative USD 300 engagement and accepted a repaired pack for rehearsal. The pack's initial agenda exceeded the agreed thirty minutes; the repair preserved the participant attempt and revision while reducing the total. There is still no observed learner outcome or payment receipt.
+Audy's first paid pilot has not produced a million-dollar company. In the fictional case, one educator agreed to an illustrative USD 300 engagement and accepted a repaired pack for rehearsal. The pack's initial agenda exceeded the agreed thirty minutes; the repair preserved the participant attempt and revision while reducing the total. There is still no observed learner outcome or payment receipt.
 
-That is a more useful place to end this book than an invented leap from one purchase to extraordinary wealth. Maya now has something specific to examine: a buyer situation, a deliverable, a correction, a record of the work involved, and an economic model whose assumptions she can challenge. The remaining distance is visible.
+That is a more useful place to end this book than an invented leap from one purchase to extraordinary wealth. Audy now has something specific to examine: a buyer situation, a deliverable, a correction, a record of the work involved, and an economic model whose assumptions she can challenge. The remaining distance is visible.
 
 The million-dollar question gives that distance a scale. What would have to be true for one person to direct an operation earning a million dollars in annual revenue? Which constraints could change through better design? Which require demand, expertise, cooperation, or capital that has not been established? Which costs would a flattering answer leave out?
 
@@ -4921,7 +4921,7 @@ Profit requires attention to the costs included in the calculation. [Chapter 22'
 
 Owner income is what the owner receives under the business's actual arrangements. It is constrained by costs, obligations, retained cash, and other claims on the operation. Revenue arriving in the business does not make the same amount available for personal use. An agreed fee is also different from an amount collected, as the pilot record already shows.
 
-Valuation is a judgment about what ownership of the business is worth. It is not the annual sales figure renamed. A valuation claim would require its own assumptions and basis; this book does not supply a market multiple that turns Maya's pilot into a priced company. Nor does a hypothetical valuation pay the expenses of the next delivery.
+Valuation is a judgment about what ownership of the business is worth. It is not the annual sales figure renamed. A valuation claim would require its own assumptions and basis; this book does not supply a market multiple that turns Audy's pilot into a priced company. Nor does a hypothetical valuation pay the expenses of the next delivery.
 
 Choose the meaning relevant to your purpose, state the currency and period, and keep the others separate. If you want a sustainable owner income, a gross-revenue target alone is an incomplete guide. If you want to build an asset that can continue through a change of operator, its transferable procedures and dependencies matter alongside its sales.
 
@@ -4929,7 +4929,7 @@ Choose the meaning relevant to your purpose, state the currency and period, and 
 
 The illustrative baseline allocates four hours to delivery, including repair, two hours to acquisition across the three discovery conversations and two proposals, and one hour to support. The total is seven owner hours for the USD 300 agreed pilot fee. Cash cost is USD 20. Using USD 50 per hour as an assumed value of owner time gives USD 350 of time cost.
 
-If the model treats the USD 300 as earned revenue, the unit's economic contribution is negative USD 70: 300 minus 20 minus 350. It tells Maya that the offer needs investigation before she relies on repeated identical sales to support her work.
+If the model treats the USD 300 as earned revenue, the unit's economic contribution is negative USD 70: 300 minus 20 minus 350. It tells Audy that the offer needs investigation before she relies on repeated identical sales to support her work.
 
 The monthly baseline makes the operating burden clearer. Assume 160 owner hours are available, with forty reserved for fixed operating work. That leaves 120 for units. At seven hours each, seventeen whole units fit, using 119 unit hours and 159 hours overall. Selling and earning all seventeen would produce USD 5,100 in revenue.
 
@@ -4937,7 +4937,7 @@ After USD 340 of unit cash costs and USD 200 of fixed monthly cash costs, the re
 
 As in Chapter 22, these monthly cash remainders assume all modeled revenue is collected and the listed cash costs are paid in the same period; no collection is observed in the pilot.
 
-No part of that calculation establishes that seventeen buyers exist or that their work fits the same time allowance. It shows what the stated assumptions imply. The next useful question is which assumption Maya can responsibly change and test, rather than how to make the projection's final cell look more encouraging.
+No part of that calculation establishes that seventeen buyers exist or that their work fits the same time allowance. It shows what the stated assumptions imply. The next useful question is which assumption Audy can responsibly change and test, rather than how to make the projection's final cell look more encouraging.
 
 ## Inspect the proposed improvement as a proposal
 
@@ -4947,7 +4947,7 @@ If all twenty units sold and their revenue were earned under those assumptions, 
 
 This is a different commercial proposition with unverified requirements. The price must be acceptable to relevant buyers. The three-hour delivery allowance must still produce the agreed result. Acquisition and support must remain within the stated amounts when the actual mix of buyers and problems appears.
 
-The useful improvement is that the model now tells Maya what to investigate. She can examine which part of delivery might be narrowed or reused, how a buyer would understand the revised scope, and what could increase support. A failed test then identifies an assumption to change rather than leaving “the business model” as one mysterious object.
+The useful improvement is that the model now tells Audy what to investigate. She can examine which part of delivery might be narrowed or reused, how a buyer would understand the revised scope, and what could increase support. A failed test then identifies an assumption to change rather than leaving “the business model” as one mysterious object.
 
 Keep the baseline beside the proposal. If a later experiment supports one changed assumption but not another, record that uneven result. A buyer might accept the higher fee while delivery still takes four hours. A redesigned pack might be faster to produce while too few people want it. Those outcomes imply different next moves.
 
@@ -4961,13 +4961,13 @@ Under the unchanged six-hour unit assumption, 1,334 units would require 8,004 ow
 
 A different design might change the relationship between a sale and owner work. A reusable resource may require less direct delivery for each buyer. A group format may serve several participants in one supported session. A higher-value service may support a different price. Software may automate a stable operation. Each possibility changes the proposition and introduces its own assumptions.
 
-The arithmetic should therefore end one line of reasoning: Maya cannot reach the chosen annual target merely by repeating the proposed pilot unit within the current time budget. It begins another: which useful product and operating arrangement could alter that constraint while preserving quality, demand, and a life she wants to lead?
+The arithmetic should therefore end one line of reasoning: Audy cannot reach the chosen annual target merely by repeating the proposed pilot unit within the current time budget. It begins another: which useful product and operating arrangement could alter that constraint while preserving quality, demand, and a life she wants to lead?
 
 ## Leave room before promising the modeled ceiling
 
 The proposed twenty-unit month uses all 120 hours allocated to units and all forty hours assigned to fixed operations. The model contains no additional owner-time reserve beyond those categories. If a delivery overruns, support increases, or an interruption removes available hours, the same monthly promise no longer fits without something else changing.
 
-Maya can choose to commit below the calculated maximum while learning how much variation the work contains. The enterprise plan should name that operating choice and show its effect on revenue and compensation. A reserve is a use of capacity, so it must remain visible rather than being counted simultaneously as free time and sold work.
+Audy can choose to commit below the calculated maximum while learning how much variation the work contains. The enterprise plan should name that operating choice and show its effect on revenue and compensation. A reserve is a use of capacity, so it must remain visible rather than being counted simultaneously as free time and sold work.
 
 Cash has a related timing problem. A fee can be agreed before cash arrives, while some costs are paid earlier. The pilot supplies no collection record, so the model cannot establish the money available to fund another engagement. For actual work, retain the payment status and the timing of known obligations beside the revenue calculation. A profitable-looking period can still contain a point at which the planned payment is not available.
 
@@ -4981,7 +4981,7 @@ The ninety-day exercise can reveal the appropriate margin for your situation. Ke
 
 Capacity is only one possible constraint. An operation may have unused delivery time because few relevant buyers know about it. It may attract interest but lose buyers when the scope is explained. It may sell well and require so much repair that every extra engagement consumes the reserve. Treat those conditions differently.
 
-For Maya, the evidence is still too small to name a permanent bottleneck. One fictional pilot exposes a duration-review defect and a demanding unit model. It does not establish a reliable acquisition process, a market-wide price ceiling, or a stable delivery time. Her next experiment should narrow one of those uncertainties.
+For Audy, the evidence is still too small to name a permanent bottleneck. One fictional pilot exposes a duration-review defect and a demanding unit model. It does not establish a reliable acquisition process, a market-wide price ceiling, or a stable delivery time. Her next experiment should narrow one of those uncertainties.
 
 Write the assumption in language that can be checked. “Distribution will improve” is vague. “This specific type of educator has a current brief, recognizes the defined problem, and is willing to consider the stated offer through this permitted contact route” identifies something to investigate. A recipient count alone would not establish the rest.
 
@@ -4991,7 +4991,7 @@ Choose the constraint that blocks the next useful commitment. If you cannot reli
 
 ## A service can grow by narrowing and deepening
 
-A service route keeps human judgment close to the buyer's particular situation. Maya might learn to distinguish a quick brief review from a deeper activity redesign, with different inputs and delivery boundaries. That could make the work easier to explain and estimate. It would need buyer and delivery evidence before becoming a dependable offer.
+A service route keeps human judgment close to the buyer's particular situation. Audy might learn to distinguish a quick brief review from a deeper activity redesign, with different inputs and delivery boundaries. That could make the work easier to explain and estimate. It would need buyer and delivery evidence before becoming a dependable offer.
 
 Higher prices would require a credible useful difference for the chosen buyer. A shorter turnaround, clearer decision, or work supporting a more consequential event might matter in a particular context. Those are hypotheses, not permissions to rename the same uncertain service “premium” and treat the price increase as earned.
 
@@ -5003,7 +5003,7 @@ The service route can also lead to a deliberately smaller enterprise. A manageab
 
 An educational resource could let an educator use the accumulated examples, criteria, and facilitation guidance without commissioning a full redesign. A group program could combine reusable material with bounded human feedback. Both forms alter how many people may benefit from one piece of preparation, while creating questions about use, support, and continued quality.
 
-The next test should examine the part that direct service previously supplied. Can the intended user locate the appropriate activity, understand the criteria, and adapt the material within its stated scope? Where do they need an explanation that is still trapped in Maya's head? An attractive download does not answer those questions.
+The next test should examine the part that direct service previously supplied. Can the intended user locate the appropriate activity, understand the criteria, and adapt the material within its stated scope? Where do they need an explanation that is still trapped in Audy's head? An attractive download does not answer those questions.
 
 Separate the purchaser from the learner when their roles differ. An educator may buy a facilitator pack, while participants later perform the exercise. Purchase, educator satisfaction, successful facilitation, and learner performance are different evidence. Decide which claim the next test is meant to support and retain the appropriate authorized observation.
 
@@ -5021,7 +5021,7 @@ The choice of more agents should follow the operation. Distinct roles may help d
 
 ## Read the real experiments without inventing their ending
 
-The TFIS build deck provides a useful counterpart to Maya's constructed case. Its Kosong entry describes a command-line experiment connected to SovMem, open-source distribution, and GitHub Actions runners. Monetization appears as the next question. That distinction is useful: distributing a tool and discovering a sustainable exchange are separate pieces of work. ([The Future Is Solo, 2026, slide 39](https://docs.google.com/presentation/d/1dvbBGs22QvtGogevZ6f5mf8YQE7WDAPBwYlclhTyctI/edit#slide=id.g3f679ed2578_0_0))
+The TFIS build deck provides a useful counterpart to Audy's constructed case. Its Kosong entry describes a command-line experiment connected to SovMem, open-source distribution, and GitHub Actions runners. Monetization appears as the next question. That distinction is useful: distributing a tool and discovering a sustainable exchange are separate pieces of work. ([The Future Is Solo, 2026, slide 39](https://docs.google.com/presentation/d/1dvbBGs22QvtGogevZ6f5mf8YQE7WDAPBwYlclhTyctI/edit#slide=id.g3f679ed2578_0_0))
 
 The AI Fluency go-live entry names work on asset access, delivery, payment-related integration, and email access, then places distribution next. ([The Future Is Solo, 2026, slide 40](https://docs.google.com/presentation/d/1dvbBGs22QvtGogevZ6f5mf8YQE7WDAPBwYlclhTyctI/edit#slide=id.g3fab97fc013_0_0)) Another entry describes an AI Ethics in Education course MVP and lists conversion to a paid online course as further work. ([The Future Is Solo, 2026, slide 44](https://docs.google.com/presentation/d/1dvbBGs22QvtGogevZ6f5mf8YQE7WDAPBwYlclhTyctI/edit#slide=id.g3fb1f07dc99_1_0)) These are reported development notes, not independent proof of sales, completed monetization, or learner effectiveness.
 
@@ -5033,7 +5033,7 @@ Your records can preserve the same discipline. Write what was built, which behav
 
 The ninety-day plan begins from the present evidence, not from a promised revenue curve. In the first month, choose one offer and a small working scope. Review the pilot record, identify the recurring delivery steps, and keep the acquisition and support work visible. Check whether the assumed cost categories describe the work you would actually have to perform.
 
-For Maya, the existing seven-hour pilot record is illustrative. A real reader should replace those values with their own observations from authorized work or a clearly labeled rehearsal. Record interruptions and repair, not only the time the assistant generates text. Distinguish work done once to prepare the service from work expected with each buyer, and keep uncertain classifications open for review.
+For Audy, the existing seven-hour pilot record is illustrative. A real reader should replace those values with their own observations from authorized work or a clearly labeled rehearsal. Record interruptions and repair, not only the time the assistant generates text. Distinguish work done once to prepare the service from work expected with each buyer, and keep uncertain classifications open for review.
 
 Use discovery to examine the current buyer situation. Obtain appropriate agreement to discuss the work and retain notes. Inspect a relevant brief where permitted. Preserve differences among accounts instead of translating every response into support for the same offer. Keep the number of outreach or proposal attempts bounded by the review and delivery capacity you can actually provide.
 
@@ -5041,7 +5041,7 @@ By the end of the first month, the useful output is a revised experiment record 
 
 ## Use the middle thirty days to test a specific redesign
 
-The second month investigates one proposed change to the operating design. Maya's candidate might be a narrower pack whose reusable material reduces repeated delivery work. A different reader might test a group format, a resource used without live explanation, or a more valuable service scope. State the expected useful change and the observation that would challenge it.
+The second month investigates one proposed change to the operating design. Audy's candidate might be a narrower pack whose reusable material reduces repeated delivery work. A different reader might test a group format, a resource used without live explanation, or a more valuable service scope. State the expected useful change and the observation that would challenge it.
 
 The USD 750 proposal is available as a modeling scenario, not a price already validated by the case. If you test a different scope and price, describe them clearly to the buyer and record the actual response. A willingness to discuss it remains different from an agreement. A refusal can reveal timing, fit, or value concerns without establishing one universal reason for every buyer.
 
@@ -5089,7 +5089,7 @@ Explain the plan without AI. Show why a million in annual sales is different fro
 
 Mind gave you a way to ask a useful question, investigate it, and explain what you understand. Memory made the supporting evidence, decisions, and corrections recoverable. System turned those materials into operations you could inspect, delegate within limits, and test against an exchange with someone else. The arcs meet in your ability to create value while knowing what the result does and does not establish.
 
-Maya's next step remains a bounded experiment. Yours can be equally concrete: one useful task, one claim to test, one piece of work someone can inspect, and one decision changed by what you learn. The company may grow. The offer may change. What accumulates is the capability to make those choices with understanding, and to build something worth continuing.
+Audy's next step remains a bounded experiment. Yours can be equally concrete: one useful task, one claim to test, one piece of work someone can inspect, and one decision changed by what you learn. The company may grow. The offer may change. What accumulates is the capability to make those choices with understanding, and to build something worth continuing.
 
 ## References
 
@@ -5139,7 +5139,7 @@ Do not tidy these records by deleting the failed candidate. A later reader needs
 | 14 | [Operating manual](book/artifacts/14-operating-manual.md) | A usable route into the task, including interruption and resumption. |
 | 15 | [Portability drill](book/artifacts/15-portability-drill.md) | Evidence about reconstruction, current instructions, and separately tested behavior. |
 
-In the Fieldwork teaching case, the existing selector eventually points to `instructions-v3`. Earlier v1 and v2 records remain historical. A later explanation of the case should not silently change which instruction an earlier attempt used. The literal [current instruction and selector](book/artifacts/11-distillation-record.md#current-instruction-instructions-v3) are available in the distillation artifact.
+In the Himura Inc. teaching case, the existing selector eventually points to `instructions-v3`. Earlier v1 and v2 records remain historical. A later explanation of the case should not silently change which instruction an earlier attempt used. The literal [current instruction and selector](book/artifacts/11-distillation-record.md#current-instruction-instructions-v3) are available in the distillation artifact.
 
 ## System: demonstrate, deliver, and inspect the economics
 
@@ -5188,7 +5188,7 @@ These definitions explain how terms are used in this book. They are reading aids
 | Distillation | Turning examined material into a concise, scoped record while preserving the evidence and conditions needed to use it correctly. | [Chapter 11](book/chapters/11-the-knowledge-distillation-pipeline.md) |
 | Evaluation | Comparing an actual result with relevant criteria and evidence; different evaluations support different claims. | [Chapter 18](book/chapters/18-the-human-in-the-loop-principle.md) |
 | Evidence | Material or observations that support a particular claim within a stated scope. Naming a file does not establish what it contains. | [Chapter 2](book/chapters/02-the-end-of-knowledge-scarcity.md) |
-| Fieldwork | Maya's fictional workshop-design business used for the running examples. Its conversations, outputs, and financial numbers are authored teaching material. | [Chapter 21](book/chapters/21-from-curiosity-to-product.md) |
+| Himura Inc. | Audy's fictional workshop-design business used for the running examples. Its conversations, outputs, and financial numbers are authored teaching material. | [Chapter 21](book/chapters/21-from-curiosity-to-product.md) |
 | First principles | Foundational relationships or premises used to explain a problem, whose applicability still requires examination. | [Chapter 5](book/chapters/05-first-principles-axioms-and-mental-models.md) |
 | Handoff | Transfer of a defined responsibility and the required objects to another role or stage. | [Chapter 19](book/chapters/19-the-solo-systems-architect.md) |
 | Hypothesis | A proposed explanation or expectation that can be investigated and revised in light of evidence. | [Chapter 3](book/chapters/03-curiosity-is-a-capability.md) |
@@ -5274,4 +5274,4 @@ The Future Is Solo. (n.d.-c). *The meaning of life: A techno-optimist's response
 
 The Future Is Solo. (2026). *The Future Is Solo 20260910* [Google Slides presentation]. https://docs.google.com/presentation/d/1dvbBGs22QvtGogevZ6f5mf8YQE7WDAPBwYlclhTyctI/edit
 
-The TFIS build deck records reported experiments and next steps. Its citation does not establish independent verification of implementation, learning effects, or commercial outcomes. The fictional Fieldwork materials are original teaching specimens and are not empirical sources.
+The TFIS build deck records reported experiments and next steps. Its citation does not establish independent verification of implementation, learning effects, or commercial outcomes. The fictional Himura Inc. materials are original teaching specimens and are not empirical sources.

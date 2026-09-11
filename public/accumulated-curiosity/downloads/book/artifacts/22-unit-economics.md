@@ -56,7 +56,7 @@ Next action: continue / revise / stop, with reason:
 
 An owner-time allowance is a selected comparison value, not cash wages paid. The remainder is not a calculation of taxable profit or personal take-home income. Cash-surplus interpretations require the stated collection/payment assumption. Keep actual cash dates in a separate list if they differ.
 
-## Fictional worked example: Fieldwork
+## Fictional worked example: Himura Inc.
 
 **Record:** `unit-economics-v1`.
 

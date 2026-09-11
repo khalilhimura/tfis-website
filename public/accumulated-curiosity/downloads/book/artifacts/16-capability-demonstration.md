@@ -1,6 +1,6 @@
 # Capability demonstration
 
-Use with Chapter 16. This is a book-developed practice record, not a validated SSA-CMM examination. Keep your own actual evidence separate from the constructed Fieldwork examples below. No coding is required.
+Use with Chapter 16. This is a book-developed practice record, not a validated SSA-CMM examination. Keep your own actual evidence separate from the constructed Himura Inc. examples below. No coding is required.
 
 ## Blank demonstration record
 
@@ -34,7 +34,7 @@ Use with Chapter 16. This is a book-developed practice record, not a validated S
 
 **Time spent preparing, producing, reviewing, and repairing:**
 
-## Worked task: fictional Fieldwork
+## Worked task: fictional Himura Inc.
 
 Prepare an example action list from the supplied synthetic notes for workshop design. Use the [current instructions-v3](11-distillation-record.md#current-instruction-instructions-v3), retained core review criteria, and relevant verdicts. The task does not authorize contacting anyone or choosing an unresolved date. These are authored specimens, not an actual model evaluation.
 

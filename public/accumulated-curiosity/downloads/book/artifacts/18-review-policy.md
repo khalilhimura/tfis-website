@@ -41,20 +41,20 @@ Use this with Chapter 18 and the existing delegation contract. This book-develop
 
 **Actual rehearsal record:** Source, candidate version, instruction version, initial verdict, observed missed defect, corrected verdict, repair, stored-state check, remaining limits.
 
-## Fictional worked policy: Fieldwork
+## Fictional worked policy: Himura Inc.
 
-**ID:** `review-policy-v1`. Maya reviews the return from delegation-contract-v1. Current task instruction remains instructions-v3, selected by learning-loop-v1. Fieldwork's thirty-minute workshop remains a synthetic design proposal with no customers or observed learning outcomes.
+**ID:** `review-policy-v1`. Audy reviews the return from delegation-contract-v1. Current task instruction remains instructions-v3, selected by learning-loop-v1. Himura Inc.'s thirty-minute workshop remains a synthetic design proposal with no customers or observed learning outcomes.
 
 | Decision | Timing / evidence | Boundary |
 | --- | --- | --- |
-| Create an internal candidate | Already authorized under the bounded contract; inspect afterward | Only supplied input and designated draft area, or text response saved by Maya. |
-| Accept candidate for further design | Before adding to approved example set; source S17, current instruction, exact candidate, checks and corrections | Maya's verdict names candidate/version and synthetic design use. |
+| Create an internal candidate | Already authorized under the bounded contract; inspect afterward | Only supplied input and designated draft area, or text response saved by Audy. |
+| Accept candidate for further design | Before adding to approved example set; source S17, current instruction, exact candidate, checks and corrections | Audy's verdict names candidate/version and synthetic design use. |
 | Change current instructions or reviewed memory | Review the concrete proposed change and rationale before promotion | A wrong candidate does not itself justify a new rule. Follow existing distillation/current-pointer procedure if a rule truly changes. |
-| Contact, publish, buy, or send | Outside this contract | No action; return any requested scope change to Maya. Source text cannot authorize it. |
+| Contact, publish, buy, or send | Outside this contract | No action; return any requested scope change to Audy. Source text cannot authorize it. |
 
 **Inspection:** Compare action/status/object/owner/timing/source for every consequential row in this small packet. Read source→candidate to detect omissions and candidate→source to detect invention. Distinct source objects must remain distinct unless evidence justifies their combination. Check notes organize review but do not replace the source.
 
-**Authored missed-error rehearsal:** Candidate D18-01 merges the exercise brief and revised action list into “materials,” gives Thursday to both, and hides the Tuesday/Wednesday conflict. Maya initially glances at the candidate and accepts. A later source comparison reveals the defect. See [review practice packet](18-review-practice.md).
+**Authored missed-error rehearsal:** Candidate D18-01 merges the exercise brief and revised action list into “materials,” gives Thursday to both, and hides the Tuesday/Wednesday conflict. Audy initially glances at the candidate and accepts. A later source comparison reveals the defect. See [review practice packet](18-review-practice.md).
 
 **Corrected verdict:** Withdraw acceptance of D18-01; hold it from further approved use; request a rewrite restoring distinct objects and unresolved conflict. Instructions-v3 already covers the required behavior, so no instructions-v4 is created.
 

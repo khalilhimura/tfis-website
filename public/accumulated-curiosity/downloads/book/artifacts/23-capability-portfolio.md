@@ -53,13 +53,13 @@ Check the existing TFIS pillars without producing a weighted score. Agency: what
 
 **Conditions that should trigger re-review:** Changed instruction, model/setup, source format, tool permission, material task scope, or discovered defect. Identify which prior evidence each change affects.
 
-## Worked sample: fictional Fieldwork
+## Worked sample: fictional Himura Inc.
 
 **Portfolio:** `capability-portfolio-v1`.
 
 **Domain:** Source-faithful action-list examples and a reviewable thirty-minute workshop-design pack. The current [selector](11-distillation-record.md#current-pointer-excerpt) reaches [instructions-v3](11-distillation-record.md#current-instruction-instructions-v3). The [rationale](08-memory-inventory.md#worked-rationale-with-later-updates) explains its history; it is not a second selector.
 
-The records below are demonstration resources from the fictional case. They are authored teaching specimens, not actual user runs or advanced-level certificates. A reader who performs a corresponding exercise should fill the table with their own observed evidence. The portfolio does not give Maya an independently verified overall rank.
+The records below are demonstration resources from the fictional case. They are authored teaching specimens, not actual user runs or advanced-level certificates. A reader who performs a corresponding exercise should fill the table with their own observed evidence. The portfolio does not give Audy an independently verified overall rank.
 
 ### Evidence routes already available
 

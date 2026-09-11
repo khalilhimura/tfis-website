@@ -48,9 +48,9 @@ Use this with Chapter 17. Start with one task whose result you can inspect. The 
 
 **Actual attempt record:** Input supplied, environment, instruction version, candidate, checks, repair count, final status, saved location, verification, human review time, unresolved limitations.
 
-## Fictional worked contract: Fieldwork
+## Fictional worked contract: Himura Inc.
 
-**ID:** `delegation-contract-v1`. Owner/reviewer: Maya. Fieldwork is a proposed studio; all inputs in this exercise are synthetic. The design project is a thirty-minute workshop converting meeting notes into action lists. No actual customers or learning outcomes exist in this case.
+**ID:** `delegation-contract-v1`. Owner/reviewer: Audy. Himura Inc. is a proposed studio; all inputs in this exercise are synthetic. The design project is a thirty-minute workshop converting meeting notes into action lists. No actual customers or learning outcomes exist in this case.
 
 **Task:** Return one candidate action list and evidence packet for continued workshop design. Use the [complete practice packet](17-delegated-workflow-practice.md). Do not claim the source describes actual events.
 
@@ -65,8 +65,8 @@ Use this with Chapter 17. Start with one task whose result you can inspect. The 
 | Draft | One source-linked candidate action list | Preserve agreements, suggestions, objects, owners, timing, and conflicts. |
 | Check | Compare candidate→source and source→candidate | Check invented fields and omitted material; do not rely only on a mistaken intermediate extraction. |
 | Repair | At most one bounded candidate revision, triggered by checking or human feedback | Repair the output to meet existing instructions. Do not change the instruction to make the output pass. |
-| Save | Only a new candidate in the designated draft area if that tool action is explicitly available and authorized | Otherwise return text for Maya to save. Reopen the actual saved object. No claim of a tool write in the manual version. |
-| Approve | Maya only | Scoped accept/reject/rewrite; held work remains outside the approved set. |
+| Save | Only a new candidate in the designated draft area if that tool action is explicitly available and authorized | Otherwise return text for Audy to save. Reopen the actual saved object. No claim of a tool write in the manual version. |
+| Approve | Audy only | Scoped accept/reject/rewrite; held work remains outside the approved set. |
 
 **Output:** Candidate ID; instruction version; action table with status/object/owner/timing/source; unresolved items; checks actually performed; corrections and repair count; final workflow status; actual saved location if any. A concise source-based explanation is sufficient; no private reasoning transcript is requested.
 
@@ -78,7 +78,7 @@ Use this with Chapter 17. Start with one task whose result you can inspect. The 
 
 **Human review:** Inspect each consequential field and omissions against the literal source, including whether distinct objects remain distinct. Accept only for continued synthetic workshop design. Acceptance does not establish learner effectiveness or permit external delivery.
 
-**Capacity:** One packet at a time until Maya can inspect actual review effort. If unavailable, leave the identified candidate pending. Elapsed time does not grant approval.
+**Capacity:** One packet at a time until Audy can inspect actual review effort. If unavailable, leave the identified candidate pending. Elapsed time does not grant approval.
 
 **Resume:** Record candidate, current instruction version, completed steps, repair count, and exact missing dependency. When supplied, recheck intake and current authority. A broader task needs a concrete amended scope.
 

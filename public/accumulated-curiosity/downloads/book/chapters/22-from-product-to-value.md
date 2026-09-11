@@ -4,13 +4,13 @@
 
 ## A useful delivery can still be an expensive way to work
 
-Educator A accepts the revised Fieldwork pack for rehearsal. In the fictional pilot, that is a meaningful delivery result: the agenda now fits the agreed thirty minutes, and the activity retains an individual attempt, comparison, and revision. Maya has corrected a specific defect without removing the work the educator wanted participants to do.
+Educator A accepts the revised Himura Inc. pack for rehearsal. In the fictional pilot, that is a meaningful delivery result: the agenda now fits the agreed thirty minutes, and the activity retains an individual attempt, comparison, and revision. Audy has corrected a specific defect without removing the work the educator wanted participants to do.
 
 The acceptance does not answer whether she should sell the same service again at the same price. To investigate that question, she opens the effort record from Chapter 21. Delivery, including the repair, took four hours. Acquisition took two hours across all three conversations and both proposals. Support took another hour. The agreed fee was USD 300, and attributable cash costs were USD 20.
 
-Her first calculation is tempting: three hundred minus twenty leaves two hundred and eighty. That describes a particular remainder before owner time and other costs. Calling it profit would conceal most of the work required to produce the result. The owner hours have not disappeared merely because Maya did not send herself an invoice.
+Her first calculation is tempting: three hundred minus twenty leaves two hundred and eighty. That describes a particular remainder before owner time and other costs. Calling it profit would conceal most of the work required to produce the result. The owner hours have not disappeared merely because Audy did not send herself an invoice.
 
-This chapter keeps the fictional pilot intact and builds explicit planning scenarios around it. No cash receipt is added to the story. The calculations assume, where stated, that the agreed fee becomes earned revenue. Monthly scenarios introduce further assumptions about sales, costs, collection, and available hours. They are tools for deciding what to test, not a forecast of Fieldwork's performance.
+This chapter keeps the fictional pilot intact and builds explicit planning scenarios around it. No cash receipt is added to the story. The calculations assume, where stated, that the agreed fee becomes earned revenue. Monthly scenarios introduce further assumptions about sales, costs, collection, and available hours. They are tools for deciding what to test, not a forecast of Himura Inc.'s performance.
 
 Open the [unit-economics artifact](../artifacts/22-unit-economics.md). You can complete every essential calculation on paper. The optional calculator makes it easier to change assumptions, but explaining the result remains your responsibility.
 
@@ -38,7 +38,7 @@ You can model timing separately with a short dated cash list. Start with an open
 
 ### Follow a payment across two dates
 
-Consider a separate, invented cash-timing example using the same fee and cash cost. An owner starts with USD 100 in the business account, pays USD 20 for the engagement's materials, and receives no payment that week. The closing cash balance is USD 80. If the buyer pays USD 300 the following week and nothing else moves, the balance becomes USD 380. These are arithmetic illustrations, not additional events in Maya's pilot.
+Consider a separate, invented cash-timing example using the same fee and cash cost. An owner starts with USD 100 in the business account, pays USD 20 for the engagement's materials, and receives no payment that week. The closing cash balance is USD 80. If the buyer pays USD 300 the following week and nothing else moves, the balance becomes USD 380. These are arithmetic illustrations, not additional events in Audy's pilot.
 
 The owner-time allowance does not leave the account in either week. It remains a planning value unless an actual payment is made. Conversely, a real owner withdrawal would reduce the available balance even if the planning table had already included an allowance. Keep the two records connected by explanation, not by treating one as a substitute for the other.
 
@@ -48,9 +48,9 @@ For your own offer, put the expected payment dates beside the work dates. Mark w
 
 ## Give owner time an explicit value
 
-Maya chooses USD 50 per hour as an illustrative value for her own work. That number is an assumption for comparing ways to use her time. It is not an observed wage, a market rate established by this book, or cash she has paid herself. Another reader should choose a value that makes their own trade-off understandable and show how the conclusion changes if it is different.
+Audy chooses USD 50 per hour as an illustrative value for her own work. That number is an assumption for comparing ways to use her time. It is not an observed wage, a market rate established by this book, or cash she has paid herself. Another reader should choose a value that makes their own trade-off understandable and show how the conclusion changes if it is different.
 
-Seven hours at fifty dollars creates an owner-time allowance of USD 350. Subtracting the twenty dollars of attributable cash cost and that allowance from three hundred dollars of assumed revenue leaves negative seventy dollars. In this narrow unit model, the offer fails to cover the selected value of Maya's time even before allocating fixed operating costs.
+Seven hours at fifty dollars creates an owner-time allowance of USD 350. Subtracting the twenty dollars of attributable cash cost and that allowance from three hundred dollars of assumed revenue leaves negative seventy dollars. In this narrow unit model, the offer fails to cover the selected value of Audy's time even before allocating fixed operating costs.
 
 | Pilot calculation | Illustrative USD |
 | --- | ---: |
@@ -60,13 +60,13 @@ Seven hours at fifty dollars creates an owner-time allowance of USD 350. Subtrac
 | Less owner-time allowance: 7 hours × 50 | 350 |
 | Contribution after owner-time allowance | −70 |
 
-The negative seventy is not a negative cash margin or an invoice Maya owes herself. It is a comparison result under an explicit valuation of owner work. She could choose to accept less for a bounded learning experiment. She should then call that a deliberate investment in learning and define its limit, rather than describe the current offer as already supporting her target compensation.
+The negative seventy is not a negative cash margin or an invoice Audy owes herself. It is a comparison result under an explicit valuation of owner work. She could choose to accept less for a bounded learning experiment. She should then call that a deliberate investment in learning and define its limit, rather than describe the current offer as already supporting her target compensation.
 
 Changing the assumed hourly value changes the result, but does not change the hours. At USD 30 per hour, the allowance would be USD 210 and the unit remainder USD 70 before fixed costs. The same job can look acceptable under one personal objective and inadequate under another. Stating the objective makes that difference discussable.
 
 ## Count the work that did not become a sale
 
-The acquisition record includes Educator B's conversation and Educator C's deferred proposal. Maya did not obtain three paid engagements. She used two hours across the whole discovery and proposal sequence to agree one pilot. For this illustrative allocation, all two hours belong in the acquisition effort per successful pilot.
+The acquisition record includes Educator B's conversation and Educator C's deferred proposal. Audy did not obtain three paid engagements. She used two hours across the whole discovery and proposal sequence to agree one pilot. For this illustrative allocation, all two hours belong in the acquisition effort per successful pilot.
 
 If she counted only the conversation with Educator A, she would erase work required by the experiment as conducted. A future sequence may produce a different relationship between effort and paid work. That would be new evidence for a new estimate. It cannot be assumed because excluding unsuccessful approaches makes the present number smaller.
 
@@ -86,13 +86,13 @@ When support grows, inspect its content before deciding to automate the replies.
 
 ## Move from one unit to a workable month
 
-A unit calculation cannot tell Maya how many complete engagements fit alongside maintaining the business. For the next original scenario, she assumes 160 available owner hours in a month and reserves forty for fixed operating work. That leaves 120 hours for delivery, allocated acquisition, and support. These are convenient planning inputs, not a recommendation that everyone work that schedule.
+A unit calculation cannot tell Audy how many complete engagements fit alongside maintaining the business. For the next original scenario, she assumes 160 available owner hours in a month and reserves forty for fixed operating work. That leaves 120 hours for delivery, allocated acquisition, and support. These are convenient planning inputs, not a recommendation that everyone work that schedule.
 
 At seven hours per unit, 120 divided by seven is a little more than seventeen. Only seventeen whole units fit in the simple model. They consume 119 unit-related hours; adding the forty fixed hours gives 159 total owner hours. The remaining hour cannot accommodate another whole seven-hour engagement.
 
 Capacity here is a limit implied by the assumptions, not a prediction that seventeen buyers will appear. It also assumes the work can be scheduled within the period. Seventeen available slots spread across a month do not guarantee that several requests due on the same day can all be accepted. Calendar constraints and personal reserves may justify using a lower working limit.
 
-Maya adds USD 200 of hypothetical monthly fixed cash costs. At seventeen units and USD 300 per unit, modeled revenue is USD 5,100. Variable cash costs total USD 340. Subtracting those and the fixed cash cost leaves USD 4,560 before owner compensation and tax, under the stated same-period collection assumption.
+Audy adds USD 200 of hypothetical monthly fixed cash costs. At seventeen units and USD 300 per unit, modeled revenue is USD 5,100. Variable cash costs total USD 340. Subtracting those and the fixed cash cost leaves USD 4,560 before owner compensation and tax, under the stated same-period collection assumption.
 
 The 159 working hours carry an allowance of USD 7,950 at the selected hourly value. The remainder after that allowance is negative USD 3,390. Filling every modeled slot therefore does not solve the offer's economics. It expands the amount of owner work performed below the assumed value while also requiring the fixed operating work to be covered.
 
@@ -102,9 +102,9 @@ At the original seven hours and twenty dollars of attributable cash cost, a pric
 
 Under the seventeen-unit monthly assumptions, a USD 500 price gives USD 8,500 revenue. Subtract USD 340 variable cash, USD 200 fixed cash, and USD 7,950 owner-time allowance: ten dollars remain. That scenario shows why a price that looks generous beside an API bill can still leave very little after counting all the work.
 
-The calculation does not establish that a buyer will pay five hundred dollars, or that Maya should quote it. Her costs identify an operating constraint. The buyer's alternatives and willingness to purchase remain separate questions.
+The calculation does not establish that a buyer will pay five hundred dollars, or that Audy should quote it. Her costs identify an operating constraint. The buyer's alternatives and willingness to purchase remain separate questions.
 
-Maya can consider changes in price, scope, effort, delivery form, or the amount of income she wants from this activity. Each has consequences. Reducing scope may reduce value to the buyer. Lowering effort by omitting review may damage the promised result. Charging more may require a more useful offer, a different buying situation, or acceptance that fewer people will choose it.
+Audy can consider changes in price, scope, effort, delivery form, or the amount of income she wants from this activity. Each has consequences. Reducing scope may reduce value to the buyer. Lowering effort by omitting review may damage the promised result. Charging more may require a more useful offer, a different buying situation, or acceptance that fewer people will choose it.
 
 The task is to make those choices inspectable. Write what changes, why it might work, and what evidence would justify replacing the old assumption. A scenario is useful when it directs the next experiment toward a real uncertainty.
 
@@ -114,7 +114,7 @@ The task is to make those choices inspectable. Write what changes, why it might 
 
 *Figure 22.1. Original scenario comparison. Capacity limits the modeled work; the owner-time allowance changes how its economic result is interpreted.*
 
-Maya creates a proposed scenario at USD 750 per package. She assumes three delivery hours, two acquisition hours, one support hour, and USD 35 attributable cash cost. The higher cash allowance might cover a different mix of tools or materials; no specific product purchase is implied. All of these are proposed inputs, especially the price and one-hour delivery reduction.
+Audy creates a proposed scenario at USD 750 per package. She assumes three delivery hours, two acquisition hours, one support hour, and USD 35 attributable cash cost. The higher cash allowance might cover a different mix of tools or materials; no specific product purchase is implied. All of these are proposed inputs, especially the price and one-hour delivery reduction.
 
 The unit now uses six owner hours. Its cash contribution is USD 715; its owner-time allowance is USD 300; its contribution after that allowance is USD 415. With 120 hours available for units, twenty whole units fit. The forty fixed hours bring total working time to 160 hours.
 
@@ -139,7 +139,7 @@ Treat the proposal as a set of questions. Which buyer would value this package a
 
 Start by leaving price and unit effort unchanged but modeling only ten completed units in the proposed month. Revenue falls to USD 7,500. Variable cash costs become USD 350. With USD 200 fixed cash and one hundred owner hours, the remainder after a USD 5,000 time allowance is USD 1,950. The remaining sixty available hours are unused in this scenario; the model does not charge an allowance for idle availability.
 
-That distinction matters when comparing the result with a personal income need. A positive remainder on the hours worked does not guarantee enough total income for the month. If Maya needs to be compensated for reserving all 160 hours, she should make that separate requirement explicit.
+That distinction matters when comparing the result with a personal income need. A positive remainder on the hours worked does not guarantee enough total income for the month. If Audy needs to be compensated for reserving all 160 hours, she should make that separate requirement explicit.
 
 Next, suppose acquisition takes five hours per completed package instead of two, while delivery remains three and support one. Each unit now takes nine hours. Only thirteen whole units fit in the 120 hours. At USD 750 each, modeled revenue is USD 9,750. After USD 455 variable cash, USD 200 fixed cash, and USD 7,850 allowance for 157 working hours, the remainder is USD 1,245.
 
@@ -155,7 +155,7 @@ That simple threshold is conditional on the costs and hours remaining as modeled
 
 The original unit behaves differently. Its contribution after the chosen owner-time allowance is negative seventy dollars before fixed costs. Under those unchanged assumptions, adding more identical units cannot make that particular economic remainder positive. It can increase incoming cash while increasing the amount of work performed below the chosen allowance. Both descriptions can be true at the same time.
 
-Maya may still choose a small, explicitly limited learning engagement. She should identify the question it will answer and the maximum effort she will spend. An experiment without a learning question or stopping condition can become a recurring subsidy hidden inside the word pilot.
+Audy may still choose a small, explicitly limited learning engagement. She should identify the question it will answer and the maximum effort she will spend. An experiment without a learning question or stopping condition can become a recurring subsidy hidden inside the word pilot.
 
 ## Use AI to challenge the model, then verify the arithmetic
 
@@ -195,7 +195,7 @@ When a later engagement supplies actual timing or cost evidence, create a dated 
 
 The TFIS thesis links individual capability and supporting systems to independent value creation. Economic review makes that ambition concrete: the system must support a useful exchange and the conditions under which the person can keep providing it. ([The Future Is Solo, n.d.-b](https://thefutureissolo.com/))
 
-Maya's next action is therefore not to multiply the baseline. She can investigate a revised price and scope, test the proposed delivery improvement, or choose a different form of offer. She can also decide that this activity is useful as a limited service rather than the whole business. The record should explain which uncertainty her next action addresses.
+Audy's next action is therefore not to multiply the baseline. She can investigate a revised price and scope, test the proposed delivery improvement, or choose a different form of offer. She can also decide that this activity is useful as a limited service rather than the whole business. The record should explain which uncertainty her next action addresses.
 
 ## Field assignment: make the next economic decision explainable
 

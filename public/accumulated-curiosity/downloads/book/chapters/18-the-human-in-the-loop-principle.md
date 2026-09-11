@@ -4,15 +4,15 @@
 
 ## A reviewer can miss what the assistant missed
 
-The next candidate from Fieldwork's rehearsal looks easier to read. A concise row says the facilitator will circulate the materials on Thursday. The assistant's note says it has removed duplication and checked the dates. Maya glances at the result and marks it accepted for the synthetic design exercise.
+The next candidate from Himura Inc.'s rehearsal looks easier to read. A concise row says the facilitator will circulate the materials on Thursday. The assistant's note says it has removed duplication and checked the dates. Audy glances at the result and marks it accepted for the synthetic design exercise.
 
 Then she opens the source packet beside it. Thursday applies to circulating the exercise brief. Two other passages concern a separate revised action list, with conflicting Tuesday and Wednesday deadlines. The concise row has merged different objects and hidden a conflict that `instructions-v3` requires it to preserve.
 
 The human was present. The candidate was still wrong.
 
-This is an authored fictional review failure, not a measured experiment or a real customer incident. Maya's workshop remains a thirty-minute design proposal. The example matters because it challenges an easy assurance: putting a person at the end of a workflow does not establish that the person performed the judgment the workflow needed.
+This is an authored fictional review failure, not a measured experiment or a real customer incident. Audy's workshop remains a thirty-minute design proposal. The example matters because it challenges an easy assurance: putting a person at the end of a workflow does not establish that the person performed the judgment the workflow needed.
 
-Maya withdraws the acceptance, marks the candidate held, and records why. She keeps the source and the flawed candidate available for review. Nothing was sent to a customer or promoted into a new instruction. Her task now is to make review specific enough that the same reassuring presentation is less likely to substitute for inspection.
+Audy withdraws the acceptance, marks the candidate held, and records why. She keeps the source and the flawed candidate available for review. Nothing was sent to a customer or promoted into a new instruction. Her task now is to make review specific enough that the same reassuring presentation is less likely to substitute for inspection.
 
 The [review-policy artifact](../artifacts/18-review-policy.md) develops that procedure. It identifies which decisions require attention, what evidence must accompany them, what happens when the reviewer cannot decide, and how much work may enter the queue. It uses the contract from Chapter 17 without creating a separate authority system.
 
@@ -20,21 +20,21 @@ The [review-policy artifact](../artifacts/18-review-policy.md) develops that pro
 
 “Human in the loop” describes a relationship, not a completed check. A person might approve the task before it starts, inspect a proposed action before it affects someone, review a draft after creation, or examine outcomes later. These positions serve different purposes.
 
-For Maya's current workflow, the human decides whether a candidate meets the source-based design criteria and may be used in the next rehearsal. She can accept it within that scope, reject it, or request a specific rewrite. She also decides whether a proposed change to the governing instructions is justified. Those are separate decisions; a defect in an output does not automatically warrant rewriting the rule.
+For Audy's current workflow, the human decides whether a candidate meets the source-based design criteria and may be used in the next rehearsal. She can accept it within that scope, reject it, or request a specific rewrite. She also decides whether a proposed change to the governing instructions is justified. Those are separate decisions; a defect in an output does not automatically warrant rewriting the rule.
 
 The decision needs an object. “Looks good” could mean the table is readable, the source claims are supported, or the workshop is ready for learners. A useful verdict names what was inspected and what use it permits. “Accepted as a source-faithful synthetic example for continued workshop design” is narrower and more informative.
 
-It also needs a consequence. A held candidate stays outside the approved set. A rewrite returns to the bounded drafting step. A request to expand the task returns to Maya with the missing decision stated. If every verdict leads to the same onward action, review has become commentary rather than control.
+It also needs a consequence. A held candidate stays outside the approved set. A rewrite returns to the bounded drafting step. A request to expand the task returns to Audy with the missing decision stated. If every verdict leads to the same onward action, review has become commentary rather than control.
 
 Start with the consequential choices in your actual workflow. A solo professional may need to approve an agreed scope, a teaching interpretation, or a release decision. The review policy should identify the particular judgment, the authorized reviewer, and the evidence that can support it.
 
 ## Place review before the consequence it is meant to prevent
 
-A reversible internal draft can often be produced before human inspection when its creation is already authorized. Maya does not need to approve every paragraph before the assistant writes it in the designated draft area. Review after drafting can be both practical and sufficient for that limited action.
+A reversible internal draft can often be produced before human inspection when its creation is already authorized. Audy does not need to approve every paragraph before the assistant writes it in the designated draft area. Review after drafting can be both practical and sufficient for that limited action.
 
 Sending the draft to someone, publishing it, changing a current policy, or committing resources is a different operation. Review after that action cannot prevent its initial consequence. If such an operation belongs to a later task, decide beforehand what authorization and evidence it requires. Approval of the draft's wording alone does not necessarily approve its destination, timing, audience, or associated commitment.
 
-Maya's current contract has no external action. The assistant returns the review packet and stops at the specified boundary. If the source says that a facilitator should circulate a document, that is information to represent in the candidate, not permission for the assistant to circulate anything.
+Audy's current contract has no external action. The assistant returns the review packet and stops at the specified boundary. If the source says that a facilitator should circulate a document, that is information to represent in the candidate, not permission for the assistant to circulate anything.
 
 OpenAI's practical guide identifies failure thresholds and consequential actions as reasons to plan human intervention. The recommendation supports specifying an intervention mechanism; the appropriate timing and authority still depend on the task. ([OpenAI, n.d.](https://cdn.openai.com/business-guides-and-resources/a-practical-guide-to-building-agents.pdf))
 
@@ -42,55 +42,55 @@ Do not add approval points merely to make a diagram look cautious. Each one shou
 
 ## Review the evidence that can change the verdict
 
-The candidate, its source, the governing instruction, and the assistant's check note belong together. Maya should not have to reconstruct the packet from several unrelated conversations while the result waits for approval. Review becomes more meaningful when the decisive comparison is easy to perform.
+The candidate, its source, the governing instruction, and the assistant's check note belong together. Audy should not have to reconstruct the packet from several unrelated conversations while the result waits for approval. Review becomes more meaningful when the decisive comparison is easy to perform.
 
 For this task, she inspects the action, its agreement status, the object being acted upon, the owner, the timing, and the cited source. The object matters because “exercise brief” and “revised action list” are not interchangeable. A checklist focused only on whether a date appears can miss that the date was attached to the wrong item.
 
 She reads from source to candidate as well as candidate to source. The first direction reveals omitted agreements, suggestions, and conflicts. The second reveals invented or altered claims. Either direction alone leaves gaps. A neat table with five supported fields can still omit the sixth fact that changes the meaning.
 
-The assistant's check note is useful as a proposed map of the evidence. It is not the evidence itself. If it says “dates verified,” Maya follows the references that establish which date applies to which object. If the references do not answer that question, the packet is incomplete for the decision.
+The assistant's check note is useful as a proposed map of the evidence. It is not the evidence itself. If it says “dates verified,” Audy follows the references that establish which date applies to which object. If the references do not answer that question, the packet is incomplete for the decision.
 
 For a larger task, identify the evidence most likely to change acceptance. A service proposal may need the latest confirmed scope and unresolved exclusions. A lesson revision may need the actual learner response rather than only an interpretation of it. A software review may need a requirement and the observed test outcome. The aim is a packet that supports the reviewer, not one that merely demonstrates how much work the assistant performed.
 
 ## Treat a favorable history as context, not a current verdict
 
-Maya has accumulated useful examples and corrections. That history helps her anticipate defects. It does not entitle the next candidate to automatic acceptance.
+Audy has accumulated useful examples and corrections. That history helps her anticipate defects. It does not entitle the next candidate to automatic acceptance.
 
 The same instruction can behave differently on a new input or after a change in the surrounding workflow. A formatting request can merge distinctions the original draft preserved. A repair can remove one defect while introducing another. A familiar tool can receive a different source type. Review should remain sensitive to those changes rather than relying solely on a record of previous satisfactory outputs.
 
 Research on AI-assisted knowledge work gives a bounded reason for this caution. Dell’Acqua and colleagues studied consulting tasks and found that assistance could improve performance on some tasks while reducing correct solutions on a selected task outside the studied capability frontier. The results concern that experiment, not every current model or every hard problem. ([Dell’Acqua et al., 2026](https://doi.org/10.1287/orsc.2025.21838))
 
-Maya's missed error is not an empirical demonstration of the same effect. It is a teaching example of why a review procedure must inspect the present task. A sequence of good outputs may justify changing how you allocate review effort, but that change should be deliberate and tested.
+Audy's missed error is not an empirical demonstration of the same effect. It is a teaching example of why a review procedure must inspect the present task. A sequence of good outputs may justify changing how you allocate review effort, but that change should be deliberate and tested.
 
 When the input or operation changes materially, identify what the existing evidence no longer covers. You might return to full inspection for the affected fields, use a manual fallback, or narrow the task until the new case is understood. Review history should help you ask better questions about the new result.
 
 ## Make a missed error recoverable
 
-The moment Maya notices the merged row, she changes the candidate's status. It is no longer accepted for further use. She records the original verdict and the correction rather than quietly editing the table and leaving a misleading history of uninterrupted success.
+The moment Audy notices the merged row, she changes the candidate's status. It is no longer accepted for further use. She records the original verdict and the correction rather than quietly editing the table and leaving a misleading history of uninterrupted success.
 
 Her note identifies the defect precisely: two source objects were merged, and the deadline conflict for the revised action list disappeared. It links the flawed row to the three relevant source passages. The current `instructions-v3` already requires preserving those distinctions, so the problem does not justify inventing a new rule version.
 
-Maya requests a rewrite that restores the separate objects and the unresolved conflict. She reviews the revised candidate against the original source, including the rows unaffected by the requested change. This checks that the repair did not promote the quieter-room suggestion or invent an owner for the shorter introduction.
+Audy requests a rewrite that restores the separate objects and the unresolved conflict. She reviews the revised candidate against the original source, including the rows unaffected by the requested change. This checks that the repair did not promote the quieter-room suggestion or invent an owner for the shorter introduction.
 
 She then verifies the stored status and candidate. The flawed specimen remains labeled rejected or superseded in the practice history; the accepted replacement has its own clear identity. If a downstream draft had already used the flawed row, she would inspect that dependency before treating the correction as complete. In this case, no external use occurred.
 
-Recovery has two outputs: a repaired object and a changed understanding of the review failure. Maya's policy now explicitly checks that distinct source objects remain distinct through summarization.
+Recovery has two outputs: a repaired object and a changed understanding of the review failure. Audy's policy now explicitly checks that distinct source objects remain distinct through summarization.
 
 ## Use checks for the questions they can answer
 
 Some checks are mechanical. A program can determine whether a required field is present or whether a listed file exists. Other checks involve interpreting evidence: whether a sentence records an agreement, whether two items concern the same object, or whether a later statement actually supersedes an earlier one.
 
-A completed table can pass a field-presence check while carrying the wrong meaning. Maya's merged row has an action, owner, and date. The defect becomes visible only when those fields are compared with the source objects and their relationships.
+A completed table can pass a field-presence check while carrying the wrong meaning. Audy's merged row has an action, owner, and date. The defect becomes visible only when those fields are compared with the source objects and their relationships.
 
 Model-based review can help surface possible errors, but another model's verdict is still a result to evaluate. It may share assumptions with the drafting model or focus on the same incomplete criteria. Human judgment remains necessary where the task's authority, meaning, or consequences have not been delegated.
 
 Anthropic's evaluation guidance describes different kinds of grading and distinguishes the transcript from the resulting state. The practical implication here is to select checks that match the outcome and inspect the actual object being used. The guide does not make any single grader a universal assurance of correctness. ([Grace et al., 2026](https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents))
 
-Maya uses a simple combination: visible source references, comparison of consequential fields, a check for omissions, and reopening the saved result. She can automate a mechanical check later if repeated work justifies it. That automation should reduce clerical effort without hiding which judgments remain unperformed.
+Audy uses a simple combination: visible source references, comparison of consequential fields, a check for omissions, and reopening the saved result. She can automate a mechanical check later if repeated work justifies it. That automation should reduce clerical effort without hiding which judgments remain unperformed.
 
 ## Make review selective without making it vague
 
-Review need not inspect every feature with equal intensity. The consequence of a wrong owner is different from the consequence of a slightly awkward heading. Maya gives priority to evidence fidelity, authority, unresolved information, and permitted use. She reviews style to the degree required for the intended design task.
+Review need not inspect every feature with equal intensity. The consequence of a wrong owner is different from the consequence of a slightly awkward heading. Audy gives priority to evidence fidelity, authority, unresolved information, and permitted use. She reviews style to the degree required for the intended design task.
 
 For this small practice packet, full inspection of the consequential fields is affordable. Sampling a few rows would save little and could miss the entire point of the exercise. In a larger repeated workflow, selective inspection may become useful, but it requires a stated scope and an honest account of what remains unchecked.
 
@@ -104,7 +104,7 @@ The policy should state where selection is allowed and where a particular approv
 
 The reviewer does not need to memorize every source line. The packet exists so those details can be retrieved. The reviewer does need to understand the distinctions that determine acceptance and recognize when the available evidence does not support the requested judgment.
 
-Maya can explain agreement versus suggestion, established owner versus plausible owner, and conflict versus authorized supersession. She can locate those distinctions in a new input without relying entirely on the assistant's explanation. That ability is part of the capability demonstrated before delegation.
+Audy can explain agreement versus suggestion, established owner versus plausible owner, and conflict versus authorized supersession. She can locate those distinctions in a new input without relying entirely on the assistant's explanation. That ability is part of the capability demonstrated before delegation.
 
 If she cannot explain why the merged row is wrong, adding a checkbox called “verify objects” will not solve the problem. She needs to compare the two source objects and their separate commitments until the relationship is clear. A useful review policy supports existing judgment and helps reveal where more learning is needed.
 
@@ -116,11 +116,11 @@ This is why the book's progression starts with inquiry and explanation. Supervis
 
 Sometimes the evidence packet is complete and the reviewer still cannot decide. A source may be ambiguous, the task may exceed the reviewer's expertise, or the requested use may require a judgment that the existing policy does not define. The appropriate result is a specific hold.
 
-Maya's policy distinguishes an unresolved field from an unusable candidate. The deadline conflict in the source can be represented accurately in a candidate. The inability to establish which instruction is current prevents normal execution. A novel request to treat an apparent later amendment as authoritative may require a separate decision if the packet does not establish its authority.
+Audy's policy distinguishes an unresolved field from an unusable candidate. The deadline conflict in the source can be represented accurately in a candidate. The inability to establish which instruction is current prevents normal execution. A novel request to treat an apparent later amendment as authoritative may require a separate decision if the packet does not establish its authority.
 
 A hold should say what is needed to proceed. It might request the missing source, an authorized clarification, or a decision from the person responsible for the scope. It should also preserve completed reversible work so the task can resume without starting over.
 
-If the required decision belongs to Maya, an assistant should not repeatedly ask a different phrasing of the same question or broaden the task until it finds a convenient answer. The handoff should make the dependency explicit. If Maya lacks the relevant expertise, she can seek it, narrow the claim, or keep the operation manual.
+If the required decision belongs to Audy, an assistant should not repeatedly ask a different phrasing of the same question or broaden the task until it finds a convenient answer. The handoff should make the dependency explicit. If Audy lacks the relevant expertise, she can seek it, narrow the claim, or keep the operation manual.
 
 Treat a well-formed hold as successful boundary handling. The task may remain unfinished, but the system has not manufactured permission or evidence to escape that condition. The policy must make that result acceptable, or pressure for completion will encourage the very behavior review is intended to catch.
 
@@ -130,21 +130,21 @@ The notes being reviewed can contain instruction-shaped language. A document mig
 
 The distinction is relevant because tool-using agents can encounter untrusted material while performing legitimate work. AgentDojo evaluates agents exposed to tool-returned data and prompt-injection attempts, and reports challenges in both ordinary task completion and adversarial settings. Its benchmark does not provide a complete threat model or current failure rate for every system. ([Debenedetti et al., 2024](https://doi.org/10.48550/arXiv.2406.13352))
 
-Maya can test this boundary with a disposable synthetic line asking for immediate approval and external circulation. The expected behavior is to keep the source line from modifying the contract, preserve any relevant factual content as appropriate, and return the authorized candidate for human review. No sending tool is needed for the exercise.
+Audy can test this boundary with a disposable synthetic line asking for immediate approval and external circulation. The expected behavior is to keep the source line from modifying the contract, preserve any relevant factual content as appropriate, and return the authorized candidate for human review. No sending tool is needed for the exercise.
 
-The human reviewer should inspect the boundary too. If the assistant reports that a source instructed it to change the policy, Maya checks whether any authorized instruction actually granted that power. Fluent source text does not outrank the charter or task contract merely because it appears imperative.
+The human reviewer should inspect the boundary too. If the assistant reports that a source instructed it to change the policy, Audy checks whether any authorized instruction actually granted that power. Fluent source text does not outrank the charter or task contract merely because it appears imperative.
 
 This practice complements ordinary accuracy checks. A workflow can preserve all dates while violating its permission boundary, or respect permissions while misunderstanding an agreement. Record the two results separately and repair the failure that actually occurred.
 
 ## Set intake by the attention available for review
 
-A solo system includes the operator's finite review capacity. If the assistant generates candidates faster than Maya can inspect them, the backlog is not completed work. It is a queue of objects whose status must remain visible.
+A solo system includes the operator's finite review capacity. If the assistant generates candidates faster than Audy can inspect them, the backlog is not completed work. It is a queue of objects whose status must remain visible.
 
 Use the earlier illustrative capacity example: six candidates arrive in a day, and two can be meaningfully reviewed. Four remain pending before any previous backlog is considered. Calling all six complete because drafting finished hides the constraint. The relevant response may be to reduce intake, narrow the candidate, improve the evidence packet, or reserve more review time.
 
 Do not solve the mismatch by making acceptance easier without understanding the consequences. A shorter review note may reduce navigation effort while preserving evidence. Omitting source inspection may reduce effort by leaving the central judgment undone. Those changes need different evaluation.
 
-Maya begins with one packet at a time. A pending item states its candidate version, reason for waiting, reviewer, and next action. If she is unavailable, the workflow can leave an inspectable draft and stop. It does not grant itself approval because a time limit expired.
+Audy begins with one packet at a time. A pending item states its candidate version, reason for waiting, reviewer, and next action. If she is unavailable, the workflow can leave an inspectable draft and stop. It does not grant itself approval because a time limit expired.
 
 For a future service operation, delayed review would affect delivery promises. Here it affects only the rehearsal schedule. That is an opportunity to understand the constraint before real commitments exist. Review capacity belongs in the operating manual and, later, the unit-economics model because it changes what the enterprise can sustainably deliver.
 
@@ -152,7 +152,7 @@ For a future service operation, delayed review would affect delivery promises. H
 
 When review finds a defect, there are several possible responses. The candidate may need correction. The evidence packet may need a clearer link. The checking step may need to compare an omitted relationship. The task may need a narrower scope. Only some failures reveal a defect in the governing instruction itself.
 
-Maya's merged-object case violated an existing requirement. She repairs the candidate and makes the object comparison more explicit in her review procedure. She does not create `instructions-v4` simply to demonstrate that learning occurred. The source-fidelity requirement was already correct.
+Audy's merged-object case violated an existing requirement. She repairs the candidate and makes the object comparison more explicit in her review procedure. She does not create `instructions-v4` simply to demonstrate that learning occurred. The source-fidelity requirement was already correct.
 
 If a future case exposes an actual gap in the instruction, the memory procedure from Chapter 11 applies: propose a change, inspect its support and limits, approve a precise version, update the existing pointer, and check the stored state. Review policy should not become a shortcut around that authority route.
 
@@ -164,11 +164,11 @@ Record what changed and what the fresh check establishes; test relevant variatio
 
 The verdict grammar developed earlier remains useful: accept, reject, or rewrite, with a reason. A held item can carry a pending decision and the evidence needed to resolve it. The record should identify the exact candidate and instruction version so another session does not apply the verdict to a different object.
 
-Maya's initial acceptance is marked withdrawn for the merged candidate. Her reason names the object conflation and hidden conflict. The replacement receives a new verdict after comparison. That history preserves a review correction rather than presenting the final accepted candidate as proof that the original process was flawless.
+Audy's initial acceptance is marked withdrawn for the merged candidate. Her reason names the object conflation and hidden conflict. The replacement receives a new verdict after comparison. That history preserves a review correction rather than presenting the final accepted candidate as proof that the original process was flawless.
 
 The TFIS deck's Daily Court v2 entry distinguishes evidence collection, human judgment, and deterministic application. Its reported development account motivates a useful separation here: a verdict is a human decision, and applying that verdict to stored state is an operation that must be checked. The deck does not independently establish the effectiveness of this exact review policy. ([The Future Is Solo, 2026, slide 33](https://docs.google.com/presentation/d/1dvbBGs22QvtGogevZ6f5mf8YQE7WDAPBwYlclhTyctI/edit#slide=id.g3f2637d0be9_0_0))
 
-After saving the verdict, Maya reopens the candidate's status and follows the evidence. If the old acceptance still appears as current, the review has not been fully applied. The next task must see the revised state, not merely a conversation saying that Maya changed her mind.
+After saving the verdict, Audy reopens the candidate's status and follows the evidence. If the old acceptance still appears as current, the review has not been fully applied. The next task must see the revised state, not merely a conversation saying that Audy changed her mind.
 
 The acceptance concerns this synthetic example under `instructions-v3`; preserve that scope when retrieving the verdict.
 
@@ -204,7 +204,7 @@ Choose an intake limit that fits the attention you have. State what happens when
 
 Your practice passes when the reviewer can identify the object, inspect the support, make a scoped decision, and ensure that the resulting status controls the next step. A detected defect produces a repair or hold; a faithful unresolved answer is not forced into invented certainty. These are book-developed practice criteria, not automatic SSA-CMM certification.
 
-Maya finishes with `review-policy-v1`, a corrected rehearsal verdict, and a clearer account of the human effort her delegated workflow requires. `instructions-v3` remains current. [Chapter 19](19-the-solo-systems-architect.md) will connect roles and handoffs while preserving the boundaries that make each result reviewable.
+Audy finishes with `review-policy-v1`, a corrected rehearsal verdict, and a clearer account of the human effort her delegated workflow requires. `instructions-v3` remains current. [Chapter 19](19-the-solo-systems-architect.md) will connect roles and handoffs while preserving the boundaries that make each result reviewable.
 
 ## References
 

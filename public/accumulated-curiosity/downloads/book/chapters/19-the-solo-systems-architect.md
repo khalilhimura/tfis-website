@@ -4,15 +4,15 @@
 
 ## Two completed tasks, one missing result
 
-Maya runs a paper simulation of a more divided Fieldwork workflow. One role prepares an action list. Another checks it against the source. A final review combines their returns. The source remains synthetic, and Maya can perform every role herself before deciding whether separate assistant sessions would help.
+Audy runs a paper simulation of a more divided Himura Inc. workflow. One role prepares an action list. Another checks it against the source. A final review combines their returns. The source remains synthetic, and Audy can perform every role herself before deciding whether separate assistant sessions would help.
 
 Two documents come back. Each looks finished. The first is an action list; the second is a cleaner action list. The checker has rewritten the draft instead of returning a source comparison. The number of completed tasks matches the number she assigned, but an essential result is missing.
 
-The revised list may be correct. Maya cannot establish which draft the checker inspected, which source version it used, or which requirements it considered. The system has confused receiving two files with receiving two different kinds of evidence.
+The revised list may be correct. Audy cannot establish which draft the checker inspected, which source version it used, or which requirements it considered. The system has confused receiving two files with receiving two different kinds of evidence.
 
 This is a new coordination problem built around a familiar task. The bounded workflow from Chapters 17 and 18 already produces a candidate, source comparison, limited repair, and human review. Dividing that work among roles should preserve those operations.
 
-Maya and Fieldwork remain fictional. No customer has commissioned this work, and these authored specimens are not a measured multi-agent deployment. The [system contracts](../artifacts/19-system-contracts.md) let you rehearse the same boundaries with ordinary documents, then record actual results if you choose to try separate assistants.
+Audy and Himura Inc. remain fictional. No customer has commissioned this work, and these authored specimens are not a measured multi-agent deployment. The [system contracts](../artifacts/19-system-contracts.md) let you rehearse the same boundaries with ordinary documents, then record actual results if you choose to try separate assistants.
 
 ## Own the relationships between the parts
 
@@ -20,7 +20,7 @@ A systems architect decides how parts cooperate toward an outcome. In a solo pra
 
 The TFIS homepage presents the Solo Systems Architect as responsible for direction and system design, and describes coordination among harnesses through a canonical vault and scoped write areas. These are the project's stated roles and architecture. They do not establish that any particular reader has implemented them by drawing a diagram. ([The Future Is Solo, n.d.-b](https://thefutureissolo.com/))
 
-For Maya, the practical questions are direct. What exactly does the drafter receive? What must the checker inspect independently? Who resolves a disagreement? Where can each role save its work? Which result may proceed to human review? What happens if a role returns nothing, returns twice, or returns a report about the wrong draft?
+For Audy, the practical questions are direct. What exactly does the drafter receive? What must the checker inspect independently? Who resolves a disagreement? Where can each role save its work? Which result may proceed to human review? What happens if a role returns nothing, returns twice, or returns a report about the wrong draft?
 
 Those questions remain relevant whether one person, one model, several models, or a mixture performs the operations. A manual simulation can expose an ambiguous contract before tools make the ambiguity faster and harder to see.
 
@@ -32,9 +32,9 @@ The previous sequential workflow may already be sufficient. Before adding a role
 
 Anthropic's agent-building guidance describes chaining, routing, parallel work, and other arrangements while recommending that complexity follow demonstrated need. It treats these as adaptable engineering patterns. It does not establish a universal advantage for a large agent team. ([Erik S. & Zhang, 2024](https://www.anthropic.com/engineering/building-effective-agents))
 
-Maya's immediate reason for trying a separate checker is visibility. In the single-role workflow, drafting and checking appear in one return. She wants to see whether requiring a distinct comparison record makes the review more inspectable. That is a hypothesis about her procedure, not a result already established by the example.
+Audy's immediate reason for trying a separate checker is visibility. In the single-role workflow, drafting and checking appear in one return. She wants to see whether requiring a distinct comparison record makes the review more inspectable. That is a hypothesis about her procedure, not a result already established by the example.
 
-She keeps the alternative visible: one assistant can continue to perform the sequential workflow, with Maya reviewing its evidence. If a separate role only produces another polished version of the draft, the division has added coordination without supplying the missing check.
+She keeps the alternative visible: one assistant can continue to perform the sequential workflow, with Audy reviewing its evidence. If a separate role only produces another polished version of the draft, the division has added coordination without supplying the missing check.
 
 Write the reason for each boundary beside it. Remove a boundary that has no useful purpose. Architecture should earn its maintenance cost through the behavior it enables, rather than through the number of boxes it contains.
 
@@ -46,7 +46,7 @@ Write the reason for each boundary beside it. Remove a boundary that has no usef
 
 The source packet and current instruction enter two useful operations. A drafter prepares a candidate. A checker can first identify expected properties from the source, then compare the candidate against them. The evidence packet joins these returns only when their identities and versions match.
 
-A coordinator is simply whoever tracks that join. Maya can do it with a small table. It need not be another language model. The coordinator checks whether the required artifacts exist and correspond; it does not decide that a source-supported claim is true merely because the fields are filled.
+A coordinator is simply whoever tracks that join. Audy can do it with a small table. It need not be another language model. The coordinator checks whether the required artifacts exist and correspond; it does not decide that a source-supported claim is true merely because the fields are filled.
 
 The diagram also shows a route for incomplete or incompatible returns. They go to diagnosis rather than silently continuing as success. An explicit failure route is part of the system, not an embarrassing exception to be omitted from the drawing.
 
@@ -58,13 +58,13 @@ The drafter receives the authorized synthetic source, current instruction, job i
 
 The checker receives the source and criteria plus the candidate it is meant to inspect. It returns a comparison report identifying that exact candidate version. Each material finding points to the source and the affected output. It may recommend a repair, but a rewritten draft alone does not satisfy its contract.
 
-Maya receives the candidate and report with matching references. She decides whether the result meets the internal practice task, whether a correction is needed, or whether missing evidence prevents a conclusion. The later business runbook will distinguish this decision from any decision to send a deliverable to another person.
+Audy receives the candidate and report with matching references. She decides whether the result meets the internal practice task, whether a correction is needed, or whether missing evidence prevents a conclusion. The later business runbook will distinguish this decision from any decision to send a deliverable to another person.
 
 Keep the contract small enough to inspect. An identifier matters because it prevents a report from being attached to the wrong output. A source reference matters because it permits checking. A decorative job title contributes little if the returned object's required content remains unclear.
 
 ## Identify the job, source, and output separately
 
-For the worked simulation, Maya labels the job `J19-01`. She uses the source packet from Chapter 16, preserving its five labeled lines, and identifies the supplied instruction as `instructions-v3`. The first candidate is `D19-01-v1`; the required comparison report is `C19-01-v1`.
+For the worked simulation, Audy labels the job `J19-01`. She uses the source packet from Chapter 16, preserving its five labeled lines, and identifies the supplied instruction as `instructions-v3`. The first candidate is `D19-01-v1`; the required comparison report is `C19-01-v1`.
 
 These labels are ordinary references. You can use descriptive filenames or headings instead, provided the relationship is unambiguous. A job identifier groups the work. A source version identifies the evidence supplied. An output version identifies what was actually produced. They answer different questions.
 
@@ -76,7 +76,7 @@ The contract should therefore carry the versions used into the return. Do not in
 
 ## Give the check its own contact with the source
 
-A useful checker needs enough access to challenge the draft. If it receives only the drafter's summary of the evidence, it may merely confirm that summary. Maya supplies the original synthetic lines and the applicable criteria, with the draft separately identified.
+A useful checker needs enough access to challenge the draft. If it receives only the drafter's summary of the evidence, it may merely confirm that summary. Audy supplies the original synthetic lines and the applicable criteria, with the draft separately identified.
 
 She can improve the manual rehearsal by writing expected properties from the source before reading the candidate. This makes the comparison less dependent on the draft's organization. If the draft omits an action entirely, an expectation list derived from the source gives the checker a place to notice the absence.
 
@@ -84,11 +84,11 @@ This is procedural separation, not proof of statistically independent errors. Tw
 
 Anthropic's evaluation guidance distinguishes different kinds of grading and the actual outcome from a system's account of its work. It supports examining what a check establishes, with human judgment where needed. The chapter's role simulation is a small practical application, not a validated evaluator. ([Grace et al., 2026](https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents))
 
-For this task, a mechanical completeness check can detect a missing report. A source comparison can detect an unsupported owner. Maya's review decides whether the evidence packet warrants the requested use. These operations complement one another because they answer different questions.
+For this task, a mechanical completeness check can detect a missing report. A source comparison can detect an unsupported owner. Audy's review decides whether the evidence packet warrants the requested use. These operations complement one another because they answer different questions.
 
 ## Use a known input to expose a new coordination problem
 
-Maya deliberately reuses the synthetic C16 input. The purpose is to test the handoff, not claim a new demonstration of general task capability:
+Audy deliberately reuses the synthetic C16 input. The purpose is to test the handoff, not claim a new demonstration of general task capability:
 
 > C1. The coordinator agreed to upload the accessible slides by Tuesday.
 >
@@ -110,13 +110,13 @@ The checker should report that C2 supports neither agreement nor ownership, iden
 
 In the opening failure, both roles return action lists. One is labeled `D19-01-v1`; the other is an alternate draft. The coordinator counts two completed returns and marks the job ready. But the contract requires one candidate and one source comparison, not two arbitrary files.
 
-Maya inspects the expected-artifact table. The candidate slot is occupied twice, while the comparison slot is empty. This is a duplicate deliverable category and a missing required artifact. A correct diagnosis does not depend on whether the alternate draft happens to be more accurate.
+Audy inspects the expected-artifact table. The candidate slot is occupied twice, while the comparison slot is empty. This is a duplicate deliverable category and a missing required artifact. A correct diagnosis does not depend on whether the alternate draft happens to be more accurate.
 
 She keeps both drafts in the practice history long enough to explain what happened. She does not merge them and label the merge “checked.” She returns the checker task with the clarified requirement: identify the candidate inspected, compare every material item with C1–C5, and return findings and unresolved issues.
 
 The repaired comparison identifies the library defect, confirms the supported slides row, preserves the handout conflict, and checks that the shorter opening has not disappeared. The drafter can then produce a revised candidate with the comparison as feedback, within the bounded repair allowance.
 
-Maya updates the handoff contract so that completeness is checked by artifact role and target, rather than by a count of messages. This change concerns coordination. It does not alter `instructions-v3`, whose evidence rules already handled the source correctly.
+Audy updates the handoff contract so that completeness is checked by artifact role and target, rather than by a count of messages. This change concerns coordination. It does not alter `instructions-v3`, whose evidence rules already handled the source correctly.
 
 ## Make the repaired return inspectable
 
@@ -129,15 +129,15 @@ The repaired candidate contains the following content:
 | Agreed; timing unresolved | Send revised handout | Facilitator | By Thursday / by Friday; applicable deadline unresolved; clarification required | C3–C4 |
 | Agreed | Shorten opening discussion | Unspecified | Unspecified | C5 |
 
-The accompanying comparison names `D19-01-v2`, the C16 source, and `instructions-v3`. It identifies what changed from the previous candidate and checks the revised result against every required property. Maya can inspect the source lines without reconstructing the roles' conversation.
+The accompanying comparison names `D19-01-v2`, the C16 source, and `instructions-v3`. It identifies what changed from the previous candidate and checks the revised result against every required property. Audy can inspect the source lines without reconstructing the roles' conversation.
 
-The revised list is a candidate until its scoped review occurs. Maya may accept this internal representation while leaving the real handout deadline unresolved. Acceptance of faithful uncertainty is different from choosing the date.
+The revised list is a candidate until its scoped review occurs. Audy may accept this internal representation while leaving the real handout deadline unresolved. Acceptance of faithful uncertainty is different from choosing the date.
 
 The artifact contains literal failed and repaired receipts as well as this content. If you perform the exercise, keep your actual returns. Do not replace a failed handoff with the authored sample and report that your arrangement passed.
 
 ## A valid report can become stale
 
-Maya introduces a second deliberate handoff defect. She attaches the report about `D19-01-v1` to `D19-01-v2`. Both files are present, and the report contains detailed findings. Its target version does not match the candidate being advanced.
+Audy introduces a second deliberate handoff defect. She attaches the report about `D19-01-v1` to `D19-01-v2`. Both files are present, and the report contains detailed findings. Its target version does not match the candidate being advanced.
 
 The coordinator should hold the join and name the mismatch. It should not assume the old check carries forward because the change was described as small. Nor should it ask the checker to rewrite the entire project. The next task is a bounded comparison of the revised candidate, including earlier properties the edit might have disturbed.
 
@@ -151,7 +151,7 @@ For a beginner, sequential role simulation is often enough. Parallel execution c
 
 Two roles can disagree about more than version labels. A checker may insist that the library inquiry should be omitted because it is only a suggestion. The draft may retain it with a suggestion label. The current instruction allows suggestions to remain distinguishable from agreements; it does not require erasing them.
 
-Maya compares the disagreement with the governing instruction and source. She does not take a vote or favor the role with the more authoritative title. If the instruction answers the question, apply it. If the source lacks the needed information, preserve the gap. If the task's purpose genuinely requires a new policy choice, bring that choice to the responsible person.
+Audy compares the disagreement with the governing instruction and source. She does not take a vote or favor the role with the more authoritative title. If the instruction answers the question, apply it. If the source lacks the needed information, preserve the gap. If the task's purpose genuinely requires a new policy choice, bring that choice to the responsible person.
 
 An escalation should say what conflicts, why the existing authority does not resolve it, and which action depends on the answer. “Need human review” is less useful than “The requested output now asks us to choose one deadline, but the supplied source and current instruction permit only an unresolved account.”
 
@@ -175,9 +175,9 @@ Preserve the bounded repair rule from the delegation contract. If the allowed re
 
 Giving two operations different roles does not mean they should run at the same time. The checker cannot compare a candidate that does not exist yet. It can, however, identify source-based expected properties while drafting takes place, provided both operations use the same source and instruction versions.
 
-That distinction reveals which part of the work is actually independent. Maya can draw one line for preparing expectations and another for producing the candidate. The comparison occurs where they meet. If she instead launches two complete action-list tasks and calls the second one checking, she has changed the output count without establishing a separate comparison.
+That distinction reveals which part of the work is actually independent. Audy can draw one line for preparing expectations and another for producing the candidate. The comparison occurs where they meet. If she instead launches two complete action-list tasks and calls the second one checking, she has changed the output count without establishing a separate comparison.
 
-Concurrency also creates a coordination obligation. Suppose Maya receives a corrected source packet while one role is still working from the earlier copy. Quietly replacing the shared file can leave the two returns based on different inputs. The contract should preserve the original packet for that attempt and identify the new version as a separate reviewed input change.
+Concurrency also creates a coordination obligation. Suppose Audy receives a corrected source packet while one role is still working from the earlier copy. Quietly replacing the shared file can leave the two returns based on different inputs. The contract should preserve the original packet for that attempt and identify the new version as a separate reviewed input change.
 
 The person coordinating the work can then decide whether to stop and restart the affected operation or finish the earlier attempt as historical evidence. The decision depends on what changed and which output is needed. What should not happen is silently combining a draft from one source version with a check from another.
 
@@ -187,7 +187,7 @@ Record the actual route used in a trial. “Separate drafter and checker roles, 
 
 ## Give each role a useful permission boundary
 
-Low-impact drafting should proceed under the permissions already granted by the task. Maya does not need to approve every heading, candidate sentence, or source comparison individually. Those operations are the delegated work.
+Low-impact drafting should proceed under the permissions already granted by the task. Audy does not need to approve every heading, candidate sentence, or source comparison individually. Those operations are the delegated work.
 
 The boundary changes when an action would alter authority, expose information, or affect another person. The drafter may save a new candidate in a designated area when that operation is permitted. It may not overwrite the source, change the current selector, promote its own judgment into reviewed memory, or send a customer message under the same permission.
 
@@ -201,7 +201,7 @@ The architecture is useful when responsibilities are clear enough for routine wo
 
 Several roles may discover a useful correction. That does not mean each should write a new permanent rule. Competing summaries can turn a single observation into multiple apparently independent lessons and make later retrieval harder.
 
-Maya lets roles propose memory candidates with their source and scope. The existing review and distillation procedure determines whether a candidate belongs in project history or reviewed reusable memory. The designated current-instruction route remains singular.
+Audy lets roles propose memory candidates with their source and scope. The existing review and distillation procedure determines whether a candidate belongs in project history or reviewed reusable memory. The designated current-instruction route remains singular.
 
 If the handoff failure changes the operating manual, she records that specific coordination decision. It need not modify the commitment-evidence principle, because the meaning of an agreed action has not changed. Maintenance follows the actual dependency affected by the observation.
 
@@ -239,7 +239,7 @@ Run the manual simulation with the supplied packet or your own authorized exampl
 
 Your practice passes when the coordinator can tell whether the evidence packet is complete and compatible, the reviewer can trace material findings to source, and permission boundaries remain intact. The source rules should survive the new arrangement without being copied into competing authoritative records.
 
-Without AI, explain why two completed tasks may still leave one required result missing, why two agreeing models do not prove independent validation, and why a report must identify the output it inspected. Maya finishes with `system-contracts-v1`, a clearer handoff procedure, and a reasoned choice about whether separate roles are worth using. [Chapter 20](20-the-architecture-of-a-solo-enterprise.md) places that workflow among the other operations a prospective business would need.
+Without AI, explain why two completed tasks may still leave one required result missing, why two agreeing models do not prove independent validation, and why a report must identify the output it inspected. Audy finishes with `system-contracts-v1`, a clearer handoff procedure, and a reasoned choice about whether separate roles are worth using. [Chapter 20](20-the-architecture-of-a-solo-enterprise.md) places that workflow among the other operations a prospective business would need.
 
 ## References
 

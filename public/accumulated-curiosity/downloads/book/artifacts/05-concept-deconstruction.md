@@ -41,7 +41,7 @@ Remaining uncertainty:
 Next review trigger:
 ```
 
-## Worked example: Fieldwork
+## Worked example: Himura Inc.
 
 This is a fictional teaching example, including the review result.
 

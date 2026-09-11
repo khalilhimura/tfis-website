@@ -38,11 +38,11 @@ Use stable IDs within this set. Identify historical versions separately from the
 
 **Event that should trigger the next map review:**
 
-## Worked sample: fictional Fieldwork
+## Worked sample: fictional Himura Inc.
 
 These records index the book's constructed teaching specimens. They do not report actual model runs or customer outcomes.
 
-**Question:** If Maya proposes handling for an explicitly authorized deadline amendment, which existing materials must she inspect before approving it?
+**Question:** If Audy proposes handling for an explicitly authorized deadline amendment, which existing materials must she inspect before approving it?
 
 ### Items in this working set
 
@@ -90,7 +90,7 @@ These records index the book's constructed teaching specimens. They do not repor
 
 ### Open extension
 
-**Proposed new input:** A synthetic record would explicitly identify an authorized coordinator changing the worksheet deadline from Friday to Monday. Maya has not yet prepared and reviewed that complete case.
+**Proposed new input:** A synthetic record would explicitly identify an authorized coordinator changing the worksheet deadline from Friday to Monday. Audy has not yet prepared and reviewed that complete case.
 
 **Existing counterexample to preserve:** Two source statements giving different dates without establishing an authorized change, as in Chapter 11, must remain an unresolved conflict.
 

@@ -54,7 +54,7 @@ Use this with Chapter 11. Produce a proposed record for a defined future use, re
 
 ## Fictional worked sample: conflicting workshop notes
 
-**Record:** `distillation-record-v1`, reviewed project record. The synthetic exercise belongs to Maya's proposed thirty-minute Fieldwork workshop. It is not customer evidence or an observed learning result.
+**Record:** `distillation-record-v1`, reviewed project record. The synthetic exercise belongs to Audy's proposed thirty-minute Himura Inc. workshop. It is not customer evidence or an observed learning result.
 
 **Future use:** Explain and test how action-list practice handles supplied deadline statements that conflict without an established supersession relationship.
 
@@ -76,9 +76,9 @@ These two short passages are the complete synthetic input for this example. No a
 
 **Change type:** Correct the candidate account's unsupported confirmation claim. No new real-world deadline decision is created.
 
-**Approval:** Maya approves the repaired project record and the bounded conflict-handling instruction. She approves neither Thursday nor Friday as the applicable deadline. The scope is representation of this kind of supplied ambiguity in the synthetic workshop practice.
+**Approval:** Audy approves the repaired project record and the bounded conflict-handling instruction. She approves neither Thursday nor Friday as the applicable deadline. The scope is representation of this kind of supplied ambiguity in the synthetic workshop practice.
 
-**Save route:** Save the reviewed record in the Fieldwork project workspace. Save the approved revision as `instructions-v3` and update the existing selector in `learning-loop-v1`; do not create another selector in this record. Link the explanatory `action-list-rule-rationale-v1` to this case. The general `commitment-evidence-principle-v1` can remain unchanged because it already expresses the relevant broad distinction.
+**Save route:** Save the reviewed record in the Himura Inc. project workspace. Save the approved revision as `instructions-v3` and update the existing selector in `learning-loop-v1`; do not create another selector in this record. Link the explanatory `action-list-rule-rationale-v1` to this case. The general `commitment-evidence-principle-v1` can remain unchanged because it already expresses the relevant broad distinction.
 
 ### Current pointer excerpt
 

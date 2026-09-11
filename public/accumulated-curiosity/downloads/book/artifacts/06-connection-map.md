@@ -56,9 +56,9 @@ Copy the blank record into an ordinary document. Place the source situation and 
 
 **Condition under which the decision needs revisiting:**
 
-## Worked sample: fictional Fieldwork
+## Worked sample: fictional Himura Inc.
 
-Maya is designing a synthetic thirty-minute workshop in which adult learners convert meeting notes into an action list. No learner performance or customer demand is established by this design exercise.
+Audy is designing a synthetic thirty-minute workshop in which adult learners convert meeting notes into an action list. No learner performance or customer demand is established by this design exercise.
 
 **Target difficulty:** Detect invented commitments, owners, and deadlines while allowing faithful paraphrases.
 
@@ -66,7 +66,7 @@ Maya is designing a synthetic thirty-minute workshop in which adult learners con
 
 **Relevant engineering source:** Grace, M., Hadfield, J., Olivares, R., & De Jonghe, J. (2026, January 9). *Demystifying evals for AI agents*. Anthropic. https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents
 
-**Inspected location:** “Types of graders for agents,” including limitations of exact checks, and “Design graders thoughtfully.” The source is engineering guidance about AI systems. The workshop adaptation is Maya's design proposal, not a tested finding from that article.
+**Inspected location:** “Types of graders for agents,” including limitations of exact checks, and “Design graders thoughtfully.” The source is engineering guidance about AI systems. The workshop adaptation is Audy's design proposal, not a tested finding from that article.
 
 | Source operation | Workshop counterpart | Useful relationship | Mismatch |
 | --- | --- | --- | --- |

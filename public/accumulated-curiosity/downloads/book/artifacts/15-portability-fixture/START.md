@@ -1,6 +1,6 @@
 # Start: Synthetic Portability Practice Package
 
-This is an instructional miniature for Chapter 15 of *Accumulated Curiosity*. It is not a full export of Maya's fictional Fieldwork project, a real customer record, or a deployed memory system. Every meeting input is invented. No code, account, or paid tool is required.
+This is an instructional miniature for Chapter 15 of *Accumulated Curiosity*. It is not a full export of Audy's fictional Himura Inc. project, a real customer record, or a deployed memory system. Every meeting input is invented. No code, account, or paid tool is required.
 
 ## Begin
 

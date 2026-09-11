@@ -50,4 +50,4 @@ The Future Is Solo. (n.d.-c). *The meaning of life: A techno-optimist's response
 
 The Future Is Solo. (2026). *The Future Is Solo 20260910* [Google Slides presentation]. https://docs.google.com/presentation/d/1dvbBGs22QvtGogevZ6f5mf8YQE7WDAPBwYlclhTyctI/edit
 
-The TFIS build deck records reported experiments and next steps. Its citation does not establish independent verification of implementation, learning effects, or commercial outcomes. The fictional Fieldwork materials are original teaching specimens and are not empirical sources.
+The TFIS build deck records reported experiments and next steps. Its citation does not establish independent verification of implementation, learning effects, or commercial outcomes. The fictional Himura Inc. materials are original teaching specimens and are not empirical sources.

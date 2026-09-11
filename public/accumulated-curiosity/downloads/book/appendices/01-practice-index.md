@@ -31,7 +31,7 @@ Do not tidy these records by deleting the failed candidate. A later reader needs
 | 14 | [Operating manual](../artifacts/14-operating-manual.md) | A usable route into the task, including interruption and resumption. |
 | 15 | [Portability drill](../artifacts/15-portability-drill.md) | Evidence about reconstruction, current instructions, and separately tested behavior. |
 
-In the Fieldwork teaching case, the existing selector eventually points to `instructions-v3`. Earlier v1 and v2 records remain historical. A later explanation of the case should not silently change which instruction an earlier attempt used. The literal [current instruction and selector](../artifacts/11-distillation-record.md#current-instruction-instructions-v3) are available in the distillation artifact.
+In the Himura Inc. teaching case, the existing selector eventually points to `instructions-v3`. Earlier v1 and v2 records remain historical. A later explanation of the case should not silently change which instruction an earlier attempt used. The literal [current instruction and selector](../artifacts/11-distillation-record.md#current-instruction-instructions-v3) are available in the distillation artifact.
 
 ## System: demonstrate, deliver, and inspect the economics
 

@@ -1,6 +1,6 @@
 # Two-pass practice packet
 
-Every instruction, input, and response below is **authored teaching material for the fictional Fieldwork case**, not a transcript of a real model run. There are no tool receipts or measured performance rates. Compare these specimens yourself, then retain actual records when performing your own exercise. The immediate output is an example action list used to check the design of `workshop-brief-v1`; it is not evidence that a learner has completed the workshop.
+Every instruction, input, and response below is **authored teaching material for the fictional Himura Inc. case**, not a transcript of a real model run. There are no tool receipts or measured performance rates. Compare these specimens yourself, then retain actual records when performing your own exercise. The immediate output is an example action list used to check the design of `workshop-brief-v1`; it is not evidence that a learner has completed the workshop.
 
 ## Current-version entry
 

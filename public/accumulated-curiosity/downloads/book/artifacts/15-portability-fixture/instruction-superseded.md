@@ -2,7 +2,7 @@
 
 Status: SUPERSEDED. Do not use as the current task instruction.
 
-This miniature historical record demonstrates an earlier incomplete instruction. It is not a verbatim copy of a real person's records or a claim that every sentence was used by Maya.
+This miniature historical record demonstrates an earlier incomplete instruction. It is not a verbatim copy of a real person's records or a claim that every sentence was used by Audy.
 
 Earlier scope: preserve supplied actions and owners; keep missing ownership visible; preserve “soon” without inventing an exact date; distinguish suggestions from agreements.
 

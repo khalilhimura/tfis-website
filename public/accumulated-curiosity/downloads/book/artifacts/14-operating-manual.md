@@ -77,13 +77,13 @@ Use with [Chapter 14](../chapters/14-the-cognitive-os.md). Connect existing reco
 
 **What I should explain unaided:**
 
-## Fictional worked sample: Maya and Fieldwork
+## Fictional worked sample: Audy and Himura Inc.
 
 **Manual:** `operating-manual-v1`.
 
 **Task:** Prepare and review a synthetic action-list example for the proposed thirty-minute workshop.
 
-**Authority:** Maya reviews consequential meaning under the [memory charter](09-memory-charter.md). The project index leads to the existing [learning-loop-v1 selector](11-distillation-record.md#current-pointer-excerpt), which selects [instructions-v3](11-distillation-record.md#current-instruction-instructions-v3). The [knowledge map](12-knowledge-map.md) provides navigation. The [worked rationale](08-memory-inventory.md#worked-rationale-with-later-updates), [distillation record](11-distillation-record.md), and [verdict V13-01](13-verdict-ledger.md) explain and support behavior; they do not compete as selectors.
+**Authority:** Audy reviews consequential meaning under the [memory charter](09-memory-charter.md). The project index leads to the existing [learning-loop-v1 selector](11-distillation-record.md#current-pointer-excerpt), which selects [instructions-v3](11-distillation-record.md#current-instruction-instructions-v3). The [knowledge map](12-knowledge-map.md) provides navigation. The [worked rationale](08-memory-inventory.md#worked-rationale-with-later-updates), [distillation record](11-distillation-record.md), and [verdict V13-01](13-verdict-ledger.md) explain and support behavior; they do not compete as selectors.
 
 **Scope:** No customer communication, real commitments, learner-outcome claims, or instruction change is authorized merely by performing the draft.
 

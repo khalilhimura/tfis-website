@@ -2,15 +2,15 @@
 
 *Assemble evidence of what you and your systems can do in one stated domain, identify the next missing demonstration, and improve it without treating a chapter, a tool, or a sale as a maturity certificate.*
 
-## A sale does not tell Maya which level she has reached
+## A sale does not tell Audy which level she has reached
 
-Maya has a larger collection than the one she began with. It contains source-linked examples, current instructions, verdicts, a recovery practice, delegation and review procedures, system contracts, and a product experiment. The fictional case has also reached one agreed paid pilot and a revised pack accepted for rehearsal. The economics exercise has made the owner's workload visible.
+Audy has a larger collection than the one she began with. It contains source-linked examples, current instructions, verdicts, a recovery practice, delegation and review procedures, system contracts, and a product experiment. The fictional case has also reached one agreed paid pilot and a revised pack accepted for rehearsal. The economics exercise has made the owner's workload visible.
 
 She could arrange those records into a persuasive story of progress. She could also attach a high SSA-CMM label to that story and stop asking what the records actually demonstrate. The danger is especially clear after a buyer agrees to pay. Commercial agreement changes the evidence about that particular offer; it does not establish that a memory write survived, a delegated workflow escalates correctly, or a replacement provider preserves behavior.
 
-This chapter asks Maya to make a capability portfolio. It is an ordinary evidence table with links, scope, observations, and the next repair. It brings the book's work together without adding another maturity framework. A portfolio is useful when someone can inspect a claim and find the conditions under which it held, including what happened when an important condition changed.
+This chapter asks Audy to make a capability portfolio. It is an ordinary evidence table with links, scope, observations, and the next repair. It brings the book's work together without adding another maturity framework. A portfolio is useful when someone can inspect a claim and find the conditions under which it held, including what happened when an important condition changed.
 
-The case's examples remain authored fiction and constructed teaching specimens. Their literal inputs and outputs help you learn to judge evidence. They are not receipts of real model runs, customer transactions, or observed learner effects. Your portfolio must contain your own demonstrations when you claim an operational capability. Copying Maya's successful rows would preserve the lesson while inventing your result.
+The case's examples remain authored fiction and constructed teaching specimens. Their literal inputs and outputs help you learn to judge evidence. They are not receipts of real model runs, customer transactions, or observed learner effects. Your portfolio must contain your own demonstrations when you claim an operational capability. Copying Audy's successful rows would preserve the lesson while inventing your result.
 
 Bring the [capability-portfolio artifact](../artifacts/23-capability-portfolio.md), your earlier practice records, and one recurring task you understand well enough to review. Begin by asking what claim those records can bear, rather than which title would look best above them.
 
@@ -30,7 +30,7 @@ A level should help you choose the next useful demonstration. If it becomes a wa
 
 “I can supervise agents” is too broad to inspect. Supervising a bounded draft from synthetic notes differs from supervising a system that can spend money, communicate externally, or change a production database. The task, inputs, permitted actions, review requirements, and consequences determine what the claim needs to establish.
 
-Maya chooses a narrow domain for this portfolio: preparing and reviewing action-list examples and the associated workshop-design pack. Her current source-representation instruction remains `instructions-v3`, reached through `learning-loop-v1`. The paid pilot adds delivery and buyer-review evidence within the story. It does not silently broaden that instruction into permission for customer communication or deployment.
+Audy chooses a narrow domain for this portfolio: preparing and reviewing action-list examples and the associated workshop-design pack. Her current source-representation instruction remains `instructions-v3`, reached through `learning-loop-v1`. The paid pilot adds delivery and buyer-review evidence within the story. It does not silently broaden that instruction into permission for customer communication or deployment.
 
 Write the claim as an operation with conditions. “Given these authorized notes and the current instruction, I can produce a source-linked proposed action list, preserve the specified uncertainty, and identify when clarification is needed” can be challenged. It names the input, useful output, and an important limit. “I am good with AI” leaves all three open.
 
@@ -42,7 +42,7 @@ You may have strong evidence in one domain and little in another. Keep that unev
 
 At L0, begin with the work you perform directly. Select a recurring task, describe its input and useful result, and record what happens when you do it. The objective is to make the task and its cost visible enough that later assistance can be compared with something meaningful.
 
-Maya's early baseline asked her to notice where workshop design required research, interpretation, drafting, and review. The most useful observation was not that a document took a certain number of minutes. It was that a credible workshop brief needed an activity producing participant work she could inspect. That understanding gave later outputs a criterion beyond speed or polished wording.
+Audy's early baseline asked her to notice where workshop design required research, interpretation, drafting, and review. The most useful observation was not that a document took a certain number of minutes. It was that a credible workshop brief needed an activity producing participant work she could inspect. That understanding gave later outputs a criterion beyond speed or polished wording.
 
 Your evidence can be a modest packet: the original input, your unaided attempt, a note about the decisions you made, and the criteria used to review it. When you make a mistake, preserve it with the correction. A baseline consisting only of your best final answer leaves no account of the work a tool might genuinely change.
 
@@ -56,7 +56,7 @@ L1 concerns assistance applied to a task you can still judge. A reusable prompt 
 
 The Functional Life suggests repeated use of a saved task prompt, including a five-run starter exercise. Treat that count as a practical invitation to observe variation, not a scientifically established reliability threshold. A narrow set of easy cases can pass repeatedly while leaving an important failure untouched. ([The Future Is Solo, n.d.-a](https://life.thefutureissolo.com/))
 
-Maya's early action-list examples show why the first response matters. An output can copy a plausible owner into an unassigned task or turn “soon” into a date. If she saves only the repaired answer, she loses the distinction between what the assistant initially did and what her intervention made correct.
+Audy's early action-list examples show why the first response matters. An output can copy a plausible owner into an unassigned task or turn “soon” into a date. If she saves only the repaired answer, she loses the distinction between what the assistant initially did and what her intervention made correct.
 
 For your demonstration, choose related inputs that vary a consequential feature. Include an explicit date in one, imprecise timing in another, and a suggestion that resembles a commitment. Keep expected answers separate during drafting. Review the fields against their own source passages, record the help required, and explain the error before asking for another answer.
 
@@ -66,7 +66,7 @@ The next repair follows the evidence. An ambiguous instruction may need clearer 
 
 L2 moves the unit of work from a single assisted task to a repeatable workflow. The useful evidence concerns the connections: what one step receives, what it returns, what the next step may assume, and what happens when a prerequisite is missing or a check fails.
 
-Maya's workflow separates source extraction, drafting, comparison against the original material, bounded repair, and a human evidence packet. Its steps exist because they answer different questions. Extraction identifies what the source establishes. Drafting proposes a useful representation. Review compares that proposal with its support. A second polished draft is not a substitute for the independent comparison the workflow requires.
+Audy's workflow separates source extraction, drafting, comparison against the original material, bounded repair, and a human evidence packet. Its steps exist because they answer different questions. Extraction identifies what the source establishes. Drafting proposes a useful representation. Review compares that proposal with its support. A second polished draft is not a substitute for the independent comparison the workflow requires.
 
 To demonstrate the chain, retain one complete run from input through reviewed result. Record the actual handoffs, not just an arrow diagram. Then introduce a safe missing dependency in a rehearsal copy. The workflow should identify the absent input or stale version and hold the step that depends on it. A chain that continues by inventing missing material is operating, but it is not satisfying its contract.
 
@@ -114,7 +114,7 @@ Economic sustainability also matters to the larger solo-enterprise claim. A port
 
 The main TFIS account names Agency, Clarity, Competence, Accountability, and Security as five pillars. Use those names to inspect the selected operation from different directions, not to create a new weighted average. The source's self-assessment can prompt reflection, but this portfolio requires the relevant observable work. ([The Future Is Solo, n.d.-b](https://thefutureissolo.com/))
 
-For Maya, Agency asks which part can proceed under the agreed limits and where her presence remains necessary. Clarity asks whether the buyer's task, deliverable, exclusions, and acceptance criteria are actually understood. Competence asks whether she can explain a source error or recover the procedure without relying on fluent reassurance.
+For Audy, Agency asks which part can proceed under the agreed limits and where her presence remains necessary. Clarity asks whether the buyer's task, deliverable, exclusions, and acceptance criteria are actually understood. Competence asks whether she can explain a source error or recover the procedure without relying on fluent reassurance.
 
 Accountability asks where the review decision is recorded and how she knows the completed state matches it. Security asks what material and actions are permitted, which dependencies are retained, and whether a move preserves the necessary boundaries. These questions should lead you to particular records and demonstrations.
 
@@ -122,11 +122,11 @@ Do not average a critical missing condition into a reassuring score. Strong draf
 
 ## Work through an overstated portfolio entry
 
-Maya's first candidate entry says, “L4 complete: verdict ledger implemented and next-run improvement verified.” The attached evidence is the book's V13-01 packet: an authored bad answer, a reviewed correction, a changed input, and expected properties. It makes the distinction understandable, but contains no receipt of an actual agent write or later run.
+Audy's first candidate entry says, “L4 complete: verdict ledger implemented and next-run improvement verified.” The attached evidence is the book's V13-01 packet: an authored bad answer, a reviewed correction, a changed input, and expected properties. It makes the distinction understandable, but contains no receipt of an actual agent write or later run.
 
 She repairs the entry rather than discarding the useful packet. The claim becomes: “I can explain and rehearse scoped verdict review using this specimen; actual durable write and changed-input use in my configured workflow remain to be demonstrated.” The source links stay. The unsupported completion statement is removed. The next action now has a visible purpose.
 
-A second entry initially says, “Provider independence passed,” pointing to a copied Markdown package. The supplied record establishes that files can be opened and their relationships inspected in another location. Without an actual second-provider attempt, the claim must remain narrower. Maya labels file portability separately and leaves provider behavior untested.
+A second entry initially says, “Provider independence passed,” pointing to a copied Markdown package. The supplied record establishes that files can be opened and their relationships inspected in another location. Without an actual second-provider attempt, the claim must remain narrower. Audy labels file portability separately and leaves provider behavior untested.
 
 These repairs make the next demonstration concrete enough to perform. For the verdict case, save an approved record in the authorized location, reopen it, supply it through the maintained route, and keep the actual changed-input output. For provider behavior, choose a permitted receiving environment and inspect what it does with the same task and material.
 
@@ -162,11 +162,11 @@ Or suppose a draft-only assistant is given permission to save a candidate file. 
 
 Use plain status words for portfolio claims: current under the stated conditions, historical, awaiting a relevant check, or withdrawn after a discovered problem. These describe evidence applicability rather than your identity. A withdrawn claim can remain valuable history when its reason helps prevent someone from relying on it again.
 
-Maya's earlier withdrawal of a mistaken acceptance offers the same lesson at a smaller scale. The correction should be visible at the point of reliance, not hidden in an unrelated note. When an operating claim changes, update the portfolio and the procedure that depends on it. Leave unrelated evidence alone, and record the specific demonstration that would justify renewed reliance.
+Audy's earlier withdrawal of a mistaken acceptance offers the same lesson at a smaller scale. The correction should be visible at the point of reliance, not hidden in an unrelated note. When an operating claim changes, update the portfolio and the procedure that depends on it. Leave unrelated evidence alone, and record the specific demonstration that would justify renewed reliance.
 
 ## Keep capability and commercial judgment in contact
 
-The pilot has made the final distinction unavoidable. Maya may produce a sound pack and still need to change its price, scope, acquisition method, or support. She may have buyer interest in a task that her current procedure cannot safely deliver. A capability portfolio and a product experiment answer different questions, but decisions improve when each can refer to the other.
+The pilot has made the final distinction unavoidable. Audy may produce a sound pack and still need to change its price, scope, acquisition method, or support. She may have buyer interest in a task that her current procedure cannot safely deliver. A capability portfolio and a product experiment answer different questions, but decisions improve when each can refer to the other.
 
 For a service professional, useful evidence could join an agreed scope, a reviewed delivery, actual correction history, and the effort needed to support it. For an educator, it could connect the designed activity, authorized participant work, and the limits of what the review establishes. For a software builder, it could connect a bounded requirement, actual behavior, permission controls, and a tested recovery path.
 
@@ -180,7 +180,7 @@ Select one claim another person could verify from the records, and one that curr
 
 Perform that next demonstration where it is authorized and useful. Save the actual first result, including failure. Make a bounded repair, repeat the affected check, and update the portfolio's statement of scope. Your completion evidence is an inspectable claim and a repaired gap, not a numerical average or a self-awarded title.
 
-Maya ends with a clearer account of her capabilities and dependencies. The paid pilot remains one fictional commercial event; advanced operational claims still require their particular evidence. [Chapter 24](24-the-million-dollar-solo-company.md) returns to the economic destination and asks what a million-dollar solo company would actually have to sustain.
+Audy ends with a clearer account of her capabilities and dependencies. The paid pilot remains one fictional commercial event; advanced operational claims still require their particular evidence. [Chapter 24](24-the-million-dollar-solo-company.md) returns to the economic destination and asks what a million-dollar solo company would actually have to sustain.
 
 ## References
 

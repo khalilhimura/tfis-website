@@ -72,11 +72,11 @@ Use with [Chapter 24](../chapters/24-the-million-dollar-solo-company.md). Connec
 
 **What remains unknown after this plan:**
 
-## Worked example: fictional Fieldwork
+## Worked example: fictional Himura Inc.
 
 **Plan:** `solo-enterprise-plan-v1`.
 
-The entire Fieldwork case is fictional. Its existing commercial events and all figures below are authored illustrations. The ninety-day actions are proposed future work, not completed events. No real customer, payment receipt, measured learner outcome, achieved annual revenue, company valuation, or advanced operational certification is supplied.
+The entire Himura Inc. case is fictional. Its existing commercial events and all figures below are authored illustrations. The ninety-day actions are proposed future work, not completed events. No real customer, payment receipt, measured learner outcome, achieved annual revenue, company valuation, or advanced operational certification is supplied.
 
 ### Starting state
 

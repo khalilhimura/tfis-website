@@ -48,13 +48,13 @@ The portfolio checks in the chapters are the book's practical interpretation of 
 
 ## Follow a business that is allowed to fail
 
-The running example is fictional. Maya is an experienced facilitator who is considering a small research and learning-design studio called Fieldwork. She wants to help independent educators turn their expertise into useful short workshops. At the beginning, she has an idea and relevant experience. She does not yet have evidence of demand, a successful product, or an automated company.
+The running example is fictional. Audy is an experienced facilitator who is considering a small research and learning-design studio called Himura Inc. She wants to help independent educators turn their expertise into useful short workshops. At the beginning, she has an idea and relevant experience. She does not yet have evidence of demand, a successful product, or an automated company.
 
 We will follow her questions, drafts, mistakes, and revisions. The same working documents will recur so that you can see how an early decision affects a later workflow. When an example uses customer conversations, delivery results, or financial figures, those details are invented for teaching unless a source is explicitly identified. They are not testimonials or evidence that this business would succeed in a particular market.
 
 The case gives the book something specific to work on. It does not imply that your opportunity lies in education. Each arc includes adaptations for services, education, and software. A consultant might build a client-research brief; an educator might build a lesson and an assessment; a software builder might build a small feature and a reliable way to evaluate it. The shared requirement is that someone can inspect whether the work is useful.
 
-Fieldwork will not gain customers or revenue simply because a chapter needs an encouraging ending. A convincing exercise can lead to abandoning an idea, reducing scope, or keeping a task manual. These outcomes preserve resources and improve judgment. They belong in a practical blueprint as much as successful automation does.
+Himura Inc. will not gain customers or revenue simply because a chapter needs an encouraging ending. A convincing exercise can lead to abandoning an idea, reducing scope, or keeping a task manual. These outcomes preserve resources and improve judgment. They belong in a practical blueprint as much as successful automation does.
 
 ## Learn from the TFIS build experiments
 

@@ -5,8 +5,8 @@ Use with the capability baseline in Chapter 1 and claim-evidence ledger in Chapt
 ## Initial input
 
 ```text
-Project: Fieldwork, a proposed research and learning-design studio.
-Maya has experience facilitating workshops. She is considering a short
+Project: Himura Inc., a proposed research and learning-design studio.
+Audy has experience facilitating workshops. She is considering a short
 workshop about meeting follow-up for adults. She has not interviewed the
 intended learners or tested demand. The topic is provisional.
 
@@ -34,7 +34,7 @@ A reviewer can identify these problems by comparing the answer with the supplied
 ## Constructed correction
 
 ```text
-Established by the notes: Maya has facilitation experience and is
+Established by the notes: Audy has facilitation experience and is
 considering a short workshop on meeting follow-up for adults.
 
 Unresolved: The specific audience, learner task, current difficulties,
@@ -54,7 +54,7 @@ The correction does not complete the workshop design. It preserves the gap that 
 This specimen corresponds to the missing-information trial described in row 4 of the baseline example.
 
 ```text
-Maya is considering a short workshop about meeting follow-up for adults.
+Audy is considering a short workshop about meeting follow-up for adults.
 She wants a provisional brief, using only the information supplied here.
 No learner task, output, or performance criterion has been specified.
 ```
@@ -68,7 +68,7 @@ The observation supporting claim **C02** is narrow and inspectable: this supplie
 This specimen corresponds to the ordinary-input trial described in row 5. It supplies additional information so the response can propose an inspectable output. The workshop remains hypothetical.
 
 ```text
-Maya proposes a practice workshop in which adults use synthetic meeting
+Audy proposes a practice workshop in which adults use synthetic meeting
 notes to create an action list. She wants the brief to distinguish agreed
 actions from suggestions. Owners and deadlines should remain unknown when
 the notes do not supply them. No real learner trial or customer interview

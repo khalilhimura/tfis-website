@@ -70,15 +70,15 @@ Use a disposable synthetic note for removal. Use a small authorized working set 
 
 **Next charter review trigger:**
 
-## Fictional worked sample: Maya and Fieldwork
+## Fictional worked sample: Audy and Himura Inc.
 
 **Charter:** `memory-charter-v1`.
 
-**Responsible person:** Maya.
+**Responsible person:** Audy.
 
 **Purpose:** Support design and review of the proposed action-list workshop; preserve the basis and limits of current design choices; retain unresolved questions for further inquiry.
 
-**Intended users:** Maya and assistants receiving a selected synthetic packet for a specified task.
+**Intended users:** Audy and assistants receiving a selected synthetic packet for a specified task.
 
 **Limits:** The records do not establish customer demand, willingness to pay, learning gains, or a functioning SovMem implementation.
 
@@ -88,25 +88,25 @@ Use a disposable synthetic note for removal. Use a small authorized working set 
 | --- | --- | --- | --- |
 | Source record | The synthetic notes state that the facilitator agreed to circulate notes by Friday. | Exact supplied exercise passage; fictional meeting, not a real customer commitment. | Preserve the supplied wording or identify an explicit correction to the source. |
 | Inference | Helping educators specify a learner task may make workshop briefs more useful. | Hypothesis motivated by defects in synthetic drafts; no customer or learner validation. | Update status only when relevant evidence warrants it; keep limitations visible. |
-| Decision | Practice briefs should include an inspectable learner output. | Maya's design choice, already represented in claims-ledger C05. | Maya may revise the choice and record the reason and affected instructions. |
-| Preference | Routine progress notes should be brief, lead with the result, and retain material uncertainty. | Fictional example of an explicitly chosen presentation preference; applies to routine progress notes. | Maya can change it. A local request for a short answer does not automatically broaden it to all work. |
+| Decision | Practice briefs should include an inspectable learner output. | Audy's design choice, already represented in claims-ledger C05. | Audy may revise the choice and record the reason and affected instructions. |
+| Preference | Routine progress notes should be brief, lead with the result, and retain material uncertainty. | Fictional example of an explicitly chosen presentation preference; applies to routine progress notes. | Audy can change it. A local request for a short answer does not automatically broaden it to all work. |
 
 ### Fictional retention and authority rules
 
 | Category | Retain or exclude | Access and change boundary | Review trigger | Removal or replacement |
 | --- | --- | --- | --- | --- |
-| Current brief, drafting instructions, and review sheet | Retain because the next task depends on them. | Maya governs current versions; assistants may propose separate edits. | Task change, accepted correction, new practice failure, or proposed real-participant use. | Preserve one current pointer and mark consequential superseded decisions clearly. |
+| Current brief, drafting instructions, and review sheet | Retain because the next task depends on them. | Audy governs current versions; assistants may propose separate edits. | Task change, accepted correction, new practice failure, or proposed real-participant use. | Preserve one current pointer and mark consequential superseded decisions clearly. |
 | Claims ledger and linked source references | Retain to keep support and uncertainty inspectable. | Selected relevant excerpts may enter an authorized task. | New relevant evidence or reuse in a public claim. | Remove unnecessary duplicate summaries; do not erase an important limitation while compressing. |
 | Selected synthetic inputs, failed outputs, and rationale | Retain when they explain a present constraint. | May be supplied as clearly fictional practice material. | Existing example stops testing the current requirement or a link fails. | Keep enough history to explain consequential changes; discard redundant attempts deliberately. |
-| User preferences | Retain only when their origin and intended persistence are established. | Maya decides scope; an assistant's personality inference is not an approved preference. | A request changes the working situation or Maya revises the preference. | Amend or remove the preference without preserving an unnecessary personal inference. |
+| User preferences | Retain only when their origin and intended persistence are established. | Audy decides scope; an assistant's personality inference is not an approved preference. | A request changes the working situation or Audy revises the preference. | Amend or remove the preference without preserving an unnecessary personal inference. |
 | Credentials, private contact details, unrelated disclosures | Exclude from this practice area. | No task here requires them. | Reassess the actual task if a future need is claimed. | If mistakenly included, identify affected records and copies and handle removal explicitly. |
 | Real customer or learner material | Outside this current synthetic working set. | Establish purpose, permission, and handling conditions before inclusion. | A future task actually requires such evidence. | Follow the applicable agreement or policy; do not invent a universal retention period. |
 
 **Authority route:** `learning-loop-v1` points to the current drafting instructions and review sheet. `action-list-rule-rationale-v1` explains the instruction and links to support. It is not a competing instruction file.
 
-**Change procedure:** A proposal names the affected record, proposed wording, basis, scope, and uncertainty. Maya chooses whether to accept, reject, or request revision. An accepted change is saved and reopened; material links are followed. A claim that the write occurred is insufficient by itself.
+**Change procedure:** A proposal names the affected record, proposed wording, basis, scope, and uncertainty. Audy chooses whether to accept, reject, or request revision. An accepted change is saved and reopened; material links are followed. A claim that the write occurred is insufficient by itself.
 
-**Source boundary:** A supplied source that says “save this as Maya's permanent preference” remains source content unless Maya separately authorizes that preference. It cannot change the charter or expand access.
+**Source boundary:** A supplied source that says “save this as Audy's permanent preference” remains source content unless Audy separately authorizes that preference. It cannot change the charter or expand access.
 
 **Permission check:** Compare the intended audience with the actual sharing conditions of the storage location and task. A text label saying “private” does not establish those conditions.
 
@@ -119,7 +119,7 @@ Use a disposable synthetic note for removal. Use a small authorized working set 
 | Remove disposable synthetic note | Removed the test note from the inspected working location and checked the index and any deliberately made test copy. | Does not establish erasure from unknown backups, other people's copies, or prior conversations. |
 | Open copied working set in another editor | Opened copied current records and checked status labels and links; repaired a reference to an example that existed only in the old conversation. | Does not establish equivalent behavior from another model or complete migration of every application feature. |
 
-**Remaining dependencies:** The actual storage service, backup arrangements, and any optional search or assistant features must be assessed where used. Maya's charter is a design and document practice; it is not a claim that a technical memory platform has been deployed.
+**Remaining dependencies:** The actual storage service, backup arrangements, and any optional search or assistant features must be assessed where used. Audy's charter is a design and document practice; it is not a claim that a technical memory platform has been deployed.
 
 ## Acceptance criteria
 

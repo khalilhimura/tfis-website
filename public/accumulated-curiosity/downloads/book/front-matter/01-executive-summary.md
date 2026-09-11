@@ -45,7 +45,7 @@ These are a synthesis of the book's operating dependencies, rather than a claim 
 
 ### One correction, end to end
 
-In the fictional Fieldwork case, a draft invents a date from the word “soon.” The review preserves the missing date and the reason for the correction. The approved instruction must remain reachable through the maintained current-version route. A later input that explicitly supplies a date tests whether the correction was understood: changing every date to “unknown” would fail by overgeneralizing it.
+In the fictional Himura Inc. case, a draft invents a date from the word “soon.” The review preserves the missing date and the reason for the correction. The approved instruction must remain reachable through the maintained current-version route. A later input that explicitly supplies a date tests whether the correction was understood: changing every date to “unknown” would fail by overgeneralizing it.
 
 The architectural test is therefore **evidence → scoped judgment → current instruction → changed behavior**. Inspect the [distillation record](../artifacts/11-distillation-record.md) and [verdict ledger](../artifacts/13-verdict-ledger.md) for the worked records. These are teaching specimens; a reader's operational claim needs their own saved result and later run.
 
@@ -156,7 +156,7 @@ Bring the portfolio, product evidence, economics, and personal constraints. Tran
 
 ### Evidence boundaries
 
-TFIS supplies the primary philosophy and maturity model. Research supports particular claims within the scope stated in the chapters; it does not validate the entire blueprint. Maya and Fieldwork are fictional, and their authored examples are teaching material. TFIS build-deck observations remain distinct from proposed next steps, verified operational performance, and commercial outcomes.
+TFIS supplies the primary philosophy and maturity model. Research supports particular claims within the scope stated in the chapters; it does not validate the entire blueprint. Audy and Himura Inc. are fictional, and their authored examples are teaching material. TFIS build-deck observations remain distinct from proposed next steps, verified operational performance, and commercial outcomes.
 
 Treat a filled template as a record to inspect. Check whether it contains a real attempt, a manual rehearsal, an authored specimen, or an untested plan. Likewise, separate file integrity from truth, retrieval from correct use, a sound delivery from proven demand, and a sale from sustainable economics. These distinctions are essential to assessing the book's execution claims.
 

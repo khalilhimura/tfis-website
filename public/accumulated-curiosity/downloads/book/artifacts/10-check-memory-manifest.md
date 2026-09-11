@@ -8,7 +8,7 @@ The main Chapter 10 exercise requires no code. Use the no-code procedure below i
 
 [Download the demonstration bundle](10-memory-manifest-demo.zip). Extract it into a new folder. It contains the [Python script](check_memory_manifest.py), this guide, and three miniature synthetic packages under `memory-manifest-fixtures`.
 
-The package names are `complete`, `changed`, and `missing`. Each manifest expects five files: a current-instruction pointer, instructions, rationale, synthetic input, and a restore note. These packages are deliberately small teaching fixtures. They are not a backup of Maya's whole project or an installation of SovMem.
+The package names are `complete`, `changed`, and `missing`. Each manifest expects five files: a current-instruction pointer, instructions, rationale, synthetic input, and a restore note. These packages are deliberately small teaching fixtures. They are not a backup of Audy's whole project or an installation of SovMem.
 
 The `changed` package deliberately alters an instruction. The `missing` package deliberately omits the input. Their manifests still describe the expected complete package, so the check can reveal the differences.
 

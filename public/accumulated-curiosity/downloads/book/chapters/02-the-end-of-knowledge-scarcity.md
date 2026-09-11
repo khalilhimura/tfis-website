@@ -4,15 +4,15 @@
 
 ## An answer arrives before the question is ready
 
-Maya has a saved prompt and a provisional workshop brief. In the previous chapter, she learned to notice when an assistant invented details about learners. She now asks a broader question: what makes a short workshop effective?
+Audy has a saved prompt and a provisional workshop brief. In the previous chapter, she learned to notice when an assistant invented details about learners. She now asks a broader question: what makes a short workshop effective?
 
-The answer is immediate and comprehensive. It recommends clear outcomes, practical activities, discussion, feedback, and opportunities to revisit material. The suggestions sound reasonable. Some resemble practices Maya already uses as a facilitator. She can imagine turning the answer into a checklist and adding it to every Fieldwork brief.
+The answer is immediate and comprehensive. It recommends clear outcomes, practical activities, discussion, feedback, and opportunities to revisit material. The suggestions sound reasonable. Some resemble practices Audy already uses as a facilitator. She can imagine turning the answer into a checklist and adding it to every Himura Inc. brief.
 
 Then she looks at the word *effective*. Effective at what? A participant might enjoy a session, remember an idea, complete a practice task, or use a skill at work the following month. These are different outcomes. The answer has offered design advice without deciding which outcome the proposed workshop should produce.
 
-In this fictional case, Maya is still investigating the service; she has yet to deliver a workshop or observe its effects.
+In this fictional case, Audy is still investigating the service; she has yet to deliver a workshop or observe its effects.
 
-She creates a new document, `claim-evidence-ledger-v1`. Its first entry is a sentence from her own emerging business idea: “Independent educators need help turning a topic into a task a learner can perform.” She marks it as a hypothesis. It could be a useful direction for Fieldwork, but her experience of difficulty while drafting does not establish that other educators share it or would pay for help.
+She creates a new document, `claim-evidence-ledger-v1`. Its first entry is a sentence from her own emerging business idea: “Independent educators need help turning a topic into a task a learner can perform.” She marks it as a hypothesis. It could be a useful direction for Himura Inc., but her experience of difficulty while drafting does not establish that other educators share it or would pay for help.
 
 The ledger changes her relationship with the assistant's answer. Instead of asking whether the whole response sounds convincing, she can examine one claim at a time. What does the claim mean? Where did it come from? What would justify using it in the brief? The questions are small enough to answer carefully.
 
@@ -22,9 +22,9 @@ An assistant can make it practical to begin exploring a subject before you know 
 
 The chapter title describes that possibility. Knowledge still has costs. Some evidence is unpublished, inaccessible, difficult to interpret, or available only through direct observation. A private customer decision does not become public because you can ask a fluent system to predict it. An explanation of a craft does not supply every judgment needed to perform it.
 
-For Maya, three shortages remain. She lacks a precise account of the learner's task, evidence that educators need her proposed service, and a reliable way to connect a design choice to an observable outcome. More general advice about workshops may help her frame these gaps. It cannot fill them by repetition.
+For Audy, three shortages remain. She lacks a precise account of the learner's task, evidence that educators need her proposed service, and a reliable way to connect a design choice to an observable outcome. More general advice about workshops may help her frame these gaps. It cannot fill them by repetition.
 
-The practical advantage is the ability to move between questions at lower friction. Maya can ask what “transfer” means in a learning context, compare it with immediate recall, and return to her brief with more precise language. She then needs to verify that language and determine whether the distinction affects the work.
+The practical advantage is the ability to move between questions at lower friction. Audy can ask what “transfer” means in a learning context, compare it with immediate recall, and return to her brief with more precise language. She then needs to verify that language and determine whether the distinction affects the work.
 
 Access lets you enter a conversation, identify gaps, and prepare a better request for informed help. Then you must decide what the current explanation is sufficient for.
 
@@ -32,13 +32,13 @@ For a private practice draft, it may be sufficient to generate two alternatives.
 
 ## Give each sentence a job
 
-A useful ledger starts by distinguishing kinds of statements. Maya's brief contains observations, interpretations, proposed actions, factual claims about research, and statements of preference. They need different kinds of support.
+A useful ledger starts by distinguishing kinds of statements. Audy's brief contains observations, interpretations, proposed actions, factual claims about research, and statements of preference. They need different kinds of support.
 
-“The input notes do not name a learner task” is an observation she can verify by reading the notes. “The educator is probably unsure what to teach” is an interpretation that may have several explanations. “Ask the educator to describe a learner's next action” is a proposed move. “Retrieval practice improves a particular measured outcome in a study” is an empirical claim. “Fieldwork should favor inspectable results over polished slide counts” is an operating preference.
+“The input notes do not name a learner task” is an observation she can verify by reading the notes. “The educator is probably unsure what to teach” is an interpretation that may have several explanations. “Ask the educator to describe a learner's next action” is a proposed move. “Retrieval practice improves a particular measured outcome in a study” is an empirical claim. “Himura Inc. should favor inspectable results over polished slide counts” is an operating preference.
 
 Confusion appears when one kind of sentence borrows another kind's authority. An attractive recommendation can become a purported research finding. An imagined customer response can become a market observation. A professional preference can acquire an academic citation even though the source never evaluated that preference.
 
-Maya does not need a complicated classification system. In the margin she writes words such as *observed*, *proposed*, or *needs evidence*. Their purpose is to make the next action clear. An observation needs a record. A hypothesis needs a test. A preference needs a reason and an owner willing to stand behind it.
+Audy does not need a complicated classification system. In the margin she writes words such as *observed*, *proposed*, or *needs evidence*. Their purpose is to make the next action clear. An observation needs a record. A hypothesis needs a test. A preference needs a reason and an owner willing to stand behind it.
 
 This is also a useful way to read TFIS. *The Functional Life* advocates verification as a working discipline and connects it to retaining judgment. That is part of the philosophy this book develops. It does not by itself establish an empirical effect size for a learning method or a probability of business success. ([The Future Is Solo, n.d.-a](https://life.thefutureissolo.com/))
 
@@ -48,13 +48,13 @@ You can adopt an operating principle and examine how well it serves the work. Cl
 
 A claim-evidence ledger is a record connecting a statement to what supports it and what you plan to do with it. You can keep it in an ordinary document. A spreadsheet is optional. The important structure is the connection, not the application you choose.
 
-Give each important claim a short identifier. Maya uses `C01`, `C02`, and so on. Copy the exact sentence under consideration, then write a narrower interpretation if the sentence is vague. A claim such as “active workshops work better” is difficult to investigate until *active*, *better*, and the comparison are defined.
+Give each important claim a short identifier. Audy uses `C01`, `C02`, and so on. Copy the exact sentence under consideration, then write a narrower interpretation if the sentence is vague. A claim such as “active workshops work better” is difficult to investigate until *active*, *better*, and the comparison are defined.
 
 Record the source separately from your account of what it says. Include the author or organization, title, year if supplied, and a link. Add a precise location: an abstract, a named section, a figure, a table, or a page. A homepage that merely belongs to a respected institution is usually too broad to let another reader repeat the check.
 
 Then record the match between claim and source. Does the source support the sentence as written, support a narrower version, contradict it, or leave the question unanswered? You can use those ordinary descriptions. A green tick without a reason will be difficult to interpret when you return in three months.
 
-Finally, name the decision the claim affects. Maya's research entry might inform whether to include a recall attempt in a proposed activity. Her customer-demand entry might inform whether to develop the service further. Keeping the decision visible prevents the ledger from becoming a collection of interesting facts unrelated to the work.
+Finally, name the decision the claim affects. Audy's research entry might inform whether to include a recall attempt in a proposed activity. Her customer-demand entry might inform whether to develop the service further. Keeping the decision visible prevents the ledger from becoming a collection of interesting facts unrelated to the work.
 
 For a first pass, select five claims that carry weight in your draft. You do not need to document every ordinary sentence. Prioritize statements that justify the offer, change the design, contain numbers, invoke outside authority, or would mislead someone if wrong. The chapter artifact provides a blank record, a worked sample, and a small verification queue.
 
@@ -62,17 +62,17 @@ Write the ledger for someone who was absent from the conversation. That person m
 
 ## Follow one claim all the way to its source
 
-Consider a draft sentence Maya might be tempted to use: “Adding a quiz makes any short workshop more effective.” The sentence is too broad. It does not name an outcome, leaves the quiz unspecified, and claims generality across workshops.
+Consider a draft sentence Audy might be tempted to use: “Adding a quiz makes any short workshop more effective.” The sentence is too broad. It does not name an outcome, leaves the quiz unspecified, and claims generality across workshops.
 
 She finds Roediger and Karpicke's study of testing and retention. In two experiments with students learning prose passages, prior recall tests led to better delayed retention than repeated study. At the immediate five-minute test, the pattern favored repeated study. The paper therefore gives her a specific finding with conditions attached. ([Roediger & Karpicke, 2006](https://doi.org/10.1111/j.1467-9280.2006.01693.x))
 
 Her original sentence cannot survive unchanged. She writes a narrower source summary: the cited experiments support a benefit of retrieval practice for delayed retention of the studied prose under the tested conditions. She then writes a separate design inference: a brief recall attempt may be worth testing in a workshop whose goal requires retaining information.
 
-The separation matters. The first sentence reports research. The second proposes an application that Maya still has to evaluate. Neither establishes improved performance on an unfamiliar workplace task. If the workshop's goal is performing such a task, she needs an appropriate performance check as well as any recall exercise.
+The separation matters. The first sentence reports research. The second proposes an application that Audy still has to evaluate. Neither establishes improved performance on an unfamiliar workplace task. If the workshop's goal is performing such a task, she needs an appropriate performance check as well as any recall exercise.
 
 She records that the currently inspected publisher material is the article's abstract and bibliographic information. That is enough for the bounded summary above. It would not justify describing uninspected participant details, scoring procedures, or a particular table. The ledger should tell the truth about the depth of the reading.
 
-Now the source can actually improve the brief. Maya adds a question: what needs to be remembered, and what needs to be demonstrated? That distinction may lead to different activities. She has extracted a usable constraint without turning a study into a universal recipe.
+Now the source can actually improve the brief. Audy adds a question: what needs to be remembered, and what needs to be demonstrated? That distinction may lead to different activities. She has extracted a usable constraint without turning a study into a universal recipe.
 
 You can follow this route with a claim in your own field. Begin with the exact sentence. Read the source passage. Rewrite the sentence to fit what was actually investigated. State your proposed application separately. If the remaining gap is too large for the intended use, preserve the source as background and seek better-matched evidence.
 
@@ -80,21 +80,21 @@ You can follow this route with a claim in your own field. Begin with the exact s
 
 A research request should specify what counts as an acceptable answer. “Find evidence for my idea” encourages a search organized around agreement. A more useful request asks what supports the claim, what limits it, and what evidence would change the decision.
 
-Maya asks the assistant to return a small candidate set. For each source, it should give the title, author, date, link, source type, relevant passage location, and a short explanation of claim fit. She asks it to distinguish pages it has actually opened from sources it has only identified through a search result or remembered from prior knowledge.
+Audy asks the assistant to return a small candidate set. For each source, it should give the title, author, date, link, source type, relevant passage location, and a short explanation of claim fit. She asks it to distinguish pages it has actually opened from sources it has only identified through a search result or remembered from prior knowledge.
 
-A useful lead labeled “not yet read” belongs in the queue. A false claim of access makes a citation appear more thoroughly checked than it is, obscuring the very work Maya needs to do next.
+A useful lead labeled “not yet read” belongs in the queue. A false claim of access makes a citation appear more thoroughly checked than it is, obscuring the very work Audy needs to do next.
 
 If the assistant has no browsing capability, she gives it excerpts from sources she opened herself. It can help compare the excerpts with the claim, identify missing definitions, and draft a cautious summary. She retains the source links and verifies that the excerpt is faithful to the original. This path needs only a browser, a text document, and an ordinary chat interface.
 
 She also constrains invention: no guessed author names, dates, quotation marks, or page numbers. An absent detail should remain absent. When a response supplies a precise reference, she opens the link rather than assuming precision demonstrates accuracy.
 
-The assistant can help locate an objection too. Maya asks which part of her sentence exceeds the evidence and what alternative explanation would remain even if the observation were correct. She requests a concise rationale tied to the source, not a theatrical display of certainty or a long account of internal reasoning.
+The assistant can help locate an objection too. Audy asks which part of her sentence exceeds the evidence and what alternative explanation would remain even if the observation were correct. She requests a concise rationale tied to the source, not a theatrical display of certainty or a long account of internal reasoning.
 
-Save this research request beside the ledger. It is a different prompt from the brief-writing prompt in Chapter 1 because it serves a different task. Keeping the tasks separate lets Maya inspect whether the problem lies in finding evidence, interpreting it, or applying it to the brief.
+Save this research request beside the ledger. It is a different prompt from the brief-writing prompt in Chapter 1 because it serves a different task. Keeping the tasks separate lets Audy inspect whether the problem lies in finding evidence, interpreting it, or applying it to the brief.
 
 In the TFIS experiment “Build W15 #3 Purge ‘False Memory,’” resolving an execution-loop bug in the current session did not remove its effects from long-term memory. The deck identifies three places requiring attention: session, memory, and vault. ([The Future Is Solo, 2026, slide 11](https://docs.google.com/presentation/d/1dvbBGs22QvtGogevZ6f5mf8YQE7WDAPBwYlclhTyctI/edit#slide=id.g38b5682a36f_0_55))
 
-This reported issue shows why a conversational correction and a corrected persistent record need separate checks; it does not establish the system's current condition. When Maya changes a claim's status, she reopens the saved ledger to confirm the change.
+This reported issue shows why a conversational correction and a corrected persistent record need separate checks; it does not establish the system's current condition. When Audy changes a claim's status, she reopens the saved ledger to confirm the change.
 
 ## Check a citation as a relationship
 
@@ -106,21 +106,21 @@ Next inspect the exact supporting passage. Read enough around it to preserve con
 
 Then examine the reach of the conclusion. A tool's documented feature can support a statement that the feature exists in the described version. It does not demonstrate that the feature solves your workflow's reliability problem. A study of one task can justify trying a related method without proving that your own task will improve.
 
-Finally inspect what the citation is doing in your document. Does it support the sentence immediately beside it, or merely add an impression of authority to the paragraph? Maya places the citation beside the research summary and leaves her own design inference visibly separate. A future reviewer can then disagree with her inference while accepting her account of the source.
+Finally inspect what the citation is doing in your document. Does it support the sentence immediately beside it, or merely add an impression of authority to the paragraph? Audy places the citation beside the research summary and leaves her own design inference visibly separate. A future reviewer can then disagree with her inference while accepting her account of the source.
 
 This approach turns bibliography work into a practical quality check. You are testing the connection between evidence and action. A shorter list of well-matched references will often be easier to maintain than a long list whose relevance nobody can explain.
 
 ## Recognize the gap between familiarity and explanation
 
-Maya can now use terms such as *retrieval*, *retention*, and *transfer*. She should be careful about what this fluency proves. Knowing the terms lets her ask better questions. It does not automatically give her an explanation of why a particular activity would help a particular learner.
+Audy can now use terms such as *retrieval*, *retention*, and *transfer*. She should be careful about what this fluency proves. Knowing the terms lets her ask better questions. It does not automatically give her an explanation of why a particular activity would help a particular learner.
 
 Rozenblit and Keil investigated an illusion of explanatory depth: people could judge their understanding of a mechanism more highly before attempting a detailed explanation than afterward. Their experiments distinguish explanatory understanding from other kinds of knowledge. The work predates contemporary generative AI and does not measure its effects. ([Rozenblit & Keil, 2002](https://doi.org/10.1207/s15516709cog2605_1))
 
-For our purposes, the finding motivates a simple practice. Before relying on an explanation, try to produce one. Maya writes how the proposed workshop activity is supposed to lead to the intended result. At each step she asks what the learner actually does and what evidence would show that the step occurred.
+For our purposes, the finding motivates a simple practice. Before relying on an explanation, try to produce one. Audy writes how the proposed workshop activity is supposed to lead to the intended result. At each step she asks what the learner actually does and what evidence would show that the step occurred.
 
 Her explanation reaches a gap: she has assumed that recalling a principle will make someone use it well in a new situation. Naming that assumption gives her a specific research and design question. She can investigate the relationship and devise a practice task that makes the missing performance visible.
 
-This book-developed adaptation is not a replication or a validated expertise test. Its practical value is the gap Maya can now investigate.
+This book-developed adaptation is not a replication or a validated expertise test. Its practical value is the gap Audy can now investigate.
 
 Allow that discovery to remain small. You do not need a complete theory of learning to design the next sensible trial. You need to understand enough of the proposed connection to inspect its weak points and avoid promising an outcome you cannot yet observe.
 
@@ -132,7 +132,7 @@ Write the disagreement as a sentence precise enough to compare. “Source A is f
 
 Read the material each source actually tested or discussed. Different conditions can explain different recommendations without making either source dishonest. If important details are inaccessible, record the limitation. Do not invent a reconciliation simply because a harmonious conclusion would be convenient.
 
-Maya also needs to distinguish repeated reporting from independent evidence. Several summaries may all point to the same original study. Counting the summaries as separate confirmations would exaggerate the evidence base. Her ledger links each account back to the underlying work where she can identify it.
+Audy also needs to distinguish repeated reporting from independent evidence. Several summaries may all point to the same original study. Counting the summaries as separate confirmations would exaggerate the evidence base. Her ledger links each account back to the underlying work where she can identify it.
 
 When the disagreement remains unresolved, she can reduce the strength of the claim and design a bounded comparison. She might draft two versions of an activity and inspect what each asks a learner to do. That inspection will not settle an empirical dispute about learning outcomes, but it may eliminate an obviously unsuitable option before a real trial.
 
@@ -142,7 +142,7 @@ Keep the unresolved question attached to the decision. If both approaches are ac
 
 You cannot investigate every sentence with equal depth. Start with the claims that support the next action. Ask how much harm a mistake could cause, how difficult it would be to reverse, and whether a quick direct check is available.
 
-Maya can test a document-format claim immediately: does the revised prompt preserve the headings she requested? She can inspect a citation by opening its source. A claim about customer willingness to pay requires a different kind of evidence. Reading more learning research will not answer it.
+Audy can test a document-format claim immediately: does the revised prompt preserve the headings she requested? She can inspect a citation by opening its source. A claim about customer willingness to pay requires a different kind of evidence. Reading more learning research will not answer it.
 
 Give each unresolved claim a next step and an owner. The next step might be opening a source, asking an informed reviewer, observing an actual task, or running a small experiment. “Research more” is too vague to guide tomorrow's work. “Find whether this study measured delayed performance rather than immediate satisfaction” is a usable instruction.
 
@@ -154,13 +154,13 @@ Your ledger should therefore remain selective. Remove duplicated notes, combine 
 
 ## Keep customer evidence in its own lane
 
-By this point, Maya could assemble a thoughtful argument for clear learning outcomes and carefully chosen practice. That still leaves Fieldwork's central commercial hypothesis open. Would independent educators want help creating such a brief? What would they otherwise do? What would they pay to change?
+By this point, Audy could assemble a thoughtful argument for clear learning outcomes and carefully chosen practice. That still leaves Himura Inc.'s central commercial hypothesis open. Would independent educators want help creating such a brief? What would they otherwise do? What would they pay to change?
 
-An assistant can generate possible answers for rehearsal. Maya might use them to notice assumptions or prepare interview questions. She labels any such output simulated. A simulated educator is not a person who has experienced the problem, compared alternatives, and decided to spend money.
+An assistant can generate possible answers for rehearsal. Audy might use them to notice assumptions or prepare interview questions. She labels any such output simulated. A simulated educator is not a person who has experienced the problem, compared alternatives, and decided to spend money.
 
 Her ledger preserves the distinction. `C01` concerns whether real educators encounter this difficulty often enough to value help and remains untested. `C02` concerns the missing learner-task detail in her own synthetic notes and can be checked against those notes. A literature citation belongs with a separate research claim; it cannot be pasted into `C01` as a substitute for customer evidence.
 
-This separation protects the usefulness of research. The research can help Maya design a better service if demand exists. It can also help her ask more informed questions while investigating that demand. Making it answer a question it did not study would weaken both activities.
+This separation protects the usefulness of research. The research can help Audy design a better service if demand exists. It can also help her ask more informed questions while investigating that demand. Making it answer a question it did not study would weaken both activities.
 
 For now, she improves the provisional brief and prepares a question about the educator's actual task. The next chapters deepen her inquiry before the product chapters introduce market experiments.
 
@@ -184,7 +184,7 @@ For every claim, record its wording, type, source or missing evidence, precise l
 
 The artifact is ready when another reader can repeat your source check, distinguish findings from inferences, and identify which decisions still depend on unresolved claims.
 
-Maya's brief is now less sweeping and more useful. It asks what learners should do, distinguishes possible activities from proven outcomes, and keeps the customer-demand question open. Her accumulated work has produced a better map of what she knows and what she needs to find out. In [Chapter 3](03-curiosity-is-a-capability.md), she will choose which of those questions deserves her attention next.
+Audy's brief is now less sweeping and more useful. It asks what learners should do, distinguishes possible activities from proven outcomes, and keeps the customer-demand question open. Her accumulated work has produced a better map of what she knows and what she needs to find out. In [Chapter 3](03-curiosity-is-a-capability.md), she will choose which of those questions deserves her attention next.
 
 ## References
 

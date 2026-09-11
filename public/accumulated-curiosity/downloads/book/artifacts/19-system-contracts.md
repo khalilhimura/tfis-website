@@ -70,7 +70,7 @@ Roles may be performed by one person in sequence. Separate names or sessions do 
 
 **Simplification or further bounded test warranted:**
 
-## Fictional worked sample: Fieldwork J19-01
+## Fictional worked sample: Himura Inc. J19-01
 
 **Contract:** `system-contracts-v1`.
 
@@ -84,8 +84,8 @@ Roles may be performed by one person in sequence. Separate names or sessions do 
 | --- | --- | --- | --- |
 | Drafter | J19-01, C16 below, instructions-v3, charter, candidate requirements | Create a new candidate; make the allowed bounded repair from source-supported feedback | Candidate ID/version, source/instruction used, literal content, unknowns, actual location if saved |
 | Checker | Same source and criteria; exact candidate version | Derive expected properties; compare every material item; report defects | Distinct comparison report naming candidate version and source lines; repair suggestion may be additional |
-| Coordinator, performed by Maya | Expected artifact table and actual receipts | Match job, artifact role, source/instruction, target version, and locations | Complete compatible packet or precise hold; no substantive self-approval |
-| Human reviewer, Maya | Candidate and matching comparison | Judge stated internal use; accept/reject/rewrite within scope | Scoped verdict, needed repair, saved-state check where applicable |
+| Coordinator, performed by Audy | Expected artifact table and actual receipts | Match job, artifact role, source/instruction, target version, and locations | Complete compatible packet or precise hold; no substantive self-approval |
+| Human reviewer, Audy | Candidate and matching comparison | Judge stated internal use; accept/reject/rewrite within scope | Scoped verdict, needed repair, saved-state check where applicable |
 
 Routine reversible drafting and source comparison proceed within the existing authorization. No role may alter source, current selector, reviewed memory, or external communications under this contract. The allowed repair remains bounded; a remaining material defect returns for human diagnosis.
 
@@ -172,7 +172,7 @@ Repair: compare D19-01-v2 against C16 and the retained properties, then return *
 
 | Job | Candidate | Comparison | Source/instruction | Status |
 | --- | --- | --- | --- | --- |
-| J19-01 | D19-01-v2 | [C19-01-v2](#authored-fresh-comparison-c19-01-v2), targeting D19-01-v2 | C16 / instructions-v3 | Complete compatible packet for Maya's internal review |
+| J19-01 | D19-01-v2 | [C19-01-v2](#authored-fresh-comparison-c19-01-v2), targeting D19-01-v2 | C16 / instructions-v3 | Complete compatible packet for Audy's internal review |
 
 **Scoped verdict:** The displayed corrected candidate represents the synthetic source under the stated criteria. Handout timing remains unresolved. No customer delivery, repeated model reliability, or learner outcome is established.
 

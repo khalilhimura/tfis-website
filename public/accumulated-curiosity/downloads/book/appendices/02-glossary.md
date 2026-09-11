@@ -16,7 +16,7 @@ These definitions explain how terms are used in this book. They are reading aids
 | Distillation | Turning examined material into a concise, scoped record while preserving the evidence and conditions needed to use it correctly. | [Chapter 11](../chapters/11-the-knowledge-distillation-pipeline.md) |
 | Evaluation | Comparing an actual result with relevant criteria and evidence; different evaluations support different claims. | [Chapter 18](../chapters/18-the-human-in-the-loop-principle.md) |
 | Evidence | Material or observations that support a particular claim within a stated scope. Naming a file does not establish what it contains. | [Chapter 2](../chapters/02-the-end-of-knowledge-scarcity.md) |
-| Fieldwork | Maya's fictional workshop-design business used for the running examples. Its conversations, outputs, and financial numbers are authored teaching material. | [Chapter 21](../chapters/21-from-curiosity-to-product.md) |
+| Himura Inc. | Audy's fictional workshop-design business used for the running examples. Its conversations, outputs, and financial numbers are authored teaching material. | [Chapter 21](../chapters/21-from-curiosity-to-product.md) |
 | First principles | Foundational relationships or premises used to explain a problem, whose applicability still requires examination. | [Chapter 5](../chapters/05-first-principles-axioms-and-mental-models.md) |
 | Handoff | Transfer of a defined responsibility and the required objects to another role or stage. | [Chapter 19](../chapters/19-the-solo-systems-architect.md) |
 | Hypothesis | A proposed explanation or expectation that can be investigated and revised in light of evidence. | [Chapter 3](../chapters/03-curiosity-is-a-capability.md) |

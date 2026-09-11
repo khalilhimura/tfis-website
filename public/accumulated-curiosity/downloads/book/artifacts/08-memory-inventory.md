@@ -59,7 +59,7 @@ Begin from a question about the task rather than an exact filename. Record the m
 
 **What has not been checked?**
 
-## Fictional worked sample: Maya and Fieldwork
+## Fictional worked sample: Audy and Himura Inc.
 
 **Inventory:** `memory-inventory-v1`.
 
@@ -67,7 +67,7 @@ Begin from a question about the task rather than an exact filename. Record the m
 
 **Next decision:** Explain and apply the current evidence boundary without losing the reasons behind it.
 
-**User:** Maya, or a fresh assistant receiving selected synthetic material under Maya's direction.
+**User:** Audy, or a fresh assistant receiving selected synthetic material under Audy's direction.
 
 **Unknowns:** Customer need, willingness to pay, and learner outcomes remain untested. No real customer material is included.
 
@@ -91,7 +91,7 @@ Begin from a question about the task rather than an exact filename. Record the m
 
 **Fresh use check:** Supply the current instructions, rationale, brief, and synthetic reminder example: “We could send a reminder on Thursday; a decision will be made tomorrow.” Inspect whether Thursday remains proposed rather than becoming a confirmed deadline. Record the actual output when performing your own check; a supplied rule is not proof that an assistant followed it.
 
-**Unaided knowledge:** Maya should explain the difference between a suggestion and an agreement, and why a missing owner or imprecise deadline must remain visible.
+**Unaided knowledge:** Audy should explain the difference between a suggestion and an agreement, and why a missing owner or imprecise deadline must remain visible.
 
 **Retrieved details:** Exact source wording, publication metadata, and the particular input/output pair used in a previous check.
 

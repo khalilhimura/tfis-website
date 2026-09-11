@@ -4,7 +4,7 @@
 
 ## The browser is busy; the project is waiting
 
-Maya has a working brief, a record of her early attempts, and a ledger that separates claims from evidence. She also has a growing collection of things to read. There are articles about workshop design, examples of attractive learning materials, discussions of AI tutors, and demonstrations of tools that could eventually help Fieldwork. Each item seems connected to her proposed studio. Together, they are becoming a second project.
+Audy has a working brief, a record of her early attempts, and a ledger that separates claims from evidence. She also has a growing collection of things to read. There are articles about workshop design, examples of attractive learning materials, discussions of AI tutors, and demonstrations of tools that could eventually help Himura Inc. Each item seems connected to her proposed studio. Together, they are becoming a second project.
 
 Her untested business question remains: do independent educators need help specifying what learners should be able to do? A generic workshop template might help with presentation while leaving that harder decision untouched.
 
@@ -22,7 +22,7 @@ Curiosity often begins before there is a well-formed question. Something surpris
 
 Look at the work itself. Where did you hesitate? Which statement required you to guess? What correction did you make without understanding why it helped? A gap is especially useful when you can locate it in a document, an action, or a decision. “I should learn more about education” is difficult to act on. “I cannot tell whether this activity gives the learner a chance to practice the stated task” points to something you can examine.
 
-Maya finds three different gaps. She does not know whether educators would pay for help with workshop briefs. She does not know how much structure such a brief should contain. She is also unsure whether the proposed learner outcome can be checked. These uncertainties are related, but they require different work. Reading a research paper cannot establish demand for Fieldwork. Asking someone whether a document looks useful cannot establish that learners acquire a skill.
+Audy finds three different gaps. She does not know whether educators would pay for help with workshop briefs. She does not know how much structure such a brief should contain. She is also unsure whether the proposed learner outcome can be checked. These uncertainties are related, but they require different work. Reading a research paper cannot establish demand for Himura Inc. Asking someone whether a document looks useful cannot establish that learners acquire a skill.
 
 She writes the uncertainties separately. Improving the task description can guide her preparation; demand and effects on learners need their own inquiries.
 
@@ -36,7 +36,7 @@ It does not require you to feel fascinated by every necessary task. You can inve
 
 The distinction becomes useful when you decide what kind of time you are spending. During open exploration, you can follow an unfamiliar connection without promising an immediate output. During a project inquiry, you owe the project a result or a clearer account of why the question remains unresolved. Mixing the two without noticing can make both frustrating: exploration feels guilty, and the project feels permanently unfinished.
 
-Maya keeps space for both. She can read broadly about how people learn without claiming every article advances Fieldwork. When she returns to the brief, however, she chooses a question tied to its next revision. The boundary protects a particular session. It is not a rule against intellectual wandering.
+Audy keeps space for both. She can read broadly about how people learn without claiming every article advances Himura Inc. When she returns to the brief, however, she chooses a question tied to its next revision. The boundary protects a particular session. It is not a rule against intellectual wandering.
 
 You can use an ordinary calendar note to make the distinction visible. Write the purpose of the session beside its duration. At the end, assess the session against that purpose. A good exploration session may leave several interesting questions. A good inquiry session should leave a usable answer, a justified provisional decision, or a precise description of the missing evidence.
 
@@ -46,17 +46,17 @@ Research gives us a reason to take interest seriously without turning it into a 
 
 The practical extension here is modest: begin by making the unresolved question visible to yourself. You do not need to manufacture excitement or search for a neurological shortcut. A question connected to a decision gives you a reason to attend to the answer. Whether that answer becomes useful still depends on what you do with it.
 
-Suppose Maya reads an explanation of an assessment method and finds it compelling. That feeling does not show that she can design a suitable assessment. She needs to attempt one, compare it with the intended learner task, and examine the mismatch. Interest can open the work. Application gives her something to inspect.
+Suppose Audy reads an explanation of an assessment method and finds it compelling. That feeling does not show that she can design a suitable assessment. She needs to attempt one, compare it with the intended learner task, and examine the mismatch. Interest can open the work. Application gives her something to inspect.
 
 When a subject feels slow or confusing, a small, concrete question still gives you somewhere to begin. You can practice investigation without waiting for inspiration.
 
 ## Draw a map around the unfinished brief
 
-Maya writes the proposed benefit at the center of a blank page: “Help an educator design a short workshop in which learners practice a useful task.” Around it, she places questions rather than topics. “Assessment” becomes “What could a learner produce that would reveal whether they can perform the task?” “Customers” becomes “Which part of preparing a workshop do educators find difficult enough to seek help with?”
+Audy writes the proposed benefit at the center of a blank page: “Help an educator design a short workshop in which learners practice a useful task.” Around it, she places questions rather than topics. “Assessment” becomes “What could a learner produce that would reveal whether they can perform the task?” “Customers” becomes “Which part of preparing a workshop do educators find difficult enough to seek help with?”
 
 This is a curiosity map: a page of connected questions. Draw it on paper, use a document, or arrange notes on a board. Each connection should explain why its question belongs.
 
-She makes three branches. One concerns the educator's preparation problem. One concerns the learner's task. One concerns Fieldwork's possible delivery process. Each branch has a different output. The first may eventually require conversations with educators. The second can begin with a small design exercise. The third can use her recorded preparation attempts.
+She makes three branches. One concerns the educator's preparation problem. One concerns the learner's task. One concerns Himura Inc.'s possible delivery process. Each branch has a different output. The first may eventually require conversations with educators. The second can begin with a small design exercise. The third can use her recorded preparation attempts.
 
 Beside each question she writes what she currently knows, what she is assuming, and what evidence would change her view. Her ledger already contains much of this material. The map helps her see relationships across the entries. It does not replace their sources or turn an assumption into a fact through proximity to one.
 
@@ -66,7 +66,7 @@ A crowded map is not necessarily a better map. If a question is interesting but 
 
 ## Follow one branch far enough to expose a test
 
-To make the learner branch concrete, Maya returns to the action-list workshop proposed in the fifth practice specimen. Its proposed audience is adults who use meeting notes for follow-up. The notes, audience, and workshop remain synthetic teaching examples. The earlier output supplies a candidate task and review criteria; Maya's next inquiry will examine whether the activity actually gives learners a chance to use them.
+To make the learner branch concrete, Audy returns to the action-list workshop proposed in the fifth practice specimen. Its proposed audience is adults who use meeting notes for follow-up. The notes, audience, and workshop remain synthetic teaching examples. The earlier output supplies a candidate task and review criteria; Audy's next inquiry will examine whether the activity actually gives learners a chance to use them.
 
 She gives the workshop a provisional duration of thirty minutes. She keeps the earlier vague wording—“Participants will understand effective meeting follow-up”—in the history so she can see why the action-list outcome was proposed. The outcome is clearer now, but the activity is still undecided. A discussion of follow-up could sound relevant without requiring anyone to produce the promised action list.
 
@@ -74,7 +74,7 @@ Her first impulse for the next inquiry is, “How do I make the workshop more en
 
 The revised question is, “Will the proposed activity produce an action list that someone can check against the commitments in the notes?” She returns to the provisional criteria already recorded: each action should correspond to an agreement; owners and deadlines should appear only when supported; missing details should remain visible. She now needs to apply those criteria to an actual example rather than merely repeat them.
 
-The criteria can themselves be challenged by inspecting the input and output. A beautifully stated requirement may still permit a weak exercise or reject a valid answer. Maya's next piece of work will test what the proposed criteria let her notice and whether her activity exposes the relevant decisions.
+The criteria can themselves be challenged by inspecting the input and output. A beautifully stated requirement may still permit a weak exercise or reject a valid answer. Audy's next piece of work will test what the proposed criteria let her notice and whether her activity exposes the relevant decisions.
 
 One branch now leads to a manageable next step: create fictional notes, make an action list, and examine which errors the brief would help her detect. The market branch stays open for a later inquiry.
 
@@ -82,7 +82,7 @@ One branch now leads to a manageable next step: create fictional notes, make an 
 
 A useful question can still be the wrong question for today. Some require access you do not have. Some matter only after another uncertainty is resolved. Some offer a large answer at a cost that would overwhelm the current project. Selection involves these practical conditions as well as intellectual interest.
 
-Maya compares three options. She could study the market for workshop-design services, investigate how to evaluate a proposed learner task, or learn a new tool for generating worksheets. The tool would be enjoyable to explore and could produce a visible result quickly. But producing worksheets would commit her to an output before she had established what that output should help someone do.
+Audy compares three options. She could study the market for workshop-design services, investigate how to evaluate a proposed learner task, or learn a new tool for generating worksheets. The tool would be enjoyable to explore and could produce a visible result quickly. But producing worksheets would commit her to an output before she had established what that output should help someone do.
 
 The market question matters enormously. She cannot resolve it through an afternoon of invented personas, however. She can prepare a question for a future conversation and identify what evidence she would need. The design question is both important and accessible now: her own draft supplies an input, and she can inspect a small result without contacting anyone.
 
@@ -96,17 +96,17 @@ The best selection may be the question that removes a dependency. Before learnin
 
 Different questions deserve different kinds of answers. A definition may be resolved by consulting a reliable source and using the concept correctly. A question about how your procedure behaves requires an attempt. A question about another person's difficulty requires evidence from that person's situation. Confusing these categories is a common way to stop investigating too soon.
 
-Maya can inspect whether her proposed checklist catches an invented deadline. She cannot infer from that inspection that real educators want a checklist. She can ask an assistant to suggest possible objections to the brief. She cannot count those suggestions as customer objections she has observed. Each method can help, provided its result is named accurately.
+Audy can inspect whether her proposed checklist catches an invented deadline. She cannot infer from that inspection that real educators want a checklist. She can ask an assistant to suggest possible objections to the brief. She cannot count those suggestions as customer objections she has observed. Each method can help, provided its result is named accurately.
 
 Suppose she finds three published workshop templates containing similar headings. That establishes a feature of those examples. It does not establish why their authors chose the headings, how often people use them, or whether the headings improve learning. She may still borrow an idea, but she should describe the choice as a design hypothesis rather than a research conclusion.
 
-In the map, record the evidence route beside each selected question. For the action-list exercise, Maya writes “inspect a synthetic before-and-after output against the notes.” For the educator problem, she writes “future consent-based conversations about recent preparation work.” For a general learning claim, she writes “read eligible research and preserve the tested task and population.”
+In the map, record the evidence route beside each selected question. For the action-list exercise, Audy writes “inspect a synthetic before-and-after output against the notes.” For the educator problem, she writes “future consent-based conversations about recent preparation work.” For a general learning claim, she writes “read eligible research and preserve the tested task and population.”
 
 If you cannot yet reach the people whose evidence you need, identify useful preparation and leave the original question open. The map should show the dependency.
 
 ## Give the session an ending
 
-Maya defines an ending before opening another source. She will finish when she has a revised learner outcome, one practice input, and a comparison showing whether her proposed check can detect at least one meaningful error. If she cannot produce those, she will name the missing concept and choose a smaller next exercise.
+Audy defines an ending before opening another source. She will finish when she has a revised learner outcome, one practice input, and a comparison showing whether her proposed check can detect at least one meaningful error. If she cannot produce those, she will name the missing concept and choose a smaller next exercise.
 
 She sets aside forty minutes for this attempt. That duration is an example of a working constraint, not a research-based optimum. A reader with ten available minutes can choose a smaller output. A reader investigating something consequential may need several sessions and informed review. The point is to notice the limit rather than discover hours later that the session had none.
 
@@ -118,7 +118,7 @@ When the forty minutes end, the brief is better specified, but the workshop has 
 
 ## Keep the side question without following it
 
-During the exercise, Maya wonders whether a digital form could automatically turn notes into an action list. It is a reasonable idea. It is also a different inquiry. Building it now would add interface decisions, data handling, and tool behavior to an exercise intended to clarify a learner task.
+During the exercise, Audy wonders whether a digital form could automatically turn notes into an action list. It is a reasonable idea. It is also a different inquiry. Building it now would add interface decisions, data handling, and tool behavior to an exercise intended to clarify a learner task.
 
 She records the question in a parking area: “Could a form support this exercise after the manual version works?” Beside it, she writes a return condition: “Revisit if repeated preparation shows that assembling examples is a bottleneck.” The condition is more useful than a generic promise to return later. It explains what would make the question important.
 
@@ -134,17 +134,17 @@ The TFIS build-log presentation ends with a compact template connecting a main q
 
 An earlier entry, labeled Daily Court, connects several preceding experiments to a question about putting judgment into an agent system. It identifies checking the compounding value of the work as a next step. That entry records an investigation agenda; it does not establish that compounding has occurred. ([The Future Is Solo, 2026, slide 31](https://docs.google.com/presentation/d/1dvbBGs22QvtGogevZ6f5mf8YQE7WDAPBwYlclhTyctI/edit#slide=id.g3eec6c2c179_0_22))
 
-The build log keeps an intended benefit beside the work needed to investigate it. That connection is useful in Maya's much smaller project too.
+The build log keeps an intended benefit beside the work needed to investigate it. That connection is useful in Audy's much smaller project too.
 
-Maya's record can preserve the same connection without imitating the technical project. Her question about a learner task came from a defect in her earlier brief. Her attempt produced a revised check. The next inquiry should retain those parents so she can explain why it exists. Accumulation begins when a new question carries useful evidence from the work that preceded it.
+Audy's record can preserve the same connection without imitating the technical project. Her question about a learner task came from a defect in her earlier brief. Her attempt produced a revised check. The next inquiry should retain those parents so she can explain why it exists. Accumulation begins when a new question carries useful evidence from the work that preceded it.
 
 ## Use an assistant to sharpen attention
 
-An assistant can help you see gaps, but a broad request for interesting questions can produce a list much larger than you can use. Maya already has enough possible directions. She needs a comparison tied to the document in front of her.
+An assistant can help you see gaps, but a broad request for interesting questions can produce a list much larger than you can use. Audy already has enough possible directions. She needs a comparison tied to the document in front of her.
 
 She supplies the provisional brief and asks for questions whose answers would change a specific design decision. She asks the assistant to identify the sentence that gave rise to each question and distinguish missing information from a suggested improvement. The output is easier to inspect because it must point back to something she actually provided.
 
-One suggestion concerns learners' preferred visual style. Maya cannot explain how answering it would resolve the current task mismatch, so she sets it aside. Another asks whether the learner must identify missing commitments or merely format supplied ones. That distinction changes the practice input. She keeps it and writes her own tentative answer before asking for further help.
+One suggestion concerns learners' preferred visual style. Audy cannot explain how answering it would resolve the current task mismatch, so she sets it aside. Another asks whether the learner must identify missing commitments or merely format supplied ones. That distinction changes the practice input. She keeps it and writes her own tentative answer before asking for further help.
 
 The model's ability to generate questions should not determine the agenda by itself. Evaluate each suggestion against the decision, evidence route, and time boundary you selected. If a suggestion reveals a more fundamental problem, change the agenda explicitly and explain why. You are allowed to revise the inquiry without drifting into an unrecorded one.
 
@@ -170,7 +170,7 @@ Run one bounded attempt. Keep the input, the result, and a short revision note. 
 
 If the answer changes nothing, inspect the question. Perhaps it was too broad, unrelated to a decision, or already answered by material you possessed. If you cannot obtain the required evidence, choose a preparatory question and label the original unresolved. If you keep exceeding the time boundary, reduce the promised output instead of removing the ending.
 
-Maya leaves with `curiosity-map-v1` linked to `claim-evidence-ledger-v1` and her provisional workshop brief. Her selected inquiry concerns a checkable learner task; the demand question remains open. Next she needs to phrase the inquiry precisely enough that an assistant, a peer, or her future self can help investigate it. That is the work of [Chapter 4](04-the-question-is-the-unit-of-learning.md).
+Audy leaves with `curiosity-map-v1` linked to `claim-evidence-ledger-v1` and her provisional workshop brief. Her selected inquiry concerns a checkable learner task; the demand question remains open. Next she needs to phrase the inquiry precisely enough that an assistant, a peer, or her future self can help investigate it. That is the work of [Chapter 4](04-the-question-is-the-unit-of-learning.md).
 
 ## References
 

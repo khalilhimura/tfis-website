@@ -4,17 +4,17 @@
 
 ## The rule is clear; its history is harder to recover
 
-Maya can explain why an agreed action may have an unspecified owner. Her synthetic workshop examples have made the distinction concrete. An action list should preserve what the meeting notes establish and flag what remains unresolved. Requiring every field to contain a name would encourage invention.
+Audy can explain why an agreed action may have an unspecified owner. Her synthetic workshop examples have made the distinction concrete. An action list should preserve what the meeting notes establish and flag what remains unresolved. Requiring every field to contain a name would encourage invention.
 
-The current instructions are easy to find. Chapter 7 left a clear pointer in `learning-loop-v1`, and Maya can follow it to the drafting instructions and review sheet. The problem appears when she asks a different question: which observations justified this rule, and how far should she trust the explanation? Its history is spread across the connection map, an earlier conversation, and practice outputs.
+The current instructions are easy to find. Chapter 7 left a clear pointer in `learning-loop-v1`, and Audy can follow it to the drafting instructions and review sheet. The problem appears when she asks a different question: which observations justified this rule, and how far should she trust the explanation? Its history is spread across the connection map, an earlier conversation, and practice outputs.
 
-These fictional design records concern the thirty-minute action-list workshop, with no customer or learner results yet. Can they support another attempt without losing what Maya learned?
+These fictional design records concern the thirty-minute action-list workshop, with no customer or learner results yet. Can they support another attempt without losing what Audy learned?
 
 She opens the connection map and finds the older sentence, “Every action must have an owner,” clearly marked as rejected. The later explanation is there too. But the map does not provide a direct route to the subsequent deadline failure or the changed example using “soon.” Those observations are in the learning-loop history. Explaining the whole boundary requires reconstructing connections between records.
 
-Maya has not forgotten how to judge an action list. She has discovered a weakness in the handoff between her judgment and her stored material. Knowing which instruction to use is different from being able to recover the evidence that warrants it. A reliable pointer has solved one problem and made the next one visible.
+Audy has not forgotten how to judge an action list. She has discovered a weakness in the handoff between her judgment and her stored material. Knowing which instruction to use is different from being able to recover the evidence that warrants it. A reliable pointer has solved one problem and made the next one visible.
 
-The next reader might be Maya after a busy week, a colleague reviewing the brief, or an assistant beginning without the previous conversation. The files need to support all three without assuming they share her memory of how the work developed.
+The next reader might be Audy after a busy week, a colleague reviewing the brief, or an assistant beginning without the previous conversation. The files need to support all three without assuming they share her memory of how the work developed.
 
 Bring the artifacts you have accumulated so far. If you joined the book later, choose the records supporting one recurring task. You will inspect what exists, what the work actually needs, and what happens when you try to retrieve it. You do not need to reorganize your entire digital life.
 
@@ -24,7 +24,7 @@ Saving a document establishes a storage outcome: the document is present somewhe
 
 These outcomes can support one another, but none automatically supplies the rest. A stored article may never be found again. A retrieved article may be misunderstood. An understood concept may be irrelevant to today's decision. A decision may be sensible when made and later become unsuitable as the situation changes.
 
-Maya's folder illustrates the gaps. The current instruction is locatable, and the rejected rule is labeled. Yet a search for “owner” does not necessarily recover the later deadline example. The next draft can follow the instruction, while a review of that instruction may still lack relevant evidence. Different tasks ask different things of the same collection.
+Audy's folder illustrates the gaps. The current instruction is locatable, and the rejected rule is labeled. Yet a search for “owner” does not necessarily recover the later deadline example. The next draft can follow the instruction, while a review of that instruction may still lack relevant evidence. Different tasks ask different things of the same collection.
 
 This chapter uses “second brain” as shorthand for a personal collection of external notes and resources. Testing it against actual work will reveal more than counting the notes or examining the interface.
 
@@ -34,9 +34,9 @@ Treat either discovery as information. The point is to improve continuity. Buyin
 
 ## Begin with the next piece of work
 
-Choose a concrete task that you expect to repeat. Maya chooses preparing another synthetic workshop brief with the current action-list criteria. She writes what a new session would need to know before producing a useful draft.
+Choose a concrete task that you expect to repeat. Audy chooses preparing another synthetic workshop brief with the current action-list criteria. She writes what a new session would need to know before producing a useful draft.
 
-It needs the intended learner task. It needs the synthetic input and the boundary around it. It needs the current review criteria, including the distinction between an agreed action and a fully assigned action. It needs to know that demand and learning effects remain untested. It does not need every abandoned idea about Fieldwork's future business.
+It needs the intended learner task. It needs the synthetic input and the boundary around it. It needs the current review criteria, including the distinction between an agreed action and a fully assigned action. It needs to know that demand and learning effects remain untested. It does not need every abandoned idea about Himura Inc.'s future business.
 
 This task-based view changes the inventory. A saved article about workshop marketing may be interesting, but it does not belong in the immediate working set. The note explaining why a missing owner must stay visible is less glamorous and more necessary. Relevance follows from the decision you are preparing to make.
 
@@ -48,7 +48,7 @@ You can perform the exercise manually with a file browser and a text editor. An 
 
 ## Make an inventory small enough to finish
 
-Maya lists the main records already connected to the brief: the capability baseline, claims ledger, curiosity map, inquiry brief, concept-deconstruction record, connection map, and learning-loop record. She includes the workshop brief itself and the sample input. She does not begin by listing every file on her computer.
+Audy lists the main records already connected to the brief: the capability baseline, claims ledger, curiosity map, inquiry brief, concept-deconstruction record, connection map, and learning-loop record. She includes the workshop brief itself and the sample input. She does not begin by listing every file on her computer.
 
 For each item, she records its location and purpose. She adds whether it contains raw material, a proposed interpretation, a reviewed decision, or a practice attempt. These descriptions will become more precise in the next chapter. For now, they help her notice when a record is doing several jobs without saying so.
 
@@ -64,7 +64,7 @@ Your first inventory is complete when it covers the dependencies of one task wel
 
 ## Test whether the right record can be found
 
-Maya writes a test question: “Why may an agreement remain in the list with an unresolved owner, and what did the later deadline example add?” She closes the current conversation and begins from the inventory. She permits herself to use the listed locations, because that is the external memory she is testing.
+Audy writes a test question: “Why may an agreement remain in the list with an unresolved owner, and what did the later deadline example add?” She closes the current conversation and begins from the inventory. She permits herself to use the listed locations, because that is the external memory she is testing.
 
 Her first route reaches the current drafting instructions through `learning-loop-v1`. That part works. The instruction states the evidence boundary correctly. To explain its development, however, she has to open the connection map, identify the earlier rejected proposal, and then locate the later failure and repair in the loop record. The files do not yet show that relationship directly.
 
@@ -82,7 +82,7 @@ Record the route and outcome, not merely a success tick. A retrieval test become
 
 A bare rule can be easy to retrieve and hard to apply. “Keep missing details visible” sounds straightforward until the task changes. Should every omission block the work? May the assistant suggest an owner for review? Does the rule apply to an invented teaching example in the same way as an agreed customer commitment?
 
-Maya's rationale record explains only the questions established by her practice. It links to the current requirement that the action list distinguish what the supplied notes support from what remains unresolved. It explains why a missing owner can be flagged and why “soon” cannot become a precise date. It does not authorize assigning someone or treating a suggestion as an agreement.
+Audy's rationale record explains only the questions established by her practice. It links to the current requirement that the action list distinguish what the supplied notes support from what remains unresolved. It explains why a missing owner can be flagged and why “soon” cannot become a precise date. It does not authorize assigning someone or treating a suggestion as an agreement.
 
 She includes one short failure example: a generated list gave the venue inquiry an owner and deadline that the notes did not contain. This example explains the purpose of the rule more efficiently than a long description of the entire chapter sequence.
 
@@ -90,7 +90,7 @@ She also links to the fuller comparison. The short record gives the next session
 
 Now she asks a reader to explain the rule's boundary from the record, or performs that check herself after a break if no reader is available. The self-check is limited because she already knows the history. She records that limitation rather than treating it as equivalent to an independent review.
 
-If the explanation turns the rule into “never infer anything,” the record is too broad or unclear. Maya repairs the scope. The requirement concerns claims about supplied commitments in this task. Other activities may legitimately involve proposing possibilities, provided those proposals are labeled and reviewed.
+If the explanation turns the rule into “never infer anything,” the record is too broad or unclear. Audy repairs the scope. The requirement concerns claims about supplied commitments in this task. Other activities may legitimately involve proposing possibilities, provided those proposals are labeled and reviewed.
 
 ## A saved vault is not yet working context
 
@@ -98,7 +98,7 @@ The TFIS experiment presentation provides a concrete distinction between retaine
 
 Context, in this setting, is the material available to an assistant while it performs the current task. A file can exist in a vault without being included. A conversation can contain a correction that was never saved. A saved correction can be retrieved without the source that explains its limits. Those are different points at which continuity can fail.
 
-Maya therefore tests the working set itself. She opens a fresh session and deliberately supplies the current brief, the relevant synthetic notes, the current instructions, and their linked rationale. She asks the assistant to identify the applicable constraint before drafting. Its answer must point to the supplied record rather than claim a memory of an earlier conversation.
+Audy therefore tests the working set itself. She opens a fresh session and deliberately supplies the current brief, the relevant synthetic notes, the current instructions, and their linked rationale. She asks the assistant to identify the applicable constraint before drafting. Its answer must point to the supplied record rather than claim a memory of an earlier conversation.
 
 This is a controlled handoff exercise within the fictional case, not a claim about a particular product's automatic memory feature. If you use an assistant without file access, paste the same small set of material. If you prefer to work without AI, prepare the packet for another person to read.
 
@@ -106,7 +106,7 @@ The important observation is what actually became available to the task. A label
 
 ## Test use as well as recovery
 
-Finding the right record is necessary for this task, but it is not the final check. The next draft could quote the rule and still violate it. Maya gives the fresh session the reminder example first used in Chapter 4: a reminder on Thursday is proposed, with a decision deferred until tomorrow.
+Finding the right record is necessary for this task, but it is not the final check. The next draft could quote the rule and still violate it. Audy gives the fresh session the reminder example first used in Chapter 4: a reminder on Thursday is proposed, with a decision deferred until tomorrow.
 
 She inspects the generated list. If it treats Thursday as an agreed deadline, the handoff has failed to influence the behavior she cares about. The correct rule may have been present. Its presence alone did not establish correct application.
 
@@ -114,19 +114,19 @@ Her review asks whether the output preserves the proposal's unresolved status an
 
 If the output fails, she checks the supplied packet before rewriting the record. Was an older instruction also included? Did the input contain contradictory statements? Was the requested output so compressed that uncertainty was dropped? Did the assistant simply make an error despite clear material? Different observations require different repairs.
 
-Locating the failure lets Maya make a specific change and examine it in a fresh attempt. Adding more stored instructions without that diagnosis could leave the cause untouched.
+Locating the failure lets Audy make a specific change and examine it in a fresh attempt. Adding more stored instructions without that diagnosis could leave the cause untouched.
 
-Maya's inventory records both the successful route and its scope. One synthetic example is a useful check of one distinction. It is not a measured reliability rate for all workshop preparation.
+Audy's inventory records both the successful route and its scope. One synthetic example is a useful check of one distinction. It is not a measured reliability rate for all workshop preparation.
 
 ## Decide what you still need to know yourself
 
-External memory can make important details available without requiring you to memorize them. That does not remove the need to understand the judgments you are responsible for making. Maya can look up a source's publication details. She still needs to recognize when a claim about a laboratory study has become an unsupported promise about her workshop.
+External memory can make important details available without requiring you to memorize them. That does not remove the need to understand the judgments you are responsible for making. Audy can look up a source's publication details. She still needs to recognize when a claim about a laboratory study has become an unsupported promise about her workshop.
 
 Cognitive offloading research examines how people use external actions and aids to change the demands of a task, including the role of judgments about their own memory and performance. It does not justify a blanket claim that external aids either improve intelligence or cause cognitive decline. The review predates contemporary conversational AI. ([Risko & Gilbert, 2016](https://doi.org/10.1016/j.tics.2016.07.002))
 
 For this book, make the division explicit. List what you need to explain well enough to supervise the task. List what you may retrieve when needed. List what requires outside expertise because neither your memory nor a retrieved note supplies adequate judgment.
 
-Maya places the distinction between a suggestion and an agreement in the first group. She places exact source metadata and the wording of a past trial in the second. She does not place unfamiliar empirical claims in the first group merely because an assistant summarized them persuasively.
+Audy places the distinction between a suggestion and an agreement in the first group. She places exact source metadata and the wording of a past trial in the second. She does not place unfamiliar empirical claims in the first group merely because an assistant summarized them persuasively.
 
 Try a brief unaided explanation before opening your records. Then use the external material to check and repair it. The two attempts answer different questions: what can you currently produce, and how well can your records support the work? A good external memory can coexist with an area you still need to learn.
 
@@ -136,7 +136,7 @@ When reviewing another system's output, that understanding helps you recognize t
 
 Every retained item has some potential cost: finding it, interpreting it, keeping its status current, or deciding whether it belongs in a shared working set. The cost varies. A clearly labeled historical input may need little attention. A frequently reused instruction can require careful maintenance because later work depends on it.
 
-Maya discovers three nearly identical summaries of the same study. They do not provide three independent pieces of evidence. They provide three accounts she may have to reconcile when the wording differs. She keeps a pointer to the inspected source and a bounded summary in the claims ledger, marking the other summaries as drafts rather than additional support.
+Audy discovers three nearly identical summaries of the same study. They do not provide three independent pieces of evidence. They provide three accounts she may have to reconcile when the wording differs. She keeps a pointer to the inspected source and a bounded summary in the claims ledger, marking the other summaries as drafts rather than additional support.
 
 She also finds a failed practice output that looks untidy but explains an important requirement. It remains useful. Deleting material merely because it is old or imperfect would remove evidence she may need to understand the current process.
 
@@ -150,7 +150,7 @@ The aim is an external memory you can maintain alongside the rest of your work. 
 
 The Functional Life treats checking durable writes as a core operating practice. Its emphasis is on verifying stored state rather than accepting an assistant's statement that an update is complete. This book develops that principle into simple checks suitable for a novice working with documents. ([The Future Is Solo, n.d.-a](https://life.thefutureissolo.com/))
 
-After saving the rationale record, Maya closes and reopens it. She checks the actual wording and follows the links to the current instructions and supporting examples. She tests the inventory's new pointer. The current-version pointer from Chapter 7 remains intact, and the older candidate remains labeled as rejected where a future reader might encounter it.
+After saving the rationale record, Audy closes and reopens it. She checks the actual wording and follows the links to the current instructions and supporting examples. She tests the inventory's new pointer. The current-version pointer from Chapter 7 remains intact, and the older candidate remains labeled as rejected where a future reader might encounter it.
 
 This is more informative than asking the same assistant, “Did you remember the correction?” A positive answer would be another claim. Reopening the record inspects the thing the future task is supposed to use.
 
@@ -178,7 +178,7 @@ Your inventory passes this chapter's practice check when a reader can locate the
 
 Repair the smallest broken connection. Add a meaningful description when the file is hard to find. Identify the current version when several compete. Restore a missing evidence link. Narrow a summary that lost a limitation. Seek clarification when the decision itself was never established.
 
-Maya now has `memory-inventory-v1` and the linked explanation `action-list-rule-rationale-v1`. The current instructions remain identified through `learning-loop-v1`. The files do not yet constitute a complete memory architecture. They expose what the work needs from one. [Chapter 9](09-the-sovereign-memory-principle.md) makes the next decisions explicit: what may enter this memory, who controls it, and how it can be corrected or removed.
+Audy now has `memory-inventory-v1` and the linked explanation `action-list-rule-rationale-v1`. The current instructions remain identified through `learning-loop-v1`. The files do not yet constitute a complete memory architecture. They expose what the work needs from one. [Chapter 9](09-the-sovereign-memory-principle.md) makes the next decisions explicit: what may enter this memory, who controls it, and how it can be corrected or removed.
 
 ## References
 

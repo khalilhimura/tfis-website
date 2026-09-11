@@ -61,7 +61,7 @@ If evidence is unavailable, mark the claim unresolved and identify
 the next useful check. A concise source-linked rationale is enough.
 ```
 
-## Worked sample: fictional Fieldwork
+## Worked sample: fictional Himura Inc.
 
 The business observations and decisions below are fictional. The cited journal study is real. The example keeps these evidence types separate.
 
@@ -69,8 +69,8 @@ The business observations and decisions below are fictional. The cited journal s
 
 - **Claim:** Independent educators need help turning a topic into a task a learner can perform and would value outside help.
 - **Type/status:** Commercial hypothesis; unresolved.
-- **Evidence:** None from customers. Maya's fictional preparation difficulties do not demonstrate customer demand.
-- **Decision:** Whether to develop Fieldwork's proposed service beyond a practice brief.
+- **Evidence:** None from customers. Audy's fictional preparation difficulties do not demonstrate customer demand.
+- **Decision:** Whether to develop Himura Inc.'s proposed service beyond a practice brief.
 - **Next check:** Prepare questions about an educator's actual design work and alternatives; later investigate with real people under appropriate consent. Do not report a conversation that has not occurred.
 
 ### C02 — Missing detail in a practice input
@@ -89,7 +89,7 @@ The business observations and decisions below are fictional. The cited journal s
 - **Location/read depth:** Publisher abstract and bibliographic panel; abstract-only check.
 - **Narrower support:** The experiments compare recall testing with restudy for students learning prose, with different patterns on immediate and delayed retention tests.
 - **Separate practical inference:** Consider testing a recall attempt where retained information matters to the intended workshop task.
-- **Unestablished:** Any general claim that Maya's workshop improves workplace performance, all quiz formats, or all learner groups.
+- **Unestablished:** Any general claim that Audy's workshop improves workplace performance, all quiz formats, or all learner groups.
 - **Next check:** Identify what learners need to remember and what they need to demonstrate before choosing the activity.
 
 ### C04 — Prompt behavior in a bounded attempt
@@ -102,8 +102,8 @@ The business observations and decisions below are fictional. The cited journal s
 
 ### C05 — A working preference
 
-- **Claim:** Fieldwork should prioritize inspectable learner outcomes over polished slide counts.
-- **Type/status:** Proposed operating preference, owned by Maya.
+- **Claim:** Himura Inc. should prioritize inspectable learner outcomes over polished slide counts.
+- **Type/status:** Proposed operating preference, owned by Audy.
 - **Reason:** It directs attention toward the usefulness she wants to investigate.
 - **Limit:** A preference is not a research effect, customer testimonial, or universal rule for every workshop.
 - **Next check:** Examine whether the preference makes the next design decision clearer; revise when the task requires it.

@@ -78,7 +78,7 @@ Record what you actually inspected. A conversation, a supplied brief, and an inf
 
 **Current records to update, and records that remain unchanged:**
 
-## Constructed Fieldwork case
+## Constructed Himura Inc. case
 
 Everything below is authored fiction. The three conversations, quotes, consent, proposals, pilot, feedback, acceptance, and cost figures are constructed teaching material. No real person was interviewed; no actual payment, customer validation, learner effect, or author autobiography is established. Readers must keep their own observed results separate from this example.
 
@@ -90,7 +90,7 @@ Everything below is authored fiction. The three conversations, quotes, consent, 
 
 ### Three discovery scenes
 
-Within the story, each educator agrees to discuss a current workshop problem and let Maya retain brief notes for this inquiry. No permission for public quotation, real learner data, external publication, or unrelated material is inferred.
+Within the story, each educator agrees to discuss a current workshop problem and let Audy retain brief notes for this inquiry. No permission for public quotation, real learner data, external publication, or unrelated material is inferred.
 
 | ID | Constructed dialogue and situation | Interpretation and next step |
 | --- | --- | --- |

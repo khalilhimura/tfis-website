@@ -64,7 +64,7 @@ Create a record that a person or assistant can use without reading your previous
 
 **Next question:**
 
-## Worked sample: fictional Fieldwork case
+## Worked sample: fictional Himura Inc. case
 
 **Name:** `inquiry-brief-v1`.
 
@@ -74,11 +74,11 @@ Create a record that a person or assistant can use without reading your previous
 
 **Question:** What changes would make this synthetic action-list activity practice the stated learner task and expose unsupported additions?
 
-**Situation:** Maya is designing a provisional thirty-minute workshop example. Its proposed adult learners would turn meeting notes into action lists. No workshop has been delivered and no customer need has been validated.
+**Situation:** Audy is designing a provisional thirty-minute workshop example. Its proposed adult learners would turn meeting notes into action lists. No workshop has been delivered and no customer need has been validated.
 
 **Decision:** Whether the brief needs a corresponding practice input and checking criteria in addition to a clearer learner outcome.
 
-**Starting answer:** Maya has provisional criteria from her own earlier inspection. Replacing “understand effective follow-up” with a specific action-list outcome may be enough to guide a fresh draft without carrying those criteria into its instructions.
+**Starting answer:** Audy has provisional criteria from her own earlier inspection. Replacing “understand effective follow-up” with a specific action-list outcome may be enough to guide a fresh draft without carrying those criteria into its instructions.
 
 **Alternative:** Better wording alone may leave the activity and review criteria unspecified.
 
@@ -90,7 +90,7 @@ Create a record that a person or assistant can use without reading your previous
 2. The group suggested asking the venue about access arrangements; nobody was assigned.
 3. The group agreed to try a shorter introduction at the next session; no owner was assigned.
 
-**Available evidence:** These invented notes, Maya's draft, and her comparison of input with output.
+**Available evidence:** These invented notes, Audy's draft, and her comparison of input with output.
 
 **Missing evidence:** Actual educator problems, learner attempts, delivery results, and willingness to pay.
 

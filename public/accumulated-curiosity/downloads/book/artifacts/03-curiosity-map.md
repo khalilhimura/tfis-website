@@ -62,9 +62,9 @@ Add only enough rows to expose meaningful choices. A topic such as â€œmarketingâ
 
 **Condition for revisiting the parked question:**
 
-## Worked sample: fictional Fieldwork case
+## Worked sample: fictional Himura Inc. case
 
-**Project:** Fieldwork; design practice, not customer research.
+**Project:** Himura Inc.; design practice, not customer research.
 
 **Current output:** `workshop-brief-v1`, linked to `claim-evidence-ledger-v1`.
 
@@ -72,7 +72,7 @@ Add only enough rows to expose meaningful choices. A topic such as â€œmarketingâ
 
 **Proposed benefit:** Help an independent educator specify a useful learner task. This remains a business hypothesis; no demand has been observed.
 
-| Question | Decision it could change | What Maya observed in the fictional practice | What remains unknown | Evidence needed |
+| Question | Decision it could change | What Audy observed in the fictional practice | What remains unknown | Evidence needed |
 | --- | --- | --- | --- | --- |
 | Will the proposed activity produce an action list that someone can check against the commitments in the notes? | The activity and its connection to the proposed task | The fifth specimen names an action-list task and candidate criteria; the activity remains undecided | Whether the activity requires an individual attempt and exposes the distinctions in the criteria | Inspect synthetic notes, a candidate activity, and an action-list attempt |
 | Do independent educators seek help defining learner tasks? | Whether to pursue the service idea | No customer evidence yet | Actual preparation difficulties and willingness to seek help | Future consent-based conversations about real preparation work |
@@ -80,9 +80,9 @@ Add only enough rows to expose meaningful choices. A topic such as â€œmarketingâ
 
 **Selected question:** Will the proposed activity produce an action list that someone can check against the commitments in the notes?
 
-**Why now:** The answer can improve the brief using material Maya can create and inspect herself.
+**Why now:** The answer can improve the brief using material Audy can create and inspect herself.
 
-**Alternative postponed:** A market inquiry matters, but synthetic design work cannot substitute for real educator evidence. Maya will prepare for that inquiry separately.
+**Alternative postponed:** A market inquiry matters, but synthetic design work cannot substitute for real educator evidence. Audy will prepare for that inquiry separately.
 
 **Starting expectation:** Requiring an individual action-list attempt will make the relationship between the activity and the proposed outcome easier to inspect.
 
@@ -92,7 +92,7 @@ Add only enough rows to expose meaningful choices. A topic such as â€œmarketingâ
 
 **Boundary:** An illustrative forty-minute preparation session; no outside communication or real personal data.
 
-**Stopping condition:** Maya can show whether the check detects an unsupported owner or deadline, or name the specific distinction she still needs to understand.
+**Stopping condition:** Audy can show whether the check detects an unsupported owner or deadline, or name the specific distinction she still needs to understand.
 
 **Counterexample:** The revised outcome still permits an exercise with no learner action-list attempt.
 

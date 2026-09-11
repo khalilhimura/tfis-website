@@ -80,17 +80,17 @@ Keep the underlying files. A log entry is a pointer to evidence, not a replaceme
 
 **Next trial:**
 
-## Worked sample: fictional Fieldwork
+## Worked sample: fictional Himura Inc.
 
 All inputs, outputs, and timings below illustrate the record. They are not measured customer results or files supplied by a real business. Create your own practice files when using the template.
 
-**Task:** Turn Maya's synthetic workshop-preparation notes into a short provisional design brief.
+**Task:** Turn Audy's synthetic workshop-preparation notes into a short provisional design brief.
 
 **Project output:** `workshop-brief-v1`.
 
-**Observed context:** Repetition in Maya's fictional personal preparation practice; no evidence of demand for a paid service.
+**Observed context:** Repetition in Audy's fictional personal preparation practice; no evidence of demand for a paid service.
 
-**Manual baseline:** 40 illustrative minutes, including thinking, drafting, and review. Maya found defining an inspectable learner outcome harder than arranging the headings.
+**Manual baseline:** 40 illustrative minutes, including thinking, drafting, and review. Audy found defining an inspectable learner outcome harder than arranging the headings.
 
 **Acceptance criteria:** The brief distinguishes supplied facts from assumptions; identifies a proposed learner task or the information needed to define one; proposes an observable learner output; avoids invented interviews, outcomes, and confirmed audiences.
 
@@ -111,7 +111,7 @@ If the learner task is unspecified, say so and ask a focused question.
 If several audiences appear, preserve the choice as unresolved.
 Distinguish a proposed outcome from an observed learning result.
 Do not invent customer interviews, learner preferences, or demand.
-Write a draft for Maya's review; take no external actions.
+Write a draft for Audy's review; take no external actions.
 ```
 
 | Run | Synthetic input / trial purpose | Observed example defect or success | Verdict | Repair or retained check |
@@ -128,7 +128,7 @@ Write a draft for Maya's review; take no external actions.
 
 **Inspect the example:** The [practice specimens](../artifacts/01-workshop-practice-set.md) supply an authored bad answer and correction, a missing-task input corresponding to row 4, and an input/output pair corresponding to row 5. These are constructed teaching examples, not transcripts of model runs. Create and retain your own files for all five actual attempts.
 
-**Supported statement within the fiction:** Maya can use a saved prompt to draft this kind of provisional brief and inspect it for the defects tested. Untested topics, autonomous delivery, customer value, and general reliability remain outside the claim.
+**Supported statement within the fiction:** Audy can use a saved prompt to draft this kind of provisional brief and inspect it for the defects tested. Untested topics, autonomous delivery, customer value, and general reliability remain outside the claim.
 
 ## Acceptance and repair
 

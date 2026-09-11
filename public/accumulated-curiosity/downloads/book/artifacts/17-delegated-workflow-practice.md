@@ -1,6 +1,6 @@
 # Delegated workflow practice packet
 
-All sources, candidates, and verdicts below are authored teaching material for the fictional Fieldwork case. They are not a real model transcript, tool receipts, customer evidence, or a measured performance result. Inspect the specimens, then preserve actual outputs when you run your own exercise.
+All sources, candidates, and verdicts below are authored teaching material for the fictional Himura Inc. case. They are not a real model transcript, tool receipts, customer evidence, or a measured performance result. Inspect the specimens, then preserve actual outputs when you run your own exercise.
 
 ## Current instruction and task
 
@@ -56,7 +56,7 @@ This note is a claim to inspect, not an actual check receipt. Before reading fur
 
 ## Worked review and bounded repair
 
-**Maya's authored verdict:** Rewrite D17-01. L2 records a suggestion, no decision, and no owner. Row 2 promotes the suggestion and invents a facilitator assignment. Repair that row under existing instructions-v3, then recheck the whole candidate. No new instruction version is needed.
+**Audy's authored verdict:** Rewrite D17-01. L2 records a suggestion, no decision, and no owner. Row 2 promotes the suggestion and invents a facilitator assignment. Repair that row under existing instructions-v3, then recheck the whole candidate. No new instruction version is needed.
 
 The assistant's self-check missed the defect in this specimen. Human feedback triggers the single permitted candidate repair. A further material defect after that repair would produce a hold; it would not start unlimited revisions.
 
@@ -81,7 +81,7 @@ The assistant's self-check missed the defect in this specimen. Human feedback tr
 - Unresolved: revised action list deadline; precise meaning of soon; unassigned owner; whether the venue suggestion will be adopted. No real clarification has occurred.
 - Workflow status: returned for human review. No external action or authoritative-memory write performed in this authored specimen.
 - Saved-state status: no tool write is claimed. In your exercise, save the actual candidate to the authorized draft area and record what you reopened.
-- Maya's worked verdict: accept D17-02 only as a source-faithful synthetic example for continued workshop design. No learner benefit or delivery permission follows.
+- Audy's worked verdict: accept D17-02 only as a source-faithful synthetic example for continued workshop design. No learner benefit or delivery permission follows.
 
 ## Run your own check
 

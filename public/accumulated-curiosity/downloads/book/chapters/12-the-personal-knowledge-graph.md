@@ -4,15 +4,15 @@
 
 ## The files are present; the relationship is missing
 
-Maya can now recover the current workshop instructions and the records explaining how they developed. She has a memory inventory, a charter, working areas with different purposes, and a procedure for reviewing material before it becomes lasting memory. The next difficulty appears when she wants to change something.
+Audy can now recover the current workshop instructions and the records explaining how they developed. She has a memory inventory, a charter, working areas with different purposes, and a procedure for reviewing material before it becomes lasting memory. The next difficulty appears when she wants to change something.
 
-Chapter 11 added a reviewed procedure for conflicting dates: keep the shared action and owner, preserve both deadline statements, and request clarification. Suppose Maya now considers a different case, in which the notes explicitly document an authorized amendment to an earlier deadline. Which materials would she need to review before extending the procedure? The current instruction is an obvious starting point. The example answer, the review sheet, and a distilled principle may also matter. A relevant sentence in an older conversation might explain why the current rule stops short of resolving contradictions. None of those dependencies disappears merely because each document has a sensible home.
+Chapter 11 added a reviewed procedure for conflicting dates: keep the shared action and owner, preserve both deadline statements, and request clarification. Suppose Audy now considers a different case, in which the notes explicitly document an authorized amendment to an earlier deadline. Which materials would she need to review before extending the procedure? The current instruction is an obvious starting point. The example answer, the review sheet, and a distilled principle may also matter. A relevant sentence in an older conversation might explain why the current rule stops short of resolving contradictions. None of those dependencies disappears merely because each document has a sensible home.
 
-Searching for “deadline” returns several records. Some state a current requirement. Some show an obsolete instruction. Others contain synthetic examples or a question that remains open. Maya needs the relationships between them, not just the matching words inside them.
+Searching for “deadline” returns several records. Some state a current requirement. Some show an obsolete instruction. Others contain synthetic examples or a question that remains open. Audy needs the relationships between them, not just the matching words inside them.
 
-She begins a small `knowledge-map-v1`. It connects records already in the Fieldwork working set. It does not replace them or become a new source of authority. The current-version pointer in `learning-loop-v1` still identifies the instruction that governs the next attempt. The map helps Maya answer questions about that instruction: what explains it, which examples exercise it, and what would need inspection if it changed.
+She begins a small `knowledge-map-v1`. It connects records already in the Himura Inc. working set. It does not replace them or become a new source of authority. The current-version pointer in `learning-loop-v1` still identifies the instruction that governs the next attempt. The map helps Audy answer questions about that instruction: what explains it, which examples exercise it, and what would need inspection if it changed.
 
-The exercise remains within the fictional workshop design project. Its value is visible in a modest operation: Maya can find the materials affected by a proposed change without reconstructing their relationships from memory. Bring one active task and its supporting records. A table in an ordinary document is enough to begin.
+The exercise remains within the fictional workshop design project. Its value is visible in a modest operation: Audy can find the materials affected by a proposed change without reconstructing their relationships from memory. Bring one active task and its supporting records. A table in an ordinary document is enough to begin.
 
 ## A graph is a set of meaningful connections
 
@@ -30,7 +30,7 @@ You can read a connection as a short sentence. Put the starting item first, then
 
 ## Begin with a question you cannot answer easily
 
-Maya writes, “If I add handling for an explicitly authorized deadline amendment, what must I inspect before accepting the change?” This is different from asking for every document about time. It concerns the consequences of a particular revision.
+Audy writes, “If I add handling for an explicitly authorized deadline amendment, what must I inspect before accepting the change?” This is different from asking for every document about time. It concerns the consequences of a particular revision.
 
 Her current instruction is now v3, following Chapter 11’s approved conflict-handling revision. It links to that distillation record, the review sheet, and the earlier two-pass practice packet. The packet includes a failed output with an invented Wednesday date and a changed input whose timing is only “soon.” Those examples constrain any new rule: recognizing an authorized amendment should not reintroduce date invention or treat an unresolved contradiction as a settled change.
 
@@ -44,27 +44,27 @@ Write down how you currently answer the question. Note the documents you open, t
 
 ## Give each item a stable identity
 
-A title helps a person recognize a record. An identifier helps preserve that record's identity when its title changes. Maya can call the project “Action-list workshop” today and refine its public name later without changing which project the history describes.
+A title helps a person recognize a record. An identifier helps preserve that record's identity when its title changes. Audy can call the project “Action-list workshop” today and refine its public name later without changing which project the history describes.
 
 Her first item table contains an identifier, a readable name, a kind of item, its current status, and a location. The identifier can be as simple as `instruction-v2` or `run-02`. It does not need to be globally unique across the internet. It needs to be unambiguous within the working set.
 
-The difference between a record and its version matters. A current-instruction pointer is intended to resolve to whichever version has been approved. A historical test must identify the particular version it used. If Maya points both to a generic “latest instruction,” she will lose the ability to explain an earlier failure after the instruction changes.
+The difference between a record and its version matters. A current-instruction pointer is intended to resolve to whichever version has been approved. A historical test must identify the particular version it used. If Audy points both to a generic “latest instruction,” she will lose the ability to explain an earlier failure after the instruction changes.
 
 She therefore distinguishes the current pointer from the versioned instruction. The pointer can change through an approved update. The relationship “run-01 used instruction v1” remains attached to that historical version. This preserves the observation without forcing a new task to use old material.
 
 Do not make every sentence a separate node. A small project often works well with document-level items and links to specific headings. Create a finer-grained item when you need to distinguish its status, evidence, or consequences from the rest of the document. A disputed claim inside an otherwise useful source may deserve its own record; a routine explanatory sentence probably does not.
 
-Maya begins with the current procedure, earlier versions, and relevant examples. The [knowledge-map artifact](../artifacts/12-knowledge-map.md) supplies her item and relationship tables. Let your own question determine how many items you need.
+Audy begins with the current procedure, earlier versions, and relevant examples. The [knowledge-map artifact](../artifacts/12-knowledge-map.md) supplies her item and relationship tables. Let your own question determine how many items you need.
 
 ## Use verbs that change what you do next
 
 The relationship table has three essential columns: from, relationship, and to. A note beside the row explains the relevant scope or source location. The table becomes useful when its verbs imply a concrete reading operation.
 
-“Uses” tells Maya which instruction was supplied to an attempt. “Tests” tells her which requirement an example examines. “Explains” points from a rationale to the decision it interprets. “Supersedes” preserves the difference between a replacement and an additional alternative. These verbs do different work.
+“Uses” tells Audy which instruction was supplied to an attempt. “Tests” tells her which requirement an example examines. “Explains” points from a rationale to the decision it interprets. “Supersedes” preserves the difference between a replacement and an additional alternative. These verbs do different work.
 
 Be especially careful with “supports.” A synthetic example may support a judgment that a particular output violates a stated requirement. It cannot, by itself, support a claim about customer demand or general learning gains. The type of relationship must preserve the limits of the underlying material.
 
-Maya uses “illustrates” for a constructed teaching specimen where “demonstrates reliability” would overstate the evidence. Her table can still show which behavior the specimen is intended to make inspectable. A clear label gives the next reader both the route and the appropriate interpretation.
+Audy uses “illustrates” for a constructed teaching specimen where “demonstrates reliability” would overstate the evidence. Her table can still show which behavior the specimen is intended to make inspectable. A clear label gives the next reader both the route and the appropriate interpretation.
 
 You do not need an elaborate dictionary of relation types. Start with ordinary verbs you can apply consistently. If two people interpret a verb differently, add a one-sentence explanation beside the map. If you find yourself inventing many nearly identical verbs, simplify before expanding the vocabulary.
 
@@ -72,11 +72,11 @@ A useful relation also has a stopping point. “Depends on” can become so broa
 
 ## Walk a path before drawing a picture
 
-Maya tries the question from the beginning of the chapter. She starts at the project, follows its current pointer to instruction v3, and follows the instruction’s links to the distillation decision and retained review criteria. The sheet leads her to the two supplied test cases. She opens the cases and inspects what they establish.
+Audy tries the question from the beginning of the chapter. She starts at the project, follows its current pointer to instruction v3, and follows the instruction’s links to the distillation decision and retained review criteria. The sheet leads her to the two supplied test cases. She opens the cases and inspects what they establish.
 
 Run-01 contains an unsupported Wednesday date. Its history shows an incomplete instruction migration: the owner correction was retained while an obsolete deadline suggestion remained. Run-02 preserves “soon” without turning it into a date. These cases protect two distinctions that the proposed amendment-handling extension must preserve. Chapter 11’s conflict case adds a third: without evidence of supersession, keep the conflicting dates unresolved.
 
-The route does not establish how the proposed amendment case will behave. It identifies the current constraints and the materials that need review. Maya writes a new proposed case rather than silently changing the old ones. An honest answer to her original question is now possible: review the governing instruction, the review sheet, the relevant examples, and the rationale; then test the extension separately.
+The route does not establish how the proposed amendment case will behave. It identifies the current constraints and the materials that need review. Audy writes a new proposed case rather than silently changing the old ones. An honest answer to her original question is now possible: review the governing instruction, the review sheet, the relevant examples, and the rationale; then test the extension separately.
 
 This is a graph query performed by a person. A query is simply a question you ask of the represented information. Software can automate parts of the traversal when the collection grows, but the useful behavior is already present in the manual route.
 
@@ -86,11 +86,11 @@ Record the route you followed and the answer it allowed. If a missing edge force
 
 ## Repair a broken relationship without rewriting history
 
-Consider an intentionally broken version of Maya's map. The run-01 row points to instruction v2 as the version used. Every location opens successfully. A link checker might report no problem. The map still tells a false story.
+Consider an intentionally broken version of Audy's map. The run-01 row points to instruction v2 as the version used. Every location opens successfully. A link checker might report no problem. The map still tells a false story.
 
 The packet shows that the flawed output belongs with the intermediate v1, which retained the conflicting deadline instruction. If a reviewer follows the incorrect relationship, they may conclude that v2 produced the same failure under the same conditions. They could reject the wrong revision or spend time repairing a rule that was never supplied to that attempt.
 
-Maya repairs the historical relationship to point to v1. She keeps the current pointer aimed at v3, which already includes the separately reviewed Chapter 11 addition. She then repeats both walks: a new drafting task reaches the current instruction; a review of run-01 reaches its actual specimen version. The two questions now resolve differently for a good reason.
+Audy repairs the historical relationship to point to v1. She keeps the current pointer aimed at v3, which already includes the separately reviewed Chapter 11 addition. She then repeats both walks: a new drafting task reaches the current instruction; a review of run-01 reaches its actual specimen version. The two questions now resolve differently for a good reason.
 
 This repair illustrates why file integrity and meaning need separate inspection. A valid filename cannot establish that the relationship is accurate. The right record may be present but assigned the wrong role. Your review needs a question about what the connection claims, not only whether the link opens.
 
@@ -102,13 +102,13 @@ The graph helps expose that uncertainty because the absent relationship has a vi
 
 A graph can represent disagreement without resolving it. Two source records may make incompatible claims. A later note may question a previous inference. A project can contain both an approved decision and an open challenge to that decision, provided their roles are clear.
 
-The approved Chapter 11 procedure remains relevant when a proposed amendment is itself ambiguous. Suppose one synthetic note says the worksheet is due Friday and a second says the same commitment moved to Monday. Without further context, Maya cannot know whether the second statement records an approved change or a conflicting recollection. Adding both dates as if they were compatible facts would conceal the problem. Selecting the newer file would also impose a rule the evidence has not established.
+The approved Chapter 11 procedure remains relevant when a proposed amendment is itself ambiguous. Suppose one synthetic note says the worksheet is due Friday and a second says the same commitment moved to Monday. Without further context, Audy cannot know whether the second statement records an approved change or a conflicting recollection. Adding both dates as if they were compatible facts would conceal the problem. Selecting the newer file would also impose a rule the evidence has not established.
 
 Following the already-approved procedure, she would keep the statements linked to their respective sources and mark the conflict as unresolved. The current instruction requires clarification before producing a single scheduled date. An approved resolution, if obtained, would become a separate decision with its own support and scope.
 
 This approach does not require you to turn uncertainty into a precise probability. A plain status such as “disputed,” “proposed,” or “awaiting confirmation” may be more useful than an unexplained confidence score. The reader needs to know what action is justified now and what information is missing.
 
-Absence also needs careful interpretation. A missing “has owner” relationship may mean no owner was assigned, the source did not mention one, or the information has not yet been entered. Those are different conditions. In Maya's exercise, the notes explicitly identify some missing assignments. Preserve that wording rather than asking an empty graph cell to carry all three meanings.
+Absence also needs careful interpretation. A missing “has owner” relationship may mean no owner was assigned, the source did not mention one, or the information has not yet been entered. Those are different conditions. In Audy's exercise, the notes explicitly identify some missing assignments. Preserve that wording rather than asking an empty graph cell to carry all three meanings.
 
 Choose an explicit note when absence matters to a decision. This keeps the map readable without pretending every unknown is a known negative. The graph represents what has been recorded under stated rules; it is not a complete account of everything that exists.
 
@@ -118,9 +118,9 @@ An assistant can help identify candidate relationships in a supplied working set
 
 The [map artifact](../artifacts/12-knowledge-map.md) includes a reusable prompt. Its most useful feature is the separation between a proposed edge and an accepted edge. A fluent sentence about two documents is still a claim about their relationship.
 
-For example, an assistant might propose that Maya's action-list criteria are “validated by” her synthetic workshop. She should reject that relation. The examples let her inspect whether a proposed output follows the criteria. They do not supply learner outcomes that validate the design. A narrower relation such as “used to review” may accurately describe the work.
+For example, an assistant might propose that Audy's action-list criteria are “validated by” her synthetic workshop. She should reject that relation. The examples let her inspect whether a proposed output follows the criteria. They do not supply learner outcomes that validate the design. A narrower relation such as “used to review” may accurately describe the work.
 
-Another proposal might link a rejected completeness rule to the current instruction with the verb “requires.” The words in both records overlap, but the status is reversed. Maya checks the surrounding text and changes the relation to preserve the rejected history. Similarity helped locate the records; it did not settle their relationship.
+Another proposal might link a rejected completeness rule to the current instruction with the verb “requires.” The words in both records overlap, but the status is reversed. Audy checks the surrounding text and changes the relation to preserve the rejected history. Similarity helped locate the records; it did not settle their relationship.
 
 Review the proposed connections in batches small enough to inspect. Open the source locations for consequential edges. A suggested link that affects current instructions, permissions, or a customer claim deserves more attention than a navigational link between two harmless examples. This is a judgment about the consequence of an error, not a need to approve every click.
 
@@ -130,7 +130,7 @@ When no useful connection emerges, keep the item separate or remove it from the 
 
 A visual map can make a short route easier to see. It can also hide meaning behind a dense network of dots. The same collection may need different views for different questions: one view for current instructions, another for evidence history, and another for dependencies affected by a change.
 
-Maya's first view would show the current pointer, instruction v3, the distillation decision, and the relevant review cases. The historical view would add instructions v1 and v2 and the migration diagnosis. Neither needs to display every curiosity note or every source in the project.
+Audy's first view would show the current pointer, instruction v3, the distillation decision, and the relevant review cases. The historical view would add instructions v1 and v2 and the migration diagnosis. Neither needs to display every curiosity note or every source in the project.
 
 Keep labels readable and relationships named. A line whose meaning depends entirely on its color is difficult to use when printed, viewed at a small size, or read by someone who cannot distinguish the colors. Supply the same relationships in text or a table, as the chapter artifact does.
 
@@ -142,7 +142,7 @@ You may find that the table remains the best view. It is easy to edit, compare, 
 
 Every explicit relationship becomes something you may need to maintain. If the map duplicates a long explanation from another file, both copies can drift. Prefer a short relation and a precise link to the maintained source when that is sufficient.
 
-Maya reviews the map when an instruction changes, a test is added, or a record is moved. These events give her a reason to inspect particular edges. She does not reread every historical document whenever she opens the project.
+Audy reviews the map when an instruction changes, a test is added, or a record is moved. These events give her a reason to inspect particular edges. She does not reread every historical document whenever she opens the project.
 
 During the review, she asks whether the affected locations still open, whether the relationships remain accurate, and whether a current pointer still identifies the approved version. She also asks whether any new record depends on material outside the portable working set. A useful relationship to an inaccessible source should be labeled as such.
 
@@ -174,7 +174,7 @@ Repair one missing or incorrect relationship. Reopen the underlying records to j
 
 Your completion evidence is a small usable map, an actual question it helped answer, and a checked repair. A dense picture or a high edge count is unnecessary. Keep one unanswered question visible if the evidence does not settle it.
 
-Maya leaves with a route through the materials that govern and explain her workshop examples. The map helps her find the relevant judgments. The next problem is whether those judgments can guide repeated work without becoming detached from their reasons. [Chapter 13](13-the-memory-flywheel.md) develops that practice through a durable verdict record and a later attempt that must use it.
+Audy leaves with a route through the materials that govern and explain her workshop examples. The map helps her find the relevant judgments. The next problem is whether those judgments can guide repeated work without becoming detached from their reasons. [Chapter 13](13-the-memory-flywheel.md) develops that practice through a durable verdict record and a later attempt that must use it.
 
 ## References
 

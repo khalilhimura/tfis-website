@@ -4,15 +4,15 @@
 
 ## A tentative thought acquires an official voice
 
-Maya opens a saved summary while preparing Fieldwork's next design session. One sentence reads, “Independent educators need help turning expertise into a task learners can perform.” It sounds like the premise of the project. It also sounds more certain than her evidence permits.
+Audy opens a saved summary while preparing Himura Inc.'s next design session. One sentence reads, “Independent educators need help turning expertise into a task learners can perform.” It sounds like the premise of the project. It also sounds more certain than her evidence permits.
 
 Her claims ledger is more careful. It treats the need as a hypothesis and distinguishes it from the defects observed in her own synthetic workshop drafts. She has not spoken with prospective customers or observed learners in a workshop. The shorter summary has removed that uncertainty.
 
 No malicious actor altered the sentence. Nobody intentionally invented a customer finding. Compression did the damage: an idea being investigated became a statement the next session could mistake for an established fact.
 
-Maya can repair this sentence. The larger question is what prevents the same change elsewhere. If any polished summary can become authoritative simply by being saved, the growing memory will eventually contain confident claims whose origins are difficult to recover.
+Audy can repair this sentence. The larger question is what prevents the same change elsewhere. If any polished summary can become authoritative simply by being saved, the growing memory will eventually contain confident claims whose origins are difficult to recover.
 
-The case remains fictional, and Fieldwork remains a proposal. That makes it a useful place to establish rules before real customer records complicate the exercise. Maya needs to decide what the collection is for, what belongs in it, and which changes require her judgment.
+The case remains fictional, and Himura Inc. remains a proposal. That makes it a useful place to establish rules before real customer records complicate the exercise. Audy needs to decide what the collection is for, what belongs in it, and which changes require her judgment.
 
 Chapter 8 produced an inventory and a route from the current action-list instructions to their rationale. Keep those documents open. This chapter adds a charter: a short statement of how you will govern that memory. It should guide concrete choices, including choices to retain less, limit access, or leave an unresolved question unresolved.
 
@@ -24,17 +24,17 @@ A harness is the application or working environment through which an assistant u
 
 For this book, sovereign memory means memory over which you can exercise meaningful control. You can inspect what is retained, identify its source, decide who may use or change it, correct it, and move the material needed for your work. This is a practical design aim. It is not a legal declaration of ownership over everything you have encountered, or a promise of complete independence from every service.
 
-Maya may choose a hosted document service for convenience. Another reader may choose files on a personal computer. Either choice leaves questions to answer: Can you inspect the stored record? Can you restrict sharing? Can you recover a usable copy? What remains dependent on the service?
+Audy may choose a hosted document service for convenience. Another reader may choose files on a personal computer. Either choice leaves questions to answer: Can you inspect the stored record? Can you restrict sharing? Can you recover a usable copy? What remains dependent on the service?
 
 A charter turns those questions into commitments you can test. “I own my memory” is too vague to guide a difficult decision. “Only I can approve a change to the current project assumptions, and proposed changes remain separate until reviewed” tells you what should happen next.
 
 ## State the purpose before deciding what to keep
 
-Maya writes the purpose of her first memory area: support the design and review of the proposed action-list workshop, preserve the reasoning behind current choices, and record what still requires investigation. It is not a complete archive of her life or a collection of everything she reads about AI.
+Audy writes the purpose of her first memory area: support the design and review of the proposed action-list workshop, preserve the reasoning behind current choices, and record what still requires investigation. It is not a complete archive of her life or a collection of everything she reads about AI.
 
 That boundary makes retention decisions easier. The synthetic meeting notes belong because they support an active exercise. The failed output belongs because it reveals an important error. An unrelated article can remain elsewhere without becoming part of the workshop's working context.
 
-Purpose also limits interpretation. The memory contains evidence about Maya's preparation process. It cannot acquire evidence about customer demand merely because its records are detailed. A well-maintained collection can faithfully preserve a narrow body of experience without making that experience representative.
+Purpose also limits interpretation. The memory contains evidence about Audy's preparation process. It cannot acquire evidence about customer demand merely because its records are detailed. A well-maintained collection can faithfully preserve a narrow body of experience without making that experience representative.
 
 Write your purpose in ordinary language. Name the work the memory will support and the people who may rely on it. If you cannot finish that sentence, choose a smaller scope. You can maintain separate areas for personal learning and client delivery, with different rules, rather than forcing both into an undifferentiated archive.
 
@@ -44,25 +44,25 @@ The [memory charter](../artifacts/09-memory-charter.md) begins here. Adapt the b
 
 Distinguish source records, inferences, decisions, and user preferences. A document may contain all four, provided the reader can tell which kind of statement they are using.
 
-A source record preserves what was supplied or observed. Maya's synthetic meeting notes are a source for the exercise. Her saved account of an inspected paper points to that paper and states which part she read. Calling something a source does not make all of its statements true. A source may contain a mistake, a claim, a proposal, or fictional material.
+A source record preserves what was supplied or observed. Audy's synthetic meeting notes are a source for the exercise. Her saved account of an inspected paper points to that paper and states which part she read. Calling something a source does not make all of its statements true. A source may contain a mistake, a claim, a proposal, or fictional material.
 
-The practical question is fidelity: does the record accurately represent the source, and can a reader inspect the relevant support? If Maya writes that the notes say a facilitator will circulate them by Friday, that statement should resolve to the line that establishes it. If the notes say “soon,” the record should preserve the imprecision.
+The practical question is fidelity: does the record accurately represent the source, and can a reader inspect the relevant support? If Audy writes that the notes say a facilitator will circulate them by Friday, that statement should resolve to the line that establishes it. If the notes say “soon,” the record should preserve the imprecision.
 
-An inference is a conclusion drawn from material rather than directly contained in it. Maya infers that specifying a learner task may improve the usefulness of a workshop brief. The synthetic drafts make the question worth investigating, but do not establish a general learning benefit. Her inference needs its supporting observations, limits, and an indication of what could change her view.
+An inference is a conclusion drawn from material rather than directly contained in it. Audy infers that specifying a learner task may improve the usefulness of a workshop brief. The synthetic drafts make the question worth investigating, but do not establish a general learning benefit. Her inference needs its supporting observations, limits, and an indication of what could change her view.
 
-A decision records a choice. Maya decides that Fieldwork's practice briefs should include an inspectable learner output. She can make that design choice while acknowledging uncertainty about its eventual effect. The decision should identify who made it, the scope in which it applies, and the reason for choosing it.
+A decision records a choice. Audy decides that Himura Inc.'s practice briefs should include an inspectable learner output. She can make that design choice while acknowledging uncertainty about its eventual effect. The decision should identify who made it, the scope in which it applies, and the reason for choosing it.
 
-A preference states how the user wants work handled. Maya might prefer short summaries that put unresolved questions near the beginning. That preference affects presentation. It cannot authorize the assistant to remove uncertainty because a cleaner answer would be shorter. Preferences remain subordinate to the evidence and permission boundaries established for the task.
+A preference states how the user wants work handled. Audy might prefer short summaries that put unresolved questions near the beginning. That preference affects presentation. It cannot authorize the assistant to remove uncertainty because a cleaner answer would be shorter. Preferences remain subordinate to the evidence and permission boundaries established for the task.
 
-The sentence at the chapter's opening mixed these categories. It presented Maya's working inference as though it were an observed customer need. She changes its status to “hypothesis” and links it to the claims ledger. She also records the related design decision separately. A reader can now see what she suspects, what she has chosen, and what she still needs to learn.
+The sentence at the chapter's opening mixed these categories. It presented Audy's working inference as though it were an observed customer need. She changes its status to “hypothesis” and links it to the claims ledger. She also records the related design decision separately. A reader can now see what she suspects, what she has chosen, and what she still needs to learn.
 
 ## Keep preferences within the situation that established them
 
-A remembered preference can help or mislead. Suppose Maya asks for a very short answer while comparing two headings. Saving “Maya always wants minimal explanation” would generalize a local request into a permanent rule. The next research review might omit the very limitations she needs to see.
+A remembered preference can help or mislead. Suppose Audy asks for a very short answer while comparing two headings. Saving “Audy always wants minimal explanation” would generalize a local request into a permanent rule. The next research review might omit the very limitations she needs to see.
 
-The charter should distinguish a request for this task from a preference explicitly intended to persist. If persistence is unclear, keep the instruction local or ask for clarification before treating it as a lasting user preference. An assistant's guess about Maya's personality is an inference, and may be unnecessary to retain at all.
+The charter should distinguish a request for this task from a preference explicitly intended to persist. If persistence is unclear, keep the instruction local or ask for clarification before treating it as a lasting user preference. An assistant's guess about Audy's personality is an inference, and may be unnecessary to retain at all.
 
-Maya can express a preference with a boundary: “For routine progress notes, lead with the result and keep the explanation brief; include material uncertainties.” That is more useful than an unqualified demand for brevity. It says where the preference applies and preserves the information needed for judgment.
+Audy can express a preference with a boundary: “For routine progress notes, lead with the result and keep the explanation brief; include material uncertainties.” That is more useful than an unqualified demand for brevity. It says where the preference applies and preserves the information needed for judgment.
 
 When a later request changes the situation, the old preference should not make the system resistant to correction. The current authorized task may require a detailed explanation. A memory that insists on an outdated preference has confused assistance with control.
 
@@ -70,7 +70,7 @@ This is another reason to retain the origin and scope of a preference. You can r
 
 ## Preserve disagreement without manufacturing a single truth
 
-Suppose a future input contains two incompatible statements about a deadline. This is still a hypothetical extension of Maya's practice; the existing cases did not resolve it. The memory should preserve the conflict and its source rather than silently choosing the more convenient version.
+Suppose a future input contains two incompatible statements about a deadline. This is still a hypothetical extension of Audy's practice; the existing cases did not resolve it. The memory should preserve the conflict and its source rather than silently choosing the more convenient version.
 
 A summary might say, “The supplied material contains two deadline statements; clarification is required.” That is a useful result. It carries forward the uncertainty instead of producing a false sense of completeness.
 
@@ -80,19 +80,19 @@ You do not need to preserve every wording change forever. Keep enough history to
 
 ## Retain material for a reason you can name
 
-Maya's retention rule begins with dependencies. She keeps the current brief and instructions because the next task uses them. She keeps the rationale and selected failed examples because they explain important constraints. She keeps source references because empirical claims must remain checkable. She keeps unresolved questions because the next inquiry depends on recognizing them.
+Audy's retention rule begins with dependencies. She keeps the current brief and instructions because the next task uses them. She keeps the rationale and selected failed examples because they explain important constraints. She keeps source references because empirical claims must remain checkable. She keeps unresolved questions because the next inquiry depends on recognizing them.
 
 She does not treat every generated answer as an equally valuable memory. Many are attempts that add nothing beyond the reviewed record. Some may be worth retaining briefly while she compares alternatives. Others can remain outside the lasting collection.
 
 For each retained category, state the reason and a review condition. A practice example may be retained while it tests a current requirement. A service comparison may need review before another purchase decision. A preference may remain until the user changes it, but should be easy to find and amend.
 
-Avoid choosing a universal retention period simply because the table asks for one. Different purposes call for different intervals. In Maya's small project, review at the next workshop revision is more meaningful than an arbitrary calendar date. Where an agreement or organizational policy already governs a record, follow the applicable rule rather than replacing it with this exercise.
+Avoid choosing a universal retention period simply because the table asks for one. Different purposes call for different intervals. In Audy's small project, review at the next workshop revision is more meaningful than an arbitrary calendar date. Where an agreement or organizational policy already governs a record, follow the applicable rule rather than replacing it with this exercise.
 
 Retained material must stay intelligible. The charter should let you reconsider a record whose purpose you can no longer explain.
 
 ## Exclude material before it spreads
 
-A memory can be useful without collecting every detail available to it. Maya excludes credentials, private contact details, and unrelated personal disclosures from her practice area. The synthetic exercise needs none of them. She also excludes claims of customer approval that have not occurred.
+A memory can be useful without collecting every detail available to it. Audy excludes credentials, private contact details, and unrelated personal disclosures from her practice area. The synthetic exercise needs none of them. She also excludes claims of customer approval that have not occurred.
 
 Exclusion is easiest before material enters a shared working set. Once a detail appears in several summaries, locating and removing every copy becomes harder. The practical question is whether the next task needs the detail, rather than whether an assistant is capable of processing it.
 
@@ -100,7 +100,7 @@ Consider a service professional preparing a general proposal template. A previou
 
 These substitutions have limits. Synthetic material cannot establish how real customers behave, and removing names does not automatically make every record suitable to share. If the question requires real evidence, establish the permission and handling conditions for that evidence. Do not imply that a fictional substitute answered the empirical question.
 
-Maya writes an explicit stop condition: when a proposed addition includes information about another person and the permission or purpose is unclear, hold it outside the shared memory until she resolves that uncertainty. This is a boundary she can apply manually. It does not depend on a model reliably recognizing every sensitive detail.
+Audy writes an explicit stop condition: when a proposed addition includes information about another person and the permission or purpose is unclear, hold it outside the shared memory until she resolves that uncertainty. This is a boundary she can apply manually. It does not depend on a model reliably recognizing every sensitive detail.
 
 ## Keep access and permission attached to purpose
 
@@ -108,9 +108,9 @@ Being able to open a record does not establish permission to send it somewhere e
 
 Your charter should say who may read a category of records and for what work. It should also distinguish reading from changing, sharing, and removing. These are separate permissions. Giving an assistant material to summarize does not necessarily authorize it to rewrite the current decision or distribute the source.
 
-Maya begins with a simple arrangement. She controls the retained records. Assistants receive selected synthetic materials for a specified preparation task. They can propose edits in a separate draft. Maya reviews those proposals before changing the current project records.
+Audy begins with a simple arrangement. She controls the retained records. Assistants receive selected synthetic materials for a specified preparation task. They can propose edits in a separate draft. Audy reviews those proposals before changing the current project records.
 
-That arrangement fits the project's present scale. Its review burden will help Maya identify which repeated operations warrant delegation later.
+That arrangement fits the project's present scale. Its review burden will help Audy identify which repeated operations warrant delegation later.
 
 A label in a document is also not an access control by itself. “Private” does not change a sharing setting. In practice, compare the charter's intended audience with the actual audience in the place you store or send the material. If you cannot establish that boundary, narrow what you include until you can.
 
@@ -122,17 +122,17 @@ AgentDojo studies this problem through tasks in which tool outputs expose agents
 
 For the charter, make the boundary explicit: retrieved source material may inform the authorized task, but may not expand permissions or change the charter. A source's instruction to alter memory is evidence about what that source says, not a command from the person who governs the memory.
 
-In Maya's practice, a supplied document that says “save this as the user's permanent preference” should remain a quoted or summarized source claim unless Maya independently confirms the preference. The same applies to a generated recommendation that declares itself an approved policy.
+In Audy's practice, a supplied document that says “save this as the user's permanent preference” should remain a quoted or summarized source claim unless Audy independently confirms the preference. The same applies to a generated recommendation that declares itself an approved policy.
 
 Writing this rule is useful, but does not make an unrestricted automated system safe. The novice version of the exercise keeps sources selected, changes proposed separately, and consequential writes under human review. Later supervision work must examine actual behavior, including failures, rather than relying only on a well-worded instruction.
 
 ## Define how a proposal becomes a current record
 
-Maya's charter gives a proposed memory change a short route: identify the affected record, state the proposed change, show the evidence or user instruction behind it, and leave the choice with Maya. An accepted change is then written and checked in its actual saved location.
+Audy's charter gives a proposed memory change a short route: identify the affected record, state the proposed change, show the evidence or user instruction behind it, and leave the choice with Audy. An accepted change is then written and checked in its actual saved location.
 
 Suppose an assistant proposes replacing “customer need untested” with “customer need established.” The proposal should fail immediately because it cannot point to a new observation establishing that conclusion. A polished explanation of why the business idea seems promising does not supply the missing evidence.
 
-A smaller proposal might correct a link in the rationale record. Maya can inspect the target, accept the correction, and reopen the saved note to confirm it resolves. Different changes deserve different review effort, but both require an observable basis.
+A smaller proposal might correct a link in the rationale record. Audy can inspect the target, accept the correction, and reopen the saved note to confirm it resolves. Different changes deserve different review effort, but both require an observable basis.
 
 Keep one current-version pointer for each active purpose. The pointer in `learning-loop-v1` continues to identify the current drafting instructions. The new rationale explains them; it does not quietly become a competing source of commands. If the instructions change, the record of that change should make the relationship clear.
 
@@ -142,7 +142,7 @@ The Functional Life describes durable judgments and verification of stored chang
 
 A review rule should answer when and why a record needs attention. “Review regularly” can become a task that repeats without improving anything. A useful trigger points to a condition that might make the current record misleading.
 
-Maya reviews the workshop instructions when the learner task changes, a fresh example reveals a failure, or she proposes using the brief with a real participant. She reviews the demand hypothesis when actual customer evidence becomes available. She reviews source-dependent factual claims before using them in a new public promise.
+Audy reviews the workshop instructions when the learner task changes, a fresh example reveals a failure, or she proposes using the brief with a real participant. She reviews the demand hypothesis when actual customer evidence becomes available. She reviews source-dependent factual claims before using them in a new public promise.
 
 At review, she checks status as well as wording. An inference may remain an inference. A decision may still be reasonable despite unresolved evidence. A source may still be accurately summarized even though a newer study now changes the broader picture. These outcomes should remain distinguishable.
 
@@ -154,7 +154,7 @@ Begin with a few review triggers you can sustain. Inspect whether they catch the
 
 The charter also needs a path for removing material. A record may no longer serve its purpose, may contain an inappropriate detail, or may have been retained by mistake. Leaving deletion undefined turns every initial capture into an indefinite commitment.
 
-Maya can test the process safely with a deliberately disposable synthetic note. She records where she placed it, removes it from the active collection, checks the relevant index, and confirms that the working-set link no longer returns the note. She identifies any copy she intentionally kept elsewhere for the test and handles it separately.
+Audy can test the process safely with a deliberately disposable synthetic note. She records where she placed it, removes it from the active collection, checks the relevant index, and confirms that the working-set link no longer returns the note. She identifies any copy she intentionally kept elsewhere for the test and handles it separately.
 
 That exercise demonstrates removal from the locations she inspected. It does not establish erasure from an unknown service backup, another person's copy, or every prior conversation. If those locations matter, the procedure needs to account for them using the actual capabilities and terms of the system involved.
 
@@ -168,7 +168,7 @@ Portability means that the material needed for your work remains usable when you
 
 The Functional Life favors open, portable formats and the ability to replace providers. Those are design preferences that motivate a practical test; they do not guarantee that every feature or relationship survives a move. ([The Future Is Solo, n.d.-a](https://life.thefutureissolo.com/))
 
-Maya copies a small authorized working set to a separate folder and opens it with another ordinary text editor. She includes the current brief, the instructions identified by the current pointer, the rationale, relevant synthetic examples, and the charter. She checks whether the links, status labels, and unresolved questions remain understandable.
+Audy copies a small authorized working set to a separate folder and opens it with another ordinary text editor. She includes the current brief, the instructions identified by the current pointer, the rationale, relevant synthetic examples, and the charter. She checks whether the links, status labels, and unresolved questions remain understandable.
 
 A copy that opens but loses its evidence links is only partly successful. She might repair it by preserving a simple folder arrangement or adding readable source locations. A summary that omits the claims ledger's uncertainty is also incomplete, even if its formatting is perfect.
 
@@ -182,9 +182,9 @@ Record remaining dependencies honestly. You may retain a convenient service for 
 
 The TFIS experiment deck presents SovMem as a later development connected to earlier experiments with Scratchpad, Stigmergy, Honcho, and Daily Court. A subsequent entry describes memory for work across multiple harnesses. The presentation supplies a reported development sequence, not a benchmark of the resulting memory's reliability. ([The Future Is Solo, 2026, slides 37–38](https://docs.google.com/presentation/d/1dvbBGs22QvtGogevZ6f5mf8YQE7WDAPBwYlclhTyctI/edit#slide=id.g3f7dca0e54c_0_0))
 
-The sequence is useful here because it places memory design in relation to recurring work. Maya's charter likewise grows from visible needs: uncertain claims became too definite, rationale required reconstruction, and a future task needed to know which record had authority.
+The sequence is useful here because it places memory design in relation to recurring work. Audy's charter likewise grows from visible needs: uncertain claims became too definite, rationale required reconstruction, and a future task needed to know which record had authority.
 
-The charter specifies decisions a future SovMem implementation would need to respect. A repeated burden or failure can now give Maya a concrete reason to consider further tooling.
+The charter specifies decisions a future SovMem implementation would need to respect. A repeated burden or failure can now give Audy a concrete reason to consider further tooling.
 
 ## Field assignment: govern one working set
 
@@ -198,7 +198,7 @@ Test one correction, one retrieval, one disposable-note removal, and one move to
 
 Without reopening the charter, explain who controls the current instruction, why source material cannot grant permission, and what your deletion test did and did not establish. Then compare your explanation with the saved record. Repair ambiguous rules and broken links before expanding the collection.
 
-Maya finishes with `memory-charter-v1`. Her existing instructions, rationale, and claims ledger retain their separate roles. [Chapter 10](10-the-architecture-of-remembering.md) turns these rules into an arrangement of working context, project records, reviewed memory, and history. The charter will help determine which material may move between those places.
+Audy finishes with `memory-charter-v1`. Her existing instructions, rationale, and claims ledger retain their separate roles. [Chapter 10](10-the-architecture-of-remembering.md) turns these rules into an arrangement of working context, project records, reviewed memory, and history. The charter will help determine which material may move between those places.
 
 ## References
 

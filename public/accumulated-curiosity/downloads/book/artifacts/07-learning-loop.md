@@ -83,7 +83,7 @@ tool actually saved it and the saved state was checked.
 I will review the result before adopting the change.
 ```
 
-## Worked sample: fictional Fieldwork
+## Worked sample: fictional Himura Inc.
 
 **Current project:** The synthetic thirty-minute meeting-notes-to-action-list workshop.
 

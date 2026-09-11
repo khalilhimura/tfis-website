@@ -4,15 +4,15 @@
 
 ## The files open; the next step is still unclear
 
-Maya copies a small Fieldwork recovery package into a separate location. The documents open. The filenames look familiar. A quick inspection could support the statement that the move worked.
+Audy copies a small Himura Inc. recovery package into a separate location. The documents open. The filenames look familiar. A quick inspection could support the statement that the move worked.
 
 Then she begins from the copied project index. The instruction it reaches preserves missing owners and imprecise dates, but does not include the approved handling of contradictory deadlines. She has restored an earlier package that predates the current `instructions-v3`. Nothing is corrupted. The copy accurately preserves a state that no longer represents the whole current procedure.
 
 This is a constructed recovery problem within the fictional case. It does not undo the earlier successful rehearsal. A previously tested package can remain readable while later decisions make it insufficient for current work. The question is which state this package actually supports.
 
-Maya's earlier tests established useful things: a correction could be recovered, a selected set could open elsewhere, and a restored example could preserve “soon.” The operating manual now depends on additional relationships and decisions. A stronger rehearsal should test those dependencies explicitly.
+Audy's earlier tests established useful things: a correction could be recovered, a selected set could open elsewhere, and a restored example could preserve “soon.” The operating manual now depends on additional relationships and decisions. A stronger rehearsal should test those dependencies explicitly.
 
-Fieldwork still has no customers, sales, observed learning gains, or deployed SovMem system. The work here is a defined portability drill. You will move a selected working set, reconstruct its meaning, challenge it with ordinary failures, and record what the results permit you to claim.
+Himura Inc. still has no customers, sales, observed learning gains, or deployed SovMem system. The work here is a defined portability drill. You will move a selected working set, reconstruct its meaning, challenge it with ordinary failures, and record what the results permit you to claim.
 
 ## Define the independence you want to test
 
@@ -22,7 +22,7 @@ These questions overlap without being identical. Readable files support file por
 
 The Functional Life favors portable formats and the ability to replace providers while retaining useful memory and work. This chapter turns that stated direction into a bounded exercise whose results and remaining dependencies can be inspected. ([The Future Is Solo, n.d.-a](https://life.thefutureissolo.com/))
 
-Maya chooses a modest claim to test: “I can reconstruct the current synthetic action-list workflow in a separate location, identify the governing instruction and permission boundaries, and produce a reviewable result without relying on the old conversation.” She does not claim that the copy can replace every search feature, tool integration, or model behavior.
+Audy chooses a modest claim to test: “I can reconstruct the current synthetic action-list workflow in a separate location, identify the governing instruction and permission boundaries, and produce a reviewable result without relying on the old conversation.” She does not claim that the copy can replace every search feature, tool integration, or model behavior.
 
 Write the claim before moving anything. It will determine the challenge you need and the point at which you can finish the drill and return to work.
 
@@ -30,7 +30,7 @@ Write the claim before moving anything. It will determine the challenge you need
 
 Use your own authorized project records, or begin with the [synthetic practice package](../artifacts/15-portability-fixture/START.md). The supplied package contains ordinary Markdown files and no executable actions. You can read them in a text editor or Markdown reader. A [ZIP copy](../artifacts/15-portability-fixture.zip) keeps the small folder together for downloading and extraction.
 
-The package is an instructional miniature, not a claim to contain Maya's entire accumulated project. Its filenames demonstrate the existing roles: a project index, `learning-loop-v1`, a current instruction, a superseded instruction, a charter, rationale, synthetic inputs, expected review properties, and a short operating procedure.
+The package is an instructional miniature, not a claim to contain Audy's entire accumulated project. Its filenames demonstrate the existing roles: a project index, `learning-loop-v1`, a current instruction, a superseded instruction, a charter, rationale, synthetic inputs, expected review properties, and a short operating procedure.
 
 The project index leads to `learning-loop-v1`, which remains the sole current-instruction selector within the example. The rationale explains the instruction and links to its support. The expected-output file is a review aid, not a source of facts about the supplied meeting. The historical instruction remains clearly labeled as superseded.
 
@@ -86,7 +86,7 @@ A copied system that changes every deadline to “unknown” has lost useful pre
 
 The package supplies an expected-output table so that a novice can compare these properties directly. Equivalent wording is acceptable when it preserves the same distinctions. The goal is semantic fidelity: the important meaning survives, even if punctuation or phrasing changes.
 
-Maya records the actual output and the relevant source passages. She does not use the expected answer as the input for the drafting step. Otherwise the exercise could become copying an answer instead of testing whether the reconstructed procedure handles the supplied evidence.
+Audy records the actual output and the relevant source passages. She does not use the expected answer as the input for the drafting step. Otherwise the exercise could become copying an answer instead of testing whether the reconstructed procedure handles the supplied evidence.
 
 This is a small practice case. Passing it establishes behavior on this input under the recorded conditions. It does not estimate reliability across all meetings, languages, writing styles, or future model versions.
 
@@ -104,7 +104,7 @@ The expected response retains the shared action and facilitator assignment, disp
 
 This test specifically examines the later conflict-handling decision developed in Chapter 11. A package containing only the earlier owner and “soon” rules could pass the first test while leaving this operation unspecified. Recovering several correct records is therefore insufficient if the missing one governs the present case.
 
-In the chapter's opening problem, Maya notices that the restored package identifies an earlier instruction. She leaves the copy intact as evidence of what was restored, compares it with the reviewed current state, and prepares an updated package containing the later approved instruction and its dependencies. She then repeats the destination check from that new package.
+In the chapter's opening problem, Audy notices that the restored package identifies an earlier instruction. She leaves the copy intact as evidence of what was restored, compares it with the reviewed current state, and prepares an updated package containing the later approved instruction and its dependencies. She then repeats the destination check from that new package.
 
 The repair is a controlled update from known reviewed material. It is not permission for the receiving assistant to invent a conflict policy because the old one seems incomplete. If the current decision cannot be recovered, the proper result is an unresolved reconstruction problem requiring review.
 
@@ -200,7 +200,7 @@ The useful question after repair is whether the relevant failure now produces th
 
 ## Interpret the result without awarding yourself a title
 
-Maya's successful repaired rehearsal would support a concrete statement: the selected current workflow can be reconstructed from its package, its source and authority relationships remain inspectable, and the supplied cases produce acceptable reviewed outputs in the tested environment. Any provider comparison adds only the behavior actually observed there.
+Audy's successful repaired rehearsal would support a concrete statement: the selected current workflow can be reconstructed from its package, its source and authority relationships remain inspectable, and the supplied cases produce acceptable reviewed outputs in the tested environment. Any provider comparison adds only the behavior actually observed there.
 
 The result would not establish independent control over every infrastructure dependency, secure unattended operation, or a financially sustainable solo enterprise. Those are broader questions. This chapter prepares evidence relevant to sovereignty; it does not confer the SSA-CMM level of Sovereign Architect.
 
@@ -216,7 +216,7 @@ Save the actual observations: which records opened, which relationships resolved
 
 The exercise passes its book-developed practice criteria when the complete package supports the intended task and the deliberate failures produce appropriate holds or scoped refusals. A test that detects its planted defect is working; record the defect and the successful detection without calling the defective package ready for ordinary use.
 
-Without an assistant, explain why an exact copy can preserve the wrong state, why a source cannot authorize unrelated access, and which result would justify continuing after a failure. Maya finishes with `portability-drill-v1` and explicit remaining dependencies. The Memory arc ends with records and procedures she can inspect, challenge, and recover. [Chapter 16](16-from-knowledge-to-capability.md) asks what she can demonstrably do with that foundation.
+Without an assistant, explain why an exact copy can preserve the wrong state, why a source cannot authorize unrelated access, and which result would justify continuing after a failure. Audy finishes with `portability-drill-v1` and explicit remaining dependencies. The Memory arc ends with records and procedures she can inspect, challenge, and recover. [Chapter 16](16-from-knowledge-to-capability.md) asks what she can demonstrably do with that foundation.
 
 ## References
 
