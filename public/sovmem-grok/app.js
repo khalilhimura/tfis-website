@@ -311,7 +311,7 @@ function renderEditView() {
       typeBadge.textContent = selectedType;
     }
 
-    // Show/hide revision reason for edits
+    // IA fix: Show revision reason for any edit (not just when status requires it)
     const revisionGroup = document.getElementById('revision-reason-group');
     if (isEdit) {
       revisionGroup.style.display = 'block';
@@ -402,13 +402,15 @@ function saveRecord() {
     const record = createRecord(data);
     state.currentRecord = record;
     state.selectedType = null; // Reset after save
-    state.currentView = 'detail';
+    // IA fix: Save lands on list
+    state.currentView = 'list';
   } else {
     const revisionReason = document.getElementById('revision-reason').value.trim();
     updateRecord(state.currentRecord.id, data, revisionReason);
     state.currentRecord = getRecord(state.currentRecord.id);
     state.selectedType = null; // Reset after save
-    state.currentView = 'detail';
+    // IA fix: Save lands on list
+    state.currentView = 'list';
   }
 
   render();
@@ -447,8 +449,10 @@ function exportRecordsJSON() {
 }
 
 async function exportOKF() {
-  if (!window.JSZip) {
-    alert('JSZip library not loaded. Please refresh the page and try again.');
+  // Hard check for JSZip - fail loudly if missing
+  if (typeof JSZip === 'undefined' || !window.JSZip) {
+    alert('ERROR: JSZip library failed to load.\n\nOKF export requires JSZip. Please refresh the page and try again.\n\nIf the problem persists, try clearing your browser cache (Ctrl+Shift+R or Cmd+Shift+R).');
+    console.error('JSZip not loaded - OKF export cannot proceed');
     return;
   }
 
@@ -511,14 +515,26 @@ Exported from SovMemGrok on ${date}.
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
     a.href = url;
-    a.download = `sovmem-grok-okf-${date}.zip`;
+    const filename = `sovmem-grok-okf-${date}.zip`;
+    
+    // Assert filename correctness
+    if (!filename.startsWith('sovmem-grok-okf-') || !filename.endsWith('.zip')) {
+      console.error('Generated invalid OKF filename:', filename);
+      alert('ERROR: Failed to generate valid OKF filename. Please report this issue.');
+      URL.revokeObjectURL(url);
+      return;
+    }
+    
+    a.download = filename;
     document.body.appendChild(a);
     a.click();
     document.body.removeChild(a);
     URL.revokeObjectURL(url);
+    
+    console.log('OKF export successful:', filename);
   } catch (e) {
-    console.error('Export failed:', e);
-    alert('Export failed. Please try again.');
+    console.error('OKF export failed:', e);
+    alert('ERROR: OKF export failed.\n\n' + e.message + '\n\nPlease try again or export as JSON instead.');
   }
 }
 
