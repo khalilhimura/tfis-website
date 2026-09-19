@@ -873,7 +873,8 @@ window.sovmem = {
   viewRecord,
   editCurrentRecord,
   deleteCurrentRecord,
-  backToList
+  backToList,
+  refresh: render // For WebMCP bridge to trigger UI updates
 };
 
 // Start app
