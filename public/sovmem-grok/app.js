@@ -479,7 +479,8 @@ Exported from SovMemGrok on ${date}.
   // Add claims to index
   claimRecords.forEach(record => {
     const slug = generateSlug(record.title, record.id);
-    indexContent += `* [${record.title}](claims/${slug}.md) - ${record.body.substring(0, 100).replace(/\n/g, ' ')}${record.body.length > 100 ? '...' : ''}\n`;
+    const reviewLabel = record.review_status.replace(/-/g, ' ');
+    indexContent += `* [${record.title}](claims/${slug}.md) - ${reviewLabel}\n`;
     zip.file(`claims/${slug}.md`, generateOKFConcept(record));
   });
 
@@ -488,7 +489,8 @@ Exported from SovMemGrok on ${date}.
   // Add decisions to index
   decisionRecords.forEach(record => {
     const slug = generateSlug(record.title, record.id);
-    indexContent += `* [${record.title}](decisions/${slug}.md) - ${record.body.substring(0, 100).replace(/\n/g, ' ')}${record.body.length > 100 ? '...' : ''}\n`;
+    const reviewLabel = record.review_status.replace(/-/g, ' ');
+    indexContent += `* [${record.title}](decisions/${slug}.md) - ${reviewLabel}\n`;
     zip.file(`decisions/${slug}.md`, generateOKFConcept(record));
   });
 
@@ -497,7 +499,8 @@ Exported from SovMemGrok on ${date}.
   // Add corrections to index
   correctionRecords.forEach(record => {
     const slug = generateSlug(record.title, record.id);
-    indexContent += `* [${record.title}](corrections/${slug}.md) - ${record.body.substring(0, 100).replace(/\n/g, ' ')}${record.body.length > 100 ? '...' : ''}\n`;
+    const reviewLabel = record.review_status.replace(/-/g, ' ');
+    indexContent += `* [${record.title}](corrections/${slug}.md) - ${reviewLabel}\n`;
     zip.file(`corrections/${slug}.md`, generateOKFConcept(record));
   });
 
@@ -570,7 +573,6 @@ function generateOKFConcept(record) {
   const frontmatter = {
     type: typeCapitalized,
     title: record.title,
-    description: record.body.substring(0, 150).replace(/\n/g, ' ') + (record.body.length > 150 ? '...' : ''),
     tags: ['sovmem-grok', record.type],
     generated: {
       by: 'human:local',
@@ -600,7 +602,6 @@ function generateOKFConcept(record) {
   let yaml = '---\n';
   yaml += `type: ${frontmatter.type}\n`;
   yaml += `title: "${frontmatter.title.replace(/"/g, '\\"')}"\n`;
-  yaml += `description: "${frontmatter.description.replace(/"/g, '\\"')}"\n`;
   yaml += `tags: [${frontmatter.tags.map(t => `"${t}"`).join(', ')}]\n`;
   yaml += `generated:\n  by: ${frontmatter.generated.by}\n  at: ${frontmatter.generated.at}\n`;
   yaml += `status: ${frontmatter.status}\n`;
@@ -620,9 +621,6 @@ function generateOKFConcept(record) {
 
   // Body
   let body = record.body + '\n\n';
-  
-  // Stop rule section
-  body += `## Stop Rule\n\n${record.stop_rule}\n\n`;
 
   // Revision history if present
   if (record.revisions && record.revisions.length > 0) {
