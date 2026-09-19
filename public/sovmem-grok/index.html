@@ -37,7 +37,8 @@
           <p class="sovmem-tagline">memory that survives the session · filter, not faucet</p>
         </div>
         <div class="sovmem-actions">
-          <button class="btn btn--small btn--ghost" id="export-btn" title="Export records to JSON">Export</button>
+          <button class="btn btn--small btn--ghost" id="export-btn" title="Export as OKF v0.2 bundle">Export</button>
+          <button class="btn btn--small btn--ghost" id="export-json-btn" title="Export records to JSON">Export JSON</button>
           <button class="btn btn--small btn--ghost" id="import-btn" title="Import records from JSON">Import</button>
           <button class="btn btn--small btn--accent" id="new-record-btn">Capture</button>
         </div>
@@ -175,6 +176,7 @@
 
   <input type="file" id="import-file" accept=".json" style="display: none;">
 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js" integrity="sha512-XMVd28F1oH/O71fzwBnV7HucLxVwtxf26XV8P4wPk26EDxuGZ91N8bsOttmnomcCD3CS5ZMRL50H0GgOHvegtg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="app.js"></script>
 </body>
 </html>

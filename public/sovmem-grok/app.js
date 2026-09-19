@@ -428,7 +428,7 @@ function updateFilters() {
   render();
 }
 
-function exportRecords() {
+function exportRecordsJSON() {
   const data = {
     version: STORAGE_VERSION,
     exported_at: new Date().toISOString(),
@@ -444,6 +444,247 @@ function exportRecords() {
   a.click();
   document.body.removeChild(a);
   URL.revokeObjectURL(url);
+}
+
+async function exportOKF() {
+  if (!window.JSZip) {
+    alert('JSZip library not loaded. Please refresh the page and try again.');
+    return;
+  }
+
+  const zip = new JSZip();
+  const date = new Date().toISOString().split('T')[0];
+  
+  // Root index.md with okf_version
+  let indexContent = `---
+okf_version: "0.2"
+---
+
+# SovMemGrok Knowledge Bundle
+
+Exported from SovMemGrok on ${date}.
+
+## Claims
+
+`;
+
+  const claimRecords = state.records.filter(r => r.type === 'claim');
+  const decisionRecords = state.records.filter(r => r.type === 'decision');
+  const correctionRecords = state.records.filter(r => r.type === 'correction');
+
+  // Add claims to index
+  claimRecords.forEach(record => {
+    const slug = generateSlug(record.title, record.id);
+    indexContent += `* [${record.title}](claims/${slug}.md) - ${record.body.substring(0, 100).replace(/\n/g, ' ')}${record.body.length > 100 ? '...' : ''}\n`;
+    zip.file(`claims/${slug}.md`, generateOKFConcept(record));
+  });
+
+  indexContent += `\n## Decisions\n\n`;
+  
+  // Add decisions to index
+  decisionRecords.forEach(record => {
+    const slug = generateSlug(record.title, record.id);
+    indexContent += `* [${record.title}](decisions/${slug}.md) - ${record.body.substring(0, 100).replace(/\n/g, ' ')}${record.body.length > 100 ? '...' : ''}\n`;
+    zip.file(`decisions/${slug}.md`, generateOKFConcept(record));
+  });
+
+  indexContent += `\n## Corrections\n\n`;
+  
+  // Add corrections to index
+  correctionRecords.forEach(record => {
+    const slug = generateSlug(record.title, record.id);
+    indexContent += `* [${record.title}](corrections/${slug}.md) - ${record.body.substring(0, 100).replace(/\n/g, ' ')}${record.body.length > 100 ? '...' : ''}\n`;
+    zip.file(`corrections/${slug}.md`, generateOKFConcept(record));
+  });
+
+  zip.file('index.md', indexContent);
+
+  // Generate optional log.md with revision history
+  if (state.records.some(r => r.revisions && r.revisions.length > 0)) {
+    const logContent = generateLogMd();
+    zip.file('log.md', logContent);
+  }
+
+  // Generate and download zip
+  try {
+    const blob = await zip.generateAsync({ type: 'blob' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `sovmem-grok-okf-${date}.zip`;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+  } catch (e) {
+    console.error('Export failed:', e);
+    alert('Export failed. Please try again.');
+  }
+}
+
+function generateSlug(title, id) {
+  // Generate URL-safe slug from title, fallback to id-based slug
+  const slug = title
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '')
+    .substring(0, 50);
+  
+  return slug || `record-${id.split('-')[0]}`;
+}
+
+function generateOKFConcept(record) {
+  // Map SovMemGrok to OKF v0.2 per the brief
+  const typeCapitalized = record.type.charAt(0).toUpperCase() + record.type.slice(1);
+  
+  // Map review_status to OKF status and verified
+  let status = 'draft';
+  let verified = null;
+  
+  if (record.review_status === 'reviewed') {
+    status = 'stable';
+    verified = { by: 'human:local', at: record.updated_at };
+  } else if (record.review_status === 'unreviewed') {
+    status = 'draft';
+  } else if (record.review_status === 'needs-revision') {
+    status = 'draft';
+  }
+
+  // Build frontmatter
+  const frontmatter = {
+    type: typeCapitalized,
+    title: record.title,
+    description: record.body.substring(0, 150).replace(/\n/g, ' ') + (record.body.length > 150 ? '...' : ''),
+    tags: ['sovmem-grok', record.type],
+    generated: {
+      by: 'human:local',
+      at: record.created_at
+    },
+    status: status
+  };
+
+  // Add verified if reviewed
+  if (verified) {
+    frontmatter.verified = verified;
+  }
+
+  // Map provenance to sources
+  frontmatter.sources = [{
+    id: 'provenance',
+    resource: record.provenance,
+    title: record.provenance
+  }];
+
+  // Add sovmem extension fields
+  frontmatter.sovmem_id = record.id;
+  frontmatter.sovmem_stop_rule = record.stop_rule;
+  frontmatter.sovmem_review_status = record.review_status;
+
+  // Convert frontmatter to YAML
+  let yaml = '---\n';
+  yaml += `type: ${frontmatter.type}\n`;
+  yaml += `title: "${frontmatter.title.replace(/"/g, '\\"')}"\n`;
+  yaml += `description: "${frontmatter.description.replace(/"/g, '\\"')}"\n`;
+  yaml += `tags: [${frontmatter.tags.map(t => `"${t}"`).join(', ')}]\n`;
+  yaml += `generated:\n  by: ${frontmatter.generated.by}\n  at: ${frontmatter.generated.at}\n`;
+  yaml += `status: ${frontmatter.status}\n`;
+  
+  if (frontmatter.verified) {
+    yaml += `verified:\n  by: ${frontmatter.verified.by}\n  at: ${frontmatter.verified.at}\n`;
+  }
+  
+  yaml += `sources:\n`;
+  yaml += `  - id: ${frontmatter.sources[0].id}\n`;
+  yaml += `    resource: "${frontmatter.sources[0].resource.replace(/"/g, '\\"')}"\n`;
+  yaml += `    title: "${frontmatter.sources[0].title.replace(/"/g, '\\"')}"\n`;
+  yaml += `sovmem_id: "${frontmatter.sovmem_id}"\n`;
+  yaml += `sovmem_stop_rule: "${frontmatter.sovmem_stop_rule.replace(/"/g, '\\"')}"\n`;
+  yaml += `sovmem_review_status: ${frontmatter.sovmem_review_status}\n`;
+  yaml += '---\n\n';
+
+  // Body
+  let body = record.body + '\n\n';
+  
+  // Stop rule section
+  body += `## Stop Rule\n\n${record.stop_rule}\n\n`;
+
+  // Revision history if present
+  if (record.revisions && record.revisions.length > 0) {
+    body += `## Revision History\n\n`;
+    record.revisions.forEach(rev => {
+      const revDate = new Date(rev.timestamp).toISOString();
+      body += `- **${revDate}** — ${rev.reason} (fields: ${rev.fields.join(', ')})\n`;
+    });
+    body += '\n';
+  }
+
+  // Metadata footer
+  body += `## Metadata\n\n`;
+  body += `- Created: ${record.created_at}\n`;
+  body += `- Updated: ${record.updated_at}\n`;
+
+  return yaml + body;
+}
+
+function generateLogMd() {
+  // Generate chronological log from revision history
+  let log = '# Update Log\n\n';
+  
+  // Collect all events (creation + revisions)
+  const events = [];
+  
+  state.records.forEach(record => {
+    // Creation event
+    events.push({
+      date: record.created_at,
+      type: 'Creation',
+      title: record.title,
+      recordType: record.type
+    });
+    
+    // Revision events
+    if (record.revisions) {
+      record.revisions.forEach(rev => {
+        events.push({
+          date: rev.timestamp,
+          type: 'Update',
+          title: record.title,
+          recordType: record.type,
+          reason: rev.reason
+        });
+      });
+    }
+  });
+
+  // Sort newest first
+  events.sort((a, b) => new Date(b.date) - new Date(a.date));
+
+  // Group by date
+  const groupedByDate = {};
+  events.forEach(event => {
+    const dateKey = event.date.split('T')[0];
+    if (!groupedByDate[dateKey]) {
+      groupedByDate[dateKey] = [];
+    }
+    groupedByDate[dateKey].push(event);
+  });
+
+  // Generate log entries
+  Object.keys(groupedByDate).sort().reverse().forEach(date => {
+    log += `## ${date}\n\n`;
+    groupedByDate[date].forEach(event => {
+      const slug = generateSlug(event.title, '');
+      const path = `${event.recordType}s/${slug}.md`;
+      if (event.type === 'Creation') {
+        log += `* **Creation**: [${event.title}](${path})\n`;
+      } else {
+        log += `* **Update**: [${event.title}](${path}) — ${event.reason}\n`;
+      }
+    });
+    log += '\n';
+  });
+
+  return log;
 }
 
 function importRecords() {
@@ -561,7 +802,8 @@ function init() {
   document.getElementById('delete-btn').addEventListener('click', deleteCurrentRecord);
   document.getElementById('cancel-edit-btn').addEventListener('click', cancelEdit);
   document.getElementById('save-btn').addEventListener('click', saveRecord);
-  document.getElementById('export-btn').addEventListener('click', exportRecords);
+  document.getElementById('export-btn').addEventListener('click', exportOKF);
+  document.getElementById('export-json-btn').addEventListener('click', exportRecordsJSON);
   document.getElementById('import-btn').addEventListener('click', importRecords);
   document.getElementById('import-file').addEventListener('change', handleImportFile);
 
