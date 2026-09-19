@@ -15,6 +15,7 @@ let state = {
   currentView: 'list', // 'list', 'detail', 'edit'
   currentRecord: null,
   editMode: 'create', // 'create', 'update'
+  selectedType: null, // For type-first flow in create mode
   filters: {
     type: 'all',
     review: 'all',
@@ -281,21 +282,43 @@ function renderEditView() {
   const isEdit = state.editMode === 'update';
   const record = state.currentRecord;
 
-  // Populate form
-  document.getElementById('record-type').value = record?.type || '';
-  document.getElementById('record-title').value = record?.title || '';
-  document.getElementById('record-body').value = record?.body || '';
-  document.getElementById('record-provenance').value = record?.provenance || '';
-  document.getElementById('record-stop-rule').value = record?.stop_rule || '';
-  document.getElementById('record-review-status').value = record?.review_status || 'unreviewed';
-
-  // Show/hide revision reason for edits
-  const revisionGroup = document.getElementById('revision-reason-group');
-  if (isEdit) {
-    revisionGroup.style.display = 'block';
-    document.getElementById('revision-reason').value = '';
+  // For new records, show type picker first
+  const typePicker = document.getElementById('type-picker');
+  const form = document.getElementById('record-form');
+  
+  if (!isEdit && !state.selectedType) {
+    // Show type picker, hide form
+    typePicker.classList.remove('hidden');
+    form.classList.add('hidden');
   } else {
-    revisionGroup.style.display = 'none';
+    // Show form, hide type picker
+    typePicker.classList.add('hidden');
+    form.classList.remove('hidden');
+    
+    // Populate form
+    const selectedType = state.selectedType || record?.type || '';
+    document.getElementById('record-type').value = selectedType;
+    document.getElementById('record-title').value = record?.title || '';
+    document.getElementById('record-body').value = record?.body || '';
+    document.getElementById('record-provenance').value = record?.provenance || '';
+    document.getElementById('record-stop-rule').value = record?.stop_rule || '';
+    document.getElementById('record-review-status').value = record?.review_status || 'unreviewed';
+
+    // Update type badge display
+    const typeBadge = document.getElementById('selected-type-badge');
+    if (selectedType) {
+      typeBadge.setAttribute('data-type', selectedType);
+      typeBadge.textContent = selectedType;
+    }
+
+    // Show/hide revision reason for edits
+    const revisionGroup = document.getElementById('revision-reason-group');
+    if (isEdit) {
+      revisionGroup.style.display = 'block';
+      document.getElementById('revision-reason').value = '';
+    } else {
+      revisionGroup.style.display = 'none';
+    }
   }
 }
 
@@ -313,6 +336,7 @@ function showView(viewId) {
 function newRecord() {
   state.editMode = 'create';
   state.currentRecord = null;
+  state.selectedType = null; // Reset type selection
   state.currentView = 'edit';
   render();
 }
@@ -328,6 +352,7 @@ function viewRecord(id) {
 function editCurrentRecord() {
   if (!state.currentRecord) return;
   state.editMode = 'update';
+  state.selectedType = state.currentRecord.type; // Set type for editing
   state.currentView = 'edit';
   render();
 }
@@ -348,6 +373,7 @@ function backToList() {
 }
 
 function cancelEdit() {
+  state.selectedType = null; // Reset type selection
   if (state.editMode === 'update' && state.currentRecord) {
     state.currentView = 'detail';
   } else {
@@ -364,7 +390,7 @@ function saveRecord() {
   }
 
   const data = {
-    type: document.getElementById('record-type').value,
+    type: state.selectedType || document.getElementById('record-type').value,
     title: document.getElementById('record-title').value.trim(),
     body: document.getElementById('record-body').value.trim(),
     provenance: document.getElementById('record-provenance').value.trim(),
@@ -375,11 +401,13 @@ function saveRecord() {
   if (state.editMode === 'create') {
     const record = createRecord(data);
     state.currentRecord = record;
+    state.selectedType = null; // Reset after save
     state.currentView = 'detail';
   } else {
     const revisionReason = document.getElementById('revision-reason').value.trim();
     updateRecord(state.currentRecord.id, data, revisionReason);
     state.currentRecord = getRecord(state.currentRecord.id);
+    state.selectedType = null; // Reset after save
     state.currentView = 'detail';
   }
 
@@ -537,6 +565,20 @@ function init() {
   document.getElementById('import-btn').addEventListener('click', importRecords);
   document.getElementById('import-file').addEventListener('change', handleImportFile);
 
+  // Type picker cards
+  document.querySelectorAll('.sovmem-type-card').forEach(card => {
+    card.addEventListener('click', (e) => {
+      const type = e.currentTarget.dataset.type;
+      selectType(type);
+    });
+  });
+
+  // Change type button
+  document.getElementById('change-type-btn').addEventListener('click', () => {
+    state.selectedType = null;
+    render();
+  });
+
   // Search
   document.getElementById('search').addEventListener('input', (e) => {
     state.filters.search = e.target.value;
@@ -558,6 +600,15 @@ function init() {
 
   // Initial render
   render();
+}
+
+function selectType(type) {
+  state.selectedType = type;
+  render();
+  // Focus first field after type selection
+  setTimeout(() => {
+    document.getElementById('record-title')?.focus();
+  }, 100);
 }
 
 // Export public API

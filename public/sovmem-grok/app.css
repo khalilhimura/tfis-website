@@ -480,6 +480,159 @@
   font-style: italic;
 }
 
+/* ─── TYPE PICKER (first step for new records) ─── */
+.sovmem-type-picker {
+  max-width: 68ch;
+}
+
+.sovmem-type-picker-header {
+  margin-bottom: 24px;
+}
+
+.sovmem-type-picker-header h3 {
+  font-size: 1.5rem;
+  font-weight: var(--w-bold);
+  letter-spacing: -.02em;
+  margin: 0 0 8px;
+  color: var(--black);
+}
+
+.sovmem-type-picker-subtitle {
+  font-size: .9rem;
+  color: var(--g600);
+  margin: 0;
+}
+
+.sovmem-type-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 14px;
+}
+
+.sovmem-type-card {
+  background: #fffdf8;
+  border: 2px solid var(--g900);
+  border-radius: var(--r-md);
+  padding: 28px 20px;
+  cursor: pointer;
+  transition: all .2s;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+}
+
+[data-theme="dark"] .sovmem-type-card {
+  background: var(--g100);
+}
+
+.sovmem-type-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0,0,0,.12);
+  border-color: var(--accent);
+}
+
+[data-theme="dark"] .sovmem-type-card:hover {
+  box-shadow: 0 6px 20px rgba(0,0,0,.4);
+}
+
+.sovmem-type-card:active {
+  transform: translateY(-1px);
+}
+
+.sovmem-type-card-icon {
+  font-size: 2.5rem;
+  display: block;
+  margin-bottom: 4px;
+  opacity: .85;
+}
+
+.sovmem-type-card-label {
+  font-family: var(--mono);
+  font-weight: var(--w-label);
+  font-size: .85rem;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: var(--black);
+  display: block;
+}
+
+.sovmem-type-card-desc {
+  font-size: .8rem;
+  color: var(--g600);
+  display: block;
+  line-height: 1.4;
+}
+
+/* ─── TYPE DISPLAY (after selection) ─── */
+.sovmem-type-display {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 16px;
+  background: var(--g100);
+  border-radius: var(--r-sm);
+  margin-bottom: 24px !important;
+}
+
+[data-theme="dark"] .sovmem-type-display {
+  background: var(--g200);
+}
+
+.sovmem-type-display label {
+  margin: 0 !important;
+  flex-shrink: 0;
+}
+
+.sovmem-type-badge {
+  font-family: var(--mono);
+  font-weight: var(--w-label);
+  font-size: .7rem;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  padding: 6px 12px;
+  border-radius: 999px;
+  border: 1.5px solid;
+  display: inline-block;
+  flex-shrink: 0;
+}
+
+.sovmem-type-badge[data-type="claim"] {
+  background: #2b6cff;
+  border-color: #2b6cff;
+  color: #fff;
+}
+
+.sovmem-type-badge[data-type="decision"] {
+  background: #1db954;
+  border-color: #1db954;
+  color: #fff;
+}
+
+.sovmem-type-badge[data-type="correction"] {
+  background: #ff5a1f;
+  border-color: #ff5a1f;
+  color: #fff;
+}
+
+.sovmem-type-change {
+  font-family: var(--mono);
+  font-size: .65rem;
+  color: var(--g500);
+  background: none;
+  border: none;
+  cursor: pointer;
+  text-decoration: underline;
+  margin-left: auto;
+  padding: 0;
+  transition: color .2s;
+}
+
+.sovmem-type-change:hover {
+  color: var(--accent);
+}
+
 /* ─── RESPONSIVE ─── */
 @media (max-width: 768px) {
   .sovmem-header-top {
