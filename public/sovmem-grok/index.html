@@ -97,15 +97,38 @@
           <button class="btn btn--small btn--ghost" id="cancel-edit-btn">Cancel</button>
           <button class="btn btn--small btn--accent" id="save-btn">Save</button>
         </div>
-        <form class="sovmem-form" id="record-form">
-          <div class="form-group">
-            <label for="record-type">Type <span class="required">*</span></label>
-            <select id="record-type" required>
-              <option value="">Select type</option>
-              <option value="claim">Claim</option>
-              <option value="decision">Decision</option>
-              <option value="correction">Correction</option>
-            </select>
+
+        <!-- Type picker (first step for new records) -->
+        <div class="sovmem-type-picker" id="type-picker">
+          <div class="sovmem-type-picker-header">
+            <h3>What are you capturing?</h3>
+            <p class="sovmem-type-picker-subtitle">Choose the record type to continue</p>
+          </div>
+          <div class="sovmem-type-cards">
+            <button class="sovmem-type-card" data-type="claim" type="button">
+              <span class="sovmem-type-card-icon">⚡</span>
+              <span class="sovmem-type-card-label">Claim</span>
+              <span class="sovmem-type-card-desc">Statement requiring validation</span>
+            </button>
+            <button class="sovmem-type-card" data-type="decision" type="button">
+              <span class="sovmem-type-card-icon">⚖</span>
+              <span class="sovmem-type-card-label">Decision</span>
+              <span class="sovmem-type-card-desc">Choice made with context</span>
+            </button>
+            <button class="sovmem-type-card" data-type="correction" type="button">
+              <span class="sovmem-type-card-icon">↻</span>
+              <span class="sovmem-type-card-label">Correction</span>
+              <span class="sovmem-type-card-desc">Adjustment with reason trail</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Form (second step, expanded after type selection) -->
+        <form class="sovmem-form hidden" id="record-form">
+          <div class="form-group sovmem-type-display">
+            <label>Type <span class="required">*</span></label>
+            <div class="sovmem-type-badge" id="selected-type-badge"></div>
+            <button type="button" class="sovmem-type-change" id="change-type-btn">Change type</button>
           </div>
 
           <div class="form-group">
@@ -142,6 +165,8 @@
             <label for="revision-reason">Revision Reason</label>
             <input type="text" id="revision-reason" placeholder="Brief note on what changed and why">
           </div>
+
+          <input type="hidden" id="record-type" required>
         </form>
       </div>
     </div>
