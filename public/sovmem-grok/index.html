@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SovMemGrok · Sovereign Memory Filter</title>
+  <link rel="stylesheet" href="/shared.css">
+  <link rel="stylesheet" href="app.css">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+</head>
+<body data-theme="light">
+  <a href="#main" class="skip-link">Skip to content</a>
+
+  <nav>
+    <div class="nav-right">
+      <a href="/" aria-label="TFIS Home">TFIS</a>
+      <button class="theme-toggle" aria-label="Toggle theme">
+        <span class="theme-icon">◐</span>
+      </button>
+    </div>
+  </nav>
+
+  <main id="main" class="sovmem-container">
+    <header class="sovmem-header">
+      <div class="sovmem-header-top">
+        <div class="sovmem-brand">
+          <h1>SovMemGrok</h1>
+          <p class="sovmem-tagline">Sovereign Memory Filter · Solo Systems Architect</p>
+        </div>
+        <div class="sovmem-actions">
+          <button class="btn btn--small btn--ghost" id="export-btn" title="Export records to JSON">Export</button>
+          <button class="btn btn--small btn--ghost" id="import-btn" title="Import records from JSON">Import</button>
+          <button class="btn btn--small btn--accent" id="new-record-btn">+ New Record</button>
+        </div>
+      </div>
+      
+      <div class="sovmem-filters" id="filters">
+        <input type="search" id="search" placeholder="Search claims, decisions, corrections..." class="sovmem-search">
+        <div class="sovmem-filter-row">
+          <div class="sovmem-filter-group">
+            <label class="sovmem-filter-label">Type</label>
+            <div class="sovmem-filter-chips">
+              <button class="filter-chip active" data-filter="type" data-value="all">All</button>
+              <button class="filter-chip" data-filter="type" data-value="claim">Claim</button>
+              <button class="filter-chip" data-filter="type" data-value="decision">Decision</button>
+              <button class="filter-chip" data-filter="type" data-value="correction">Correction</button>
+            </div>
+          </div>
+          <div class="sovmem-filter-group">
+            <label class="sovmem-filter-label">Review</label>
+            <div class="sovmem-filter-chips">
+              <button class="filter-chip active" data-filter="review" data-value="all">All</button>
+              <button class="filter-chip" data-filter="review" data-value="unreviewed">Unreviewed</button>
+              <button class="filter-chip" data-filter="review" data-value="reviewed">Reviewed</button>
+              <button class="filter-chip" data-filter="review" data-value="needs-revision">Needs Revision</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="sovmem-content" id="content">
+      <!-- List view -->
+      <div class="sovmem-list" id="list-view">
+        <div class="sovmem-empty" id="empty-state">
+          <div class="sovmem-empty-icon">∅</div>
+          <p>No records yet. Start by capturing a claim, decision, or correction.</p>
+          <button class="btn btn--accent" onclick="document.getElementById('new-record-btn').click()">+ Capture First Record</button>
+        </div>
+        <ul class="sovmem-items" id="records-list"></ul>
+      </div>
+
+      <!-- Detail view -->
+      <div class="sovmem-detail hidden" id="detail-view">
+        <div class="sovmem-detail-header">
+          <button class="btn btn--small btn--ghost" id="back-btn">← Back to List</button>
+          <div class="sovmem-detail-actions">
+            <button class="btn btn--small btn--ghost" id="edit-btn">Edit</button>
+            <button class="btn btn--small btn--ghost" id="delete-btn">Delete</button>
+          </div>
+        </div>
+        <div class="sovmem-detail-content" id="detail-content"></div>
+      </div>
+
+      <!-- Edit view -->
+      <div class="sovmem-edit hidden" id="edit-view">
+        <div class="sovmem-edit-header">
+          <button class="btn btn--small btn--ghost" id="cancel-edit-btn">Cancel</button>
+          <button class="btn btn--small btn--accent" id="save-btn">Save</button>
+        </div>
+        <form class="sovmem-form" id="record-form">
+          <div class="form-group">
+            <label for="record-type">Type <span class="required">*</span></label>
+            <select id="record-type" required>
+              <option value="">Select type</option>
+              <option value="claim">Claim</option>
+              <option value="decision">Decision</option>
+              <option value="correction">Correction</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="record-title">Title <span class="required">*</span></label>
+            <input type="text" id="record-title" placeholder="Brief summary" required>
+          </div>
+
+          <div class="form-group">
+            <label for="record-body">Body <span class="required">*</span></label>
+            <textarea id="record-body" rows="8" placeholder="Full details..." required></textarea>
+          </div>
+
+          <div class="form-group">
+            <label for="record-provenance">Provenance <span class="required">*</span></label>
+            <input type="text" id="record-provenance" placeholder="Source or context (e.g., 'Tuesday standup', 'API review')" required>
+          </div>
+
+          <div class="form-group">
+            <label for="record-stop-rule">Stop Rule <span class="required">*</span></label>
+            <textarea id="record-stop-rule" rows="3" placeholder="When to stop, revisit, or escalate this record" required></textarea>
+            <small class="form-hint">Define the boundary condition — or explicitly state "none" if this is evergreen.</small>
+          </div>
+
+          <div class="form-group">
+            <label for="record-review-status">Review Status <span class="required">*</span></label>
+            <select id="record-review-status" required>
+              <option value="unreviewed">Unreviewed</option>
+              <option value="reviewed">Reviewed</option>
+              <option value="needs-revision">Needs Revision</option>
+            </select>
+          </div>
+
+          <div class="form-group" id="revision-reason-group" style="display: none;">
+            <label for="revision-reason">Revision Reason</label>
+            <input type="text" id="revision-reason" placeholder="Brief note on what changed and why">
+          </div>
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <input type="file" id="import-file" accept=".json" style="display: none;">
+
+  <script src="app.js"></script>
+</body>
+</html>
