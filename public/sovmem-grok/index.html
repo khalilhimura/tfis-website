@@ -21,16 +21,25 @@
   </nav>
 
   <main id="main" class="sovmem-container">
+    <div class="te-chassis">
+      <span class="te-screw te-screw--tl" aria-hidden="true"></span>
+      <span class="te-screw te-screw--tr" aria-hidden="true"></span>
+      <span class="te-screw te-screw--bl" aria-hidden="true"></span>
+      <span class="te-screw te-screw--br" aria-hidden="true"></span>
     <header class="sovmem-header">
+      <div class="te-toprow">
+        <div class="te-brand-row"><span class="te-led" aria-hidden="true"></span> sovmem · filter not faucet</div>
+        <div class="te-encoders" aria-hidden="true"><span class="te-knob te-knob--b"></span><span class="te-knob te-knob--g"></span><span class="te-knob te-knob--w"></span><span class="te-knob te-knob--o"></span></div>
+      </div>
       <div class="sovmem-header-top">
         <div class="sovmem-brand">
           <h1>SovMemGrok</h1>
-          <p class="sovmem-tagline">Sovereign Memory Filter · Solo Systems Architect</p>
+          <p class="sovmem-tagline">memory that survives the session · filter, not faucet</p>
         </div>
         <div class="sovmem-actions">
           <button class="btn btn--small btn--ghost" id="export-btn" title="Export records to JSON">Export</button>
           <button class="btn btn--small btn--ghost" id="import-btn" title="Import records from JSON">Import</button>
-          <button class="btn btn--small btn--accent" id="new-record-btn">+ New Record</button>
+          <button class="btn btn--small btn--accent" id="new-record-btn">Capture</button>
         </div>
       </div>
       
@@ -65,7 +74,7 @@
         <div class="sovmem-empty" id="empty-state">
           <div class="sovmem-empty-icon">∅</div>
           <p>No records yet. Start by capturing a claim, decision, or correction.</p>
-          <button class="btn btn--accent" onclick="document.getElementById('new-record-btn').click()">+ Capture First Record</button>
+          <button class="btn btn--accent" onclick="document.getElementById('new-record-btn').click()">Capture first record</button>
         </div>
         <ul class="sovmem-items" id="records-list"></ul>
       </div>
@@ -136,6 +145,7 @@
         </form>
       </div>
     </div>
+    </div><!-- .te-chassis -->
   </main>
 
   <input type="file" id="import-file" accept=".json" style="display: none;">

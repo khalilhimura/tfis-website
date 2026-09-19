@@ -527,3 +527,157 @@
 .sovmem-filters {
   transition: background .2s, border-color .2s;
 }
+
+/* ─── TE chassis pass (Pablo) ─── */
+.te-chassis {
+  position: relative;
+  background: #f4f1ea;
+  border: 2px solid #1a1a1a;
+  border-radius: 18px;
+  box-shadow: 6px 6px 0 #1a1a1a;
+  padding: 28px 28px 32px;
+  min-height: 60vh;
+}
+[data-theme="dark"] .te-chassis {
+  background: #22241e;
+  border-color: #f4f3ed;
+  box-shadow: 6px 6px 0 #0a0a0a;
+}
+.te-screw {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border: 1.5px solid #1a1a1a;
+  border-radius: 50%;
+  background: #d8d4cb;
+  z-index: 2;
+  pointer-events: none;
+}
+.te-screw::after {
+  content: "";
+  position: absolute;
+  left: 2px;
+  top: 4px;
+  width: 6px;
+  height: 1.5px;
+  background: #1a1a1a;
+  transform: rotate(45deg);
+}
+.te-screw--tl { top: 12px; left: 12px; }
+.te-screw--tr { top: 12px; right: 12px; }
+.te-screw--bl { bottom: 12px; left: 12px; }
+.te-screw--br { bottom: 12px; right: 12px; }
+[data-theme="dark"] .te-screw {
+  border-color: #f4f3ed;
+  background: #3a3c34;
+}
+[data-theme="dark"] .te-screw::after { background: #f4f3ed; }
+
+.te-toprow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin: 0 8px 18px;
+}
+.te-brand-row {
+  font-family: var(--mono);
+  font-size: .7rem;
+  letter-spacing: .12em;
+  text-transform: lowercase;
+  color: var(--g600);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.te-led {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 1.5px solid #1a1a1a;
+  background: #ff5a1f;
+  box-shadow: 0 0 0 2px rgba(255, 90, 31, .2);
+  flex-shrink: 0;
+}
+.te-encoders { display: flex; gap: 8px; }
+.te-knob {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 2px solid #1a1a1a;
+  position: relative;
+}
+.te-knob::after {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 6px;
+  width: 2px;
+  height: 5px;
+  background: #1a1a1a;
+  border-radius: 1px;
+}
+.te-knob--b { background: #2b6cff; }
+.te-knob--g { background: #1db954; }
+.te-knob--w { background: #fff; }
+.te-knob--o { background: #ff5a1f; }
+
+.sovmem-filters {
+  box-shadow: 4px 4px 0 #1a1a1a;
+  border-radius: 14px;
+}
+[data-theme="dark"] .sovmem-filters {
+  box-shadow: 4px 4px 0 #0a0a0a;
+}
+
+.sovmem-item {
+  box-shadow: 3px 3px 0 rgba(26, 26, 26, .12);
+  border-radius: 12px;
+  border-width: 1.5px;
+  border-color: #1a1a1a;
+}
+.sovmem-item:hover {
+  transform: translate(-1px, -1px);
+  box-shadow: 4px 4px 0 #1a1a1a;
+}
+
+.sovmem-empty {
+  background: #fffdf8;
+  border: 1.5px solid #1a1a1a;
+  border-radius: 14px;
+  box-shadow: 4px 4px 0 #1a1a1a;
+  margin-top: 8px;
+}
+[data-theme="dark"] .sovmem-empty {
+  background: var(--g100);
+}
+
+.sovmem-detail,
+.sovmem-edit {
+  border-radius: 14px;
+  box-shadow: 4px 4px 0 #1a1a1a;
+}
+
+.sovmem-detail-stop-rule {
+  background: #1a1a1a;
+  border-left: none;
+  border: 1.5px solid #1a1a1a;
+  border-radius: 10px;
+  color: #f4f1ea;
+}
+.sovmem-detail-stop-rule .sovmem-detail-value {
+  color: #f4f1ea;
+}
+.sovmem-detail-section:has(.sovmem-detail-stop-rule) .sovmem-detail-label {
+  color: #ff5a1f;
+}
+
+.filter-chip.active {
+  background: #ff5a1f;
+  border-color: #1a1a1a;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .te-chassis { padding: 22px 16px 24px; box-shadow: 4px 4px 0 #1a1a1a; }
+}
