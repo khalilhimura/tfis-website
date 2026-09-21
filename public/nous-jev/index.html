@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nous-Jev · Judgment Under Load</title>
+  <link rel="stylesheet" href="/shared.css">
+  <link rel="stylesheet" href="app.css?v=2">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+</head>
+<body data-theme="light">
+  <a href="#main" class="skip-link">Skip to content</a>
+
+  <nav>
+    <div class="nav-right">
+      <a href="/" aria-label="TFIS Home">TFIS</a>
+      <button class="theme-toggle" aria-label="Toggle theme">
+        <span class="theme-icon">◐</span>
+      </button>
+    </div>
+  </nav>
+
+  <main id="main" class="jev-container">
+    <div class="te-chassis">
+      <span class="te-screw te-screw--tl" aria-hidden="true"></span>
+      <span class="te-screw te-screw--tr" aria-hidden="true"></span>
+      <span class="te-screw te-screw--bl" aria-hidden="true"></span>
+      <span class="te-screw te-screw--br" aria-hidden="true"></span>
+      
+      <header class="jev-header">
+        <div class="te-toprow">
+          <div class="te-brand-row"><span class="te-led" aria-hidden="true"></span> jev · system one, structured</div>
+          <div class="te-encoders" aria-hidden="true"><span class="te-knob te-knob--b"></span><span class="te-knob te-knob--g"></span><span class="te-knob te-knob--w"></span><span class="te-knob te-knob--o"></span></div>
+        </div>
+        <div class="jev-header-content">
+          <div class="jev-brand">
+            <h1>Nous-Jev</h1>
+            <p class="jev-tagline">judgment under load · one state, two evaluations</p>
+          </div>
+        </div>
+      </header>
+
+      <div class="jev-content">
+        <div class="jev-section">
+          <h2>Input</h2>
+          <p class="jev-description">
+            Paste a memory record or choose a preset. Watch OpenAI prose alongside Jev's structured Choice/Score/Noul.
+          </p>
+
+          <form class="jev-form" id="input-form">
+            <div class="jev-form-presets">
+              <label class="jev-label">Presets</label>
+              <div class="jev-preset-buttons">
+                <button type="button" class="btn btn--small btn--ghost" data-preset="claim">Claim</button>
+                <button type="button" class="btn btn--small btn--ghost" data-preset="decision">Decision</button>
+                <button type="button" class="btn btn--small btn--ghost" data-preset="correction">Correction</button>
+                <button type="button" class="btn btn--small btn--ghost" data-preset="messy">Messy</button>
+              </div>
+            </div>
+
+            <div class="jev-form-group">
+              <label for="title" class="jev-label">Title</label>
+              <input type="text" id="title" placeholder="Brief summary" required>
+            </div>
+
+            <div class="jev-form-group">
+              <label for="body" class="jev-label">Body</label>
+              <textarea id="body" rows="6" placeholder="Full details..." required></textarea>
+            </div>
+
+            <div class="jev-form-row">
+              <div class="jev-form-group">
+                <label for="declared-type" class="jev-label">Declared Type</label>
+                <select id="declared-type">
+                  <option value="unknown">Unknown</option>
+                  <option value="claim">Claim</option>
+                  <option value="decision">Decision</option>
+                  <option value="correction">Correction</option>
+                </select>
+              </div>
+
+              <div class="jev-form-group">
+                <label for="provenance" class="jev-label">Provenance (optional)</label>
+                <input type="text" id="provenance" placeholder="e.g., 'Tuesday standup'">
+              </div>
+            </div>
+
+            <div class="jev-form-group">
+              <label for="stop-rule" class="jev-label">Stop Rule (optional)</label>
+              <input type="text" id="stop-rule" placeholder="When to stop, revisit, or escalate">
+            </div>
+
+            <div class="jev-form-actions">
+              <button type="submit" class="btn btn--accent" id="evaluate-btn">
+                <span id="evaluate-btn-text">Evaluate</span>
+                <span id="evaluate-spinner" class="jev-spinner hidden"></span>
+              </button>
+              <button type="button" class="btn btn--ghost" id="reset-btn">Reset</button>
+            </div>
+          </form>
+        </div>
+
+        <div class="jev-results hidden" id="results">
+          <h2>Evaluation Results</h2>
+          
+          <div class="jev-comparison">
+            <div class="jev-comparison-column">
+              <h3 class="jev-comparison-title">
+                <span>OpenAI Prose</span>
+                <span class="jev-latency" id="llm-latency"></span>
+              </h3>
+              <div class="jev-llm-result" id="llm-result"></div>
+            </div>
+
+            <div class="jev-comparison-column">
+              <h3 class="jev-comparison-title">
+                <span>Jev Structured</span>
+                <span class="jev-latency" id="jev-latency"></span>
+              </h3>
+              <div class="jev-structured-result" id="jev-result"></div>
+            </div>
+          </div>
+
+          <details class="jev-engineering">
+            <summary>Engineering Drawer</summary>
+            <div class="jev-engineering-content">
+              <div class="jev-code-block">
+                <div class="jev-code-label">Confidence Gate Pattern</div>
+                <pre><code>if (confidence < 0.75) {
+  // Show validation modal
+  // Prompt user to review or mark as needs-revision
+}</code></pre>
+              </div>
+              <div class="jev-code-block">
+                <div class="jev-code-label">Raw Response JSON</div>
+                <pre><code id="raw-json"></code></pre>
+              </div>
+            </div>
+          </details>
+        </div>
+
+        <div class="jev-error hidden" id="error">
+          <div class="jev-error-icon">⚠</div>
+          <div class="jev-error-message" id="error-message"></div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="app.js?v=2"></script>
+</body>
+</html>

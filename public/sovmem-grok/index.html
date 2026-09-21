@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SovMemGrok · Sovereign Memory Filter</title>
   <link rel="stylesheet" href="/shared.css">
-  <link rel="stylesheet" href="app.css?v=4">
+  <link rel="stylesheet" href="app.css?v=5">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 </head>
 <body data-theme="light">
@@ -174,11 +174,27 @@
     </div><!-- .te-chassis -->
   </main>
 
+  <!-- Jev Validation Modal -->
+  <div class="jev-modal hidden" id="jev-modal">
+    <div class="jev-modal-backdrop"></div>
+    <div class="jev-modal-dialog">
+      <div id="jev-modal-content"></div>
+    </div>
+  </div>
+
+  <!-- Jev Export Validation Modal -->
+  <div class="jev-modal hidden" id="jev-export-modal">
+    <div class="jev-modal-backdrop"></div>
+    <div class="jev-modal-dialog">
+      <div id="jev-export-modal-content"></div>
+    </div>
+  </div>
+
   <input type="file" id="import-file" accept=".json" style="display: none;">
 
   <script src="jszip.min.js"></script>
   <script src="webmcp.js"></script>
-  <script src="app.js?v=4"></script>
+  <script src="app.js?v=5"></script>
   <script src="webmcp-bridge.js"></script>
 </body>
 </html>
