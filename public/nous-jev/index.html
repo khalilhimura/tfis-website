@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nous-Jev · Judgment Under Load</title>
+  <link rel="stylesheet" href="/shared.css">
+  <link rel="stylesheet" href="app.css?v=1">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+</head>
+<body data-theme="light">
+  <a href="#main" class="skip-link">Skip to content</a>
+
+  <nav>
+    <div class="nav-right">
+      <a href="/" aria-label="TFIS Home">TFIS</a>
+      <button class="theme-toggle" aria-label="Toggle theme">
+        <span class="theme-icon">◐</span>
+      </button>
+    </div>
+  </nav>
+
+  <main id="main" class="jev-container">
+    <div class="te-chassis">
+      <span class="te-screw te-screw--tl" aria-hidden="true"></span>
+      <span class="te-screw te-screw--tr" aria-hidden="true"></span>
+      <span class="te-screw te-screw--bl" aria-hidden="true"></span>
+      <span class="te-screw te-screw--br" aria-hidden="true"></span>
+      
+      <header class="jev-header">
+        <div class="te-toprow">
+          <div class="te-brand-row"><span class="te-led" aria-hidden="true"></span> jev · system one, structured</div>
+          <div class="te-encoders" aria-hidden="true"><span class="te-knob te-knob--b"></span><span class="te-knob te-knob--g"></span><span class="te-knob te-knob--w"></span><span class="te-knob te-knob--o"></span></div>
+        </div>
+        <div class="jev-header-content">
+          <div class="jev-brand">
+            <h1>Nous-Jev</h1>
+            <p class="jev-tagline">judgment under load · structured system one</p>
+          </div>
+        </div>
+      </header>
+
+      <div class="jev-content">
+        <div class="jev-section">
+          <h2>Compare Records</h2>
+          <p class="jev-description">
+            Evaluate two memory records for consistency, provenance alignment, and judgment quality.
+            The Jev engine runs structured System One analysis to surface patterns invisible under conscious load.
+          </p>
+
+          <form class="jev-form" id="compare-form">
+            <div class="jev-form-row">
+              <div class="jev-form-col">
+                <label class="jev-label">Record A</label>
+                <textarea id="record-a" rows="8" placeholder="Paste first record (JSON or plain text)" required></textarea>
+                <div class="jev-meta-fields">
+                  <label class="jev-checkbox">
+                    <input type="checkbox" id="a-has-stop-rule">
+                    <span>Has stop rule</span>
+                  </label>
+                  <div class="jev-select-group">
+                    <label>Provenance</label>
+                    <select id="a-provenance">
+                      <option value="strong">Strong</option>
+                      <option value="medium">Medium</option>
+                      <option value="weak">Weak</option>
+                    </select>
+                  </div>
+                  <div class="jev-select-group">
+                    <label>Type</label>
+                    <select id="a-type">
+                      <option value="claim">Claim</option>
+                      <option value="decision">Decision</option>
+                      <option value="correction">Correction</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+
+              <div class="jev-form-col">
+                <label class="jev-label">Record B</label>
+                <textarea id="record-b" rows="8" placeholder="Paste second record (JSON or plain text)" required></textarea>
+                <div class="jev-meta-fields">
+                  <label class="jev-checkbox">
+                    <input type="checkbox" id="b-has-stop-rule">
+                    <span>Has stop rule</span>
+                  </label>
+                  <div class="jev-select-group">
+                    <label>Provenance</label>
+                    <select id="b-provenance">
+                      <option value="strong">Strong</option>
+                      <option value="medium">Medium</option>
+                      <option value="weak">Weak</option>
+                    </select>
+                  </div>
+                  <div class="jev-select-group">
+                    <label>Type</label>
+                    <select id="b-type">
+                      <option value="claim">Claim</option>
+                      <option value="decision">Decision</option>
+                      <option value="correction">Correction</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="jev-form-actions">
+              <button type="submit" class="btn btn--accent" id="compare-btn">
+                <span id="compare-btn-text">Compare</span>
+                <span id="compare-spinner" class="jev-spinner hidden"></span>
+              </button>
+              <button type="button" class="btn btn--ghost" id="reset-btn">Reset</button>
+            </div>
+          </form>
+        </div>
+
+        <div class="jev-results hidden" id="results">
+          <h2>Analysis Results</h2>
+          <div id="results-content"></div>
+        </div>
+
+        <div class="jev-error hidden" id="error">
+          <div class="jev-error-icon">⚠</div>
+          <div class="jev-error-message" id="error-message"></div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="app.js?v=1"></script>
+</body>
+</html>
