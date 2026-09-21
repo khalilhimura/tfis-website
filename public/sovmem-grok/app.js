@@ -40,13 +40,11 @@ async function validateWithJev(record) {
 
   try {
     const payload = {
-      record: {
-        record_type: record.type,
-        has_stop_rule: Boolean(record.stop_rule && record.stop_rule.trim() && record.stop_rule.toLowerCase() !== 'none'),
-        provenance_strength: inferProvenanceStrength(record.provenance),
-        review_status: record.review_status,
-        content: `${record.title}\n\n${record.body}\n\nProvenance: ${record.provenance}\n\nStop Rule: ${record.stop_rule}`
-      }
+      title: record.title,
+      body: record.body,
+      declared_type: record.type,
+      stop_rule: (record.stop_rule && record.stop_rule.trim() && record.stop_rule.toLowerCase() !== 'none') ? record.stop_rule : null,
+      provenance: record.provenance || null
     };
 
     const response = await fetch(`${JEV_API_BASE}/api/jev`, {
@@ -83,16 +81,6 @@ async function batchValidateWithJev(records) {
     console.error('Batch validation failed:', error);
     return null;
   }
-}
-
-function inferProvenanceStrength(provenance) {
-  const text = provenance.toLowerCase();
-  if (text.includes('meeting') || text.includes('documented') || text.includes('recorded') || text.includes('official')) {
-    return 'strong';
-  } else if (text.includes('conversation') || text.includes('discussion') || text.includes('standup')) {
-    return 'medium';
-  }
-  return 'weak';
 }
 
 // ═══════════════════════════════════════════════════════════════════
@@ -484,17 +472,22 @@ async function saveRecord() {
 }
 
 function shouldShowValidationGate(validation) {
-  // Show gate if any confidence is below threshold or there are suggestions
+  if (!validation || !validation.answers) return false;
+  
+  const answers = validation.answers;
+  
+  // Show gate if any confidence is below threshold
   const hasLowConfidence = 
-    (validation.type_suggestion?.confidence < JEV_CONFIDENCE_THRESHOLD) ||
-    (validation.review_suggestion?.confidence < JEV_CONFIDENCE_THRESHOLD) ||
-    (validation.stop_rule_warning?.confidence < JEV_CONFIDENCE_THRESHOLD) ||
-    (validation.load_risk?.confidence < JEV_CONFIDENCE_THRESHOLD);
+    (answers.record_type?.confidence < JEV_CONFIDENCE_THRESHOLD) ||
+    (answers.has_stop_rule?.confidence < JEV_CONFIDENCE_THRESHOLD) ||
+    (answers.provenance_strength?.confidence < JEV_CONFIDENCE_THRESHOLD) ||
+    (answers.review_status?.confidence < JEV_CONFIDENCE_THRESHOLD) ||
+    (answers.load_risk?.confidence < JEV_CONFIDENCE_THRESHOLD);
   
-  const hasSuggestions = 
-    (validation.suggestions && validation.suggestions.length > 0);
+  // Also show if stop rule is missing (noul < 0.5)
+  const missingStopRule = answers.has_stop_rule?.noul < 0.5;
   
-  return hasLowConfidence || hasSuggestions;
+  return hasLowConfidence || missingStopRule;
 }
 
 function performSave(data, forceNeedsRevision = false) {
@@ -521,90 +514,116 @@ function performSave(data, forceNeedsRevision = false) {
 }
 
 function showJevValidationModal(validation, recordData) {
+  if (!validation || !validation.answers) {
+    console.error('Invalid validation response');
+    return;
+  }
+  
   const modal = document.getElementById('jev-modal');
   const content = document.getElementById('jev-modal-content');
+  const answers = validation.answers;
   
   let html = '<h3>Jev Validation Results</h3>';
   html += '<div class="jev-modal-results">';
   
   const hasLowConfidence = 
-    (validation.type_suggestion?.confidence < JEV_CONFIDENCE_THRESHOLD) ||
-    (validation.review_suggestion?.confidence < JEV_CONFIDENCE_THRESHOLD) ||
-    (validation.stop_rule_warning?.confidence < JEV_CONFIDENCE_THRESHOLD) ||
-    (validation.load_risk?.confidence < JEV_CONFIDENCE_THRESHOLD);
+    (answers.record_type?.confidence < JEV_CONFIDENCE_THRESHOLD) ||
+    (answers.has_stop_rule?.confidence < JEV_CONFIDENCE_THRESHOLD) ||
+    (answers.provenance_strength?.confidence < JEV_CONFIDENCE_THRESHOLD) ||
+    (answers.review_status?.confidence < JEV_CONFIDENCE_THRESHOLD) ||
+    (answers.load_risk?.confidence < JEV_CONFIDENCE_THRESHOLD);
   
   if (hasLowConfidence) {
     html += '<div class="jev-modal-warning">⚠ Low confidence detected in one or more areas</div>';
   }
   
-  if (validation.type_suggestion) {
-    const conf = validation.type_suggestion.confidence;
+  // Record Type
+  if (answers.record_type) {
+    const conf = answers.record_type.confidence;
+    const suggestedType = answers.record_type.choice;
     html += `
       <div class="jev-modal-item">
-        <div class="jev-modal-label">Type Suggestion</div>
+        <div class="jev-modal-label">Record Type</div>
         <div class="jev-confidence ${conf >= JEV_CONFIDENCE_THRESHOLD ? 'jev-confidence--high' : 'jev-confidence--low'}">
           ${(conf * 100).toFixed(0)}% confidence
         </div>
-        ${validation.type_suggestion.suggested_type !== recordData.type ? 
-          `<p>Suggested: <strong>${validation.type_suggestion.suggested_type}</strong> (current: ${recordData.type})</p>` : 
+        ${suggestedType !== recordData.type ? 
+          `<p>Suggested: <strong>${suggestedType}</strong> (current: ${recordData.type})</p>` : 
           `<p>Type looks good: <strong>${recordData.type}</strong></p>`}
-        ${validation.type_suggestion.reasoning ? `<p class="jev-reasoning">${escapeHtml(validation.type_suggestion.reasoning)}</p>` : ''}
+        ${answers.record_type.reasoning ? `<p class="jev-reasoning">${escapeHtml(answers.record_type.reasoning)}</p>` : ''}
       </div>
     `;
   }
   
-  if (validation.stop_rule_warning) {
-    const warn = validation.stop_rule_warning;
+  // Stop Rule
+  if (answers.has_stop_rule) {
+    const conf = answers.has_stop_rule.confidence;
+    const noul = answers.has_stop_rule.noul;
+    const hasStopRule = noul >= 0.5;
     html += `
       <div class="jev-modal-item">
         <div class="jev-modal-label">Stop Rule</div>
-        <div class="jev-confidence ${warn.confidence >= JEV_CONFIDENCE_THRESHOLD ? 'jev-confidence--high' : 'jev-confidence--low'}">
-          ${(warn.confidence * 100).toFixed(0)}% confidence
+        <div class="jev-confidence ${conf >= JEV_CONFIDENCE_THRESHOLD ? 'jev-confidence--high' : 'jev-confidence--low'}">
+          ${(conf * 100).toFixed(0)}% confidence
         </div>
-        <p>${warn.needs_stop_rule ? '⚠ Consider adding a stop rule' : '✓ Stop rule present'}</p>
-        ${warn.reasoning ? `<p class="jev-reasoning">${escapeHtml(warn.reasoning)}</p>` : ''}
+        <p>${hasStopRule ? '✓ Has stop rule' : '⚠ Consider adding a stop rule'} (noul: ${noul.toFixed(3)})</p>
+        ${answers.has_stop_rule.reasoning ? `<p class="jev-reasoning">${escapeHtml(answers.has_stop_rule.reasoning)}</p>` : ''}
       </div>
     `;
   }
   
-  if (validation.review_suggestion) {
-    const rev = validation.review_suggestion;
+  // Provenance Strength
+  if (answers.provenance_strength) {
+    const conf = answers.provenance_strength.confidence;
+    const strength = answers.provenance_strength.choice;
+    html += `
+      <div class="jev-modal-item">
+        <div class="jev-modal-label">Provenance Strength</div>
+        <div class="jev-confidence ${conf >= JEV_CONFIDENCE_THRESHOLD ? 'jev-confidence--high' : 'jev-confidence--low'}">
+          ${(conf * 100).toFixed(0)}% confidence
+        </div>
+        <p>Assessed as: <strong>${strength}</strong></p>
+        ${answers.provenance_strength.reasoning ? `<p class="jev-reasoning">${escapeHtml(answers.provenance_strength.reasoning)}</p>` : ''}
+      </div>
+    `;
+  }
+  
+  // Review Status
+  if (answers.review_status) {
+    const conf = answers.review_status.confidence;
+    const suggestedStatus = answers.review_status.choice;
     html += `
       <div class="jev-modal-item">
         <div class="jev-modal-label">Review Status</div>
-        <div class="jev-confidence ${rev.confidence >= JEV_CONFIDENCE_THRESHOLD ? 'jev-confidence--high' : 'jev-confidence--low'}">
-          ${(rev.confidence * 100).toFixed(0)}% confidence
+        <div class="jev-confidence ${conf >= JEV_CONFIDENCE_THRESHOLD ? 'jev-confidence--high' : 'jev-confidence--low'}">
+          ${(conf * 100).toFixed(0)}% confidence
         </div>
-        ${rev.suggested_status !== recordData.review_status ? 
-          `<p>Suggested: <strong>${rev.suggested_status}</strong> (current: ${recordData.review_status})</p>` : 
+        ${suggestedStatus !== recordData.review_status ? 
+          `<p>Suggested: <strong>${suggestedStatus}</strong> (current: ${recordData.review_status})</p>` : 
           `<p>Status looks good: <strong>${recordData.review_status}</strong></p>`}
-        ${rev.reasoning ? `<p class="jev-reasoning">${escapeHtml(rev.reasoning)}</p>` : ''}
+        ${answers.review_status.reasoning ? `<p class="jev-reasoning">${escapeHtml(answers.review_status.reasoning)}</p>` : ''}
       </div>
     `;
   }
   
-  if (validation.load_risk) {
-    const risk = validation.load_risk;
+  // Load Risk
+  if (answers.load_risk) {
+    const conf = answers.load_risk.confidence;
+    const score = answers.load_risk.score;
+    let level = 'low';
+    if (score >= 0.7) level = 'high';
+    else if (score >= 0.4) level = 'medium';
+    
     html += `
       <div class="jev-modal-item">
         <div class="jev-modal-label">Load Risk</div>
-        <div class="jev-confidence ${risk.confidence >= JEV_CONFIDENCE_THRESHOLD ? 'jev-confidence--high' : 'jev-confidence--low'}">
-          ${(risk.confidence * 100).toFixed(0)}% confidence
+        <div class="jev-confidence ${conf >= JEV_CONFIDENCE_THRESHOLD ? 'jev-confidence--high' : 'jev-confidence--low'}">
+          ${(conf * 100).toFixed(0)}% confidence
         </div>
-        <p>Risk level: <strong class="jev-risk-${risk.level}">${risk.level}</strong></p>
-        ${risk.reasoning ? `<p class="jev-reasoning">${escapeHtml(risk.reasoning)}</p>` : ''}
+        <p>Score: <strong class="jev-risk-${level}">${score.toFixed(2)}</strong> (${level})</p>
+        ${answers.load_risk.reasoning ? `<p class="jev-reasoning">${escapeHtml(answers.load_risk.reasoning)}</p>` : ''}
       </div>
     `;
-  }
-  
-  if (validation.suggestions && validation.suggestions.length > 0) {
-    html += '<div class="jev-modal-item">';
-    html += '<div class="jev-modal-label">Suggestions</div>';
-    html += '<ul class="jev-suggestions-list">';
-    validation.suggestions.forEach(s => {
-      html += `<li>${escapeHtml(s)}</li>`;
-    });
-    html += '</ul></div>';
   }
   
   html += '</div>';
@@ -659,21 +678,25 @@ function showExportValidationModal(issues) {
     html += '<div class="jev-export-issues">';
     
     issues.forEach(({ record, validation }) => {
+      const answers = validation.answers || {};
       html += `<div class="jev-export-issue">`;
       html += `<div class="jev-export-issue-title">${escapeHtml(record.title)}</div>`;
       html += `<ul class="jev-export-issue-list">`;
       
-      if (validation.type_suggestion?.confidence < JEV_CONFIDENCE_THRESHOLD) {
-        html += `<li>Type confidence: ${(validation.type_suggestion.confidence * 100).toFixed(0)}%</li>`;
+      if (answers.record_type?.confidence < JEV_CONFIDENCE_THRESHOLD) {
+        html += `<li>Type confidence: ${(answers.record_type.confidence * 100).toFixed(0)}%</li>`;
       }
-      if (validation.review_suggestion?.confidence < JEV_CONFIDENCE_THRESHOLD) {
-        html += `<li>Review confidence: ${(validation.review_suggestion.confidence * 100).toFixed(0)}%</li>`;
+      if (answers.has_stop_rule?.confidence < JEV_CONFIDENCE_THRESHOLD) {
+        html += `<li>Stop rule confidence: ${(answers.has_stop_rule.confidence * 100).toFixed(0)}%</li>`;
       }
-      if (validation.stop_rule_warning?.confidence < JEV_CONFIDENCE_THRESHOLD) {
-        html += `<li>Stop rule confidence: ${(validation.stop_rule_warning.confidence * 100).toFixed(0)}%</li>`;
+      if (answers.provenance_strength?.confidence < JEV_CONFIDENCE_THRESHOLD) {
+        html += `<li>Provenance confidence: ${(answers.provenance_strength.confidence * 100).toFixed(0)}%</li>`;
       }
-      if (validation.load_risk?.confidence < JEV_CONFIDENCE_THRESHOLD) {
-        html += `<li>Load risk confidence: ${(validation.load_risk.confidence * 100).toFixed(0)}%</li>`;
+      if (answers.review_status?.confidence < JEV_CONFIDENCE_THRESHOLD) {
+        html += `<li>Review confidence: ${(answers.review_status.confidence * 100).toFixed(0)}%</li>`;
+      }
+      if (answers.load_risk?.confidence < JEV_CONFIDENCE_THRESHOLD) {
+        html += `<li>Load risk confidence: ${(answers.load_risk.confidence * 100).toFixed(0)}%</li>`;
       }
       
       html += `</ul></div>`;
@@ -753,14 +776,17 @@ async function exportOKF() {
     if (validations) {
       const issues = [];
       validations.forEach((validation, index) => {
-        if (!validation) return;
+        if (!validation || !validation.answers) return;
         
         const record = state.records[index];
+        const answers = validation.answers;
+        
         const hasLowConfidence = 
-          (validation.type_suggestion?.confidence < JEV_CONFIDENCE_THRESHOLD) ||
-          (validation.review_suggestion?.confidence < JEV_CONFIDENCE_THRESHOLD) ||
-          (validation.stop_rule_warning?.confidence < JEV_CONFIDENCE_THRESHOLD) ||
-          (validation.load_risk?.confidence < JEV_CONFIDENCE_THRESHOLD);
+          (answers.record_type?.confidence < JEV_CONFIDENCE_THRESHOLD) ||
+          (answers.has_stop_rule?.confidence < JEV_CONFIDENCE_THRESHOLD) ||
+          (answers.provenance_strength?.confidence < JEV_CONFIDENCE_THRESHOLD) ||
+          (answers.review_status?.confidence < JEV_CONFIDENCE_THRESHOLD) ||
+          (answers.load_risk?.confidence < JEV_CONFIDENCE_THRESHOLD);
         
         if (hasLowConfidence) {
           issues.push({
