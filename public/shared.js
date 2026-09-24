@@ -5,9 +5,10 @@
 
 // ─── Theme (dark/light mode) ───
 function initTheme() {
-  const stored = localStorage.getItem('tfis-theme');
-  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-  const theme = stored || (prefersDark ? 'dark' : 'light');
+  let stored;
+  try { stored = localStorage.getItem('tfis-theme'); } catch { /* Storage can be disabled. */ }
+  const prefersDark = window.matchMedia?.('(prefers-color-scheme: dark)').matches;
+  const theme = ['light', 'dark'].includes(stored) ? stored : (prefersDark ? 'dark' : 'light');
   document.documentElement.setAttribute('data-theme', theme);
   updateThemeToggle(theme);
 }
@@ -16,7 +17,7 @@ function toggleTheme() {
   const current = document.documentElement.getAttribute('data-theme');
   const next = current === 'dark' ? 'light' : 'dark';
   document.documentElement.setAttribute('data-theme', next);
-  localStorage.setItem('tfis-theme', next);
+  try { localStorage.setItem('tfis-theme', next); } catch { /* Keep switching without persistence. */ }
   updateThemeToggle(next);
   // Notify ocean iframe of theme change
   const ocean = document.querySelector('.hero-ocean');
@@ -28,15 +29,7 @@ function toggleTheme() {
 function updateThemeToggle(theme) {
   const btn = document.getElementById('themeToggle');
   if (!btn) return;
-  const sun = btn.querySelector('.theme-icon--sun');
-  const moon = btn.querySelector('.theme-icon--moon');
-  if (sun) sun.style.display = theme === 'dark' ? 'none' : '';
-  if (moon) moon.style.display = theme === 'dark' ? '' : 'none';
-}
-
-function updateThemeToggle(theme) {
-  const btn = document.getElementById('themeToggle');
-  if (!btn) return;
+  btn.setAttribute('aria-label', theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode');
   const sun = btn.querySelector('.theme-icon--sun');
   const moon = btn.querySelector('.theme-icon--moon');
   if (sun) sun.style.display = theme === 'dark' ? 'none' : '';

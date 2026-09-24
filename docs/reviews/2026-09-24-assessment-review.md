@@ -19,7 +19,7 @@ Scope: `/assessment/`, its 500-item bank, shared-page interaction boundary, and 
 
 ## Verification performed
 
-- `npm test`: **54 passed, 0 failed** after integration with current main. Includes 30 assessment tests (real JSDOM click flows, pure scoring/gate tests and controlled proxy transport tests) plus the SovMemGrok regression suite.
+- `npm test`: **58 passed, 0 failed** after integration with current main and the theme fix. Includes 30 assessment tests (real JSDOM click flows, pure scoring/gate tests and controlled proxy transport tests), four theme tests, and the SovMemGrok regression suite.
 - `npm run build`: static Astro build passed, 57 pages.
 - Pages Functions bundle passed with Wrangler 4.137.0 and the Git build environment’s Wrangler 3.114.17. JSON imports use the Pages-compatible form; a test-only Node loader mirrors that bundler behavior. JSDOM 26 supports the build environment’s Node 22.22.0. The installed 4.119.0 CLI can bundle/deploy but its local runtime rejects this project's compatibility date, so local runtime verification used 4.137.0.
 - Independent read-only code review found the persisted-acceptance issue; regression reproduced, fixed, and re-reviewed successfully.
@@ -29,6 +29,7 @@ Scope: `/assessment/`, its 500-item bank, shared-page interaction boundary, and 
 - Browser revision of answer 15 preserved its selection, changed Security from L4 to L5, then made a new real Jev request (HTTP 200, 835 ms), which remained unlocked after an adverse/low-confidence review.
 - Mobile inspection at 390×844: page width 390, no horizontal overflow; metadata JSON wraps inside bounded scroll panels. Viewport reset afterward. No browser console errors observed in the completed run.
 - Passing gate acceptance, bounded adjustment, failure/timeout/retry, stale retake, export, hostile metadata text, and storage denial verified in controlled tests.
+- Theme follow-up: the assessment button lacked the `themeToggle` ID used by the shared handler. Added the binding and sun/moon icons, removed the redundant body theme, and bumped `shared.js` to `v=5`. Shared initialization now rejects invalid stored values and keeps working when storage is blocked; the accessible label describes the next action. Four regressions failed before the fix and passed afterward. Real browser verification against the built site confirmed light and dark colors, persistence after reload in both modes, and Begin → select → toggle → Next reaching 2/15 with no console errors. The homepage inherited the same saved preference.
 
 ## Release limits
 
