@@ -1,0 +1,60 @@
+{
+  "schema": "ssa-cmm.probe_rubric.v0.2",
+  "version": 1,
+  "purpose": "Higher-order thinking as practice for optional deep-confirm open probes. Used by prose extractor only — not sent verbatim to Jev.",
+  "limits": {
+    "probes": 2,
+    "target_words": [150, 250],
+    "hard_cap_words": 500
+  },
+  "scale": [
+    {
+      "score": 0,
+      "label": "Absent",
+      "signal": "Assertion only; no why, tradeoff, or stop-rule."
+    },
+    {
+      "score": 1,
+      "label": "Recall",
+      "signal": "Names a tool or step; judgment evaporates after the sentence."
+    },
+    {
+      "score": 2,
+      "label": "Apply",
+      "signal": "Concrete situation plus what they did; little on failure modes or write-back."
+    },
+    {
+      "score": 3,
+      "label": "AnalyzeEvaluate",
+      "signal": "Tradeoffs, stop-rule, provenance (how they would know they were wrong); judgment applied then lost."
+    },
+    {
+      "score": 4,
+      "label": "CreateCompound",
+      "signal": "Designs a loop: capture → verify → write back to memory they own; next practice named."
+    }
+  ],
+  "aggregate": {
+    "rule": "Use the weaker of the two probe scores toward soft level check.",
+    "soft_check": [
+      { "when": "avg <= 1", "signal": "challenge claimed_level down in Jev context" },
+      { "when": "avg ~= 2", "signal": "on-band for L1–L2" },
+      { "when": "avg ~= 3", "signal": "L3 signal" },
+      { "when": "avg == 4", "signal": "L4–L5 only if staircase already agrees" }
+    ]
+  },
+  "extract_fields": {
+    "has_stop_rule": { "type": "noul", "values": [0, 1] },
+    "provenance_strength": { "type": "score", "values": ["weak", "moderate", "strong"] },
+    "practice_loop_present": { "type": "noul", "values": [0, 1] },
+    "extract_thin": {
+      "type": "boolean",
+      "when_true": "Force judgment_ready soft path; local save only"
+    }
+  },
+  "jev": {
+    "send_rubric_text": false,
+    "send_essay_text": false,
+    "send": ["AssessmentState", "probe_scores", "has_stop_rule", "provenance_strength", "practice_loop_present"]
+  }
+}

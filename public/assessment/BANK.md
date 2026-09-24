@@ -1,5 +1,13 @@
 # SSA-CMM Assessment Bank
 
+## Documentation
+
+See **[ASSESSMENT-SPEC.md](ASSESSMENT-SPEC.md)** for the complete v0.2 product spec, including:
+- UX flow (staircase + optional deep-confirm probes)
+- Data shapes (AssessmentState, ProbeClaims)
+- Jev battery details
+- Open-probe rubric ([probe_rubric.json](probe_rubric.json))
+
 ## Overview
 
 The SSA-CMM Field Manual Nº 01 assessment requires a **500-item bank** with the following structure:
