@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SSA-CMM Field Manual Nº 01 · Self-Assessment</title>
+  <link rel="stylesheet" href="/shared.css">
+  <link rel="stylesheet" href="app.css?v=1">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+</head>
+<body data-theme="light">
+  <a href="#main" class="skip-link">Skip to content</a>
+
+  <nav>
+    <div class="nav-right">
+      <a href="/" aria-label="TFIS Home">TFIS</a>
+      <button class="theme-toggle" aria-label="Toggle theme">
+        <span class="theme-icon">◐</span>
+      </button>
+    </div>
+  </nav>
+
+  <main id="main" class="assessment-container">
+    <div class="te-chassis">
+      <span class="te-screw te-screw--tl" aria-hidden="true"></span>
+      <span class="te-screw te-screw--tr" aria-hidden="true"></span>
+      <span class="te-screw te-screw--bl" aria-hidden="true"></span>
+      <span class="te-screw te-screw--br" aria-hidden="true"></span>
+
+      <header class="assessment-header">
+        <div class="te-toprow">
+          <div class="te-brand-row"><span class="te-led" aria-hidden="true"></span> ssa-cmm · field manual nº 01</div>
+          <div class="te-encoders" aria-hidden="true"><span class="te-knob te-knob--b"></span><span class="te-knob te-knob--g"></span><span class="te-knob te-knob--w"></span><span class="te-knob te-knob--o"></span></div>
+        </div>
+        <div class="assessment-header-content">
+          <div class="assessment-brand">
+            <h1>SSA-CMM Field Manual Nº 01</h1>
+            <p class="assessment-tagline">Adaptive self-assessment · 5 pillars · 15 items · plain language</p>
+          </div>
+        </div>
+      </header>
+
+      <div class="assessment-content">
+        <!-- Intro Screen -->
+        <div class="assessment-screen" id="intro-screen">
+          <div class="assessment-intro">
+            <h2>Self-Assessment Protocol</h2>
+            <p class="assessment-intro-desc">
+              This assessment uses an adaptive staircase algorithm to determine your SSA-CMM level across five pillars: Agency, Clarity, Competence, Accountability, and Security.
+            </p>
+            <p class="assessment-intro-desc">
+              You'll answer <strong>15 items</strong> (3 per pillar). Each item adapts based on your previous responses. The assessment takes approximately 10 minutes.
+            </p>
+            <div class="assessment-intro-features">
+              <div class="assessment-feature">
+                <span class="assessment-feature-icon">🎯</span>
+                <span class="assessment-feature-label">Adaptive delivery</span>
+              </div>
+              <div class="assessment-feature">
+                <span class="assessment-feature-icon">⏭</span>
+                <span class="assessment-feature-label">Skip-friendly</span>
+              </div>
+              <div class="assessment-feature">
+                <span class="assessment-feature-icon">🔒</span>
+                <span class="assessment-feature-label">Client-side only</span>
+              </div>
+            </div>
+            <div class="assessment-intro-actions">
+              <button class="btn btn--accent btn--large" id="start-btn">Begin Assessment</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Question Screen -->
+        <div class="assessment-screen hidden" id="question-screen">
+          <div class="assessment-progress">
+            <div class="assessment-progress-bar">
+              <div class="assessment-progress-fill" id="progress-fill"></div>
+            </div>
+            <div class="assessment-progress-text">
+              <span id="progress-current">1</span> of <span id="progress-total">15</span>
+            </div>
+          </div>
+
+          <div class="assessment-question">
+            <div class="assessment-question-meta">
+              <span class="assessment-pillar-badge" id="current-pillar">Agency</span>
+              <button class="btn btn--small btn--ghost" id="language-toggle">
+                <span id="language-mode">Plain Language</span>
+              </button>
+            </div>
+
+            <div class="assessment-question-text">
+              <h3 id="question-text">Question text will appear here</h3>
+              <p class="assessment-question-context" id="question-context"></p>
+            </div>
+
+            <div class="assessment-options" id="options-container">
+              <!-- Options will be inserted here -->
+            </div>
+
+            <div class="assessment-nav">
+              <button class="btn btn--ghost" id="skip-btn">Skip</button>
+              <button class="btn btn--accent" id="next-btn" disabled>Next</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Results Screen -->
+        <div class="assessment-screen hidden" id="results-screen">
+          <div class="assessment-results">
+            <h2>Assessment Complete</h2>
+            <div class="assessment-results-summary" id="results-summary">
+              <!-- Results will be inserted here -->
+            </div>
+            <div class="assessment-results-actions">
+              <button class="btn btn--accent" id="restart-btn">Retake Assessment</button>
+              <button class="btn btn--ghost" id="export-btn">Export Results</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Jev Validation Modal -->
+  <div class="jev-modal hidden" id="jev-modal">
+    <div class="jev-modal-backdrop"></div>
+    <div class="jev-modal-dialog">
+      <div id="jev-modal-content"></div>
+    </div>
+  </div>
+
+  <script src="app.js?v=1"></script>
+  <script src="/shared.js"></script>
+</body>
+</html>
