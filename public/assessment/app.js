@@ -19,7 +19,6 @@ const LEVEL_NAMES = {
 };
 const ITEMS_PER_PILLAR = 3;
 const TOTAL_ITEMS = PILLARS.length * ITEMS_PER_PILLAR;
-const JEV_API_BASE = 'https://nous-jev.khalil-himura.workers.dev';
 const JEV_CONFIDENCE_THRESHOLD = 0.75;
 
 // ═══════════════════════════════════════════════════════════════════
@@ -251,7 +250,7 @@ function renderResults() {
   const summary = document.getElementById('results-summary');
   summary.innerHTML = '';
   
-  // Show locked status if applicable
+  // Show locked/unvalidated status
   if (state.results?.locked) {
     const lockedNotice = document.createElement('div');
     lockedNotice.className = 'assessment-result-locked';
@@ -261,6 +260,14 @@ function renderResults() {
       ${state.validation?.localSaveOnly ? '<p class="assessment-result-local">Saved locally only</p>' : ''}
     `;
     summary.appendChild(lockedNotice);
+  } else if (state.results?.unvalidated) {
+    const unvalidatedNotice = document.createElement('div');
+    unvalidatedNotice.className = 'assessment-result-unvalidated';
+    unvalidatedNotice.innerHTML = `
+      <p>⚠ Result unvalidated</p>
+      <p class="assessment-result-local">Validation service unavailable. Results saved locally only.</p>
+    `;
+    summary.appendChild(unvalidatedNotice);
   }
   
   // Show overall level
@@ -273,14 +280,36 @@ function renderResults() {
   `;
   summary.appendChild(overallItem);
   
+  // Find weakest pillar
+  let weakestPillarIdx = 0;
+  let weakestLevel = state.session.pillarLevels[0];
+  PILLARS.forEach((pillar, idx) => {
+    if (state.session.pillarLevels[idx] < weakestLevel) {
+      weakestLevel = state.session.pillarLevels[idx];
+      weakestPillarIdx = idx;
+    }
+  });
+  
+  const weakestPillar = PILLARS[weakestPillarIdx];
+  const focusPillar = state.validation?.pillarFocus?.toLowerCase() || weakestPillar.toLowerCase();
+  
+  // Show recommended focus
+  const focusItem = document.createElement('div');
+  focusItem.className = 'assessment-result-focus';
+  focusItem.innerHTML = `
+    <h4>Recommended Next Practice Focus</h4>
+    <p class="assessment-result-focus-pillar">⭐ ${focusPillar.charAt(0).toUpperCase() + focusPillar.slice(1)}</p>
+    <p class="assessment-result-desc">Focus on strengthening this pillar to advance your overall capability.</p>
+  `;
+  summary.appendChild(focusItem);
+  
   // Show pillar results
   PILLARS.forEach((pillar, idx) => {
     const level = Math.round(state.session.pillarLevels[idx]);
     const levelName = LEVELS[level] || 'L0';
     const confidence = calculateConfidence(idx);
     
-    // Highlight focus pillar if available
-    const isFocusPillar = state.validation?.pillarFocus === pillar.toLowerCase();
+    const isFocusPillar = focusPillar === pillar.toLowerCase();
     
     const item = document.createElement('div');
     item.className = `assessment-result-item ${isFocusPillar ? 'assessment-result-item--focus' : ''}`;
@@ -291,7 +320,6 @@ function renderResults() {
       </div>
       <p class="assessment-result-desc">
         Your ${pillar.toLowerCase()} capability aligns with ${LEVEL_NAMES[levelName]} practices.
-        ${isFocusPillar ? '<br><strong>Recommended focus area</strong>' : ''}
       </p>
       <div class="assessment-result-confidence">
         Confidence: ${(confidence * 100).toFixed(0)}%
@@ -303,6 +331,7 @@ function renderResults() {
   // Store results
   if (!state.results || !state.results.locked) {
     state.results = {
+      ...state.results,
       pillars: PILLARS.map((pillar, idx) => ({
         pillar: pillar,
         level: Math.round(state.session.pillarLevels[idx]),
@@ -319,6 +348,26 @@ function calculateConfidence(pillarIdx) {
   // Simple confidence based on number of responses
   const responses = state.session.pillarCounts[pillarIdx];
   return Math.min(1.0, responses / ITEMS_PER_PILLAR);
+}
+
+function showUnvalidatedResults() {
+  // Mark results as unvalidated
+  state.results.unvalidated = true;
+  state.results.locked = false;
+  
+  // Update display
+  renderResults();
+  
+  // Auto-save locally
+  const saveData = {
+    results: state.results,
+    validation: null,
+    timestamp: Date.now(),
+    unvalidated: true
+  };
+  
+  localStorage.setItem('ssa-cmm-assessment', JSON.stringify(saveData));
+  console.log('Results saved locally (unvalidated)');
 }
 
 // ═══════════════════════════════════════════════════════════════════
@@ -368,9 +417,8 @@ async function validateWithJev(results, sessionState) {
       session_notes: `Session completed at ${new Date().toISOString()}`
     };
     
-    // Try same-origin /api/jev proxy first, fallback to TypeSafe
-    let apiUrl = '/api/jev';
-    let payload = {
+    // Use same-origin /api/jev proxy only (never call TypeSafe directly from browser)
+    const payload = {
       state: assessmentState,
       battery: 'ssa-cmm-v1',
       questions: [
@@ -382,28 +430,12 @@ async function validateWithJev(results, sessionState) {
       ]
     };
     
-    // Try proxy first
-    let response = await fetch(apiUrl, {
+    const response = await fetch('/api/jev', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(payload),
       signal: AbortSignal.timeout(10000)
     });
-    
-    // If proxy doesn't exist, fallback to TypeSafe directly
-    if (response.status === 404) {
-      console.log('No /api/jev proxy found, using TypeSafe API directly');
-      apiUrl = 'https://api.typesafe.ai/v1/systemone';
-      response = await fetch(apiUrl, {
-        method: 'POST',
-        headers: { 
-          'Content-Type': 'application/json',
-          'Origin': 'https://thefutureissolo.com'
-        },
-        body: JSON.stringify(payload),
-        signal: AbortSignal.timeout(10000)
-      });
-    }
 
     if (!response.ok) {
       throw new Error(`API error: ${response.status}`);
@@ -421,8 +453,8 @@ async function validateWithJev(results, sessionState) {
 function showJevValidationModal(validation, results) {
   if (!validation || !validation.answers) {
     console.error('Invalid validation response');
-    // No validation, lock result anyway
-    lockResult(results);
+    // Soft-fail: show unvalidated results
+    showUnvalidatedResults();
     return;
   }
   
@@ -431,20 +463,20 @@ function showJevValidationModal(validation, results) {
   const answers = validation.answers;
   const assessmentState = validation._assessmentState;
   
-  // Gate logic
+  // Gate logic: check ALL relevant confidence thresholds and review_status
   const reviewStatus = answers.review_status;
   const levelRead = answers.level_read;
   const confidenceBand = answers.level_confidence_band;
   const pillarFocus = answers.pillar_focus;
   const judgmentReady = answers.judgment_ready;
   
-  // Check gate conditions
+  // Check gate conditions per spec
   const needsRevision = 
     reviewStatus?.choice === 'needs_revision' || 
     reviewStatus?.choice === 'escalate' ||
-    (reviewStatus?.confidence ?? 0) < JEV_CONFIDENCE_THRESHOLD ||
-    (levelRead?.confidence ?? 0) < JEV_CONFIDENCE_THRESHOLD ||
-    (confidenceBand?.confidence ?? 0) < JEV_CONFIDENCE_THRESHOLD;
+    (reviewStatus?.confidence !== undefined && reviewStatus.confidence < JEV_CONFIDENCE_THRESHOLD) ||
+    (levelRead?.confidence !== undefined && levelRead.confidence < JEV_CONFIDENCE_THRESHOLD) ||
+    (confidenceBand?.confidence !== undefined && confidenceBand.confidence < JEV_CONFIDENCE_THRESHOLD);
   
   const levelAdjustmentNeeded = levelRead?.choice === 'over' || levelRead?.choice === 'under';
   const localSaveOnly = judgmentReady?.noul === 0;
@@ -619,7 +651,9 @@ function escapeHtml(text) {
 // SESSION CONTROL
 // ═══════════════════════════════════════════════════════════════════
 
-async function startAssessment() {
+// Capture the assessment start function in a const at module top level
+// This prevents race conditions with shared.js's startQuickAssessment
+const startAssessmentHandler = async function() {
   if (!state.bank) {
     state.bank = await loadBank();
   }
@@ -637,6 +671,11 @@ async function startAssessment() {
   
   showScreen('question-screen');
   showNextQuestion();
+};
+
+// Export for compatibility
+async function startAssessment() {
+  return startAssessmentHandler();
 }
 
 function showNextQuestion() {
@@ -730,8 +769,8 @@ async function finishAssessment() {
   if (validation) {
     showJevValidationModal(validation, state.results);
   } else {
-    // No validation available, auto-lock
-    lockResult();
+    // Soft-fail path: show unvalidated results, allow local save
+    showUnvalidatedResults();
   }
 }
 
@@ -793,12 +832,10 @@ function exportResults() {
 // INITIALIZATION
 // ═══════════════════════════════════════════════════════════════════
 
-document.addEventListener('DOMContentLoaded', async () => {
-  // Load bank
-  state.bank = await loadBank();
-  
-  // Event listeners
-  document.getElementById('start-btn').addEventListener('click', startAssessment);
+document.addEventListener('DOMContentLoaded', () => {
+  // Bind click listeners FIRST before any async operations
+  // This prevents race conditions with shared.js
+  document.getElementById('start-btn').addEventListener('click', startAssessmentHandler);
   document.getElementById('skip-btn').addEventListener('click', skipQuestion);
   document.getElementById('next-btn').addEventListener('click', nextQuestion);
   document.getElementById('language-toggle').addEventListener('click', toggleLanguage);
@@ -810,4 +847,14 @@ document.addEventListener('DOMContentLoaded', async () => {
     closeJevModal: closeJevModal,
     lockResult: lockResult
   };
+  
+  // Export global for potential external calls
+  window.startAssessment = startAssessmentHandler;
+  
+  // Load bank asynchronously (doesn't block listener registration)
+  loadBank().then(bank => {
+    state.bank = bank;
+  }).catch(err => {
+    console.error('Failed to preload bank:', err);
+  });
 });

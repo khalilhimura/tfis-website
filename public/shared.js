@@ -228,7 +228,7 @@ function initAssessment() {
     if (el) { el.classList.add('active'); showResultForLevel(level); }
   };
 
-  window.startAssessment = function() {
+  window.startQuickAssessment = function() {
     if (assessStarted) return;
     assessStarted = true; answers = []; qIdx = 0;
     const intro = document.querySelector('.assess-intro');
