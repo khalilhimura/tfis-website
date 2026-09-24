@@ -829,6 +829,9 @@ document.addEventListener('DOMContentLoaded', async () => {
   // Load bank
   state.bank = await loadBank();
   
+  // Override shared.js's startAssessment with ours for this page
+  window.startAssessment = startAssessment;
+  
   // Event listeners
   document.getElementById('start-btn').addEventListener('click', startAssessment);
   document.getElementById('skip-btn').addEventListener('click', skipQuestion);
