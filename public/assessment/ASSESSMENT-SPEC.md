@@ -71,7 +71,8 @@ JSON is rendered as text, never HTML. Authentication headers are never returned.
 
 - 64 KiB inbound JSON, 128 KiB provider response; no arbitrary client questions.
 - Server-only `TYPESAFE_API_KEY` (fallback `JEV_API_KEY`).
-- Provider timeout 15 seconds; browser timeout 20 seconds.
+- Provider timeout 45 seconds; browser timeout 55 seconds, leaving time for the proxy response.
+- Request JSON error responses explicitly. If an edge still returns HTML or malformed JSON, preserve the HTTP status and show a retryable error; never accept that response as an evaluation. Metadata includes response content type, Cloudflare Ray ID, and Retry-After when supplied.
 - Explicit `redirect: 'manual'` and rejection of non-success responses; no credential forwarding through redirects.
 - Same-origin production/preview requests and listed local development origins. Foreign Origins rejected.
 - No-store responses; a bounded best-effort per-isolate 10/minute limit. This is **not distributed rate limiting**; use Cloudflare WAF for an account-wide abuse policy.

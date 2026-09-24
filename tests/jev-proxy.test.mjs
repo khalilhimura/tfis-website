@@ -50,6 +50,37 @@ test('upstream timeout has a structured retryable failure',async t=>{
   t.mock.method(globalThis,'fetch',async()=>{throw new DOMException('timeout','TimeoutError');});
   const r=await onRequestPost(ctx());assert.equal(r.status,504);assert.equal((await r.json()).metadata.upstream_status,null);
 });
+test('a slow provider can finish after 15 seconds but a stalled provider is still bounded',async t=>{
+  t.mock.timers.enable({apis:['setTimeout']});
+  // Node mock timers do not control native AbortSignal.timeout; emulate its clock only.
+  t.mock.method(AbortSignal,'timeout',ms=>{
+    const controller=new AbortController();
+    setTimeout(()=>controller.abort(new DOMException('timeout','TimeoutError')),ms);
+    return controller.signal;
+  });
+  let signal;
+  t.mock.method(globalThis,'fetch',async(url,options)=>{
+    signal=options.signal;
+    return new Promise((resolve,reject)=>{
+      signal.addEventListener('abort',()=>reject(signal.reason),{once:true});
+      setTimeout(()=>resolve(Response.json({answers})),25000);
+    });
+  });
+  const pending=onRequestPost(ctx());
+  for(let i=0;i<10&&!signal;i++)await new Promise(resolve=>setImmediate(resolve));
+  assert.ok(signal);
+  t.mock.timers.tick(25000);
+  assert.equal((await pending).status,200);
+  t.mock.method(globalThis,'fetch',async(url,{signal})=>new Promise((resolve,reject)=>{
+    signal.addEventListener('abort',()=>reject(signal.reason),{once:true});
+  }));
+  const stalled=onRequestPost(ctx());
+  for(let i=0;i<10;i++)await new Promise(resolve=>setImmediate(resolve));
+  t.mock.timers.tick(60000);
+  const response=await stalled;
+  assert.equal(response.status,504);
+  assert.match((await response.json()).error,/timed out/);
+});
 test('bare answer responses remain compatible',async t=>{
   t.mock.method(globalThis,'fetch',async()=>Response.json(answers));
   const r=await onRequestPost(ctx());assert.equal(r.status,200);assert.deepEqual((await r.json()).answers,answers);

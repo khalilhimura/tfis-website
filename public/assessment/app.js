@@ -1,6 +1,9 @@
 import { LEVEL_NAMES, TOTAL_ITEMS, QUESTION_IDS, createSession, nextItem, submitAnswer,
   reviseAnswer, summarize, buildAssessmentState, evaluateGate, normalizeAnswers, validateBank } from './core.js?v=6';
 
+// Leave transport time after the proxy's 45-second provider deadline.
+const EVALUATION_TIMEOUT_MS = 55000;
+
 /** Module scope keeps this instrument independent of the shared homepage quiz. */
 export function initAssessment({ document, window, fetch }) {
   const $ = id => document.getElementById(id);
@@ -101,6 +104,8 @@ export function initAssessment({ document, window, fetch }) {
     text('jev-response', metadata?.response ? json(metadata.response) : (metadata?.error ? json({ error: metadata.error }) : 'No response yet.'));
     text('jev-transport', metadata ? json({ endpoint: '/api/jev', method: 'POST', started_at: metadata.startedAt,
       duration_ms: metadata.durationMs ?? null, http_status: metadata.httpStatus ?? null,
+      response_content_type: metadata.responseContentType ?? null, cf_ray: metadata.cfRay ?? null,
+      retry_after: metadata.retryAfter ?? null,
       error: metadata.error ?? null, provider: metadata.response?.metadata ?? null }) : 'No request yet.');
     text('jev-gate', validation?.gate ? json(validation.gate) : 'Not evaluated.');
   }
@@ -180,13 +185,25 @@ export function initAssessment({ document, window, fetch }) {
     const attempt = { request, startedAt: new Date().toISOString() }; metadata = attempt;
     renderResults(); renderEvaluation();
     const started = Date.now(); const activeController = controller;
-    const timeout = window.setTimeout(() => activeController.abort(), 20000);
+    const timeout = window.setTimeout(() => activeController.abort(), EVALUATION_TIMEOUT_MS);
     try {
-      const response = await fetch('/api/jev', { method: 'POST', headers: { 'Content-Type': 'application/json' },
+      const response = await fetch('/api/jev', { method: 'POST', headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
         body: json(request), signal: activeController.signal });
       attempt.httpStatus = response.status;
-      const body = await response.json(); attempt.response = body;
-      if (!response.ok) throw new Error(`Jev is unavailable (HTTP ${response.status}). Your reading remains unlocked.`);
+      attempt.responseContentType = response.headers.get('Content-Type');
+      attempt.cfRay = response.headers.get('CF-Ray');
+      attempt.retryAfter = response.headers.get('Retry-After');
+      let body;
+      try { body = await response.json(); attempt.response = body; }
+      catch (error) {
+        if (['AbortError', 'TimeoutError'].includes(error.name)) throw error;
+        // An edge error can be HTML even when the API normally returns JSON.
+        if (response.ok) throw new Error('Jev returned an unreadable response. Your reading remains unlocked; you can retry.');
+      }
+      if (!response.ok) {
+        if ([408, 504, 524].includes(response.status)) throw new Error(`Jev evaluation timed out (HTTP ${response.status}). Your reading remains unlocked; you can retry without answering again.`);
+        throw new Error(`Jev is unavailable (HTTP ${response.status}). Your reading remains unlocked; you can retry without answering again.`);
+      }
       const answers = normalizeAnswers(body);
       if (generation !== run || results !== target) return;
       validation = { answers, gate: evaluateGate(answers, results.claimedLevel, results.complete) };

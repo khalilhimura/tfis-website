@@ -3,6 +3,7 @@ import bank from '../../public/assessment/bank.json';
 import { PILLARS, QUESTION_IDS, createSession, submitAnswer, summarize, buildAssessmentState, normalizeAnswers } from '../../public/assessment/core.js';
 
 const PROVIDER_URL = 'https://api.typesafe.ai/v1/systemone';
+const PROVIDER_TIMEOUT_MS = 45000;
 const LOCAL_ORIGINS = ['http://localhost:4321', 'http://localhost:8788', 'http://127.0.0.1:4321', 'http://127.0.0.1:8788'];
 const itemById = new Map(bank.items.map(item => [item.id, item]));
 // Best effort per-isolate guard. Distributed abuse prevention belongs in Cloudflare WAF.
@@ -84,7 +85,7 @@ function providerPayload(state) {
 }
 export async function onRequestPost({ request, env }) {
   const started = Date.now();
-  const metadata = { request_id: crypto.randomUUID(), battery: 'ssa-cmm-v1', provider: 'TypeSafe System One', upstream_status: null };
+  const metadata = { request_id: crypto.randomUUID(), battery: 'ssa-cmm-v1', provider: 'TypeSafe System One', upstream_status: null, timeout_ms: PROVIDER_TIMEOUT_MS };
   const reply = (body, status, extraHeaders = {}) => Response.json({ ...body, latency_ms: Date.now() - started, metadata }, { status, headers: { ...headers(request), ...extraHeaders } });
   if (!originAllowed(request)) return reply({ error: 'Origin not allowed.' }, 403);
   if (!request.headers.get('Content-Type')?.toLowerCase().startsWith('application/json')) return reply({ error: 'Use application/json.' }, 415);
@@ -97,8 +98,8 @@ export async function onRequestPost({ request, env }) {
     metadata.upstream_payload = providerPayload(state);
     let response;
     try {
-      response = await fetch(PROVIDER_URL, { method: 'POST', headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${apiKey}` },
-        body: JSON.stringify(metadata.upstream_payload), redirect: 'manual', signal: AbortSignal.timeout(15000) });
+      response = await fetch(PROVIDER_URL, { method: 'POST', headers: { 'Content-Type': 'application/json', Accept: 'application/json', Authorization: `Bearer ${apiKey}` },
+        body: JSON.stringify(metadata.upstream_payload), redirect: 'manual', signal: AbortSignal.timeout(PROVIDER_TIMEOUT_MS) });
       metadata.upstream_status = response.status;
     } catch (error) {
       return reply({ error: ['TimeoutError', 'AbortError'].includes(error.name) ? 'Jev evaluation timed out.' : 'Jev could not be reached.' }, ['TimeoutError', 'AbortError'].includes(error.name) ? 504 : 502);
