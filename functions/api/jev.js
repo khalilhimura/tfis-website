@@ -73,6 +73,10 @@ function buildSystemOnePayload(clientPayload) {
     : JSON.stringify(state);
   
   // Build question definitions for SSA-CMM battery
+  // Schema requirements from TypeSafe System One:
+  // - choice.criteria: dict with choice keys and descriptive strings
+  // - score.criteria: list of labeled option strings
+  // - noul.criteria: dict with true/false keys and descriptive strings
   const questionDefs = {};
   
   questions.forEach(qId => {
@@ -81,7 +85,11 @@ function buildSystemOnePayload(clientPayload) {
         questionDefs[qId] = {
           type: 'choice',
           instructions: 'Based on the assessment state, is the claimed level under, on, or over the operator\'s demonstrated capability?',
-          criteria: ['under', 'on', 'over']
+          criteria: {
+            under: 'Claimed level is too low; operator demonstrates capability above this level',
+            on: 'Claimed level matches demonstrated capability',
+            over: 'Claimed level is too high; operator demonstrates capability below this level'
+          }
         };
         break;
       
@@ -89,7 +97,11 @@ function buildSystemOnePayload(clientPayload) {
         questionDefs[qId] = {
           type: 'score',
           instructions: 'Rate the confidence in this level assessment',
-          criteria: 'weak | moderate | strong'
+          criteria: [
+            'weak: Low confidence in level assessment due to sparse evidence or inconsistent responses',
+            'moderate: Moderate confidence with some supporting evidence but gaps remain',
+            'strong: High confidence with consistent evidence across multiple pillars'
+          ]
         };
         break;
       
@@ -97,7 +109,13 @@ function buildSystemOnePayload(clientPayload) {
         questionDefs[qId] = {
           type: 'choice',
           instructions: 'Which pillar should be the operator\'s next practice focus (weakest pillar)?',
-          criteria: ['agency', 'clarity', 'competence', 'accountability', 'security']
+          criteria: {
+            agency: 'Agency: autonomy in decision-making and tool selection',
+            clarity: 'Clarity: articulation of intent and constraint specification',
+            competence: 'Competence: technical capability and pattern recognition',
+            accountability: 'Accountability: judgment ownership and error correction',
+            security: 'Security: provenance tracking and verification practices'
+          }
         };
         break;
       
@@ -105,7 +123,11 @@ function buildSystemOnePayload(clientPayload) {
         questionDefs[qId] = {
           type: 'choice',
           instructions: 'Should this assessment be reviewed before finalizing?',
-          criteria: ['ok', 'needs_revision', 'escalate']
+          criteria: {
+            ok: 'Assessment is coherent and ready to finalize',
+            needs_revision: 'Assessment has inconsistencies or gaps requiring operator review',
+            escalate: 'Assessment shows critical issues requiring expert review'
+          }
         };
         break;
       
@@ -113,7 +135,10 @@ function buildSystemOnePayload(clientPayload) {
         questionDefs[qId] = {
           type: 'noul',
           instructions: 'Is this judgment ready for write-back (1) or local-save-only (0)?',
-          criteria: '0 | 1'
+          criteria: {
+            true: 'Judgment is ready for write-back to permanent storage',
+            false: 'Judgment should remain local-only (insufficient confidence or practice)'
+          }
         };
         break;
     }
@@ -194,10 +219,16 @@ export async function onRequestPost(context) {
       });
     }
     
-    // Return TypeSafe response
+    // Parse TypeSafe response
     const result = await response.json();
     
-    return new Response(JSON.stringify(result), {
+    // Ensure response has { answers, latency_ms } shape
+    // TypeSafe may return bare answers object or wrapped format
+    const wrappedResult = result.answers 
+      ? result 
+      : { answers: result, latency_ms: result.latency_ms || 0 };
+    
+    return new Response(JSON.stringify(wrappedResult), {
       status: 200,
       headers: { 
         ...corsHeaders,
