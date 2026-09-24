@@ -7,11 +7,52 @@ The SSA-CMM Field Manual Nº 01 self-assessment is now available at `/assessment
 - **Adaptive staircase delivery** across 5 pillars (Agency, Clarity, Competence, Accountability, Security)
 - **15-item session** (3 per pillar) with real-time level estimation
 - **Plain language toggle** for accessibility
-- **Jev validation gate** at completion (confidence threshold <0.75 triggers review modal)
+- **Jev SSA-CMM battery** post-session gate with 5-question validation
 - **TE chassis design** matching SovMemGrok/Nous-Jev pattern
 - **Braun Field Manual palette** (greige/ink/orange accents)
 - **Client-side only**, no tracking
 - **Skip-friendly UX**
+
+## Jev Battery (Post-Session Gate)
+
+After completing 15 items, the assessment validates results through a 5-question battery:
+
+1. **level_read** (Choice) — over | on | under
+2. **level_confidence_band** (Score) — weak | moderate | strong
+3. **pillar_focus** (Choice) — which of 5 pillars to prioritize
+4. **review_status** (Choice) — ok | needs_revision | escalate
+5. **judgment_ready** (Noul) — boolean 0/1 for save mode
+
+### Gate Logic
+
+- **Confidence < 0.75** on review_status, level_read, or confidence_band → needs-revision modal
+- **review_status = needs_revision/escalate** → blocks lock regardless of confidence
+- **level_read = over** (high confidence) → suggests claimed_level - 1
+- **level_read = under** (high confidence) → suggests claimed_level + 1
+- **judgment_ready.noul = 0** → local-save-only (no SovMem write-back)
+
+### API Integration
+
+The assessment tries `/api/jev` proxy first (same-origin), then falls back to:
+- `https://api.typesafe.ai/v1/systemone` (TypeSafe System One)
+
+Payload structure:
+```json
+{
+  "state": {
+    "claimed_level": 3,
+    "pillar_scores": { "agency": 3.2, "clarity": 2.8, ... },
+    "weakest_pillar": "clarity",
+    "strongest_pillar": "agency",
+    "items_answered": 13,
+    "items_skipped": 2,
+    "band_trajectory": "L2-L4",
+    "session_notes": "..."
+  },
+  "battery": "ssa-cmm-v1",
+  "questions": ["level_read", "level_confidence_band", ...]
+}
+```
 
 ## Assessment Structure
 
@@ -41,6 +82,17 @@ npm run build
 npm run preview
 # Visit http://localhost:4322/assessment/
 ```
+
+✅ Production build verified  
+✅ Preview server tested  
+✅ URL routing confirmed: `/assessment/` and `/assessment/index.html`  
+✅ All static assets load correctly (CSS, JS)  
+✅ Stub bank generates test items  
+✅ Staircase adaptation works  
+✅ Jev battery integration implemented (pending TypeSafe API or proxy)  
+✅ Gate logic: confidence thresholds, level adjustments, local-save mode  
+✅ Focus pillar highlighting in results  
+✅ Locked result status display
 
 **Note**: In `astro dev`, you must access `/assessment/index.html` directly. In production (and preview), both `/assessment/` and `/assessment/index.html` work correctly.
 
