@@ -651,7 +651,9 @@ function escapeHtml(text) {
 // SESSION CONTROL
 // ═══════════════════════════════════════════════════════════════════
 
-async function startAssessment() {
+// Capture the assessment start function in a const at module top level
+// This prevents race conditions with shared.js's startQuickAssessment
+const startAssessmentHandler = async function() {
   if (!state.bank) {
     state.bank = await loadBank();
   }
@@ -669,6 +671,11 @@ async function startAssessment() {
   
   showScreen('question-screen');
   showNextQuestion();
+};
+
+// Export for compatibility
+async function startAssessment() {
+  return startAssessmentHandler();
 }
 
 function showNextQuestion() {
@@ -825,15 +832,10 @@ function exportResults() {
 // INITIALIZATION
 // ═══════════════════════════════════════════════════════════════════
 
-document.addEventListener('DOMContentLoaded', async () => {
-  // Load bank
-  state.bank = await loadBank();
-  
-  // Override shared.js's startAssessment with ours for this page
-  window.startAssessment = startAssessment;
-  
-  // Event listeners
-  document.getElementById('start-btn').addEventListener('click', startAssessment);
+document.addEventListener('DOMContentLoaded', () => {
+  // Bind click listeners FIRST before any async operations
+  // This prevents race conditions with shared.js
+  document.getElementById('start-btn').addEventListener('click', startAssessmentHandler);
   document.getElementById('skip-btn').addEventListener('click', skipQuestion);
   document.getElementById('next-btn').addEventListener('click', nextQuestion);
   document.getElementById('language-toggle').addEventListener('click', toggleLanguage);
@@ -845,4 +847,14 @@ document.addEventListener('DOMContentLoaded', async () => {
     closeJevModal: closeJevModal,
     lockResult: lockResult
   };
+  
+  // Export global for potential external calls
+  window.startAssessment = startAssessmentHandler;
+  
+  // Load bank asynchronously (doesn't block listener registration)
+  loadBank().then(bank => {
+    state.bank = bank;
+  }).catch(err => {
+    console.error('Failed to preload bank:', err);
+  });
 });
