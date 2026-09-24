@@ -700,7 +700,7 @@ function showNextQuestion() {
   renderQuestion(item);
 }
 
-function skipQuestion() {
+const skipQuestionHandler = function() {
   // Record skip
   state.session.responses.push({
     itemId: state.session.currentItem.id,
@@ -714,9 +714,9 @@ function skipQuestion() {
   state.session.currentResponse = null;
   
   showNextQuestion();
-}
+};
 
-function nextQuestion() {
+const nextQuestionHandler = function() {
   const selectedResponse = state.session.currentResponse;
   
   if (selectedResponse === null || selectedResponse === undefined) {
@@ -758,7 +758,7 @@ function nextQuestion() {
   state.session.currentResponse = null;
   
   showNextQuestion();
-}
+};
 
 async function finishAssessment() {
   renderResults();
@@ -835,9 +835,10 @@ function exportResults() {
 document.addEventListener('DOMContentLoaded', () => {
   // Bind click listeners FIRST before any async operations
   // This prevents race conditions with shared.js
+  // Use const handler bindings that cannot be overwritten by global scope pollution
   document.getElementById('start-btn').addEventListener('click', startAssessmentHandler);
-  document.getElementById('skip-btn').addEventListener('click', skipQuestion);
-  document.getElementById('next-btn').addEventListener('click', nextQuestion);
+  document.getElementById('skip-btn').addEventListener('click', skipQuestionHandler);
+  document.getElementById('next-btn').addEventListener('click', nextQuestionHandler);
   document.getElementById('language-toggle').addEventListener('click', toggleLanguage);
   document.getElementById('restart-btn').addEventListener('click', restartAssessment);
   document.getElementById('export-btn').addEventListener('click', exportResults);
