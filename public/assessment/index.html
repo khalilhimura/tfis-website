@@ -5,17 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SSA-CMM Field Manual Nº 01 · Self-Assessment</title>
   <link rel="stylesheet" href="/shared.css">
-  <link rel="stylesheet" href="app.css?v=5">
+  <link rel="stylesheet" href="app.css?v=6">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 </head>
-<body data-theme="light">
+<body>
   <a href="#main" class="skip-link">Skip to content</a>
 
   <nav>
     <div class="nav-right">
       <a href="/" aria-label="TFIS Home">TFIS</a>
-      <button class="theme-toggle" aria-label="Toggle theme">
-        <span class="theme-icon">◐</span>
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle theme">
+        <svg class="theme-icon theme-icon--sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="5"/><path d="M12 1v2m0 18v2M4.22 4.22l1.42 1.42m12.72 12.72 1.42 1.42M1 12h2m18 0h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+        <svg class="theme-icon theme-icon--moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="display:none"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
       </button>
     </div>
   </nav>
@@ -46,7 +47,7 @@
           <div class="assessment-intro">
             <h2>Self-Assessment Protocol</h2>
             <p class="assessment-intro-desc">
-              This assessment uses an adaptive staircase algorithm to determine your SSA-CMM level across five pillars: Agency, Clarity, Competence, Accountability, and Security.
+              This assessment uses an adaptive staircase to estimate your self-reported SSA-CMM practice level across five pillars: Agency, Clarity, Competence, Accountability, and Security.
             </p>
             <p class="assessment-intro-desc">
               You'll answer <strong>15 items</strong> (3 per pillar). Each item adapts based on your previous responses. The assessment takes approximately 10 minutes.
@@ -62,9 +63,11 @@
               </div>
               <div class="assessment-feature">
                 <span class="assessment-feature-icon">🔒</span>
-                <span class="assessment-feature-label">Client-side only</span>
+                <span class="assessment-feature-label">Local results · Jev review</span>
               </div>
             </div>
+            <p class="assessment-intro-desc">Skip replaces a question at the same difficulty. At completion, a structured summary is sent to Jev for review. Your question text and answer wording stay in this browser; results are saved on this device only.</p>
+            <p id="bank-status" role="status"></p>
             <div class="assessment-intro-actions">
               <button class="btn btn--accent btn--large" id="start-btn">Begin Assessment</button>
             </div>
@@ -91,7 +94,7 @@
             </div>
 
             <div class="assessment-question-text">
-              <h3 id="question-text">Question text will appear here</h3>
+              <h3 id="question-text" tabindex="-1">Question text will appear here</h3>
               <p class="assessment-question-context" id="question-context"></p>
             </div>
 
@@ -99,20 +102,48 @@
               <!-- Options will be inserted here -->
             </div>
 
+            <p id="question-status" role="status"></p>
             <div class="assessment-nav">
+              <button class="btn btn--ghost" id="back-btn" disabled>Back</button>
               <button class="btn btn--ghost" id="skip-btn">Skip</button>
               <button class="btn btn--accent" id="next-btn" disabled>Next</button>
             </div>
+            <button class="btn btn--small btn--ghost" id="finish-early-btn">Finish with current answers</button>
           </div>
         </div>
 
         <!-- Results Screen -->
         <div class="assessment-screen hidden" id="results-screen">
           <div class="assessment-results">
-            <h2>Assessment Complete</h2>
+            <h2 id="results-heading" tabindex="-1">Your practice reading</h2>
+            <p id="result-status" role="status" aria-live="polite"></p>
+            <p id="save-status" role="status"></p>
             <div class="assessment-results-summary" id="results-summary">
               <!-- Results will be inserted here -->
             </div>
+            <section class="jev-evaluation" aria-labelledby="jev-heading">
+              <h3 id="jev-heading">Jev evaluation</h3>
+              <p id="jev-outcome" role="status" aria-live="polite"></p>
+              <div id="jev-answers"></div>
+              <div id="jev-actions" class="assessment-results-actions"></div>
+              <details class="assessment-details" id="jev-metadata">
+                <summary>Jev API payload &amp; response metadata</summary>
+                <p>Structured evidence sent for this evaluation, transport details, and the response used by the gate. Authentication headers are never included.</p>
+                <h4>Request payload · browser to /api/jev</h4>
+                <pre id="jev-request" tabindex="0">No request yet.</pre>
+                <h4>API metadata · timing and provider payload</h4>
+                <pre id="jev-transport" tabindex="0">No request yet.</pre>
+                <h4>Response · /api/jev to browser</h4>
+                <pre id="jev-response" tabindex="0">No response yet.</pre>
+                <h4>Gate decision</h4>
+                <pre id="jev-gate" tabindex="0">Not evaluated.</pre>
+              </details>
+            </section>
+            <details class="assessment-details" id="response-review">
+              <summary>Review or revise your answers</summary>
+              <p>Revising an answer clears later answers so the staircase can adapt again. A new evaluation runs after you finish.</p>
+              <ol id="response-list"></ol>
+            </details>
             <div class="assessment-results-actions">
               <button class="btn btn--accent" id="restart-btn">Retake Assessment</button>
               <button class="btn btn--ghost" id="export-btn">Export Results</button>
@@ -123,15 +154,7 @@
     </div>
   </main>
 
-  <!-- Jev Validation Modal -->
-  <div class="jev-modal hidden" id="jev-modal">
-    <div class="jev-modal-backdrop"></div>
-    <div class="jev-modal-dialog">
-      <div id="jev-modal-content"></div>
-    </div>
-  </div>
-
-  <script src="/shared.js?v=4"></script>
-  <script src="app.js?v=5"></script>
+  <script src="/shared.js?v=5"></script>
+  <script type="module" src="app.js?v=6"></script>
 </body>
 </html>

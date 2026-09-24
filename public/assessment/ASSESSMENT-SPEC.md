@@ -1,215 +1,81 @@
-# SSA-CMM Assessment — Product Spec
+# SSA-CMM assessment contract
 
-**Spec version:** v0.2  
-**Target URL:** https://thefutureissolo.com/assessment  
-**Source instrument:** `~/Projects/ssa-cmm` (MBA) — Field Manual Nº 01 (baseline staircase + 500 bank = implicit v0.1)  
-**Mount pattern:** `tfis-site/public/assessment/` (same as `/sovmem-grok/`, `/nous-jev/`)  
-**Status:** v0.2 ship — TFIS mount, post-session Jev gate, optional deep-confirm probes + rubric. v0.3 reserved for post-ship learnings (third probe, SovMem write-back hardening, auth).
+Updated 2026-09-24. This describes the implemented assessment under `/assessment/`.
+The instrument measures self-reported practice, not identity or externally certified capability.
 
----
+## Instrument and scoring
 
-## 1. Purpose
+- 15 **answered** readings, round-robin across Agency, Clarity, Competence, Accountability, Security (three per pillar).
+- The 500-item bank has 20 variants per pillar × difficulty band. Bands are **1–5**, discriminating L(band−1)/L(band); result levels are **L0–L5**.
+- Start every pillar at band 3. A response score of 3 or 5 raises its next band by one; 0 or 1 lowers it. Clamp bands to 1–5.
+- Final pillar reading follows the source SSA-CMM instrument: last band for score ≥3; band−1 for score <3. At band 5, score 3 reads L4; at band 1, score 1 reads L1.
+- Overall level is the rounded mean of measured pillar readings. Unanswered pillars remain `null`, never a default L3. An incomplete mean is explicitly provisional and cannot enter the Jev gate.
+- Level names: Manual Operator, Tool User, Workflow Builder, Agent Supervisor, Loop Engineer, Sovereign Architect.
+- Coverage (answers out of three) is shown separately from model confidence. Three responses are not “100% confidence.”
 
-Solo Systems Architect Capability Maturity Model (SSA-CMM) self-assessment for solo technical professionals. Measures **practice, not identity** across five sovereignty pillars. Levels are positions, not verdicts.
+## Flow
 
-Organizing question: *after you spend judgment — a decision, a correction, a taste call — where does it go?*
+1. Load and validate the production bank. Failure shows a retryable error; no placeholder bank is scored.
+2. Begin → select an option → Next. Plain-language switching retains the selected answer. Buttons use module-scoped handlers independent of the homepage quiz.
+3. Skip selects an unseen question from the **same pillar and band** without advancing progress or adding scoring evidence. Exhaustion shows an explicit message with Back / Finish options; it does not invent a reading or change bands.
+4. Back or “Revise answer” replays prior responses and drops the revised answer plus all later evidence. This invalidates the old gate. The revised item and selected option are shown again.
+5. Finish with current answers is available. Incomplete sessions stay unlocked/local and do not call Jev.
+6. The fifteenth answer produces a provisional summary and one Jev request. Pending state is visible. Duplicate completion is ignored; retake/revision aborts the old request and invalidates late responses.
+7. Review responses, retry Jev, export, or retake. An explicit retry or completed revision may make another request; no automatic retry loop.
 
-| Band | Name |
-|------|------|
-| L0 | Manual Operator |
-| L1 | Tool User |
-| L2 | Workflow Builder |
-| L3 | Agent Supervisor |
-| L4 | Loop Engineer |
-| L5 | Sovereign Architect |
+## Jev request
 
-**Pillars:** Agency · Clarity · Competence · Accountability · Security
+The browser posts `{ state, battery: 'ssa-cmm-v1', questions }` to same-origin `/api/jev`.
+The five question IDs are `level_read`, `level_confidence_band`, `pillar_focus`, `review_status`, `judgment_ready`.
 
----
+State contains:
 
-## 2. Non-goals (v1)
+- `claimed_level`, `pillar_scores`, `pillar_answer_counts`, weakest/strongest pillar.
+- `items_answered`, `items_skipped`, real ordered `band_trajectory`.
+- `response_evidence`: slot, item ID, pillar, presented band, numeric score or null, skipped boolean.
+- Bank schema, scoring method, and a clear self-report/evidence limitation.
 
-- No account required for dry run.
-- No per-question LLM / Jev calls.
-- Jev does **not** grade essays or replace the staircase.
-- No tracking cookies / server-side answer storage required for dry run.
-- Third open probe deferred; deep confirm optional and off by default.
+No bank question text, option wording, essays, user identity, or credentials are sent by the browser.
+The proxy replays evidence against its bundled bank and rejects inconsistent/incomplete scores.
+It forwards a canonical structured state plus the five server-owned rubric definitions to TypeSafe's `jev-latest` model.
 
----
+## Gate and interpretation
 
-## 3. End-to-end UX
+The current [TypeSafe API contract](https://docs.typesafe.ai/api) specifies Choice and Score confidence in [0,1], a probability-weighted numeric Score, and Noul as a probability in [0,1]. Noul has no separate confidence field.
 
-### 3.1 Intro
-- What SSA-CMM is, five pillars, ~10–15 min dry run.
-- Braun / TE card language; TFIS nav + theme via `shared.css` where mounted on TFIS.
-- CTA: Start assessment. Secondary: optional "Add deep confirm (2 open probes)" toggle — **off by default**.
+All five typed answers must be present and valid. The gate passes only when:
 
-### 3.2 Staircase (core)
-- **15 items** total: 3 per pillar, drawn adaptively from `public/bank.json` (**500 items**: 5 pillars × 5 bands × 20 variants).
-- One item at a time. Progress UI = **15 slots**, never "question N of 500."
-- Each answer steps the difficulty **band** up or down (staircase hone).
-- **Skip** replaces with another item at the **same band**; skip does not count against the operator.
-- Plain-language toggle: every item has a jargon-free restatement.
-- Soft live read: quiet `claimed_level` + pillar bars after each pillar block and/or at end — **not locked**.
+- All 15 readings are complete.
+- `review_status.choice` is `ok`.
+- `review_status`, `level_read`, and `level_confidence_band` confidence are each ≥0.75.
+- The 0–2 confidence-band score is ≥1 (at least moderate). High confidence in **weak** evidence cannot pass.
 
-### 3.3 Optional deep confirm (flag)
-- After the 15, if toggle on: **2** open probes (~150–250 words target, **hard cap 500** each).
-- Prose extractor (LLM) applies `probe_rubric.json` → integers 0–4 + claim fields (see §5–6).
-- If extraction is thin → `judgment_ready` stays 0 → soft-save only later.
+Missing/invalid responses, low confidence, adverse review status, unavailable service, and timeouts leave results unlocked. These conditions cannot be bypassed by an Accept button.
 
-### 3.4 Jev gate (one call)
-- Build `AssessmentState` (+ probe claim fields if deep confirm ran).
-- **Single** `POST` to TypeSafe System One (prefer same-origin `/api/jev`, mirror `nous-jev`).
-- Show under/on/over + confidence.
-- **Gate:** if `review_status ≠ ok`, or confidence on `level_read` / `review_status` / `level_confidence_band` **< 0.75** → needs-revision modal (revise or re-run); do not lock.
-- If `level_read` is `over`/`under` at high confidence → suggest ±1 with operator confirm.
-- If `judgment_ready = 0` → local soft-save only; no SovMem write-back.
+On a passing gate, `under`/`over` may suggest ±1, clamped to L0–L5. The operator explicitly accepts the current or suggested level. Pillar readings and original claimed level remain intact.
 
-### 3.5 Result
-- Locked level (or soft level if not locked).
-- Weakest pillar as next practice focus (`pillar_focus`).
-- Optional soft-save / SovMem write-back only when `judgment_ready = 1` and gate passed.
+`judgment_ready.noul >= 0.75` is a readiness signal, not permission to write. Low Noul can accompany a passed local review. **All saves are local-only in this implementation; no SovMem write-back exists.** A low-confidence focus suggestion falls back to the locally weakest measured pillar.
 
-**Retake / revise:** a second Jev call is allowed after modal revise; day-to-day path is still one gate call.
+## Inspectable metadata and storage
 
----
+“Jev API payload & response metadata” is a native, keyboard-operable expandable section showing:
 
-## 4. Data shapes
+1. Exact browser request body.
+2. Start time, browser duration, HTTP status/error, proxy request ID/latency/status, and the actual provider payload with rubric definitions.
+3. Proxy response, model/version, usage, typed answers, probabilities and score legend where supplied.
+4. Gate thresholds, reasons, readiness, and suggested adjustment.
 
-### 4.1 AssessmentState (staircase output)
+JSON is rendered as text, never HTML. Authentication headers are never returned. Provider error bodies are not reflected to users. Exports and local snapshots include the same request, response, gate, and session evidence. Storage failures visibly offer export; they do not interrupt assessment.
 
-```ts
-type AssessmentState = {
-  claimed_level: 0 | 1 | 2 | 3 | 4 | 5;
-  pillar_scores: {
-    agency: number;
-    clarity: number;
-    competence: number;
-    accountability: number;
-    security: number;
-  };
-  weakest_pillar:
-    | 'agency' | 'clarity' | 'competence'
-    | 'accountability' | 'security';
-  strongest_pillar:
-    | 'agency' | 'clarity' | 'competence'
-    | 'accountability' | 'security';
-  items_answered: number;   // usually 15
-  items_skipped: number;
-  band_trajectory: string;  // e.g. "b2→b3→b4→b3"
-  session_notes?: string;
-};
-```
+## Proxy limits
 
-### 4.2 Probe claims (deep confirm only; extractor output)
+- 64 KiB inbound JSON, 128 KiB provider response; no arbitrary client questions.
+- Server-only `TYPESAFE_API_KEY` (fallback `JEV_API_KEY`).
+- Provider timeout 15 seconds; browser timeout 20 seconds.
+- Explicit `redirect: 'manual'` and rejection of non-success responses; no credential forwarding through redirects.
+- Same-origin production/preview requests and listed local development origins. Foreign Origins rejected.
+- No-store responses; a bounded best-effort per-isolate 10/minute limit. This is **not distributed rate limiting**; use Cloudflare WAF for an account-wide abuse policy.
 
-```ts
-type ProbeClaims = {
-  probe_scores: [number, number]; // 0–4 each; use weaker toward soft-check
-  has_stop_rule: 0 | 1;           // Noul-shaped
-  provenance_strength: 'weak' | 'moderate' | 'strong';
-  practice_loop_present: 0 | 1;   // capture → verify → write-back named
-  extract_thin: boolean;          // if true, force judgment_ready soft path
-};
-```
+## Deferred extensions
 
-### 4.3 Jev payload
-Send **only** structured fields: `AssessmentState` + `ProbeClaims` (if any).  
-**Do not** send: full essay text, full rubric markdown, or bank items.
-
----
-
-## 5. Jev battery (post-session)
-
-Atomic System One questions (Choice / Score / Noul):
-
-| id | type | options / meaning |
-|----|------|-------------------|
-| `level_read` | Choice | `under` \| `on` \| `over` |
-| `level_confidence_band` | Score | `weak` \| `moderate` \| `strong` |
-| `pillar_focus` | Choice | five pillar ids |
-| `review_status` | Choice | `ok` \| `needs_revision` \| `escalate` |
-| `judgment_ready` | Noul | 0 \| 1 |
-
-### Gate pseudocode
-
-```ts
-if (answers.review_status.choice !== 'ok'
-    || (answers.review_status.confidence ?? 0) < 0.75) {
-  showValidationModal({ reason: 'needs_revision' });
-} else if ((answers.level_confidence_band.confidence ?? 0) < 0.75
-    || (answers.level_read.confidence ?? 0) < 0.75) {
-  showValidationModal({ reason: 'low_confidence' });
-} else {
-  lockResult({
-    focus: answers.pillar_focus.choice,
-    level_adj: answers.level_read.choice,
-  });
-}
-```
-
-Reuse `nous-jev` client patterns: TypeSafe `https://api.typesafe.ai/v1/systemone`, CORS locked to `thefutureissolo.com` (+ localhost), rate limit, no secret leakage.
-
----
-
-## 6. Open-probe rubric (HOTS / critical thinking)
-
-File: `public/probe_rubric.json` (versioned next to `bank.json`).
-
-Score **higher-order thinking as practice**, not eloquence. Each probe **0–4**; weaker of the two informs soft level check.
-
-| Score | Label | Signal |
-|------:|-------|--------|
-| 0 | Absent | Assertion only; no why / tradeoff / stop |
-| 1 | Recall | Names a tool or step; judgment evaporates |
-| 2 | Apply | Concrete situation + action; weak on failure modes / write-back |
-| 3 | Analyze / evaluate | Tradeoffs, stop-rule, provenance ("how I'd know I was wrong"); judgment applied then lost |
-| 4 | Create / compound | Designs a loop: capture → verify → write back to memory they own; next practice named |
-
-**Soft-check vs staircase (does not override claimed_level alone):**
-- avg ≤ 1 → challenge claimed_level down in Jev context
-- ~2 → on-band for L1–L2 signal
-- ~3 → L3 signal
-- 4 → L4–L5 signal **only if** staircase already agrees
-
-Extractor fills `ProbeClaims`; staircase still owns `claimed_level`.
-
----
-
-## 7. Design language
-
-- **Instrument core:** Dieter Rams / Braun — greige casing, ink, one orange (`ssa-cmm` existing palette).
-- **TFIS mount:** SovMemGrok TE chassis chrome + `shared.css` (nav, theme toggle, mono labels, cream panel).
-- Keep Field Manual Nº 01 voice: *Weniger, aber besser.*
-
----
-
-## 8. Bank & validation
-
-- `public/bank.json` — 500 items; validate with `node scripts/validate-bank.mjs` (and `--strict`).
-- Coverage target: 20 variants per pillar×band cell.
-
----
-
-## 9. Ship checklist
-
-1. Land UI + bank under `tfis-site/public/assessment/` (or Worker assets equivalent) so `/assessment` resolves.
-2. Wire staircase from existing `index.html` / bank.
-3. Optional deep-confirm flag + 2 probes + extractor using `probe_rubric.json`.
-4. Same-origin `/api/jev` (or shared nous-jev binding) + gate UI.
-5. Verify live: https://thefutureissolo.com/assessment (intro → 15 → optional probes → gate → result).
-6. Secrets: `TYPESAFE_API_KEY` (and extractor LLM key if used) via wrangler secrets — never in repo.
-
----
-
-## 10. Ownership
-
-| Seat | Owns |
-|------|------|
-| Linus | Build, mount, deploy, API wiring |
-| Audy | Spec, rubric, battery, ops recap |
-| Khalil | Product go / flag defaults |
-
----
-
-*Spec distilled from SSA-CMM lounge design thread, 2026-09-24.*
+The previous v0.2 planning document described optional deep-confirm probes and an extractor. Those are **not implemented** and are not presented as evidence in this release. `probe_rubric.json` remains a reference for that future feature. Accounts, resume across reload, remote write-back, and external verification are also outside the current instrument.
