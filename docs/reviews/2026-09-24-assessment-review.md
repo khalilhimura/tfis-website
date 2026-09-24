@@ -1,6 +1,6 @@
 # Assessment review and verification
 
-Scope: `/assessment/`, its 500-item bank, shared-page interaction boundary, and `/api/jev`. Based on `main` at `b129ea7` (PR #15).
+Scope: `/assessment/`, its 500-item bank, shared-page interaction boundary, and `/api/jev`. Started from `main` at `b129ea7` (PR #15), then integrated the concurrent SovMemGrok release at `442d507`.
 
 ## Findings fixed
 
@@ -19,7 +19,7 @@ Scope: `/assessment/`, its 500-item bank, shared-page interaction boundary, and 
 
 ## Verification performed
 
-- `npm test`: **30 passed, 0 failed**. Includes real JSDOM click flows, pure scoring/gate tests and controlled proxy transport tests.
+- `npm test`: **54 passed, 0 failed** after integration with current main. Includes 30 assessment tests (real JSDOM click flows, pure scoring/gate tests and controlled proxy transport tests) plus the SovMemGrok regression suite.
 - `npm run build`: static Astro build passed, 57 pages.
 - Pages Functions bundle passed with Wrangler 4.137.0 and the Git build environment’s Wrangler 3.114.17. JSON imports use the Pages-compatible form; a test-only Node loader mirrors that bundler behavior. JSDOM 26 supports the build environment’s Node 22.22.0. The installed 4.119.0 CLI can bundle/deploy but its local runtime rejects this project's compatibility date, so local runtime verification used 4.137.0.
 - Independent read-only code review found the persisted-acceptance issue; regression reproduced, fixed, and re-reviewed successfully.
@@ -32,7 +32,7 @@ Scope: `/assessment/`, its 500-item bank, shared-page interaction boundary, and 
 
 ## Release limits
 
-The feature preview is behind existing Cloudflare Access. Its deployment succeeded; an authenticated browser preview was not available. Real integration was verified with the same function code bundled into a local Pages runtime and live TypeSafe requests. Production remains the PR #15 release until this change is separately merged/deployed.
+The feature preview is behind existing Cloudflare Access. Its deployment succeeded; an authenticated browser preview was not available. Real integration was verified with the same function code bundled into a local Pages runtime and live TypeSafe requests. The production assessment remains the PR #15 version until this change is separately merged/deployed.
 
 This instrument remains a self-report; there are no implemented optional prose probes, external validation or remote write-back. The proxy's rate limit is best effort per isolate, not a distributed quota.
 
