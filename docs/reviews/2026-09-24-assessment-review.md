@@ -21,7 +21,7 @@ Scope: `/assessment/`, its 500-item bank, shared-page interaction boundary, and 
 
 - `npm test`: **30 passed, 0 failed**. Includes real JSDOM click flows, pure scoring/gate tests and controlled proxy transport tests.
 - `npm run build`: static Astro build passed, 57 pages.
-- Pages Functions bundle passed with Wrangler 4.137.0. The installed 4.119.0 CLI can bundle/deploy but its local runtime rejects this project's compatibility date, so local runtime verification used 4.137.0.
+- Pages Functions bundle passed with Wrangler 4.137.0 and the Git build environment’s Wrangler 3.114.17. JSON imports use the Pages-compatible form; a test-only Node loader mirrors that bundler behavior. JSDOM 26 supports the build environment’s Node 22.22.0. The installed 4.119.0 CLI can bundle/deploy but its local runtime rejects this project's compatibility date, so local runtime verification used 4.137.0.
 - Independent read-only code review found the persisted-acceptance issue; regression reproduced, fixed, and re-reviewed successfully.
 - Real browser against local Pages runtime, using the actual Jev provider: Begin → Skip stayed at 1/15; selection → Next reached 2/15; 15 actual answers plus one skip yielded L4 and a single completed provider request.
 - Real response: HTTP 200, model `jev-1.13.0`, proxy latency 1509 ms, browser duration 1606 ms. Gate correctly rejected low confidence and weak evidence; no acceptance action appeared. This verifies the real low-confidence path, not a passing provider judgment.

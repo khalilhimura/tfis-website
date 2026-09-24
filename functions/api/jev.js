@@ -1,5 +1,5 @@
 /** Same-origin, bounded Jev assessment proxy. Never returns authentication headers. */
-import bank from '../../public/assessment/bank.json' with { type: 'json' };
+import bank from '../../public/assessment/bank.json';
 import { PILLARS, QUESTION_IDS, createSession, submitAnswer, summarize, buildAssessmentState, normalizeAnswers } from '../../public/assessment/core.js';
 
 const PROVIDER_URL = 'https://api.typesafe.ai/v1/systemone';
