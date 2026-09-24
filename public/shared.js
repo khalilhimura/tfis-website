@@ -246,7 +246,7 @@ function initAssessment() {
     container.classList.add('active');
     const q = QUESTIONS[qIdx];
     const optsHTML = q.opts.map((o,i) =>
-      `<button class="assess-opt" data-idx="${i}" onclick="selectOpt(this,${i})">
+      `<button class="assess-opt" data-idx="${i}" onclick="quickAssessSelectOpt(this,${i})">
         <span class="ring"></span><span>${o.t}</span>
       </button>`
     ).join('');
@@ -258,26 +258,26 @@ function initAssessment() {
         <p class="assess-q-text">${q.q}</p>
         <div class="assess-opts">${optsHTML}</div>
         <div class="assess-nav">
-          <button ${qIdx===0?'style=visibility:hidden':''} onclick="prevQuestion()">← Back</button>
-          <button onclick="nextQuestion()" style="color:var(--g400);border-color:var(--g200)">Skip</button>
+          <button ${qIdx===0?'style=visibility:hidden':''} onclick="quickAssessPrev()">← Back</button>
+          <button onclick="quickAssessNext()" style="color:var(--g400);border-color:var(--g200)">Skip</button>
         </div>
       </div>`;
   }
 
-  window.selectOpt = function(el, idx) {
+  window.quickAssessSelectOpt = function(el, idx) {
     const parent = el.closest('.assess-q-inner');
     if (parent) parent.querySelectorAll('.assess-opt').forEach(b => b.classList.remove('selected'));
     el.classList.add('selected');
     answers[qIdx] = QUESTIONS[qIdx].opts[idx].s;
-    setTimeout(() => nextQuestion(), 300);
+    setTimeout(() => quickAssessNext(), 300);
   };
 
-  window.nextQuestion = function() {
+  window.quickAssessNext = function() {
     if (qIdx < QUESTIONS.length - 1) { qIdx++; renderQuestion(); }
     else finishAssessment();
   };
 
-  window.prevQuestion = function() {
+  window.quickAssessPrev = function() {
     if (qIdx > 0) { qIdx--; renderQuestion(); }
   };
 
