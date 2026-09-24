@@ -75,6 +75,52 @@ test('network, malformed and HTTP failures remain unlocked and retain metadata f
     assert.match(a.doc.querySelector('#jev-request').textContent,/ssa-cmm-v1/);
   }
 });
+test('an HTML gateway timeout preserves HTTP diagnostics and answers for a successful retry',async t=>{
+  let attempts=0;
+  const a=await setup(t,async()=>++attempts===1
+    ? new Response('<!DOCTYPE html><title>Gateway timeout</title>',{status:504,headers:{'Content-Type':'text/html','CF-Ray':'test-ray'}})
+    : Response.json(good()));
+  for(let i=0;i<15;i++)a.answer();await settle();
+  assert.match(a.doc.querySelector('#jev-outcome').textContent,/timed out.*504/i);
+  assert.doesNotMatch(a.doc.querySelector('#jev-outcome').textContent,/Unexpected token|DOCTYPE/);
+  assert.equal(a.doc.querySelector('#accept-result'),null);
+  const saved=JSON.parse(a.dom.window.localStorage.getItem('ssa-cmm-assessment'));
+  assert.equal(saved.metadata.httpStatus,504);
+  assert.equal(saved.metadata.responseContentType,'text/html');
+  assert.equal(saved.metadata.cfRay,'test-ray');
+  assert.match(a.doc.querySelector('#jev-transport').textContent,/test-ray/);
+  a.click('retry-jev');await settle();
+  assert.deepEqual(a.calls[1],a.calls[0]);
+  assert.ok(a.doc.querySelector('#accept-result'));
+});
+test('the browser waits for a slow evaluation past 20 seconds and still bounds a stalled request',async t=>{
+  t.mock.timers.enable({apis:['setTimeout']});
+  let resolve;
+  const a=await setup(t,(url,{signal})=>new Promise((done,reject)=>{
+    resolve=()=>done(Response.json(good()));
+    signal.addEventListener('abort',()=>reject(new DOMException('aborted','AbortError')),{once:true});
+  }));
+  for(let i=0;i<15;i++)a.answer();
+  t.mock.timers.tick(25000);await settle();
+  resolve();await settle();
+  assert.ok(a.doc.querySelector('#accept-result'));
+  a.click('retry-jev');
+  t.mock.timers.tick(60000);await settle();
+  assert.match(a.doc.querySelector('#jev-outcome').textContent,/timed out/i);
+  assert.equal(a.doc.querySelector('#accept-result'),null);
+});
+test('malformed success and structured gateway errors are readable without accepting a result',async t=>{
+  for(const responder of [
+    async()=>new Response('<html>Broken gateway</html>',{headers:{'Content-Type':'text/html'}}),
+    async()=>new Response('{broken',{headers:{'Content-Type':'application/json'}}),
+    async()=>Response.json({title:'Gateway Timeout',status:504},{status:504,headers:{'Content-Type':'application/problem+json'}}),
+  ]) {
+    const a=await setup(t,responder);for(let i=0;i<15;i++)a.answer();await settle();
+    assert.match(a.doc.querySelector('#jev-outcome').textContent,/unreadable response|timed out/i);
+    assert.doesNotMatch(a.doc.querySelector('#jev-outcome').textContent,/Unexpected token|JSON at position/);
+    assert.equal(a.doc.querySelector('#accept-result'),null);
+  }
+});
 test('early finish does not infer levels for untouched pillars or call Jev',async t=>{
   const a=await setup(t);a.answer();a.click('finish-early-btn');await settle();
   assert.equal(a.calls.length,0);assert.match(a.doc.querySelector('#results-summary').textContent,/Not measured/);
