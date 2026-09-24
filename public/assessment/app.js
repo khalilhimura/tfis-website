@@ -221,20 +221,47 @@ function renderResults() {
   const summary = document.getElementById('results-summary');
   summary.innerHTML = '';
   
+  // Show locked status if applicable
+  if (state.results?.locked) {
+    const lockedNotice = document.createElement('div');
+    lockedNotice.className = 'assessment-result-locked';
+    lockedNotice.innerHTML = `
+      <p>✓ Result validated and locked</p>
+      ${state.results.adjustedLevel ? '<p class="assessment-result-adjusted">Level adjusted based on validation</p>' : ''}
+      ${state.validation?.localSaveOnly ? '<p class="assessment-result-local">Saved locally only</p>' : ''}
+    `;
+    summary.appendChild(lockedNotice);
+  }
+  
+  // Show overall level
+  const overallLevel = Math.round(state.session.pillarLevels.reduce((a, b) => a + b, 0) / PILLARS.length);
+  const overallItem = document.createElement('div');
+  overallItem.className = 'assessment-result-overall';
+  overallItem.innerHTML = `
+    <h3>Overall Level: ${LEVELS[state.results?.overallLevel ?? overallLevel]}</h3>
+    <p class="assessment-result-level-name">${LEVEL_NAMES[LEVELS[state.results?.overallLevel ?? overallLevel]]}</p>
+  `;
+  summary.appendChild(overallItem);
+  
+  // Show pillar results
   PILLARS.forEach((pillar, idx) => {
     const level = Math.round(state.session.pillarLevels[idx]);
     const levelName = LEVELS[level] || 'L0';
     const confidence = calculateConfidence(idx);
     
+    // Highlight focus pillar if available
+    const isFocusPillar = state.validation?.pillarFocus === pillar.toLowerCase();
+    
     const item = document.createElement('div');
-    item.className = 'assessment-result-item';
+    item.className = `assessment-result-item ${isFocusPillar ? 'assessment-result-item--focus' : ''}`;
     item.innerHTML = `
       <div class="assessment-result-header">
-        <span class="assessment-result-pillar">${pillar}</span>
+        <span class="assessment-result-pillar">${pillar}${isFocusPillar ? ' ⭐' : ''}</span>
         <span class="assessment-result-level">${levelName}: ${LEVEL_NAMES[levelName]}</span>
       </div>
       <p class="assessment-result-desc">
         Your ${pillar.toLowerCase()} capability aligns with ${LEVEL_NAMES[levelName]} practices.
+        ${isFocusPillar ? '<br><strong>Recommended focus area</strong>' : ''}
       </p>
       <div class="assessment-result-confidence">
         Confidence: ${(confidence * 100).toFixed(0)}%
@@ -244,16 +271,18 @@ function renderResults() {
   });
   
   // Store results
-  state.results = {
-    pillars: PILLARS.map((pillar, idx) => ({
-      pillar: pillar,
-      level: Math.round(state.session.pillarLevels[idx]),
-      levelName: LEVELS[Math.round(state.session.pillarLevels[idx])],
-      confidence: calculateConfidence(idx)
-    })),
-    overallLevel: Math.round(state.session.pillarLevels.reduce((a, b) => a + b, 0) / PILLARS.length),
-    timestamp: Date.now()
-  };
+  if (!state.results || !state.results.locked) {
+    state.results = {
+      pillars: PILLARS.map((pillar, idx) => ({
+        pillar: pillar,
+        level: Math.round(state.session.pillarLevels[idx]),
+        levelName: LEVELS[Math.round(state.session.pillarLevels[idx])],
+        confidence: calculateConfidence(idx)
+      })),
+      overallLevel: overallLevel,
+      timestamp: Date.now()
+    };
+  }
 }
 
 function calculateConfidence(pillarIdx) {
@@ -263,87 +292,291 @@ function calculateConfidence(pillarIdx) {
 }
 
 // ═══════════════════════════════════════════════════════════════════
-// JEV VALIDATION
+// JEV VALIDATION (SSA-CMM Battery)
 // ═══════════════════════════════════════════════════════════════════
 
-async function validateWithJev(results) {
+async function validateWithJev(results, sessionState) {
   try {
-    const payload = {
-      title: 'SSA-CMM Assessment Results',
-      body: `Completed SSA-CMM self-assessment with results across 5 pillars:\n${
-        results.pillars.map(p => `- ${p.pillar}: ${p.levelName} (confidence: ${(p.confidence * 100).toFixed(0)}%)`).join('\n')
-      }\nOverall level: ${LEVELS[results.overallLevel]}`,
-      declared_type: 'assessment_result',
-      stop_rule: null,
-      provenance: 'SSA-CMM Field Manual Nº 01 Self-Assessment'
+    // Build AssessmentState for Jev battery
+    const pillarScores = {};
+    let weakestScore = Infinity;
+    let strongestScore = -Infinity;
+    let weakestPillar = 'agency';
+    let strongestPillar = 'agency';
+    
+    results.pillars.forEach(p => {
+      const pillarKey = p.pillar.toLowerCase();
+      const score = p.level + (p.confidence - 0.5); // Adjust score by confidence
+      pillarScores[pillarKey] = score;
+      
+      if (score < weakestScore) {
+        weakestScore = score;
+        weakestPillar = pillarKey;
+      }
+      if (score > strongestScore) {
+        strongestScore = score;
+        strongestPillar = pillarKey;
+      }
+    });
+    
+    // Build band trajectory (simplified: show level range)
+    const levels = results.pillars.map(p => p.level);
+    const minLevel = Math.min(...levels);
+    const maxLevel = Math.max(...levels);
+    const bandTrajectory = minLevel === maxLevel 
+      ? `L${minLevel}` 
+      : `L${minLevel}-L${maxLevel}`;
+    
+    const assessmentState = {
+      claimed_level: results.overallLevel,
+      pillar_scores: pillarScores,
+      weakest_pillar: weakestPillar,
+      strongest_pillar: strongestPillar,
+      items_answered: sessionState.responses.filter(r => !r.skipped).length,
+      items_skipped: sessionState.responses.filter(r => r.skipped).length,
+      band_trajectory: bandTrajectory,
+      session_notes: `Session completed at ${new Date().toISOString()}`
     };
-
-    const response = await fetch(`${JEV_API_BASE}/api/jev`, {
+    
+    // Try same-origin /api/jev proxy first, fallback to TypeSafe
+    let apiUrl = '/api/jev';
+    let payload = {
+      state: assessmentState,
+      battery: 'ssa-cmm-v1',
+      questions: [
+        'level_read',
+        'level_confidence_band',
+        'pillar_focus',
+        'review_status',
+        'judgment_ready'
+      ]
+    };
+    
+    // Try proxy first
+    let response = await fetch(apiUrl, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(payload),
       signal: AbortSignal.timeout(10000)
     });
+    
+    // If proxy doesn't exist, fallback to TypeSafe directly
+    if (response.status === 404) {
+      console.log('No /api/jev proxy found, using TypeSafe API directly');
+      apiUrl = 'https://api.typesafe.ai/v1/systemone';
+      response = await fetch(apiUrl, {
+        method: 'POST',
+        headers: { 
+          'Content-Type': 'application/json',
+          'Origin': 'https://thefutureissolo.com'
+        },
+        body: JSON.stringify(payload),
+        signal: AbortSignal.timeout(10000)
+      });
+    }
 
     if (!response.ok) {
       throw new Error(`API error: ${response.status}`);
     }
 
-    return await response.json();
+    const result = await response.json();
+    result._assessmentState = assessmentState; // Attach for gate logic
+    return result;
   } catch (error) {
     console.error('Jev validation failed:', error);
     return null;
   }
 }
 
-function showJevValidationModal(validation) {
+function showJevValidationModal(validation, results) {
   if (!validation || !validation.answers) {
     console.error('Invalid validation response');
+    // No validation, lock result anyway
+    lockResult(results);
     return;
   }
   
   const modal = document.getElementById('jev-modal');
   const content = document.getElementById('jev-modal-content');
   const answers = validation.answers;
+  const assessmentState = validation._assessmentState;
+  
+  // Gate logic
+  const reviewStatus = answers.review_status;
+  const levelRead = answers.level_read;
+  const confidenceBand = answers.level_confidence_band;
+  const pillarFocus = answers.pillar_focus;
+  const judgmentReady = answers.judgment_ready;
+  
+  // Check gate conditions
+  const needsRevision = 
+    reviewStatus?.choice === 'needs_revision' || 
+    reviewStatus?.choice === 'escalate' ||
+    (reviewStatus?.confidence ?? 0) < JEV_CONFIDENCE_THRESHOLD ||
+    (levelRead?.confidence ?? 0) < JEV_CONFIDENCE_THRESHOLD ||
+    (confidenceBand?.confidence ?? 0) < JEV_CONFIDENCE_THRESHOLD;
+  
+  const levelAdjustmentNeeded = levelRead?.choice === 'over' || levelRead?.choice === 'under';
+  const localSaveOnly = judgmentReady?.noul === 0;
   
   let html = '<h3>Assessment Validation</h3>';
   html += '<div class="jev-modal-results">';
   
-  // Check for low confidence
-  const hasLowConfidence = state.results.pillars.some(p => p.confidence < JEV_CONFIDENCE_THRESHOLD);
-  
-  if (hasLowConfidence) {
-    html += '<div class="jev-modal-warning">⚠ Some pillar assessments have lower confidence. Consider reviewing responses in those areas.</div>';
+  if (needsRevision) {
+    html += '<div class="jev-modal-warning">⚠ Validation suggests review before finalizing</div>';
   }
   
-  // Show validation feedback
-  if (answers.review_status) {
-    const conf = answers.review_status.confidence;
-    const status = answers.review_status.choice;
+  // Review Status
+  if (reviewStatus) {
+    const conf = reviewStatus.confidence ?? 0;
     html += `
       <div class="jev-modal-item">
-        <div class="jev-modal-label">Assessment Quality</div>
+        <div class="jev-modal-label">Review Status</div>
         <div class="jev-confidence ${conf >= JEV_CONFIDENCE_THRESHOLD ? 'jev-confidence--high' : 'jev-confidence--low'}">
           ${(conf * 100).toFixed(0)}% confidence
         </div>
-        <p>Status: <strong>${status}</strong></p>
-        ${answers.review_status.reasoning ? `<p class="jev-reasoning">${escapeHtml(answers.review_status.reasoning)}</p>` : ''}
+        <p>Status: <strong>${reviewStatus.choice}</strong></p>
+        ${reviewStatus.reasoning ? `<p class="jev-reasoning">${escapeHtml(reviewStatus.reasoning)}</p>` : ''}
+      </div>
+    `;
+  }
+  
+  // Level Read
+  if (levelRead) {
+    const conf = levelRead.confidence ?? 0;
+    let suggestion = '';
+    if (levelRead.choice === 'over' && conf >= JEV_CONFIDENCE_THRESHOLD) {
+      const newLevel = Math.max(0, results.overallLevel - 1);
+      suggestion = `<p><strong>Suggestion:</strong> Consider ${LEVELS[newLevel]} (${LEVEL_NAMES[LEVELS[newLevel]]})</p>`;
+    } else if (levelRead.choice === 'under' && conf >= JEV_CONFIDENCE_THRESHOLD) {
+      const newLevel = Math.min(5, results.overallLevel + 1);
+      suggestion = `<p><strong>Suggestion:</strong> Consider ${LEVELS[newLevel]} (${LEVEL_NAMES[LEVELS[newLevel]]})</p>`;
+    }
+    
+    html += `
+      <div class="jev-modal-item">
+        <div class="jev-modal-label">Level Assessment</div>
+        <div class="jev-confidence ${conf >= JEV_CONFIDENCE_THRESHOLD ? 'jev-confidence--high' : 'jev-confidence--low'}">
+          ${(conf * 100).toFixed(0)}% confidence
+        </div>
+        <p>Your claimed level appears: <strong>${levelRead.choice}</strong></p>
+        ${suggestion}
+        ${levelRead.reasoning ? `<p class="jev-reasoning">${escapeHtml(levelRead.reasoning)}</p>` : ''}
+      </div>
+    `;
+  }
+  
+  // Confidence Band
+  if (confidenceBand) {
+    const conf = confidenceBand.confidence ?? 0;
+    html += `
+      <div class="jev-modal-item">
+        <div class="jev-modal-label">Confidence Band</div>
+        <div class="jev-confidence ${conf >= JEV_CONFIDENCE_THRESHOLD ? 'jev-confidence--high' : 'jev-confidence--low'}">
+          ${(conf * 100).toFixed(0)}% confidence
+        </div>
+        <p>Assessment confidence: <strong>${confidenceBand.score ?? confidenceBand.choice}</strong></p>
+        ${confidenceBand.reasoning ? `<p class="jev-reasoning">${escapeHtml(confidenceBand.reasoning)}</p>` : ''}
+      </div>
+    `;
+  }
+  
+  // Pillar Focus
+  if (pillarFocus) {
+    const conf = pillarFocus.confidence ?? 0;
+    const focusPillar = pillarFocus.choice;
+    html += `
+      <div class="jev-modal-item">
+        <div class="jev-modal-label">Recommended Focus</div>
+        <div class="jev-confidence ${conf >= JEV_CONFIDENCE_THRESHOLD ? 'jev-confidence--high' : 'jev-confidence--low'}">
+          ${(conf * 100).toFixed(0)}% confidence
+        </div>
+        <p>Priority pillar: <strong>${focusPillar.charAt(0).toUpperCase() + focusPillar.slice(1)}</strong></p>
+        ${pillarFocus.reasoning ? `<p class="jev-reasoning">${escapeHtml(pillarFocus.reasoning)}</p>` : ''}
+      </div>
+    `;
+  }
+  
+  // Judgment Ready (local save notice)
+  if (localSaveOnly) {
+    html += `
+      <div class="jev-modal-item">
+        <div class="jev-modal-label">Save Mode</div>
+        <p>⚠ Results will be saved <strong>locally only</strong> (no remote write-back)</p>
       </div>
     `;
   }
   
   html += '</div>';
   html += '<div class="jev-modal-actions">';
-  html += '<button class="btn btn--accent" onclick="window.assessment.closeJevModal()">Continue</button>';
+  
+  if (needsRevision) {
+    html += '<button class="btn btn--ghost" onclick="window.assessment.closeJevModal()">Review Responses</button>';
+    html += '<button class="btn btn--accent" onclick="window.assessment.lockResult()">Accept Result</button>';
+  } else if (levelAdjustmentNeeded && (levelRead?.confidence ?? 0) >= JEV_CONFIDENCE_THRESHOLD) {
+    const newLevel = levelRead.choice === 'over' 
+      ? Math.max(0, results.overallLevel - 1)
+      : Math.min(5, results.overallLevel + 1);
+    html += '<button class="btn btn--ghost" onclick="window.assessment.lockResult()">Keep Current Level</button>';
+    html += `<button class="btn btn--accent" onclick="window.assessment.lockResult(${newLevel})">Adjust to ${LEVELS[newLevel]}</button>`;
+  } else {
+    html += '<button class="btn btn--accent" onclick="window.assessment.lockResult()">Continue</button>';
+  }
+  
   html += '</div>';
   
   content.innerHTML = html;
   modal.classList.remove('hidden');
+  
+  // Store validation result for lockResult
+  state.validation = {
+    answers: answers,
+    localSaveOnly: localSaveOnly,
+    suggestedLevel: levelAdjustmentNeeded && (levelRead?.confidence ?? 0) >= JEV_CONFIDENCE_THRESHOLD
+      ? (levelRead.choice === 'over' ? results.overallLevel - 1 : results.overallLevel + 1)
+      : null,
+    pillarFocus: pillarFocus?.choice
+  };
 }
 
 function closeJevModal() {
   const modal = document.getElementById('jev-modal');
   modal.classList.add('hidden');
+}
+
+function lockResult(adjustedLevel) {
+  // Close modal
+  closeJevModal();
+  
+  // Apply level adjustment if provided
+  if (typeof adjustedLevel === 'number') {
+    state.results.overallLevel = adjustedLevel;
+    state.results.adjustedLevel = true;
+  }
+  
+  // Mark as locked
+  state.results.locked = true;
+  state.results.lockedAt = Date.now();
+  
+  // Save to localStorage
+  const saveData = {
+    results: state.results,
+    validation: state.validation,
+    timestamp: Date.now()
+  };
+  
+  // Check if local-save-only mode
+  if (state.validation?.localSaveOnly) {
+    console.log('Local save only (judgment not ready)');
+    localStorage.setItem('ssa-cmm-assessment', JSON.stringify(saveData));
+  } else {
+    // Full save (could add SovMem write-back here if integrated)
+    localStorage.setItem('ssa-cmm-assessment', JSON.stringify(saveData));
+    console.log('Result locked and saved');
+  }
+  
+  // Update results display
+  renderResults();
 }
 
 function escapeHtml(text) {
@@ -450,10 +683,13 @@ async function finishAssessment() {
   renderResults();
   showScreen('results-screen');
   
-  // Validate with Jev
-  const validation = await validateWithJev(state.results);
+  // Validate with Jev (pass sessionState for battery)
+  const validation = await validateWithJev(state.results, state.session);
   if (validation) {
-    showJevValidationModal(validation);
+    showJevValidationModal(validation, state.results);
+  } else {
+    // No validation available, auto-lock
+    lockResult();
   }
 }
 
@@ -529,6 +765,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   
   // Expose functions for modal
   window.assessment = {
-    closeJevModal: closeJevModal
+    closeJevModal: closeJevModal,
+    lockResult: lockResult
   };
 });
