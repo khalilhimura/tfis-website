@@ -86,9 +86,9 @@ function buildSystemOnePayload(clientPayload) {
           type: 'choice',
           instructions: 'Based on the assessment state, is the claimed level under, on, or over the operator\'s demonstrated capability?',
           criteria: {
-            under: 'Claimed level is too high; operator demonstrates capability below this level',
+            under: 'Claimed level is too low; operator demonstrates capability above this level',
             on: 'Claimed level matches demonstrated capability',
-            over: 'Claimed level is too low; operator demonstrates capability above this level'
+            over: 'Claimed level is too high; operator demonstrates capability below this level'
           }
         };
         break;
