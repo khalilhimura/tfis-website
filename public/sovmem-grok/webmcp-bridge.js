@@ -19,38 +19,21 @@
     version: '1.0.0'
   });
 
-  // Helper: Get records from localStorage
   function getRecords() {
-    try {
-      const stored = localStorage.getItem('sovmem-grok-records');
-      if (!stored) return [];
-      const data = JSON.parse(stored);
-      return Array.isArray(data.records) ? data.records : [];
-    } catch (e) {
-      console.error('Failed to load records:', e);
-      return [];
-    }
+    window.sovmem.refresh();
+    return window.sovmem.records();
   }
 
-  // Helper: Save records to localStorage
-  function saveRecords(records) {
-    try {
-      const data = {
-        version: 1,
-        records: records,
-        savedAt: new Date().toISOString()
-      };
-      localStorage.setItem('sovmem-grok-records', JSON.stringify(data));
-      return true;
-    } catch (e) {
-      console.error('Failed to save records:', e);
-      return false;
-    }
+  function toolResult(text, isError = false) {
+    return { isError, content: [{ type: 'text', text }] };
   }
 
-  // Helper: Generate ID
-  function generateId() {
-    return `${Date.now()}-${Math.random().toString(36).substr(2, 9)}`;
+  // This vendored client takes positional registration arguments.
+  function registerTool({ name, description, inputSchema, handler }) {
+    webmcp.registerTool(name, description, inputSchema, handler);
+  }
+  function registerResource({ name, description, uri, mimeType, fetch }) {
+    webmcp.registerResource(name, description, { uri, mimeType }, fetch);
   }
 
   // Helper: Format record for display
@@ -72,7 +55,7 @@ ${record.revisions && record.revisions.length > 0 ? `Revisions: ${record.revisio
   }
 
   // Register Resource: Current records
-  webmcp.registerResource({
+  registerResource({
     uri: 'sovmem://records',
     name: 'SovMem Records',
     description: 'Current browser-local records (claims, decisions, corrections)',
@@ -90,7 +73,7 @@ ${record.revisions && record.revisions.length > 0 ? `Revisions: ${record.revisio
   });
 
   // Tool: List records
-  webmcp.registerTool({
+  registerTool({
     name: 'sovmem_list',
     description: 'List SovMem records with optional filters (type: claim|decision|correction, review: unreviewed|reviewed|needs-revision, search: text)',
     inputSchema: {
@@ -148,7 +131,7 @@ ${record.revisions && record.revisions.length > 0 ? `Revisions: ${record.revisio
   });
 
   // Tool: Get record by ID
-  webmcp.registerTool({
+  registerTool({
     name: 'sovmem_get',
     description: 'Get a specific SovMem record by ID',
     inputSchema: {
@@ -184,7 +167,7 @@ ${record.revisions && record.revisions.length > 0 ? `Revisions: ${record.revisio
   });
 
   // Tool: Capture new record
-  webmcp.registerTool({
+  registerTool({
     name: 'sovmem_capture',
     description: 'Capture a new SovMem record (claim, decision, or correction)',
     inputSchema: {
@@ -220,48 +203,15 @@ ${record.revisions && record.revisions.length > 0 ? `Revisions: ${record.revisio
       required: ['type', 'title', 'body', 'provenance', 'stop_rule']
     },
     handler: async (args) => {
-      const now = new Date().toISOString();
-      const record = {
-        id: generateId(),
-        type: args.type,
-        title: args.title,
-        body: args.body,
-        provenance: args.provenance,
-        stop_rule: args.stop_rule,
-        review_status: args.review_status || 'unreviewed',
-        created_at: now,
-        updated_at: now,
-        revisions: []
-      };
-
-      const records = getRecords();
-      records.unshift(record);
-      
-      if (saveRecords(records)) {
-        // Trigger UI refresh if available
-        if (window.sovmem && window.sovmem.refresh) {
-          window.sovmem.refresh();
-        }
-        
-        return {
-          content: [{
-            type: 'text',
-            text: `Successfully captured ${args.type}: "${args.title}" (ID: ${record.id})`
-          }]
-        };
-      } else {
-        return {
-          content: [{
-            type: 'text',
-            text: 'Failed to save record to storage'
-          }]
-        };
-      }
+      try {
+        const { record, concerns } = await window.sovmem.capture(args);
+        return toolResult(`Captured ${record.type}: "${record.title}" (ID: ${record.id})\nReview: ${record.review_status}${concerns.length ? '\n' + concerns.join('\n') : ''}`);
+      } catch (error) { return toolResult(error.message, true); }
     }
   });
 
   // Tool: Revise record
-  webmcp.registerTool({
+  registerTool({
     name: 'sovmem_revise',
     description: 'Revise an existing SovMem record',
     inputSchema: {
@@ -300,69 +250,15 @@ ${record.revisions && record.revisions.length > 0 ? `Revisions: ${record.revisio
       required: ['id']
     },
     handler: async (args) => {
-      const records = getRecords();
-      const record = records.find(r => r.id === args.id);
-      
-      if (!record) {
-        return {
-          content: [{
-            type: 'text',
-            text: `Record not found: ${args.id}`
-          }]
-        };
-      }
-
-      // Track changes
-      const changes = [];
-      const fields = ['title', 'body', 'provenance', 'stop_rule', 'review_status'];
-      fields.forEach(field => {
-        if (args[field] !== undefined && args[field] !== record[field]) {
-          record[field] = args[field];
-          changes.push(field);
-        }
-      });
-
-      if (changes.length > 0) {
-        record.updated_at = new Date().toISOString();
-        record.revisions.push({
-          timestamp: record.updated_at,
-          reason: args.revision_reason || 'Updated via MCP',
-          fields: changes
-        });
-
-        if (saveRecords(records)) {
-          // Trigger UI refresh if available
-          if (window.sovmem && window.sovmem.refresh) {
-            window.sovmem.refresh();
-          }
-          
-          return {
-            content: [{
-              type: 'text',
-              text: `Successfully revised "${record.title}" (ID: ${args.id})\nChanged fields: ${changes.join(', ')}`
-            }]
-          };
-        } else {
-          return {
-            content: [{
-              type: 'text',
-              text: 'Failed to save changes to storage'
-            }]
-          };
-        }
-      } else {
-        return {
-          content: [{
-            type: 'text',
-            text: 'No changes made (no fields were different)'
-          }]
-        };
-      }
+      try {
+        const { record, concerns } = await window.sovmem.revise(args);
+        return toolResult(`Revised "${record.title}" (ID: ${record.id})\nReview: ${record.review_status}${concerns.length ? '\n' + concerns.join('\n') : ''}`);
+      } catch (error) { return toolResult(error.message, true); }
     }
   });
 
   // Tool: Delete record
-  webmcp.registerTool({
+  registerTool({
     name: 'sovmem_delete',
     description: 'Delete a SovMem record (requires confirm: true)',
     inputSchema: {
@@ -380,55 +276,15 @@ ${record.revisions && record.revisions.length > 0 ? `Revisions: ${record.revisio
       required: ['id', 'confirm']
     },
     handler: async (args) => {
-      if (!args.confirm) {
-        return {
-          content: [{
-            type: 'text',
-            text: 'Deletion cancelled. Set confirm: true to proceed.'
-          }]
-        };
-      }
-
-      const records = getRecords();
-      const record = records.find(r => r.id === args.id);
-      
-      if (!record) {
-        return {
-          content: [{
-            type: 'text',
-            text: `Record not found: ${args.id}`
-          }]
-        };
-      }
-
-      const title = record.title;
-      const filtered = records.filter(r => r.id !== args.id);
-      
-      if (saveRecords(filtered)) {
-        // Trigger UI refresh if available
-        if (window.sovmem && window.sovmem.refresh) {
-          window.sovmem.refresh();
-        }
-        
-        return {
-          content: [{
-            type: 'text',
-            text: `Successfully deleted "${title}" (ID: ${args.id})`
-          }]
-        };
-      } else {
-        return {
-          content: [{
-            type: 'text',
-            text: 'Failed to delete record from storage'
-          }]
-        };
-      }
+      try {
+        const record = window.sovmem.remove(args);
+        return toolResult(`Deleted "${record.title}" (ID: ${record.id})`);
+      } catch (error) { return toolResult(error.message, true); }
     }
   });
 
   // Tool: Export OKF summary
-  webmcp.registerTool({
+  registerTool({
     name: 'sovmem_export_okf_summary',
     description: 'Get a text summary of the OKF bundle that would be exported (counts and index)',
     inputSchema: {
@@ -479,6 +335,5 @@ ${corrections.map(r => `* ${r.title} - ${r.review_status}`).join('\n') || '(none
     }
   });
 
-  console.log('WebMCP bridge initialized with 7 tools');
-  console.log('Tools:', webmcp.listTools().map(t => t.name).join(', '));
+
 })();

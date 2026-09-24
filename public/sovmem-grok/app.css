@@ -1020,3 +1020,28 @@
     width: 100%;
   }
 }
+/* Expandable API evidence follows the existing monochrome interface. */
+.jev-metadata {
+  margin: 1.5rem 0;
+  padding: 1rem;
+  border: 1px solid var(--g500);
+  border-radius: 4px;
+  font-size: .85rem;
+  overflow-wrap: anywhere;
+}
+.jev-metadata summary { cursor: pointer; font-weight: 600; }
+.jev-metadata summary:focus-visible { outline: 2px solid currentColor; outline-offset: 4px; }
+.jev-metadata h4 { margin: 1rem 0 .5rem; }
+.jev-metadata dl { display: grid; grid-template-columns: auto 1fr; gap: .4rem 1rem; }
+.jev-metadata dd { margin: 0; min-width: 0; }
+.jev-metadata pre {
+  font-family: var(--mono);
+  font-size: .75rem;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  max-height: 24rem;
+  overflow: auto;
+  padding: .75rem;
+  background: var(--g100);
+}
+button:disabled { cursor: wait; opacity: .6; }
