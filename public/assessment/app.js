@@ -173,24 +173,39 @@ function showScreen(screenId) {
 }
 
 function renderQuestion(item) {
-  const questionText = state.session.plainLanguage ? item.plain : item.technical;
+  const questionText = state.session.plainLanguage 
+    ? (item.layman || item.q) 
+    : item.q;
   
   document.getElementById('current-pillar').textContent = item.pillar;
   document.getElementById('question-text').textContent = questionText;
   document.getElementById('question-context').textContent = item.context || '';
   
-  // Render options (L0-L5)
+  // Render options from bank (opts array with t/s structure)
   const optionsContainer = document.getElementById('options-container');
   optionsContainer.innerHTML = '';
   
-  LEVELS.forEach(level => {
-    const button = document.createElement('button');
-    button.className = 'assessment-option';
-    button.textContent = `${level}: ${LEVEL_NAMES[level]}`;
-    button.dataset.level = level;
-    button.addEventListener('click', () => selectOption(level));
-    optionsContainer.appendChild(button);
-  });
+  if (item.opts && Array.isArray(item.opts)) {
+    // Real bank format: opts array with {t, s}
+    item.opts.forEach(opt => {
+      const button = document.createElement('button');
+      button.className = 'assessment-option';
+      button.textContent = opt.t;
+      button.dataset.score = opt.s;
+      button.addEventListener('click', () => selectOptionByScore(opt.s));
+      optionsContainer.appendChild(button);
+    });
+  } else {
+    // Fallback: L0-L5 options (stub bank format)
+    LEVELS.forEach(level => {
+      const button = document.createElement('button');
+      button.className = 'assessment-option';
+      button.textContent = `${level}: ${LEVEL_NAMES[level]}`;
+      button.dataset.level = level;
+      button.addEventListener('click', () => selectOption(level));
+      optionsContainer.appendChild(button);
+    });
+  }
   
   // Update progress
   const progress = ((state.session.itemIndex + 1) / TOTAL_ITEMS) * 100;
@@ -213,6 +228,21 @@ function selectOption(level) {
   if (selected) {
     selected.classList.add('selected');
     state.session.currentResponse = level;
+    document.getElementById('next-btn').disabled = false;
+  }
+}
+
+function selectOptionByScore(score) {
+  // Remove previous selection
+  document.querySelectorAll('.assessment-option').forEach(opt => {
+    opt.classList.remove('selected');
+  });
+  
+  // Mark selected
+  const selected = document.querySelector(`[data-score="${score}"]`);
+  if (selected) {
+    selected.classList.add('selected');
+    state.session.currentResponse = score;
     document.getElementById('next-btn').disabled = false;
   }
 }
@@ -648,21 +678,33 @@ function skipQuestion() {
 }
 
 function nextQuestion() {
-  const selectedLevel = state.session.currentResponse;
+  const selectedResponse = state.session.currentResponse;
   
-  if (!selectedLevel) {
+  if (selectedResponse === null || selectedResponse === undefined) {
     return;
   }
   
   const item = state.session.currentItem;
   const pillarIdx = state.session.currentPillar;
-  const score = scoreResponse(item, selectedLevel);
+  
+  // Determine score and level from response
+  let score, selectedLevel;
+  if (typeof selectedResponse === 'number') {
+    // Real bank: numeric score (0-5+)
+    score = selectedResponse;
+    // Map score to level (0→L0, 1→L1, 2-3→L2, 4→L3, 5→L4, 6+→L5)
+    selectedLevel = LEVELS[Math.min(5, Math.floor(score))];
+  } else {
+    // Stub bank: level string (L0-L5)
+    selectedLevel = selectedResponse;
+    score = scoreResponse(item, selectedLevel);
+  }
   
   // Record response
   state.session.responses.push({
     itemId: item.id,
     pillar: item.pillar,
-    level: item.level,
+    level: item.level || LEVELS[item.band],
     selectedLevel: selectedLevel,
     score: score,
     skipped: false,
@@ -715,8 +757,8 @@ function toggleLanguage() {
   // Re-render current question with new language mode
   if (state.session.currentItem) {
     const questionText = state.session.plainLanguage 
-      ? state.session.currentItem.plain 
-      : state.session.currentItem.technical;
+      ? (state.session.currentItem.layman || state.session.currentItem.q)
+      : state.session.currentItem.q;
     document.getElementById('question-text').textContent = questionText;
   }
 }

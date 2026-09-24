@@ -1,5 +1,11 @@
 # SSA-CMM Assessment Deployment
 
+## Documentation
+
+- **[ASSESSMENT-SPEC.md](ASSESSMENT-SPEC.md)** — v0.2 product spec (UX flow, data shapes, Jev battery, rubric)
+- **[BANK.md](BANK.md)** — Item bank requirements (500-item structure)
+- **[probe_rubric.json](probe_rubric.json)** — v0.2 higher-order thinking rubric for optional deep-confirm probes
+
 ## What Was Built
 
 The SSA-CMM Field Manual Nº 01 self-assessment is now available at `/assessment/`:
